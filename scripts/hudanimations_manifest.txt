@@ -1,0 +1,11 @@
+hudanimations_manifest
+{
+	"file"		"scripts/hudanimations_custom.txt"
+	"file"		"scripts/hudanimations_tf2c.txt"
+	
+	"file"		"resource/ui/server_browser/server_browser_animations.txt"
+	
+	"file"		"scripts/hudanimations_tf.txt"
+	"file"		"scripts/hudanimations.txt"
+	"file"		"scripts/hudanimations_mapbase_tf.txt"
+}
