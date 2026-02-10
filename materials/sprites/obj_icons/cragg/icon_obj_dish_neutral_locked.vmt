@@ -1,0 +1,9 @@
+"Patch"
+{
+	include "materials\darhud\obj_icons\icon_obj_base.vmt"
+	
+	insert
+	{
+		"$basetexture" "darhud/obj_icons/cragg/icon_obj_dish_neutral_locked"
+	}
+}

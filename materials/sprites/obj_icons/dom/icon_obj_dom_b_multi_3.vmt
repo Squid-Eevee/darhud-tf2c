@@ -1,0 +1,11 @@
+"UnlitGeneric"
+{
+	"$translucent" 1
+	"$baseTexture" "darhud\obj_icons/point_letters/icon_obj_dom_b_multi_3"
+	"$color"		"{170 170 170}"
+	"$vertexcolor" 1
+	"$no_fullbright" 1
+	"$ignorez" 1
+}
+
+

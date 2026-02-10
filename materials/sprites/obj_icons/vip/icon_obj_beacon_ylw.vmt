@@ -1,0 +1,9 @@
+"Patch"
+{
+	include "materials\darhud\obj_icons\icon_obj_base.vmt"
+	
+	insert
+	{
+		"$basetexture" "darhud/obj_icons/vip/icon_obj_beacon_ylw"
+	}
+}
