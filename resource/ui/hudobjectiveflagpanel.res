@@ -732,14 +732,10 @@
 		{
 			"visible"	"1"
 			
-			"if_c_grn"
-			{
-				"xpos"			"c-36"
-				"ypos"			"r57"
-				"wide"			"72"
-				"textAlignment"	"center"
-				"textinsetx"		"0"
-			}
+			"xpos"			"c-36"
+			"ypos"			"r57"
+			"textAlignment"	"center"
+			"textinsetx"		"0"
 		}
 		
 		"if_4team"
@@ -776,7 +772,7 @@
 		{
 			"visible"	"0"
 		}
-	}	
+	}
 		
 	"GreenScoreShadow"
 	{
