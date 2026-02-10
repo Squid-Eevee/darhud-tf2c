@@ -1,0 +1,13 @@
+"Patch"
+{
+	include "materials\darhud\base_green.vmt"
+
+	insert
+	{
+		"$baseTexture"		"darhud/obj_icons/icon_obj_cap_up"
+
+		"$detail"			"darhud\obj_icons/icon_obj_cap_mask"
+		"$detailblendmode"	"9"
+		"$separatedetailuvs"	"1"
+	}
+}

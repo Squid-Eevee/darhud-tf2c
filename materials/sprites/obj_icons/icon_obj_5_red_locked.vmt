@@ -1,0 +1,9 @@
+"Patch"
+{
+	include "materials\darhud\obj_icons\icon_obj_base.vmt"
+	
+	insert
+	{
+		"$baseTexture" "darhud\obj_icons\steel\icon_obj_5_red_locked"
+	}
+}
