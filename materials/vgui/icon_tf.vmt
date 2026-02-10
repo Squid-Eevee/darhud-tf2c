@@ -1,0 +1,7 @@
+"unlitGeneric"
+{
+	"$baseTexture"	"vgui/icon_tf"
+	"$translucent"	"1"
+	"$ignorez"		"1"
+	"$vertexalpha"	"1"
+}

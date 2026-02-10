@@ -1,0 +1,18 @@
+"UnlitGeneric"
+{
+	"$basetexture"	"vgui/capture_icon_white"
+	"$translucent" 1
+	"$vertexcolor" 1
+	"$distancealpha" 1
+	"$no_fullbright" 1
+	"$ignorez" 1
+	
+	// and a drop shadow
+	$glow 1
+	$glowcolor "{12 12 12}"
+	$glowalpha 0.75
+	$glowstart 0.03
+	$glowend 1
+	$glowx -.1
+	$glowy -.1
+}
