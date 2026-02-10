@@ -200,7 +200,7 @@
 				"xpos"		"0"
 				"ypos"		"46"
 				"wide"		"f8"
-				"tall"		"300"
+				"tall"		"100"
 				"proportionalToParent"	"1"
 				
 				"TitleLabel"
@@ -641,19 +641,6 @@
 					}
 				}
 			}
-			"Hype"
-			{
-				"ControlName"		"Label"
-				"fieldName"		"Hype"
-				"xpos"			"0"
-				"ypos"			"200"
-				"wide"			"f7"
-				"tall"			"14"
-				"proportionalToParent"	"1"
-				"labelText"	"we are SO back"
-				"font"			"DisguisWeaponFont"
-				"textAlignment"	"center"
-			}
 		}
 	}
 
@@ -677,3 +664,4 @@
 		}
 	}
 }
+
