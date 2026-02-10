@@ -1,4 +1,5 @@
 #base "SourceSchemeBase.res"
+#base "customfontfiles.res"
 #base "darhud_scheme.res"
 
 Scheme

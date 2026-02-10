@@ -1,5 +1,7 @@
 #base "chatscheme_tf2c.res"
 #base "scheme/teamcolors.res"
+#base "customfontfiles.res"
+
 ///////////////////////////////////////////////////////////
 // Tracker scheme resource file
 //
@@ -354,53 +356,61 @@ Scheme
 			"isproportional" "only"
 			"1"
 			{
-				"name"		"Verdana"
-				"tall"		"12"	[!$POSIX]
-				"tall"		"15"	[$POSIX]
-				"weight"	"700"
-				"yres"		"480 599"
+				"name"			"DejaVu Sans"
+				"tall"			"12"	[!$POSIX]
+				"tall"			"15"	[$POSIX]
+				"weight"		"700"
+				"yres"			"480 599"
 				"dropshadow"	"1"
 			}
 			"2"
 			{
-				"name"		"Verdana"
-				"tall"		"14"	[!$POSIX]
-				"tall"		"17"	[$POSIX]
-				"weight"	"700"
-				"yres"		"600 767"
+				"name"			"DejaVu Sans"
+				"tall"			"14"	[!$POSIX]
+				"tall"			"17"	[$POSIX]
+				"weight"		"700"
+				"yres"			"600 767"
 				"dropshadow"	"1"
 			}
 			"3"
 			{
-				"name"		"Verdana"
-				"tall"		"15"	[!$POSIX]
-				"tall"		"18"	[$POSIX]
-				"weight"	"700"
-				"yres"		"768 1023"
+				"name"			"DejaVu Sans"
+				"tall"			"15"	[!$POSIX]
+				"tall"			"18"	[$POSIX]
+				"weight"		"700"
+				"yres"			"768 1023"
 				"dropshadow"	"1"
 			}
 			"4"
 			{
-				"name"		"Verdana"
-				"tall"		"17"	[!$POSIX]
-				"tall"		"20"	[$POSIX]
-				"weight"	"700"
-				"yres"		"1024 1199"
+				"name"			"DejaVu Sans"
+				"tall"			"17"	[!$POSIX]
+				"tall"			"20"	[$POSIX]
+				"weight"		"700"
+				"yres"			"1024 1199"
 				"dropshadow"	"1"
 			}
-			"5" // Misyl: Proportional
+			"5"
 			{
-				"name"		"Verdana"
-				"tall"		"8"
+				"name"			"DejaVu Sans"
+				"tall"			"23"	[!$POSIX]
+				"tall"			"26"	[$POSIX]
+				"weight"		"100"
+				"yres"			"1200 1440"
+				"dropshadow"	"1"
+			}
+			"6" // Misyl: Proportional
+			{
+				"name"			"DejaVu Sans"
+				"tall"			"8"
 				// Misyl: Looks bad when proportional
 				// Removing the weight here.
-				"weight" "300"
-				//"weight"	"700"
+				"weight" 		"300"
+				//"weight"		"700"
 				"dropshadow"	"1"
-				"antialias" "0"
+				"antialias" 	"0"
 			}
 		}
-		
 	}
 
 	//
