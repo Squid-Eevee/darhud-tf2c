@@ -1,0 +1,9 @@
+"Patch"
+{
+	include "materials\darhud\base_yellow.vmt"
+	
+	insert
+	{
+		"$baseTexture"        "darhud/building/build_alt_mask"
+	}
+}

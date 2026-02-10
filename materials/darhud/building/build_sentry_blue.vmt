@@ -1,0 +1,9 @@
+"Patch"
+{
+	include "materials\darhud\base_blue.vmt"
+	
+	insert
+	{
+		"$baseTexture"        "darhud/building/build_sentry_mask"
+	}
+}

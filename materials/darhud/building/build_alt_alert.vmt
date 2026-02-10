@@ -1,0 +1,13 @@
+"UnlitGeneric"
+{
+	"$translucent" 1
+	"$baseTexture" "darhud/building/build_alt_alert"
+	"$vertexcolor" 1
+	"$no_fullbright" 1
+	"$ignorez" 1
+	"$detail"		"darhud/building/build_alt_alert_mask"
+	"$detailblendmode"	"9"
+	"$separatedetailuvs"	"1"
+
+	"%keywords" "tf"
+}

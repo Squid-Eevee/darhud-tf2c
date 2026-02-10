@@ -1,0 +1,9 @@
+"Patch"
+{
+	include "materials\darhud\base_spectator.vmt"
+	
+	insert
+	{
+		"$baseTexture"        "darhud\arena\arenaclass_mask"
+	}
+}

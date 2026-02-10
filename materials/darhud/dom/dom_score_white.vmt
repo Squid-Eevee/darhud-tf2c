@@ -1,0 +1,12 @@
+"UnlitGeneric"
+{
+    "$translucent"        "1"
+    "$baseTexture"        "darhud/dom/tdm_score_mask"
+    "$alpha"            "1"
+    "$vertexalpha"        "1"
+    "$vertexcolor"        "1"
+    "$no_fullbright"    "1"
+    "$ignorez"            "1"
+    "$color"            "{255 255 255}"
+    "%keywords"            "tf"
+}

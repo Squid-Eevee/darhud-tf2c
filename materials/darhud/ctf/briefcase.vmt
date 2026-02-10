@@ -1,0 +1,21 @@
+"UnlitGeneric"
+{
+	"$translucent" 1
+	"$baseTexture" "darhud/ctf/briefcase"
+	"$distancealpha" 1
+	"$vertexcolor" 1
+	"$vertexalpha" 1
+	"$no_fullbright" 1
+	"$ignorez" 1
+	"%keywords" "tf"
+	
+	// and a drop shadow
+	$glow 1
+	$glowcolor "{0 0 0}"
+	$glowalpha 0.95
+	$glowstart 0.03
+	$glowend 1
+	$glowx -.075
+	$glowy -.075
+}
+
