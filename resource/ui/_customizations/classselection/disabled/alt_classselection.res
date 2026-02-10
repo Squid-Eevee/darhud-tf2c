@@ -1394,6 +1394,10 @@
 			"visible"		"0"
 		}
 	}
+	"EditLoadoutButtonCopy"
+	{
+		"visible"		"0"
+	}
 	"EditLoadoutShadow"
 	{
 		"visible"		"0"
