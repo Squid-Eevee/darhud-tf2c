@@ -1,0 +1,4 @@
+"Patch"
+{
+	include "materials\darhud\square_green.vmt"
+}

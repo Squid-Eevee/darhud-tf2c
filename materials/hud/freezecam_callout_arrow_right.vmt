@@ -1,0 +1,12 @@
+"Patch"
+{
+	include "materials\darhud\base_blue.vmt"
+	
+	insert
+	{
+		"$basetexture"			"darhud/freezecam_arrow_mask"
+		"$basetexturetransform" "center .5 .5 scale 1 1 rotate 90 translate 0 0"
+		"$alpha"				"1"
+		"$color"				"{50 50 50}"
+	}
+}

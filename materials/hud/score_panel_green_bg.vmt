@@ -1,0 +1,9 @@
+"Patch"
+{
+	include "materials\darhud\base_green.vmt"
+	
+	insert
+	{
+		"$basetexture"			"hud\leaderboard_area_team"
+	}
+}

@@ -1,0 +1,4 @@
+"Patch"
+{
+	include "materials\hud\cart_point_red.vmt"
+}

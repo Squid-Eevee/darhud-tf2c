@@ -1,0 +1,10 @@
+"Patch"
+{
+	include "materials\darhud\base_yellow.vmt"
+	
+	insert
+	{
+		"$basetexture"			"darhud/square_mask"
+		"$alpha"	"0.631"
+	}
+}
