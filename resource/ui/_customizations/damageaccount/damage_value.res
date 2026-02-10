@@ -1,0 +1,38 @@
+"."
+{
+	"DamageAccountValue"
+	{
+		"ControlName"		"CExLabel"
+		"fieldName"		"DamageAccountValue"
+		"xpos"			"64"
+		"ypos" 			"r115"
+		"xpos_minmode"	"c-296"
+		"zpos"			"2"
+		"wide"			"90"
+		"tall"			"26"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"%metal%"
+		"textAlignment"	"center"
+		"font"			"DamageNumberFont"
+		"fgcolor"		"HealthLow"
+		"dropshadow"		"1"
+		"dropshadowoffset"	"3"
+	}
+	"DamageAccountBackground"
+	{
+		"ControlName"				"CTFImagePanel"
+		"fieldName"				"DamageAccountBackground"
+		"pin_to_sibling"			"DamageAccountValue"
+		"pin_corner_to_sibling"	"pin_center_top"
+		"pin_to_sibling_corner"	"pin_center_top"
+		"xpos"					"0"
+		"ypos"					"2"
+		"zpos"					"1"
+		"wide"					"32"
+		"tall"					"32"
+		"image"					"../darhud/damage_shadow"
+		"scaleImage"				"1"
+		"visible"				"1"
+	}
+}

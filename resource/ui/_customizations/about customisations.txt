@@ -1,0 +1,1 @@
+This is the new customisations folder, previously known as the addons folder. This is now where HUD customisations will be stored. To enable/disable a customisation, move in out of/into the category's "disabled" folder.
