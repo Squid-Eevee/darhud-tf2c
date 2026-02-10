@@ -6,7 +6,7 @@
 	{
 		"xpos"					"r180"
 		"xpos_minmode"			"c190"
-		"ypos"					"r98"
+		"ypos"					"r105"
 		"ypos_minmode"			"r100"
 	}
 
