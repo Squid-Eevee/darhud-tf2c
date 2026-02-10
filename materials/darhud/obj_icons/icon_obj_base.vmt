@@ -1,0 +1,16 @@
+"UnlitGeneric"
+{
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+	"$distancealpha"	"1"
+	"$no_fullbright"	"1"
+	"$ignorez"			"1"
+	
+	"$glow"			"1"
+	"$glowcolor"	"{12 12 12}"
+	"$glowalpha"	"0.75"
+	"$glowstart"	"0.03"
+	"$glowend"		"1"
+	"$glowx"		"-.075"
+	"$glowy"		"-.075"
+}
