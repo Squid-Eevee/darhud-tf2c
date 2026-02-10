@@ -1,0 +1,9 @@
+"Patch"
+{
+	include "materials\darhud\base_neutral.vmt"
+	
+	insert
+	{
+		"$basetexture"			"darhud/payload/cart_bottom_mask"
+	}
+}

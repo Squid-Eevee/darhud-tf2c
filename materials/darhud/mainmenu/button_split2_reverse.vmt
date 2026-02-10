@@ -1,0 +1,11 @@
+"UnlitGeneric"
+{
+	"$basetexture" "darhud/mainmenu/button_split2_reverse"
+    "$translucent"        "1"
+    "$alpha"            "1"
+    "$vertexalpha"        "1"
+    "$vertexcolor"        "1"
+    "$no_fullbright"    "1"
+    "$ignorez"            "1"
+    "%keywords"            "tf"
+}

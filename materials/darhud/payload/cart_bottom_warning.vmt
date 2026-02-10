@@ -1,0 +1,12 @@
+"UnlitGeneric"
+{
+    "$translucent"		"1"
+	"$basetexture"			"darhud/payload/cart_bottom_shadow_mask"
+    "$alpha"			"1"
+    "$vertexalpha"		"1"
+    "$vertexcolor"		"1"
+    "$no_fullbright"	"1"
+    "$ignorez"			"1"
+    "$color"			"{255 0 0}"
+    "%keywords"			"tf"
+}
