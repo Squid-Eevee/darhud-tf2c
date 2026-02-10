@@ -21,11 +21,13 @@
 		"ypos"			"r80"
 		"xpos_minmode"	"c-350"
 		"zpos"			"2"
-		"wide"			"80"
-		"tall"			"80"
+		"wide"			"83"
+		"tall"			"83"
 		"visible"		"1"
 		"enabled"		"1"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
+		"dropshadow"	"1"
+		"dropshadowoffset"	"3"
 	}
 	"PlayerStatusSpyImage"
 	{
