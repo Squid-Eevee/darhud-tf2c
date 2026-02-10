@@ -1,0 +1,16 @@
+"UnlitGeneric"
+{
+	"$basetexture"	"darhud/team_full"
+	"$model" 		"1"
+    "$translucent"	"1"
+	"$distancealpha"	"1"
+	"$no_fullbright"	"1"
+	
+	"$glow"			"1"
+	"$glowcolor"	"{0 0 0}"
+	"$glowalpha"	"0.75"
+	"$glowstart"	"0.03"
+	"$glowend"		"1"
+	"$glowx"		"-.03"
+	"$glowy"		"-.03"
+}
