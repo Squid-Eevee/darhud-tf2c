@@ -1,0 +1,9 @@
+"Patch"
+{
+	include "materials\darhud\base_spectator.vmt"
+	
+	insert
+	{
+		"$basetexture"			"darhud/scoreboard/score_middle_mask"
+	}
+}
