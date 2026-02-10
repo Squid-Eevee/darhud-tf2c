@@ -1,0 +1,1315 @@
+"Resource/UI/arenawinpanel.res"
+{
+	ArenaWinPanel
+	{
+		"fieldName"		"ArenaWinPanel"
+		"visible"		"1"
+		"enabled"		"1"
+		"xpos"			"c-210"
+		"ypos"			"0"
+		"wide"			"422"
+		"tall"			"480"
+	}
+	"ArenaWinPanelScores"
+	{
+		"ControlName"		"EditablePanel"
+		"fieldName"		"ArenaWinPanelScores"
+		"proportionaltoparent"	"1"
+		"xpos"			"0"
+		"ypos"			"78"
+		"wide"			"422"
+		"tall"			"80"
+		"visible"		"1"
+
+		"BlueScoreBG"
+		{
+			"ControlName"		"ImagePanel"
+			"fieldName"		"BlueScoreBG"
+			"proportionaltoparent"	"1"
+			"xpos"			"0"
+			"ypos"			"15"
+			"wide"			"210"
+			"tall"			"30"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"image"			"../darhud/square_blue"
+			"scaleImage"		"1"
+			
+			if_3team
+			{
+				"wide"			"140"
+			}
+			
+			if_4team
+			{
+				"wide"			"105"
+			}
+		}
+		"RedScoreBG"
+		{
+			"ControlName"		"ImagePanel"
+			"fieldName"		"RedScoreBG"
+			"proportionaltoparent"	"1"
+			"xpos"			"210"
+			"ypos"			"15"
+			"wide"			"210"
+			"tall"			"30"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"image"			"../darhud/square_red"
+			"scaleImage"		"1"
+			
+			if_3team
+			{
+				"xpos"			"140"
+				"wide"			"140"
+			}
+			
+			if_4team
+			{
+				"xpos"			"105"
+				"wide"			"105"
+			}
+		}
+		"GreenScoreBG"
+		{
+			"ControlName"		"ImagePanel"
+			"fieldName"		"GreenScoreBG"
+			"proportionaltoparent"	"1"
+			"xpos"			"0"
+			"ypos"			"15"
+			"wide"			"210"
+			"tall"			"30"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"image"			"../darhud/square_green"
+			"scaleImage"		"1"
+			
+			if_3team
+			{
+				"xpos"			"280"
+				"wide"			"140"
+			}
+			
+			if_4team
+			{
+				"xpos"			"210"
+				"wide"			"105"
+			}
+		}
+		"YellowScoreBG"
+		{
+			"ControlName"		"ImagePanel"
+			"fieldName"		"YellowScoreBG"
+			"proportionaltoparent"	"1"
+			"xpos"			"210"
+			"ypos"			"15"
+			"wide"			"210"
+			"tall"			"30"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"image"			"../darhud/square_yellow"
+			"scaleImage"		"1"
+			
+			if_3team
+			{
+				"xpos"			"140"
+				"wide"			"140"
+			}
+			
+			if_4team
+			{
+				"xpos"			"315"
+				"wide"			"105"
+			}
+		}
+		"ScoreBGShadow"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"	"ScoreBGShadow"
+			"proportionaltoparent"	"1"
+			"xpos"		"2"
+			"ypos"		"17"
+			"zpos"		"-1"
+			"wide"		"420"
+			"tall"		"30"
+			"scaleimage"	"1"
+			"image"		"../darhud/square_shadow"
+		}
+		"BlueTeamLabel"
+		{
+			"ControlName"		"CExLabel"
+			"fieldName"		"BlueTeamLabel"
+			"font"			"ScoreboardTeamName"
+			"labelText"		"%blueteamname%"
+			"textAlignment"		"west"
+			"xpos"			"5"
+			"ypos"			"26"
+			"wide"			"100"
+			"tall"			"20"
+			"visible"		"1"
+			"enabled"		"1"
+			"dropshadow_override"	"1"
+			"dropshadowoffset"	"2"
+		}							
+		"BlueTeamScore"
+		{
+			"ControlName"		"CExLabel"
+			"fieldName"		"BlueTeamScore"
+			"font"			"HudFontGiantBold"
+			"labelText"		"%blueteamscore%"
+			"textAlignment"		"east"
+			"xpos"			"125"
+			"ypos"			"0"
+			"zpos"			"3"
+			"wide"			"80"
+			"tall"			"50"
+			"visible"		"1"
+			"enabled"		"1"
+			"dropshadow_override"	"1"
+			"dropshadowoffset"	"3"
+			
+			if_3team
+			{
+				"xpos"			"55"
+			}
+			if_4team
+			{
+				"xpos"			"20"
+			}
+		}
+		"BlueTeamScoreDropshadow"
+		{
+			"visible"		"0"
+		}							
+		"RedTeamLabel"
+		{
+			"ControlName"		"CExLabel"
+			"fieldName"		"RedTeamLabel"
+			"font"			"ScoreboardTeamName"
+			"labelText"		"%redteamname%"
+			"textAlignment"		"east"
+			"xpos"			"315"
+			"ypos"			"26"
+			"wide"			"100"
+			"tall"			"20"
+			"visible"		"1"
+			"enabled"		"1"
+			"dropshadow_override"	"1"
+			"dropshadowoffset"	"2"
+			
+			if_3team
+			{
+				"xpos"			"145"
+				"textAlignment"		"west"
+			}
+			
+			if_4team
+			{
+				"xpos"			"110"
+				"textAlignment"		"west"
+			}
+		}							
+		"RedTeamScore"
+		{
+			"ControlName"		"CExLabel"
+			"fieldName"		"RedTeamScore"
+			"font"			"HudFontGiantBold"
+			"labelText"		"%redteamscore%"
+			"textAlignment"		"west"
+			"xpos"			"215"
+			"ypos"			"0"
+			"zpos"			"3"
+			"wide"			"80"
+			"tall"			"50"
+			"visible"		"1"
+			"enabled"		"1"
+			"dropshadow_override"	"1"
+			"dropshadowoffset"	"3"
+			
+			if_3team
+			{
+				"textAlignment"		"east"
+			}
+			
+			if_4team
+			{
+				"xpos"				"125"
+				"textAlignment"		"east"
+			}
+		}
+		"RedTeamScoreDropshadow"
+		{
+			"visible"		"0"
+		}		
+		"GreenTeamLabel"
+		{
+			"ControlName"		"CExLabel"
+			"fieldName"		"GreenTeamLabel"
+			"font"			"ScoreboardTeamName"
+			"labelText"		"%greenteamname%"
+			"textAlignment"		"west"
+			"xpos"			"5"
+			"ypos"			"26"
+			"wide"			"100"
+			"tall"			"20"
+			"visible"		"1"
+			"enabled"		"1"
+			"dropshadow_override"	"1"
+			"dropshadowoffset"	"2"
+			
+			if_3team
+			{
+				"xpos"			"285"
+				"textAlignment"		"west"
+			}
+			
+			if_4team
+			{
+				"xpos"			"215"
+				"textAlignment"		"west"
+			}
+		}							
+		"GreenTeamScore"
+		{
+			"ControlName"		"CExLabel"
+			"fieldName"		"GreenTeamScore"
+			"font"			"HudFontGiantBold"
+			"labelText"		"%greenteamscore%"
+			"textAlignment"		"east"
+			"xpos"			"125"
+			"ypos"			"0"
+			"zpos"			"3"
+			"wide"			"80"
+			"tall"			"50"
+			"visible"		"1"
+			"enabled"		"1"
+			"dropshadow_override"	"1"
+			"dropshadowoffset"	"3"
+			
+			if_3team
+			{
+				"xpos"			"335"
+				"textAlignment"	"east"
+			}
+			
+			if_4team
+			{
+				"xpos"			"230"
+				"textAlignment"	"east"
+			}
+		}
+		"GreenTeamScoreDropshadow"
+		{
+			"visible"		"0"
+		}							
+		"YellowTeamLabel"
+		{
+			"ControlName"		"CExLabel"
+			"fieldName"		"YellowTeamLabel"
+			"font"			"ScoreboardTeamName"
+			"labelText"		"%yellowteamname%"
+			"textAlignment"		"east"
+			"xpos"			"315"
+			"ypos"			"26"
+			"wide"			"100"
+			"tall"			"20"
+			"visible"		"1"
+			"enabled"		"1"
+			"dropshadow_override"	"1"
+			"dropshadowoffset"	"2"
+			
+			if_3team
+			{
+				"xpos"			"-5"
+				"textAlignment"		"west"
+			}
+			
+			if_4team
+			{
+				"xpos"			"320"
+				"textAlignment"		"west"
+			}
+		}							
+		"YellowTeamScore"
+		{
+			"ControlName"		"CExLabel"
+			"fieldName"		"YellowTeamScore"
+			"font"			"HudFontGiantBold"
+			"labelText"		"%yellowteamscore%"
+			"textAlignment"		"west"
+			"xpos"			"215"
+			"ypos"			"0"
+			"zpos"			"3"
+			"wide"			"80"
+			"tall"			"50"
+			"visible"		"1"
+			"enabled"		"1"
+			"dropshadow_override"	"1"
+			"dropshadowoffset"	"3"
+			
+			if_3team
+			{
+				"textAlignment"		"east"
+			}
+			
+			if_4team
+			{
+				"xpos"			"335"
+				"textAlignment"		"east"
+			}
+		}
+		"YellowTeamScoreDropshadow"
+		{
+			"visible"		"0"
+		}		
+
+	
+		"ArenaStreaksBG"
+		{
+			"ControlName"		"ScalableImagePanel"
+			"fieldName"		"ArenaStreaksBG"
+			"xpos"			"102"
+			"ypos"			"38"
+			"zpos"			"2"
+			"wide"			"0"
+			"tall"			"20"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"0"
+			"enabled"		"1"
+			
+			if_3team
+			{
+				"xpos"			"135"
+				"ypos"			"55"
+			}
+			
+			if_4team
+			{
+				"xpos"			"135"
+				"ypos"			"55"
+			}
+		}	
+
+		"ArenaStreakLabel"
+		{	
+			"ControlName"		"CExLabel"
+			"fieldName"		"ArenaStreakLabel"
+			"font"			"HudFontSmallest"
+			"fgcolor"		"GeneralLabel"
+			"proportionaltoparent"	"1"
+			"xpos"			"c-88"
+			"ypos"			"42"
+			"zpos"			"3"
+			"wide"			"176"
+			"tall"			"20"
+			"visible"		"1"
+			"enabled"		"1"
+			"labelText"		"%arenastreaktext%"
+			"textAlignment"	"center"
+			"dropshadow"		"1"
+			"dropshadowoffset"	"2"
+		}
+	}
+
+	"WinPanelBG"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"		"WinPanelBG"
+		"xpos"			"25"
+		"ypos"			"r125"
+		"zpos"			"0"
+		"wide"			"370"
+		"tall"			"120"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"		"1"
+	}
+	"WinPanelBGShadow"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"		"WinPanelBGShadow"
+		"xpos"			"27"
+		"ypos"			"r123"
+		"zpos"			"-1"
+		"wide"			"370"
+		"tall"			"120"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"		"1"
+		"image"			../darhud/square_shadow
+	}
+	"WinningTeamLabel"
+	{	
+		"ControlName"			"CExLabel"
+		"fieldName"			"WinningTeamLabel"
+		"font"				"ScoreboardTeamName"
+		"xpos"				"25"
+		"ypos"				"r123"
+		"zpos"				"1"
+		"wide"				"370"
+		"tall"				"24"
+		"visible"			"1"
+		"enabled"			"1"
+		"labelText"			"%WinningTeamLabel%"
+		"textAlignment"		"center"
+		"dropshadow"			"1"
+		"dropshadowoffset"	"2"
+	}
+	"WinningTeamLabelDropshadow"
+	{	
+		"visible"		"0"
+	}
+
+	"LosingTeamLabel"
+	{	
+		"ControlName"			"CExLabel"
+		"fieldName"			"WinningTeamLabel"
+		"font"				"ScoreboardTeamName"
+		"xpos"				"25"
+		"ypos"				"r123"
+		"zpos"				"1"
+		"wide"				"370"
+		"tall"				"24"
+		"visible"			"1"
+		"enabled"			"1"
+		"labelText"			"%LosingTeamLabel%"
+		"textAlignment"		"center"
+		"dropshadow"			"1"
+		"dropshadowoffset"	"2"
+	}
+	"LosingTeamLabelDropshadow"
+	{	
+		"visible"		"0"
+	}
+	"WinReasonLabel"
+	{	
+		"ControlName"			"CExLabel"
+		"fieldName"			"WinReasonLabel"
+		"font"				"ScoreboardVerySmall"
+		"xpos"				"28"
+		"ypos"				"r108"
+		"zpos"				"1"
+		"wide"				"364"
+		"tall"				"20"
+		"visible"			"1"
+		"enabled"			"1"
+		"labelText"			"%WinReasonLabel%"
+		"textAlignment"		"center"
+		"dropshadow"			"1"
+		"dropshadowoffset"	"2"
+	}
+	"DetailsLabel"
+	{	
+		"ControlName"			"CExLabel"
+		"fieldName"			"DetailsLabel"
+		"font"				"ScoreboardVerySmall"
+		"xpos"				"28"
+		"ypos"				"r94"
+		"zpos"				"1"
+		"wide"				"364"
+		"tall"				"10"
+		"visible"			"1"
+		"enabled"			"1"
+		"labelText"			"%DetailsLabel%"
+		"textAlignment"		"center"
+		"dropshadow"			"1"
+		"dropshadowoffset"	"2"
+	}
+	"ShadedBar"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"		"ShadedBar"
+		"xpos"			"25"
+		"ypos"			"r83"
+		"zpos"			"2"
+		"wide"			"370"
+		"tall"			"78"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"	
+		"fillcolor"		"0 0 0 150"
+		"fillcolor_lodef"		"0 0 0 200"
+		"PaintBackgroundType"	"0"
+	}
+	"TopPlayersLabel"
+	{	
+		"ControlName"		"CExLabel"
+		"fieldName"		"TopPlayerLabel"
+		"font"			"HudFontSmallest"
+		"xpos"			"38"
+		"ypos"			"r83"
+		"zpos"			"3"
+		"wide"			"300"
+		"tall"			"20"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"%TopPlayersLabel%"
+		"textAlignment"		"west"
+		"dropshadow"			"1"
+		"dropshadowoffset"	"2"
+	}
+	"DamageThisRoundLabel"
+	{	
+		"ControlName"		"CExLabel"
+		"fieldName"		"DamageThisRoundLabel"
+		"font"			"HudFontSmallest"
+		"xpos"			"218"
+		"ypos"			"r83"
+		"zpos"			"3"
+		"wide"			"50"
+		"tall"			"20"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"#TF_Arena_Winpanel_DamageThisRound"
+		"textAlignment"		"west"
+		"dropshadow"			"1"
+		"dropshadowoffset"	"2"
+	}
+	"HealingThisRoundLabel"
+	{	
+		"ControlName"		"CExLabel"
+		"fieldName"		"PointsThisRoundLabel"
+		"font"			"HudFontSmallest"
+		"xpos"			"268"
+		"ypos"			"r83"
+		"zpos"			"3"
+		"wide"			"50"
+		"tall"			"20"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"#TF_Arena_Winpanel_HealingThisRound"
+		"textAlignment"		"west"
+		"dropshadow"			"1"
+		"dropshadowoffset"	"2"
+	}
+	"LifetimeThisRoundLabel"
+	{	
+		"ControlName"		"CExLabel"
+		"fieldName"		"PointsThisRoundLabel"
+		"font"			"HudFontSmallest"
+		"xpos"			"313"
+		"ypos"			"r83"
+		"zpos"			"3"
+		"wide"			"50"
+		"tall"			"20"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"#TF_Arena_Winpanel_TimeAliveThisRound"
+		"textAlignment"		"west"
+		"dropshadow"			"1"
+		"dropshadowoffset"	"2"
+	}
+	"KillingBlowsThisRoundLabel"
+	{	
+		"ControlName"		"CExLabel"
+		"fieldName"		"PointsThisRoundLabel"
+		"font"			"HudFontSmallest"
+		"xpos"			"360"
+		"ypos"			"r83"
+		"zpos"			"3"
+		"wide"			"50"
+		"tall"			"20"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"#TF_Arena_Winpanel_KillingBlows"
+		"textAlignment"		"west"
+		"dropshadow"			"1"
+		"dropshadowoffset"	"2"
+	}
+	"HorizontalLine"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"		"HorizontalLine"
+		"xpos"			"43"
+		"ypos"			"r63"
+		"zpos"			"3"
+		"wide"			"334"
+		"tall"			"1"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"	
+		"fillcolor"		"250 234 201 255"
+		"PaintBackgroundType"	"0"
+		"dropshadow"			"1"
+		"dropshadowoffset"	"2"
+	}
+
+	"ArenaWinPanelWinnersPanel"
+	{
+		"ControlName"		"EditablePanel"
+		"fieldName"		"ArenaWinPanelWinnersPanel"
+		"xpos"			"47"
+		"ypos"			"r58"
+		"wide"			"370"
+		"tall"			"218"
+		"visible"		"1"
+		"zpos"			"3"
+
+		"Player1Avatar"
+		{
+			"ControlName"		"CAvatarImagePanel"
+			"fieldName"		"Player1Avatar"
+			"xpos"			"0"
+			"ypos"			"0"
+			"wide"			"14"
+			"tall"			"14"
+			"visible"		"1"
+			"enabled"		"1"
+			"image"			""
+			"scaleImage"		"1"	
+			"color_outline"		"52 48 45 255"
+		}
+		"Player1Name"
+		{	
+			"ControlName"		"CExLabel"
+			"fieldName"		"Player1Name"
+			"xpos"			"16"
+			"ypos"			"-2"
+			"wide"			"105"
+			"tall"			"18"
+			"visible"		"1"
+			"enabled"		"1"
+			"labelText"		""
+			"textAlignment"		"west"
+			"dropshadow"		"1"
+			"dropshadowoffset"	"2"
+		}
+		"Player1Class"
+		{	
+			"ControlName"		"CExLabel"
+			"fieldName"		"Player1Class"
+			"xpos"			"125"
+			"ypos"			"-2"
+			"wide"			"200"
+			"tall"			"18"
+			"visible"		"1"
+			"enabled"		"1"
+			"labelText"		""
+			"textAlignment"		"west"
+			"dropshadow"		"1"
+			"dropshadowoffset"	"2"
+		}
+		"Player1Damage"
+		{	
+			"ControlName"		"CExLabel"
+			"fieldName"		"Player1Damage"
+			"xpos"			"181"
+			"ypos"			"-2"
+			"wide"			"30"
+			"tall"			"18"
+			"visible"		"1"
+			"enabled"		"1"
+			"labelText"		""
+			"textAlignment"		"east"
+			"dropshadow"		"1"
+			"dropshadowoffset"	"2"
+		}
+		"Player1Healing"
+		{	
+			"ControlName"		"CExLabel"
+			"fieldName"		"Player1Healing"
+			"xpos"			"229"
+			"ypos"			"-2"
+			"wide"			"30"
+			"tall"			"18"
+			"visible"		"1"
+			"enabled"		"1"
+			"labelText"		""
+			"textAlignment"		"east"
+			"dropshadow"		"1"
+			"dropshadowoffset"	"2"
+		}
+		"Player1Lifetime"
+		{	
+			"ControlName"		"CExLabel"
+			"fieldName"		"Player1Lifetime"
+			"xpos"			"275"
+			"ypos"			"-2"
+			"wide"			"30"
+			"tall"			"18"
+			"visible"		"1"
+			"enabled"		"1"
+			"labelText"		""
+			"textAlignment"		"east"
+			"dropshadow"		"1"
+			"dropshadowoffset"	"2"
+		}
+		"Player1Kills"
+		{	
+			"ControlName"		"CExLabel"
+			"fieldName"		"Player1Kills"
+			"xpos"			"300"
+			"ypos"			"-2"
+			"wide"			"30"
+			"tall"			"18"
+			"visible"		"1"
+			"enabled"		"1"
+			"labelText"		""
+			"textAlignment"		"east"
+			"dropshadow"		"1"
+			"dropshadowoffset"	"2"
+		}
+		"Player2Avatar"	
+		{
+			"ControlName"		"CAvatarImagePanel"
+			"fieldName"		"Player2Avatar"
+			"xpos"			"0"
+			"ypos"			"17"
+			"wide"			"14"
+			"tall"			"14"
+			"visible"		"1"
+			"enabled"		"1"
+			"image"			""
+			"scaleImage"		"1"	
+			"color_outline"		"52 48 45 255"
+		}
+		"Player2Name"
+		{	
+			"ControlName"		"CExLabel"
+			"fieldName"		"Player2Name"
+			"xpos"			"16"
+			"ypos"			"15"
+			"wide"			"105"
+			"tall"			"18"
+			"visible"		"1"
+			"enabled"		"1"
+			"labelText"		""
+			"textAlignment"		"west"
+			"dropshadow"		"1"
+			"dropshadowoffset"	"2"
+		}
+		"Player2Class"
+		{	
+			"ControlName"		"CExLabel"
+			"fieldName"		"Player2Class"
+			"xpos"			"125"
+			"ypos"			"15"
+			"wide"			"200"
+			"tall"			"18"
+			"visible"		"1"
+			"enabled"		"1"
+			"labelText"		""
+			"textAlignment"		"west"
+			"dropshadow"		"1"
+			"dropshadowoffset"	"2"
+		}
+		"Player2Damage"
+		{	
+			"ControlName"		"CExLabel"
+			"fieldName"		"Player2Damage"
+			"xpos"			"181"
+			"ypos"			"15"
+			"wide"			"30"
+			"tall"			"18"
+			"visible"		"1"
+			"enabled"		"1"
+			"labelText"		""
+			"textAlignment"		"east"
+			"dropshadow"		"1"
+			"dropshadowoffset"	"2"
+		}
+		"Player2Healing"
+		{	
+			"ControlName"		"CExLabel"
+			"fieldName"		"Player2Healing"
+			"xpos"			"229"
+			"ypos"			"15"
+			"wide"			"30"
+			"tall"			"18"
+			"visible"		"1"
+			"enabled"		"1"
+			"labelText"		""
+			"textAlignment"		"east"
+			"dropshadow"		"1"
+			"dropshadowoffset"	"2"
+		}
+		"Player2Lifetime"
+		{	
+			"ControlName"		"CExLabel"
+			"fieldName"		"Player2Lifetime"
+			"xpos"			"275"
+			"ypos"			"15"
+			"wide"			"30"
+			"tall"			"18"
+			"visible"		"1"
+			"enabled"		"1"
+			"labelText"		""
+			"textAlignment"		"east"
+			"dropshadow"		"1"
+			"dropshadowoffset"	"2"
+		}
+		"Player2Kills"
+		{	
+			"ControlName"		"CExLabel"
+			"fieldName"		"Player2Kills"
+			"xpos"			"300"
+			"ypos"			"15"
+			"wide"			"30"
+			"tall"			"18"
+			"visible"		"1"
+			"enabled"		"1"
+			"labelText"		""
+			"textAlignment"		"east"
+			"dropshadow"		"1"
+			"dropshadowoffset"	"2"
+		}
+		"Player3Avatar"
+		{
+			"ControlName"		"CAvatarImagePanel"
+			"fieldName"		"Player3Avatar"
+			"xpos"			"0"
+			"ypos"			"34"
+			"wide"			"14"
+			"tall"			"14"
+			"visible"		"1"
+			"enabled"		"1"
+			"image"			""
+			"scaleImage"		"1"	
+			"color_outline"		"52 48 45 255"
+		}
+		"Player3Name"
+		{	
+			"ControlName"		"CExLabel"
+			"fieldName"		"Player3Name"
+			"xpos"			"16"
+			"ypos"			"32"
+			"wide"			"105"
+			"tall"			"18"
+			"visible"		"1"
+			"enabled"		"1"
+			"labelText"		""
+			"textAlignment"		"west"
+			"dropshadow"		"1"
+			"dropshadowoffset"	"2"
+		}
+		"Player3Class"
+		{	
+			"ControlName"		"CExLabel"
+			"fieldName"		"Player3Class"
+			"xpos"			"125"
+			"ypos"			"32"
+			"wide"			"200"
+			"tall"			"18"
+			"visible"		"1"
+			"enabled"		"1"
+			"labelText"		""
+			"textAlignment"		"west"
+			"dropshadow"		"1"
+			"dropshadowoffset"	"2"
+		}
+		"Player3Damage"
+		{	
+			"ControlName"		"CExLabel"
+			"fieldName"		"Player3Damage"
+			"xpos"			"181"
+			"ypos"			"32"
+			"wide"			"30"
+			"tall"			"18"
+			"visible"		"1"
+			"enabled"		"1"
+			"labelText"		""
+			"textAlignment"		"east"
+			"dropshadow"		"1"
+			"dropshadowoffset"	"2"
+		}
+		"Player3Healing"
+		{	
+			"ControlName"		"CExLabel"
+			"fieldName"		"Player3Healing"
+			"xpos"			"229"
+			"ypos"			"32"
+			"wide"			"30"
+			"tall"			"18"
+			"visible"		"1"
+			"enabled"		"1"
+			"labelText"		""
+			"textAlignment"		"east"
+			"dropshadow"		"1"
+			"dropshadowoffset"	"2"
+		}
+		"Player3Lifetime"
+		{	
+			"ControlName"		"CExLabel"
+			"fieldName"		"Player3Lifetime"
+			"xpos"			"275"
+			"ypos"			"32"
+			"wide"			"30"
+			"tall"			"18"
+			"visible"		"1"
+			"enabled"		"1"
+			"labelText"		""
+			"textAlignment"		"east"
+			"dropshadow"		"1"
+			"dropshadowoffset"	"2"
+		}
+		"Player3Kills"
+		{	
+			"ControlName"		"CExLabel"
+			"fieldName"		"Player3Kills"
+			"xpos"			"300"
+			"ypos"			"32"
+			"wide"			"30"
+			"tall"			"18"
+			"visible"		"1"
+			"enabled"		"1"
+			"labelText"		""
+			"textAlignment"		"east"
+			"dropshadow"		"1"
+			"dropshadowoffset"	"2"
+		}
+	}
+	"ArenaWinPanelLosersPanel"
+	{
+		"ControlName"		"EditablePanel"
+		"fieldName"		"ArenaWinPanelLosersPanel"
+		"xpos"			"47"
+		"ypos"			"r58"
+		"wide"			"348"
+		"tall"			"218"
+		"visible"		"1"
+		"zpos"			"3"
+
+		"Player1Avatar"
+		{
+			"ControlName"		"CAvatarImagePanel"
+			"fieldName"		"Player1Avatar"
+			"xpos"			"0"
+			"ypos"			"0"
+			"wide"			"14"
+			"tall"			"14"
+			"visible"		"1"
+			"enabled"		"1"
+			"image"			""
+			"scaleImage"		"1"	
+			"color_outline"		"52 48 45 255"
+		}
+		"Player1Name"
+		{	
+			"ControlName"		"CExLabel"
+			"fieldName"		"Player1Name"
+			"xpos"			"16"
+			"ypos"			"-2"
+			"wide"			"105"
+			"tall"			"18"
+			"visible"		"1"
+			"enabled"		"1"
+			"labelText"		""
+			"textAlignment"		"west"
+			"font"			"WinpanelFont"
+			"dropshadow"		"1"
+			"dropshadowoffset"	"2"
+		}
+		"Player1Class"
+		{	
+			"ControlName"		"CExLabel"
+			"fieldName"		"Player1Class"
+			"xpos"			"125"
+			"ypos"			"-2"
+			"wide"			"200"
+			"tall"			"18"
+			"visible"		"1"
+			"enabled"		"1"
+			"labelText"		""
+			"textAlignment"		"west"
+			"font"			"WinpanelFont"
+			"dropshadow"		"1"
+			"dropshadowoffset"	"2"
+		}
+		"Player1Damage"
+		{	
+			"ControlName"		"CExLabel"
+			"fieldName"		"Player1Damage"
+			"xpos"			"181"
+			"ypos"			"-2"
+			"wide"			"30"
+			"tall"			"18"
+			"visible"		"1"
+			"enabled"		"1"
+			"labelText"		""
+			"textAlignment"		"east"
+			"font"			"WinpanelFont"
+			"dropshadow"		"1"
+			"dropshadowoffset"	"2"
+		}
+		"Player1Healing"
+		{	
+			"ControlName"		"CExLabel"
+			"fieldName"		"Player1Healing"
+			"xpos"			"229"
+			"ypos"			"-2"
+			"wide"			"30"
+			"tall"			"18"
+			"visible"		"1"
+			"enabled"		"1"
+			"labelText"		""
+			"textAlignment"		"east"
+			"font"			"WinpanelFont"
+			"dropshadow"		"1"
+			"dropshadowoffset"	"2"
+		}
+		"Player1Lifetime"
+		{	
+			"ControlName"		"CExLabel"
+			"fieldName"		"Player1Lifetime"
+			"xpos"			"275"
+			"ypos"			"-2"
+			"wide"			"30"
+			"tall"			"18"
+			"visible"		"1"
+			"enabled"		"1"
+			"labelText"		""
+			"textAlignment"		"east"
+			"font"			"WinpanelFont"
+			"dropshadow"		"1"
+			"dropshadowoffset"	"2"
+		}
+		"Player1Kills"
+		{	
+			"ControlName"		"CExLabel"
+			"fieldName"		"Player1Kills"
+			"xpos"			"300"
+			"ypos"			"-2"
+			"wide"			"30"
+			"tall"			"18"
+			"visible"		"1"
+			"enabled"		"1"
+			"labelText"		""
+			"textAlignment"		"east"
+			"font"			"WinpanelFont"
+			"dropshadow"		"1"
+			"dropshadowoffset"	"2"
+		}
+		"Player2Avatar"	
+		{
+			"ControlName"		"CAvatarImagePanel"
+			"fieldName"		"Player2Avatar"
+			"xpos"			"0"
+			"ypos"			"17"
+			"wide"			"14"
+			"tall"			"14"
+			"visible"		"1"
+			"enabled"		"1"
+			"image"			""
+			"scaleImage"		"1"	
+			"color_outline"		"52 48 45 255"
+		}
+		"Player2Name"
+		{	
+			"ControlName"		"CExLabel"
+			"fieldName"		"Player2Name"
+			"xpos"			"16"
+			"ypos"			"15"
+			"wide"			"105"
+			"tall"			"20"
+			"visible"		"1"
+			"enabled"		"1"
+			"labelText"		""
+			"textAlignment"		"west"
+			"font"			"WinpanelFont"
+			"dropshadow"		"1"
+			"dropshadowoffset"	"2"
+		}
+		"Player2Class"
+		{	
+			"ControlName"		"CExLabel"
+			"fieldName"		"Player2Class"
+			"xpos"			"125"
+			"ypos"			"15"
+			"wide"			"200"
+			"tall"			"20"
+			"visible"		"1"
+			"enabled"		"1"
+			"labelText"		""
+			"textAlignment"		"west"
+			"font"			"WinpanelFont"
+			"dropshadow"		"1"
+			"dropshadowoffset"	"2"
+		}
+		"Player2Damage"
+		{	
+			"ControlName"		"CExLabel"
+			"fieldName"		"Player2Damage"
+			"xpos"			"181"
+			"ypos"			"15"
+			"wide"			"30"
+			"tall"			"20"
+			"visible"		"1"
+			"enabled"		"1"
+			"labelText"		""
+			"textAlignment"		"east"
+			"font"			"WinpanelFont"
+			"dropshadow"		"1"
+			"dropshadowoffset"	"2"
+		}
+		"Player2Healing"
+		{	
+			"ControlName"		"CExLabel"
+			"fieldName"		"Player2Healing"
+			"xpos"			"229"
+			"ypos"			"15"
+			"wide"			"30"
+			"tall"			"20"
+			"visible"		"1"
+			"enabled"		"1"
+			"labelText"		""
+			"textAlignment"		"east"
+			"font"			"WinpanelFont"
+			"dropshadow"		"1"
+			"dropshadowoffset"	"2"
+		}
+		"Player2Lifetime"
+		{	
+			"ControlName"		"CExLabel"
+			"fieldName"		"Player2Lifetime"
+			"xpos"			"275"
+			"ypos"			"15"
+			"wide"			"30"
+			"tall"			"20"
+			"visible"		"1"
+			"enabled"		"1"
+			"labelText"		""
+			"textAlignment"		"east"
+			"font"			"WinpanelFont"
+			"dropshadow"		"1"
+			"dropshadowoffset"	"2"
+		}
+		"Player2Kills"
+		{	
+			"ControlName"		"CExLabel"
+			"fieldName"		"Player2Kills"
+			"xpos"			"300"
+			"ypos"			"15"
+			"wide"			"30"
+			"tall"			"20"
+			"visible"		"1"
+			"enabled"		"1"
+			"labelText"		""
+			"textAlignment"		"east"
+			"font"			"WinpanelFont"
+			"dropshadow"		"1"
+			"dropshadowoffset"	"2"
+		}
+		"Player3Avatar"
+		{
+			"ControlName"		"CAvatarImagePanel"
+			"fieldName"		"Player3Avatar"
+			"xpos"			"0"
+			"ypos"			"34"
+			"wide"			"14"
+			"tall"			"14"
+			"visible"		"1"
+			"enabled"		"1"
+			"image"			""
+			"scaleImage"		"1"	
+			"color_outline"		"52 48 45 255"
+		}
+		"Player3Name"
+		{	
+			"ControlName"		"CExLabel"
+			"fieldName"		"Player3Name"
+			"xpos"			"16"
+			"ypos"			"32"
+			"wide"			"105"
+			"tall"			"20"
+			"visible"		"1"
+			"enabled"		"1"
+			"labelText"		""
+			"textAlignment"		"west"
+			"font"			"WinpanelFont"
+			"dropshadow"		"1"
+			"dropshadowoffset"	"2"
+		}
+		"Player3Class"
+		{	
+			"ControlName"		"CExLabel"
+			"fieldName"		"Player3Class"
+			"xpos"			"125"
+			"ypos"			"32"
+			"wide"			"200"
+			"tall"			"20"
+			"visible"		"1"
+			"enabled"		"1"
+			"labelText"		""
+			"textAlignment"		"west"
+			"font"			"WinpanelFont"
+			"dropshadow"		"1"
+			"dropshadowoffset"	"2"
+		}
+		"Player3Damage"
+		{	
+			"ControlName"		"CExLabel"
+			"fieldName"		"Player3Damage"
+			"xpos"			"181"
+			"ypos"			"32"
+			"wide"			"30"
+			"tall"			"20"
+			"visible"		"1"
+			"enabled"		"1"
+			"labelText"		""
+			"textAlignment"		"east"
+			"font"			"WinpanelFont"
+			"dropshadow"		"1"
+			"dropshadowoffset"	"2"
+		}
+		"Player3Healing"
+		{	
+			"ControlName"		"CExLabel"
+			"fieldName"		"Player3Healing"
+			"xpos"			"229"
+			"ypos"			"32"
+			"wide"			"30"
+			"tall"			"20"
+			"visible"		"1"
+			"enabled"		"1"
+			"labelText"		""
+			"textAlignment"		"east"
+			"font"			"WinpanelFont"
+			"dropshadow"		"1"
+			"dropshadowoffset"	"2"
+		}
+		"Player3Lifetime"
+		{	
+			"ControlName"		"CExLabel"
+			"fieldName"		"Player3Lifetime"
+			"xpos"			"275"
+			"ypos"			"32"
+			"wide"			"30"
+			"tall"			"20"
+			"visible"		"1"
+			"enabled"		"1"
+			"labelText"		""
+			"textAlignment"		"east"
+			"font"			"WinpanelFont"
+			"dropshadow"		"1"
+			"dropshadowoffset"	"2"
+		}
+		"Player3Kills"
+		{	
+			"ControlName"		"CExLabel"
+			"fieldName"		"Player3Kills"
+			"xpos"			"300"
+			"ypos"			"32"
+			"wide"			"30"
+			"tall"			"20"
+			"visible"		"1"
+			"enabled"		"1"
+			"labelText"		""
+			"textAlignment"		"east"
+			"font"			"WinpanelFont"
+			"dropshadow"		"1"
+			"dropshadowoffset"	"2"
+		}
+	}
+}

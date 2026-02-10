@@ -1,0 +1,235 @@
+"Resource/UI/hudpvewinpanel.res"
+{
+	"WinPanelBG"
+	{
+		"ControlName"		"EditablePanel"
+		"fieldName"		"WinPanelBG"
+		"xpos"			"3"
+		"ypos"			"0"
+		"zpos"			"0"
+		"wide"			"244"
+		"tall"			"80"
+		"visible"		"1"
+		"bgcolor_override"	"GeneralBackground"
+	}
+
+	"WaveCompleteContainer"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"WaveCompleteContainer"
+		"xpos"			"0"
+		"ypos"			"0"
+		"wide"			"250"
+		"tall"			"30"
+		"visible"		"1"
+		"PaintBackgroundType" "0"
+		
+		"Header"
+		{
+			"ControlName"	"CTFImagePanel"
+			"fieldName"	"Header"
+			"xpos"		"0"
+			"ypos"		"0"
+			"wide"		"250"
+			"tall"		"30"
+			"image"		"../darhud/square_blue"
+			"scaleImage"	"1"
+		}
+		
+		"robot1"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"	"robot1"
+			"proportionaltoparent"	"1"
+			"xpos"		"4"
+			"ypos"		"4"
+			"wide"		"22"
+			"tall"		"22"
+			"image"		"../darhud/icons/robots"
+			"scaleImage"	"1"
+			"drawcolor"	"GeneralShadow"
+		}
+		"robot2"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"	"robot2"
+			"proportionaltoparent"	"1"
+			"xpos"		"r26"
+			"ypos"		"4"
+			"wide"		"22"
+			"tall"		"22"
+			"image"		"../darhud/icons/robots"
+			"scaleImage"	"1"
+			"drawcolor"	"GeneralShadow"
+		}
+		
+		"WinningTeamLabel"
+		{	
+			"ControlName"		"CExLabel"
+			"fieldName"		"WinningTeamLabel"
+			"font"			"HudFontMediumSmallBold"
+			"xpos"			"0"
+			"ypos"			"0"
+			"zpos"			"1"
+			"wide"			"250"
+			"tall"			"30"
+			"autoResize"		"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"labelText"		"#Winpanel_PVE_Evil_Wins"
+			"textAlignment"	"center"
+			"fgcolor"		"GeneralLabel"
+		}
+		"WinningTeamLabelDropshadow"
+		{	
+			"ControlName"		"CExLabel"
+			"fieldName"		"WinningTeamLabelDropshadow"
+			"font"			"HudFontMediumSmallBold"
+			"pin_to_sibling"	"WinningTeamLabel"
+			"xpos"			"-2"
+			"ypos"			"-2"
+			"zpos"			"0"
+			"wide"			"250"
+			"tall"			"30"
+			"autoResize"		"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"labelText"		"#Winpanel_PVE_Evil_Wins"
+			"textAlignment"	"center"
+			"fgcolor"		"GeneralShadow"
+		}
+	}
+	
+	"WinReasonLabel"
+	{	
+		"ControlName"		"CExLabel"
+		"fieldName"		"WinReasonLabel"
+		"font"			"HudFontSmall"
+		"xpos"			"3"
+		"ypos"			"32"
+		"zpos"			"1"
+		"wide"			"244"
+		"tall"			"20"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"%WinReasonLabel%"
+		"textAlignment"	"center"
+		"fgcolor"		"GeneralLabel"
+	}
+	"WinReasonLabelShadow"
+	{	
+		"ControlName"		"CExLabel"
+		"fieldName"		"WinReasonLabelShadow"
+		"font"			"HudFontSmall"
+		"pin_to_sibling"	"WinReasonLabel"
+		"xpos"			"-1"
+		"ypos"			"-1"
+		"zpos"			"1"
+		"wide"			"244"
+		"tall"			"20"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"%WinReasonLabel%"
+		"textAlignment"	"center"
+		"fgcolor"		"GeneralShadow"
+	}
+
+	"DetailsLabel"
+	{
+		"ControlName"		"CExLabel"
+		"fieldName"		"DetailsLabel"
+		"font"			"HudFontSmallest"
+		"xpos"			"10"
+		"ypos"			"48"
+		"zpos"			"1"
+		"wide"			"235"
+		"tall"			"30"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"%DetailsLabel%"
+		"textAlignment"	"center"
+		"centerwrap"		"1"
+		"fgcolor"		"GeneralLabel"
+	}
+	"DetailsLabelShadow"
+	{
+		"ControlName"		"CExLabel"
+		"fieldName"		"DetailsLabelShadow"
+		"font"			"HudFontSmallest"
+		"pin_to_sibling"	"DetailsLabel"
+		"xpos"			"-1"
+		"ypos"			"-1"
+		"zpos"			"1"
+		"wide"			"235"
+		"tall"			"30"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"%DetailsLabel%"
+		"textAlignment"	"center"
+		"centerwrap"		"1"
+		"fgcolor"		"GeneralShadow"
+	}
+
+	"RespecBackground"
+	{
+		"ControlName"	"ScalableImagePanel"
+		"fieldName"		"RespecBackground"
+		"xpos"			"0"
+		"ypos"			"142"
+		"wide"			"300"
+		"tall"			"25"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"0"
+		"enabled"		"1"
+		"image"			"../HUD/tournament_panel_brown"
+
+		"src_corner_height"	"22"				// pixels inside the image
+		"src_corner_width"	"22"
+	
+		"draw_corner_width"	"5"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"5"	
+	}
+
+	"RespecContainer"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"RespecContainer"
+		"xpos"			"0"
+		"ypos"			"142"
+		"wide"			"300"
+		"tall"			"25"
+		"visible"		"1"
+		"PaintBackgroundType" "2"
+	
+		"RespecTextLabelLoss"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"RespecTextLabelLoss"
+			"font"			"HudFontSmall"
+			"labelText"		"#TF_PVE_Respecs"
+			"textAlignment" "center"
+			"xpos"			"0"
+			"ypos"			"3"
+			"wide"			"160"
+			"tall"			"20"
+			"fgcolor"		"tanlight"
+		}
+		
+		"RespecCountLabel"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"RespecCountLabel"
+			"font"			"HudFontSmall"
+			"labelText"		"%respeccount%"
+			"textAlignment" "center"
+			"xpos"			"145"
+			"ypos"			"3"
+			"wide"			"30"
+			"tall"			"20"
+			"fgcolor"		"CreditsGreen"
+		}
+	}
+}

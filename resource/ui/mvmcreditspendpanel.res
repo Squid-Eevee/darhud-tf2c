@@ -1,0 +1,152 @@
+"Resource/UI/MvMCreditSpendPanel.res"
+{
+		
+	"TableBackground"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"TableBackground"
+		"xpos"			"0"
+		"ypos"			"15"
+		"proportionaltoparent"	"1"
+		"zpos"			"-1"
+		"wide"			"f0"
+		"tall"			"f15"
+		"visible"		"1"
+		"bgcolor_override"		"GeneralBackground"
+	}
+	
+	"UpgradesLabel"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"UpgradesLabel"
+		"font"			"HudFontSmall"
+		"labelText"		"#TF_PVE_Upgrades"
+		"textAlignment" "north-west"
+		"xpos"			"10"
+		"ypos"			"16"
+		"wide"			"90"
+		"tall"			"14"
+		"fgcolor"		"GeneralLabel"
+	}
+	
+	"UpgradesCountLabel"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"UpgradesCountLabel"
+		"font"			"HudFontSmallBold"
+		"labelText"		"%upgrades%"
+		"textAlignment" "east"
+		"proportionaltoparent"	"1"
+		"xpos"			"r110"
+		"ypos"			"16"
+		"zpos"			"1"
+		"wide"			"100"
+		"tall"			"14"
+		"fgcolor"		"White"
+	}
+	"UpgradesCountLabelShadow"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"UpgradesCountLabelShadow"
+		"font"			"HudFontSmallBold"
+		"labelText"		"%upgrades%"
+		"textAlignment" "east"
+		"pin_to_sibling"	"UpgradesCountLabel"
+		"xpos"			"-1"
+		"ypos"			"-1"
+		"zpos"			"1"
+		"wide"			"100"
+		"tall"			"14"
+		"fgcolor"		"GeneralShadow"
+	}
+	
+	"BuyBackLabel"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"BuyBackLabel"
+		"font"			"HudFontSmall"
+		"labelText"		"#TF_PVE_Buybacks"
+		"textAlignment" "west"
+		"xpos"			"10"
+		"ypos"			"28"
+		"wide"			"90"
+		"tall"			"14"
+		"fgcolor"		"GeneralLabel"
+	}
+	
+	"BuyBackCountLabel"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"BuyBackCountLabel"
+		"font"			"HudFontSmallBold"
+		"labelText"		"%buybacks%"
+		"textAlignment" "east"
+		"proportionaltoparent"	"1"
+		"xpos"			"r110"
+		"ypos"			"28"
+		"zpos"			"1"
+		"wide"			"100"
+		"tall"			"14"
+		"fgcolor"		"White"
+	}
+	"BuyBackCountLabelShadow"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"BuyBackCountLabelShadow"
+		"font"			"HudFontSmallBold"
+		"labelText"		"%buybacks%"
+		"textAlignment" "east"
+		"pin_to_sibling"	"BuyBackCountLabel"
+		"xpos"			"-1"
+		"ypos"			"-1"
+		"zpos"			"1"
+		"wide"			"100"
+		"tall"			"14"
+		"fgcolor"		"GeneralShadow"
+	}
+	
+	"BottleLabel"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"BottleLabel"
+		"font"			"HudFontSmall"
+		"labelText"		"#TF_PVE_Bottles"
+		"textAlignment" "west"
+		"xpos"			"10"
+		"ypos"			"40"
+		"wide"			"90"
+		"tall"			"14"
+		"fgcolor"		"GeneralLabel"
+	}
+	
+	"BottleCountLabel"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"BottleCountLabel"
+		"font"			"HudFontSmallBold"
+		"labelText"		"%bottles%"
+		"textAlignment" "east"
+		"proportionaltoparent"	"1"
+		"xpos"			"r110"
+		"ypos"			"40"
+		"zpos"			"1"
+		"wide"			"100"
+		"tall"			"14"
+		"fgcolor"		"White"
+	}
+	"BottleCountLabelShadow"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"BottleCountLabelShadow"
+		"font"			"HudFontSmallBold"
+		"labelText"		"%bottles%"
+		"textAlignment" "east"
+		"pin_to_sibling"	"BottleCountLabel"
+		"xpos"			"-1"
+		"ypos"			"-1"
+		"zpos"			"1"
+		"wide"			"100"
+		"tall"			"14"
+		"fgcolor"		"GeneralShadow"
+	}
+}

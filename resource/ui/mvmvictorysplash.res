@@ -1,0 +1,75 @@
+"Resource/UI/MvMVictoryPanel.res"
+{	
+	"SplashContainer"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"SplashContainer"
+		"xpos"			"c-150"
+		"ypos"			"20"
+		"wide"			"300"
+		"tall"			"300"
+		"visible"		"1"
+		
+		"SplashBackground"
+		{
+			"ControlName"		"ScalableImagePanel"
+			"fieldName"		"SplashBackground"
+			"xpos"			"20"
+			"ypos"			"17"
+			"zpos"			"1"
+			"wide"			"250"
+			"tall"			"70"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"image"			"../darhud/counter_red"
+		}
+		"SplashBackgroundShadow"
+		{
+			"ControlName"		"ScalableImagePanel"
+			"fieldName"		"SplashBackgroundShadow"
+			"pin_to_sibling"	"SplashBackground"
+			"xpos"			"-2"
+			"ypos"			"-2"
+			"zpos"			"0"
+			"wide"			"250"
+			"tall"			"70"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"image"			"../darhud/counter_shadow"
+		}
+		
+		"SplashLabel"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"SplashLabel"
+			"font"			"HudFontGiantBold"
+			"labelText"		"#TF_MVM_Victory"
+			"textAlignment" "center"
+			"xpos"			"0"
+			"ypos"			"0"
+			"zpos"			"3"
+			"wide"			"300"
+			"tall"			"100"
+			"fgcolor"		"GeneralLabel"
+		}
+		"SplashLabelShadow"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"SplashLabelShadow"
+			"font"			"HudFontGiantBold"
+			"labelText"		"#TF_MVM_Victory"
+			"textAlignment" "center"
+			"pin_to_sibling"	"SplashLabel"
+			"xpos"			"-2"
+			"ypos"			"-2"
+			"zpos"			"2"
+			"wide"			"300"
+			"tall"			"100"
+			"fgcolor"		"GeneralShadow"
+		}
+	}
+}

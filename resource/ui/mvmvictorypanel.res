@@ -1,0 +1,257 @@
+"Resource/UI/MvMVictoryPanel.res"
+{
+	"StatsContainer"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"StatsContainer"
+		"xpos"			"c-265"
+		"ypos"			"70"
+		"wide"			"530"
+		"tall"			"250"
+		"visible"		"1"
+		
+		//"PaintBackgroundType"	"0"
+		//"paintbackground"	"0"
+		//"border"		"MainMenuHighlightBorder"
+		
+		"StatsBackground"
+		{
+			"ControlName"		"EditablePanel"
+			"fieldName"		"SplashBackground"
+			"xpos"			"0"
+			"ypos"			"0"
+			"wide"			"530"
+			"tall"			"250"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"bgcolor_override"	"BackgroundDefault"
+			"border"				"SelectedTabBorderBox"
+			"paintbackgroundType"	"0"
+		}
+		
+		"HeaderContainer"
+		{
+			"ControlName"	"EditablePanel"
+			"fieldName"		"HeaderContainer"
+			"xpos"			"0"
+			"ypos"			"10"
+			"wide"			"530"
+			"tall"			"26"
+			"visible"		"1"
+			"bgcolor_override"	"0 0 0 0"
+
+			"HeaderLabel"
+			{
+				"ControlName"		"CExLabel"
+				"fieldName"		"HeaderLabel"
+				"font"			"HudFontMediumBold"
+				"labelText"		"%header%"
+				"textAlignment"	"center"
+				"xpos"			"0"
+				"ypos"			"0"
+				"zpos"			"1"
+				"wide"			"530"
+				"tall"			"24"
+				"fgcolor"		"Orange"
+			}
+			"HeaderShadow"
+			{
+				"ControlName"		"CExLabel"
+				"fieldName"		"HeaderShadow"
+				"font"			"HudFontMediumBold"
+				"labelText"		"%headershadow%"	//why tf is this a separate variable
+				"textAlignment"	"center"
+				"pin_to_sibling"	"HeaderLabel"
+				"xpos"			"-2"
+				"ypos"			"-2"
+				"zpos"			"0"
+				"wide"			"530"
+				"tall"			"24"
+				"fgcolor"		"GeneralShadow"
+			}
+		}
+	
+		"CreditLabel"
+		{
+			"ControlName"		"CExLabel"
+			"fieldName"		"CreditLabel"
+			"font"			"HudFontMediumBold"
+			"labelText"		"#TF_PVE_Currency"
+			"textAlignment"	"north-west"
+			"xpos"			"165"
+			"ypos"			"40"
+			"zpos"			"1"
+			"wide"			"200"
+			"tall"			"40"
+			"fgcolor"		"GeneralLabel"
+		}
+		"CreditLabelShadow"
+		{
+			"ControlName"		"CExLabel"
+			"fieldName"		"CreditLabelShadow"
+			"font"			"HudFontMediumBold"
+			"labelText"		"#TF_PVE_Currency"
+			"textAlignment"	"north-west"
+			"pin_to_sibling"	"CreditLabel"
+			"xpos"			"-2"
+			"ypos"			"-2"
+			"zpos"			"0"
+			"wide"			"200"
+			"tall"			"40"
+			"fgcolor"		"GeneralShadow"
+		}
+		
+		"CreditContainer"
+		{
+			"ControlName"	"CCreditDisplayPanel"
+			"fieldName"	"CreditContainer"
+			"proportionaltoparent"	"1"
+			"xpos"		"cs-0.5"
+			"ypos"		"52"
+			"wide"		"200"
+			"tall"		"55"
+			"visible"	"1"
+		}
+		
+		"TotalGameCreditSpendPanel"
+		{
+			"ControlName"	"CCreditSpendPanel"
+			"fieldName"	"TotalGameCreditSpendPanel"
+			"proportionaltoparent"	"1"
+			"xpos"		"cs-0.5"
+			"ypos"		"100"
+			"wide"		"200"
+			"tall"		"55"
+			"visible"	"1"
+		}
+
+		"RatingContainer"
+		{
+			"ControlName"	"EditablePanel"
+			"fieldName"		"RatingContainer"
+			"xpos"			"175"
+			"ypos"			"160"
+			"wide"			"180"
+			"tall"			"400"
+			"autoResize"	"1"
+			"visible"		"1"
+			
+			"RatingLabel"
+			{
+				"ControlName"		"CExLabel"
+				"fieldName"		"RatingLabel"
+				"font"			"HudFontMediumBold"
+				"labelText"		"%ratinglabel%"
+				"textAlignment"	"center"
+				"xpos"			"0"
+				"ypos"			"0"
+				"zpos"			"1"
+				"wide"			"180"
+				"tall"			"40"
+				"fgcolor"		"GeneralLabel"
+			}
+			"RatingLabelShadow"
+			{
+				"ControlName"		"CExLabel"
+				"fieldName"		"RatingLabelShadow"
+				"font"			"HudFontMediumBold"
+				"labelText"		"%ratinglabel%"
+				"textAlignment"	"center"
+				"pin_to_sibling"	"RatingLabel"
+				"xpos"			"-2"
+				"ypos"			"-2"
+				"zpos"			"0"
+				"wide"			"180"
+				"tall"			"40"
+				"fgcolor"		"GeneralShadow"
+			}
+			
+			"RatingTextBackground"
+			{
+				"ControlName"	"CTFImagePanel"
+				"fieldName"	"RatingTextBackground"
+				"xpos"		"65"
+				"ypos"		"30"
+				"wide"		"50"
+				"tall"		"50"
+				"zpos"		"1"
+				"image"		"../darhud/achievement_red"
+				"scaleImage"	"1"
+			}
+			"RatingTextBackgroundShadow"
+			{
+				"ControlName"	"CTFImagePanel"
+				"fieldName"	"RatingTextBackgroundShadow"
+				"pin_to_sibling"	"RatingTextBackground"
+				"xpos"		"-2"
+				"ypos"		"-2"
+				"wide"		"50"
+				"tall"		"50"
+				"zpos"		"0"
+				"image"		"../darhud/achievement_shadow"
+				"scaleImage"	"1"
+			}
+			"RatingText"
+			{
+				"ControlName"	"CExLabel"
+				"fieldName"		"RatingText"
+				"font"			"HudFontGiantBold"
+				"labelText"		"%ratingscore%"
+				"textAlignment" "center"
+				"xpos"			"0"
+				"ypos"			"30"
+				"zpos"			"3"
+				"wide"			"180"
+				"tall"			"50"
+				"fgcolor"		"White"
+			}
+			"RatingTextShadow"
+			{
+				"ControlName"		"CExLabel"
+				"fieldName"		"RatingTextShadow"
+				"font"			"HudFontGiantBold"
+				"labelText"		"%ratingscore%"
+				"textAlignment" 	"center"
+				"pin_to_sibling"	"RatingText"
+				"xpos"			"-2"
+				"ypos"			"-2"
+				"zpos"			"2"
+				"wide"			"180"
+				"tall"			"50"
+				"fgcolor"		"GeneralShadow"
+			}
+		}
+	}
+
+	"DoneButton"
+	{
+		"ControlName"	"CExImageButton"
+		"fieldName"		"DoneButton"
+		"xpos"			"0"
+		"ypos"			"8"
+		"zpos"			"100"
+		"wide"			"106"
+		"tall"			"25"
+		"autoResize"	"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"labelText"		"#DoneButton"
+		"font"			"HudFontSmallBold"
+		"textAlignment"	"center"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"default"		"1"
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		"image_drawcolor"	"235 226 202 255"
+		"Command"		"done"
+
+		"pin_to_sibling"              "StatsContainer"
+		"pin_corner_to_sibling"        "pin_center_top"          
+		"pin_to_sibling_corner"        "pin_center_bottom" 
+	}
+}
