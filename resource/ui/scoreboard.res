@@ -1036,13 +1036,15 @@
 		"ControlName"		"ImagePanel"
 		"fieldName"			"ClassImage"
 		"xpos"				"c-268"
-		"ypos"				"r73"
+		"ypos"				"r70"
 		"zpos"				"3"
-		"wide"				"73"
-		"tall"				"73"
+		"wide"				"76"
+		"tall"				"76"
 		"visible"			"0"
 		"enabled"			"1"
-		"scaleImage"		"1"	
+		"scaleImage"		"1"
+		"dropshadow"	"1"
+		"dropshadowoffset"	"3"
 	}
 	
 	"classmodelpanel"
@@ -2065,3 +2067,4 @@
 		}
 	}
 }
+
