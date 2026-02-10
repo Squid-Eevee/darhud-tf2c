@@ -75,7 +75,7 @@
 		"enabled"		"1"
 		"xpos"			"r250"
 		"xpos_minmode"	"c143"
-		"ypos"			"r115"
+		"ypos"			"r120"
 		"wide"			"220"
 		"tall"			"90"
 	}
