@@ -1,0 +1,9 @@
+"Patch"
+{
+	include "materials\darhud\base_blue.vmt"
+	
+	insert
+	{
+		"$basetexture"			"darhud/metal_mask"
+	}
+}

@@ -1,0 +1,10 @@
+"Patch"
+{
+	include "materials\darhud\base_blue.vmt"
+	
+	insert
+	{
+		"$basetexture"			"darhud/chr_mask"
+		"$basetexturetransform" "center .5 .5 scale -1 1 rotate 0 translate 0 0"
+	}
+}

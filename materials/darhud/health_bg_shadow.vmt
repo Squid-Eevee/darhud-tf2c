@@ -1,0 +1,9 @@
+"Patch"
+{
+	include "materials\darhud\base_shadow.vmt"
+	
+	insert
+	{
+		"$basetexture"			"darhud/health_bg_mask"
+	}
+}

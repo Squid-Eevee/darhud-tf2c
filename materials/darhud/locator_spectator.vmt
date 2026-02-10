@@ -1,0 +1,9 @@
+"Patch"
+{
+	include "materials\darhud\base_spectator.vmt"
+	
+	insert
+	{
+		"$basetexture"			"darhud/locator_mask"
+	}
+}
