@@ -12,9 +12,9 @@
 		"visible" 				"1"
 		"enabled" 				"1"
 		"bgcolor_override"		"ListingBody"
-		"RoundedCorners"		"15"
-		"CornerSize"			"5"
-		"PaintBackgroundType"	"2"
+		"RoundedCorners"		"0"
+		"CornerSize"			"0"
+		"PaintBackgroundType"	"0"
 	}
 
 	"BodyBackground"
