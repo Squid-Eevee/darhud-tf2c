@@ -738,6 +738,12 @@
 		"avatar_wide"		"16"
 		"avatar_tall"		"16"
 		
+		"show_medal"			"1"
+		"medal_xpos"			"12"
+		"medal_ypos"			"0"
+		"medal_wide"			"8"
+		"medal_tall"			"16"
+		
 		"show_dead_icon"	"1"
 		"dead_xpos"		"28"
 		"dead_ypos"		"2"
