@@ -22,7 +22,7 @@
 		
 		"xpos"			"5"
 		"ypos"			"0"
-		"tall"			"12"
+		"tall"			"16"
 		"auto_wide_toContents"	"1"
 	}
 
@@ -70,7 +70,7 @@
 		"pin_to_sibling_corner" "PIN_BOTTOMLEFT"
 		"pin_corner_to_sibling" "PIN_TOPLEFT"
 		"xpos"					"0"
-		"ypos"					"4"
+		"ypos"					"0"
 		"wide"					"0"
 		"tall"					"40"
 		"scaleImage"			"1"
