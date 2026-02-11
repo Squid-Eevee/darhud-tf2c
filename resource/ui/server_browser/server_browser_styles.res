@@ -76,6 +76,8 @@
 
 		"labelText"			""
 
+		"RoundedCorners"	"0"
+
 		"SubImage"
 		{
 			"xpos"			"cs-0.5"
