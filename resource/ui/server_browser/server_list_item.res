@@ -351,6 +351,7 @@
 				"labelText"	"-"
 			}
 		}
+		"inputEnabled"	"0"
 	}
 
 	"ServerType"
