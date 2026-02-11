@@ -15,7 +15,7 @@ Some elements of the CTF HUD are misaligned or misplaced in certain team configu
 <img width="328" height="122" alt="image" src="https://github.com/user-attachments/assets/4d900300-646e-4cbc-93b3-d64fd24243a9" />
 
 ## Team Menu
-Models on the team menu disappear when Ubercharged. Again, not something I can fix. This also happens in other similar menus with the default HUD but DarHud doesn't have any models on those.
+Models on the team menu disappear when Ubercharged. Again, [not something I can fix](https://github.com/tf2classified/tf2classified-issue-tracker/issues/492). This also happens in other similar menus with the default HUD but DarHud doesn't have any models on those.
 
 <img width="480" height="270" alt="image" src="https://github.com/user-attachments/assets/2fd0a86a-067b-41b5-8333-5cc1cf10c01e" />
 
