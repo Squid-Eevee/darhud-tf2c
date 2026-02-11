@@ -371,6 +371,19 @@ Scheme
 				"antialias" "1"
 			}
 		}
+		
+		"VoiceChatFont"
+		{
+			"1"
+			{
+				"name"		"TF2C Secondary"
+				"tall"		"9"
+				"weight"		"0"
+				"additive"	"0"
+				"antialias"	"1"
+				"dropshadow"	"1"
+			}
+		}
 	}
 	Borders
 	{
@@ -1062,4 +1075,5 @@ Scheme
 			"color"					"ButtonMMQuitDisabled"
 		}
 	}
+
 }
