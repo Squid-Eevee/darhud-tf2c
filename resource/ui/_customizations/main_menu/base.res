@@ -49,6 +49,29 @@
 		}
 	}
 
+	//this seems like a bad idea and i'm Absolutely going to forget about this
+	"DarHudVersionLabel"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"DarHudVersionLabel"
+		"xpos"			"rs1-10"
+		"ypos"			"25"
+		"wide"			"100"
+		"tall"			"20"
+		"visible"		"1"
+		"proportionalToParent"	"1"
+		"textAlignment"		"north-east"
+		"labelText"			"DarHud Version 1.0.2"
+		"font"				"HudFontSmallest"
+		"dropshadow"			"1"
+		"dropshadowoffset"	"2"
+
+		"if_inlevel"
+		{
+			"visible"		"0"
+		}
+	}
+
 	"VerticalBG"
 	{
 		"ControlName"	"EditablePanel"
@@ -1320,4 +1343,5 @@
 		"scaleImage"	"1"
 		"visible"	"0"
 	}
+
 }
