@@ -122,11 +122,12 @@
 							"proportionalToParent" 	"1"
 							
 							"image_default"	"resource/svgs/mainmenu/icon_magnifier.svg"
-							
-							"image_drawcolor"		"MainTextInactive"
-							"image_depressedcolor"	"MainTextInactive"
-							"image_armedcolor"		"MainText"
-							"image_selectedcolor"	"MainText"
+
+							"image_drawcolor"		"ButtonLabelMM"
+							"image_armedcolor"	"ButtonArmedLabelMM"
+							"image_selectedcolor"	"ButtonDepressedLabelMM"
+							"image_depressedcolor"	"ButtonDepressedLabelMM"
+							"image_disabledcolor"	"ButtonDisabledLabelMM"
 
 							"actionsignallevel"	"5"
 							
@@ -163,11 +164,12 @@
 							"visible"		"0"
 							
 							"image_default"	"resource/svgs/mainmenu/icon_arrow_left.svg"
-							
-							"image_drawcolor"		"MainTextInactive"
-							"image_depressedcolor"	"MainTextInactive"
-							"image_armedcolor"		"MainText"
-							"image_selectedcolor"	"MainText"
+
+							"image_drawcolor"		"ButtonLabelMM"
+							"image_armedcolor"	"ButtonArmedLabelMM"
+							"image_selectedcolor"	"ButtonDepressedLabelMM"
+							"image_depressedcolor"	"ButtonDepressedLabelMM"
+							"image_disabledcolor"	"ButtonDisabledLabelMM"
 							
 							"proportionalToParent" 	"1"
 
@@ -210,7 +212,7 @@
 							"tabPosition"		"1"
 							"proportionalToParent"	"1"
 							"bgcolor_override"	"Black"
-							"font"				"SubmenuTab"
+							"font"				"ServerBrowserLarge"
 							
 							"RoundedCorners"	"0"
 							
