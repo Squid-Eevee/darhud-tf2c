@@ -68,6 +68,7 @@
 		"enabled"		"1"
 		"tabPosition"		"1"
 		"proportionalToParent"	"1"
+		"roundedcorners"	"0"
 		
 		"bgcolor_override"	"ListingItems"
 		
