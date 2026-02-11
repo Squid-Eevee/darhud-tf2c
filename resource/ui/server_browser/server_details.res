@@ -39,7 +39,7 @@
 		"xpos"			"rs1"
 		"ypos"			"0"
 		"wide"			"130"
-		"tall"			"12"
+		"tall"			"16"
 	}
 
 	"PlayerListHeading"
@@ -59,7 +59,7 @@
 		"xpos"			"10"
 		"ypos"			"0"
 		"wide"			"200"
-		"tall"			"12"
+		"tall"			"16"
 	}
 
 	"_MapThumbnail"
@@ -204,7 +204,7 @@
 		"ControlName"			"PanelListPanel"
 		"fieldName"				"PlayerList"
 		"bgcolor_override"		"ListingSecondary"
-		"ypos"					"4"
+		"ypos"					"0"
 		"wide"					"200"
 		"tall"					"78"
 		"RoundedCorners"		"5"
@@ -270,7 +270,7 @@
 		"ControlName"			"PanelListPanel"
 		"fieldName"				"TagList"
 		"bgcolor_override"		"ListingSecondary"
-		"ypos"					"4"
+		"ypos"					"0"
 		"wide"					"130"
 		"tall"					"78"
 		"RoundedCorners"		"5"
