@@ -853,15 +853,15 @@
 	{
 
 	}
-
+	
 	WinPanel
 	{
 		"fieldName"				"WinPanel"
 		"visible"				"1"
 		"enabled"				"1"
-		"xpos"					"c-150"
+		"xpos"					"c-210"
 		"ypos"					"0"
-		"wide"					"302"
+		"wide"					"420"
 		"tall"					"480"
 		"zpos"					"12"
 		"proportionaltoparent"	"1"
