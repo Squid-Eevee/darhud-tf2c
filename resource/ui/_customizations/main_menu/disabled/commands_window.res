@@ -28,7 +28,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"proportionalToParent"	"1"
-			"labelText"		"Commands"
+			"labelText"		"#dar_commands"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -110,7 +110,7 @@
 					"wide"			"f0"
 					"tall"			"14"
 					"proportionalToParent"	"1"
-					"labelText"	"Utility"
+					"labelText"	"#dar_commands_category_utility"
 					"font"			"HudFontSmallestBold"
 					"textAlignment"	"center"
 				}
@@ -123,11 +123,11 @@
 					"ypos"			"14"
 					"wide"			"91"
 					"tall"			"15"
-					"labelText"		"Reload HUD"
+					"labelText"		"#dar_commands_reloadhud"
 					"command"		"engine hud_reloadscheme"
 					"actionsignallevel"	"4"
 					
-					"tooltiptext"	"Reload the HUD."
+					"tooltiptext"	"#dar_commands_reloadhud_tooltip"
 				}
 				"RestartSoundButton"
 				{
@@ -138,11 +138,11 @@
 					"ypos"			"14"
 					"wide"			"91"
 					"tall"			"15"
-					"labelText"		"Restart Sound"
+					"labelText"		"#dar_commands_restartsound"
 					"command"		"engine snd_restart"
 					"actionsignallevel"	"4"
 					
-					"tooltiptext"	"Restart the sound engine."
+					"tooltiptext"	"#dar_commands_restartsound_tooltip"
 				}
 				"FixPlayersButton"
 				{
@@ -154,11 +154,11 @@
 					"wide"			"91"
 					"tall"			"15"
 					"proportionalToParent"	"1"
-					"labelText"		"Fix Players"
+					"labelText"		"#dar_commands_fixplayers"
 					"command"		"engine record fix;stop"
 					"actionsignallevel"	"4"
 					
-					"tooltiptext"	"Start then instantly stop recording a demo. This can fix issues such as props being out of place or players not appearing. No demo file gets recorded, so no files are created."
+					"tooltiptext"	"#dar_commands_fixplayers_tooltip"
 				}
 				"ReloadStylesButton"
 				{
@@ -170,11 +170,11 @@
 					"wide"			"91"
 					"tall"			"15"
 					"proportionalToParent"	"1"
-					"labelText"		"Reload Styles"
+					"labelText"		"#dar_commands_reloadstyles"
 					"command"		"engine reload_styles"
 					"actionsignallevel"	"4"
 					
-					"tooltiptext"	"Reload main menu styles. Run before reloading the main menu if you've changed any styles."
+					"tooltiptext"	"#dar_commands_reloadstyles_tooltip"
 				}
 				"ReloadMainMenuButton"
 				{
@@ -186,11 +186,11 @@
 					"wide"			"91"
 					"tall"			"15"
 					"proportionalToParent"	"1"
-					"labelText"		"Reload Menu"
+					"labelText"		"#dar_commands_reloadmainmenu"
 					"command"		"engine tf2c_mainmenu_reload"
 					"actionsignallevel"	"4"
 					
-					"tooltiptext"	"Reload the main menu."
+					"tooltiptext"	"#dar_commands_reloadmainmenu_tooltip"
 				}
 			}
 			"OperatorCommandsContainer"
@@ -200,7 +200,7 @@
 				"xpos"		"0"
 				"ypos"		"46"
 				"wide"		"f8"
-				"tall"		"100"
+				"tall"		"121"
 				"proportionalToParent"	"1"
 				
 				"TitleLabel"
@@ -212,7 +212,7 @@
 					"wide"			"f0"
 					"tall"			"14"
 					"proportionalToParent"	"1"
-					"labelText"	"Operator"
+					"labelText"	"#dar_commands_category_operator"
 					"font"			"HudFontSmallestBold"
 					"textAlignment"	"center"
 				}
@@ -241,13 +241,13 @@
 					"zpos"			"2"
 					"wide"			"91"
 					"tall"			"15"
-					"labelText"		"Server Cheats"
+					"labelText"		"#dar_commands_servercheats"
 					"textAlignment"	"west"
 					"textinsetx"		"23"
 					"command"		"engine toggle sv_cheats"
 					"actionsignallevel"	"4"
 						
-					"tooltiptext"	"Toggle server cheats. Must be the server operator."
+					"tooltiptext"	"#dar_commands_servercheats_tooltip"
 				}
 				"NoclipButton"
 				{
@@ -259,11 +259,11 @@
 					"zpos"			"2"
 					"wide"			"91"
 					"tall"			"15"
-					"labelText"		"Noclip"
+					"labelText"		"#dar_commands_noclip"
 					"command"		"engine noclip"
 					"actionsignallevel"	"4"
 						
-					"tooltiptext"	"Toggle noclip. Player becomes non-solid and can fly. Requires server cheats."
+					"tooltiptext"	"#dar_commands_noclip_tooltip"
 				}
 				"ToggleAutoJumpCheckbox"
 				{
@@ -290,13 +290,13 @@
 					"zpos"			"2"
 					"wide"			"91"
 					"tall"			"15"
-					"labelText"		"Auto Jump"
+					"labelText"		"#dar_commands_autojump"
 					"textAlignment"	"west"
 					"textinsetx"		"29"
 					"command"		"engine toggle tf2c_autojump"
 					"actionsignallevel"	"4"
 						
-					"tooltiptext"	"Toggle auto jump/auto bunnyhop. Must be the server operator."
+					"tooltiptext"	"#dar_commands_autojump_tooltip"
 				}
 				"ToggleDuckJumpCheckbox"
 				{
@@ -323,13 +323,13 @@
 					"zpos"			"2"
 					"wide"			"91"
 					"tall"			"15"
-					"labelText"		"Crouch Jump"
+					"labelText"		"#dar_commands_duckjump"
 					"textAlignment"	"west"
 					"textinsetx"		"23"
 					"command"		"engine toggle tf2c_duckjump"
 					"actionsignallevel"	"4"
 						
-					"tooltiptext"	"Toggle the ability to jump while ducking/crouching. Must be the server operator."
+					"tooltiptext"	"#dar_commands_duckjump_tooltip"
 				}
 				"ToggleInfiniteAmmoCheckbox"
 				{
@@ -356,13 +356,13 @@
 					"zpos"			"2"
 					"wide"			"91"
 					"tall"			"15"
-					"labelText"		"Infinite Ammo"
+					"labelText"		"#dar_commands_infiniteammo"
 					"textAlignment"	"west"
 					"textinsetx"		"23"
 					"command"		"engine toggle tf2c_infinite_ammo"
 					"actionsignallevel"	"4"
 						
-					"tooltiptext"	"Toggle infinite ammo. Weapons still need to be reloaded. Must be the server operator."
+					"tooltiptext"	"#dar_commands_infiniteammo_tooltip"
 				}
 				"ToggleSpecialClassesCheckbox"
 				{
@@ -389,13 +389,13 @@
 					"zpos"			"2"
 					"wide"			"91"
 					"tall"			"15"
-					"labelText"		"Special Classes"
+					"labelText"		"#dar_commands_specialclasses"
 					"textAlignment"	"west"
 					"textinsetx"		"22"
 					"command"		"engine toggle tf2c_allow_special_classes"
 					"actionsignallevel"	"4"
 						
-					"tooltiptext"	"Toggle the ability to select special classes in normal gameplay. Must be the server operator."
+					"tooltiptext"	"#dar_commands_specialclasses_tooltip"
 				}
 				"TeamsTitleLabel"
 				{
@@ -406,7 +406,7 @@
 					"wide"			"f0"
 					"tall"			"14"
 					"proportionalToParent"	"1"
-					"labelText"	"Teams"
+					"labelText"	"#dar_commands_category_teams"
 					"font"			"HudFontSmallest"
 					"textAlignment"	"center"
 				}
@@ -419,11 +419,11 @@
 					"wide"			"146"
 					"tall"			"14"
 					"proportionalToParent"	"1"
-					"labelText"	"Activate"
+					"labelText"	"#dar_commands_category_teams_activate"
 					"font"			"HudFontSmallest"
 					"textAlignment"	"center"
 						
-					"tooltiptext"	"Enable teams. Must be the server operator."
+					"tooltiptext"	"#dar_commands_category_teams_activate_tooltip"
 				}
 				"ActivateBLUButton"
 				{
@@ -534,11 +534,11 @@
 					"wide"			"146"
 					"tall"			"14"
 					"proportionalToParent"	"1"
-					"labelText"	"Deactivate"
+					"labelText"	"#dar_commands_category_teams_deactivate"
 					"font"			"HudFontSmallest"
 					"textAlignment"	"center"
 					
-					"tooltiptext"	"Disable teams. Must be the server operator."
+					"tooltiptext"	"#dar_commands_category_teams_deactivate_tooltip"
 				}
 				"DeactivateBLUButton"
 				{
@@ -664,4 +664,3 @@
 		}
 	}
 }
-
