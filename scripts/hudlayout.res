@@ -1032,10 +1032,10 @@
 		"fieldName"				"HudTeamGoal"
 		"visible"				"1"
 		"enabled"				"1"
-		"xpos"					"c-150"
-		"ypos"					"65"
-		"wide"					"300"
-		"tall"					"100"
+		"xpos"					"cs-0.5"
+		"ypos"					"80"
+		"wide"					"302"
+		"tall"					"56"
 	}
 
 
@@ -1056,12 +1056,10 @@
 		"fieldName"				"HudTeamSwitch"
 		"visible"				"0"
 		"enabled"				"1"
-		"xpos"					"c-160"
-		"ypos"					"75"
-		"ypos_hidef"				"90"
-		"ypos_lodef"			"90"
-		"wide"					"320"
-		"tall"					"100"
+		"xpos"					"c-150"
+		"ypos"					"80"
+		"wide"					"302"
+		"tall"					"56"
 	}
 
 	HudArenaNotification
@@ -1338,13 +1336,13 @@
 
 	"HudAlert"
 	{
-		"fieldName"		"HudAlert"
-		"visible"		"0"
-		"enable"		"1"
-		"xpos"			"c-160"
-		"ypos"			"100"
-		"wide"			"320"
-		"tall"			"150"
+		"fieldName"	"HudAlert"
+		"visible"	"0"
+		"enabled"	"1"
+		"xpos"		"c-150"
+		"ypos"		"137"
+		"wide"		"302"
+		"tall"		"56"
 	}
 
 
