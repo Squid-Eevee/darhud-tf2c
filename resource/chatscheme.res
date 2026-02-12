@@ -1,4 +1,3 @@
-#base "chatscheme_tf2c.res"
 #base "scheme/teamcolors.res"
 #base "customfontfiles.res"
 
@@ -21,13 +20,45 @@ Scheme
 	{
 		// base colors
 		"White"				"255 255 255 255"
-		"OffWhite"			"216 216 216 255"
+		"OffWhite"			"255 255 255 255"
 		"DullWhite"			"142 142 142 255"
 		"Orange"			"255 155 0 255"
 		"TransparentBlack"		"0 0 0 128"
 		"Black"				"0 0 0 255"
+		"Green"				"63 185 73 255"
 
 		"Blank"				"0 0 0 0"
+		
+		"TFDarkBrown"					"60 56 53 255"
+	    "TFDarkBrownTransparent"		"60 56 53 190"
+		"TFMediumBrown"					"69 64 58 255"
+	    "TFTanBright"					"236 227 203 150"
+	    "TFTanLight"					"201 188 162 150"
+	    "TFTanMedium"					"131 121 104 150"
+		"TFTanLightBright"				"229 223 211 90"
+	    "TFTanLightDark"				"96 90 78 90"
+	    
+	    "TFOrangeBright"				"156 82 33 255"
+		
+		"TFTextBright"					"251 236 203 255"
+	    "TFTextLight"					"201 188 162 255"
+	    "TFTextMedium"              	"131 121 104 255"
+	    "TFTextMediumDark"          	"104 96 83 255"
+	    "TFTextBlack"               	"42 39 37 255"
+	    "TFTextDull"                	"131 121 104 255"
+		
+		"QuickListBGDeselected"			"69 64 58 255"
+	    "QuickListBGSelected"			"131 121 104 150"
+		
+		// background colors
+		"ControlBG"						"76 88 68 255"			// background color of controls
+		"ControlDarkBG"					"90 106 80 255"			// darker background color; used for background of scrollbars
+		"WindowBG"						"62 70 55 255"			// background color of text edit panes (chat, text entries, etc.)
+		"SelectionBG"					"90 84 75 255"			// background color of any selected text or menu item
+		"SelectionBG2"					"69 64 57 255"			// selection background in window w/o focus
+		"ListBG"						"39 36 34 255"			// background of server browser, buddy list, etc.
+		
+		"DropShadow"					"0 0 0 140"
 	}
 
 	///////////////////// BASE SETTINGS ////////////////////////
@@ -45,6 +76,8 @@ Scheme
 		Button.BgColor					"Blank"
 		Button.ArmedTextColor			"White"
 		Button.ArmedBgColor				"Blank"
+		Button.SelectedTextColor						"TFDarkBrown"
+		Button.SelectedBgColor							"255 255 255 60"
 		Button.DepressedTextColor		"White"
 		Button.DepressedBgColor			"Blank"
 		Button.FocusBorderColor			"Black"
@@ -52,16 +85,20 @@ Scheme
 		CheckButton.TextColor			"OffWhite"
 		CheckButton.SelectedTextColor	"White"
 		CheckButton.BgColor				"TransparentBlack"
+		CheckButton.HighlightFgColor					"251 235 202 255"
+		CheckButton.ArmedBgColor						"Blank"
+		CheckButton.DepressedBgColor					"Blank"
 		CheckButton.Border1  			"Border.Dark" 		// the left checkbutton border
 		CheckButton.Border2  			"Border.Bright"		// the right checkbutton border
 		CheckButton.Check				"White"				// color of the check itself
+		CheckButton.DisabledBgColor	    				"TransparentBlack"
 
 		ComboBoxButton.ArrowColor		"DullWhite"
 		ComboBoxButton.ArmedArrowColor	"White"
 		ComboBoxButton.BgColor			"Blank"
 		ComboBoxButton.DisabledBgColor	"Blank"
 
-		"Chat.TypingText"		"White"
+		Chat.TypingText									"251 235 202 255"
 
 		Frame.TitleTextInsetX			16
 		Frame.ClientInsetX				8
@@ -71,7 +108,7 @@ Scheme
 		Frame.FocusTransitionEffectTime	"0.3"	// time it takes for a window to fade in/out on focus/out of focus
 		Frame.TransitionEffectTime		"0.3"	// time it takes for a window to fade in/out on open/close
 		Frame.AutoSnapRange				"0"
-		FrameGrip.Color1				"200 200 200 196"
+		FrameGrip.Color1				"50 50 50 196"
 		FrameGrip.Color2				"0 0 0 196"
 		FrameTitleButton.FgColor		"200 200 200 196"
 		FrameTitleButton.BgColor		"Blank"
@@ -81,8 +118,8 @@ Scheme
 		FrameSystemButton.BgColor		"Blank"
 		FrameSystemButton.Icon			""
 		FrameSystemButton.DisabledIcon	""
-		FrameTitleBar.Font				"UiBold"		[$WIN32]
-		FrameTitleBar.Font				"DefaultLarge"	[$WIN32]
+		FrameTitleBar.Font				"UiBold"
+		FrameTitleBar.Font				"DefaultLarge"
 		FrameTitleBar.TextColor			"White"
 		FrameTitleBar.BgColor			"Blank"
 		FrameTitleBar.DisabledTextColor	"255 255 255 192"
@@ -92,20 +129,20 @@ Scheme
 		GraphPanel.BgColor				"TransparentBlack"
 
 		Label.TextDullColor				"DullWhite"
-		Label.TextColor					"OffWhite"
+		Label.TextColor					"White"
 		Label.TextBrightColor				"White"
 		Label.SelectedTextColor				"White"
 		Label.BgColor					"TransparentBlack"
 		Label.DisabledFgColor1			"117 117 117 255"
 		Label.DisabledFgColor2			"30 30 30 255"
 
-		ListPanel.TextColor					"OffWhite"
+		ListPanel.TextColor					"White"
 		ListPanel.TextBgColor				"Blank"
 		ListPanel.BgColor					"TransparentBlack"
 		ListPanel.SelectedTextColor			"Black"
 		ListPanel.SelectedBgColor			"Orange"
 		ListPanel.SelectedOutOfFocusBgColor	"255 155 0 128"
-		ListPanel.EmptyListInfoTextColor	"OffWhite"
+		ListPanel.EmptyListInfoTextColor	"White"
 
 		Menu.TextColor					"White"
 		Menu.BgColor					"160 160 160 64"
@@ -119,29 +156,29 @@ Scheme
 		ProgressBar.FgColor				"White"
 		ProgressBar.BgColor				"TransparentBlack"
 
-		PropertySheet.TextColor			"OffWhite"
+		PropertySheet.TextColor			"White"
 		PropertySheet.SelectedTextColor	"White"
 		PropertySheet.TransitionEffectTime	"0.25"	// time to change from one tab to another
 
 		RadioButton.TextColor			"DullWhite"
 		RadioButton.SelectedTextColor	"White"
 
-		RichText.TextColor				"OffWhite"
+		RichText.TextColor				"White"
 		RichText.BgColor				"TransparentBlack"
 		RichText.SelectedTextColor		"Black"
 		RichText.SelectedBgColor		"Orange"
 
-		ScrollBar.Wide					17
+		ScrollBar.Wide					6
 
-		ScrollBarButton.FgColor				"White"
+		ScrollBarButton.FgColor				"Blank"
 		ScrollBarButton.BgColor				"Blank"
-		ScrollBarButton.ArmedFgColor		"White"
+		ScrollBarButton.ArmedFgColor		"Blank"
 		ScrollBarButton.ArmedBgColor		"Blank"
-		ScrollBarButton.DepressedFgColor	"White"
+		ScrollBarButton.DepressedFgColor	"Blank"
 		ScrollBarButton.DepressedBgColor	"Blank"
 
-		ScrollBarSlider.FgColor				"Blank"			// nob color
-		ScrollBarSlider.BgColor				"255 255 255 64"	// slider background color
+		ScrollBarSlider.BgColor				"Blank"	// slider background color
+		ScrollBarSlider.FgColor				"White"			// nob color
 
 		SectionedListPanel.HeaderTextColor	"White"
 		SectionedListPanel.HeaderBgColor	"Blank"
@@ -160,9 +197,9 @@ Scheme
 		Slider.DisabledTextColor1	"117 117 117 255"
 		Slider.DisabledTextColor2	"30 30 30 255"
 
-		TextEntry.TextColor			"OffWhite"
+		TextEntry.TextColor			"White"
 		TextEntry.BgColor			"TransparentBlack"
-		TextEntry.CursorColor		"OffWhite"
+		TextEntry.CursorColor		"White"
 		TextEntry.DisabledTextColor	"DullWhite"
 		TextEntry.DisabledBgColor	"Blank"
 		TextEntry.SelectedTextColor	"Black"
@@ -181,20 +218,23 @@ Scheme
 
 		// scheme-specific colors
 		MainMenu.TextColor			"White"
-		MainMenu.ArmedTextColor		"200 200 200 255"
+		MainMenu.ArmedTextColor		"White"
+		
+		MainMenu.ArmedTextColor		"White"
 		MainMenu.DepressedTextColor	"192 186 80 255"
 		MainMenu.MenuItemHeight		"16"
 		MainMenu.Inset				"32"
 		MainMenu.Backdrop			"0 0 0 156"
 
-		Console.TextColor			"OffWhite"
+		Console.TextColor			"White"
 		Console.DevTextColor		"White"
 
 		NewGame.TextColor			"White"
 		NewGame.FillColor			"0 0 0 255"
 		NewGame.SelectionColor		"Orange"
 		NewGame.DisabledColor		"128 128 128 196"
-		TFColors.ChatTextYellow		"251 235 202 255"
+
+		TFColors.ChatTextYellow		"White"
 	}
 
 	//////////////////////// BITMAP FONT FILES /////////////////////////////
@@ -214,28 +254,30 @@ Scheme
 
 		"Default"
 		{
+			"isproportional" "only"
 			"1"
 			{
-				"name"		"Noto Sans"
-				"tall"		"12"
+				"name"		"Verdana"
+				"tall"		"12" [!$POSIX]
+				"tall"		"14" [$POSIX]
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
 				"yres"	"480 599"
-				"antialias"	"1"
 			}
 			"2"
 			{
-				"name"		"Noto Sans"
-				"tall"		"13"
+				"name"		"Verdana"
+				"tall"		"13" [!$POSIX]
+				"tall"		"16" [$POSIX]
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
 				"yres"	"600 767"
-				"antialias"	"1"
 			}
 			"3"
 			{
-				"name"		"Noto Sans"
-				"tall"		"14"
+				"name"		"Verdana"
+				"tall"		"14" [!$POSIX]
+				"tall"		"16" [$POSIX]
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
 				"yres"	"768 1023"
@@ -243,20 +285,20 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"Noto Sans"
-				"tall"		"16"
+				"name"		"Verdana"
+				"tall"		"16" [!$POSIX]
+				"tall"		"18" [$POSIX]
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
 				"yres"	"1024 1199"
 				"antialias"	"1"
 			}
-			"5"
+			"5" // Misyl: Proportional
 			{
-				"name"		"Noto Sans"
-				"tall"		"20"
+				"name"		"Verdana"
+				"tall"		"8"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
-				"yres"	"1200 6000"
 				"antialias"	"1"
 			}
 		}
@@ -356,7 +398,7 @@ Scheme
 			"isproportional" "only"
 			"1"
 			{
-				"name"			"DejaVu Sans"
+				"name"			"Verdana"
 				"tall"			"12"	[!$POSIX]
 				"tall"			"15"	[$POSIX]
 				"weight"		"700"
@@ -365,7 +407,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"			"DejaVu Sans"
+				"name"			"Verdana"
 				"tall"			"14"	[!$POSIX]
 				"tall"			"17"	[$POSIX]
 				"weight"		"700"
@@ -374,7 +416,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"			"DejaVu Sans"
+				"name"			"Verdana"
 				"tall"			"15"	[!$POSIX]
 				"tall"			"18"	[$POSIX]
 				"weight"		"700"
@@ -383,7 +425,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"			"DejaVu Sans"
+				"name"			"Verdana"
 				"tall"			"17"	[!$POSIX]
 				"tall"			"20"	[$POSIX]
 				"weight"		"700"
@@ -392,7 +434,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"			"DejaVu Sans"
+				"name"			"Verdana"
 				"tall"			"23"	[!$POSIX]
 				"tall"			"26"	[$POSIX]
 				"weight"		"100"
@@ -401,7 +443,7 @@ Scheme
 			}
 			"6" // Misyl: Proportional
 			{
-				"name"			"DejaVu Sans"
+				"name"			"Verdana"
 				"tall"			"8"
 				// Misyl: Looks bad when proportional
 				// Removing the weight here.
@@ -409,6 +451,40 @@ Scheme
 				//"weight"		"700"
 				"dropshadow"	"1"
 				"antialias" 	"0"
+			}
+		}
+		
+		"ChatOptionsFontLarge"
+		{
+			"1"
+			{
+				"name"			"TF2C Secondary"
+				"tall"			"10"
+				"weight"		"600"
+				"antialias"		"1"
+				"dropshadow"	"0"
+			}
+		}
+		"ChatOptionsFontMedium"
+		{
+			"1"
+			{
+				"name"			"TF2C Secondary"
+				"tall"			"8"
+				"weight"		"600"
+				"antialias"		"1"
+				"dropshadow"	"0"
+			}
+		}
+		"ChatOptionsFontSmall"
+		{
+			"1"
+			{
+				"name"			"TF2C Secondary"
+				"tall"			"7"
+				"weight"		"300"
+				"antialias"		"1"
+				"dropshadow"	"0"
 			}
 		}
 	}
@@ -807,22 +883,6 @@ Scheme
 					"offset" "0 0"
 				}
 			}
-		}
-	}
-
-	//////////////////////// CUSTOM FONT FILES /////////////////////////////
-	//
-	// specifies all the custom (non-system) font files that need to be loaded to service the above described fonts
-	CustomFontFiles
-	{
-		"1"		"resource/HALFLIFE2.ttf"
-		"2"		"resource/HL2EP2.ttf"		
-		"3"		"resource/neosans.ttf"
-		"4"		"resource/Cantarell.otf"
-		"5"
-		{
-			 "font" "resource/fonts/noto-sans-bold.ttf"
-			 "name" "Noto Sans"
 		}
 	}
 }
