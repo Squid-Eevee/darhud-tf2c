@@ -40,10 +40,10 @@
 		"image_minmode"	"../darhud/counter_reverse_blue"
 		"scaleImage"	"1"
 		
-		"if_4team"
+		"if_3team"
 		{
-			"xpos"			"c-180"
-			"xpos_minmode"	"c-126"
+			"xpos"			"c-135"
+			"xpos_minmode"	"c-94"
 			
 			"if_generic"
 			{
@@ -51,10 +51,10 @@
 				"image_minmode"	"../darhud/counter_reverse_blue"
 			}
 		}
-		"if_3team"
+		"if_4team"
 		{
-			"xpos"			"c-135"
-			"xpos_minmode"	"c-94"
+			"xpos"			"c-180"
+			"xpos_minmode"	"c-126"
 			
 			"if_generic"
 			{
@@ -100,6 +100,17 @@
 		"image_minmode"	"../darhud/counter_reverse_red"
 		"scaleImage"	"1"
 		
+		if_3team
+		{
+			"xpos"			"c-45"
+			"xpos_minmode"	"c-30"
+			
+			"if_generic"
+			{
+				"image"			"../darhud/dom/tdm_score_red"
+				"image_minmode"	"../darhud/counter_reverse_red"
+			}
+		}
 		"if_4team"
 		{
 			"xpos"			"c-90"
@@ -108,12 +119,8 @@
 			"if_generic"
 			{
 				"image"			"../darhud/dom/tdm_score_red"
+				"image_minmode"	"../darhud/counter_reverse_red"
 			}
-		}
-		if_3team
-		{
-			"xpos"			"c-45"
-			"xpos_minmode"	"c-30"
 		}
 	}
 	"AlertRedBG"
@@ -156,6 +163,12 @@
 		{
 			"xpos"			"c45"
 			"xpos_minmode"	"c34"
+			
+			"if_generic"
+			{
+				"image"			"../darhud/dom/tdm_score_green"
+				"image_minmode"	"../darhud/counter_reverse_green"
+			}
 		}
 		"if_4team"
 		{
@@ -202,15 +215,21 @@
 		"image_minmode"	"../darhud/counter_reverse_yellow"
 		"scaleImage"	"1"
 		
-		"if_dom_4team"
+		"if_3team"
 		{
-			"visible"		"1"
+			"if_generic"
+			{
+				"image"			"../darhud/dom/tdm_score_yellow"
+				"image_minmode"	"../darhud/counter_reverse_yellow"
+			}
 		}
-		"if_generic_4team"
+		"if_4team"
 		{
-			"image"			"../darhud/dom/tdm_score_yellow"
-			"image_minmode"	"../darhud/counter_reverse_yellow"
-			"visible"		"1"
+			"if_generic"
+			{
+				"image"			"../darhud/dom/tdm_score_yellow"
+				"image_minmode"	"../darhud/counter_reverse_yellow"
+			}
 		}
 	}
 	"AlertYellowBG"
@@ -250,7 +269,7 @@
 		
 		"if_3team"
 		{
-			"xpos"			"c-135"
+			"xpos"			"c-133"
 			"xpos_minmode"	"c-92"
 		}
 		"if_4team"
@@ -378,6 +397,13 @@
 				"xpos"			"c-109"
 				"xpos_minmode"	"c-78"
 			}
+			"if_generic"
+			{
+				"xpos"			"c-135"
+				"xpos_minmode"	"c-78"
+				"wide"			"90"
+				"wide_minmode"	"35"
+			}
 		}
 		"if_4team"
 		{
@@ -385,6 +411,13 @@
 			{
 				"xpos"			"c-154"
 				"xpos_minmode"	"c-110"
+			}
+			"if_generic"
+			{
+				"xpos"			"c-180"
+				"xpos_minmode"	"c-110"
+				"wide"			"90"
+				"wide_minmode"	"35"
 			}
 		}
 	}
@@ -450,6 +483,13 @@
 				"xpos"			"c-19"
 				"xpos_minmode"	"c-14"
 			}
+			"if_generic"
+			{
+				"xpos"			"c-45"
+				"xpos_minmode"	"c-14"
+				"wide"			"90"
+				"wide_minmode"	"35"
+			}
 		}
 		"if_4team"
 		{
@@ -457,6 +497,13 @@
 			{
 				"xpos"			"c-64"
 				"xpos_minmode"	"c-46"
+			}
+			"if_generic"
+			{
+				"xpos"			"c-90"
+				"xpos_minmode"	"c-46"
+				"wide"			"90"
+				"wide_minmode"	"35"
 			}
 		}
 	}
@@ -529,6 +576,13 @@
 				"xpos"			"c71"
 				"xpos_minmode"	"c51"
 			}
+			"if_generic"
+			{
+				"xpos"			"c45	"
+				"xpos_minmode"	"c51"
+				"wide"			"90"
+				"wide_minmode"	"35"
+			}
 		}
 		"if_4team"
 		{
@@ -536,6 +590,13 @@
 			{
 				"xpos"			"c26"
 				"xpos_minmode"	"c19"
+			}
+			"if_generic"
+			{
+				"xpos"			"c0"
+				"xpos_minmode"	"c16"
+				"wide"			"90"
+				"wide_minmode"	"35"
 			}
 		}
 	}
@@ -618,6 +679,13 @@
 			{
 				"xpos"	"c116"
 				"xpos_minmode"	"c83"
+			}
+			"if_generic"
+			{
+				"xpos"			"c90"
+				"xpos_minmode"	"c83"
+				"wide"			"90"
+				"wide_minmode"	"35"
 			}
 		}
 	}
