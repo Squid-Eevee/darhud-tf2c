@@ -12,7 +12,7 @@
 
 		"BlueScoreBG"
 		{
-			"ControlName"		"ImagePanel"
+			"ControlName"		"EditablePanel"
 			"fieldName"		"BlueScoreBG"
 			"proportionaltoparent"	"1"
 			"xpos"			"0"
@@ -23,7 +23,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"image"			"../darhud/square_blue"
+			"border"			"TFFatLineBorderBlueBGMoreOpaque"
 			"scaleImage"		"1"
 			
 			if_3team
@@ -38,7 +38,7 @@
 		}
 		"RedScoreBG"
 		{
-			"ControlName"		"ImagePanel"
+			"ControlName"		"EditablePanel"
 			"fieldName"		"RedScoreBG"
 			"proportionaltoparent"	"1"
 			"xpos"			"210"
@@ -49,7 +49,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"image"			"../darhud/square_red"
+			"border"			"TFFatLineBorderRedBGMoreOpaque"
 			"scaleImage"		"1"
 			
 			if_3team
@@ -66,7 +66,7 @@
 		}
 		"GreenScoreBG"
 		{
-			"ControlName"		"ImagePanel"
+			"ControlName"		"EditablePanel"
 			"fieldName"		"GreenScoreBG"
 			"proportionaltoparent"	"1"
 			"xpos"			"0"
@@ -77,7 +77,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"image"			"../darhud/square_green"
+			"border"			"TFFatLineBorderGreenBGMoreOpaque"
 			"scaleImage"		"1"
 			
 			if_3team
@@ -94,7 +94,7 @@
 		}
 		"YellowScoreBG"
 		{
-			"ControlName"		"ImagePanel"
+			"ControlName"		"EditablePanel"
 			"fieldName"		"YellowScoreBG"
 			"proportionaltoparent"	"1"
 			"xpos"			"210"
@@ -105,7 +105,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"image"			"../darhud/square_yellow"
+			"border"			"TFFatLineBorderYellowBGMoreOpaque"
 			"scaleImage"		"1"
 			
 			if_3team
