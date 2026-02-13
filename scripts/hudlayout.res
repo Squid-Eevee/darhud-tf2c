@@ -861,7 +861,7 @@
 		"enabled"				"1"
 		"xpos"					"c-210"
 		"ypos"					"0"
-		"wide"					"420"
+		"wide"					"422"
 		"tall"					"480"
 		"zpos"					"12"
 		"proportionaltoparent"	"1"
