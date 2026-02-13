@@ -373,7 +373,7 @@
 		"textAlignment"			"center"
 		"textinsetx"				"0"
 
-		"xpos_minmode"				"c-39"
+		"xpos_minmode"				"c-44"
 		"ypos_minmode"				"6"
 		"wide_minmode"				"35"
 		"tall_minmode"				"18"
@@ -459,7 +459,7 @@
 		"textAlignment"			"center"
 		"textinsetx"				"0"
 		
-		"xpos_minmode"			"c21"
+		"xpos_minmode"			"c16"
 		"ypos_minmode"			"6"
 		"wide_minmode"			"35"
 		"tall_minmode"			"18"
