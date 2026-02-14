@@ -451,7 +451,7 @@
 	{	
 		"ControlName"			"CExLabel"
 		"fieldName"			"WinReasonLabel"
-		"font"				"ScoreboardVerySmall"
+		"font"				"WinPanelDetailsFont"
 		"fgcolor_override"	"GeneralLabel"
 		"xpos"				"63"
 		"ypos"				"r108"
@@ -468,7 +468,7 @@
 	{	
 		"ControlName"			"CExLabel"
 		"fieldName"			"DetailsLabel"
-		"font"				"ScoreboardVerySmall"
+		"font"				"WinPanelDetailsFont"
 		"fgcolor_override"	"GeneralLabel"
 		"xpos"				"63"
 		"ypos"				"r94"

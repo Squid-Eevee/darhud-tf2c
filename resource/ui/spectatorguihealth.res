@@ -68,7 +68,9 @@
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"
-		"font"			"ChatFont"
+		"font"			"TargetHealthFont"
 		"fgcolor"		"HealthNormal"
+		"dropshadow"		"1"
+		"dropshadowoffset"	"2"
 	}
 }

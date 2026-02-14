@@ -80,7 +80,7 @@
 	{	
 		"ControlName"	"Label"
 		"fieldName"		"TargetDataLabel"
-		"font"			"DefaultVerySmall"
+		"font"			"TargetDataFont"
 		"fgcolor"		"GeneralLabel"
 		"xpos"			"0"
 		"ypos"			"4"
@@ -91,7 +91,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"textinsetx"		"4"
+		"textinsetx"		"0"
 		"labelText"		"%targetdata%"
 		"textAlignment"		"west"
 		"fgcolor_override" "GeneralLabel"

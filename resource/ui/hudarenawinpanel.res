@@ -495,7 +495,7 @@
 	{	
 		"ControlName"			"CExLabel"
 		"fieldName"			"WinReasonLabel"
-		"font"				"ScoreboardVerySmall"
+		"font"				"WinPanelDetailsFont"
 		"xpos"				"28"
 		"ypos"				"r108"
 		"zpos"				"1"
@@ -512,7 +512,7 @@
 	{	
 		"ControlName"			"CExLabel"
 		"fieldName"			"DetailsLabel"
-		"font"				"ScoreboardVerySmall"
+		"font"				"WinPanelDetailsFont"
 		"xpos"				"28"
 		"ypos"				"r94"
 		"zpos"				"1"
