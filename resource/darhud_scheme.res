@@ -362,58 +362,58 @@ Scheme
 			{
 				"name"		"TF2C Secondary"
 				"tall"		"10"
-				"weight"	"550"
+				"weight"	"600"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"480 599"
+				"yres"		"480 599"
 			}
 			"2"
 			{
 				"name"		"TF2C Secondary"
 				"tall"		"12"
-				"weight"	"550"
+				"weight"	"600"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"600 768"
+				"yres"		"600 768"
 			}
 			"3"
 			{
 				"name"		"TF2C Secondary"
 				"tall"		"13"
-				"weight"	"550"
+				"weight"	"600"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"769 1023"
+				"yres"		"769 1023"
 				"antialias"	"1"
 			}
 			"4"
 			{
 				"name"		"TF2C Secondary"
 				"tall"		"17"
-				"weight"	"550"
+				"weight"	"600"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"1024 1199"
+				"yres"		"1024 1199"
 				"antialias"	"1"
 			}
 			"5"
 			{
 				"name"		"TF2C Secondary"
 				"tall"		"22"
-				"weight"	"550"
+				"weight"	"600"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"1200 6000"
+				"yres"		"1200 6000"
 				"antialias"	"1"
 			}
 			"6"
 			{
 				"name"		"TF2C Secondary"
 				"tall"		"22"
-				"range" 		"0x0000 0x00FF"
-				"weight"		"550"
+				"range" 	"0x0000 0x00FF"
+				"weight"	"600"
 			}
 			"7"
 			{
 				"name"		"TF2C Secondary"
 				"tall"		"22"
-				"range" 		"0x0000 0x00FF"
-				"weight"		"550"
+				"range" 	"0x0000 0x00FF"
+				"weight"	"600"
 			}
 		}
 		
@@ -1514,5 +1514,6 @@ Scheme
 	}
 
 }
+
 
 
