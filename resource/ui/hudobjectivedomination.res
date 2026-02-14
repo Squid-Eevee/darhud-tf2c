@@ -40,6 +40,14 @@
 		"image_minmode"	"../darhud/counter_reverse_blue"
 		"scaleImage"	"1"
 		
+		"if_2team"
+		{
+			"if_generic"
+			{
+				"image"			"../darhud/dom/tdm_score_blue"
+				"image_minmode"	"../darhud/counter_reverse_blue"
+			}
+		}
 		"if_3team"
 		{
 			"xpos"			"c-135"
@@ -100,6 +108,14 @@
 		"image_minmode"	"../darhud/counter_reverse_red"
 		"scaleImage"	"1"
 		
+		"if_2team"
+		{
+			"if_generic"
+			{
+				"image"			"../darhud/dom/tdm_score_red"
+				"image_minmode"	"../darhud/counter_reverse_red"
+			}
+		}
 		if_3team
 		{
 			"xpos"			"c-45"
@@ -159,6 +175,14 @@
 		"image_minmode"	"../darhud/counter_reverse_green"
 		"scaleImage"	"1"
 		
+		"if_2team"
+		{
+			"if_generic"
+			{
+				"image"			"../darhud/dom/tdm_score_green"
+				"image_minmode"	"../darhud/counter_reverse_green"
+			}
+		}
 		"if_3team"
 		{
 			"xpos"			"c45"
@@ -215,6 +239,14 @@
 		"image_minmode"	"../darhud/counter_reverse_yellow"
 		"scaleImage"	"1"
 		
+		"if_2team"
+		{
+			"if_generic"
+			{
+				"image"			"../darhud/dom/tdm_score_yellow"
+				"image_minmode"	"../darhud/counter_reverse_yellow"
+			}
+		}
 		"if_3team"
 		{
 			"if_generic"
@@ -390,6 +422,16 @@
 		"dropshadow"		"1"
 		"dropshadowoffset"	"3"
 		
+		"if_2team"
+		{
+			"if_generic"
+			{
+				"xpos"			"c-90"
+				"xpos_minmode"	"c-44"
+				"wide"			"90"
+				"wide_minmode"	"35"
+			}
+		}
 		"if_3team"
 		{
 			"if_dom"
@@ -476,6 +518,16 @@
 		"dropshadow"		"1"
 		"dropshadowoffset"	"3"
 		
+		"if_2team"
+		{
+			"if_generic"
+			{
+				"xpos"			"c0"
+				"xpos_minmode"	"c16"
+				"wide"			"90"
+				"wide_minmode"	"35"
+			}
+		}
 		"if_3team"
 		{
 			"if_dom"
@@ -569,6 +621,16 @@
 		"dropshadow"		"1"
 		"dropshadowoffset"	"3"
 		
+		"if_2team"
+		{
+			"if_generic"
+			{
+				"xpos"			"c0"
+				"xpos_minmode"	"c18"
+				"wide"			"90"
+				"wide_minmode"	"35"
+			}
+		}
 		"if_3team"
 		{
 			"if_dom"
@@ -665,6 +727,16 @@
 		"dropshadow"		"1"
 		"dropshadowoffset"	"3"
 		
+		"if_2team"
+		{
+			"if_generic"
+			{
+				"xpos"			"c90"
+				"xpos_minmode"	"c82"
+				"wide"			"90"
+				"wide_minmode"	"35"
+			}
+		}
 		"if_3team"
 		{
 			"if_dom"
