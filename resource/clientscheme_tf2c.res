@@ -213,65 +213,7 @@ Scheme
 	}
 	
 	Fonts
-	{
-		// Options
-		"SubmenuTab"
-		{
-			"1"
-			{
-				"name"		 "TF2C Build"
-				"tall"		 "14"
-				"weight"	 "400"
-				"additive"	 "0"
-				"antialias"  "1"
-			}
-		}
-		"SubmenuSubTab"
-		{
-			"1"
-			{
-				"name"		 "TF2C Build"
-				"tall"		 "12"
-				"weight"	 "400"
-				"additive"	 "0"
-				"antialias"  "1"
-			}
-		}
-		"SubmenuSubHeader"
-		{
-			"1"
-			{
-				"name"		 "TF2C Build"
-				"tall"		 "14"
-				"weight"	 "400"
-				"additive"	 "0"
-				"antialias"  "1"
-			}
-		}
-		"SubmenuText"
-		{
-			"1"
-			{
-				"name"		 "DejaVu Sans Condensed"
-				"tall"		 "12"
-				"weight"	 "400"
-				"additive"	 "0"
-				"antialias"  "1"
-			}
-		}
-		
-		"SubmenuTextEntry"
-		{
-			"1"
-			{
-				"name"		 "DejaVu Sans Condensed"
-				"tall"		 "14"
-				"weight"	 "900"
-				"additive"	 "0"
-				"antialias"  "1"
-			}
-		}
-	
+	{	
 		// Used for playtime label on the loading screen
 		"TF2CMenuTitle"
 		{

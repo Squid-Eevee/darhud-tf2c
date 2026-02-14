@@ -237,6 +237,64 @@ Scheme
 			}
 		}
 		
+		// Options
+		"SubmenuTab"
+		{
+			"1"
+			{
+				"name"		 "TF2C Build"
+				"tall"		 "14"
+				"weight"	 "400"
+				"additive"	 "0"
+				"antialias"  "1"
+			}
+		}
+		"SubmenuSubTab"
+		{
+			"1"
+			{
+				"name"		 "TF2C Build"
+				"tall"		 "12"
+				"weight"	 "400"
+				"additive"	 "0"
+				"antialias"  "1"
+			}
+		}
+		"SubmenuSubHeader"
+		{
+			"1"
+			{
+				"name"		 "TF2C Build"
+				"tall"		 "14"
+				"weight"	 "400"
+				"additive"	 "0"
+				"antialias"  "1"
+			}
+		}
+		"SubmenuText"
+		{
+			"1"
+			{
+				"name"		 "TF2C Secondary"
+				"tall"		 "12"
+				"weight"	 "400"
+				"additive"	 "0"
+				"antialias"  "1"
+			}
+		}
+		
+		"SubmenuTextEntry"
+		{
+			"1"
+			{
+				"name"		 "TF2C Secondary"
+				"tall"		 "14"
+				"weight"	 "900"
+				"additive"	 "0"
+				"antialias"  "1"
+			}
+		}
+		
 		"DisguiseWeaponFont"
 		{
 			"1"
@@ -431,6 +489,65 @@ Scheme
 				"weight"	"400"
 				"additive"	"0"
 				"antialias" "1"
+			}
+		}
+		"WinPanelStatsFont"
+		{
+			"1"
+			{
+				"name"		"TF2C Secondary"
+				"tall"		"12"
+				"weight"	"900"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"480 599"
+			}
+			"2"
+			{
+				"name"		"TF2C Secondary"
+				"tall"		"13"
+				"weight"	"900"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"600 767"
+			}
+			"3"
+			{
+				"name"		"TF2C Secondary"
+				"tall"		"14"
+				"weight"	"900"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"768 1023"
+				"antialias"	"1"
+			}
+			"4"
+			{
+				"name"		"TF2C Secondary"
+				"tall"		"20"
+				"weight"	"900"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"1024 1199"
+				"antialias"	"1"
+			}
+			"5" // Misyl: Proportional
+			{
+				"name"		"TF2C Secondary"
+				"tall"		"9"
+				"weight"	"900"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"antialias"	"1"
+			}
+			"6"
+			{
+				"name"		"TF2C Secondary"
+				"tall"		"12"
+				"range" 		"0x0000 0x00FF"
+				"weight"		"900"
+			}
+			"7"
+			{
+				"name"		"Arial"
+				"tall"		"12"
+				"range" 		"0x0000 0x00FF"
+				"weight"		"800"
 			}
 		}
 		
