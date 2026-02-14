@@ -108,6 +108,43 @@ Scheme
 	
 	Fonts
 	{
+		//TF2C overrides
+		"ClockSubText"
+		{
+			"1"
+			{
+				"name"		"TF2C Secondary"
+				"tall"		"9"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"ClockSubTextSuddenDeath"
+		{
+			"1"
+			{
+				"name"		"TF2C Build"
+				"tall"		"8"
+				"tall_hidef"	"9"
+				"tall_lodef"	"10"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"ClockSubTextTiny"
+		{
+			"1"
+			{
+				"name"		"TF2C Secondary"
+				"tall"		"8"
+				"tall_hidef"	"7"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
 		"MeterLabelFont"
 		{
 			"1"
@@ -384,9 +421,231 @@ Scheme
 				"dropshadow"	"1"
 			}
 		}
+
+		"WinPanelDetailsFont"
+		{
+			"1"
+			{
+				"name"		"TF2C Secondary"
+				"tall"		"8"
+				"weight"	"400"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		
+		"TargetDataFont"
+		{
+			"1"
+			{
+				"name"		"TF2C Secondary"
+				"tall"		"13"
+				"weight"		"550"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"480 599"
+			}
+			"2"
+			{
+				"name"		"TF2C Secondary"
+				"tall"		"13"
+				"weight"		"550"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"600 767"
+			}
+			"3"
+			{
+				"name"		"TF2C Secondary"
+				"tall"		"13"
+				"weight"		"550"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"768 1023"
+				"antialias"	"1"
+			}
+			"4"
+			{
+				"name"		"TF2C Secondary"
+				"tall"		"15"
+				"weight"		"550"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"1024 1199"
+				"antialias"	"1"
+			}
+			"5" // Misyl: Proportional
+			{
+				"name"		"TF2C Secondary"
+				"tall"		"13"
+				"weight"		"550"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"antialias"	"1"
+			}
+		}
+		
+		"TargetHealthFont"
+		{
+			"1"
+			{
+				"name"		"TF2C"
+				"tall"		"12"
+				"weight"	"300"
+				"yres"		"480 599"
+				"dropshadow"	"0"
+				"antialias"	"1"
+			}
+			"2"
+			{
+				"name"		"TF2C Build"
+				"tall"		"13"
+				"weight"	"300"
+				"yres"		"600 767"
+				"dropshadow"	"0"
+				"antialias"	"1"
+			}
+			"3"
+			{
+				"name"		"TF2C Build"
+				"tall"		"14"
+				"weight"	"300"
+				"yres"		"768 1023"
+				"dropshadow"	"0"
+				"antialias"	"1"
+			}
+			"4"
+			{
+				"name"		"TF2C Build"
+				"tall"		"20"
+				"weight"	"300"
+				"yres"		"1024 1199"
+				"dropshadow"	"0"
+				"antialias"	"1"
+			}
+			"5"
+			{
+				"name"		"TF2C Build"
+				"tall"		"24"
+				"weight"	"300"
+				"yres"		"1200 10000"
+				"dropshadow"	"0"
+				"antialias"	"1"
+			}
+		}
 	}
 	Borders
 	{
+		//TF2C overrides
+		TFThinLineBorder
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"../darhud/square_spectator"
+		}
+		TFFatLineBorderOpaque
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"../darhud/square_spectator"
+		}
+		TFFatLineBorder
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"../darhud/square_spectator"
+		}
+		TFFatLineBorderRedBGOpaque
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"../darhud/square_red"
+		}
+		TFFatLineBorderRedBGOpaque_Store
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"../darhud/square_red"
+		}
+		TFFatLineBorderRedBG
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"../darhud/square_red"
+		}
+		TFFatLineBorderRedBGMoreOpaque
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"../darhud/square_red"
+		}
+		TFFatLineBorderBlueBG
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"../darhud/square_blue"
+		}
+		TFFatLineBorderBlueBGMoreOpaque
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"../darhud/square_blue"
+		}
+		TFFatLineBorderBlueBGOpaque
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"../darhud/square_blue"
+		}
+		TFFatLineBorderGreenBG
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"../darhud/square_green"
+		}
+		TFFatLineBorderGreenBGMoreOpaque
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"../darhud/square_green"
+		}
+		TFFatLineBorderGreenBGOpaque
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"../darhud/square_green"
+		}
+		TFFatLineBorderYellowBG
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"../darhud/square_yellow"
+		}
+		TFFatLineBorderYellowBGMoreOpaque
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"../darhud/square_yellow"
+		}
+		TFFatLineBorderYellowBGOpaque
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"../darhud/square_yellow"
+		}
+		
+		
 		"ControllerSelectBorder"
 		{
 			"bordertype"			"scalable_image"

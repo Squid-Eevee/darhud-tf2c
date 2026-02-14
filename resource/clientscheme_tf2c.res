@@ -1,4 +1,3 @@
-#base "darhud_scheme.res"
 //
 // TRACKER SCHEME RESOURCE FILE
 //
@@ -67,50 +66,7 @@ Scheme
 	}
 	
 	Borders
-	{
-		TFFatLineBorderGreenBG
-		{
-			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
-			
-			"image"					"../darhud/square_green"
-		}
-		TFFatLineBorderGreenBGMoreOpaque
-		{
-			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
-			
-			"image"					"../darhud/square_green"
-		}
-		TFFatLineBorderGreenBGOpaque
-		{
-			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
-			
-			"image"					"../darhud/square_green"
-		}
-		TFFatLineBorderYellowBG
-		{
-			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
-			
-			"image"					"../darhud/square_yellow"
-		}
-		TFFatLineBorderYellowBGMoreOpaque
-		{
-			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
-			
-			"image"					"../darhud/square_yellow"
-		}
-		TFFatLineBorderYellowBGOpaque
-		{
-			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
-			
-			"image"					"../darhud/square_yellow"
-		}
-		
+	{		
 		// Options
 		OptionsMenuSliderBorder
 		{
@@ -296,7 +252,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		 "TF2C Secondary"
+				"name"		 "DejaVu Sans Condensed"
 				"tall"		 "12"
 				"weight"	 "400"
 				"additive"	 "0"
@@ -308,7 +264,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		 "TF2C Secondary"
+				"name"		 "DejaVu Sans Condensed"
 				"tall"		 "14"
 				"weight"	 "900"
 				"additive"	 "0"
@@ -357,7 +313,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2C Secondary"
+				"name"		"Cantarell Regular"
 				"tall"		"9"
 				"weight"	"0"
 				"additive"	"0"
@@ -369,7 +325,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2C Secondary"
+				"name"		"Cantarell Regular"
 				"tall"		"7"
 				"weight"	"0"
 				"additive"	"0"
@@ -441,7 +397,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2C Secondary"
+				"name"		"Cantarell Regular"
 				"tall"		"8"
 				"weight"	"0"
 				"additive"	"0"
@@ -693,7 +649,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Cantarell Regular"
+				"name"		"TF2C Secondary"
 				"tall"		"8"
 				"weight"	"0"
 				"additive"	"0"
@@ -717,7 +673,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Cantarell Regular"
+				"name"		"TF2C Secondary"
 				"tall"		"8"
 				"weight"	"0"
 				"additive"	"0"
