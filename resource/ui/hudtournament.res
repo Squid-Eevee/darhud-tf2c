@@ -653,7 +653,7 @@
 		"fieldName"		"TournamentREDLabel"
 		"font"			"HudFontSmallestBold"
 		"fgcolor_override"	"GeneralLabel"
-		"xpos"			"c0"
+		"xpos"			"c1"
 		"ypos"			"38"
 		"zpos"			"1"
 		"wide"			"115"
@@ -667,6 +667,7 @@
 		"textAlignment"		"east"
 		"dropshadow"		"1"
 		"dropshadowoffset"	"2"
+		"textinsetx"		"1"
 
 		if_mvm
 		{
@@ -773,12 +774,12 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"TournamentInstructionsLabel"
-		"font"			"DefaultSmall"
+		"font"			"WinPanelDetailsFont"
 		"fgcolor"		"GeneralLabel"
 		"xpos"			"cs-0.5"
-		"ypos"			"55"
+		"ypos"			"53"
 		"wide"			"250"
-		"tall"			"10"
+		"tall"			"14"
 		"zpos"			"1"
 		"autoResize"		"0"
 		"pinCorner"		"0"
