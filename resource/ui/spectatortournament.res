@@ -38,7 +38,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"playername"
-				"font"			"DefaultVerySmall"
+				"font"			"WinPanelDetailsFont"
 				"fgcolor_override"	"GeneralLabel"
 				"xpos"			"1"
 				"ypos"			"16"
@@ -50,6 +50,8 @@
 				"visible"		"1"
 				"labelText"		"%playername%"
 				"textAlignment"	"west"
+				"dropshadow"	"1"
+				"dropshadowoffset"	"2"
 				//"fgcolor"		"235 226 202 255"
 			}
 
@@ -444,4 +446,3 @@
 		"alpha"			"128"
 	}	
 }
-
