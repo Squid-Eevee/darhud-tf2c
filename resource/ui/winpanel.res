@@ -563,7 +563,7 @@
 	{	
 		"ControlName"			"CExLabel"
 		"fieldName"				"Player1Name"
-		"font"					"WinpanelFont"
+		"font"					"WinpanelStatsFont"
 		"xpos"					"6"
 		"ypos"					"0"
 		"zpos"					"3"
@@ -601,7 +601,7 @@
 	{	
 		"ControlName"			"CExLabel"
 		"fieldName"				"Player1Score"
-		"font"					"WinpanelFont"
+		"font"					"WinpanelStatsFont"
 		"xpos"					"46"
 		"ypos"					"0"
 		"zpos"					"3"
@@ -636,7 +636,7 @@
 	{	
 		"ControlName"			"CExLabel"
 		"fieldName"				"Player2Name"
-		"font"					"WinpanelFont"
+		"font"					"WinpanelStatsFont"
 		"xpos"					"6"
 		"ypos"					"0"
 		"zpos"					"3"
@@ -674,7 +674,7 @@
 	{	
 		"ControlName"			"CExLabel"
 		"fieldName"				"Player2Score"
-		"font"					"WinpanelFont"
+		"font"					"WinpanelStatsFont"
 		"xpos"					"46"
 		"ypos"					"0"
 		"zpos"					"3"
@@ -709,7 +709,7 @@
 	{	
 		"ControlName"			"CExLabel"
 		"fieldName"				"Player3Name"
-		"font"					"WinpanelFont"
+		"font"					"WinpanelStatsFont"
 		"xpos"					"6"
 		"ypos"					"0"
 		"zpos"					"3"
@@ -747,7 +747,7 @@
 	{	
 		"ControlName"			"CExLabel"
 		"fieldName"				"Player3Score"
-		"font"					"WinpanelFont"
+		"font"					"WinpanelStatsFont"
 		"xpos"					"46"
 		"ypos"					"0"
 		"zpos"					"3"

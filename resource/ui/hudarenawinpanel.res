@@ -675,6 +675,7 @@
 		{	
 			"ControlName"		"CExLabel"
 			"fieldName"		"Player1Name"
+			"font"					"WinpanelStatsFont"
 			"xpos"			"16"
 			"ypos"			"-2"
 			"wide"			"105"
@@ -690,6 +691,7 @@
 		{	
 			"ControlName"		"CExLabel"
 			"fieldName"		"Player1Class"
+			"font"					"WinpanelStatsFont"
 			"xpos"			"125"
 			"ypos"			"-2"
 			"wide"			"200"
@@ -705,6 +707,7 @@
 		{	
 			"ControlName"		"CExLabel"
 			"fieldName"		"Player1Damage"
+			"font"					"WinpanelStatsFont"
 			"xpos"			"181"
 			"ypos"			"-2"
 			"wide"			"30"
@@ -720,6 +723,7 @@
 		{	
 			"ControlName"		"CExLabel"
 			"fieldName"		"Player1Healing"
+			"font"					"WinpanelStatsFont"
 			"xpos"			"229"
 			"ypos"			"-2"
 			"wide"			"30"
@@ -735,6 +739,7 @@
 		{	
 			"ControlName"		"CExLabel"
 			"fieldName"		"Player1Lifetime"
+			"font"					"WinpanelStatsFont"
 			"xpos"			"275"
 			"ypos"			"-2"
 			"wide"			"30"
@@ -750,6 +755,7 @@
 		{	
 			"ControlName"		"CExLabel"
 			"fieldName"		"Player1Kills"
+			"font"					"WinpanelStatsFont"
 			"xpos"			"300"
 			"ypos"			"-2"
 			"wide"			"30"
@@ -779,6 +785,7 @@
 		{	
 			"ControlName"		"CExLabel"
 			"fieldName"		"Player2Name"
+			"font"					"WinpanelStatsFont"
 			"xpos"			"16"
 			"ypos"			"15"
 			"wide"			"105"
@@ -794,6 +801,7 @@
 		{	
 			"ControlName"		"CExLabel"
 			"fieldName"		"Player2Class"
+			"font"					"WinpanelStatsFont"
 			"xpos"			"125"
 			"ypos"			"15"
 			"wide"			"200"
@@ -809,6 +817,7 @@
 		{	
 			"ControlName"		"CExLabel"
 			"fieldName"		"Player2Damage"
+			"font"					"WinpanelStatsFont"
 			"xpos"			"181"
 			"ypos"			"15"
 			"wide"			"30"
@@ -824,6 +833,7 @@
 		{	
 			"ControlName"		"CExLabel"
 			"fieldName"		"Player2Healing"
+			"font"					"WinpanelStatsFont"
 			"xpos"			"229"
 			"ypos"			"15"
 			"wide"			"30"
@@ -839,6 +849,7 @@
 		{	
 			"ControlName"		"CExLabel"
 			"fieldName"		"Player2Lifetime"
+			"font"					"WinpanelStatsFont"
 			"xpos"			"275"
 			"ypos"			"15"
 			"wide"			"30"
@@ -854,6 +865,7 @@
 		{	
 			"ControlName"		"CExLabel"
 			"fieldName"		"Player2Kills"
+			"font"					"WinpanelStatsFont"
 			"xpos"			"300"
 			"ypos"			"15"
 			"wide"			"30"
@@ -883,6 +895,7 @@
 		{	
 			"ControlName"		"CExLabel"
 			"fieldName"		"Player3Name"
+			"font"					"WinpanelStatsFont"
 			"xpos"			"16"
 			"ypos"			"32"
 			"wide"			"105"
@@ -898,6 +911,7 @@
 		{	
 			"ControlName"		"CExLabel"
 			"fieldName"		"Player3Class"
+			"font"					"WinpanelStatsFont"
 			"xpos"			"125"
 			"ypos"			"32"
 			"wide"			"200"
@@ -913,6 +927,7 @@
 		{	
 			"ControlName"		"CExLabel"
 			"fieldName"		"Player3Damage"
+			"font"					"WinpanelStatsFont"
 			"xpos"			"181"
 			"ypos"			"32"
 			"wide"			"30"
@@ -928,6 +943,7 @@
 		{	
 			"ControlName"		"CExLabel"
 			"fieldName"		"Player3Healing"
+			"font"					"WinpanelStatsFont"
 			"xpos"			"229"
 			"ypos"			"32"
 			"wide"			"30"
@@ -943,6 +959,7 @@
 		{	
 			"ControlName"		"CExLabel"
 			"fieldName"		"Player3Lifetime"
+			"font"					"WinpanelStatsFont"
 			"xpos"			"275"
 			"ypos"			"32"
 			"wide"			"30"
@@ -958,6 +975,7 @@
 		{	
 			"ControlName"		"CExLabel"
 			"fieldName"		"Player3Kills"
+			"font"					"WinpanelStatsFont"
 			"xpos"			"300"
 			"ypos"			"32"
 			"wide"			"30"
@@ -999,6 +1017,7 @@
 		{	
 			"ControlName"		"CExLabel"
 			"fieldName"		"Player1Name"
+			"font"					"WinpanelStatsFont"
 			"xpos"			"16"
 			"ypos"			"-2"
 			"wide"			"105"
@@ -1015,6 +1034,7 @@
 		{	
 			"ControlName"		"CExLabel"
 			"fieldName"		"Player1Class"
+			"font"					"WinpanelStatsFont"
 			"xpos"			"125"
 			"ypos"			"-2"
 			"wide"			"200"
@@ -1031,6 +1051,7 @@
 		{	
 			"ControlName"		"CExLabel"
 			"fieldName"		"Player1Damage"
+			"font"					"WinpanelStatsFont"
 			"xpos"			"181"
 			"ypos"			"-2"
 			"wide"			"30"
@@ -1047,6 +1068,7 @@
 		{	
 			"ControlName"		"CExLabel"
 			"fieldName"		"Player1Healing"
+			"font"					"WinpanelStatsFont"
 			"xpos"			"229"
 			"ypos"			"-2"
 			"wide"			"30"
@@ -1063,6 +1085,7 @@
 		{	
 			"ControlName"		"CExLabel"
 			"fieldName"		"Player1Lifetime"
+			"font"					"WinpanelStatsFont"
 			"xpos"			"275"
 			"ypos"			"-2"
 			"wide"			"30"
@@ -1079,6 +1102,7 @@
 		{	
 			"ControlName"		"CExLabel"
 			"fieldName"		"Player1Kills"
+			"font"					"WinpanelStatsFont"
 			"xpos"			"300"
 			"ypos"			"-2"
 			"wide"			"30"
@@ -1109,6 +1133,7 @@
 		{	
 			"ControlName"		"CExLabel"
 			"fieldName"		"Player2Name"
+			"font"					"WinpanelStatsFont"
 			"xpos"			"16"
 			"ypos"			"15"
 			"wide"			"105"
@@ -1125,6 +1150,7 @@
 		{	
 			"ControlName"		"CExLabel"
 			"fieldName"		"Player2Class"
+			"font"					"WinpanelStatsFont"
 			"xpos"			"125"
 			"ypos"			"15"
 			"wide"			"200"
@@ -1141,6 +1167,7 @@
 		{	
 			"ControlName"		"CExLabel"
 			"fieldName"		"Player2Damage"
+			"font"					"WinpanelStatsFont"
 			"xpos"			"181"
 			"ypos"			"15"
 			"wide"			"30"
@@ -1157,6 +1184,7 @@
 		{	
 			"ControlName"		"CExLabel"
 			"fieldName"		"Player2Healing"
+			"font"					"WinpanelStatsFont"
 			"xpos"			"229"
 			"ypos"			"15"
 			"wide"			"30"
@@ -1173,6 +1201,7 @@
 		{	
 			"ControlName"		"CExLabel"
 			"fieldName"		"Player2Lifetime"
+			"font"					"WinpanelStatsFont"
 			"xpos"			"275"
 			"ypos"			"15"
 			"wide"			"30"
@@ -1189,6 +1218,7 @@
 		{	
 			"ControlName"		"CExLabel"
 			"fieldName"		"Player2Kills"
+		"font"					"WinpanelStatsFont"
 			"xpos"			"300"
 			"ypos"			"15"
 			"wide"			"30"
@@ -1219,6 +1249,7 @@
 		{	
 			"ControlName"		"CExLabel"
 			"fieldName"		"Player3Name"
+			"font"					"WinpanelStatsFont"
 			"xpos"			"16"
 			"ypos"			"32"
 			"wide"			"105"
@@ -1235,6 +1266,7 @@
 		{	
 			"ControlName"		"CExLabel"
 			"fieldName"		"Player3Class"
+			"font"					"WinpanelStatsFont"
 			"xpos"			"125"
 			"ypos"			"32"
 			"wide"			"200"
@@ -1251,6 +1283,7 @@
 		{	
 			"ControlName"		"CExLabel"
 			"fieldName"		"Player3Damage"
+			"font"					"WinpanelStatsFont"
 			"xpos"			"181"
 			"ypos"			"32"
 			"wide"			"30"
@@ -1267,6 +1300,7 @@
 		{	
 			"ControlName"		"CExLabel"
 			"fieldName"		"Player3Healing"
+			"font"					"WinpanelStatsFont"
 			"xpos"			"229"
 			"ypos"			"32"
 			"wide"			"30"
@@ -1283,6 +1317,7 @@
 		{	
 			"ControlName"		"CExLabel"
 			"fieldName"		"Player3Lifetime"
+			"font"					"WinpanelStatsFont"
 			"xpos"			"275"
 			"ypos"			"32"
 			"wide"			"30"
@@ -1299,6 +1334,7 @@
 		{	
 			"ControlName"		"CExLabel"
 			"fieldName"		"Player3Kills"
+			"font"					"WinpanelStatsFont"
 			"xpos"			"300"
 			"ypos"			"32"
 			"wide"			"30"
