@@ -27,7 +27,7 @@
 		
 		"navDown"			"GameButton"
 		"navUp"				"ApplyButton"
-		
+
 		"TooltipPanel"
 		{
 			"ControlName"	"EditablePanel"
@@ -35,31 +35,31 @@
 			"xpos"			"0"
 			"ypos"			"0"
 			"zpos"			"10000"
+			"wide"			"150"
+			"tall"			"50"
 			"visible"		"0"
-			"PaintBackgroundType"	"2"
-			"border"		"MainMenuBGBorder"
-			
-			"inputenabled"	"0"
-			
+			"border"			"DarHudTooltip"
+
 			"TipLabel"
 			{
-				"ControlName"	"CExLabel"
-				"fieldName"		"TipLabel"
-				"font"			"HudFontSmallest"
-				"labelText"		"%tiptext%"
-				"textAlignment"	"center"
-				"xpos"			"10"
-				"ypos"			"5"
-				"zpos"			"2"
-				"wide"			"0"
-				"tall"			"30"
-				"autoResize"	"0"
-				"pinCorner"		"0"
-				"visible"		"1"
-				"enabled"		"1"
-				"centerwrap"	"1"
-				"fgcolor_override"	"235 226 202 255"
-				"inputenabled"	"0"
+				"ControlName"			"CExLabel"
+				"fieldName"			"TipLabel"
+				"font"				"HudFontSmallest"
+				"labelText"			"%tiptext%"
+				"textAlignment"		"center"
+				"xpos"				"10"
+				"ypos"				"5"
+				"zpos"				"2"
+				"wide"				"140"
+				"tall"				"30"
+				"autoResize"			"0"
+				"pinCorner"			"0"
+				"visible"			"1"
+				"enabled"			"1"
+				"fgcolor_override"	"GeneralLabel"
+				"auto_wide_tocontents" "1"
+				"dropshadow"			"1"
+				"dropshadowoffset"	"2"
 			}
 		}
 	
