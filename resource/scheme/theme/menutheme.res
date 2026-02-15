@@ -13,9 +13,11 @@ Scheme
 		//Loadout Screen
 		"LoadoutBackground"	"31 31 31 255"
 		"LoadoutFooter"		"20 20 20 255"
+		"LoadoutTooltip"		"55 55 55 255"
 		"ClassModelBackground"	"20 20 20 255"
 		
 		"DialogBackground"	"31 31 31 255"
 		"OptionsBackground"	"31 31 31 255"
 	}
+
 }
