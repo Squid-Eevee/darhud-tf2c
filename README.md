@@ -47,7 +47,3 @@ The larger control point icons are probably possible but the arena control point
 ### Console Command Windows
 
 Console Command Windows can't really exist as it did before due to the removal of several GameUI windows that were cannibalised to make it work. There's other Training Mode dialogs I could use but they remain open when the game is unpaused and have to be manually closed, so not very convenient for console commands. It has been reimplemented as a customisation for the main menu, but there are fewer commands and it's less convenient to use since you can't freely move it around and you can't dismiss it. I'll probably continue to work on it over time but this is where it's at for now. Another personal request of mine would be to add in expandable panels from live TF2 so the window can be dismissed without needing to unpause the game or move files around, but again, I don't see that being a priority for them.
-
-# Misc
-
-The Offline Practice menu has been left untouched because it's a pain in the arse to edit since it covers up the VGUI Drawtree and Console windows. Maybe some day, but I'm too burnt out at the moment. I just want this damn thing working for as many users as possible.
