@@ -13,7 +13,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"		"0"
-		"bgcolor_override"	"0 0 0 0"
+		"bgcolor_override"	"0 0 0 127"
 	}
 	"whitebg"
 	{
@@ -153,7 +153,7 @@
 		"fieldName"		"ContainerShadowMid"
 		"xpos"			"cs-0.5"
 		"ypos"			"0"
-		"wide"			"640"
+		"wide"			"400"
 		"tall"			"f0"
 		"zpos"			"-1"
 		"autoResize"	"0"
