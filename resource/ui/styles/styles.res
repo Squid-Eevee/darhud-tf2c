@@ -72,7 +72,6 @@
 		"zpos"			"1"
 		"visible"		"1"
 		"enabled"		"1"
-		"labelText"		""
 		"wide"			"140"
 		"tall"			"28"
 		"image"	"../darhud/square_white"
@@ -550,7 +549,7 @@
 
 		"proportionalToParent"	"1"
 
-		"CornerSize"	"4"
+		"CornerSize"	"0"
 
 		"defaultBgColor_override"	"ListingBody"
 		"armedBgColor_override"		"ListingItems"
