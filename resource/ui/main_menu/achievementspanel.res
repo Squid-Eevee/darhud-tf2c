@@ -60,9 +60,9 @@
 					"visible"					"1"
 					"enabled"					"1"
 					"ProportionalToParent"		"1"
-					"PaintBackgroundType"		"2"
-					"RoundedCorners"			"15"
-					"CornerSize"				"5"
+					"PaintBackgroundType"		"0"
+					"RoundedCorners"			"0"
+					"CornerSize"				"0"
 					"bgcolor_override"			"ListingBody"
 				}
 				
@@ -80,9 +80,9 @@
 					"visible"					"1"
 					"enabled"					"1"
 					"ProportionalToParent"		"1"
-					"PaintBackgroundType"		"2"
-					"RoundedCorners"			"15"
-					"CornerSize"				"5"
+					"PaintBackgroundType"		"0"
+					"RoundedCorners"			"0"
+					"CornerSize"				"0"
 					"bgcolor_override"			"ListingItems"
 
 					"pin_to_sibling"			"ProgressBackground"
@@ -93,9 +93,9 @@
 					{
 						"ControlName"				"EditablePanel"
 						"fieldName"					"ProgressBar"
-						"PaintBackgroundType"		"2"
-						"RoundedCorners"			"15"
-						"CornerSize"				"5"
+						"PaintBackgroundType"		"0"
+						"RoundedCorners"			"0"
+						"CornerSize"				"0"
 						"bgcolor_override"			"GreenTF2C"
 					}
 				}
@@ -243,9 +243,9 @@
 						"wide"					"22"
 						"tall"					"22"
 						"visible"				"0"
-						"PaintBackgroundType"	"2"
-						"RoundedCorners"		"15"
-						"CornerSize"			"5"
+						"PaintBackgroundType"	"0"
+						"RoundedCorners"		"0"
+						"CornerSize"			"0"
 						"bgcolor_override"		"ListingItems"
 						"mouseinputenabled"		"0"
 					}
@@ -278,9 +278,9 @@
 						"wide"					"22"
 						"tall"					"22"
 						"visible"				"0"
-						"PaintBackgroundType"	"2"
-						"RoundedCorners"		"15"
-						"CornerSize"			"5"
+						"PaintBackgroundType"	"0"
+						"RoundedCorners"		"0"
+						"CornerSize"			"0"
 						"bgcolor_override"		"ListingBody"
 						"mouseinputenabled"		"0"
 					}
@@ -376,12 +376,12 @@
 				"tall"			"50"
 				"visible"		"0"
 				"border"			"DarHudTooltip"
-				
+
 				"TipLabel"
 				{
 					"ControlName"			"CExLabel"
 					"fieldName"			"TipLabel"
-					"font"				"HudFontSmallestBold"
+					"font"				"HudFontSmallest"
 					"labelText"			"%tiptext%"
 					"textAlignment"		"center"
 					"xpos"				"10"
@@ -396,7 +396,7 @@
 					"fgcolor_override"	"GeneralLabel"
 					"auto_wide_tocontents" "1"
 					"dropshadow"			"1"
-					"dropshadowoffset"	"3"
+					"dropshadowoffset"	"2"
 				}
 			}
 		}
