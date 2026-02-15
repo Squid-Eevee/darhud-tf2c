@@ -6,17 +6,15 @@
 		"fieldName" 			"HudChat"
 		"visible" 				"1"
 		"enabled" 				"1"
-		"xpos"					"11"
-		"xpos_minmode"			"-5"
+		"xpos"					"79"
 		"ypos"					"255"
 		"wide"	 				"268"
-		"wide_minmode"			"273"
 		"tall"	 				"123"
 		"roundedcorners"	"0"
 		"bordervisible"	"1"
 		"paintbackground"	"1"
 		"PaintBackgroundType" "0"
-		"bgcolor_override"	"0 0 0 255"
+		"bgcolor_override"	"ChatBackground"
 	}
 
 	ChatInputLine

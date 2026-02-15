@@ -4,8 +4,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"HudChatFilterPanel"
-		"xpos"			"290"
-		"xpos_minmode"	"280"
+		"xpos"			"352"
 		"ypos"			"255"
 		"zpos"			"0"
 		"wide"			"130"
@@ -16,7 +15,18 @@
 		"bordervisible"	"0"
 		"paintbackground"	"1"
 		"PaintBackgroundType" "0"
-		"bgcolor_override"	"0 0 0 127"
+		"bgcolor_override"	"0 0 0 128"
+	}
+	
+	"background"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"	"background"
+		"zpos"		"-10"
+		"wide"		"f0"
+		"tall"		"f0"
+		"bgcolor_override"	"ChatBackground"
+		"alpha"		"128"
 	}
 
 	"joinleave_button"
@@ -33,6 +43,8 @@
 		"enabled"		"1"
 		"labelText"		"#filter_joinleave"
 		"textAlignment"	"west"
+		"dropshadow"				"1"
+		"dropshadowoffset"		"2"
 	}
 	"namechange_button"
 	{
@@ -52,6 +64,8 @@
 		"pin_to_sibling"		"joinleave_button"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 		"pin_to_sibling_corner"	"PIN_BOTTOMLEFT"
+		"dropshadow"				"1"
+		"dropshadowoffset"		"2"
 	}
 	"publicchat_button"
 	{
@@ -71,6 +85,8 @@
 		"pin_to_sibling"		"namechange_button"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 		"pin_to_sibling_corner"	"PIN_BOTTOMLEFT"
+		"dropshadow"				"1"
+		"dropshadowoffset"		"2"
 	}
 	"servermsg_button"
 	{
@@ -90,6 +106,8 @@
 		"pin_to_sibling"		"publicchat_button"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 		"pin_to_sibling_corner"	"PIN_BOTTOMLEFT"
+		"dropshadow"				"1"
+		"dropshadowoffset"		"2"
 	}
 	"teamchange_button"
 	{
@@ -109,6 +127,8 @@
 		"pin_to_sibling"		"servermsg_button"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 		"pin_to_sibling_corner"	"PIN_BOTTOMLEFT"
+		"dropshadow"				"1"
+		"dropshadowoffset"		"2"
 	}
 	
 	"achievement_button"
@@ -129,6 +149,8 @@
 		"pin_to_sibling"		"teamchange_button"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 		"pin_to_sibling_corner"	"PIN_BOTTOMLEFT"
+		"dropshadow"				"1"
+		"dropshadowoffset"		"2"
 	}
 	
 	"voicecommand_button"
@@ -149,6 +171,8 @@
 		
 		"pin_to_sibling"		"achievement_button"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
-		"pin_to_sibling_corner"	"PIN_BOTTOMLEFT"	
+		"pin_to_sibling_corner"	"PIN_BOTTOMLEFT"
+		"dropshadow"				"1"
+		"dropshadowoffset"		"2"
 	}
 }
