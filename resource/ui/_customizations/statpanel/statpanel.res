@@ -4,7 +4,7 @@
 	{
 		"fieldName"	"StatPanel"
 		"xpos"		"c-103"
-		"ypos"		"320"
+		"ypos"		"268"
 		"wide"		"208"
 		"tall"		"58"
 		"visible"	"1"
