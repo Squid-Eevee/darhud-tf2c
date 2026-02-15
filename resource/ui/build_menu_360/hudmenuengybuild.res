@@ -296,6 +296,78 @@
 		"visible"		"1"
 	}
 	
+	"unavailable_item_1"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"unavailable_item_1"
+		"xpos"			"26"
+		"ypos"			"36"
+		"zpos"			"1"
+		"wide"			"62"
+		"tall"			"62"
+		"visible"		"0"
+	}	
+	
+	"unavailable_item_2"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"unavailable_item_2"
+		"xpos"			"83"
+		"ypos"			"36"
+		"zpos"			"1"
+		"wide"			"62"
+		"tall"			"62"
+		"visible"		"1"
+	}	
+	
+	"unavailable_item_3"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"unavailable_item_3"
+		"xpos"			"140"
+		"ypos"			"36"
+		"zpos"			"1"
+		"wide"			"62"
+		"tall"			"62"
+		"visible"		"1"
+	}	
+	
+	"unavailable_item_4"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"unavailable_item_4"
+		"xpos"			"197"
+		"ypos"			"36"
+		"zpos"			"1"
+		"wide"			"62"
+		"tall"			"62"
+		"visible"		"1"
+	}
+	
+	"unavailable_item_5"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"unavailable_item_5"
+		"xpos"			"140"
+		"ypos"			"36"
+		"zpos"			"1"
+		"wide"			"62"
+		"tall"			"62"
+		"visible"		"1"
+	}	
+	
+	"unavailable_item_6"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"unavailable_item_6"
+		"xpos"			"197"
+		"ypos"			"36"
+		"zpos"			"1"
+		"wide"			"62"
+		"tall"			"62"
+		"visible"		"1"
+	}
+	
 	"active_selection_bg"
 	{
 		"ControlName"		"CIconPanel"
