@@ -85,20 +85,62 @@
 		"enabled"		"1"
 		"bgcolor_override"	"TransparentStripe"
 	}
-
-	"VerticalBGBorder"
+	"VerticalBGLeft"
 	{
 		"ControlName"	"EditablePanel"
-		"fieldname"		"VerticalBGBorder"
-		"xpos"			"5"
-		"ypos"			"10"
-		"zpos"			"-11"
-		"wide"			"233"
-		"tall"			"f-20"
+		"fieldName"		"VerticalBGLeft"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"-3"
+		"wide"			"5"
+		"tall"			"f0"
+		"zpos"			"-1"
+		"autoResize"	"0"
+		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"border"		"OuterShadowBorder"
-		"pin_to_sibling" "VerticalBG"
+		"tabPosition"	"0"
+		
+		"RoundedCorners" "0"
+		"PaintBackgroundType"	"3"
+		"paintbackground"	"1"
+		"bgcolor_override"	"MainMenuBackground"
+		
+		"FadeAlphaStart"	"0"
+		"FadeAlphaEnd"	"255"
+		
+		"pin_to_sibling"	"VerticalBG"
+		"pin_corner_to_sibling"		"pin_topright"
+		"pin_to_sibling_corner"	"pin_topleft"
+	}
+	
+	"VerticalBGRight"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"VerticalBGRight"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"-3"
+		"wide"			"5"
+		"tall"			"f0"
+		"zpos"			"-1"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		
+		"RoundedCorners" "0"
+		"PaintBackgroundType"	"3"
+		"paintbackground"	"1"
+		"bgcolor_override"	"MainMenuBackground"
+		
+		"FadeAlphaStart"	"255"
+		"FadeAlphaEnd"	"0"
+		
+		"pin_to_sibling"	"VerticalBG"
+		"pin_corner_to_sibling"		"pin_topleft"
+		"pin_to_sibling_corner"	"pin_topright"
 	}
 
 	"Logo"
@@ -1345,6 +1387,7 @@
 	}
 
 }
+
 
 
 
