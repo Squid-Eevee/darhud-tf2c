@@ -96,6 +96,8 @@
 			"textAlignment"	"south"
 			"fgcolor"		"235 226 202 255"
 			"centerwrap"	"1"
+			"dropshadow"		"1"
+			"dropshadowoffset"	"3"
 		}
 		"attriblabel"
 		{
@@ -115,6 +117,9 @@
 			"textAlignment"	"south"
 			"fgcolor"		"117 107 94 255"
 			"centerwrap"	"1"
+			//the drop shadow copies the text colour for some reason
+			"dropshadow"		"0"
+			"dropshadowoffset"	"1"
 		}
 		"equippedlabel"
 		{
