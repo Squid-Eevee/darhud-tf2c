@@ -7,6 +7,11 @@
 		"labelText"		"#TF_Object_Jump"
 	}
 	
+	"BuildingIcon"	
+	{
+		"image"			"resource/svgs/engineer/hud_obj_status_jumppad.svg"
+	}
+	
 	"NumberLabel"
 	{	
 		"labelText"		"3"
