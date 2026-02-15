@@ -990,7 +990,7 @@
 		
 		"if_hybrid_double"
 		{
-			"xpos"		"c-115"
+			"xpos"		"c-50"
 		}
 
 		"if_specialdelivery"
@@ -1047,7 +1047,7 @@
 		
 		"if_hybrid_double"
 		{
-			"xpos"		"c-45"
+			"xpos"		"c0"
 		}
 
 		"if_specialdelivery"
