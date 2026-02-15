@@ -1,3 +1,4 @@
+#base "darhud_scheme.res"
 #base "scheme/teamcolors.res"
 #base "customfontfiles.res"
 
