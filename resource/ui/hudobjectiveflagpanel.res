@@ -985,7 +985,7 @@
 		
 		"if_hybrid_single"
 		{
-			"xpos"		"c-80"
+			"xpos"		"c-25"
 		}
 		
 		"if_hybrid_double"
@@ -1042,7 +1042,7 @@
 		
 		"if_hybrid_single"
 		{
-			"xpos"		"c-80"
+			"xpos"		"c-25"
 		}
 		
 		"if_hybrid_double"
@@ -1102,7 +1102,7 @@
 		
 		"if_hybrid_single"
 		{
-			"xpos"		"c-80"
+			"xpos"		"c-25"
 		}
 		
 		"if_hybrid_double"
@@ -1151,7 +1151,7 @@
 		
 		"if_hybrid_single"
 		{
-			"xpos"		"c-80"
+			"xpos"		"c-25"
 		}
 		
 		"if_hybrid_double"
