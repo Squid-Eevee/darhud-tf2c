@@ -73,10 +73,11 @@
 		
 		"if_4team"
 		{
-			"xpos_minmode"	"c-130"
+			"xpos"	"c-146"
+			"wide"	"70"
+			"xpos_minmode"	"c-110"
 			"ypos_minmode"	"r48"
-			"xpos"	"c-186"
-			"wide_minmode"	"60"
+			"wide_minmode"	"50"
 			"tall_minmode"	"22"
 		}
 		
@@ -117,7 +118,8 @@
 		
 		"if_4team"
 		{
-			"wide_minmode"	"60"
+			"wide"	"70"
+			"wide_minmode"	"50"
 			"tall_minmode"	"22"
 		}
 		
@@ -157,10 +159,12 @@
 		
 		"if_4team"
 		{
-			"xpos_minmode"	"c-65"
+			"xpos"			"c-75"
+			"wide"	"70"
+			"xpos_minmode"	"c-55"
 			"ypos_minmode"	"r48"
 			"visible"	"1"
-			"wide_minmode"	"60"
+			"wide_minmode"	"50"
 			"tall_minmode"	"22"
 		}
 		
@@ -201,8 +205,9 @@
 		
 		"if_4team"
 		{
+			"wide"	"70"
 			"visible"	"1"
-			"wide_minmode"	"60"
+			"wide_minmode"	"50"
 			"tall_minmode"	"22"
 		}
 
@@ -278,8 +283,9 @@
 		"if_4team"
 		{
 			"ypos_minmode"	"r48"
+			"wide"			"70"
 			"image"	"../darhud/counter_reverse_green"
-			"wide_minmode"	"60"
+			"wide_minmode"	"50"
 			"tall_minmode"	"22"
 		}
 		
@@ -320,7 +326,8 @@
 		
 		"if_4team"
 		{
-			"wide_minmode"	"60"
+			"wide"			"70"
+			"wide_minmode"	"50"
 			"tall_minmode"	"22"
 		}
 		
@@ -361,10 +368,12 @@
 		
 		"if_4team"
 		{
-			"xpos_minmode"	"c70"
+			"xpos"			"c76"
+			"xpos_minmode"	"c60"
 			"ypos_minmode"	"r48"
+			"wide"			"70"
 			"visible"	"1"
-			"wide_minmode"	"60"
+			"wide_minmode"	"50"
 			"tall_minmode"	"22"
 		}
 		
@@ -405,8 +414,9 @@
 		
 		"if_4team"
 		{
+			"wide"			"70"
 			"visible"	"1"
-			"wide_minmode"	"60"
+			"wide_minmode"	"50"
 			"tall_minmode"	"22"
 		}
 		"if_hybrid"
@@ -603,10 +613,10 @@
 		
 		"if_4team"
 		{
-			"xpos"			"c-170"
-			"xpos_minmode"	"c-130"
+			"xpos"			"c-130"
+			"xpos_minmode"	"c-110"
 			"ypos_minmode"	"r50"
-			"wide_minmode"	"60"
+			"wide_minmode"	"50"
 			"tall_minmode"	"22"
 			"textAlignment_minmode"	"center"
 			"font_minmode"	"HudFontMediumBold"
@@ -670,10 +680,10 @@
 		
 		"if_4team"
 		{
-			"xpos"			"c-80"
-			"xpos_minmode"	"c-65"
+			"xpos"			"c-60"
+			"xpos_minmode"	"c-55"
 			"ypos_minmode"	"r50"
-			"wide_minmode"	"60"
+			"wide_minmode"	"50"
 			"tall_minmode"	"22"
 			"textinsetx"		"0"
 			"textinsetx_minmode"		"0"
@@ -740,13 +750,14 @@
 		
 		"if_4team"
 		{
+			"xpos"			"c-12"
 			"textAlignment"		"east"
 			"textinsetx"			"3"
 			"textinsetx_minmode"	"0"
 			"visible"	"1"
 			"xpos_minmode"	"c5"
 			"ypos_minmode"	"r50"
-			"wide_minmode"	"60"
+			"wide_minmode"	"50"
 			"tall_minmode"	"22"
 			"textAlignment"	"east"
 			"textAlignment_minmode"	"center"
@@ -817,10 +828,10 @@
 		"if_4team"
 		{
 			"textAlignment"	"east"
-			"xpos"			"c98"
-			"xpos_minmode"	"c70"
+			"xpos"			"c58"
+			"xpos_minmode"	"c60"
 			"ypos_minmode"	"r50"
-			"wide_minmode"	"60"
+			"wide_minmode"	"50"
 			"tall_minmode"	"22"
 			"textinsetx"		"3"
 			"textinsetx_minmode"		"0"
@@ -971,8 +982,8 @@
 		{
 			"if_4team"
 			{
-				"xpos"			"c-140"
-				"xpos_minmode"	"c-125"
+				"xpos"			"c-121"
+				"xpos_minmode"	"c-110"
 				"ypos_minmode"	"r95"
 			}
 		}
@@ -1029,7 +1040,7 @@
 			"if_4team"
 			{
 				"xpos"			"c-50"
-				"xpos_minmode"	"c-60"
+				"xpos_minmode"	"c-55"
 				"ypos_minmode"	"r95"
 			}
 		}
@@ -1089,7 +1100,6 @@
 			"if_4team"
 			{
 				"xpos"			"c0"
-				"xpos_minmode"	"c10"
 				"ypos_minmode"	"r95"
 			}
 		}
@@ -1137,8 +1147,8 @@
 		{
 			"if_4team"
 			{
-				"xpos"			"c90"
-				"xpos_minmode"	"c75"
+				"xpos"			"c71"
+				"xpos_minmode"	"c60"
 				"ypos_minmode"	"r95"
 			}
 		}
