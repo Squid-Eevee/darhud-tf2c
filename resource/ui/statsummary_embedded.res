@@ -41,7 +41,7 @@
 			{
 				"ControlName"		"ComboBox"
 				"fieldName"			"BarChartComboA"
-				"font"				"StatsFont"
+				"font"				"TargetDataFont"
 				"xpos"				"c-285"
 				"ypos"				"212"
 				"zpos"				"10"
@@ -82,7 +82,7 @@
 			{
 				"ControlName"		"ComboBox"
 				"fieldName"			"BarChartComboB"
-				"font"				"StatsFont"
+				"font"				"TargetDataFont"
 				"xpos"				"c-127"
 				"ypos"				"212"
 				"zpos"				"10"
@@ -123,7 +123,7 @@
 			{
 				"ControlName"		"ComboBox"
 				"fieldName"			"ClassCombo"
-				"font"				"StatsFont"
+				"font"				"TargetDataFont"
 				"xpos"				"c+120"
 				"ypos"				"212"
 				"zpos"				"10"
@@ -220,7 +220,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel1A"
-			"font"			"StatsFont"
+			"font"			"TargetDataFont"
 			"labelText"		"%classbarlabel1A%"
 			"textAlignment"		"west"
 			"xpos"			"c-282"
@@ -235,7 +235,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel1B"
-			"font"			"StatsFont"
+			"font"			"TargetDataFont"
 			"labelText"		"%classbarlabel1B%"
 			"textAlignment"		"west"
 			"xpos"			"c-127"
@@ -250,7 +250,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassLabel1"
-			"font"			"StatsFont"
+			"font"			"HudFontSmallestBold"
 			"labelText"		"%class1%"
 			"textAlignment"		"west"
 			"xpos"			"c+35"
@@ -321,7 +321,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel2A"
-			"font"			"StatsFont"
+			"font"			"TargetDataFont"
 			"labelText"		"%classbarlabel2A%"
 			"textAlignment"		"west"
 			"xpos"			"c-282"
@@ -336,7 +336,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel2B"
-			"font"			"StatsFont"
+			"font"			"TargetDataFont"
 			"labelText"		"%classbarlabel2B%"
 			"textAlignment"		"west"
 			"xpos"			"c-127"
@@ -351,7 +351,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassLabel2"
-			"font"			"StatsFont"
+			"font"			"HudFontSmallestBold"
 			"labelText"		"%class2%"
 			"textAlignment"		"west"
 			"xpos"			"c+35"
@@ -422,7 +422,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel3A"
-			"font"			"StatsFont"
+			"font"			"TargetDataFont"
 			"labelText"		"%classbarlabel3A%"
 			"textAlignment"		"west"
 			"xpos"			"c-282"
@@ -437,7 +437,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel3B"
-			"font"			"StatsFont"
+			"font"			"TargetDataFont"
 			"labelText"		"%classbarlabel3B%"
 			"textAlignment"		"west"
 			"xpos"			"c-127"
@@ -452,7 +452,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassLabel3"
-			"font"			"StatsFont"
+			"font"			"HudFontSmallestBold"
 			"labelText"		"%class3%"
 			"textAlignment"		"west"
 			"xpos"			"c+35"
@@ -523,7 +523,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel4A"
-			"font"			"StatsFont"
+			"font"			"TargetDataFont"
 			"labelText"		"%classbarlabel4A%"
 			"textAlignment"		"west"
 			"xpos"			"c-282"
@@ -538,7 +538,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel4B"
-			"font"			"StatsFont"
+			"font"			"TargetDataFont"
 			"labelText"		"%classbarlabel4B%"
 			"textAlignment"		"west"
 			"xpos"			"c-127"
@@ -553,7 +553,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassLabel4"
-			"font"			"StatsFont"
+			"font"			"HudFontSmallestBold"
 			"labelText"		"%class4%"
 			"textAlignment"		"west"
 			"xpos"			"c+35"
@@ -624,7 +624,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel5A"
-			"font"			"StatsFont"
+			"font"			"TargetDataFont"
 			"labelText"		"%classbarlabel5A%"
 			"textAlignment"		"west"
 			"xpos"			"c-282"
@@ -639,7 +639,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel5B"
-			"font"			"StatsFont"
+			"font"			"TargetDataFont"
 			"labelText"		"%classbarlabel5B%"
 			"textAlignment"		"west"
 			"xpos"			"c-127"
@@ -654,7 +654,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassLabel5"
-			"font"			"StatsFont"
+			"font"			"HudFontSmallestBold"
 			"labelText"		"%class5%"
 			"textAlignment"		"west"
 			"xpos"			"c+35"
@@ -725,7 +725,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel6A"
-			"font"			"StatsFont"
+			"font"			"TargetDataFont"
 			"labelText"		"%classbarlabel6A%"
 			"textAlignment"		"west"
 			"xpos"			"c-282"
@@ -740,7 +740,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel6B"
-			"font"			"StatsFont"
+			"font"			"TargetDataFont"
 			"labelText"		"%classbarlabel6B%"
 			"textAlignment"		"west"
 			"xpos"			"c-127"
@@ -755,7 +755,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassLabel6"
-			"font"			"StatsFont"
+			"font"			"HudFontSmallestBold"
 			"labelText"		"%class6%"
 			"textAlignment"		"west"
 			"xpos"			"c+35"
@@ -826,7 +826,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel7A"
-			"font"			"StatsFont"
+			"font"			"TargetDataFont"
 			"labelText"		"%classbarlabel7A%"
 			"textAlignment"		"west"
 			"xpos"			"c-282"
@@ -841,7 +841,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel7B"
-			"font"			"StatsFont"
+			"font"			"TargetDataFont"
 			"labelText"		"%classbarlabel7B%"
 			"textAlignment"		"west"
 			"xpos"			"c-127"
@@ -856,7 +856,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassLabel7"
-			"font"			"StatsFont"
+			"font"			"HudFontSmallestBold"
 			"labelText"		"%class7%"
 			"textAlignment"		"west"
 			"xpos"			"c+35"
@@ -927,7 +927,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel8A"
-			"font"			"StatsFont"
+			"font"			"TargetDataFont"
 			"labelText"		"%classbarlabel8A%"
 			"textAlignment"		"west"
 			"xpos"			"c-282"
@@ -943,7 +943,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel8B"
-			"font"			"StatsFont"
+			"font"			"TargetDataFont"
 			"labelText"		"%classbarlabel8B%"
 			"textAlignment"		"west"
 			"xpos"			"c-127"
@@ -958,7 +958,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassLabel8"
-			"font"			"StatsFont"
+			"font"			"HudFontSmallestBold"
 			"labelText"		"%class8%"
 			"textAlignment"		"west"
 			"xpos"			"c+35"
@@ -1029,7 +1029,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel9A"
-			"font"			"StatsFont"
+			"font"			"TargetDataFont"
 			"labelText"		"%classbarlabel9A%"
 			"textAlignment"		"west"
 			"xpos"			"c-282"
@@ -1044,7 +1044,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel9B"
-			"font"			"StatsFont"
+			"font"			"TargetDataFont"
 			"labelText"		"%classbarlabel9B%"
 			"textAlignment"		"west"
 			"xpos"			"c-127"
@@ -1059,7 +1059,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassLabel9"
-			"font"			"StatsFont"
+			"font"			"HudFontSmallestBold"
 			"labelText"		"%class9%"
 			"textAlignment"	"west"
 			"xpos"			"c+35"
@@ -1130,7 +1130,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel10A"
-			"font"			"StatsFont"
+			"font"			"TargetDataFont"
 			"labelText"		"%classbarlabel10A%"
 			"textAlignment"		"west"
 			"xpos"			"c-282"
@@ -1145,7 +1145,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel10B"
-			"font"			"StatsFont"
+			"font"			"TargetDataFont"
 			"labelText"		"%classbarlabel10B%"
 			"textAlignment"		"west"
 			"xpos"			"c-127"
@@ -1160,7 +1160,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassLabel10"
-			"font"			"StatsFont"
+			"font"			"HudFontSmallestBold"
 			"labelText"		"%class10%"
 			"textAlignment"	"west"
 			"xpos"			"c+35"
@@ -1189,7 +1189,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord1Label"
-			"font"			"StatsFont"
+			"font"			"TargetDataFont"
 			"labelText"		"%classrecord1label%"
 			"textAlignment"		"west"
 			"xpos"			"c+128"
@@ -1204,7 +1204,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord1Value"
-			"font"			"StatsFont"
+			"font"			"TargetDataFont"
 			"labelText"		"%classrecord1value%"
 			"textAlignment"		"west"
 			"xpos"			"c+210"
@@ -1219,7 +1219,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord2Label"
-			"font"			"StatsFont"
+			"font"			"TargetDataFont"
 			"labelText"		"%classrecord2label%"
 			"textAlignment"		"west"
 			"xpos"			"c+128"
@@ -1234,7 +1234,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord2Value"
-			"font"			"StatsFont"
+			"font"			"TargetDataFont"
 			"labelText"		"%classrecord2value%"
 			"textAlignment"		"west"
 			"xpos"			"c+210"
@@ -1249,7 +1249,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord3Label"
-			"font"			"StatsFont"
+			"font"			"TargetDataFont"
 			"labelText"		"%classrecord3label%"
 			"textAlignment"		"west"
 			"xpos"			"c+128"
@@ -1264,7 +1264,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord3Value"
-			"font"			"StatsFont"
+			"font"			"TargetDataFont"
 			"labelText"		"%classrecord3value%"
 			"textAlignment"		"west"
 			"xpos"			"c+210"
@@ -1279,7 +1279,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord4Label"
-			"font"			"StatsFont"
+			"font"			"TargetDataFont"
 			"labelText"		"%classrecord4label%"
 			"textAlignment"		"west"
 			"xpos"			"c+128"
@@ -1294,7 +1294,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord4Value"
-			"font"			"StatsFont"
+			"font"			"TargetDataFont"
 			"labelText"		"%classrecord4value%"
 			"textAlignment"		"west"
 			"xpos"			"c+210"
@@ -1309,7 +1309,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord5Label"
-			"font"			"StatsFont"
+			"font"			"TargetDataFont"
 			"labelText"		"%classrecord5label%"
 			"textAlignment"		"west"
 			"xpos"			"c+128"
@@ -1324,7 +1324,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord5Value"
-			"font"			"StatsFont"
+			"font"			"TargetDataFont"
 			"labelText"		"%classrecord5value%"
 			"textAlignment"		"west"
 			"xpos"			"c+210"
@@ -1339,7 +1339,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord6Label"
-			"font"			"StatsFont"
+			"font"			"TargetDataFont"
 			"labelText"		"%classrecord6label%"
 			"textAlignment"		"west"
 			"xpos"			"c+128"
@@ -1354,7 +1354,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord6Value"
-			"font"			"StatsFont"
+			"font"			"TargetDataFont"
 			"labelText"		"%classrecord6value%"
 			"textAlignment"		"west"
 			"xpos"			"c+210"
@@ -1369,7 +1369,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord7Label"
-			"font"			"StatsFont"
+			"font"			"TargetDataFont"
 			"labelText"		"%classrecord7label%"
 			"textAlignment"		"west"
 			"xpos"			"c+128"
@@ -1384,7 +1384,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord7Value"
-			"font"			"StatsFont"
+			"font"			"TargetDataFont"
 			"labelText"		"%classrecord7value%"
 			"textAlignment"		"west"
 			"xpos"			"c+210"
@@ -1399,7 +1399,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord8Label"
-			"font"			"StatsFont"
+			"font"			"TargetDataFont"
 			"labelText"		"%classrecord8label%"
 			"textAlignment"	"west"
 			"xpos"			"c+128"
@@ -1414,7 +1414,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord8Value"
-			"font"			"StatsFont"
+			"font"			"TargetDataFont"
 			"labelText"		"%classrecord8value%"
 			"textAlignment"		"west"
 			"xpos"			"c+210"
@@ -1429,7 +1429,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord9Label"
-			"font"			"StatsFont"
+			"font"			"TargetDataFont"
 			"labelText"		"%classrecord9label%"
 			"textAlignment"		"west"
 			"xpos"			"c+128"
@@ -1444,7 +1444,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord9Value"
-			"font"			"StatsFont"
+			"font"			"TargetDataFont"
 			"labelText"		"%classrecord9value%"
 			"textAlignment"		"west"
 			"xpos"			"c+210"
@@ -1459,7 +1459,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord10Label"
-			"font"			"StatsFont"
+			"font"			"TargetDataFont"
 			"labelText"		"%classrecord10label%"
 			"textAlignment"		"west"
 			"xpos"			"c+128"
@@ -1474,7 +1474,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord10Value"
-			"font"			"StatsFont"
+			"font"			"TargetDataFont"
 			"labelText"		"%classrecord10value%"
 			"textAlignment"		"west"
 			"xpos"			"c+210"
@@ -1489,7 +1489,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord11Label"
-			"font"			"StatsFont"
+			"font"			"TargetDataFont"
 			"labelText"		"%classrecord11label%"
 			"textAlignment"		"west"
 			"xpos"			"c+128"
@@ -1504,7 +1504,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord11Value"
-			"font"			"StatsFont"
+			"font"			"TargetDataFont"
 			"labelText"		"%classrecord11value%"
 			"textAlignment"		"west"
 			"xpos"			"c+210"
@@ -1519,7 +1519,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord12Label"
-			"font"			"StatsFont"
+			"font"			"TargetDataFont"
 			"labelText"		"%classrecord12label%"
 			"textAlignment"		"west"
 			"xpos"			"c+128"
@@ -1534,7 +1534,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord12Value"
-			"font"			"StatsFont"
+			"font"			"TargetDataFont"
 			"labelText"		"%classrecord12value%"
 			"textAlignment"		"west"
 			"xpos"			"c+210"
@@ -1549,7 +1549,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord13Label"
-			"font"			"StatsFont"
+			"font"			"TargetDataFont"
 			"labelText"		"%classrecord13label%"
 			"textAlignment"		"west"
 			"xpos"			"c+128"
@@ -1564,7 +1564,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord13Value"
-			"font"			"StatsFont"
+			"font"			"TargetDataFont"
 			"labelText"		"%classrecord13value%"
 			"textAlignment"		"west"
 			"xpos"			"c+210"
@@ -1579,7 +1579,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord14Label"
-			"font"			"StatsFont"
+			"font"			"TargetDataFont"
 			"labelText"		"%classrecord14label%"
 			"textAlignment"		"west"
 			"xpos"			"c+128"
@@ -1594,7 +1594,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord14Value"
-			"font"			"StatsFont"
+			"font"			"TargetDataFont"
 			"labelText"		"%classrecord14value%"
 			"textAlignment"	"west"
 			"xpos"			"c+210"
@@ -1609,7 +1609,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord15Label"
-			"font"			"StatsFont"
+			"font"			"TargetDataFont"
 			"labelText"		"%classrecord15label%"
 			"textAlignment"		"west"
 			"xpos"			"c+128"
@@ -1624,7 +1624,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord15Value"
-			"font"			"StatsFont"
+			"font"			"TargetDataFont"
 			"labelText"		"%classrecord15value%"
 			"textAlignment"		"west"
 			"xpos"			"c+210"
@@ -1639,7 +1639,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord16Label"
-			"font"			"StatsFont"
+			"font"			"TargetDataFont"
 			"labelText"		"%classrecord16label%"
 			"textAlignment"		"west"
 			"xpos"			"c+128"
@@ -1654,7 +1654,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord16Value"
-			"font"			"StatsFont"
+			"font"			"TargetDataFont"
 			"labelText"		"%classrecord16value%"
 			"textAlignment"		"west"
 			"xpos"			"c+210"
@@ -1701,7 +1701,7 @@
 		"visible"				"0"
 		"enabled"				"1"
 		"wrap"					"1"
-		"font"					"SpectatorTipFont"
+		"font"					"HudFontSmallest"
 		
 		"pin_to_sibling"		"TipImage"
 		"pin_corner_to_sibling"	"PIN_CENTER_LEFT"
