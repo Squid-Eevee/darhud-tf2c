@@ -1290,51 +1290,6 @@
 			"pin_to_sibling"		"KillsLabel"
 			"pin_corner_to_sibling" "0"
 			"pin_to_sibling_corner" "1"
-			
-		}
-
-		"AssistsLabel"
-		{
-			"ControlName"		"CExLabel"
-			"fieldName"			"AssistsLabel"
-			"font"				"HudFontSmallest"
-			"labelText"			"#TF_ScoreBoard_AssistsLabel"
-			"textAlignment"		"west"
-			"xpos"				"0"
-			"ypos"				"0"
-			"zpos"				"3"
-			"wide"				"70"
-			"tall"				"12"
-			"autoResize"		"0"
-			"pinCorner"			"0"
-			"visible"			"1"
-			"enabled"			"1"
-			
-			"pin_to_sibling"		"KillsLabel"
-			"pin_corner_to_sibling" "0"
-			"pin_to_sibling_corner" "2"
-		}
-		"Assists"
-		{
-			"ControlName"		"CExLabel"
-			"fieldName"			"Assists"
-			"font"				"HudFontSmallest"
-			"labelText"			"%assists%"
-			"textAlignment"		"east"
-			"xpos"				"-6"
-			"ypos"				"0"
-			"zpos"				"3"
-			"wide"				"28"
-			"tall"				"12"
-			"autoResize"		"0"
-			"pinCorner"			"0"
-			"visible"			"1"
-			"enabled"			"1"
-			
-			"pin_to_sibling"		"AssistsLabel"
-			"pin_corner_to_sibling" "0"
-			"pin_to_sibling_corner" "1"
-			
 		}
 		
 		"DeathsLabel"
@@ -1354,7 +1309,7 @@
 			"visible"			"1"
 			"enabled"			"1"
 			
-			"pin_to_sibling"		"AssistsLabel"
+			"pin_to_sibling"		"KillsLabel"
 			"pin_corner_to_sibling" "0"
 			"pin_to_sibling_corner" "2"
 		}
@@ -1376,6 +1331,49 @@
 			"enabled"			"1"
 			
 			"pin_to_sibling"		"DeathsLabel"
+			"pin_corner_to_sibling" "0"
+			"pin_to_sibling_corner" "1"
+		}
+
+		"AssistsLabel"
+		{
+			"ControlName"		"CExLabel"
+			"fieldName"			"AssistsLabel"
+			"font"				"HudFontSmallest"
+			"labelText"			"#TF_ScoreBoard_AssistsLabel"
+			"textAlignment"		"west"
+			"xpos"				"0"
+			"ypos"				"0"
+			"zpos"				"3"
+			"wide"				"70"
+			"tall"				"12"
+			"autoResize"		"0"
+			"pinCorner"			"0"
+			"visible"			"1"
+			"enabled"			"1"
+			
+			"pin_to_sibling"		"DeathsLabel"
+			"pin_corner_to_sibling" "0"
+			"pin_to_sibling_corner" "2"
+		}
+		"Assists"
+		{
+			"ControlName"		"CExLabel"
+			"fieldName"			"Assists"
+			"font"				"HudFontSmallest"
+			"labelText"			"%assists%"
+			"textAlignment"		"east"
+			"xpos"				"-6"
+			"ypos"				"0"
+			"zpos"				"3"
+			"wide"				"28"
+			"tall"				"12"
+			"autoResize"		"0"
+			"pinCorner"			"0"
+			"visible"			"1"
+			"enabled"			"1"
+			
+			"pin_to_sibling"		"AssistsLabel"
 			"pin_corner_to_sibling" "0"
 			"pin_to_sibling_corner" "1"
 		}
@@ -2067,4 +2065,5 @@
 		}
 	}
 }
+
 
