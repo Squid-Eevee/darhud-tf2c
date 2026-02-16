@@ -323,6 +323,85 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}
 	
+	"HamburgerButton"
+	{
+		"ControlName"		"CExImageButton"
+		"fieldName"		"HamburgerButton"
+		"style"			"MainMenuButton"
+		"xpos"			"c-285"
+		"ypos"			"308"
+		"zpos"			"1"
+		"wide"			"20"
+		"tall"			"20"
+		"visible"		"1"
+		"enabled"		"1"
+		"font"			"HudFontSmallBold"
+		"textAlignment"	"center"
+		"actionsignallevel"	"2"
+		"Command"		"tf2c_loadout_grid 0"
+		
+		"image_default"	"resource/svgs/mainmenu/hamburger.svg"
+		"stayselectedonclick"	"1"
+		"image_selectedcolor"	"ButtonArmedLabelMM"
+		"border_selected"		"DarhudMMSquareButtonArmed"
+		
+		"dropshadowoffset"	"3"
+		"SubImage"
+		{
+			"wide"		"f8"
+			"tall"		"o1"
+			"xpos"		"cs-0.5+1"
+		}
+	}
+	"HamburgerButtonShadow"
+	{
+		"ControlName"		"CTFImagePanel"
+		"fieldName"		"HamburgerButtonShadow"
+		"style"			"MainMenuButtonShadow"
+		"wide"			"20"
+		"tall"			"20"
+		"pin_to_sibling"	"HamburgerButton"
+	}
+	"BentoButton"
+	{
+		"ControlName"		"CExImageButton"
+		"fieldName"		"BentoButton"
+		"style"			"MainMenuButton"
+		"xpos"			"c-260"
+		"ypos"			"308"
+		"zpos"			"1"
+		"wide"			"20"
+		"tall"			"20"
+		"visible"		"1"
+		"enabled"		"1"
+		"font"			"HudFontSmallBold"
+		"textAlignment"	"center"
+		"actionsignallevel"	"2"
+		"Command"		"tf2c_loadout_grid 1"
+		
+		"image_default"	"resource/svgs/mainmenu/bento.svg"
+		"stayselectedonclick"	"1"
+		"image_selectedcolor"	"ButtonArmedLabelMM"
+		"border_selected"		"DarhudMMSquareButtonArmed"
+		
+		"dropshadowoffset"	"3"
+		"SubImage"
+		{
+			"wide"		"f8"
+			"tall"		"o1"
+			"xpos"		"cs-0.5+1"
+		}
+	}
+	"BentoButtonShadow"
+	{
+		"ControlName"		"CTFImagePanel"
+		"fieldName"		"BentoButtonShadow"
+		"style"			"MainMenuButtonShadow"
+		"wide"			"20"
+		"tall"			"20"
+		"pin_to_sibling"	"BentoButton"
+	}
+	
 	"PrevPageButton"
 	{
 		"ControlName"		"CExImageButton"
@@ -446,3 +525,4 @@
 		}
 	}
 }
+
