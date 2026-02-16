@@ -6,7 +6,7 @@
 		"fieldName"		"HudChatFilterPanel"
 		"xpos"					"284"
 		"ypos"					"255"
-		"wide"	 				"268"
+		"wide"	 				"130"
 		"tall"			"110"
 		"visible"		"0"
 		"enabled"		"1"
