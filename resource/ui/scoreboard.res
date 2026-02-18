@@ -15,7 +15,7 @@
 		"tabPosition"				"0"
 		
 		"avatar_width"				"18"
-		"avatar_spacer"				"0"
+		"avatar_spacer"				"3"
 		"medal_width"				"14"
 		"name_width"				"120"
 		"nemesis_width"				"20"
@@ -2065,5 +2065,6 @@
 		}
 	}
 }
+
 
 
