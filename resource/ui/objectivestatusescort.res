@@ -241,8 +241,8 @@
 			"enabled"		"1"
 			"labelText"		"%recede%"
 			"textAlignment"	"center"
-			"dulltext"		"0"
-			"brighttext"	"0"
+			"dropshadow"		"1"
+			"dropshadowoffset"	"2"
 			
 			"if_multiple_trains"
 			{
@@ -410,7 +410,7 @@
 		
 		"Speed_Backwards"
 		{
-			"ControlName"	"ImagePanel"
+			"ControlName"		"ImagePanel"
 			"fieldName"		"Speed_Backwards"	
 			"proportionaltoparent"	"1"
 			"xpos"			"cs-0.5"
@@ -424,7 +424,10 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labelText"		""
-			"image"			"../darhud/payload/cart_arrow_left"
+			"image"			"resource/svgs/darhud/payload/arrow_left.svg"
+			"drawcolor"		"AdditionalIcon"
+			"dropshadow"		"1"
+			"dropshadowoffset"		"2"
 			"scaleImage"	"1"	
 			
 			"if_multiple_trains"
@@ -448,14 +451,18 @@
 		
 		"CapPlayerImage"
 		{
+			"ControlName"		"ImagePanel"
+			"fieldName"		"CapPlayerImage"
 			"xpos"			"21"
 			"ypos"			"48"
 			"zpos"			"2"
-			"wide"			"4"
-			"tall"			"8"
+			"wide"			"5"
+			"tall"			"9"
 			"visible"		"0"
 			"enabled"		"1"
-			"image"			"capture_icon_white"
+			"image"			"resource/svgs/darhud/arena/player_icon.svg"
+			"dropshadow"		"1"
+			"dropshadowoffset"	"2"
 			"scaleImage"		"1"
 			
 			"if_multiple_trains"
@@ -514,34 +521,36 @@
 		
 		"Blocked"
 		{
-			"ControlName"	"ImagePanel"
+			"ControlName"		"ImagePanel"
 			"fieldName"		"Blocked"	
 			"proportionaltoparent"	"1"
-			"xpos"			"cs-0.5"
+			"xpos"			"c-4"
 			"ypos"			"49"
 			"zpos"			"2"
-			"wide"			"8"
-			"tall"			"8"
+			"wide"			"10"
+			"tall"			"10"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"0"
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labelText"		""
-			"image"			"../darhud/payload/cart_blocked"
+			"image"			"resource/svgs/darhud/no_entry.svg"
+			"drawcolor"		"255 0 0 255"
 			"scaleImage"	"1"	
+			"dropshadow"		"1"
+			"dropshadowoffset"	"2"
 			
 			"if_multiple_trains"
 			{
 				"xpos"			"cs-0.5"
 				"proportionaltoparent"	"1"
-				"wide"			"9"
-				"tall"			"9"
+				"wide"			"10"
+				"tall"			"10"
 			}
 			
 			"if_multiple_trains_top"
 			{
-				"ypos"			"48"
 				"ypos"			"48"
 			}	
 			
@@ -599,21 +608,17 @@
 			{	
 				"ControlName"		"Label"
 				"fieldName"			"ProgressText"
-				"font"				"DefaultVerySmall"
+				"font"				"EscortProgressFont"
 				"textAlignment"		"center"
 				"xpos"				"0"
 				"ypos"				"0"
 				"zpos"				"23"
 				"wide"				"36"
 				"tall"				"35"
-				"autoResize"		"0"
-				"pinCorner"			"0"
 				"visible"			"0"
 				"enabled"			"1"
 				"labelText"			"progress"
-				"fgcolor_override"			"MainMenuLabel"
-				"dulltext"			"0"
-				"brighttext"		"0"
+				"fgcolor_override"	"MainMenuLabel"
 				"centerwrap"		"1"
 				"dropshadow"	"1"
 				"dropshadowoffset"	"1"
@@ -649,7 +654,7 @@
 			
 			"Capping"
 			{
-				"ControlName"	"ImagePanel"
+				"ControlName"		"ImagePanel"
 				"fieldName"		"Capping"	
 				"xpos"			"6"
 				"ypos"			"7"
@@ -662,7 +667,10 @@
 				"enabled"		"1"
 				"tabPosition"	"0"
 				"labelText"		""
-				"image"			"../hud/cart_arrow_right"
+				"image"			"resource/svgs/darhud/payload/arrow_right.svg"
+			"drawcolor"		"AdditionalIcon"
+				"dropshadow"		"1"
+				"dropshadowoffset"		"2"
 				"scaleImage"	"1"	
 				
 				"if_multiple_trains"
