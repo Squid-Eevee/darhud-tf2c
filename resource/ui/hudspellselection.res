@@ -1,17 +1,5 @@
 "Resource/UI/HudSpellSelection.res"
-{		
-	HudSpellMenu
-	{
-		"xpos"			"210"
-		"xpos_minmode"	"c-150"
-		"ypos"			"r65"
-		"ypos_minmode"	"r56"
-		"zpos"			"2"
-        "wide"          "52"
-		"tall"			"41"
-        "zpos"          "-1"
-	}
-			
+{			
 	"ItemEffectMeterBG"
 	{
 		"visible"		"0"
