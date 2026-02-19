@@ -27,8 +27,9 @@
 		"tall"	"100"
 		
 		"x_offset_mediccharge"	"-40"
+		"x_offset_mediccharge_minmode"	"-20"
 		"y_offset_mediccharge"	"-78"
-		"y_offset_mediccharge_minmode"	"-67"
+		"y_offset_mediccharge_minmode"	"-73"
 	}
 	
 	HudObjectiveStatus
