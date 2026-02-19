@@ -706,6 +706,17 @@ Scheme
 				"antialias"	"1"
 			}
 		}
+		"TipFont"
+		{
+			"1"
+			{
+				"name"		"TF2C Secondary"
+				"tall"		"9"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" 	"1"
+			}
+		}
 	}
 	Borders
 	{
@@ -1514,6 +1525,7 @@ Scheme
 	}
 
 }
+
 
 
 
