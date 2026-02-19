@@ -564,21 +564,17 @@
 		"wide_minmode"			"273"
 		"tall"	 				"123"
 	}
-
+	
 	HudSpellMenu
 	{
-		"fieldName" "HudSpellMenu"
-		"visible" "1"
-		"enabled" "1"
-		"wide"	 "640"
-		"tall"	 "480"
-		"zpos" 	"2"
-		"xpos"			"130"
-		"ypos"			"r61"
-		
-		"TextFont"				"Default"
-		"ItemFont"				"Default"
-		"ItemFontPulsing"		"Default"
+		"xpos"			"0"
+		"xpos_minmode"	"c-356"
+		"ypos"			"r41"
+		"ypos_minmode"	"r36"
+		"zpos"			"2"
+        "wide"          "70"
+		"tall"			"41"
+        "zpos"          "-1"
 	}
 	
 	HudCloseCaption
