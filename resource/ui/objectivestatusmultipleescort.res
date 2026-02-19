@@ -28,7 +28,7 @@
 		
 		"if_over2team"
 		{
-			"xpos"				"c-300"
+			"xpos"				"c-290"
 			"xpos_minmode"		"c-230"
 			"ypos"				"r165"
 		}
@@ -49,7 +49,7 @@
 	{
 		"ControlName"		"CTFHudEscort"
 		"fieldName"			"RedEscortPanel"
-		"xpos"				"cs-0.5"
+		"xpos"				"c-200"
 		"ypos"				"r165"
 		"zpos"				"1"
 		"wide"				"400"
@@ -61,7 +61,7 @@
 		
 		"if_over2team"
 		{
-			"xpos"				"c-300"
+			"xpos"				"c-290"
 			"xpos_minmode"		"c-230"
 			"ypos"				"r165"
 		}
@@ -94,7 +94,7 @@
 		
 		"if_over2team"
 		{
-			"xpos"				"c-95"
+			"xpos"				"c-105"
 		}
 		
 		"if_green_is_top"
@@ -125,7 +125,7 @@
 		
 		"if_over2team"
 		{
-			"xpos"				"c-95"
+			"xpos"				"c-105"
 		}
 		
 		"if_yellow_is_top"

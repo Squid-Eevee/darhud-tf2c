@@ -33,7 +33,7 @@
 		"if_over2team"
 		{
 			"xpos"			"73"
-			"wide"			"170"
+			"wide"			"150"
 			"wide_minmode"	"100"
 		}
 
@@ -68,7 +68,7 @@
 		"if_over2team"
 		{
 			"xpos"			"74"
-			"wide"			"170"
+			"wide"			"150"
 			"wide_minmode"	"100"
 		}
 		
