@@ -104,6 +104,9 @@ Scheme
 		
 		"VotePassed"			"112 176 74 255"
 		"VoteFailed"			"210 79 57 255"
+		
+		//HUD Drop Shadow
+		"HudShadow"			"50 50 50 191"
 	}
 	
 	Fonts
@@ -1570,6 +1573,7 @@ Scheme
 	}
 
 }
+
 
 
 
