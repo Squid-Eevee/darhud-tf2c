@@ -52,4 +52,4 @@ Console Command Windows can't really exist as it did before due to the removal o
 
 ~~Currently (for me at least) enabling the coloured logo addon removes the logo entirely from the main menu until you either load a map or run the command `tf2c_mainmenu_reload`. Not sure what's causing this or if it can be fixed. Just know that I am aware of it.~~
 
-This has been addressed I just don't want to push a patch the fixes only this.
+This has been addressed I just don't want to push a patch that fixes only this.
