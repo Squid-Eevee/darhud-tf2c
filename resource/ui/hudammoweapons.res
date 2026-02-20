@@ -44,7 +44,7 @@
 
 	"HudWeaponAmmoBGShadow"
 	{
-		"ControlName"	"CTFImagePanel"
+		"ControlName"	"ImagePanel"
 		"fieldName"		"HudWeaponAmmoBGShadow"
 		"pin_to_sibling" "HudWeaponAmmoBG"
 		"pin_corner_to_sibling" "PIN_TOPLEFT"
@@ -56,7 +56,8 @@
 		"tall"			"68"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"replay/thumbnails/ammo_shadow"
+		"image"			"resource/svgs/darhud/ammo_mask.svg"
+		"drawcolor"		"HudShadow"
 		"scaleImage"	"1"
 	}
 	
