@@ -331,7 +331,7 @@
 		"xpos"			"cs-0.5"
 		"ypos"			"2"
 		"zpos"			"1"
-		"wide"			"400"
+		"wide"			"f0"
 		"tall"			"16"
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -342,9 +342,11 @@
 		"font"			"HudFontSmallBold"
 		"bgcolor_override"	"GreenSolid"
 		"fgcolor"	"GeneralLabel"
-		"paintBackgroundType" "2"
+		"paintBackgroundType" "0"
 		"wrap"			"1"
 		"centerwrap"	"1"
+		"dropshadow"			"1"
+		"dropshadowoffset"		"3"
 	
 		if_mvm
 		{
