@@ -271,7 +271,7 @@
 		{	
 			"ControlName"	"Label"
 			"fieldName"		"MoveableKeyLabel"
-			"font"			"ScoreboardVerySmall"
+			"font"			"TargetDataFont"
 			"xpos"			"3"
 			"ypos"			"16"
 			"zpos"			"1"
