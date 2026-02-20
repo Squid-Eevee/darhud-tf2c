@@ -57,7 +57,7 @@
 		"tall"			"68"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../darhud/ammo_shadow"
+		"image"			"replay/thumbnails/ammo_shadow"
 		"scaleImage"	"1"
 	}
 	
