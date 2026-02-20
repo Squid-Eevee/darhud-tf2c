@@ -13,7 +13,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../darhud/square_white"
+		"image"			"replay/thumbnails/square_white"
 
 		"drawcolor"		"0 0 0"
 		"alpha"	"210"

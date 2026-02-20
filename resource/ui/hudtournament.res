@@ -482,8 +482,6 @@
 		"labelText"		"%tournamentstatelabel%"
 		"textAlignment"		"center"
 		"proportionaltoparent"	"1"
-		"dropshadow"		"1"
-		"dropshadowoffset"	"2"
 
 		if_mvm
 		{
@@ -501,6 +499,44 @@
 			"visible"		"1"
 		}	
 	}
+		
+	"TournamentLabelShadow"
+	{
+		"ControlName"		"Label"
+		"fieldName"		"TournamentLabelShadow"
+		"font"			"HudFontSmall"
+		"fgcolor_override"		"GeneralShadow"
+		"pin_to_sibling"	"TournamentLabel"
+		"xpos"			"-1"
+		"ypos"			"-1"
+		"zpos"			"1"
+		"wide"			"240"
+		"tall"			"19"
+		"autoResize"		"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"wrap"			"0"
+		"labelText"		"%tournamentstatelabel%"
+		"textAlignment"		"center"
+		"proportionaltoparent"	"1"
+
+		if_mvm
+		{
+			"visible"		"0"
+		}
+
+		if_competitive
+		{
+			"xpos"			"cs-0.5"
+			"visible"		"0"
+		}
+
+		if_readymode
+		{
+			"visible"		"1"
+		}
+	}
 
 	"HudTournamentBLUEBG"
 	{
@@ -515,8 +551,14 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../darhud/square_blue"
+		"image"			"../HUD/tournament_panel_blu"
 		"proportionaltoparent"	"1"
+
+		"src_corner_height"	"15"				// pixels inside the image
+		"src_corner_width"	"15"
+
+		"draw_corner_width"	"2"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"2"
 
 		if_mvm
 		{
@@ -554,8 +596,6 @@
 		"labelText"		"%bluenamelabel%"
 		"textAlignment"		"west"
 		"proportionaltoparent"	"1"
-		"dropshadow"		"1"
-		"dropshadowoffset"	"2"
 
 		if_mvm
 		{
@@ -593,8 +633,6 @@
 		"labelText"		"%bluestate%"
 		"textAlignment"		"east"
 		"proportionaltoparent"	"1"
-		"dropshadow"		"1"
-		"dropshadowoffset"	"2"
 
 		if_mvm
 		{
@@ -627,7 +665,13 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../darhud/square_red"
+		"image"			"../HUD/tournament_panel_red"
+
+		"src_corner_height"	"15"				// pixels inside the image
+		"src_corner_width"	"15"
+
+		"draw_corner_width"	"2"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"2"
 		"proportionaltoparent"	"1"
 
 		if_mvm
@@ -653,7 +697,7 @@
 		"fieldName"		"TournamentREDLabel"
 		"font"			"HudFontSmallestBold"
 		"fgcolor_override"	"GeneralLabel"
-		"xpos"			"c1"
+		"xpos"			"c0"
 		"ypos"			"38"
 		"zpos"			"1"
 		"wide"			"115"
@@ -665,9 +709,6 @@
 		"wrap"			"0"
 		"labelText"		"%rednamelabel%"
 		"textAlignment"		"east"
-		"dropshadow"		"1"
-		"dropshadowoffset"	"2"
-		"textinsetx"		"1"
 
 		if_mvm
 		{
@@ -704,8 +745,6 @@
 		"wrap"			"0"
 		"labelText"		"%redstate%"
 		"textAlignment"		"west"
-		"dropshadow"		"1"
-		"dropshadowoffset"	"2"
 
 		if_mvm
 		{
@@ -774,12 +813,12 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"TournamentInstructionsLabel"
-		"font"			"WinPanelDetailsFont"
+		"font"			"DefaultSmall"
 		"fgcolor"		"GeneralLabel"
 		"xpos"			"cs-0.5"
-		"ypos"			"53"
+		"ypos"			"55"
 		"wide"			"250"
-		"tall"			"14"
+		"tall"			"10"
 		"zpos"			"1"
 		"autoResize"		"0"
 		"pinCorner"		"0"
@@ -789,8 +828,6 @@
 		"labelText"		"%readylabel%"
 		"textAlignment"		"center"
 		"proportionaltoparent"	"1"
-		"dropshadow"		"1"
-		"dropshadowoffset"	"2"
 
 		if_mvm
 		{
@@ -815,6 +852,55 @@
 		{
 			"font"			"HudFontSmallishBold"
 			"ypos"			"110"
+			"wide"			"190"
+			"tall"			"20"
+			"zpos"			"3"
+		}
+	}
+
+	"TournamentInstructionsLabelShadow"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"TournamentInstructionsLabelShadow"
+		"font"			"DefaultSmall"
+		"fgcolor"		"GeneralShadow"
+		"xpos"			"cs-0.5+1"
+		"ypos"			"56"
+		"wide"			"250"
+		"tall"			"10"
+		"zpos"			"0"
+		"autoResize"		"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"wrap"			"0"
+		"labelText"		"%readylabel%"
+		"textAlignment"		"center"
+		"proportionaltoparent"	"1"
+
+		if_mvm
+		{
+			"font"			"HudFontSmallishBold"
+			"ypos"			"106"
+			"wide"			"190"
+			"tall"			"20"
+			"zpos"			"3"
+		}
+
+		if_competitive
+		{
+			"font"			"HudFontSmallishBold"
+			"xpos"			"cs-0.5"
+			"ypos"			"110"
+			"wide"			"190"
+			"tall"			"20"
+			"zpos"			"3"
+		}
+
+		if_readymode
+		{
+			"font"			"HudFontSmallishBold"
+			"ypos"			"111"
 			"wide"			"190"
 			"tall"			"20"
 			"zpos"			"3"
