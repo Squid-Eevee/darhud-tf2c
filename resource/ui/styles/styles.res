@@ -644,4 +644,55 @@
 			"proportionalToParent"	"1"
 		}
 	}
+	
+	"ClassButton"
+	{
+		"textAlignment"		"north-west"
+		"font"				"MenuKeys"
+		"scaleImage"			"1"
+		"default"			"0"
+		
+		"image_drawcolor"		"255 255 255 180"
+		"image_armedcolor"	"255 255 255 255"
+		"image_selectedcolor"	"255 255 255 255"
+		
+		"defaultFgColor_override"		"TanDark"
+		"armedFgColor_override"		"TanDark"
+		"depressedFgColor_override"	"TanDark"
+		"selectedFgColor_override"		"White"
+		
+		"paintbackground"	"1"
+		"roundedcorners"	"0"
+		
+		"fgColor"					"TanDark"
+		"defaultFgColor_override"		"TanDark"
+		"armedFgColor_override"		"TanDark"
+		"depressedFgColor_override"	"TanDark"
+		"selectedFgColor_override"		"White"
+		
+		"defaultbgColor_override"		"0 0 0 192"
+		"armedbgColor_override"		"0 0 0 192"
+		"depressedbgColor_override"	"0 0 0 192"
+		"selectedbgColor_override"		"20 20 20 255"
+		
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+		"sound_armed"		"UI/buttonrollover.wav"
+
+		"stayselectedonclick"	"1"
+		"selectonhover"		"1"
+		"keyboardinputenabled"	"0"
+		
+		"dropshadow"			"1"
+		"dropshadowoffset"	"2"
+		
+		"SubImage"
+		{
+			"ControlName"		"ImagePanel"
+			"fieldName"			"SubImage"
+			"scaleImage"		"1"
+			"dropshadow"		"0"	//whenever they fix the drop shadows copying the class image when highlighted
+			"dropshadowoffset"	"3"
+		}
+	}
 }
