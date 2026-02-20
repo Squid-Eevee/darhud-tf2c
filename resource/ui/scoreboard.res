@@ -787,7 +787,7 @@
 		"ypos"		"-66"
 		"wide"		"278"
 		"tall"		"219"
-		"visible"	"1"
+		"visible"	"0"
 		"bgcolor_override"	"GeneralBackground"
 		
 		"pin_to_sibling"		"MainBG"
@@ -796,7 +796,7 @@
 		
 		"if_2team"
 		{
-			"visible"		"0"
+			"visible"		"1"
 		}
 		"if_3team"
 		{
@@ -812,6 +812,9 @@
 		}
 		"if_mvm"
 		{
+			"wide"		"0"
+			"tall"		"0"
+			//i guess "if_2team" overrides this?
 			"visible"	"0"
 		}
 	}
@@ -2110,4 +2113,5 @@
 		}
 	}
 }
+
 
