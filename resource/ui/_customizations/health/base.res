@@ -59,12 +59,14 @@
 		"xpos"			"2"
 		"ypos"			"2"
 		"zpos"			"3"
-		"wide"			"52"
-		"tall"			"52"
+		"wide"			"54"
+		"tall"			"54"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/health_bg"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
+		"dropshadow"	"1"
+		"dropshadowoffset"	"3"
 	}	
 	"PlayerStatusHealthBonusImage"
 	{
