@@ -4,9 +4,9 @@
 {
 	HudItemEffectMeter
 	{
-		"xpos"			"r138"
-		"ypos"			"r113"
-		"xpos_minmode"	"c214"
+		"xpos"			"r170"
+		"ypos"			"r106"
+		"xpos_minmode"	"c230"
 	}
 	
 	"ItemEffectMeter"
