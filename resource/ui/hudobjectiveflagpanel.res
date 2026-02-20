@@ -907,8 +907,11 @@
 		{
 			"visible"	"0"
 		}
-		
 		"if_no_flags"
+		{
+			"visible"	"0"
+		}
+		"if_mvm"
 		{
 			"visible"	"0"
 		}
