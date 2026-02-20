@@ -4,12 +4,18 @@
 	{
 		"visible"		"0"
 	}
-	"ColoredLogoBG"
+	"VanityPanelShadow"
 	{
-		"visible"		"1"
-	}
-	"ColoredLogoFG"
-	{
-		"visible"		"1"
+		"ControlName"		"EditablePanel"
+		"fieldName"		"VanityPanelShadow"
+		
+		"ColoredLogoBG"
+		{
+			"visible"		"1"
+		}
+		"ColoredLogoFG"
+		{
+			"visible"		"1"
+		}
 	}
 }
