@@ -9,7 +9,7 @@
 		"wide"			"16"
 		"image"			"resource/svgs/meters/ico_anchor_inactive.svg"
 		
-		"drawcolor"		"ProgressBar.BgColor"
+		"drawcolor"		"MeterBackground"
 		"dropshadow"	"0"
 	}
 
@@ -17,10 +17,10 @@
 	{
 		"xpos"			"1"
 		"ypos"			"0"
-		"wide"			"16"
+		"wide"			"17"
 		"image"			"resource/svgs/meters/ico_anchor_inactive.svg"
 		
-		"drawcolor"		"ProgressBar.FgColor"
+		"drawcolor"		"ProgressOffWhite"
 		"dropshadow"	"1"
 	}
 	
@@ -28,10 +28,10 @@
 	{
 		"xpos"			"1"
 		"ypos"			"0"
-		"wide"			"16"
+		"wide"			"17"
 		"image"			"resource/svgs/meters/ico_anchor_active.svg"
 		
-		"drawcolor"		"ProgressBar.FgColor"
+		"drawcolor"		"ProgressOffWhite"
 		"dropshadow"	"1"
 	}
 	
@@ -39,10 +39,10 @@
 	{
 		"xpos"			"1"
 		"ypos"			"0"
-		"wide"			"16"
+		"wide"			"17"
 		"image"			"resource/svgs/meters/ico_anchor_active.svg"
 		
-		"drawcolor"		"ProgressBar.FgColor"
+		"drawcolor"		"ProgressOffWhite"
 		"dropshadow"	"1"
 	}
 }

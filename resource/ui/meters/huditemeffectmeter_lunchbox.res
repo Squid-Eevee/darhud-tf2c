@@ -4,8 +4,8 @@
 {
 	HudItemEffectMeter
 	{
-		"xpos"			"r145"
-		"xpos_minmode"	"c217"
+		"xpos"			"r133"
+		"xpos_minmode"	"c229"
 		"ypos"			"r60"
 	}
 	"EmptyIcon"
@@ -15,7 +15,7 @@
 		"wide"			"18"
 		"image"			"resource/svgs/meters/ico_sandvich_inactive.svg"
 		
-		"drawcolor"		"ProgressBar.BgColor"
+		"drawcolor"		"MeterBackground"
 		"dropshadow"	"0"
 	}
 
@@ -23,10 +23,10 @@
 	{
 		"xpos"			"0"
 		"ypos"			"-1"
-		"wide"			"18"
+		"wide"			"17"
 		"image"			"resource/svgs/meters/ico_sandvich_inactive.svg"
 		
-		"drawcolor"		"ProgressBar.BgColor"
+		"drawcolor"		"MeterBackground"
 		"dropshadow"	"0"
 	}
 	
@@ -34,10 +34,10 @@
 	{
 		"xpos"			"0"
 		"ypos"			"-1"
-		"wide"			"18"
+		"wide"			"17"
 		"image"			"resource/svgs/meters/ico_sandvich_inactive.svg"
 		
-		"drawcolor"		"ProgressBar.BgColor"
+		"drawcolor"		"MeterBackground"
 		"dropshadow"	"0"
 	}
 	
@@ -48,7 +48,8 @@
 		"wide"			"18"
 		"image"			"resource/svgs/meters/ico_sandvich_active.svg"
 		
-		"drawcolor"		"ProgressBar.FgColor"
+		"drawcolor"		"ProgressOffWhite"
 		"dropshadow"	"1"
+		"dropshadowoffset"	"2"
 	}
 }

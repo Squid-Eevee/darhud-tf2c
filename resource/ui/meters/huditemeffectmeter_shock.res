@@ -17,7 +17,7 @@
 		"wide"			"16"
 		"image"			"resource/svgs/meters/ico_shock_inactive.svg"
 		
-		"drawcolor"		"ProgressBar.BgColor"
+		"drawcolor"		"MeterBackground"
 		"dropshadow"	"0"
 	}
 	
@@ -28,7 +28,7 @@
 		"wide"			"16"
 		"image"			"resource/svgs/meters/ico_shock_inactive.svg"
 		
-		"drawcolor"		"ProgressBar.FgColor"
+		"drawcolor"		"ProgressOffWhite"
 		"dropshadow"	"1"
 	}
 	
@@ -39,7 +39,7 @@
 		"wide"			"16"
 		"image"			"resource/svgs/meters/ico_shock_inactive.svg"
 		
-		"drawcolor"		"ProgressBar.FgColor"
+		"drawcolor"		"ProgressOffWhite"
 		"dropshadow"	"1"
 	}
 	
@@ -50,7 +50,7 @@
 		"wide"			"16"
 		"image"			"resource/svgs/meters/ico_shock_active.svg"
 		
-		"drawcolor"		"ProgressBar.FgColor"
+		"drawcolor"		"ProgressOffWhite"
 		"dropshadow"	"1"
 	}
 }

@@ -2,6 +2,12 @@
 
 "resource/UI/meters/HudItemEffectMeter_Brick.res"
 {
+	HudItemEffectMeter
+	{
+		"xpos"			"r133"
+		"xpos_minmode"	"c229"
+		"ypos"			"r60"
+	}
 	"EmptyIcon"
 	{
 		"xpos"			"0"
@@ -9,7 +15,7 @@
 		"wide"			"16"
 		"image"			"resource/svgs/meters/ico_brick_inactive.svg"
 		
-		"drawcolor"		"ProgressBar.BgColor"
+		"drawcolor"		"MeterBackground"
 		"dropshadow"	"0"
 	}
 
@@ -20,7 +26,7 @@
 		"wide"			"16"
 		"image"			"resource/svgs/meters/ico_brick_inactive.svg"
 		
-		"drawcolor"		"ProgressBar.BgColor"
+		"drawcolor"		"MeterBackground"
 		"dropshadow"	"0"
 	}
 	
@@ -31,7 +37,7 @@
 		"wide"			"16"
 		"image"			"resource/svgs/meters/ico_brick_inactive.svg"
 		
-		"drawcolor"		"ProgressBar.BgColor"
+		"drawcolor"		"MeterBackground"
 		"dropshadow"	"0"
 	}
 	
@@ -42,7 +48,7 @@
 		"wide"			"16"
 		"image"			"resource/svgs/meters/ico_brick_active.svg"
 		
-		"drawcolor"		"ProgressBar.FgColor"
+		"drawcolor"		"ProgressOffWhite"
 		"dropshadow"	"1"
 	}
 }

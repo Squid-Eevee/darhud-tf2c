@@ -4,8 +4,8 @@
 {
 	HudItemEffectMeter
 	{
-		"xpos"			"r148"
-		"xpos_minmode"	"c214"
+		"xpos"			"r136"
+		"xpos_minmode"	"c226"
 		"ypos"			"r80"
 	}
 	
@@ -21,7 +21,7 @@
 		"wide"			"20"
 		"image"			"resource/svgs/meters/ico_battery_inactive.svg"
 		
-		"drawcolor"		"ProgressBar.BgColor"
+		"drawcolor"		"MeterBackground"
 		"dropshadow"	"0"
 	}
 	
@@ -32,7 +32,7 @@
 		"wide"			"20"
 		"image"			"resource/svgs/meters/ico_battery_inactive.svg"
 		
-		"drawcolor"		"ProgressBar.BgColor"
+		"drawcolor"		"MeterBackground"
 		"dropshadow"	"1"
 	}
 	
@@ -43,7 +43,7 @@
 		"wide"			"20"
 		"image"			"resource/svgs/meters/ico_battery_active.svg"
 		
-		"drawcolor"		"ProgressBar.FgColor"
+		"drawcolor"		"ProgressOffWhite"
 		"dropshadow"	"1"
 	}
 	
@@ -54,7 +54,7 @@
 		"wide"			"20"
 		"image"			"resource/svgs/meters/ico_battery_active.svg"
 		
-		"drawcolor"		"ProgressBar.FgColor"
+		"drawcolor"		"ProgressOffWhite"
 		"dropshadow"	"1"
 	}
 }

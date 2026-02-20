@@ -86,7 +86,7 @@
 			"scaleImage"		"0"
 			"alpha"			"255"
 			"dropshadow"		"1"
-			"dropshadowoffset"	"2"
+			"dropshadowoffset"	"3"
 		}
 		
 		"NumPipesLabel"
@@ -139,7 +139,7 @@
 		
 		"StickyBGShadow"
 		{
-			"ControlName"	"CTFImagePanel"
+			"ControlName"		"ImagePanel"
 			"fieldName"		"StickyBGShadow"
 			"xpos"			"3"
 			"ypos"			"3"
@@ -148,8 +148,9 @@
 			"tall"			"25"
 			"visible"		"1"
 			"enabled"		"1"
-			"image"			"../darhud/counter_shadow"
-			"scaleImage"	"1"				
+			"image"			"resource/svgs/darhud/counter_mask.svg"
+			"drawcolor"		"HudShadow"
+			"scaleImage"		"1"
 		}
 	}
 	
@@ -260,7 +261,7 @@
 			"scaleImage"		"1"
 			"alpha"			"255"
 			"dropshadow"		"1"
-			"dropshadowoffset"	"2"
+			"dropshadowoffset"	"3"
 		}
 		
 		"NumMinesLabel"
@@ -311,7 +312,7 @@
 		
 		"MineBGShadow"
 		{
-			"ControlName"	"CTFImagePanel"
+			"ControlName"	"ImagePanel"
 			"fieldName"		"MineBGShadow"
 			"xpos"			"3"
 			"ypos"			"3"
@@ -320,8 +321,9 @@
 			"tall"			"25"
 			"visible"		"1"
 			"enabled"		"1"
-			"image"			"../darhud/counter_shadow"
-			"scaleImage"	"0"				
+			"image"			"resource/svgs/darhud/counter_mask.svg"
+			"drawcolor"		"HudShadow"
+			"scaleImage"		"1"
 		}
 	}
 	
