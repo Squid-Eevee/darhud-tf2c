@@ -112,18 +112,19 @@
 
 	"classmodelpanelBGShadow"
 	{
-		"ControlName"		"CTFImagePanel"
+		"ControlName"		"ImagePanel"
 		"fieldName"		"classmodelpanelBGShadow"
 		"xpos"			"103"
 		"ypos"			"r82"
-		"xpos_minmode"			"c-257"
+		"xpos_minmode"	"c-257"
 		"zpos"			"1"
 		"wide"			"118"
 		"tall"			"58"
 		"visible"		"1"
 		"enabled"		"1"
-		"scaleImage"	"1"
-		"image"				"../darhud/chr_shadow"
+		"scaleImage"		"1"
+		"image"			"resource/svgs/darhud/chr_mask.svg"
+		"drawcolor"		"HudShadow"
 	}
 
 	"classmodelpanel"
