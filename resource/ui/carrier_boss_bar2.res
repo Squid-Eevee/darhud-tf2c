@@ -47,7 +47,7 @@
 				"enabled"		"1"
 				"tabPosition"	"0"
 				"scaleImage"	"1"	
-				"Image"			"replay/thumbnails/boss_bar/carrier/boss_bar"
+				"Image"			"../darhud/boss_bar/carrier/boss_bar"
 			}
 		}
 	}
@@ -111,7 +111,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"
-			"Image"			"replay/thumbnails/boss_bar/carrier/boss_bar_surround"
+			"Image"			"../darhud/boss_bar/carrier/boss_bar_surround"
 			"scaleImage"	"1"		
 		}
 		"BackgroundShadow"
@@ -129,7 +129,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"
-			"Image"			"replay/thumbnails/boss_bar/boss_bar_surround_shadow"
+			"Image"			"../darhud/boss_bar/boss_bar_surround_shadow"
 			"scaleImage"	"1"		
 		}
 	}
