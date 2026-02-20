@@ -83,7 +83,7 @@
 		"tall"			"480"
 		"visible"		"1"
 		"enabled"		"1"
-		"bgcolor_override"	"TransparentStripe"
+		"bgcolor_override"	"MainMenuBackground"
 	}
 	"VerticalBGLeft"
 	{
@@ -158,74 +158,52 @@
 		"scaleImage"			"1"
 		"ProportionalToParent"	"1"
 	}
-	"ColoredLogoBG"
-	{
-		"ControlName"			"ImagePanel"
-		"fieldName"			"ColoredLogoBG"
-		"xpos"				"c-315"
-		"ypos"				"0"
-		"zpos"				"-2"
-		"wide"				"256"
-		"tall"				"o0.5"
-		"visible"			"0"
-		"enabled"			"1"
-		"image"				"resource/svgs/mainmenu/tf2classified_logo_bg.svg"
-		"scaleImage"			"1"
-		"ProportionalToParent"	"1"
-		"drawcolor"			"ButtonMM"
-	}
-	"ColoredLogoFG"
-	{
-		"ControlName"			"ImagePanel"
-		"fieldName"			"ColoredLogoFG"
-		"xpos"				"c-315"
-		"ypos"				"0"
-		"zpos"				"-1"
-		"wide"				"256"
-		"tall"				"o0.5"
-		"visible"			"0"
-		"enabled"			"1"
-		"image"				"resource/svgs/mainmenu/tf2classified_logo_fg.svg"
-		"scaleImage"			"1"
-		"ProportionalToParent"	"1"
-	}
 
 	"VanityPanelShadow"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"VanityPanelShadow"
-		"xpos"			"c-300"
-		"ypos"			"162"
-		"wide"			"224"
-		"tall"			"230"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"0"
+		"xpos"			"c-315"
+		"ypos"			"0"
+		"wide"			"256"
+		"tall"			"o0.5"
+		"visible"		"1"
 		"enabled"		"1"
-		"tabPosition"	"0"
-		
-		"PaintBackgroundType"	"2"
-		"paintbackground"	"1"
-		"bgcolor_override"	"TanDark"
 
 		"VanityPanelShadowBottom"
 		{
-			"ControlName"	"EditablePanel"
-			"fieldName"		"VanityPanelShadowBottom"
-			"xpos"			"0"
-			"xpos"			"0"
-			"wide"			"f0"
-			"tall"			"f0"
-			"visible"		"1"
-			"enabled"		"1"
-			"ProportionalToParent" "1"
-			"RoundedCorners"	"15"
-			"CornerSize"		"7"
-			
-			"PaintBackgroundType"	"4"
-			"FadeAlphaStart"	"0"
-			"FadeAlphaEnd"	"240"
-			"bgcolor_override"	"TanDarkest"
+			"visible"		"0"
+		}
+		"ColoredLogoBG"
+		{
+			"ControlName"			"ImagePanel"
+			"fieldName"			"ColoredLogoBG"
+			"xpos"				"0"
+			"ypos"				"0"
+			"zpos"				"-2"
+			"wide"				"256"
+			"tall"				"o0.5"
+			"visible"			"0"
+			"enabled"			"1"
+			"image"				"resource/svgs/mainmenu/tf2classified_logo_bg.svg"
+			"scaleImage"			"1"
+			"ProportionalToParent"	"1"
+			"drawcolor"			"ButtonMM"
+		}
+		"ColoredLogoFG"
+		{
+			"ControlName"			"ImagePanel"
+			"fieldName"			"ColoredLogoFG"
+			"xpos"				"0"
+			"ypos"				"0"
+			"zpos"				"-1"
+			"wide"				"256"
+			"tall"				"o0.5"
+			"visible"			"0"
+			"enabled"			"1"
+			"image"				"resource/svgs/mainmenu/tf2classified_logo_fg.svg"
+			"scaleImage"			"1"
+			"ProportionalToParent"	"1"
 		}
 	}
 
@@ -1132,7 +1110,7 @@
 			"visible"		"0"
 		}
 
-		"pin_to_sibling"		"VanityPanelShadow"
+		"pin_to_sibling"		"VanityPanel"
 		"pin_corner_to_sibling"	"PIN_CENTER_TOP"
 		"pin_to_sibling_corner"	"PIN_CENTER_BOTTOM"
 
@@ -1385,12 +1363,4 @@
 		"scaleImage"	"1"
 		"visible"	"0"
 	}
-
 }
-
-
-
-
-
-
-
