@@ -40,7 +40,7 @@
 		"tall"			"12"
 		"visible"		"1"
 		"enabled"		"1"
-		"Image"			"replay/thumbnails/boss_bar/carrier/boss_bar"
+		"Image"			"../darhud/boss_bar/carrier/boss_bar"
 	}	
 	
 	"ProgressBarBG"
@@ -54,7 +54,7 @@
 		"tall"			"18"
 		"visible"		"1"
 		"enabled"		"1"
-		"Image"			"replay/thumbnails/boss_bar/carrier/boss_bar_surround"
+		"Image"			"../darhud/boss_bar/carrier/boss_bar_surround"
 	}
 
 	"ProgressBarBGShadow"
@@ -68,6 +68,6 @@
 		"tall"			"18"
 		"visible"		"1"
 		"enabled"		"1"
-		"Image"			"replay/thumbnails/boss_bar/boss_bar_surround_shadow"
+		"Image"			"../darhud/boss_bar/boss_bar_surround_shadow"
 	}
 }

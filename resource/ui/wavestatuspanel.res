@@ -7,13 +7,13 @@
 		"xpos"			"150"
 		"ypos"			"2"
 		"zpos"			"-1"
-		"wide"			"200"
+		"wide"			"0"
 		"tall"			"35"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"replay/thumbnails/square_white"
+		"image"			"../darhud/square_white"
 
 		"drawcolor"		"0 0 0"
 		"alpha"	"210"
@@ -36,6 +36,8 @@
 		"textAlignment"				"center"
 		"textAlignment_minmode"		"west"
 		"labelText"					"%wave_count%"
+		"dropshadow"		"1"
+		"dropshadowoffset"	"2"
 	}
 	
 	"SeparatorBar"
@@ -74,6 +76,8 @@
 		"enabled"		"1"
 		"textAlignment"				"west"
 		"labelText"					"#TF_MVM_Support"
+		"dropshadow"		"1"
+		"dropshadowoffset"	"2"
 		
 		if_verbose
 		{
@@ -85,17 +89,17 @@
 	{
 		"ControlName"	"ScalableImagePanel"
 		"fieldName"		"ProgressBar"
-		"xpos"			"214"
-		"ypos"			"20"
+		"xpos"			"215"
+		"ypos"			"21"
 		"zpos"			"3"
-		"wide"			"172"
-		"tall"			"11"
+		"wide"			"170"
+		"tall"			"9"
 		"xpos_minmode"	"271"
 		"ypos_minmode"	"8"
 		"wide_minmode"	"122"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../sprites/obj_icons/icon_obj_blu"
+		"image"			"../darhud/square_blue"
 		
 		"src_corner_height"	"11"
 		"src_corner_width"	"11"

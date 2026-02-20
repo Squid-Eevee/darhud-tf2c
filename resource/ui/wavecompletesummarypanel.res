@@ -51,7 +51,9 @@
 			"tall"			"30"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor"		"GeneralLabel"		
+			"fgcolor"		"GeneralLabel"
+			"dropshadow"		"1"
+			"dropshadowoffset"	"3"
 		}
 		"WaveCompleteLabelShadow"
 		{
@@ -66,7 +68,7 @@
 			"zpos"			"0"
 			"wide"			"250"
 			"tall"			"30"
-			"visible"		"1"
+			"visible"		"0"
 			"enabled"		"1"
 			"fgcolor"		"GeneralShadow"
 		}
@@ -95,21 +97,8 @@
 			"wide"			"105"
 			"tall"			"12"
 			"fgcolor"		"GeneralLabel"
-		}
-		"CreditCollectedTextLabelShadow"
-		{
-			"ControlName"		"CExLabel"
-			"fieldName"		"CreditCollectedTextLabelShadow"
-			"font"			"HudFontSmall"
-			"labelText"		"#TF_PVE_Collected"
-			"textAlignment"	"west"
-			"pin_to_sibling"	"CreditCollectedTextLabel"
-			"xpos"			"-1"
-			"ypos"			"-1"
-			"zpos"			"0"
-			"wide"			"105"
-			"tall"			"12"
-			"fgcolor"		"GeneralShadow"
+			"dropshadow"		"1"
+			"dropshadowoffset"	"2"
 		}
 		
 		"CreditCollectedCountLabel"
@@ -125,21 +114,8 @@
 			"wide"			"65"
 			"tall"			"12"
 			"fgcolor"		"CreditsGreen"
-		}
-		"CreditCollectedCountLabelShadow"
-		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"CreditCollectedCountLabelShadow"
-			"font"			"HudFontSmallBold"
-			"labelText"		"%creditscollected%"
-			"textAlignment" "east"
-			"pin_to_sibling"	"CreditCollectedCountLabel"
-			"xpos"			"-1"
-			"ypos"			"-1"
-			"zpos"			"0"
-			"wide"			"65"
-			"tall"			"12"
-			"fgcolor"		"GeneralShadow"
+			"dropshadow"		"1"
+			"dropshadowoffset"	"2"
 		}
 		
 		"CreditMissedTextLabel"
@@ -155,21 +131,8 @@
 			"wide"			"105"
 			"tall"			"12"
 			"fgcolor"		"GeneralLabel"
-		}
-		"CreditMissedTextLabelShadow"
-		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"CreditMissedTextLabelShadow"
-			"font"			"HudFontSmall"
-			"labelText"		"#TF_PVE_Missed"
-			"textAlignment" "west"
-			"pin_to_sibling"	"CreditMissedTextLabel"
-			"xpos"			"-1"
-			"ypos"			"-1"
-			"zpos"			"0"
-			"wide"			"105"
-			"tall"			"12"
-			"fgcolor"		"GeneralShadow"
+			"dropshadow"		"1"
+			"dropshadowoffset"	"2"
 		}
 		"CreditMissedCountLabel"
 		{
@@ -184,39 +147,14 @@
 			"wide"			"65"
 			"tall"			"12"
 			"fgcolor"		"RedSolid"
-		}
-		"CreditMissedCountLabelShadow"
-		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"CreditMissedCountLabelShadow"
-			"font"			"HudFontSmallBold"
-			"labelText"		"%creditsmissed%"
-			"textAlignment" "east"
-			"pin_to_sibling"	"CreditMissedCountLabel"
-			"xpos"			"-1"
-			"ypos"			"-1"
-			"zpos"			"0"
-			"wide"			"65"
-			"tall"			"12"
-			"fgcolor"		"GeneralShadow"
+			"dropshadow"		"1"
+			"dropshadowoffset"	"2"
 		}
 		
-		//the bonus label isn't there unless you qualify for it and since the drop shadow isn't there in the default hud it isn't coded to remain hidden
-		//so the solution is just hide the original one and create a copy with a different name
 		"CreditBonusTextLabel"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"CreditBonusTextLabel"
-			"xpos"			"0"
-			"ypos"			"0"
-			"zpos"			"0"
-			"wide"			"0"
-			"tall"			"0"
-		}
-		"CreditBonusTextLabelCopy"
-		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"CreditBonusTextLabelCopy"
 			"font"			"HudFontSmall"
 			"labelText"		"#TF_PVE_Bonus"
 			"textAlignment" "west"
@@ -226,21 +164,8 @@
 			"wide"			"105"
 			"tall"			"12"
 			"fgcolor"		"GeneralLabel"
-		}
-		"CreditBonusTextLabelShadow"
-		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"CreditBonusTextLabelShadow"
-			"font"			"HudFontSmall"
-			"labelText"		"#TF_PVE_Bonus"
-			"textAlignment" "west"
-			"pin_to_sibling"	"CreditBonusTextLabelCopy"
-			"xpos"			"-1"
-			"ypos"			"-1"
-			"zpos"			"0"
-			"wide"			"105"
-			"tall"			"12"
-			"fgcolor"		"GeneralShadow"
+			"dropshadow"		"1"
+			"dropshadowoffset"	"2"
 		}
 		
 		"CreditBonusCountLabel"
@@ -256,21 +181,8 @@
 			"wide"			"65"
 			"tall"			"12"
 			"fgcolor"		"CreditsGreen"
-		}
-		"CreditBonusCountLabelShadow"
-		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"CreditBonusCountLabelShadow"
-			"font"			"HudFontSmallBold"
-			"labelText"		"%creditbonus%"
-			"textAlignment" "east"
-			"pin_to_sibling"	"CreditBonusCountLabel"
-			"xpos"			"-1"
-			"ypos"			"-1"
-			"zpos"			"0"
-			"wide"			"65"
-			"tall"			"12"
-			"fgcolor"		"GeneralShadow"
+			"dropshadow"		"1"
+			"dropshadowoffset"	"2"
 		}
 	}
 	
@@ -311,33 +223,21 @@
 			"wide"			"120"
 			"tall"			"20"
 			"fgcolor"		"GeneralLabel"
-		}
-		"RatingLabelShadow"
-		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"RatingLabelShadow"
-			"font"			"HudFontSmall"
-			"labelText"		"%ratinglabel%"
-			"textAlignment" "center"
-			"pin_to_sibling"	"RatingLabel"
-			"xpos"			"-1"
-			"ypos"			"-1"
-			"zpos"			"0"
-			"wide"			"120"
-			"tall"			"20"
-			"fgcolor"		"GeneralShadow"
+			"dropshadow"		"1"
+			"dropshadowoffset"	"2"
 		}
 		
 		"RatingTextBackground"
 		{
-			"ControlName"	"CTFImagePanel"
+			"ControlName"	"ImagePanel"
 			"fieldName"	"RatingTextBackground"
 			"xpos"		"45"
 			"ypos"		"19"
 			"wide"		"30"
 			"tall"		"30"
 			"zpos"		"0"
-			"image"		"../darhud/achievement_red"
+			"image"		"resource/svgs/darhud/achievement_mask.svg"
+			"drawcolor"	"HudRedTeamSolid"
 			"scaleImage"	"1"
 		}
 		"RatingText"
@@ -353,21 +253,8 @@
 			"wide"			"120"
 			"tall"			"30"
 			"fgcolor"		"White"
-		}
-		"RatingTextShadow"
-		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"RatingTextShadow"
-			"font"			"HudFontMediumBold"
-			"labelText"		"%ratingscore%"
-			"textAlignment" "center"
-			"pin_to_sibling"	"RatingText"
-			"xpos"			"-2"
-			"ypos"			"-2"
-			"zpos"			"1"
-			"wide"			"120"
-			"tall"			"30"
-			"fgcolor"		"Black"
+			"dropshadow"		"1"
+			"dropshadowoffset"	"3"
 		}
 	}
 
