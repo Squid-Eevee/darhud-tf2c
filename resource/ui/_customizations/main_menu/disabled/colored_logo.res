@@ -4,6 +4,7 @@
 	{
 		"visible"		"0"
 	}
+	//i really hate this solution but it works
 	"VanityPanelShadow"
 	{
 		"ControlName"		"EditablePanel"
@@ -19,3 +20,4 @@
 		}
 	}
 }
+
