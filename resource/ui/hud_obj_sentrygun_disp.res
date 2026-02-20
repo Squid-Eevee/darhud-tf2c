@@ -69,21 +69,22 @@
 			"fieldName"	"BackgroundContainer"
 			"xpos"		"-2"
 			"ypos"		"0"
-			"wide"		"226"
+			"wide"		"128"
 			"tall"		"24"
 			"visible"	"1"
 			
 			"Background"
 			{
-				"ControlName"		"CTFImagePanel"
+				"ControlName"		"ImagePanel"
 				"fieldName"		"Background"
 				"xpos"			"0"
 				"ypos"			"0"
 				"zpos"			"-3"
-				"wide"			"226"
+				"wide"			"128"
 				"tall"			"50"
 				"visible"		"1"
-				"image"			"../darhud/building/build_sentry_shadow"
+				"image"			"resource/svgs/darhud/building/build_sentry_mask.svg"
+				"drawcolor"		"HudShadow"
 				"scaleImage"		"1"
 			}
 		}
@@ -216,21 +217,22 @@
 			"xpos"		"0"
 			"ypos"		"2"
 			"zpos"		"-3"
-			"wide"		"226"
+			"wide"		"128"
 			"tall"		"24"
 			"visible"	"1"
 			
 			"BackgroundShadow"
 			{
-				"ControlName"		"CTFImagePanel"
+				"ControlName"		"ImagePanel"
 				"fieldName"		"BackgroundShadow"
 				"xpos"			"0"
 				"ypos"			"0"
 				"zpos"			"-3"
-				"wide"			"226"
+				"wide"			"128"
 				"tall"			"50"
 				"visible"		"1"
-				"image"			"../darhud/building/build_sentry_shadow"
+				"image"			"resource/svgs/darhud/building/build_sentry_mask.svg"
+				"drawcolor"		"HudShadow"
 				"scaleImage"		"1"
 			}
 		}

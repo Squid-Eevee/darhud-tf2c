@@ -45,15 +45,20 @@
 		
 		"Background"
 		{
-			"ControlName"	"CTFImagePanel"
-			"fieldName"	"Background"
+			"visible"	"0"
+		}
+		"BackgroundShadow"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"	"BackgroundShadow"
 			"xpos"		"-2"
 			"ypos"		"0"
 			"zpos"		"-2"
 			"wide"		"122"
 			"tall"		"24"
 			"visible"	"1"
-			"image"		"../darhud/building/build_alt_shadow"
+			"image"		"resource/svgs/darhud/building/build_alt_mask.svg"
+			"drawcolor"	"HudShadow"
 			"scaleImage"	"1"	
 		}
 
@@ -123,7 +128,7 @@
 		}
 		"BackgroundShadow"
 		{
-			"ControlName"	"CTFImagePanel"
+			"ControlName"	"ImagePanel"
 			"fieldName"	"BackgroundShadow"
 			"xpos"		"0"
 			"ypos"		"2"
@@ -131,7 +136,8 @@
 			"wide"		"122"
 			"tall"		"24"
 			"visible"	"1"
-			"image"		"../darhud/building/build_alt_shadow"
+			"image"		"resource/svgs/darhud/building/build_alt_mask.svg"
+			"drawcolor"	"HudShadow"
 			"scaleImage"	"1"	
 		}
 		

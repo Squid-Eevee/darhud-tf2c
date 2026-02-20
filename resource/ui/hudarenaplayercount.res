@@ -47,10 +47,11 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"image"			"../darhud/counter_blue"
+			"scaleImage"		"1"
 		}
 		"backgroundshadow"
 		{
-			"ControlName"	"CTFImagePanel"
+			"ControlName"	"ImagePanel"
 			"fieldName"		"backgroundshadow"
 			"pin_to_sibling"	"background"
 			"xpos"			"-2"
@@ -62,7 +63,9 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"image"			"../darhud/counter_shadow"
+			"image"			"resource/svgs/darhud/counter_mask.svg"
+			"drawcolor"		"HudShadow"
+			"scaleImage"		"1"
 		}
 
 		"count"
@@ -101,7 +104,7 @@
 			"tall"					"18"
 			"visible"				"1"
 			"enabled"				"1"
-			"image"					"../darhud/arena/player_icon"
+			"image"					"resource/svgs/darhud/arena/player_icon.svg"
 			"drawcolor"				"ObjectiveLabel"
 			"scaleImage"				"1"
 			"dropshadow"	"1"
@@ -144,10 +147,11 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"image"			"../darhud/counter_red"
+			"scaleImage"		"1"
 		}
 		"backgroundshadow"
 		{
-			"ControlName"	"CTFImagePanel"
+			"ControlName"		"ImagePanel"
 			"fieldName"		"backgroundshadow"
 			"pin_to_sibling"	"background"
 			"xpos"			"-2"
@@ -159,7 +163,9 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"image"			"../darhud/counter_shadow"
+			"image"			"resource/svgs/darhud/counter_mask.svg"
+			"drawcolor"		"HudShadow"
+			"scaleImage"		"1"
 		}
 
 		"count"
@@ -198,7 +204,7 @@
 			"tall"					"18"
 			"visible"				"1"
 			"enabled"				"1"
-			"image"					"../darhud/arena/player_icon"
+			"image"					"resource/svgs/darhud/arena/player_icon.svg"
 			"drawcolor"				"ObjectiveLabel"
 			"scaleImage"				"1"
 			"dropshadow"	"1"
@@ -241,10 +247,11 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"image"			"../darhud/counter_green"
+			"scaleImage"		"1"
 		}
 		"backgroundshadow"
 		{
-			"ControlName"	"CTFImagePanel"
+			"ControlName"		"ImagePanel"
 			"fieldName"		"backgroundshadow"
 			"pin_to_sibling"	"background"
 			"xpos"			"-2"
@@ -256,7 +263,9 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"image"			"../darhud/counter_shadow"
+			"image"			"resource/svgs/darhud/counter_mask.svg"
+			"drawcolor"		"HudShadow"
+			"scaleImage"		"1"
 		}
 
 		"count"
@@ -295,7 +304,7 @@
 			"tall"					"18"
 			"visible"				"1"
 			"enabled"				"1"
-			"image"					"../darhud/arena/player_icon"
+			"image"					"resource/svgs/darhud/arena/player_icon.svg"
 			"drawcolor"				"ObjectiveLabel"
 			"scaleImage"				"1"
 			"dropshadow"	"1"
@@ -326,22 +335,21 @@
 	
 		"background"
 		{
-			"ControlName"	"CTFImagePanel"
+			"ControlName"		"CTFImagePanel"
 			"fieldName"		"background"
 			"xpos"			"0"
 			"ypos"			"0"
 			"zpos"			"0"
 			"wide"			"50"
 			"tall"			"23"
-			"autoResize"	"0"
-			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
 			"image"			"../darhud/counter_yellow"
+			"scaleImage"		"1"
 		}
 		"backgroundshadow"
 		{
-			"ControlName"	"CTFImagePanel"
+			"ControlName"		"ImagePanel"
 			"fieldName"		"backgroundshadow"
 			"pin_to_sibling"	"background"
 			"xpos"			"-2"
@@ -349,11 +357,11 @@
 			"zpos"			"-1"
 			"wide"			"50"
 			"tall"			"23"
-			"autoResize"	"0"
-			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"image"			"../darhud/counter_shadow"
+			"image"			"resource/svgs/darhud/counter_mask.svg"
+			"drawcolor"		"HudShadow"
+			"scaleImage"		"1"
 		}
 
 		"count"
@@ -392,7 +400,7 @@
 			"tall"					"18"
 			"visible"				"1"
 			"enabled"				"1"
-			"image"					"../darhud/arena/player_icon"
+			"image"					"resource/svgs/darhud/arena/player_icon.svg"
 			"drawcolor"				"ObjectiveLabel"
 			"scaleImage"				"1"
 			"dropshadow"	"1"

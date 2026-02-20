@@ -44,16 +44,22 @@
 		
 		"Background"
 		{
-			"ControlName"	"CTFImagePanel"
-			"fieldName"	"Background"
+			"visible"	"0"
+		}
+		
+		"BackgroundShadow"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"	"BackgroundShadow"
 			"xpos"		"-2"
 			"ypos"		"0"
 			"zpos"		"-2"
 			"wide"		"122"
 			"tall"		"30"
 			"visible"	"1"
-			"image"		"../darhud/building/build_alt_shadow"
-			"scaleImage"	"1"	
+			"image"		"resource/svgs/darhud/building/build_alt_mask.svg"
+			"drawcolor"	"HudShadow"
+			"scaleImage"	"1"
 		}
 	
 		"Icon_Teleport_Exit"
@@ -214,16 +220,18 @@
 		}
 		"BackgroundShadow"
 		{
-			"ControlName"	"CTFImagePanel"
-			"fieldName"	"BackgroundShadow"
-			"xpos"		"0"
-			"ypos"		"2"
-			"zpos"		"-2"
-			"wide"		"122"
-			"tall"		"30"
-			"visible"	"1"
-			"image"		"../darhud/building/build_alt_shadow"
-			"scaleImage"	"1"	
+			"ControlName"		"ImagePanel"
+			"fieldName"		"BackgroundShadow"
+			"pin_to_sibling"	"Background"
+			"xpos"			"-2"
+			"ypos"			"-2"
+			"zpos"			"-2"
+			"wide"			"122"
+			"tall"			"30"
+			"visible"		"1"
+			"image"			"resource/svgs/darhud/building/build_alt_mask.svg"
+			"drawcolor"		"HudShadow"
+			"scaleImage"		"1"	
 		}
 		
 		"HealthBG"
