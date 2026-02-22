@@ -20,12 +20,14 @@
 		"xpos"			"6"
 		"ypos"			"6"
 		"zpos"			"3"
-		"wide"			"16"
-		"tall"			"16"
+		"wide"			"17"
+		"tall"			"17"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/health_bg"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
+		"dropshadow"	"1"
+		"dropshadowoffset"	"2"
 	}	
 	"BuildingStatusHealthImageBG"
 	{
@@ -73,4 +75,5 @@
 		"dropshadow"		"1"
 		"dropshadowoffset"	"2"
 	}
+
 }
