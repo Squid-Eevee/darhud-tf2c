@@ -23,12 +23,14 @@
 		"xpos"			"2"
 		"ypos"			"2"
 		"zpos"			"3"
-		"wide"			"48"
-		"tall"			"48"
+		"wide"			"50"
+		"tall"			"50"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/health_bg"
 		"scaleImage"	"1"
+		"dropshadow"	"1"
+		"dropshadowoffset"	"3"
 	}	
 	"BuildingStatusHealthImageBG"
 	{
@@ -117,4 +119,5 @@
 		"fgcolor"		"HealthShadow"
 	}
 }
+
 
