@@ -164,8 +164,9 @@
 		"textAlignment"		"west"
 		"font"				"HudFontBiggerBold"
 		"fgcolor"			"MainMenuLabel"
-		"dropshadow"			"1"
+		"dropshadow"		"1"
 		"dropshadowoffset"	"3"
+		"mouseinputenabled"	"0"
 	}
 	
 	"TopLine"
