@@ -340,7 +340,7 @@
 		"actionsignallevel"	"2"
 		"Command"		"tf2c_loadout_grid 0"
 		
-		"image_default"	"resource/svgs/mainmenu/hamburger.svg"
+		"image_default"	"resource/svgs/mainmenu/icon_hamburger.svg"
 		"stayselectedonclick"	"1"
 		"image_selectedcolor"	"ButtonArmedLabelMM"
 		"border_selected"		"DarhudMMSquareButtonArmed"
@@ -379,7 +379,7 @@
 		"actionsignallevel"	"2"
 		"Command"		"tf2c_loadout_grid 1"
 		
-		"image_default"	"resource/svgs/mainmenu/bento.svg"
+		"image_default"	"resource/svgs/mainmenu/icon_bento.svg"
 		"stayselectedonclick"	"1"
 		"image_selectedcolor"	"ButtonArmedLabelMM"
 		"border_selected"		"DarhudMMSquareButtonArmed"
@@ -525,4 +525,5 @@
 		}
 	}
 }
+
 
