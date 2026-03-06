@@ -1,0 +1,8 @@
+"UnlitGeneric"
+{
+	"$basetexture"	"vgui\vip_lives_one"
+	"$translucent"	"1"
+	"$ignorez"		"1"
+	"$vertexcolor"	"1"
+	"$vertexalpha"	"1"
+}
