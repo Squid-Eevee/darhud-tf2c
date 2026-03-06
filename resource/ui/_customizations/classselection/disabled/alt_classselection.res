@@ -928,12 +928,14 @@
 			"ControlName"	"ImagePanel"
 			"fieldName"	"SubImage"
 			"xpos"		"1"
-			"ypos"		"-34"
+			"ypos"		"-31"
 			"zpos"		"7"
-			"wide"		"48"
-			"tall"		"96"
+			"wide"		"46"
+			"tall"		"92"
 			"visible"	"1"
 			"image"		"class_sel_sm_random_inactive"
+			"dropshadow"		"1"
+			"dropshadowoffset"	"3"
 		}
 		
 		"if_special_classes"

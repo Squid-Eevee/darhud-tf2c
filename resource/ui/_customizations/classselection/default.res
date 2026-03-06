@@ -123,6 +123,8 @@
 			"tall"		"100"
 			"visible"	"1"
 			"image"		"class_sel_sm_scout_inactive"
+			"dropshadow"	"1"
+			"dropshadowoffset"	"3"
 		}
 	}
 	"scoutShadow"
@@ -175,6 +177,8 @@
 			"tall"		"100"
 			"visible"	"1"
 			"image"		"class_sel_sm_soldier_inactive"
+			"dropshadow"	"1"
+			"dropshadowoffset"	"3"
 		}				
 	}
 	"soldierShadow"
@@ -227,6 +231,8 @@
 			"tall"		"100"
 			"visible"	"1"
 			"image"		"class_sel_sm_pyro_inactive"
+			"dropshadow"	"1"
+			"dropshadowoffset"	"3"
 		}				
 	}
 	"pyroShadow"
@@ -284,7 +290,9 @@
 			"tall"		"100"
 			"visible"	"1"
 			"image"		"class_sel_sm_demo_inactive"
-		}				
+			"dropshadow"	"1"
+			"dropshadowoffset"	"3"
+		}
 	}
 	"demomanShadow"
 	{
@@ -336,7 +344,9 @@
 			"tall"		"100"
 			"visible"	"1"
 			"image"		"class_sel_sm_heavy_inactive"
-		}				
+			"dropshadow"	"1"
+			"dropshadowoffset"	"3"
+		}
 	}
 	"heavyweaponsShadow"
 	{
@@ -388,7 +398,9 @@
 			"tall"		"100"
 			"visible"	"1"
 			"image"		"class_sel_sm_engineer_inactive"
-		}				
+			"dropshadow"	"1"
+			"dropshadowoffset"	"3"
+		}
 	}
 	"engineerShadow"
 	{
@@ -446,7 +458,9 @@
 			"tall"		"100"
 			"visible"	"1"
 			"image"		"class_sel_sm_medic_inactive"
-		}				
+			"dropshadow"	"1"
+			"dropshadowoffset"	"3"
+		}
 	}
 	"medicShadow"
 	{
@@ -498,7 +512,9 @@
 			"tall"		"100"
 			"visible"	"1"
 			"image"		"class_sel_sm_sniper_inactive"
-		}				
+			"dropshadow"	"1"
+			"dropshadowoffset"	"3"
+		}
 	}
 	"sniperShadow"
 	{
@@ -550,6 +566,8 @@
 			"tall"		"100"
 			"visible"	"1"
 			"image"		"class_sel_sm_spy_inactive"
+			"dropshadow"	"1"
+			"dropshadowoffset"	"3"
 		}
 	}
 	"spyShadow"
@@ -608,6 +626,8 @@
 			"tall"		"100"
 			"visible"	"1"
 			"image"		"class_sel_sm_civilian_inactive"
+			"dropshadow"	"1"
+			"dropshadowoffset"	"3"
 		}
 		"if_special_classes"
 		{
@@ -669,6 +689,8 @@
 			"tall"		"100"
 			"visible"	"1"
 			"image"		"class_sel_sm_random_inactive"
+			"dropshadow"		"1"
+			"dropshadowoffset"	"3"
 		}
 	}
 	"randomShadow"
@@ -765,6 +787,8 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"image"			"../hud/backpack_01"
+			"dropshadow"		"1"
+			"dropshadowoffset"	"3"
 		}
 	}
 	
