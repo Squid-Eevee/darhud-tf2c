@@ -58,17 +58,19 @@
 	
 	"LifeIcon"
 	{
-		"ControlName"	"ImagePanel"		
+		"ControlName"	"ImagePanel"
 		"fieldName"		"LifeIcon"
 		"xpos"			"9"
-		"ypos"			"6"
+		"ypos"			"5"
 		"zpos"			"3"
-		"wide"			"16"
-		"tall"			"16"
+		"wide"			"18"
+		"tall"			"18"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"vip_lives_full"
 		"scaleImage"	"1"
+		"dropshadow"		"1"
+		"dropshadowoffset"	"2"
 	}
 	
 	// "LifeIconWarn"
