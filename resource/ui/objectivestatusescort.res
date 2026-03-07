@@ -527,8 +527,8 @@
 			"xpos"			"c-4"
 			"ypos"			"49"
 			"zpos"			"2"
-			"wide"			"10"
-			"tall"			"10"
+			"wide"			"9"
+			"tall"			"9"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"0"
@@ -564,19 +564,19 @@
 		{
 			"ControlName"		"EditablePanel"
 			"fieldName"			"EscortTeardrop"
-			"xpos"				"9"
+			"xpos"				"0"
 			"ypos"				"5"	
 			"zpos"				"20"
-			"wide"				"35"		
+			"wide"				"52"		
 			"tall"				"42"		
 			"visible"			"0"
 			"enabled"			"1"
 			
 			"if_multiple_trains"
 			{
-				"xpos"			"9"
+				"xpos"			"0"
 				"ypos"			"5"			
-				"wide"			"35"			
+				"wide"			"52"			
 				"tall"			"42"			
 			}	
 						
@@ -584,10 +584,10 @@
 			{
 				"ControlName"		"CIconPanel"
 				"fieldName"			"Teardrop"
-				"xpos"				"0"
+				"xpos"				"9"
 				"ypos"				"0"
 				"zpos"				"0"
-				"wide"				"35"			
+				"wide"				"34"			
 				"tall"				"42"
 				"visible"			"1"
 				"enabled"			"1"
@@ -597,9 +597,9 @@
 				
 				"if_multiple_trains"
 				{
-					"xpos"			"0"
+					"xpos"			"9"
 					"ypos"			"0"			
-					"wide"			"35"			
+					"wide"			"34"			
 					"tall"			"42"			
 				}	
 			}
@@ -613,8 +613,8 @@
 				"xpos"				"0"
 				"ypos"				"0"
 				"zpos"				"23"
-				"wide"				"36"
-				"tall"				"35"
+				"wide"				"52"
+				"tall"				"34"
 				"visible"			"0"
 				"enabled"			"1"
 				"labelText"			"progress"
@@ -625,18 +625,18 @@
 				
 				"if_multiple_trains"
 				{
-				}	
+				}
 			}
 
 			"Blocked"
 			{
 				"ControlName"		"CIconPanel"
 				"fieldName"			"Blocked"
-				"xpos"				"2"
+				"xpos"				"11"
 				"ypos"				"2"
 				"zpos"				"1"
-				"wide"				"31"
-				"tall"				"31"
+				"wide"				"30"
+				"tall"				"30"
 				"visible"			"1"
 				"enabled"			"1"
 				"scaleImage"		"1"
@@ -645,10 +645,10 @@
 				
 				"if_multiple_trains"
 				{
-					"xpos"			"2"
+					"xpos"			"11"
 					"ypos"			"2"			
-					"wide"			"31"			
-					"tall"			"31"			
+					"wide"			"30"			
+					"tall"			"30"			
 				}	
 			}	
 			
@@ -656,7 +656,7 @@
 			{
 				"ControlName"		"ImagePanel"
 				"fieldName"		"Capping"	
-				"xpos"			"6"
+				"xpos"			"15"
 				"ypos"			"7"
 				"zpos"			"1"
 				"wide"			"25"
@@ -668,14 +668,14 @@
 				"tabPosition"	"0"
 				"labelText"		""
 				"image"			"resource/svgs/darhud/payload/arrow_right.svg"
-			"drawcolor"		"AdditionalIcon"
+				"drawcolor"		"AdditionalIcon"
 				"dropshadow"		"1"
 				"dropshadowoffset"		"2"
 				"scaleImage"	"1"	
 				
 				"if_multiple_trains"
 				{
-					"xpos"			"8"
+					"xpos"			"17"
 					"ypos"			"8"			
 					"wide"			"20"			
 					"tall"			"20"			
