@@ -2,8 +2,15 @@
 {
 	"HudTeamGoalBG"
 	{
-		"ControlName"		"CTFImagePanel"
+		"ControlName"		"EditablePanel"
 		"fieldName"		"HudTeamGoalBG"
+		"visible"		"0"
+	}
+	
+	"TeamGoalBG"
+	{
+		"ControlName"		"CTFImagePanel"
+		"fieldName"		"TeamGoalBG"
 		"xpos"			"54"
 		"ypos"			"0"
 		"zpos"			"-1"
@@ -20,11 +27,11 @@
 		"teambg_4"		"../darhud/scoreboard/score_left_green"
 		"teambg_5"		"../darhud/scoreboard/score_left_yellow"
 	}
-	"HudTeamGoalBGShadow"
+	"TeamGoalBGShadow"
 	{
 		"ControlName"		"CTFImagePanel"
-		"fieldName"		"HudTeamGoalBGShadow"
-		"pin_to_sibling"	"HudTeamGoalBG"
+		"fieldName"		"TeamGoalBGShadow"
+		"pin_to_sibling"	"TeamGoalBG"
 		"xpos"			"-2"
 		"ypos"			"-2"
 		"zpos"			"-2"

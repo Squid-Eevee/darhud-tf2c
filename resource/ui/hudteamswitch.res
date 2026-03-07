@@ -2,8 +2,15 @@
 {
 	"HudTeamSwitchBG"
 	{
-		"ControlName"		"CTFImagePanel"
+		"ControlName"		"EditablePanel"
 		"fieldName"		"HudTeamSwitchBG"
+		"visible"		"0"
+	}
+	
+	"TeamSwitchBG"
+	{
+		"ControlName"		"CTFImagePanel"
+		"fieldName"		"TeamSwitchBG"
 		"xpos"			"54"
 		"ypos"			"0"
 		"zpos"			"-1"
@@ -20,11 +27,11 @@
 		"teambg_4"		"../darhud/scoreboard/score_left_green"
 		"teambg_5"		"../darhud/scoreboard/score_left_yellow"
 	}
-	"HudTeamSwitchBGShadow"
+	"TeamSwitchBGShadow"
 	{
 		"ControlName"		"CTFImagePanel"
-		"fieldName"		"HudTeamSwitchBGShadow"
-		"pin_to_sibling"	"HudTeamSwitchBG"
+		"fieldName"		"TeamSwitchBGShadow"
+		"pin_to_sibling"	"TeamSwitchBG"
 		"xpos"			"-2"
 		"ypos"			"-2"
 		"zpos"			"-2"
@@ -34,6 +41,25 @@
 		"enabled"		"1"
 		"image"			"../darhud/scoreboard/score_left_shadow"
 		"scaleImage"		"1"
+	}
+	"SwitchLabel"
+	{	
+		"ControlName"			"Label"
+		"fieldName"			"SwitchLabel"
+		"font"				"HudFontSmallest"
+		"xpos"				"57"
+		"ypos"				"38"
+		"zpos"				"1"
+		"wide"				"200"
+		"tall"				"10"
+		"visible"			"1"
+		"enabled"			"1"
+		"labelText"			"#TF_teambalanced"
+		"textAlignment"		"north-west"
+		"fgcolor_override"	"ObjectiveLabel"
+		"wrap"				"1"
+		"dropshadow"			"1"
+		"dropshadowoffset"	"2"
 	}
 	"BalanceLabel"
 	{	
@@ -52,25 +78,6 @@
 		"wrap"				"1"
 		"textAlignment"		"north-west"
 		"fgcolor_override"	"ObjectiveLabel"
-		"dropshadow"			"1"
-		"dropshadowoffset"	"2"
-	}
-	"SwitchLabel"
-	{	
-		"ControlName"			"Label"
-		"fieldName"			"SwitchLabel"
-		"font"				"HudFontSmallest"
-		"xpos"				"57"
-		"ypos"				"38"
-		"zpos"				"1"
-		"wide"				"200"
-		"tall"				"10"
-		"visible"			"1"
-		"enabled"			"1"
-		"labelText"			"#TF_teambalanced"
-		"textAlignment"		"north-west"
-		"fgcolor_override"	"ObjectiveLabel"
-		"wrap"				"1"
 		"dropshadow"			"1"
 		"dropshadowoffset"	"2"
 	}

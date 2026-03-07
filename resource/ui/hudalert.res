@@ -5,7 +5,6 @@
 		"ControlName"		"EditablePanel"
 		"fieldName"		"HudAlertBG"
 		"visible"		"0"
-		"enabled"		"1"
 	}
 	
 	"AlertBG"
@@ -17,7 +16,8 @@
 		"zpos"			"-1"
 		"wide"			"246"
 		"tall"			"50"
-		"proportionaltoparent"	"1"
+		"visible"		"1"
+		"enabled"		"1"
 		"image"			"../darhud/scoreboard/score_left_neutral"
 		"scaleImage"		"1"
 		"teambg_0"		"../darhud/scoreboard/score_left_neutral"
@@ -28,10 +28,10 @@
 		"teambg_5"		"../darhud/scoreboard/score_left_yellow"
 	}
 	
-	"HudAlertBGShadow"
+	"AlertBGShadow"
 	{
 		"ControlName"		"CTFImagePanel"
-		"fieldName"		"HudAlertBGShadow"
+		"fieldName"		"AlertBGShadow"
 		"pin_to_sibling"	"AlertBG"
 		"xpos"			"-2"
 		"ypos"			"-2"
