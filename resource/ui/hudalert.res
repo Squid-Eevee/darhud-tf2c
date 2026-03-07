@@ -2,15 +2,22 @@
 {
 	"HudAlertBG"
 	{
-		"ControlName"		"CTFImagePanel"
+		"ControlName"		"EditablePanel"
 		"fieldName"		"HudAlertBG"
+		"visible"		"0"
+		"enabled"		"1"
+	}
+	
+	"AlertBG"
+	{
+		"ControlName"		"CTFImagePanel"
+		"fieldName"		"AlertBG"
 		"xpos"			"54"
 		"ypos"			"0"
 		"zpos"			"-1"
 		"wide"			"246"
 		"tall"			"50"
-		"visible"		"1"
-		"enabled"		"1"
+		"proportionaltoparent"	"1"
 		"image"			"../darhud/scoreboard/score_left_neutral"
 		"scaleImage"		"1"
 		"teambg_0"		"../darhud/scoreboard/score_left_neutral"
@@ -20,11 +27,12 @@
 		"teambg_4"		"../darhud/scoreboard/score_left_green"
 		"teambg_5"		"../darhud/scoreboard/score_left_yellow"
 	}
+	
 	"HudAlertBGShadow"
 	{
 		"ControlName"		"CTFImagePanel"
 		"fieldName"		"HudAlertBGShadow"
-		"pin_to_sibling"	"HudAlertBG"
+		"pin_to_sibling"	"AlertBG"
 		"xpos"			"-2"
 		"ypos"			"-2"
 		"zpos"			"-2"
