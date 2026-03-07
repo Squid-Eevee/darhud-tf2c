@@ -248,16 +248,16 @@
 		"ControlName"		"ImagePanel"
 		"fieldName"			"BlueTeamImage"
 		"xpos"				"-7"
-		"ypos"				"8"
+		"ypos"				"-2"
 		"zpos"				"5"
-		"wide"				"40"
-		"tall"				"40"
+		"wide"				"48"
+		"tall"				"28"
 		"visible"			"1"
 		"enabled"			"1"
-		"image"				"../hud/team_blue"
+		"image"				"resource/svgs/darhud/team_logos/blu.svg"
 		"scaleImage"		"1"
 		"dropshadow"		"1"
-		"dropshadowoffset"	"2"
+		"dropshadowoffset"	"3"
 		
 		"pin_to_sibling"	"BlueScoreBG"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
@@ -267,17 +267,17 @@
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"			"RedTeamImage"
-		"xpos"				"2"
-		"ypos"				"17"
+		"xpos"				"-7"
+		"ypos"				"-2"
 		"zpos"				"5"
-		"wide"				"55"
-		"tall"				"55"
+		"wide"				"43"
+		"tall"				"28"
 		"visible"			"1"
 		"enabled"			"1"
-		"image"				"../hud/team_red"
+		"image"				"resource/svgs/darhud/team_logos/red.svg"
 		"scaleImage"		"1"
 		"dropshadow"		"1"
-		"dropshadowoffset"	"2"
+		"dropshadowoffset"	"3"
 		
 		"pin_to_sibling"	"RedScoreBG"
 		"pin_corner_to_sibling"	"PIN_TOPRIGHT"
@@ -294,16 +294,16 @@
 		"ControlName"		"ImagePanel"
 		"fieldName"			"GreenTeamImage"
 		"xpos"				"-7"
-		"ypos"				"8	"
+		"ypos"				"-2"
 		"zpos"				"5"
-		"wide"				"40"
-		"tall"				"40"
+		"wide"				"36"
+		"tall"				"28"
 		"visible"			"1"
 		"enabled"			"1"
-		"image"				"../hud/team_green"
+		"image"				"resource/svgs/darhud/team_logos/grn.svg"
 		"scaleImage"		"1"
 		"dropshadow"		"1"
-		"dropshadowoffset"	"2"
+		"dropshadowoffset"	"3"
 		
 		"pin_to_sibling"	"GreenScoreBG"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
@@ -319,17 +319,17 @@
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"			"YellowTeamImage"
-		"xpos"				"-2"
-		"ypos"				"15"
+		"xpos"				"-7"
+		"ypos"				"-5"
 		"zpos"				"5"
-		"wide"				"45"
-		"tall"				"45"
+		"wide"				"55"
+		"tall"				"22"
 		"visible"			"1"
 		"enabled"			"1"
-		"image"				"../hud/team_yellow"
+		"image"				"resource/svgs/darhud/team_logos/ylw.svg"
 		"scaleImage"		"1"
 		"dropshadow"		"1"
-		"dropshadowoffset"	"2"
+		"dropshadowoffset"	"3"
 		
 		"pin_to_sibling"	"YellowScoreBG"
 		"pin_corner_to_sibling"	"PIN_TOPRIGHT"
@@ -812,9 +812,10 @@
 		}
 		"if_mvm"
 		{
+			// "pin_to_sibling"	""
+			// "xpos"		"r0"
 			"wide"		"0"
 			"tall"		"0"
-			//i guess "if_2team" overrides this?
 			"visible"	"0"
 		}
 	}
@@ -2113,6 +2114,4 @@
 		}
 	}
 }
-
-
 
