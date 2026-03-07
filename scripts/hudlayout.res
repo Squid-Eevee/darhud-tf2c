@@ -954,7 +954,7 @@
 	{
 		"fieldName"		"HudUpgradePanel"
 		"visible"		"0"
-		"enable"		"1"
+		"enabled"		"1"
 		"xpos"			"c-200"
 		"ypos"			"260"
 		"wide"			"400"
@@ -1065,7 +1065,7 @@
 	{
 		"fieldName"				"HudArenaNotification"
 		"visible"		"0"
-		"enable"		"1"
+		"enabled"		"1"
 		"xpos"			"0"
 		"ypos"			"66"
 		"zpos"			"-1"
@@ -1270,7 +1270,7 @@
 	{
 		"fieldName"		"ReplayReminder"
 		"visible"		"0"
-		"enable"		"1"
+		"enabled"		"1"
 	}
 	
 	MainMenuAdditions
@@ -1289,7 +1289,7 @@
 	{
 		"fieldName"		"CoachedByPanel"
 		"visible"		"0"
-		"enable"		"1"
+		"enabled"		"1"
 		"xpos"			"5"
 		"ypos"			"10"
 		"wide"			"250"
@@ -1300,7 +1300,7 @@
 	{
 		"fieldName"		"ItemTestHUDPanel"
 		"visible"		"0"
-		"enable"		"1"
+		"enabled"		"1"
 		"xpos"			"5"
 		"ypos"			"10"
 		"wide"			"150"
@@ -1311,7 +1311,7 @@
 	{
 		"fieldName"		"NotificationQueuePanel"
 		"visible"		"0"
-		"enable"		"1"
+		"enabled"		"1"
 		"xpos"			"r155"
 		"ypos"			"r90"
 		"zpos"			"100"
