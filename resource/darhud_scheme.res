@@ -38,6 +38,8 @@ Scheme
 		"MeterBackground"	"255 255 255 48" //Also used as the background of the uber meter
 		// "MeterColor"		"235 226 202 255"
 		"ProgressOffWhite"	"235 226 202 255" //Certain meters are hard-coded to use the colour with this name
+		"MeterIconInactive"	"250 234 201 51"
+		"MeterIconActive"		"235 226 202 255"
 
 		//Counter
 		"CounterValue"	"235 226 202 255"
@@ -54,7 +56,7 @@ Scheme
 		"KillfeedNormal"	"25 25 25 240"
 
 		//Chat
-		"ChatBackground"	"0 0 0 255"	//the alpha value doesn't seem to do anything to the chat window itself but this colour is shared with the chat filters window, which is fixed at 50% opacity for readability
+		"ChatBackground"	"0 170 255 255"	//the alpha value doesn't seem to do anything to the chat window itself but this colour is shared with the chat filters window, which is fixed at 50% opacity for readability
 							//so if you want your background opacities to match, leave the alpha at 255
 		
 		//Vote selection
@@ -302,7 +304,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"TF2C Secondary"
 				"tall"		"10"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -310,7 +312,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"Verdana"
+				"name"		"TF2C Secondary"
 				"tall"		"12"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -367,7 +369,7 @@ Scheme
 				"tall"		"10"
 				"weight"	"600"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"		"480 599"
+				"yres"	"480 599"
 			}
 			"2"
 			{
@@ -375,7 +377,7 @@ Scheme
 				"tall"		"12"
 				"weight"	"600"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"		"600 768"
+				"yres"	"600 768"
 			}
 			"3"
 			{
@@ -383,7 +385,7 @@ Scheme
 				"tall"		"13"
 				"weight"	"600"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"		"769 1023"
+				"yres"	"769 1023"
 				"antialias"	"1"
 			}
 			"4"
@@ -392,7 +394,7 @@ Scheme
 				"tall"		"17"
 				"weight"	"600"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"		"1024 1199"
+				"yres"	"1024 1199"
 				"antialias"	"1"
 			}
 			"5"
@@ -401,22 +403,22 @@ Scheme
 				"tall"		"22"
 				"weight"	"600"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"		"1200 6000"
+				"yres"	"1200 6000"
 				"antialias"	"1"
 			}
 			"6"
 			{
 				"name"		"TF2C Secondary"
 				"tall"		"22"
-				"range" 	"0x0000 0x00FF"
-				"weight"	"600"
+				"range" 		"0x0000 0x00FF"
+				"weight"		"600"
 			}
 			"7"
 			{
 				"name"		"TF2C Secondary"
 				"tall"		"22"
-				"range" 	"0x0000 0x00FF"
-				"weight"	"600"
+				"range" 		"0x0000 0x00FF"
+				"weight"		"600"
 			}
 		}
 		
@@ -514,6 +516,58 @@ Scheme
 			{
 				"name"		"TF2C Secondary"
 				"tall"		"12"
+				"range" 		"0x0000 0x00FF"
+				"weight"		"0"
+			}
+		}
+		"EscortProgressFont"
+		{
+			"1"
+			{
+				"name"		"TF2C Secondary"
+				"tall"		"9"
+				"weight"	"0"
+				"range"		"0x0000 0x017F"
+				"yres"	"480 599"
+			}
+			"2"
+			{
+				"name"		"TF2C Secondary"
+				"tall"		"10"
+				"weight"	"0"
+				"range"		"0x0000 0x017F"
+				"yres"	"600 767"
+			}
+			"3"
+			{
+				"name"		"TF2C Secondary"
+				"tall"		"11"
+				"weight"	"0"
+				"range"		"0x0000 0x017F"
+				"yres"	"768 1023"
+				"antialias"	"1"
+			}
+			"4"
+			{
+				"name"		"TF2C Secondary"
+				"tall"		"17"
+				"weight"	"0"
+				"range"		"0x0000 0x017F"
+				"yres"	"1024 1199"
+				"antialias"	"1"
+			}
+			"5" // Misyl: Proportional
+			{
+				"name"		"TF2C Secondary"
+				"tall"		"6"
+				"weight"	"0"
+				"range"		"0x0000 0x017F"
+				"antialias"	"1"
+			}
+			"6"
+			{
+				"name"		"TF2C Secondary"
+				"tall"		"9"
 				"range" 		"0x0000 0x00FF"
 				"weight"		"0"
 			}
@@ -718,51 +772,6 @@ Scheme
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" 	"1"
-			}
-		}
-		"EscortProgressFont"
-		{
-			"1"
-			{
-				"name"		"TF2C Secondary"
-				"tall"		"14"
-				"weight"		"550"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"480 599"
-			}
-			"2"
-			{
-				"name"		"TF2C Secondary"
-				"tall"		"14"
-				"weight"		"550"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"600 767"
-			}
-			"3"
-			{
-				"name"		"TF2C Secondary"
-				"tall"		"14"
-				"weight"		"550"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"768 1023"
-				"antialias"	"1"
-			}
-			"4"
-			{
-				"name"		"TF2C Secondary"
-				"tall"		"14"
-				"weight"		"550"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"1024 1199"
-				"antialias"	"1"
-			}
-			"5" // Misyl: Proportional
-			{
-				"name"		"TF2C Secondary"
-				"tall"		"14"
-				"weight"		"550"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"antialias"	"1"
 			}
 		}
 	}
@@ -1571,11 +1580,4 @@ Scheme
 			"color"					"ButtonMMQuitDisabled"
 		}
 	}
-
 }
-
-
-
-
-
-
