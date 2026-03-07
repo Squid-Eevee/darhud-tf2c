@@ -220,7 +220,6 @@
 			"ypos"			"48"
 			"zpos"			"8"
 			"wide"			"52"
-			"tall"			"130"
 		}
 		
 		"RecedeTime"
