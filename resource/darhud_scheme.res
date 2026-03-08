@@ -21,6 +21,9 @@ Scheme
 		"HealthGain"		"0 202 133 255"	//Also used when the uber is ready
 		"HealthLow"		"255 230 0 255"
 
+		//Damage Numbers customisation
+		"DamageNumber"	"255 230 0 255"
+
 		//Ammo
 		"AmmoNormal" 	"235 226 202 255"
 		"AmmoReserve"		"235 226 202 255"
@@ -578,7 +581,7 @@ Scheme
 			"1"
 			{
 				"name"		"TF2C Build"
-				"tall"		"26"
+				"tall"		"12"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
@@ -1581,3 +1584,4 @@ Scheme
 		}
 	}
 }
+
