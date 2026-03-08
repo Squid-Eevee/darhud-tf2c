@@ -13,21 +13,6 @@ Scheme
 		"GeneralShadow"		"0 0 0 240"
 		"GeneralBackground"	"0 0 0 192"
 
-		"HUDTeamButton"			"61 60 59 127"
-		"HUDArenaTeamButton"		"170 71 21 127"
-		"HUDBlueTeam"				"73 108 132 127"
-		"HUDRedTeam"				"162 47 47 127"
-		"HUDGreenTeam"			"60 129 60 127"
-		"HUDYellowTeam"			"193 160 43 127"
-		"HUDGlobalTeam"			"128 128 128 127"
-		"HUDTeamButtonSolid"		"61 60 59 255"
-		"HUDArenaTeamButtonSolid"	"170 71 21 255"
-		"HUDBlueTeamSolid"		"73 108 132 255"
-		"HUDRedTeamSolid"			"162 47 47 255"
-		"HUDGreenTeamSolid"		"60 129 60 255"
-		"HUDYellowTeamSolid"		"193 160 43 255"
-		"HUDGlobalTeamSolid"		"128 128 128 255"
-
 		//Health
 		"HealthNormal"	"235 226 202 255"
 		"HealthShadow" 	"0 0 0 240"
