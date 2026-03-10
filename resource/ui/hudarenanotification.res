@@ -2,8 +2,14 @@
 {
 	"HudArenaNotificationBG"
 	{
-		"ControlName"		"CTFImagePanel"
+		"ControlName"		"EditablePanel"
 		"fieldName"		"HudArenaNotificationBG"
+		"visible"		"0"
+	}
+	"ArenaNotificationBG"
+	{
+		"ControlName"		"CTFImagePanel"
+		"fieldName"		"ArenaNotificationBG"
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"-1"
@@ -19,11 +25,11 @@
 		"teambg_4"		"../darhud/square_green"
 		"teambg_5"		"../darhud/square_yellow"
 	}
-	"HudArenaNotificationBGShadow"
+	"ArenaNotificationBGShadow"
 	{
 		"ControlName"		"CTFImagePanel"
-		"fieldName"		"HudArenaNotificationBGShadow"
-		"pin_to_sibling"	"HudArenaNotificationBG"
+		"fieldName"		"ArenaNotificationBGShadow"
+		"pin_to_sibling"	"ArenaNotificationBG"
 		"xpos"			"0"
 		"ypos"			"-2"
 		"zpos"			"-2"
@@ -126,4 +132,5 @@
 		"image"		"../hud/objectives_flagpanel_ico_flag_moving"
 		"scaleImage"	"1"
 	}
+
 }
