@@ -1,0 +1,1 @@
+#base "_huditemeffectmeter_counter.res"
