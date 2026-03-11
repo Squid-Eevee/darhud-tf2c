@@ -94,18 +94,12 @@
 		"zpos"			"3"
 		"wide"			"170"
 		"tall"			"9"
-		"xpos_minmode"	"271"
-		"ypos_minmode"	"8"
-		"wide_minmode"	"122"
+		"xpos_minmode"	"272"
+		"ypos_minmode"	"9"
+		"wide_minmode"	"120"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../darhud/square_blue"
-		
-		"src_corner_height"	"11"
-		"src_corner_width"	"11"
-	
-		"draw_corner_width"	"1"
-		"draw_corner_height" 	"1"
 	}
 	
 	"ProgressBarBG"
