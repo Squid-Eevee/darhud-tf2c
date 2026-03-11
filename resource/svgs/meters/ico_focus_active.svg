@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   id="ico_battery_active"
+   width="128"
+   height="128"
+   viewBox="0 0 128 128"
+   version="1.1"
+   xml:space="preserve"
+   sodipodi:docname="ico_focus_active.svg"
+   inkscape:version="1.4.2 (f4327f4, 2025-05-13)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="6.140625"
+     inkscape:cx="64"
+     inkscape:cy="64"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="ico_battery_active" /><defs
+     id="defs1"><style
+       id="style1">
+      .cls-1 {
+        fill: #fff;
+        fill-rule: evenodd;
+      }
+    </style></defs><path
+     id="rect30"
+     style="fill:#ffffff;stroke-width:5;stroke-linecap:square;stroke-miterlimit:5;paint-order:stroke fill markers"
+     d="M 64,40 C 41.21599,40 0,64 0,64 0,64 41.21599,88 64,88 86.78401,88 128,64 128,64 128,64 86.78401,40 64,40 Z m 0,5 C 74.49341,45 83,53.50659 83,64 83,74.49341 74.49341,83 64,83 53.50659,83 45,74.49341 45,64 45,53.50659 53.50659,45 64,45 Z"
+     sodipodi:nodetypes="scscssssss" /><circle
+     style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.79055;stroke-linecap:square;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+     id="circle30"
+     cx="64"
+     cy="64"
+     r="8" /></svg>
