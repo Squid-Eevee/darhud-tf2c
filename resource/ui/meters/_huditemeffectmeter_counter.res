@@ -4,7 +4,7 @@
 	{
 		"xpos"			"r103"
 		"ypos"			"r124"
-		"xpos_minmode"	"c232"
+		"xpos_minmode"	"c258"
 		"visible"		"1"
 		"enabled"		"1"
 		"zpos"			"4"

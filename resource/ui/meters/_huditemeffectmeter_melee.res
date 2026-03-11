@@ -6,7 +6,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"r130"
-		"xpos_minmode"	"c229"
+		"xpos_minmode"	"c232"
 		"ypos"			"r40"
 		"zpos"			"0"
 		"wide"			"88"
