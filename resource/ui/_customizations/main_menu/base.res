@@ -38,7 +38,7 @@
 		"visible"		"1"
 		"proportionalToParent"	"1"
 		"textAlignment"		"north-east"
-		"labelText"			"VERSION 3.0.5"
+		"labelText"			"VERSION 3.0.6"
 		"font"				"HudFontSmall"
 		"dropshadow"			"1"
 		"dropshadowoffset"	"2"
@@ -61,7 +61,7 @@
 		"visible"		"1"
 		"proportionalToParent"	"1"
 		"textAlignment"		"north-east"
-		"labelText"			"DarHud Version 1.1.5.1"
+		"labelText"			"DarHud Version 1.1.6"
 		"font"				"HudFontSmallest"
 		"dropshadow"			"1"
 		"dropshadowoffset"	"2"
@@ -1364,6 +1364,7 @@
 		"visible"	"0"
 	}
 }
+
 
 
 
