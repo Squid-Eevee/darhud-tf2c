@@ -38,7 +38,7 @@
 		"visible"		"1"
 		"proportionalToParent"	"1"
 		"textAlignment"		"north-east"
-		"labelText"			"VERSION 3.0.6"
+		"labelText"			"VERSION 3.0.7"
 		"font"				"HudFontSmall"
 		"dropshadow"			"1"
 		"dropshadowoffset"	"2"
@@ -1364,6 +1364,7 @@
 		"visible"	"0"
 	}
 }
+
 
 
 
