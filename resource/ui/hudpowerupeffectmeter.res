@@ -11,10 +11,10 @@
 
 	"EmptyIcon"
 	{
-		"xpos"			"-2"
-		"ypos"			"-2"
-		"wide"			"20"
-		"image"			"resource/svgs/meters/ico_battery_inactive.svg"
+		"xpos"			"1"
+		"ypos"			"0"
+		"wide"			"16"
+		"image"			"resource/svgs/mannpower/supernova.svg"
 		
 		"drawcolor"		"ProgressBar.BgColor"
 		"dropshadow"	"0"
@@ -22,32 +22,26 @@
 	
 	"ChargingIcon"
 	{
-		"xpos"			"-2"
-		"ypos"			"-2"
-		"wide"			"20"
-		"image"			"resource/svgs/meters/ico_battery_inactive.svg"
+		"xpos"			"1"
+		"ypos"			"0"
+		"wide"			"16"
+		"image"			"resource/svgs/mannpower/supernova.svg"
 		
 		"drawcolor"		"ProgressBar.BgColor"
-		"dropshadow"	"1"
+		"dropshadow"	"0"
 	}
 	
 	"ActiveIcon"
 	{
-		"xpos"			"-2"
-		"ypos"			"-2"
-		"wide"			"20"
-		"image"			"resource/svgs/meters/ico_battery_active.svg"
-		
-		"drawcolor"		"ProgressBar.FgColor"
-		"dropshadow"	"1"
+		"visible"	"0"
 	}
 	
 	"FullIcon"
 	{
-		"xpos"			"-2"
-		"ypos"			"-2"
-		"wide"			"20"
-		"image"			"resource/svgs/meters/ico_battery_active.svg"
+		"xpos"			"1"
+		"ypos"			"0"
+		"wide"			"16"
+		"image"			"resource/svgs/mannpower/supernova.svg"
 		
 		"drawcolor"		"ProgressBar.FgColor"
 		"dropshadow"	"1"

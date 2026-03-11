@@ -1,12 +1,12 @@
-#base "meters/huditemeffectmeter_chekhov.res"
+#base "meters/_huditemeffectmeter_counter.res"
 
-"Resource/UI/HudItemEffectMeter_Demoman.res"
+"Resource/UI/HudItemEffectMeter_Organs.res"
 {
 	HudItemEffectMeter
 	{
-		"xpos"			"r170"
+		"xpos"			"r160"
 		"ypos"			"r106"
-		"xpos_minmode"	"c230"
+		"xpos_minmode"	"c232"
 	}
 	
 	"ItemEffectMeter"
@@ -35,6 +35,8 @@
 
 	"EmptyIcon"
 	{
+		"ControlName"	"ImagePanel"
+		"fieldName"	"EmptyIcon"
 		"xpos"					"r0"
 		"visible"				"0"
 		"enabled"				"0"
@@ -42,6 +44,8 @@
 
 	"ChargingIcon"
 	{
+		"ControlName"	"ImagePanel"
+		"fieldName"	"ChargingIcon"
 		"xpos"					"r0"
 		"visible"				"0"
 		"enabled"				"0"
@@ -49,6 +53,8 @@
 	
 	"ActiveIcon"
 	{
+		"ControlName"	"ImagePanel"
+		"fieldName"	"ActiveIcon"
 		"xpos"					"r0"
 		"visible"				"0"
 		"enabled"				"0"
@@ -56,6 +62,8 @@
 	
 	"FullIcon"
 	{
+		"ControlName"	"ImagePanel"
+		"fieldName"	"FullIcon"
 		"xpos"					"r0"
 		"visible"				"0"
 		"enabled"				"0"
