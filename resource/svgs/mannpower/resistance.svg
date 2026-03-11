@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="128"
+   height="128"
+   viewBox="0 0 33.866666 33.866666"
+   version="1.1"
+   id="svg1"
+   xml:space="preserve"
+   sodipodi:docname="resistance.svg"
+   inkscape:version="1.4.2 (f4327f4, 2025-05-13)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="6.140625"
+     inkscape:cx="64"
+     inkscape:cy="63.83715"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg1" /><defs
+     id="defs1" /><g
+     id="layer1"
+     style="display:inline;stroke-width:0.79374998;stroke-dasharray:none"><path
+       id="path28"
+       style="display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.79374998;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:16.7;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+       d="M 16.933333,2.8272176 C 13.66685,4.7878645 9.8470794,6.2807319 4.5377075,6.5127808 4.681926,18.033144 6.7299577,27.936253 16.933333,31.304032 27.187019,27.500948 29.401233,17.766373 29.328959,6.5127808 24.187913,6.2018164 20.34773,4.7078626 16.933333,2.8272176 Z m 0,1.3565064 c 3.950561,1.5134509 7.298305,2.9380348 11.21482,3.3341634 C 28.251063,17.969648 26.167859,26.759387 16.933333,29.947526 7.4497849,26.69324 5.6325112,17.756418 5.718514,7.5178874 9.8450401,7.02461 13.409819,5.6802249 16.933333,4.183724 Z" /><path
+       style="display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.79374998;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:16.7;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+       d="m 16.933333,5.8208333 c 2.69656,1.4852612 5.729383,2.664829 9.789584,2.9104167 C 26.3213,17.527166 24.505902,25.201808 16.933333,28.310417 9.294296,25.179078 7.6257905,17.415431 7.14375,8.73125 11.336888,8.5479867 14.35359,7.3692769 16.933333,5.8208333 Z"
+       id="path27" /></g></svg>
