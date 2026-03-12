@@ -102,7 +102,7 @@
 		
 		"drawcolor"		"ProgressOffWhite"
 		"dropshadow"	"1"
-		"dropshadowoffset"	"3"
+		"dropshadowoffset"	"2"
 	}
 
 	"EmptyIcon"
