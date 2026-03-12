@@ -1,4 +1,4 @@
-#base "huditemeffectmeter.res"
+#base "_huditemeffectmeter_melee.res"
 
 "resource/UI/meters/HudItemEffectMeter_Anchor.res"
 {
@@ -17,7 +17,7 @@
 	{
 		"xpos"			"1"
 		"ypos"			"0"
-		"wide"			"17"
+		"wide"			"16"
 		"image"			"resource/svgs/meters/ico_anchor_inactive.svg"
 		
 		"drawcolor"		"ProgressOffWhite"
@@ -28,7 +28,7 @@
 	{
 		"xpos"			"1"
 		"ypos"			"0"
-		"wide"			"17"
+		"wide"			"16"
 		"image"			"resource/svgs/meters/ico_anchor_active.svg"
 		
 		"drawcolor"		"ProgressOffWhite"
@@ -39,7 +39,7 @@
 	{
 		"xpos"			"1"
 		"ypos"			"0"
-		"wide"			"17"
+		"wide"			"16"
 		"image"			"resource/svgs/meters/ico_anchor_active.svg"
 		
 		"drawcolor"		"ProgressOffWhite"
