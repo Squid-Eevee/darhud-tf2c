@@ -1,4 +1,4 @@
-#base "huditemeffectmeter.res"
+#base "_huditemeffectmeter_melee.res"
 
 "resource/UI/meters/HudItemEffectMeter_Umbrella.res"
 {
