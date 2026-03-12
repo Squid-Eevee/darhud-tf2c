@@ -38,8 +38,6 @@ If *you* can find somewhere to fit up to 3 vertically stacked meters in the midd
 
 <img width="960" height="540" alt="image" src="https://github.com/user-attachments/assets/4236377d-eb71-45de-8323-ca5b0aa9ed54" />
 
-On that note there are some meters that completely overlap each other or use the wrong icons but this is mostly an issue with live TF2 weapons and there's nothing I can do about that unless the developers separate every meter into its own file (which i would appreciate but i can't see it being a priority for them.)
-
 ### Control Point Icons
 
 The larger control point icons are probably possible but the arena control point unlock countdown label (and only the arena one for some reason) is an entirely separate element and it would likely end up misaligned. So possible, but not really convenient as it would likely require two files. I'm not against reimplementing it if people would be okay with needing two files.
