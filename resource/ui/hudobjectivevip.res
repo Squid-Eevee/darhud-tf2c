@@ -76,7 +76,7 @@
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"2"
-		"wide"			"80"
+		"wide"			"28"
 		"tall"			"28"
 		"visible"		"1"
 		"enabled"		"1"
@@ -85,7 +85,7 @@
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"EscortItemImageBottom"
-			"xpos"			"26"
+			"xpos"			"0"
 			"ypos"			"0"
 			"zpos"			"2"
 			"wide"			"28"
@@ -98,8 +98,6 @@
 			"labelText"		""
 			"image"			"../darhud/vipr/vip_blue"
 			"scaleImage"	"1"
-			"dropshadow"	"1"
-			"dropshadowoffset"	"2"
 		}
 	
 		"EscortItemImageBottomShadow"
