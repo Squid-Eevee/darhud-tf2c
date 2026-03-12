@@ -1,13 +1,7 @@
-#base "huditemeffectmeter.res"
+#base "_huditemeffectmeter_secondary.res"
 
 "resource/UI/meters/HudItemEffectMeter_Brick.res"
 {
-	HudItemEffectMeter
-	{
-		"xpos"			"r133"
-		"xpos_minmode"	"c229"
-		"ypos"			"r60"
-	}
 	"EmptyIcon"
 	{
 		"xpos"			"0"
