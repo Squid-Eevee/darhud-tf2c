@@ -11,6 +11,6 @@
 	"$glowalpha"	"0.75"
 	"$glowstart"	"0.03"
 	"$glowend"		"1"
-	"$glowx"		"-.075"
-	"$glowy"		"-.075"
+	"$glowx"		"-.065"
+	"$glowy"		"-.065"
 }
