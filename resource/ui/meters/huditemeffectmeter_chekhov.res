@@ -1,9 +1,10 @@
-#base "huditemeffectmeter.res"
+#base "_huditemeffectmeter_counter.res"
 
 "Resource/UI/HudItemEffectMeter_Chekhov.res"
 {
 	HudItemEffectMeter
 	{
+		"fieldName"		"HudItemEffectMeter"
 		"xpos"			"r130"
 		"ypos"			"r41"
 		"xpos_minmode"	"c232"
@@ -92,6 +93,11 @@
 		"enabled"				"0"
 	}
 
+	"Icon"
+	{
+		"visible"	"0"
+	}
+	
 	"EmptyIcon"
 	{
 		"xpos"			"3"
@@ -99,6 +105,7 @@
 		"zpos"			"1"
 		"wide"			"24"
 		"image"			"resource/svgs/meters/ico_chekov_tier_0.svg"
+		"visible"		"1"
 		
 		"drawcolor"		"MeterBackground"
 		"dropshadow"	"0"
@@ -112,27 +119,27 @@
 	
 	"ActiveIcon"
 	{
-		"xpos"			"5"
+		"xpos"			"6"
 		"ypos"			"1"
 		"zpos"			"1"
 		"wide"			"20"
 		"image"			"resource/svgs/meters/ico_chekov_tier_1.svg"
+		"visible"		"1"
 		
 		"drawcolor"		"ProgressOffWhite"
 		"dropshadow"	"1"
-		"dropshadowoffset"	"3"
 	}
 	
 	"FullIcon"
 	{
-		"xpos"			"5"
+		"xpos"			"6"
 		"ypos"			"1"
 		"zpos"			"1"
 		"wide"			"20"
 		"image"			"resource/svgs/meters/ico_chekov_tier_2.svg"
+		"visible"		"1"
 		
 		"drawcolor"		"ProgressOffWhite"
 		"dropshadow"	"1"
-		"dropshadowoffset"	"3"
 	}
 }

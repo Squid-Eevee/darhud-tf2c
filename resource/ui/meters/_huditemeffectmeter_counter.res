@@ -73,7 +73,7 @@
 	"ItemEffectMeterCount"
 	{
 		"ControlName"				"CExLabel"
-		"fieldName"				"ItemEffectMeterLabel"
+		"fieldName"				"ItemEffectMeterCount"
 		"xpos"					"15"
 		"ypos"					"1"
 		"zpos"					"2"
@@ -98,6 +98,7 @@
 		"wide"			"18"
 		"tall"			"18"
 		"scaleImage"		"1"
+		"visible"	"1"
 		"image"			"resource/svgs/meters/skull.svg"
 		
 		"drawcolor"		"ProgressOffWhite"
@@ -107,34 +108,42 @@
 
 	"EmptyIcon"
 	{
-		"ControlName"	"ImagePanel"
-		"fieldName"	"EmptyIcon"
-		"visible"	"0"
-		"enabled"	"0"
+		"ControlName"			"ImagePanel"
+		"fieldName"			"EmptyIcon"
+		"tall"				"o1"
+		"scaleImage"			"1"
+		"visible"			"1"
+		"dropshadowoffset"	"2"
 	}
 
 	"ChargingIcon"
 	{
-		"ControlName"	"ImagePanel"
-		"fieldName"	"ChargingIcon"
-		"visible"	"0"
-		"enabled"	"0"
+		"ControlName"			"ImagePanel"
+		"fieldName"			"ChargingIcon"
+		"tall"				"o1"
+		"scaleImage"			"1"
+		"visible"			"1"
+		"dropshadowoffset"	"2"
 	}
 	
 	"ActiveIcon"
 	{
-		"ControlName"	"ImagePanel"
-		"fieldName"	"ActiveIcon"
-		"visible"	"0"
-		"enabled"	"0"
+		"ControlName"			"ImagePanel"
+		"fieldName"			"ActiveIcon"
+		"tall"				"o1"
+		"scaleImage"			"1"
+		"visible"			"1"
+		"dropshadowoffset"	"2"
 	}
 	
 	"FullIcon"
 	{
-		"ControlName"	"ImagePanel"
-		"fieldName"	"FullIcon"
-		"visible"	"0"
-		"enabled"	"0"
+		"ControlName"			"ImagePanel"
+		"fieldName"			"FullIcon"
+		"tall"				"o1"
+		"scaleImage"			"1"
+		"visible"			"1"
+		"dropshadowoffset"	"2"
 	}
 	
 	"ItemEffectMeter"

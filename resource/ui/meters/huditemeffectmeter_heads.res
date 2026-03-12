@@ -18,4 +18,24 @@
 		"dropshadow"	"1"
 		"dropshadowoffset"	"3"
 	}
+
+	"EmptyIcon"
+	{
+		"visible"			"0"
+	}
+
+	"ChargingIcon"
+	{
+		"visible"			"0"
+	}
+	
+	"ActiveIcon"
+	{
+		"visible"			"0"
+	}
+	
+	"FullIcon"
+	{
+		"visible"			"0"
+	}
 }

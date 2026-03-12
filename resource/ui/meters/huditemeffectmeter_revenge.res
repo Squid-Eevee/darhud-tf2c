@@ -4,18 +4,26 @@
 {
 	"Icon"
 	{
-		"ControlName"	"ImagePanel"
-		"fieldName"	"Icon"
-		"xpos"			"5"
-		"ypos"			"2"
-		"zpos"			"1"
-		"wide"			"16"
-		"tall"			"18"
-		"scaleImage"		"1"
-		"image"			"resource/svgs/medic/ico_health_cluster_kritz.svg"
-		
-		"drawcolor"		"ProgressOffWhite"
-		"dropshadow"	"1"
-		"dropshadowoffset"	"3"
+		"image"	"resource/svgs/medic/ico_health_cluster_kritz.svg"
+	}
+	
+	"EmptyIcon"
+	{
+		"visible"	"0"
+	}
+
+	"ChargingIcon"
+	{
+		"visible"	"0"
+	}
+	
+	"ActiveIcon"
+	{
+		"visible"	"0"
+	}
+	
+	"FullIcon"
+	{
+		"visible"	"0"
 	}
 }
