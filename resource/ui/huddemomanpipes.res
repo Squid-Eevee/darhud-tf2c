@@ -24,7 +24,7 @@
 		"fieldName"					"ChargeLabel"
 		"xpos"						"r117"
 		"xpos_minmode"				"c245"
-		"ypos"						"r60"
+		"ypos"						"r56"
 		"zpos"						"3"
 		"wide"						"66"
 		"tall"						"9"
