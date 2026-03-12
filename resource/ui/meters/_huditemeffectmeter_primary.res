@@ -108,6 +108,7 @@
 		
 		"drawcolor"		"MeterBackground"
 		"dropshadow"	"0"
+		"dropshadowoffset"	"2"
 	}
 	
 	"ChargingIcon"
@@ -125,6 +126,7 @@
 		
 		"drawcolor"		"MeterBackground"
 		"dropshadow"	"0"
+		"dropshadowoffset"	"2"
 	}
 	
 	"ActiveIcon"
