@@ -1,13 +1,7 @@
-#base "huditemeffectmeter.res"
+#base "_huditemeffectmeter_secondary.res"
 
 "resource/UI/meters/HudItemEffectMeter_MIRV.res"
 {
-	HudItemEffectMeter
-	{
-		"xpos"			"r133"
-		"xpos_minmode"	"c229"
-		"ypos"			"r60"
-	}
 	"EmptyIcon"
 	{
 		"xpos"			"1"
@@ -44,8 +38,8 @@
 	"FullIcon"
 	{
 		"xpos"			"1"
-		"ypos"			"0"
-		"wide"			"16"
+		"ypos"			"1"
+		"wide"			"15"
 		"image"			"resource/svgs/meters/ico_dynamite_active.svg"
 		
 		"drawcolor"		"ProgressOffWhite"
