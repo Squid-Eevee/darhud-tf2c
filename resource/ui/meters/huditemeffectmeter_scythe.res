@@ -1,6 +1,6 @@
-#base "huditemeffectmeter.res"
+#base "_huditemeffectmeter_melee.res"
 
-"resource/UI/meters/HudItemEffectMeter_Scythe.res"
+"resource/UI/meters/HudItemEffectMeter_Anchor.res"
 {
 	"EmptyIcon"
 	{
@@ -20,8 +20,8 @@
 		"wide"			"16"
 		"image"			"resource/svgs/meters/ico_harvester_inactive.svg"
 		
-		"drawcolor"		"MeterBackground"
-		"dropshadow"	"0"
+		"drawcolor"		"ProgressOffWhite"
+		"dropshadow"	"1"
 	}
 	
 	"ActiveIcon"
