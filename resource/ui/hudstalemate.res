@@ -2,8 +2,14 @@
 {
 	"HudStalemateBG"
 	{
-		"ControlName"		"CTFImagePanel"
+		"ControlName"	"EditablePanel"
 		"fieldName"		"HudStalemateBG"
+		"visible"		"0"
+	}
+	"StalemateBG"
+	{
+		"ControlName"		"CTFImagePanel"
+		"fieldName"		"StalemateBG"
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"-1"
@@ -27,7 +33,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"centerwrap"		"1"
-		"labelText"		"#TF_suddendeath"
+		"labelText"		"#TF_teambalanced"
 		"textAlignment"	"center"
 		"dropshadow"		"1"
 		"dropshadowoffset"	"3"
