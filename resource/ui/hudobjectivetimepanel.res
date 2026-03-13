@@ -150,7 +150,7 @@
 		"visible"		"0"
 		"enabled"		"0"
 		"image"			"../darhud/scoreboard/score_middle_red"
-		"fgcolor_override"		"255 0 0 255"
+		"drawcolor"		"192 0 0 255"
 		"scaleImage"	"1"
 	}
 	
