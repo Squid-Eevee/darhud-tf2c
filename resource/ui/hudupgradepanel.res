@@ -739,7 +739,7 @@
 		}
 		"TipBGShadow"
 		{
-			"ControlName"		"CTFImagePanel"
+			"ControlName"		"ImagePanel"
 			"fieldName"		"TipBGShadow"
 			"pin_to_sibling"	"TipBG"
 			"xpos"			"-2"
@@ -751,7 +751,8 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"image"			"../darhud/meter_shadow"
+			"image"			"resource/svgs/darhud/meter_mask.svg"
+			"drawcolor"		"HudShadow"
 		}
 		
 		"TipText"
@@ -786,22 +787,18 @@
 			"zpos"			"12"
 			"wide"			"20"
 			"tall"			"20"
-			"autoResize"	"0"
-			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"tabPosition"	"0"
 			"labelText"		">"
+			"font"			"HudFontMediumBold"
 			"textAlignment"	"center"
-			"dulltext"		"0"
-			"brighttext"	"0"
 			"Command"		"nexttip"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"roundedcorners"	"0"
 			
 			"dropshadow"		"1"
-			"dropshadowoffset"	"2"
+			"dropshadowoffset"	"3"
 		}
 	}	
 }
