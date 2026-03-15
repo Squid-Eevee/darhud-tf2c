@@ -777,6 +777,17 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
+		"HudFontTiny"
+		{
+			"1"
+			{
+				"name"		"TF2C Secondary"
+				"tall"		"8"
+				"weight"		"500"
+				"additive"	"0"
+				"antialias"	"1"
+			}
+		}
 	}
 	Borders
 	{
