@@ -382,7 +382,7 @@
 		"scaleImage"		"1"	
 		//"icon"			"hud_menu_item_bg_outline"
 		"iconColor"		"255 255 255 0"
-		"border"			"SelectedTabBorderBox"
+		"border"			"ControllerSelectBorder"
 	}
 	
 	"BuildHintIcon"
