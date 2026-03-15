@@ -899,6 +899,7 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
+			"color" "ButtonArmed"
 			
 			"image"					"../darhud/backpack/border"
 			"src_corner_height"		"3"				// pixels inside the image
