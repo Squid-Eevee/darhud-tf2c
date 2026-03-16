@@ -169,10 +169,10 @@
 			"ControlName"	"CBuildingStatusAlertTray"
 			"fieldName"	"AlertTray"
 			"xpos"		"-198"
-			"ypos"		"-2"
+			"ypos"		"-3"
 			"zpos"		"-2"
 			"wide"		"246"
-			"tall"		"52"
+			"tall"		"54"
 			"visible"	"1"
 			"icon"		"dar_building_alert"
 		}
