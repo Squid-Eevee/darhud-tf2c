@@ -32,6 +32,7 @@
 		"paintborder"	"0"
 		"image"			"animated/tf2_logo_hourglass"
 		"scaleImage"	"1"
+		"mouseinputenabled"	"0"
 	}
 
 	"MainContentsContainer"
