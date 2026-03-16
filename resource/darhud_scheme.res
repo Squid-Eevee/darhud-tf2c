@@ -112,6 +112,7 @@ Scheme
 		
 		//HUD Drop Shadow
 		"HudShadow"			"50 50 50 191"
+		"HudShadowSolid"	"50 50 50 255"
 	}
 	
 	Fonts
