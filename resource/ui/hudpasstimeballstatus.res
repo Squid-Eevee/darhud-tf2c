@@ -95,10 +95,13 @@
 		"ControlName"			"ImagePanel"
 		"fieldName"			"ProgressLevelBar"	
 		"xpos"				"c-188"
+		"xpos_minmode"		"c-149"
 		"ypos"				"r97"
 		"zpos"				"0"
 		"wide"				"378"
+		"wide_minmode"		"300"
 		"tall"				"o0.125"
+		"tall_minmode"		"o0.125"
 		"visible"			"1"
 		"enabled"			"1"
 		"labelText"			""
@@ -115,7 +118,9 @@
 		"ControlName" 	"Panel"
 		"fieldName"		"BlueProgressEnd"
 		"xpos"			"c-152"
+		"xpos_minmode"	"c-120"
 		"ypos"			"r75"
+		"ypos_minmode"	"r80"
 		"visible"		"0"
 	}
 
@@ -126,7 +131,9 @@
 		"ControlName"	"Panel"
 		"fieldName"		"RedProgressEnd"
 		"xpos"			"c152"
+		"xpos_minmode"	"c120"
 		"ypos"			"r75"
+		"ypos_minmode"	"r80"
 		"visible"		"0"
 	}	
 
