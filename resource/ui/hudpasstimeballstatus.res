@@ -342,6 +342,39 @@
 			"image"			"../darhud/boss_bar/boss_bar_surround_shadow"
 			"scaleImage"	"1"
 		}
+		
+		"BallPowerMeterFramePassIcon"
+		{
+			"ControlName"		"ImagePanel"
+			"fieldName"		"BallPowerMeterFramePassIcon"
+			"xpos"			"c-156"
+			"ypos"			"13"
+			"zpos"			"6"
+			"wide"			"72"
+			"tall"			"24"
+			"visible"		"1"
+			"image"			"resource/svgs/darhud/passtime/passtime_pass.svg"
+			"scaleImage"		"1"
+			"drawcolor"		"AdditionalIcon"
+			"dropshadow"		"1"
+			"dropshadowoffset"	"2"
+		}
+		"BallPowerMeterBonusGoalIcon"
+		{
+			"ControlName"		"ImagePanel"
+			"fieldName"		"BallPowerMeterBonusGoalIcon"
+			"xpos"			"c78"
+			"ypos"			"0"
+			"zpos"			"6"
+			"wide"			"32"
+			"tall"			"50"
+			"visible"		"1"
+			"image"			"resource/svgs/darhud/passtime/passtime_bonusgoal.svg"
+			"scaleImage"		"1"
+			"drawcolor"		"AdditionalIcon"
+			"dropshadow"		"1"
+			"dropshadowoffset"	"2"
+		}
 
 		"BallPowerMeterFinalSectionContainer"
 		{

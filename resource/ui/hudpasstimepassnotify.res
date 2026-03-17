@@ -61,7 +61,7 @@
 			"dropshadowoffset"	"3"
 		}
 
-		TextLockedOn
+		"TextLockedOn"
 		{
 			"ControlName"			"CExLabel"
 			"fieldName"			"TextLockedOn"
@@ -81,27 +81,27 @@
 			"dropshadowoffset"	"3"
 		}
 
-		TextPassIncoming
+		"TextPassIncoming"
 		{
-			ControlName 			CExLabel
-			fieldName 				TextPassIncoming
-			font 					HudFontMediumSmallBold
-			xpos 					0
-			ypos 					4
-			zpos 					3
-			wide 					300
-			tall 					32
-			visible 				1
-			enabled 				1
-			centerwrap				1
-			textAlignment 			center
-			labelText 				#Msg_PasstimePassIncoming
-			fgcolor_override 		"224 217 197 180"
+			"ControlName"			"CExLabel"
+			"fieldName"			"TextPassIncoming"
+			"font"				"HudFontMediumSmallBold"
+			"xpos"				"0"
+			"ypos"				"4"
+			"zpos"				"3"
+			"wide"				"300"
+			"tall"				"32"
+			"visible"			"1"
+			"enabled"			"1"
+			"centerwrap"			"1"
+			"textAlignment"		"center"
+			"labelText"			"#Msg_PasstimePassIncoming"
+			"fgcolor_override"	"224 217 197 180"
 			"dropshadow"			"1"
 			"dropshadowoffset"	"3"
 		}
 
-		TextPlayerName
+		"TextPlayerName"
 		{
 			"ControlName"			"CExLabel"
 			"fieldName"			"TextPlayerName"
@@ -114,46 +114,48 @@
 			"visible"			"1"
 			"enabled"			"1"
 			"textAlignment"		"center"
-			"labelText"			"WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW"
+			"labelText"			""
 			"fgcolor_override"	"224 217 197 180"
 			"dropshadow"			"1"
 			"dropshadowoffset"	"2"
 		}	
 	}
 
-	PassLockIndicator
+	"PassLockIndicator"
 	{
-		ControlName 				ImagePanel
-		fieldName 					PassLockIndicator
-		xpos 						-8
-		ypos 						14
-		wide 						64
-		zpos 						3
-		tall 						64
-		visible 					1
-		enabled 					1
-		scaleImage 					1
-		image 						"../passtime/hud/passtime_ball_reticle_incomingpass"
-		pin_to_sibling 				TextBox
-		pin_corner_to_sibling 		0
-		pin_to_sibling_corner 		1
+		"ControlName"				"ImagePanel"
+		"fieldName"				"PassLockIndicator"
+		"xpos"					"2"
+		"ypos"					"0"
+		"zpos"					"3"
+		"wide"					"64"
+		"tall"					"59"
+		"visible"				"1"
+		"enabled"				"1"
+		"scaleImage"				"1"
+		"image"					"resource/svgs/darhud/passtime/passtime_ball.svg"
+		"pin_to_sibling"			"TextBox"
+		"pin_corner_to_sibling"	"0"
+		"pin_to_sibling_corner"	"1"
+		"dropshadow"				"1"
+		"dropshadowoffset"		"3"
 	}
 
-	SpeechIndicator
+	"SpeechIndicator"
 	{
-		ControlName 				ImagePanel
-		fieldName 					SpeechIndicator
-		xpos 						8
-		ypos 						8
-		zpos 						3
-		wide 						48
-		tall 						48
-		visible 					1
-		enabled 					1
-		scaleImage 					1
-		image 						"../passtime/hud/passtime_pass_to_me_prompt"
-		pin_to_sibling 				TextBox
-		pin_corner_to_sibling 		1
-		pin_to_sibling_corner 		0
+		"ControlName"				"ImagePanel"
+		"fieldName"				"SpeechIndicator"
+		"xpos"					"8"
+		"ypos"					"8"
+		"zpos"					"3"
+		"wide"					"48"
+		"tall"					"48"
+		"visible"				"1"
+		"enabled"				"1"
+		"scaleImage"				"1"
+		"image"					"../passtime/hud/passtime_pass_to_me_prompt"
+		"pin_to_sibling"			"TextBox"
+		"pin_corner_to_sibling"	"1"
+		"pin_to_sibling_corner"	"0"
 	}
 }
