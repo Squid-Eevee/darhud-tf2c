@@ -18,6 +18,6 @@
 		"fgcolor"		"DamageNumber"
 		"dropshadow"		"1"
 		"dropshadowoffset"	"2"
-		"alpha"			"255"
+		"alpha"			"0"
 	}
 }
