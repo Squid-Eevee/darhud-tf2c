@@ -204,7 +204,7 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusMarkedForDeathSilentImage"
 		"xpos"			"85"
-		"ypos"			"45"
+		"ypos"			"0"
 		"zpos"			"7"
 		"wide"			"27"
 		"tall"			"27"
