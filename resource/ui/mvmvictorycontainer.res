@@ -69,7 +69,7 @@
 			"fgcolor"		"GeneralLabel"
 			"visible"		"1"
 			"dropshadow"		"1"
-			"dropshadowoffset"	"3"
+			"dropshadowoffset"	"4"
 		}
 	}
 	
