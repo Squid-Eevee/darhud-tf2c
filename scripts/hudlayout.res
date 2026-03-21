@@ -312,14 +312,12 @@
 		"ControlName"		"CCurrencyStatusPanel"
 		"fieldName"			"CurrencyStatusPanel"
 		"xpos"				"cs-1"
-		"ypos"				"r14"
+		"ypos"				"r16"
 		"zpos"				"-2"
-		"wide"				"57"
-		"tall"				"14"
+		"wide"				"68"
+		"tall"				"16"
 		"visible" 			"0"
 		"enabled" 			"1"
-		
-		"PaintBackgroundType"	"2"
 	}
 	
 	HudProgressBar
