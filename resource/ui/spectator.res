@@ -99,22 +99,32 @@
 
 	"BuyBackLabel"
 	{
-		"ControlName"		"CExLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"BuyBackLabel"
-		"fgcolor_override"		"GeneralLabel"
-		"xpos"			"0"
-		"ypos"			"20"
-		"wide"			"400"
-		"tall"			"f0"
-		"autoResize"		"0"
+		"xpos"			"cs-0.5"
+		"ypos"			"2"
+		"zpos"			"1"
+		"wide"			"f0"
+		"tall"			"16"
+		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
-		"labelText"		""
-		"textAlignment"		"center"
+		"labelText"		"#TF_PVE_Buyback"
+		"textAlignment"	"center"
 		"font"			"HudFontSmallBold"
+		"bgcolor_override"	"GreenSolid"
+		"fgcolor"	"GeneralLabel"
+		"paintBackgroundType" "0"
 		"wrap"			"1"
 		"centerwrap"	"1"
+		"dropshadow"			"1"
+		"dropshadowoffset"		"3"
+	
+		if_mvm
+		{
+			"visible"		"1"
+		}
 	}
 	"MapLabel"
 	{
