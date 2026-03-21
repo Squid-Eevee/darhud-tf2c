@@ -241,14 +241,15 @@
 		"labelText"		"#DoneButton"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
 		"default"		"1"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		
+		"roundedcorners"	"0"
 		"image_drawcolor"	"235 226 202 255"
 		"Command"		"done"
+		"dropshadow"		"1"
+		"dropshadowoffset"	"3"
 
 		"pin_to_sibling"              "StatsContainer"
 		"pin_corner_to_sibling"        "pin_center_top"          

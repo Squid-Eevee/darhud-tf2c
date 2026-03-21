@@ -68,21 +68,8 @@
 			"tall"			"35"
 			"fgcolor"		"GeneralLabel"
 			"visible"		"1"
-		}
-		"BannerTextDropShadow"
-		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"BannerTextDropShadow"
-			"font"			"HudFontBiggerBold"
-			"labelText"		"#TF_MVM_Victory_Complete"
-			"textAlignment" "center"
-			"xpos"			"2"
-			"ypos"			"2"
-			"zpos"			"2"
-			"wide"			"f0"
-			"tall"			"35"
-			"fgcolor"		"GeneralShadow"
-			"visible"		"1"
+			"dropshadow"		"1"
+			"dropshadowoffset"	"3"
 		}
 	}
 	
@@ -126,5 +113,8 @@
 		"Command"        "done"
 		"sound_depressed"    "UI/buttonclick.wav"
 		"sound_released"    "UI/buttonclickrelease.wav"
+		"roundedcorners"	"0"
+		"dropshadow"		"1"
+		"dropshadowoffset"	"3"
 	}
 }
