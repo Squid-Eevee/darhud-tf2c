@@ -6,11 +6,12 @@
 		"fieldName"		"Currency"
 		"font"			"HudFontSmallBold"
 		"fgcolor"		"GeneralLabel"
-		"xpos"			"0"
-		"ypos"			"1"
+		"proportionaltoparent"	"1"
+		"xpos"			"2"
+		"ypos"			"0"
 		"zpos"			"3"
-		"wide"			"55"
-		"tall"			"12"
+		"wide"			"f2"
+		"tall"			"14"
 		"visible"		"1"
 		"enabled"		"1"
 		"textAlignment"	"center"	
@@ -19,50 +20,46 @@
 		"dropshadowoffset"	"2"
 	}
 	
-	"CurrencyShadow"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"CurrencyShadow"
-		"font"			"HudFontSmallBold"
-		"fgcolor"		"GeneralShadow"
-		"xpos"			"1"
-		"ypos"			"2"
-		"zpos"			"3"
-		"wide"			"55"
-		"tall"			"12"
-		"visible"		"0"
-		"enabled"		"1"
-		"textAlignment"	"center"	
-		"labelText"		"%currency%"
-	}	
-	
 	"WhiteBG"
 	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"WhiteBG"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"1"
-		"wide"			"57"
-		"tall"			"14"
-		"visible"		"1"
-		"enabled"		"1"
-		"PaintBackgroundType"	"0"
-		"bgcolor_override"	"White"
-	}	
-	
+		"visible"	"0"
+	}
 	"GreenBG"
 	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"GreenBG"
-		"xpos"			"1"
-		"ypos"			"1"
+		"visible"	"0"
+	}
+	
+	"CurrencyBG"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"		"CurrencyBG"
+		"proportionaltoparent"	"1"
+		"xpos"			"0"
+		"ypos"			"0"
 		"zpos"			"2"
-		"wide"			"55"
-		"tall"			"12"
+		"wide"			"f2"
+		"tall"			"f2"
 		"visible"		"1"
 		"enabled"		"1"
-		"PaintBackgroundType"	"0"
-		"bgcolor_override"	"CreditsGreen"
+		"image"			"resource/svgs/darhud/counter_mask.svg"
+		"scaleImage"		"1"
+		"drawcolor"		"CreditsGreen"
+	}	
+	
+	"CurrencyBGShadow"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"		"CurrencyBGShadow"
+		"proportionaltoparent"	"1"
+		"xpos"			"2"
+		"ypos"			"2"
+		"zpos"			"1"
+		"wide"			"f2"
+		"tall"			"f2"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"resource/svgs/darhud/counter_mask.svg"
+		"scaleImage"		"1"
+		"drawcolor"		"HudShadow"
 	}
 }
