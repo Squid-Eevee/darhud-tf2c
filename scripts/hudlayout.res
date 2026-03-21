@@ -881,10 +881,10 @@
 		"fieldName"				"PVEWinPanel"
 		"visible"				"1"
 		"enabled"				"1"
-		"xpos"					"c-150"
-		"ypos"					"255"
-		"wide"					"300"
-		"tall"					"215"
+		"xpos"					"c-125"
+		"ypos"					"305"
+		"wide"					"250"
+		"tall"					"80"
 	}
 
 	//relocated to resource/ui/statpanel_base.res
