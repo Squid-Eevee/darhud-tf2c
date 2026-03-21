@@ -88,8 +88,6 @@
 		"ypos"			"68"
 		"wide"			"300"
 		"tall"			"16"
-		"autoResize"		"0"
-		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"#game_respawntime_in_secs"

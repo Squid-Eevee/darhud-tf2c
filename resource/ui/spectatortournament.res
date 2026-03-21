@@ -309,14 +309,13 @@
 		"ypos"			"50"
 		"wide"			"300"
 		"tall"			"18"
-		"autoResize"		"0"
-		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"#game_respawntime_in_secs"
 		"textAlignment"		"center"
 		"font"			"HudFontSmall"
-		"bgcolor_override"	"GeneralBackground"
+		"dropshadow"		"1"
+		"dropshadowoffset"	"2"
 		
 		if_mvm
 		{
