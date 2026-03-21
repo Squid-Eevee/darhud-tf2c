@@ -1,0 +1,98 @@
+"Resource/UI/EnemyCountPanel.res"
+{	
+	"EnemyCountPanel"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"EnemyCountPanel"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"3"
+		"wide"			"20"
+		"tall"			"32"
+		"visible"		"0"
+		"enabled"		"1"
+	}
+	
+	"EnemyCountImage"
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"EnemyCountImage"
+		"xpos"			"3"
+		"ypos"			"3"
+		"zpos"			"3"
+		"wide"			"14"
+		"tall"			"14"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"
+	}
+	
+	"EnemyCountImageBG"
+	{
+		"ControlName"	"Panel"
+		"fieldName"		"EnemyCountImageBG"
+		"xpos"			"2"
+		"ypos"			"2"
+		"zpos"			"2"
+		"wide"			"16"
+		"tall"			"16"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"
+		"PaintBackgroundType" "0"
+		"bgcolor_override"	"TanLight"
+	}
+	"EnemyCountImageShadow"
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"EnemyCountImageShadow"
+		"xpos"			"3"
+		"ypos"			"3"
+		"zpos"			"0"
+		"wide"			"16"
+		"tall"			"16"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../darhud/square_shadow"
+		"scaleImage"	"1"
+	}
+	
+	"EnemyCountCritImageBG"
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"EnemyCountCritImageBG"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"1"
+		"wide"			"20"
+		"tall"			"20"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"
+		"PaintBackgroundType" "0"
+		//"bgcolor" "Yellow"
+		//"bgcolor_override"	"Yellow"
+		//"fgcolor_override"	"Yellow"
+		//"PaintBackgroundType" "2"
+		"image"			"../hud/leaderboard_class_critical"
+	}
+	
+	"EnemyCount"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"EnemyCount"
+		"font"			"HudFontSmallestBold"
+		"fgcolor"		"TanLight"
+		"xpos"			"0"
+		"ypos"			"18"
+		"zpos"			"3"
+		"wide"			"20"
+		"tall"			"14"
+		"visible"		"1"
+		"enabled"		"1"
+		"textAlignment"	"center"
+		"labelText"		"%enemy_count%"
+		"dropshadow"		"1"
+		"dropshadowoffset"	"2"
+	}
+}
