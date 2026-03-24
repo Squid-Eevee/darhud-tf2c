@@ -6,7 +6,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Noto Sans"
+				"name"		"TF2C Secondary"
 				"tall"		"20"
 				"weight"	"0"
 				"additive"	"0"
