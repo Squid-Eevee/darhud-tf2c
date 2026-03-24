@@ -55,17 +55,6 @@
 		"roundedcorners"			"0"
 		"dropshadow"				"1"
 		"dropshadowoffset"		"2"
-		
-		
-		"defaultFgColor_override"		"Black"
-		"armedFgColor_override"		"TanLight"
-		"selectedFgColor_override"		"TanLight"
-		"depressedFgColor_override"	"TanLight"
-		
-		"defaultBgColor_override"		"171 159 135 255"
-		"armedBgColor_override"		"TFOrange"
-		"selectedBgColor_override"		"TFOrange"
-		"depressedBgColor_override"	"TFOrange"
 	}
 	
 	"CancelButton"
