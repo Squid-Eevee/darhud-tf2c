@@ -19,6 +19,12 @@
 		"centerwrap"		"1"
 	}
 	
+	"Progress"
+	{
+		"visible"			"0"
+		"enabled"			"0"
+	}
+	
 	"ProgressBG"
 	{
 		"visible"			"0"
