@@ -157,7 +157,7 @@
 		"dropshadow"			"1"
 		"dropshadowoffset"	"2"
 	}
-	StatBox
+	"StatBox"
 	{
 		"ControlName"			"ImagePanel"
 		"fieldName"			"StatBox"
