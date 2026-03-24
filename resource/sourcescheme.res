@@ -1,3 +1,4 @@
+#base "sourcescheme_tf2c.res"
 #base "sourceschemebase.res"
 #base "customfontfiles.res"
 #base "darhud_scheme.res"
