@@ -231,31 +231,31 @@ Scheme
 		Econ.Dialog.BgColor								"Blank"
 		Econ.Button.BgColor								"ButtonDefault"
 		Econ.Button.FgColor								"ButtonLabelDefault"
-		Econ.Button.ArmedBgColor						"ButtonArmed"
-		Econ.Button.ArmedFgColor						"ButtonLabelArmed"
-		Econ.Button.DepressedBgColor					"ButtonDefault"
-		Econ.Button.DepressedFgColor					"ButtonLabelDefault"
+		Econ.Button.ArmedBgColor							"ButtonArmed"
+		Econ.Button.ArmedFgColor							"ButtonLabelArmed"
+		Econ.Button.DepressedBgColor						"ButtonDefault"
+		Econ.Button.DepressedFgColor						"ButtonLabelDefault"
 		
-		Econ.Button.PresetDefaultColorFg				"ButtonLabelArmed"
-		Econ.Button.PresetArmedColorFg					"ButtonLabelArmedHovering"
-		Econ.Button.PresetDepressedColorFg				"ButtonLabelArmed"
+		Econ.Button.PresetDefaultColorFg					"ButtonLabelArmed"
+		Econ.Button.PresetArmedColorFg						"ButtonLabelArmedHovering"
+		Econ.Button.PresetDepressedColorFg					"ButtonLabelArmed"
 		
-		Econ.Button.PresetDefaultColorBg				"ButtonArmed"
-		Econ.Button.PresetArmedColorBg					"ButtonArmedHovering"
-		Econ.Button.PresetDepressedColorBg				"ButtonArmed"
+		Econ.Button.PresetDefaultColorBg					"ButtonArmed"
+		Econ.Button.PresetArmedColorBg						"ButtonArmedHovering"
+		Econ.Button.PresetDepressedColorBg					"ButtonArmed"
 		
 		Border.Bright					"Blank"		// the lit side of a control
-		Border.Dark						"Black"		// the dark/unlit side of a control
+		Border.Dark					"Black"		// the dark/unlit side of a control
 		Border.Selection				"Gray"			// the additional border color for displaying the default/selected button
 
-		Button.TextColor				"TanLight"
-		Button.BgColor					"TanDark"
-		Button.ArmedTextColor			"TanLight"
-		Button.ArmedBgColor				"TFOrange"
-		Button.SelectedTextColor		"TanLight"
-		Button.SelectedBgColor			"TFOrange"
-		Button.DepressedTextColor		"Black"
-		Button.DepressedBgColor			"TFOrange"
+		Button.TextColor				"ButtonLabelDefault"
+		Button.BgColor					"ButtonDefault"
+		Button.ArmedTextColor			"ButtonLabelArmed"
+		Button.ArmedBgColor				"ButtonArmed"
+		Button.SelectedTextColor		"ButtonLabelArmedHovering"
+		Button.SelectedBgColor			"ButtonArmed"
+		Button.DepressedTextColor		"ButtonLabelDefault"
+		Button.DepressedBgColor			"ButtonDefault"
 
 		CheckButton.TextColor			"Yellow"
 		CheckButton.SelectedTextColor	"Yellow"
@@ -479,7 +479,8 @@ Scheme
 			"2"
 			{
 				"name"		"Verdana"
-				"tall"		"13"
+				"tall"		"13"	[$WIN32]
+				"tall"		"20"	[$X360]
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"600 767"
@@ -738,7 +739,8 @@ Scheme
 			"2"
 			{
 				"name"		"Verdana"
-				"tall"		"13"
+				"tall"		"13"	[$WIN32]
+				"tall"		"23"	[$X360]
 				"weight"	"700"
 				"yres"	"600 767"
 			}
@@ -1125,7 +1127,7 @@ Scheme
 		}
 		GameUIButtons
 		{
-			"1"
+			"1"	//[$X360]
 			{
 				"bitmap"	"1"
 				"name"		"Buttons"
@@ -1137,7 +1139,7 @@ Scheme
 		}
 		GameUIButtonsSmall
 		{
-			"1"
+			"1"	[$X360]
 			{
 				"bitmap"	"1"
 				"name"		"Buttons"
@@ -1147,7 +1149,7 @@ Scheme
 		}
 		GameUIButtonsSmallest
 		{
-			"1"
+			"1"	[$X360]
 			{
 				"bitmap"	"1"
 				"name"		"Buttons"
@@ -1239,7 +1241,8 @@ Scheme
 			"2"
 			{
 				"name"		"TF2C"
-				"tall"		"15"
+				"tall"		"15"	[$WIN32]
+				"tall"		"21"	[$X360]
 				"weight"	"700"
 				"antialias" 	"1"
 				"yres"		"600 767"
@@ -1276,13 +1279,20 @@ Scheme
 		}
 		DebugOverlay
 		{
-			"1"
+			"1"	[$WIN32]
 			{
 				"name"		"Courier New"
 				"tall"		"14"
 				"weight"	"400"
 				"outline"	"1"
 				"range"		"0x0000 0x017F" // Basic Latin, Latin-1 Supplement, Latin Extended-A
+			}
+			"1"	[$X360]
+			{
+				"name"		"Tahoma"
+				"tall"		"18"
+				"weight"	"200"
+				"outline"	"1"
 			}
 		}		
 		TFTypeDeath
