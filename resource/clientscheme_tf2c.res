@@ -519,7 +519,18 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Cantarell Regular"
+				"name"		"TF2C Secondary"
+				"tall"		"10"
+				"weight"	"0"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"LoadingButtonFont"
+		{
+			"1"
+			{
+				"name"		"TF2C Build"
 				"tall"		"10"
 				"weight"	"0"
 				"additive"	"0"
