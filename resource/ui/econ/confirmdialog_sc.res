@@ -38,7 +38,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ExplanationLabel"
-		"font"			"HudFontSmallBold"
+		"font"			"HudFontSmall"
 		"labelText"		"%text%"
 		"textAlignment"	"center"
 		"xpos"			"40"
