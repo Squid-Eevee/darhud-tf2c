@@ -1,0 +1,857 @@
+"Options"
+{
+	"Groups"
+	{
+		"Advanced"
+		{
+			"EnableDeveloperConsole"
+			{
+				"datatype"		"check"
+				"convar"		"con_enable"
+				
+				"description" 	"#GameUI_DeveloperConsoleCheck"
+			}
+
+			"tf2c_streamer_mode"
+			{
+				"datatype"		"check"
+				"convar"		"tf2c_streamer_mode"
+				
+				"description" 	"#TF_StreamerMode"
+				"tooltip"		"#TF_StreamerMode_Tip"
+			}
+
+			"CombatCategory"
+			{
+				"datatype"	"heading"
+				"description"	"#TF2c_OptionCategory_Combat"
+				
+				"dependants"
+				{
+					"cl_autoreload"                                  "1"
+					"hud_fastswitch"                                 "1"
+
+					"tf2c_damagefeedback"                            "1"
+					"tf2c_damagefeedback_outgoing"                   "1"
+					"tf2c_damagefeedback_outgoing_volume"            "1"
+					"tf2c_damagefeedback_incoming"                   "1"
+					"tf2c_damagefeedback_incoming_volume"            "1"
+
+					"tf_dingalingaling"                              "0"
+					"tf_dingaling_volume"                            "1"
+					"tf_dingalingaling_effect"                       "1"
+					"tf_dingaling_pitchmindmg"                       "1"
+					"tf_dingaling_pitchmaxdmg"                       "1"
+					
+					"tf_dingalingaling_lasthit"                      "0"
+					"tf_dingaling_lasthit_volume"                    "1"
+					"tf_dingalingaling_last_effect"                  "1"
+					"tf_dingaling_lasthit_pitchmindmg"               "1"
+					"tf_dingaling_lasthit_pitchmaxdmg"               "1"
+					
+					"hud_combattext"                                 "1"
+					"hud_combattext_batching"                        "1"
+					"hud_combattext_batching_window"				 "1"
+					"hud_combattext_doesnt_block_overhead_text"      "1"
+					"hud_combattext_red"                             "1"
+					"hud_combattext_green"                           "1"
+					"hud_combattext_blue"                            "1"
+					"tf2c_hud_combattext_dropshadow"				 "1"
+					
+					"tf_remember_activeweapon"                       "1"
+					"tf_remember_lastswitched"                       "1"
+				}
+			}
+			
+			"cl_autoreload"
+			{
+				"datatype"		"check"
+				"description"	"#TF_autoreload"
+				"tooltip"		"#Tooltip_autoreload"
+				"convar"		"cl_autoreload"
+			}
+			
+			"hud_fastswitch"
+			{
+				"datatype"		"check"
+				"description"	"#GameUI_FastSwitchCheck"
+				"tooltip"		"#Tooltip_hud_fastswitch"
+				"convar"		"hud_fastswitch"
+			}
+
+			"tf2c_damagefeedback"
+			{
+				"datatype"		"check"
+				"description"	"#TF2C_Option_DamageFeedback"
+				"tooltip"		"#TF2C_Tooltip_DamageFeedback"
+				"convar"		"tf2c_damagefeedback"
+				
+				"dependants"
+				{
+					"tf2c_damagefeedback_outgoing"				"1"
+					"tf2c_damagefeedback_outgoing_volume"		"1"
+					"tf2c_damagefeedback_incoming"				"1"
+					"tf2c_damagefeedback_incoming_volume"		"1"
+				}
+			}
+
+			"tf2c_damagefeedback_outgoing"
+			{
+				"datatype"		"check"
+				"description"	"#TF2C_Option_DamageFeedbackOutgoing"
+				"tooltip"		"#TF2C_Tooltip_DamageFeedbackOutgoing"
+				"convar"		"tf2c_damagefeedback_outgoing"
+			}
+			
+			"tf2c_damagefeedback_outgoing_volume"
+			{
+				"datatype"		"slider"
+				"description"	"#TF2C_Option_DamageFeedbackOutgoingVolume"
+				"tooltip"		"#TF2C_Tooltip_DamageFeedbackOutgoingVolume"
+				"min"			"0"
+				"max"			"1"
+				"precision"		"0.01"
+				"convar"		"tf2c_damagefeedback_outgoing_volume"
+			}
+			
+			"tf2c_damagefeedback_incoming"
+			{
+				"datatype"		"check"
+				"description"	"#TF2C_Option_DamageFeedbackIncoming"
+				"tooltip"		"#TF2C_Tooltip_DamageFeedbackIncoming"
+				"convar"		"tf2c_damagefeedback_incoming"
+			}
+			
+			"tf2c_damagefeedback_incoming_volume"
+			{
+				"datatype"		"slider"
+				"description"	"#TF2C_Option_DamageFeedbackIncomingVolume"
+				"tooltip"		"#TF2C_Tooltip_DamageFeedbackIncomingVolume"
+				"min"			"0"
+				"max"			"1"
+				"precision"		"0.01"
+				"convar"		"tf2c_damagefeedback_incoming_volume"
+			}
+			
+			"tf_dingalingaling"
+			{
+				"datatype"		"check"
+				"description"	"#TF_Hitbeeps"
+				"tooltip"		"#Tooltip_Hitbeeps"
+				"convar"		"tf_dingalingaling"
+				
+				"dependants"
+				{
+					"tf_dingaling_volume"                            "1"
+					"tf_dingalingaling_effect"                       "1"
+					"tf_dingaling_pitchmindmg"                       "1"
+					"tf_dingaling_pitchmaxdmg"                       "1"
+				}
+			}
+
+			"tf_dingaling_volume"
+			{
+				"datatype"		"slider"
+				"description"	"#TF_Dingaling_Volume"
+				"tooltip"		"#Tooltip_Dingaling_Volume"
+				"min"			"0"
+				"max"			"1"
+				"precision"		"0.01"
+				"convar"		"tf_dingaling_volume"
+			}
+			
+			"tf_dingalingaling_effect"
+			{
+				"datatype"		"list"
+				"description"	"#tf_dingalingaling_effect"
+				"list"
+				{
+					"0"		"#tf_dingalingaling_Default"
+					"1"		"#tf_dingalingaling_Electro"
+					"2"		"#tf_dingalingaling_Notes"
+					"3"		"#tf_dingalingaling_Percussion"
+					"4"		"#tf_dingalingaling_Retro"
+					"5"		"#tf_dingalingaling_Space"
+					"6"		"#tf_dingalingaling_Beepo"
+					"7"		"#tf_dingalingaling_Vortex"
+					"8"		"#tf_dingalingaling_Squasher"
+				}
+				
+				"convars"
+				{
+					"tf_dingalingaling_effect"
+					{
+						"0"	"0"	
+						"1"	"1"	
+						"2"	"2"	
+						"3"	"3"	
+						"4"	"4"	
+						"5"	"5"	
+						"6"	"6"	
+						"7"	"7"	
+						"8"	"8"	
+					}
+				}
+			}
+
+			"tf_dingaling_pitchmindmg"
+			{
+				"datatype"		"slider"
+				"description"	"#TF_Dingaling_PitchLowDmg"
+				"tooltip"		"#Tooltip_Dingaling_PitchLowDmg"
+				"min"			"1"
+				"max"			"255"
+				"precision"		"1"
+				"convar"		"tf_dingaling_pitchmindmg"
+			}
+			
+			"tf_dingaling_pitchmaxdmg"
+			{
+				"datatype"		"slider"
+				"description"	"#TF_Dingaling_PitchHighDmg"
+				"tooltip"		"#Tooltip_Dingaling_PitchHighDmg"
+				"min"		"1"
+				"max"		"255"
+				"precision"		"1"
+				"convar"	"tf_dingaling_pitchmaxdmg"
+			}
+			
+			"tf_dingalingaling_lasthit"
+			{
+				"datatype"		"check"
+				"description"	"#TF_LastHitbeeps"
+				"tooltip"		"#Tooltip_Hitbeeps"
+				"convar"		"tf_dingalingaling_lasthit"
+				
+				"dependants"
+				{
+					"tf_dingaling_lasthit_volume"                    "1"
+					"tf_dingalingaling_last_effect"                  "1"
+					"tf_dingaling_lasthit_pitchmindmg"               "1"
+					"tf_dingaling_lasthit_pitchmaxdmg"               "1"
+				}
+			}
+
+			"tf_dingaling_lasthit_volume"
+			{
+				"datatype"		"slider"
+				"description"	"#TF_Dingaling_LastHit_Volume"
+				"tooltip"		"#Tooltip_Dingaling_Volume"
+				"min"			"0"
+				"max"			"1"
+				"precision"		"0.01"
+				"convar"		"tf_dingaling_lasthit_volume"
+			}
+
+			"tf_dingalingaling_last_effect"
+			{
+				"datatype"		"list"
+				"description"	"#tf_dingalingaling_last_effect"
+				"list"
+				{
+					"0"		"#tf_dingalingaling_Default"
+					"1"		"#tf_dingalingaling_Electro"
+					"2"		"#tf_dingalingaling_Notes"
+					"3"		"#tf_dingalingaling_Percussion"
+					"4"		"#tf_dingalingaling_Retro"
+					"5"		"#tf_dingalingaling_Space"
+					"6"		"#tf_dingalingaling_Beepo"
+					"7"		"#tf_dingalingaling_Vortex"
+					"8"		"#tf_dingalingaling_Squasher"
+				}
+				
+				"convars"
+				{
+					"tf_dingalingaling_last_effect"
+					{
+						"0"	"0"	
+						"1"	"1"	
+						"2"	"2"	
+						"3"	"3"	
+						"4"	"4"	
+						"5"	"5"	
+						"6"	"6"	
+						"7"	"7"	
+						"8"	"8"	
+					}
+				}
+			}
+
+			"tf_dingaling_lasthit_pitchmindmg"
+			{
+				"datatype"		"slider"
+				"description"	"#TF_Dingaling_LastHit_PitchLowDmg"
+				"tooltip"		"#Tooltip_Dingaling_PitchLowDmg"
+				"min"		"1"
+				"max"		"255"
+				"precision"		"1"
+				"convar"	"tf_dingaling_lasthit_pitchmindmg"
+			}
+			
+			"tf_dingaling_lasthit_pitchmaxdmg"
+			{
+				"datatype"		"slider"
+				"description"	"#TF_Dingaling_LastHit_PitchHighDmg"
+				"tooltip"		"#Tooltip_Dingaling_PitchHighDmg"
+				"min"		"1"
+				"max"		"255"
+				"precision"		"1"
+				"convar"	"tf_dingaling_lasthit_pitchmaxdmg"
+			}
+			
+			"hud_combattext"
+			{
+				"datatype"		"check"
+				"description"	"#TF_CombatText"
+				"tooltip"		"#Tooltip_CombatText"
+				"convar"		"hud_combattext"
+				
+				"dependants"
+				{
+					"hud_combattext_batching"                        "1"
+					"hud_combattext_batching_window"				 "1"
+					"hud_combattext_doesnt_block_overhead_text"      "1"
+					"hud_combattext_red"                             "1"
+					"hud_combattext_green"                           "1"
+					"hud_combattext_blue"                            "1"
+				}
+			}
+			
+			"hud_combattext_batching"
+			{
+				"datatype"		"check"
+				"description"	"#TF_CombatTextBatching"
+				"tooltip"		"#Tooltip_CombatTextBatching"
+				"convar"		"hud_combattext_batching"
+				
+				"dependants"
+				{
+					"hud_combattext_batching_window"	"1"
+				}
+			}
+
+			"hud_combattext_batching_window"
+			{
+				"datatype"		"slider"
+				"description"	"#TF_CombatTextBatchingWindow"
+				"tooltip"		"#TF_CombatTextBatchingWindow_Tip"
+				"convar"		"hud_combattext_batching_window"
+				"min"			"0.1"
+				"max"			"2"
+				"precision"		"0.1"
+			}
+
+			"hud_combattext_doesnt_block_overhead_text"
+			{
+				"datatype"		"check"
+				"description"	"#TF_CombatTextDoesntBlock"
+				"tooltip"		"#Tooltip_CombatTextDoesntBlock"
+				"convar"		"hud_combattext_doesnt_block_overhead_text"
+			}
+
+			"hud_combattext_red"
+			{
+				"datatype"		"slider"
+				"description"	"#Tooltip_CombatTextRed"
+				"tooltip"		"#Tooltip_CombatTextColors"
+				"min"		"1"
+				"max"		"255"
+				"precision"	"1"
+				"convar"	"hud_combattext_red"
+			}
+
+			"hud_combattext_green"
+			{
+				"datatype"		"slider"
+				"description"	"#Tooltip_CombatTextGreen"
+				"tooltip"		"#Tooltip_CombatTextColors"
+				"min"		"1"
+				"max"		"255"
+				"precision"	"1"
+				"convar"	"hud_combattext_green"
+			}
+
+			"hud_combattext_blue"
+			{
+				"datatype"		"slider"
+				"description"	"#Tooltip_CombatTextBlue"
+				"tooltip"		"#Tooltip_CombatTextColors"
+				"min"		"1"
+				"max"		"255"
+				"precision"	"1"
+				"convar"	"hud_combattext_blue"
+			}
+			
+			"tf2c_hud_combattext_dropshadow"
+			{
+				"datatype"		"check"
+				"description"	"#TF_CombatTextDropShadow" 
+				"tooltip"		"#TF_CombatTextDropShadow_Tip"
+				"convar"		"tf2c_hud_combattext_dropshadow"
+			}
+			
+			"tf_remember_activeweapon"
+			{
+				"datatype"		"check"
+				"description"	"#TF_rememberactiveweapon"
+				"tooltip"		"#Tooltip_rememberactiveweapon"
+				"convar"		"tf_remember_activeweapon"
+			}	
+			
+			"tf_remember_lastswitched"
+			{
+				"datatype"		"check"
+				"description"	"#TF_rememberlastweapon"
+				"tooltip"		"#Tooltip_rememberlastweapon"
+				"convar"		"tf_remember_lastswitched"
+			}	
+				
+			"ClassCategory"
+			{
+				"datatype"	"heading"
+				"description"	"#TF2c_OptionCategory_ClassSpecific"
+				
+				"dependants"
+				{
+					"tf2c_cyclops_doubletap"               "1"
+					"tf2c_hud_sapper_awareness"            "1"
+					"tf_medigun_autoheal"                  "1"
+					"hud_medichealtargetmarker"            "1"
+					"hud_medicautocallers"                 "1"
+					"hud_medicautocallersthreshold"        "1"
+					"tf_sniper_fullcharge_bell"            "1"
+					"tf2c_zoom_sensitivity_ratio"          "1"
+					"cl_autorezoom"                        "1"
+					"tf_hud_no_crosshair_on_scope_zoom"    "1"
+					"tf_simple_disguise_menu"              "1"
+					"tf2c_spywalk_inverted"                "1"
+					"tf2c_viewmodel_cloak_tint"            "1"
+					"tf2c_avoid_becoming_vip"              "1"
+				}
+			}
+
+			"tf2c_cyclops_doubletap"
+			{
+				"datatype"		"check"
+				"description"	"#TF_CyclopsDoubleTap"
+				"tooltip"		"#TF_CyclopsDoubleTap_Tip"
+				"convar"		"tf2c_cyclops_doubletap"
+			}
+
+			"tf2c_hud_sapper_awareness"
+			{
+				"datatype"		"check"
+				"description"	"#TF_SapperAwareness"
+				"tooltip"		"#TF_SapperAwareness_Tip"
+				"convar"		"tf2c_hud_sapper_awareness"
+			}
+			
+			"tf_medigun_autoheal"
+			{
+				"datatype"		"check"
+				"description"	"#TF_medigun_autoheal"
+				"tooltip"		"#Tooltip_medigun_autoheal"
+				"convar"		"tf_medigun_autoheal"
+			}
+			
+			"hud_medichealtargetmarker"
+			{
+				"datatype"		"check"
+				"description"	"#TF_HealTargetMarker"
+				"tooltip"		"#Tooltip_HealTargetMarker"
+				"convar"		"hud_medichealtargetmarker"
+			}
+			
+			"hud_medicautocallers"
+			{
+				"datatype"		"check"
+				"description"	"#TF_AutoMedicCallers"
+				"tooltip"		"#Tooltip_AutoMedicCallers"
+				"convar"		"hud_medicautocallers"
+				
+				"dependants"
+				{
+					"hud_medicautocallersthreshold"	"1"
+				}
+			}
+			
+			"hud_medicautocallersthreshold"
+			{
+				"datatype"		"slider"
+				"description"	"#TF_AutoMedicCallThreshold"
+				"tooltip"		"#Tooltip_AutoMedicCallThreshold"
+				"min"			"5"
+				"max"			"75"
+				"precision"		"1"
+				"convar"		"hud_medicautocallersthreshold"
+			}
+						
+			"tf_sniper_fullcharge_bell"
+			{
+				"datatype"		"check"
+				"description"	"#TF_SniperBell"
+				"tooltip"		"#TF_SniperBell_Tip"
+				"convar"		"tf_sniper_fullcharge_bell"
+			}	
+			
+			"tf2c_zoom_sensitivity_ratio"
+			{
+				"datatype"		"slider"
+				"description"	"#TF_ZoomSensitivityRatio"
+				"tooltip"		"#TF_ZoomSensitivityRatio_Tip"
+				"min"			"0"
+				"max"			"1"
+				"precision"		"0.001"
+				"convar"		"zoom_sensitivity_ratio"
+			}
+			
+			"cl_autorezoom"
+			{
+				"datatype"		"check"
+				"description"	"#TF_autozoom"
+				"tooltip"		"#Tooltip_autozoom"
+				"convar"		"cl_autorezoom"
+			}
+
+			"tf_hud_no_crosshair_on_scope_zoom"
+			{
+				"datatype"		"check"
+				"description"	"#TF_nocrosshaironscopezoom"
+				"tooltip"		"#Tooltip_nocrosshaironscopezoomn"
+				"convar"		"tf_hud_no_crosshair_on_scope_zoom"
+			}	
+			
+			"tf_simple_disguise_menu"
+			{
+				"datatype"		"check"
+				"description"	"#TF_simple_disguise_menu_option"
+				"tooltip"		"#Tooltip_simple_disguise_menu_option"
+				"convar"		"tf_simple_disguise_menu"
+			}
+			
+			"tf2c_spywalk_inverted"
+			{
+				"datatype"		"check"
+				"description"	"#TF_SpywalkInverted"
+				"tooltip"		"#TF_SpywalkInverted_Tip"
+				"convar"		"tf2c_spywalk_inverted"
+			}
+			
+			"tf2c_viewmodel_cloak_tint"
+			{
+				"datatype"		"slider"
+				"description"	"#TF_ViewModelCloakTint"
+				"tooltip"		"#TF_ViewModelCloakTint_Tip"
+				"min"			"0"
+				"max"			"1"
+				"precision"		"0.01"
+				"convar"		"tf2c_viewmodel_cloak_tint"
+			}
+				
+			"tf2c_avoid_becoming_vip"
+			{
+				"datatype"		"check"
+				"description"	"#TF_AvoidBecomingVIP"
+				"tooltip"		"#TF_AvoidBecomingVIP_Tip"
+				"convar"		"tf2c_avoid_becoming_vip"
+			}
+			
+			"GamemodeCategory"
+			{
+				"datatype"	"heading"
+				"description"	"#TF2c_OptionCategory_GamemodeSpecific"
+				
+				"dependants"
+				{
+					"tf2c_vip_low_health_warning_sound"     "0"
+					"tf2c_vip_low_health_sound_threshold"   "0.49"
+					"tf2c_vip_low_health_warning_delay"     "20"
+				}
+			}
+			
+			"tf2c_vip_low_health_warning_sound"
+			{
+				"datatype"		"check"
+				"description"	"#TF_VIPLowHealthSound"
+				"tooltip"		"#Tooltip_VIPLowHealthSound"
+				"convar"		"tf2c_vip_low_health_warning_sound"
+				
+				"dependants"
+				{
+					"tf2c_vip_low_health_warning_delay"		"1"
+					"tf2c_vip_low_health_sound_threshold"	"1"
+				}
+			}
+			
+			"tf2c_vip_low_health_sound_threshold"
+			{
+				"datatype"		"slider"
+				"description"	"#TF_VIPLowHealthSoundThreshold"
+				"tooltip"		"#Tooltip_VIPLowHealthSoundThreshold"
+				"min"			"0.05"
+				"max"			"0.75"
+				"precision"		"0.01"
+				"convar"		"tf2c_vip_low_health_sound_threshold"
+			}
+			
+			"tf2c_vip_low_health_warning_delay"
+			{
+				"datatype"		"slider"
+				"description"	"#TF_VIPLowHealthSoundDelay"
+				"tooltip"		"#Tooltip_VIPLowHealthSoundDelay"
+				"min"			"5"
+				"max"			"30"
+				"precision"		"1"
+				"convar"		"tf2c_vip_low_health_warning_delay"
+			}
+			
+			"MiscCategory"
+			{
+				"datatype"	"heading"
+				"description"	"#TF2c_OptionCategory_Misc"
+				
+				"dependants"
+				{
+					"hud_takesshots"                    "1"
+					"hud_classautokill"                 "1"
+					"tf_respawn_on_loadoutchanges"      "1"
+					"cl_spraydisable"                   "1"
+					"tf_delete_temp_files"              "1"
+					"sb_close_browser_on_connect"       "1"
+					"cl_disablehtmlmotd"			    "0"	
+					"hud_freezecamhide"                 "1"
+					"cl_steamscreenshots"               "1"
+					"cl_cloud_settings"                 "1"
+					"cl_steamoverlay_toast_position"    "1"
+					"cl_steamoverlay_toast_inset_horiz" "1"
+					"cl_steamoverlay_toast_inset_vert"  "1"
+				}
+			}
+			
+			"hud_takesshots"
+			{
+				"datatype"		"check"
+				"description"	"#game_takesshots"
+				"tooltip"		"#Tooltip_takesshots"
+				"convar"		"hud_takesshots"
+			}
+			
+			"hud_classautokill"
+			{
+				"datatype"		"check"
+				"description"	"#TF_classautokill"
+				"tooltip"		"#Tooltip_classautokill"
+				"convar"		"hud_classautokill"
+			}
+			
+			"tf_respawn_on_loadoutchanges"
+			{
+				"datatype"		"check"
+				"description"	"#TF_loadoutrespawn"
+				"tooltip"		"#Tooltip_loadoutrespawn"
+				"convar"		"tf_respawn_on_loadoutchanges"
+			}
+			
+			"cl_spraydisable"
+			{
+				"datatype"		"check"
+				"description"	"#GameUI_DisableSprays"
+				"tooltip"		"#Tooltip_DisableSprays"
+				"convar"		"cl_spraydisable"
+			}
+
+			"tf_delete_temp_files"
+			{
+				"datatype"		"check"
+				"description"	"#TF_delete_temp_files"
+				"tooltip"		"#Tooltip_delete_temp_files"
+				"convar"		"tf_delete_temp_files"
+			}
+
+			"sb_close_browser_on_connect"
+			{
+				"datatype"		"check"
+				"description"	"#GameUI_CloseBrowserOnConnect"
+				"convar"		"sb_close_browser_on_connect"
+			}
+			
+			"cl_disablehtmlmotd"
+			{
+				"datatype"		"check"
+				"description"	"#Valve_DisableHTMLMOTD"
+				"tooltip"		"#Tooltip_DisableHTMLMOTD"
+				"convar"		"cl_disablehtmlmotd"
+			}
+			
+			"hud_freezecamhide"
+			{
+				"datatype"		"check"
+				"description"	"#TF_FreezeCamHide"
+				"tooltip"		"#Tooltip_FreezeCamHide"
+				"convar"		"hud_freezecamhide"
+			}	
+					
+			"cl_steamscreenshots"
+			{
+				"datatype"		"check"
+				"description"	"#Valve_SteamScreenshots"
+				"tooltip"		"#Tooltip_SteamScreenshots"
+				"convar"		"cl_steamscreenshots"
+			}
+			
+			"cl_cloud_settings"
+			{
+				"datatype"		"check"
+				"description"	"#Valve_UseSteamCloud"
+				"tooltip"		"#Tooltip_UseSteamCloud"
+				"convar"		"cl_cloud_settings"
+			}
+			
+			"cl_steamoverlay_toast_position"
+			{
+				"datatype"		"list"
+				"description"	"#TF_OverlayToastPosition"
+				"list"
+				{
+					"0"		"#TF_TopLeft"
+					"1"		"#TF_TopRight"
+					"2"		"#TF_BottomLeft"
+					"3"		"#TF_BottomRight"
+				}
+				"convar"		"cl_steamoverlay_toast_position"
+			}
+
+			"cl_steamoverlay_toast_inset_horiz"
+			{
+				"datatype"		"slider"
+				"description"	"#TF_OverlayToastInsetHoriz"
+				"min"			"0"
+				"max"			"1"
+				"convar"		"cl_steamoverlay_toast_inset_horiz"
+			}
+
+			"cl_steamoverlay_toast_inset_vert"
+			{
+				"datatype"		"slider"
+				"description"	"#TF_OverlayToastInsetVert"
+				"min"			"0"
+				"max"			"1"
+				"convar"		"cl_steamoverlay_toast_inset_vert"
+			}
+
+			"DemoCategory"
+			{
+				"datatype"		"heading"
+				"description"	"#TF2c_OptionCategory_DemoSupport"
+				
+				"dependants"
+				{
+					"ds_enable"     "1"
+					"ds_dir"        "1"
+					"ds_prefix"     "1"
+					"ds_sound"      "1"
+					"ds_log"        "1"
+					"ds_notify"     "1"
+					"ds_screens"    "1"
+					"ds_min_streak" "1"
+					"ds_kill_delay" "1"
+					"ds_autodelete" "1"
+				}
+			}
+
+			"ds_enable"
+			{
+				"datatype"		"list"
+				"description"	"#TF_DemoSupport"
+				"tooltip"		"#TF_DemoSupport_ToolTip"
+				"list"
+				{
+					"0"	"#TF_DemoSupport_Manual"
+					"1"	"#TF_DemoSupport_Comp"
+					"2"	"#TF_DemoSupport_All"
+					"3"	"#TF_DemoSupport_Tournament"
+				}
+				"convar"		"ds_enable"
+			}
+
+			"ds_dir"
+			{
+				"datatype"		"text"
+				"description"	"#TF_DemoSupport_Dir"
+				"tooltip"		"#TF_DemoSupport_Dir_ToolTip"
+				"convar"		"ds_dir"
+			}
+
+			"ds_prefix"
+			{
+				"datatype"		"text"
+				"description"	"#TF_DemoSupport_Prefix"
+				"tooltip"		"#TF_DemoSupport_Prefix_ToolTip"
+				"convar"		"ds_prefix"
+			}
+
+			"ds_sound"
+			{
+				"datatype"		"check"
+				"description"	"#TF_DemoSupport_Sound"
+				"convar"		"ds_sound"
+			}
+
+			"ds_log"
+			{
+				"datatype"		"check"
+				"description"	"#TF_DemoSupport_Log"
+				"tooltip"		"#TF_DemoSupport_Log_ToolTip"
+				"convar"		"ds_log"
+			}
+
+			"ds_notify"
+			{
+				"datatype"		"list"
+				"description"	"#TF_DemoSupport_Notify"
+				"list"
+				{
+					"0"	"#TF_DemoSupport_Notify_ConsoleOnly"
+					"1"	"#TF_DemoSupport_Notify_Chat"
+					"2"	"#TF_DemoSupport_Notify_HUD"
+				}
+				"convar"	"ds_notify"
+			}
+
+			"ds_screens"
+			{
+				"datatype"		"check"
+				"description"	"#TF_DemoSupport_Screens"
+				"convar"	"ds_screens"
+			}
+
+			"ds_min_streak"
+			{
+				"datatype"		"text"
+				"description"	"#TF_DemoSupport_MinStreak"
+				"tooltip"		"#TF_DemoSupport_MinStreak_ToolTip"
+				// sets as numeric and specifies a range
+				"range"			"2 1000"
+				"convar"		"ds_min_streak"
+			}
+
+			"ds_kill_delay"
+			{
+				"datatype"		"text"
+				"description"	"#TF_DemoSupport_KillDelay"
+				"tooltip"		"#TF_DemoSupport_KillDelay_ToolTip"
+				// sets as numeric and specifies a range
+				"range"			"5 1000"
+				"convar"		"ds_kill_delay"
+			}
+
+			"ds_autodelete"
+			{
+				"datatype"		"check"
+				"description"	"#TF_DemoSupport_AutoDelete"
+				"tooltip"		"#TF_DemoSupport_AutoDelete_ToolTip"
+				"convar"		"ds_autodelete"
+			}
+		}
+	}
+}
