@@ -14,7 +14,7 @@
 		"fieldName"		"DescLabel"
 		"xpos"		"0"
 		"ypos"		"0"
-		"wide"		"p0.5"
+		"wide"		"p0.6"
 		"tall"		"f0"
 		"style"			"OptionsLabel"
 		
