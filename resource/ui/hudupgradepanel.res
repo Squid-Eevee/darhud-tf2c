@@ -477,7 +477,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"UpgradeItemsDescriptionLabel"
-			"font"			"ItemFontAttribLarge"
+			"font"			"ItemFontAttribSmall"
 			"labelText"		"%upgrade_description%"
 			"textAlignment"	"center"
 			"wrap"			"1"
@@ -487,10 +487,10 @@
 			"zpos"			"2"
 			"wide"			"120"
 			"tall"			"55"
-			"autoResize"	"0"
-			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
+			"dropshadow"		"1"
+			"dropshadowoffset"	"2"
 		}
 		
 		"UpgradeItemsBG"
@@ -529,20 +529,20 @@
 		
 		"UpgradeItemsLabel"
 		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"UpgradeItemsLabel"
-			"font"			"HudFontSmall"
-			"labelText"		"%upgrade_label%"
-			"textAlignment"	"center"
-			"xpos"			"25"
-			"ypos"			"130"
-			"zpos"			"2"
-			"wide"			"130"
-			"tall"			"20"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
+			"ControlName"			"CExLabel"
+			"fieldName"			"UpgradeItemsLabel"
+			"font"				"HudFontSmallestBold"
+			"labelText"			"%upgrade_label%"
+			"textAlignment"		"center"
+			"xpos"				"25"
+			"ypos"				"130"
+			"zpos"				"2"
+			"wide"				"130"
+			"tall"				"20"
+			"visible"			"1"
+			"enabled"			"1"
+			"dropshadow"			"1"
+			"dropshadowoffset"	"3"
 		}
 		
 		"UpgradeItemStatsLabel"
@@ -559,8 +559,6 @@
 			"zpos"			"2"
 			"wide"			"120"
 			"tall"			"105"
-			"autoResize"	"0"
-			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
 			"wrap"			"1"
@@ -584,7 +582,7 @@
 			"fgcolor"		"121 195 58 255"
 			
 			"dropshadow"		"1"
-			"dropshadowoffset"	"2"
+			"dropshadowoffset"	"3"
 		}
 		
 		"CreditsTextLabel"
