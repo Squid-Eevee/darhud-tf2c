@@ -125,7 +125,7 @@
 		"fieldName"		"PriceLabel"
 		"xpos"			"0"
 		"ypos"			"33"
-		"wide"			"32"
+		"wide"			"33"
 		"tall"			"13"
 		"zpos"			"25"
 		"visible"		"1"
