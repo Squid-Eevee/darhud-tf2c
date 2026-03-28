@@ -2,15 +2,15 @@
 {
 	"ObjectiveStatusDomination"
 	{
-		"ControlName"		"EditablePanel"
-		"fieldName"			"ObjectiveStatusDomination"
-		"xpos"				"0"
-		"ypos"				"0"
-		"zpos"				"1"
-		"wide"				"f0"
-		"tall"				"64"
-		"visible"			"1"
-		"enabled"			"1"
+		"ControlName"	"EditablePanel"
+		"fieldName"	"ObjectiveStatusDomination"
+		"xpos"		"0"
+		"ypos"		"0"
+		"zpos"		"1"
+		"wide"		"f0"
+		"tall"		"64"
+		"visible"	"1"
+		"enabled"	"1"
 
 		"delta_item_x"				"0"
 		"delta_item_start_y"			"50"
@@ -25,7 +25,7 @@
 	
 	"ScoreBlueBG"
 	{
-		"ControlName"	"ImagePanel"
+		"ControlName"		"ImagePanel"
 		"fieldName"		"ScoreBlueBG"
 		"xpos"			"c-90"
 		"xpos_minmode"	"c-60"
@@ -38,7 +38,7 @@
 		"enabled"		"1"
 		"image"			"../darhud/dom/dom_score_blue"
 		"image_minmode"	"../darhud/counter_reverse_blue"
-		"scaleImage"	"1"
+		"scaleImage"		"1"
 		
 		"if_generic"
 		{
@@ -120,7 +120,7 @@
 	}
 	"AlertRedBG"
 	{
-		"ControlName"	"CTFImagePanel"
+		"ControlName"		"CTFImagePanel"
 		"fieldName"		"AlertRedBG"
 		"pin_to_sibling" "ScoreRedBG"
 		"xpos"			"5"
@@ -134,7 +134,7 @@
 		"enabled"		"1"
 		"image"			"../darhud/dom/dom_score_white"
 		"image_minmode"	"../darhud/counter_reverse_white"
-		"scaleImage"	"1"
+		"scaleImage"		"1"
 	}
 	
 	"ScoreGreenBG"
@@ -152,7 +152,7 @@
 		"enabled"		"1"
 		"image"			"../darhud/dom/dom_score_green"
 		"image_minmode"	"../darhud/counter_reverse_green"
-		"scaleImage"	"1"
+		"scaleImage"		"1"
 		
 		"if_generic"
 		{
@@ -174,7 +174,7 @@
 	}
 	"AlertGreenBG"
 	{
-		"ControlName"	"CTFImagePanel"
+		"ControlName"		"CTFImagePanel"
 		"fieldName"		"AlertGreenBG"
 		"pin_to_sibling"	"ScoreGreenBG"
 		"xpos"			"5"
@@ -188,12 +188,12 @@
 		"enabled"		"1"
 		"image"			"../darhud/dom/dom_score_white"
 		"image_minmode"	"../darhud/counter_reverse_white"
-		"scaleImage"	"1"
+		"scaleImage"		"1"
 	}
 
 	"ScoreYellowBG"
 	{
-		"ControlName"	"ImagePanel"
+		"ControlName"		"ImagePanel"
 		"fieldName"		"ScoreYellowBG"
 		"xpos"			"c90"
 		"xpos_minmode"	"c66"
@@ -206,7 +206,7 @@
 		"enabled"		"1"
 		"image"			"../darhud/dom/dom_score_yellow"
 		"image_minmode"	"../darhud/counter_reverse_yellow"
-		"scaleImage"	"1"
+		"scaleImage"		"1"
 		
 		"if_generic"
 		{
@@ -226,7 +226,7 @@
 	}
 	"AlertYellowBG"
 	{
-		"ControlName"	"CTFImagePanel"
+		"ControlName"		"CTFImagePanel"
 		"fieldName"		"AlertYellowBG"
 		"pin_to_sibling"	"ScoreYellowBG"
 		"xpos"			"5"
@@ -240,11 +240,11 @@
 		"enabled"		"1"
 		"image"			"../darhud/dom/dom_score_white"
 		"image_minmode"	"../darhud/counter_reverse_white"
-		"scaleImage"	"1"
+		"scaleImage"		"1"
 	}
 	"ScoreTeam1BGShadow"
 	{
-		"ControlName"	"ImagePanel"
+		"ControlName"		"ImagePanel"
 		"fieldName"		"ScoreTeam1BGShadow"
 		"xpos"			"c-88"
 		"xpos_minmode"	"c-58"
@@ -257,7 +257,7 @@
 		"enabled"		"1"
 		"image"			"../darhud/dom/dom_score_shadow"
 		"image_minmode"	"../darhud/counter_reverse_shadow"
-		"scaleImage"	"1"
+		"scaleImage"		"1"
 		
 		"if_3team"
 		{
@@ -272,7 +272,7 @@
 	}
 	"ScoreTeam2BGShadow"
 	{
-		"ControlName"	"ImagePanel"
+		"ControlName"		"ImagePanel"
 		"fieldName"		"ScoreTeam2BGShadow"
 		"xpos"			"c2"
 		"xpos_minmode"	"c2"
@@ -285,7 +285,7 @@
 		"enabled"		"1"
 		"image"			"../darhud/dom/dom_score_shadow"
 		"image_minmode"	"../darhud/counter_reverse_shadow"
-		"scaleImage"	"1"
+		"scaleImage"		"1"
 		
 		if_3team
 		{
@@ -300,7 +300,7 @@
 	}
 	"ScoreTeam3BGShadow"
 	{
-		"ControlName"	"ImagePanel"
+		"ControlName"		"ImagePanel"
 		"fieldName"		"ScoreTeam3BGShadow"
 		"xpos"			"c2"
 		"xpos_minmode"	"c-58"
@@ -313,7 +313,7 @@
 		"enabled"		"1"
 		"image"			"../darhud/dom/dom_score_shadow"
 		"image_minmode"	"../darhud/counter_reverse_shadow"
-		"scaleImage"	"1"
+		"scaleImage"		"1"
 		
 		if_3team
 		{
@@ -330,7 +330,7 @@
 	}
 	"ScoreTeam4BGShadow"
 	{
-		"ControlName"	"ImagePanel"
+		"ControlName"		"ImagePanel"
 		"fieldName"		"ScoreTeam4BGShadow"
 		"xpos"			"c90"
 		"xpos_minmode"	"c-58"
@@ -343,7 +343,7 @@
 		"enabled"		"1"
 		"image"			"../darhud/dom/dom_score_shadow"
 		"image_minmode"	"../darhud/counter_reverse_shadow"
-		"scaleImage"	"1"
+		"scaleImage"		"1"
 		
 		"if_4team"
 		{
@@ -355,22 +355,22 @@
 	
 	"ScoreBlueLabel"
 	{
-		"ControlName"				"CExLabel"
-		"fieldName"				"ScoreBlueLabel"
-		"xpos"					"c-64"
-		"ypos"					"4"
-		"zpos"					"4"
-		"wide"					"64"
-		"tall"					"22"
-		"textAlignment"			"center"
-		"textinsetx"				"0"
+		"ControlName"		"CExLabel"
+		"fieldName"		"ScoreBlueLabel"
+		"xpos"			"c-64"
+		"ypos"			"4"
+		"zpos"			"4"
+		"wide"			"64"
+		"tall"			"22"
+		"textAlignment"	"center"
+		"textinsetx"		"0"
 
-		"xpos_minmode"				"c-44"
-		"ypos_minmode"				"6"
-		"wide_minmode"				"35"
-		"tall_minmode"				"18"
-		"textAlignment_minmode"		"east"
-		"textinsetx_minmode"			"3"
+		"xpos_minmode"			"c-44"
+		"ypos_minmode"			"6"
+		"wide_minmode"			"35"
+		"tall_minmode"			"18"
+		"textAlignment_minmode"	"east"
+		"textinsetx_minmode"		"3"
 		
 		"visible"		"1"
 		"enabled"		"1"
@@ -379,7 +379,7 @@
 		"font_minmode"	"HudFontMediumSmallBold"
 		"fgcolor"		"ObjectiveLabel"
 		
-		"dropshadow"		"1"
+		"dropshadow"			"1"
 		"dropshadowoffset"	"3"
 		
 		"if_dom"
@@ -456,7 +456,7 @@
 		"font_minmode"			"HudFontSmallestBold"
 		"fgcolor"				"ObjectiveLabel"
 		
-		"dropshadow"		"1"
+		"dropshadow"			"1"
 		"dropshadowoffset"	"3"
 	}
 	"ScoreRedLabel"
@@ -485,7 +485,7 @@
 		"font_minmode"			"HudFontMediumSmallBold"
 		"fgcolor"				"ObjectiveLabel"
 		
-		"dropshadow"		"1"
+		"dropshadow"			"1"
 		"dropshadowoffset"	"3"
 		
 		"if_dom"
@@ -562,7 +562,7 @@
 		"font_minmode"			"HudFontSmallestBold"
 		"fgcolor"				"ObjectiveLabel"
 		
-		"dropshadow"		"1"
+		"dropshadow"			"1"
 		"dropshadowoffset"	"3"
 		
 		"if_generic_4team"
@@ -598,7 +598,7 @@
 		"font_minmode"			"HudFontMediumSmallBold"
 		"fgcolor"				"ObjectiveLabel"
 		
-		"dropshadow"		"1"
+		"dropshadow"			"1"
 		"dropshadowoffset"	"3"
 		
 		"if_dom"
@@ -670,7 +670,7 @@
 		"font_minmode"			"HudFontSmallestBold"
 		"fgcolor"				"ObjectiveLabel"
 		
-		"dropshadow"		"1"
+		"dropshadow"			"1"
 		"dropshadowoffset"	"3"
 		
 		"if_dom_4team"
@@ -693,7 +693,7 @@
 		"wide"					"64"
 		"tall"					"22"
 		"textAlignment"			"center"
-		"textinsetx"		"0"
+		"textinsetx"				"0"
 		
 		"xpos_minmode"			"c80"
 		"ypos_minmode"			"6"
@@ -709,7 +709,7 @@
 		"font_minmode"			"HudFontMediumSmallBold"
 		"fgcolor"				"ObjectiveLabel"
 		
-		"dropshadow"		"1"
+		"dropshadow"			"1"
 		"dropshadowoffset"	"3"
 		
 		"if_dom"
@@ -776,7 +776,7 @@
 		"font_minmode"			"HudFontSmallestBold"
 		"fgcolor"				"ObjectiveLabel"
 		
-		"dropshadow"		"1"
+		"dropshadow"			"1"
 		"dropshadowoffset"	"3"
 		
 		"if_dom_4team"
@@ -790,36 +790,34 @@
 	}
 	"PlayingTo"
 	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"PlayingTo"
-		"xpos"			"cs-0.5"
-		"ypos"			"30"
-		"zpos"			"-1"
-		"wide"			"90"
-		"tall"			"12"
-		"visible"		"1"
-		"enabled"		"1"
-		"labelText"		"#TF_PlayingTo"
-		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
-		"font"			"FontStorePrice"
-		"fgcolor"		"ObjectiveLabel"
-		"dropshadow"		"1"
+		"ControlName"			"CExLabel"
+		"fieldName"			"PlayingTo"
+		"xpos"				"cs-0.5"
+		"ypos"				"30"
+		"zpos"				"-1"
+		"wide"				"90"
+		"tall"				"12"
+		"visible"			"1"
+		"enabled"			"1"
+		"labelText"			"#TF_PlayingTo"
+		"textAlignment"		"center"
+		"font"				"FontStorePrice"
+		"fgcolor"			"ObjectiveLabel"
+		"dropshadow"			"1"
 		"dropshadowoffset"	"2"
 	}
 	"PlayingToBG"
 	{
 		"ControlName"	"CTFImagePanel"
-		"fieldName"		"PlayingToBG"
-		"xpos"			"c-35"
-		"ypos"			"28"
-		"zpos"			"3"
-		"wide"			"70"	
-		"tall"			"12"
-		"visible"		"0"
-		"enabled"		"0"
-		"image"			"../darhud/square_shadow"
+		"fieldName"	"PlayingToBG"
+		"xpos"		"c-35"
+		"ypos"		"28"
+		"zpos"		"3"
+		"wide"		"70"	
+		"tall"		"12"
+		"visible"	"0"
+		"enabled"	"0"
+		"image"		"../darhud/square_shadow"
 		"scaleImage"	"1"
 	}
 }
