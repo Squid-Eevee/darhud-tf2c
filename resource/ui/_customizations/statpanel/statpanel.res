@@ -3,9 +3,9 @@
 	"StatPanel"
 	{
 		"fieldName"	"StatPanel"
-		"xpos"		"c-103"
+		"xpos"		"cs-0.5"
 		"ypos"		"268"
-		"wide"		"208"
+		"wide"		"202"
 		"tall"		"58"
 		"visible"	"1"
 		"enabled"	"1"
