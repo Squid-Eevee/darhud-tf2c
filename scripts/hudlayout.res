@@ -150,7 +150,7 @@
 		"SelectionNumberFg"		"255 255 255 255"
 		"NumberFont"				"HudFontSmallestBold"
 		"TextScan"				"1"
-		"SelectionGrowTime"		"2"		
+		"SelectionGrowTime"		"0.1"		
 	}
 	
 	CHudAccountPanel
