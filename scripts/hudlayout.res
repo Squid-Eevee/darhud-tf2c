@@ -888,7 +888,7 @@
 		"tall"					"80"
 	}
 
-	//relocated to resource/ui/_customizations/statpanel/statpanel.res
+	//relocated to resource/ui/_customizations/statpanel/
 	// StatPanel
 	// {
 		// "fieldName"	"StatPanel"
