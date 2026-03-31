@@ -1,0 +1,112 @@
+//Shared parameters
+#base "_customizations/weapon_selection/base.res"
+
+//Customisations
+#base "_customizations/weapon_selection/small.res"
+#base "_customizations/weapon_selection/default.res"
+
+"Resource/UI/HudWeaponSelection.res"
+{
+	"modelpanel0"
+	{
+		"ControlName"	"CItemModelPanel"
+		"fieldName"		"modelpanel0"
+		"bgcolor_override"		"0 0 0 0"
+		"PaintBackgroundType"	"0"
+		"paintborder"	"1"
+		"name_only"		"1"
+		"model_ypos"	"0"
+		"standard_text_color"	"1"
+
+		"itemmodelpanel"
+		{
+			"use_item_rendertarget"	"0"
+			"allow_rot"				"0"
+		}
+	}
+	"modelpanel1"
+	{
+		"ControlName"	"CItemModelPanel"
+		"fieldName"		"modelpanel1"
+		"bgcolor_override"		"0 0 0 0"
+		"PaintBackgroundType"	"0"
+		"paintborder"	"1"
+		"name_only"		"1"
+		"model_ypos"	"0"
+		"standard_text_color"	"1"
+
+		"itemmodelpanel"
+		{
+			"use_item_rendertarget"	"0"
+			"allow_rot"				"0"
+		}
+	}
+	"modelpanel2"
+	{
+		"ControlName"	"CItemModelPanel"
+		"fieldName"		"modelpanel2"
+		"bgcolor_override"		"0 0 0 0"
+		"PaintBackgroundType"	"0"
+		"paintborder"	"1"
+		"name_only"		"1"
+		"model_ypos"	"0"
+		"standard_text_color"	"1"
+
+		"itemmodelpanel"
+		{
+			"use_item_rendertarget" "0"
+			"allow_rot"				"0"
+		}
+	}
+	"modelpanel3"
+	{
+		"ControlName"	"CItemModelPanel"
+		"fieldName"		"modelpanel3"
+		"bgcolor_override"		"0 0 0 0"
+		"PaintBackgroundType"	"0"
+		"paintborder"	"1"
+		"name_only"		"1"
+		"model_ypos"	"0"
+		"standard_text_color"	"1"
+
+		"itemmodelpanel"
+		{
+			"use_item_rendertarget" "0"
+			"allow_rot"				"0"
+		}
+	}
+	"modelpanel4"
+	{
+		"ControlName"	"CItemModelPanel"
+		"fieldName"		"modelpanel4"
+		"bgcolor_override"		"0 0 0 0"
+		"PaintBackgroundType"	"0"
+		"paintborder"	"1"
+		"name_only"		"1"
+		"model_ypos"	"0"
+		"standard_text_color"	"1"
+
+		"itemmodelpanel"
+		{
+			"use_item_rendertarget" "0"
+			"allow_rot"				"0"
+		}
+	}
+	"modelpanel5"
+	{
+		"ControlName"	"CItemModelPanel"
+		"fieldName"		"modelpanel5"
+		"bgcolor_override"		"0 0 0 0"
+		"PaintBackgroundType"	"0"
+		"paintborder"	"1"
+		"name_only"		"1"
+		"model_ypos"	"0"
+		"standard_text_color"	"1"
+
+		"itemmodelpanel"
+		{
+			"use_item_rendertarget" "0"
+			"allow_rot"				"0"
+		}
+	}
+}
