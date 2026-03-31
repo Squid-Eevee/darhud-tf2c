@@ -1,0 +1,14 @@
+"darhud_sprites"
+{
+	"TextureData"
+	{
+		"dar_building_alert"
+		{
+			"file"	"darhud/building/build_alt_alert"
+			"x"		"0"
+			"y"		"0"
+			"width"		"512"
+			"height"	"128"
+		}
+	}
+}
