@@ -31,6 +31,9 @@
 		"pin_to_sibling"	"Heading"
 		"pin_corner_to_sibling"	"pin_topLeft"
 		"pin_to_sibling_corner"	"pin_topLeft"
+		
+		"dropshadow"		"1"
+		"dropshadowoffset"	"3"
 	}
 	
 	"Heading"
