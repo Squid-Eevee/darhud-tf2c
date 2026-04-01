@@ -137,8 +137,6 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"fgcolor_override"	"HUDBlack"
-		"dropshadow"		"1"
-		"dropshadowoffset"	"2"
 		
 		"pin_to_sibling"		"ClassImage"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
@@ -162,8 +160,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"fgcolor"		"HUDBlack"
-		"dropshadow"		"1"
-		"dropshadowoffset"	"3"
 		
 		"pin_to_sibling"		"PlayTimeLabel"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
@@ -187,8 +183,6 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"fgcolor_override"	"HUDBlack"
-		"dropshadow"		"1"
-		"dropshadowoffset"	"2"
 		
 		"pin_to_sibling"		"PlayTime"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
@@ -213,8 +207,6 @@
 		"enabled"			"1"
 		"wrap"				"1"
 		"fgcolor_override"	"HUDBlack"
-		"dropshadow"		"1"
-		"dropshadowoffset"	"1"
 		
 		"pin_to_sibling"		"TipLabel"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
