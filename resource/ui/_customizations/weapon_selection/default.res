@@ -1,3 +1,5 @@
+#base "base.res"
+
 "Resource/HudLayout.res"
 {
 	"HudWeaponSelection"
