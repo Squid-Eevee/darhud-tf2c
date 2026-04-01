@@ -147,6 +147,9 @@
 								"enabled"		"1"
 								"scaleImage"	"1"
 								"proportionalToParent"	"1"
+		
+								"dropshadow"		"1"
+								"dropshadowoffset"	"3"
 							}
 						}
 						
@@ -195,6 +198,9 @@
 								"enabled"		"1"
 								"scaleImage"	"1"
 								"proportionalToParent"	"1"
+		
+								"dropshadow"		"1"
+								"dropshadowoffset"	"3"
 							}
 						}
 
