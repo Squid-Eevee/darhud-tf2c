@@ -17,8 +17,6 @@
 		"enabled"		"1"
 		"labelText"		"#TF_Object_Sentry"
 		"textAlignment"	"center"
-		"dropshadow"		"1"
-		"dropshadowoffset"	"1"
 	}
 
 	"ItemBackground"
@@ -97,8 +95,6 @@
 		"enabled"		"1"
 		"labelText"		"%metal%"
 		"textAlignment"	"Left"
-		"dropshadow"		"1"
-		"dropshadowoffset"	"1"
 	}
 	
 	"ModeLabel"
