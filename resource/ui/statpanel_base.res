@@ -1,5 +1,3 @@
-#base "_customizations/statpanel/statpanel.res"
-
 "Resource/UI/StatPanel_PlayTime.res"
 {
 	"StatPanelBG"
