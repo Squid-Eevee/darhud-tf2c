@@ -44,7 +44,7 @@ Scheme
 		"TeamYellow"				"255 178 0 255"
 		"TeamGreen"					"153 255 153 255"
 		
-		"DropShadow"				"50 50 50 191"
+		"DropShadow"				"0 0 0 240"
 
 		"BuildingStatusNotBuilt"	"210 210 210 220"
 		
