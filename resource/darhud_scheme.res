@@ -791,6 +791,85 @@ Scheme
 				"antialias"	"1"
 			}
 		}
+		"PipBoyTitle"
+		{
+			"1"
+			{
+				"name"		"DejaVu Sans Condensed"
+				"tall"		"30"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"PipBoyItem"
+		{
+			"1"
+			{
+				"name"		"Inconsolata"
+				"tall"		"10"
+				"weight"	"0"
+				"range"		"0x0000 0x017F"
+				"yres"	"480 599"
+			}
+			"2"
+			{
+				"name"		"Inconsolata"
+				"tall"		"13"
+				"weight"	"0"
+				"range"		"0x0000 0x017F"
+				"yres"	"600 768"
+			}
+			"3"
+			{
+				"name"		"Inconsolata"
+				"tall"		"11"
+				"weight"	"0"
+				"antialias"	"1"
+				"range"		"0x0000 0x017F"
+				"yres"	"769 1023"
+				"antialias"	"1"
+			}
+			"4"
+			{
+				"name"		"Inconsolata"
+				"tall"		"16"
+				"weight"	"0"
+				"antialias"	"1"
+				"range"		"0x0000 0x017F"
+				"yres"	"1024 1199"
+				"antialias"	"1"
+			}
+			"5"
+			{
+				"name"		"Inconsolata"
+				"tall"		"20"
+				"weight"	"0"
+				"antialias"	"1"
+				"range"		"0x0000 0x017F"
+				"yres"	"1200 6000"
+				"antialias"	"1"
+			}
+			"6"
+			{
+				"name"		"Inconsolata"
+				"tall"		"20"
+				"range" 		"0x0000 0x00FF"
+				"weight"		"0"
+				"antialias"	"1"
+			}
+		}
+		"PipBoyNumber"
+		{
+			"1"
+			{
+				"name"		"Inconsolata"
+				"tall"		"9"
+				"weight"	"1000"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
 	}
 	Borders
 	{
