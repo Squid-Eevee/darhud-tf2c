@@ -188,23 +188,8 @@
 				"scaleImage"	"1"	
 				"proportionaltoparent"	"1"
 				"drawcolor"		"170 170 170 255"
-			}
-			"NemesisIconShadow"
-			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"NemesisIconShadow"
-				"pin_to_sibling"	"NemesisIcon"
-				"xpos"			"-2"
-				"ypos"			"-2"
-				"zpos"			"3"
-				"wide"			"50"
-				"tall"			"50"
-				"visible"		"1"
-				"enabled"		"1"
-				"image"			"../hud/leaderboard_nemesis_freezecam"
-				"scaleImage"	"1"	
-				"proportionaltoparent"	"1"
-				"drawcolor"		"GeneralShadow"
+				"dropshadow"		"1"
+				"dropshadowoffset"	"3"
 			}
 			"NemesisLabel"
 			{	
@@ -212,6 +197,7 @@
 				"fieldName"			"NemesisLabel"
 				"font"				"HudFontSmallBold"
 				"fgcolor_override"	"GeneralLabel"
+				"proportionaltoparent"	"1"
 				"xpos"				"0"
 				"ypos"				"17"
 				"zpos"				"6"
@@ -223,29 +209,8 @@
 				"enabled"			"1"
 				"labelText"			"%nemesisname%"
 				"textAlignment"		"center"
-				"proportionaltoparent"	"1"
 				"dropshadow"			"1"
 				"dropshadowoffset"	"3"
-			}
-			"NemesisLabelShadow"
-			{	
-				"ControlName"			"Label"
-				"fieldName"			"NemesisLabelShadow"
-				"font"				"HudFontSmallBold"
-				"fgcolor_override"	"GeneralShadow"
-				"pin_to_sibling"		"NemesisLabel"
-				"xpos"				"-2"
-				"ypos"				"-2"
-				"zpos"				"5"
-				"wide"				"f0"
-				"tall"				"20"
-				"autoResize"			"0"
-				"pinCorner"			"0"
-				"visible"			"0"
-				"enabled"			"1"
-				"labelText"			"%nemesisname%"
-				"textAlignment"		"center"
-				"proportionaltoparent"	"1"
 			}
 			"NemesisLabel2"
 			{
@@ -259,8 +224,8 @@
 	{
 		"ControlName"			"CItemModelPanel"
 		"fieldName"				"itempanel"
-		"xpos"					"r200"
-		"ypos"					"cs-0.5"
+		"xpos"					"rs1-10"
+		"ypos"					"rs1"
 		"zpos"					"10"
 		"wide"					"190"
 		"tall"					"200"
@@ -286,8 +251,8 @@
 		"itemmodelpanel"
 		{
 			"fieldName"				"itemmodelpanel"
-			"use_item_rendertarget" "0"
-			"useparentbg"			"1"
+			"use_item_rendertarget"	"0"
+			"useparentbg"				"1"
 		}
 	}
 	
