@@ -889,15 +889,16 @@
 	}
 
 	//relocated to resource/ui/_customizations/statpanel/
+	//this is still here so it appears correctly without needing a hud reload
 	"StatPanel"
 	{
-		// "fieldName"	"StatPanel"
-		// "visible"	"1"
-		// "enabled"	"1"
-		// "xpos"		"c-103"
-		// "ypos"		"378"
-		// "wide"		"208"
-		// "tall"		"0"
+		"fieldName"	"StatPanel"
+		"xpos"		"cs-0.5"
+		"ypos"		"268"
+		"wide"		"202"
+		"tall"		"58"
+		"visible"	"1"
+		"enabled"	"1"
 	}
 	
 	FreezePanel
