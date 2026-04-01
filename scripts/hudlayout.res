@@ -115,8 +115,8 @@
 	}
 
 	//relocated to resource/ui/_customizations/weapon_selection/
-	// "HudWeaponSelection"
-	// {
+	"HudWeaponSelection"
+	{
 		// "fieldName"				"HudWeaponSelection"
 		// "xpos"					"0"
 		// "wide"					"f0"
@@ -152,7 +152,7 @@
 		// "NumberFont"				"HudFontSmallestBold"
 		// "TextScan"				"1"
 		// "SelectionGrowTime"		"0.1"
-	// }
+	}
 	
 	CHudAccountPanel
 	{
@@ -889,8 +889,8 @@
 	}
 
 	//relocated to resource/ui/_customizations/statpanel/
-	// StatPanel
-	// {
+	"StatPanel"
+	{
 		// "fieldName"	"StatPanel"
 		// "visible"	"1"
 		// "enabled"	"1"
@@ -898,7 +898,7 @@
 		// "ypos"		"378"
 		// "wide"		"208"
 		// "tall"		"0"
-	// }
+	}
 	
 	FreezePanel
 	{
