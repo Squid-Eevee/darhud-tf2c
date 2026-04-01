@@ -1,6 +1,13 @@
 #base "hudlayout_mapbase_tf.res"
 #base "hudlayout_tf2c.res"
 
+//Customisations
+#base "../resource/ui/_customizations/weapon_selection/small.res"
+
+//Defaults
+#base "../resource/ui/_customizations/statpanel/statpanel.res"
+#base "../resource/ui/_customizations/weapon_selection/default.res"
+
 "Resource/HudLayout.res"
 {
 	HudPlayerStatus
@@ -115,8 +122,8 @@
 	}
 
 	//relocated to resource/ui/_customizations/weapon_selection/
-	"HudWeaponSelection"
-	{
+	// "HudWeaponSelection"
+	// {
 		// "fieldName"				"HudWeaponSelection"
 		// "xpos"					"0"
 		// "wide"					"f0"
@@ -152,7 +159,7 @@
 		// "NumberFont"				"HudFontSmallestBold"
 		// "TextScan"				"1"
 		// "SelectionGrowTime"		"0.1"
-	}
+	// }
 	
 	CHudAccountPanel
 	{
@@ -889,17 +896,16 @@
 	}
 
 	//relocated to resource/ui/_customizations/statpanel/
-	//this is still here so it appears correctly without needing a hud reload
-	"StatPanel"
-	{
-		"fieldName"	"StatPanel"
-		"xpos"		"cs-0.5"
-		"ypos"		"268"
-		"wide"		"202"
-		"tall"		"58"
-		"visible"	"1"
-		"enabled"	"1"
-	}
+	// "StatPanel"
+	// {
+		// "fieldName"	"StatPanel"
+		// "xpos"		"cs-0.5"
+		// "ypos"		"268"
+		// "wide"		"202"
+		// "tall"		"58"
+		// "visible"	"1"
+		// "enabled"	"1"
+	// }
 	
 	FreezePanel
 	{
