@@ -5,7 +5,7 @@
 	"ItemNameLabel"
 	{
 		"font"			"PipBoyItem"
-		"fgcolor"		"HudBlack"
+		"fgcolor"		"0 255 0 32"
 		"tall"			"9"
 	}
 	
@@ -19,5 +19,10 @@
 		"fgcolor"		"0 255 0 255"
 		"font"			"PipBoyItem"
 		"tall"			"9"
+	}
+	
+	"BuildingIcon"
+	{
+		"drawcolor"		"0 255 0 32"
 	}
 }

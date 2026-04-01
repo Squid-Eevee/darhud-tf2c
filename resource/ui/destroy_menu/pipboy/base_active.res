@@ -6,6 +6,7 @@
 	{
 		"font"			"PipBoyItem"
 		"tall"			"9"
+		"fgcolor"		"0 255 0 255"
 	}
 	
 	"ItemBackground"	
@@ -15,21 +16,19 @@
 		
 	"BuildingIcon"	
 	{
-		"iconColor"			"0 255 0 255"
-		"dropshadow"			"1"
-		"dropshadowoffset"	"2"
+		"drawcolor"			"0 255 0 255"
 	}
 	
 	"DestroyIcon"	
 	{
 		"ypos"			"0"
-		"iconColor"		"0 255 0 128"
+		"drawColor"		"0 255 0 64"
 	}
 
 	"NumberBg"	
 	{
 		"ypos"			"-1"
-		"iconColor"		"255 255 255 255"
+		"iconColor"		"0 255 0 255"
 	}
 	
 	"NumberLabel"

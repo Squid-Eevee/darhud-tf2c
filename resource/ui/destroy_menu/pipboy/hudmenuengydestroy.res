@@ -85,14 +85,20 @@
 	
 	"DestroyIcon"	
 	{
-		"drawColor"		"0 255 0 255"
+		"ypos"			"3"
+		"wide"			"27"
+		"tall"			"27"
+		"drawcolor"		"0 255 0 255"
+		"dropshadow"		"0"
 	}
 	
 	"TitleLabel"
 	{
+		"tall"			"27"
 		"fgcolor"	"0 255 0 255"
 		"font"		"PipBoyTitle"
 		"allcaps"	"1"
+		"dropshadow"		"0"
 	}
 	
 	"CancelLabel"
@@ -100,5 +106,6 @@
 		"ypos"		"96"
 		"fgcolor"	"0 255 0 255"
 		"font"		"PipBoyItem"
+		"dropshadow"		"0"
 	}
 }
