@@ -196,6 +196,9 @@
 		"image_selectedcolor"	"ButtonArmedLabelMM"
 		"image_depressedcolor"	"ButtonDepressedLabelMM"
 		"image_disabledcolor"	"ButtonDisabledLabelMM"
+		
+		"dropshadow"		"1"
+		"dropshadowoffset"	"3"
 	}
 	
 	"OptionsCategorySubButton"
@@ -688,10 +691,10 @@
 		
 		"SubImage"
 		{
-			"ControlName"		"ImagePanel"
-			"fieldName"			"SubImage"
-			"scaleImage"		"1"
-			"dropshadow"		"0"	//whenever they fix the drop shadows copying the class image when highlighted
+			"ControlName"	"ImagePanel"
+			"fieldName"		"SubImage"
+			"scaleImage"			"1"
+			"dropshadow"			"0"	//whenever they fix the drop shadows copying the class image when highlighted
 			"dropshadowoffset"	"3"
 		}
 	}
