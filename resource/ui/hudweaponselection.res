@@ -1,10 +1,3 @@
-//Shared parameters
-#base "_customizations/weapon_selection/base.res"
-
-//Customisations
-#base "_customizations/weapon_selection/small.res"
-#base "_customizations/weapon_selection/default.res"
-
 "Resource/UI/HudWeaponSelection.res"
 {
 	"modelpanel0"
