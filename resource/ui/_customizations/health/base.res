@@ -16,6 +16,8 @@
 		"HealthBonusPosAdj"	"35"
 		"HealthDeathWarning"	"0.49"
 		"HealthDeathWarningColor"	"HealthWarning"
+		"StatusOffset"		"0"
+		"StatusSpacing"		"34"
 	}	
 	"PlayerStatusHealthImage"
 	{
