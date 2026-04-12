@@ -275,30 +275,28 @@
 		"y_offset" "20"
 	}
 	
-	BuildingStatus_Spy
+	"BuildingStatus_Spy"
 	{
 		"fieldName" "BuildingStatus_Spy"
 		"visible"	"1"
 		"enabled"	"1"
-		"xpos"		"-12"
+		"xpos"		"0"
+		"xpos_minmode"	"c-320"
 		"ypos"		"10"
-		"wide"		"640"
+		"wide"		"f0"
 		"tall"		"480"
-		
-		"PaintBackgroundType"	"2"
 	}
 	
-	BuildingStatus_Engineer
+	"BuildingStatus_Engineer"
 	{
 		"fieldName" "BuildingStatus_Engineer"
 		"visible"	"1"
 		"enabled"	"1"
-		"xpos"		"-12"
+		"xpos"		"0"
+		"xpos_minmode"	"c-320"
 		"ypos"		"10"
-		"wide"		"640"
+		"wide"		"f0"
 		"tall"		"480"
-		
-		"PaintBackgroundType"	"2"
 	}
 	
 	HudMannVsMachineStatus
