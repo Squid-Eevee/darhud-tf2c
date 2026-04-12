@@ -6,7 +6,7 @@
 		"fieldName"	"BuildingStatusItem"
 		"xpos"		"0"
 		"ypos"		"0"
-		"wide"		"200"
+		"wide"		"164"
 		"tall"		"51"
 		"visible"	"1"
 	}
@@ -20,7 +20,7 @@
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"		"Icon_Sentry_1"
-		"xpos"			"25"
+		"xpos"			"15"
 		"ypos"			"7"
 		"wide"			"36"
 		"tall"			"36"
@@ -29,7 +29,7 @@
 		"image"			"resource/svgs/engineer/hud_obj_status_sentry_1.svg"
 		"drawcolor"		"AdditionalIcon"
 			
-		"dropshadow"	"1"
+		"dropshadow"			"1"
 		"dropshadowoffset"	"2"
 	}
 	
@@ -37,7 +37,7 @@
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"		"Icon_Sentry_2"
-		"xpos"			"25"
+		"xpos"			"15"
 		"ypos"			"7"
 		"wide"			"36"
 		"tall"			"36"
@@ -54,7 +54,7 @@
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"		"Icon_Sentry_3"
-		"xpos"			"25"
+		"xpos"			"15"
 		"ypos"			"7"
 		"wide"			"36"
 		"tall"			"36"
@@ -86,7 +86,7 @@
 		{
 			"ControlName"		"ImagePanel"
 			"fieldName"		"BackgroundShadow"
-			"xpos"			"-54"
+			"xpos"			"-66"
 			"ypos"			"0"
 			"zpos"			"-3"
 			"wide"			"128"
@@ -101,7 +101,7 @@
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"	"Icon_Upgrade_1"
-			"xpos"		"56"
+			"xpos"		"44"
 			"ypos"		"0"
 			"zpos"		"1"
 			"wide"		"16"
@@ -119,7 +119,7 @@
 		{
 			"ControlName"		"ImagePanel"
 			"fieldName"		"Icon_Sentry_1"
-			"xpos"			"25"
+			"xpos"			"15"
 			"ypos"			"7"
 			"wide"			"36"
 			"tall"			"36"
@@ -137,7 +137,7 @@
 			"ControlName"		"CExLabel"
 			"fieldName"		"NotBuiltLabel"
 			"font"			"HudFontSmallest"
-			"xpos"			"74"
+			"xpos"			"62"
 			"ypos"			"0"
 			"zpos"			"1"
 			"wide"			"200"
@@ -157,7 +157,7 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"		"AlertPanel"
-		"xpos"			"128"
+		"xpos"			"116"
 		"ypos"			"0"
 		"zpos"			"-2"
 		"wide"			"48"
@@ -228,7 +228,7 @@
 		{
 			"ControlName"	"CTFImagePanel"
 			"fieldName"	"Background"
-			"xpos"		"-118"
+			"xpos"		"-130"
 			"ypos"		"0"
 			"zpos"		"0"
 			"wide"		"192"
@@ -262,7 +262,7 @@
 		{
 			"ControlName"		"ImagePanel"
 			"fieldName"		"StatsBackground"
-			"xpos"			"12"
+			"xpos"			"0"
 			"ypos"			"2"
 			"zpos"			"-2"
 			"wide"			"130"
@@ -277,20 +277,20 @@
 		{
 			"ControlName"			"EditablePanel"
 			"fieldName"			"HealthBG"
-			"xpos"				"12"
+			"xpos"				"0"
 			"ypos"				"0"
 			"zpos"				"0"
 			"wide"				"12"
 			"tall"				"48"
-			"visible"			"0"
-			"bgcolor_override"	"0 0 0 127"
+			"visible"			"1"
+			"bgcolor_override"	"HudShadowSolid"
 		}
 		"Health"
 		{	
 			"ControlName"	"CBuildingHealthBar"
 			"fieldName"	"Health"
 			"font"		"Default"
-			"xpos"		"14"
+			"xpos"		"2"
 			"ypos"		"11"
 			"zpos"		"1"
 			"wide"		"8"
@@ -301,7 +301,7 @@
 		{
 			"ControlName"		"ImagePanel"
 			"fieldName"		"HealthIcon"
-			"xpos"			"13"
+			"xpos"			"1"
 			"ypos"			"1"
 			"wide"			"10"
 			"tall"			"10"
@@ -313,7 +313,7 @@
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"	"Icon_Upgrade_1"
-			"xpos"		"56"
+			"xpos"		"44"
 			"ypos"		"0"
 			"zpos"		"1"
 			"wide"		"16"
@@ -379,10 +379,10 @@
 		{
 			"ControlName"	"EditablePanel"
 			"fieldName"	"BuildingPanel"
-			"xpos"		"64"
+			"xpos"		"48"
 			"ypos"		"0"
 			"zpos"		"1"
-			"wide"		"160"
+			"wide"		"100"
 			"tall"		"60"
 			"visible"	"0"
 
@@ -391,8 +391,8 @@
 				"ControlName"		"CExLabel"
 				"fieldName"		"BuildingLabel"
 				"font"			"HudFontSmallest"
-				"xpos"			"10"
-				"ypos"			"14"
+				"xpos"			"14"
+				"ypos"			"13"
 				"zpos"			"1"
 				"wide"			"200"
 				"tall"			"12"
@@ -406,15 +406,32 @@
 				"dropshadowoffset"	"2"
 			}
 			
+			"BuildingIcon"
+			{
+				"ControlName"		"ImagePanel"
+				"fieldName"		"BuildingIcon"
+				"xpos"			"6"
+				"ypos"			"22"
+				"zpos"			"1"
+				"wide"			"16"
+				"tall"			"16"
+				"visible"		"1"
+				"scaleImage"		"1"
+				"image"			"resource/svgs/engineer/hud_obj_status_build_128.svg"
+				"drawcolor"		"AdditionalIcon"
+				
+				"dropshadow"		"1"
+				"dropshadowoffset"	"2"
+			}
 			"BuildingProgress"
 			{	
 				"ControlName"			"ContinuousProgressBar"
 				"fieldName"			"BuildingProgress"
 				"bgcolor_override"	"MeterBackground"
 				"fgcolor_override"	"ProgressOffWhite"
-				"xpos"				"10"
+				"xpos"				"22"
 				"ypos"				"26"
-				"wide"				"52"
+				"wide"				"44"
 				"tall"				"8"
 				"visible"			"1"
 			}
@@ -424,10 +441,10 @@
 		{
 			"ControlName"	"EditablePanel"
 			"fieldName"	"UpgradingPanel"
-			"xpos"		"64"
+			"xpos"		"48"
 			"ypos"		"0"
 			"zpos"		"1"
-			"wide"		"160"
+			"wide"		"100"
 			"tall"		"60"
 			"visible"	"0"
 
@@ -436,8 +453,8 @@
 				"ControlName"		"CExLabel"
 				"fieldName"		"UpgradingLabel"
 				"font"			"HudFontSmallest"
-				"xpos"			"10"
-				"ypos"			"14"
+				"xpos"			"14"
+				"ypos"			"13"
 				"zpos"			"1"
 				"wide"			"200"
 				"tall"			"12"
@@ -451,15 +468,32 @@
 				"dropshadowoffset"	"2"
 			}
 			
+			"UpgradingIcon"
+			{
+				"ControlName"		"ImagePanel"
+				"fieldName"		"UpgradingIcon"
+				"xpos"			"6"
+				"ypos"			"22"
+				"zpos"			"1"
+				"wide"			"16"
+				"tall"			"16"
+				"visible"		"1"
+				"scaleImage"		"1"
+				"image"			"resource/svgs/engineer/hud_obj_status_upgrade_128.svg"
+				"drawcolor"		"AdditionalIcon"
+				
+				"dropshadow"		"1"
+				"dropshadowoffset"	"2"
+			}
 			"UpgradingProgress"
 			{	
 				"ControlName"			"ContinuousProgressBar"
 				"fieldName"			"UpgradingProgress"
 				"bgcolor_override"	"MeterBackground"
 				"fgcolor_override"	"ProgressOffWhite"
-				"xpos"				"10"
+				"xpos"				"22"
 				"ypos"				"26"
-				"wide"				"52"
+				"wide"				"44"
 				"tall"				"8"
 				"visible"			"1"
 			}
@@ -469,29 +503,28 @@
 		{
 			"ControlName"	"EditablePanel"
 			"fieldName"	"HaulingPanel"
-			"xpos"		"60"
+			"xpos"		"48"
 			"ypos"		"0"
 			"zpos"		"1"
-			"wide"		"160"
+			"wide"		"100"
 			"tall"		"60"
 			"visible"	"0"
 			
 			"HaulingIcon"
 			{
-				"ControlName"	"ImagePanel"
-				"fieldName"	"HaulingIcon"
-				"xpos"		"6"
-				"ypos"		"18"
-				"zpos"		"1"
-				"wide"		"17"
-				"tall"		"17"
-				"visible"	"1"
-				"enabled"	"1"
-				"image"				"resource/svgs/engineer/hud_obj_status_haul.svg"
-				"drawcolor"			"CounterIcon"
-				"scaleImage"	"1"
+				"ControlName"		"ImagePanel"
+				"fieldName"		"HaulingIcon"
+				"xpos"			"8"
+				"ypos"			"16"
+				"zpos"			"1"
+				"wide"			"16"
+				"tall"			"16"
+				"visible"		"1"
+				"scaleImage"		"1"
+				"image"			"resource/svgs/engineer/hud_obj_status_haul_128.svg"
+				"drawcolor"		"AdditionalIcon"
 				
-				"dropshadow"	"1"
+				"dropshadow"		"1"
 				"dropshadowoffset"	"2"
 			}
 
@@ -500,8 +533,8 @@
 				"ControlName"		"CExLabel"
 				"fieldName"		"HaulingLabel"
 				"font"			"HudFontSmallest"
-				"xpos"			"22"
-				"ypos"			"20"
+				"xpos"			"24"
+				"ypos"			"18"
 				"zpos"			"1"
 				"wide"			"200"
 				"tall"			"12"
@@ -520,7 +553,7 @@
 		{
 			"ControlName"		"EditablePanel"
 			"fieldName"		"RunningPanel"
-			"xpos"			"60"
+			"xpos"			"48"
 			"ypos"			"0"
 			"wide"			"100"
 			"tall"			"60"
@@ -551,10 +584,10 @@
 				"font"		"HudFontSmallest"
 				"fgcolor"	"AdditionalValue"
 				"xpos"		"28"
-				"ypos"		"7"
+				"ypos"		"5"
 				"zpos"		"1"
 				"wide"		"44"
-				"tall"		"8"
+				"tall"		"12"
 				"visible"	"1"
 				"enabled"	"1"
 				"labelText"	"#Building_hud_sentry_kills_assists"
@@ -564,7 +597,7 @@
 				"dropshadowoffset"	"2"
 			}
 					
-			"ShellIcon"	
+			"ShellIcon"
 			{
 				"ControlName"		"ImagePanel"
 				"fieldName"		"ShellIcon"
@@ -650,7 +683,6 @@
 			{	
 				"ControlName"			"ContinuousProgressBar"
 				"fieldName"			"Upgrade"
-				"font"				"Default"
 				"bgcolor_override"	"MeterBackground"
 				"fgcolor_override"	"ProgressOffWhite"
 				"xpos"				"20"

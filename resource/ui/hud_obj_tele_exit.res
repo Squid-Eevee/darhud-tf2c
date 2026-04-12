@@ -17,7 +17,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"	"Icon_Teleport_Exit"
-		"xpos"		"26"
+		"xpos"		"16"
 		"ypos"		"-1"
 		"wide"		"32"
 		"tall"		"32"
@@ -35,7 +35,7 @@
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"	"Icon_Teleport_Exit"
-			"xpos"		"26"
+			"xpos"		"16"
 			"ypos"		"-1"
 			"wide"		"32"
 			"tall"		"32"
@@ -100,8 +100,8 @@
 				"xpos"		"6"
 				"ypos"		"7"
 				"zpos"		"1"
-				"wide"		"17"
-				"tall"		"17"
+				"wide"		"16"
+				"tall"		"16"
 				"visible"	"1"
 				"scaleImage"	"1"	
 				"image"				"resource/svgs/engineer/ico_metal.svg"

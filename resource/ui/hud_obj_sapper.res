@@ -20,7 +20,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"	"Icon_Sapper"
-		"xpos"		"24"
+		"xpos"		"12"
 		"ypos"		"0"
 		"wide"		"26"
 		"tall"		"26"
@@ -50,7 +50,7 @@
 		{
 			"ControlName"		"ImagePanel"
 			"fieldName"		"BackgroundShadow"
-			"xpos"			"-26"
+			"xpos"			"-14"
 			"ypos"			"0"
 			"zpos"			"-3"
 			"wide"			"96"
@@ -65,7 +65,7 @@
 			"ControlName"		"CExLabel"
 			"fieldName"		"NotBuiltLabel"
 			"font"			"HudFontSmallest"
-			"xpos"			"74"
+			"xpos"			"62"
 			"ypos"			"0"
 			"zpos"			"1"
 			"wide"			"200"
@@ -85,7 +85,7 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"		"AlertPanel"
-		"xpos"			"128"
+		"xpos"			"116"
 		"ypos"			"0"
 		"zpos"			"-2"
 		"wide"			"48"
@@ -156,7 +156,7 @@
 		{
 			"ControlName"		"CTFImagePanel"
 			"fieldName"		"Background"
-			"xpos"			"-40"
+			"xpos"			"-52"
 			"ypos"			"0"
 			"wide"			"96"
 			"tall"			"26"
@@ -190,7 +190,7 @@
 		{
 			"ControlName"		"ImagePanel"
 			"fieldName"		"StatsBackground"
-			"xpos"			"41"
+			"xpos"			"29"
 			"ypos"			"1"
 			"zpos"			"-2"
 			"wide"			"96"
@@ -205,20 +205,20 @@
 		{
 			"ControlName"			"EditablePanel"
 			"fieldName"			"HealthBG"
-			"xpos"				"12"
+			"xpos"				"0"
 			"ypos"				"0"
 			"zpos"				"0"
 			"wide"				"12"
 			"tall"				"26"
-			"visible"			"0"
-			"bgcolor_override"	"0 0 0 127"
+			"visible"			"1"
+			"bgcolor_override"	"HudShadowSolid"
 		}
 		"Health"
 		{	
 			"ControlName"	"CBuildingHealthBar"
 			"fieldName"	"Health"
 			"font"		"Default"
-			"xpos"		"14"
+			"xpos"		"2"
 			"ypos"		"11"
 			"zpos"		"1"
 			"wide"		"8"
@@ -229,7 +229,7 @@
 		{
 			"ControlName"		"ImagePanel"
 			"fieldName"		"HealthIcon"
-			"xpos"			"13"
+			"xpos"			"1"
 			"ypos"			"1"
 			"wide"			"10"
 			"tall"			"10"
@@ -242,7 +242,7 @@
 		{
 			"ControlName"	"EditablePanel"
 			"fieldName"	"BuildingPanel"
-			"xpos"		"49"
+			"xpos"		"37"
 			"ypos"		"0"
 			"zpos"		"1"
 			"wide"		"160"
@@ -287,7 +287,7 @@
 		{
 			"ControlName"	"EditablePanel"
 			"fieldName"	"RunningPanel"
-			"xpos"		"49"
+			"xpos"		"37"
 			"ypos"		"0"
 			"wide"		"100"
 			"tall"		"26"
@@ -297,7 +297,7 @@
 			{
 				"ControlName"	"ImagePanel"
 				"fieldName"	"TargetIcon"
-				"xpos"		"10"
+				"xpos"		"8"
 				"ypos"		"3"
 				"wide"		"20"
 				"tall"		"20"
@@ -310,6 +310,21 @@
 				"dropshadowoffset"	"2"
 			}
 			
+			"TargetHealthIcon"
+			{	
+				"ControlName"			"ImagePanel"
+				"fieldName"			"TargetHealthIcon"
+				"xpos"				"26"
+				"ypos"				"5"
+				"wide"				"16"
+				"tall"				"16"
+				"visible"			"1"
+				"image"				"resource/svgs/engineer/hud_obj_status_health_128.svg"
+				"drawcolor"	"AdditionalIcon"
+				
+				"dropshadow"		"1"
+				"dropshadowoffset"	"2"
+			}
 			"TargetHealth"
 			{	
 				"ControlName"			"ContinuousProgressBar"
@@ -317,9 +332,9 @@
 				"font"				"Default"
 				"bgcolor_override"	"MeterBackground"
 				"fgcolor_override"	"ProgressOffWhite"
-				"xpos"				"32"
+				"xpos"				"42"
 				"ypos"				"9"
-				"wide"				"44"
+				"wide"				"38"
 				"tall"				"8"
 				"visible"			"1"
 			}
