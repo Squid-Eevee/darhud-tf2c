@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture"	"vgui\achievements\tf_pyro_reveal_spies"
+	"$vertexcolor"	"1"
+	"$vertexalpha"	"1"
+}

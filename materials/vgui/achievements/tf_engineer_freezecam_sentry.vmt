@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture"	"vgui\achievements/tf_engineer_freezecam_sentry"
+	"$vertexcolor"	"1"
+	"$vertexalpha"	"1"
+}

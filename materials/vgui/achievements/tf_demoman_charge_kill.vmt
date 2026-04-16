@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture"	"vgui\achievements\tf_demoman_charge_kill"
+	"$vertexcolor"	"1"
+	"$vertexalpha"	"1"
+}

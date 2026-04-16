@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture"	"vgui\achievements\tf_engineer_teleport_grind"
+	"$vertexcolor"	"1"
+	"$vertexalpha"	"1"
+}

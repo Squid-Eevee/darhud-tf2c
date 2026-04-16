@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture"	"vgui\achievements\tf_scout_stun_scout_with_their_ball"
+	"$vertexcolor"	"1"
+	"$vertexalpha"	"1"
+}

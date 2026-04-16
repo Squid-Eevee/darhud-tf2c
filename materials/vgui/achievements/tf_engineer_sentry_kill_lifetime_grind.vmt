@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture"	"vgui\achievements\tf_engineer_sentry_kill_lifetime_grind"
+	"$vertexcolor"	"1"
+	"$vertexalpha"	"1"
+}

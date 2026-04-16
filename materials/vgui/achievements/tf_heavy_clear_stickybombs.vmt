@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture"	"vgui\achievements\tf_heavy_clear_stickybombs"
+	"$vertexcolor"	"1"
+	"$vertexalpha"	"1"
+}

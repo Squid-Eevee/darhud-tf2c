@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture"	"vgui/achievements/tf_medic_counter_charge"
+	"$vertexcolor"	"1"
+	"$vertexalpha"	"1"
+}

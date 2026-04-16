@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture"	"vgui\achievements\tf_heavy_earn_medic_domination"
+	"$vertexcolor"	"1"
+	"$vertexalpha"	"1"
+}
