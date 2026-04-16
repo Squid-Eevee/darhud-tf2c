@@ -882,7 +882,7 @@
 		// "zpos"					"3000"
 	// }
 	
-	PVEWinPanel
+	"PVEWinPanel"
 	{
 		"fieldName"				"PVEWinPanel"
 		"visible"				"1"
