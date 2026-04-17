@@ -567,7 +567,7 @@
 				"tall"		"16"
 				"visible"	"1"
 				"enabled"	"1"
-				"image"				"resource/svgs/engineer/hud_obj_status_build_128.svg"
+				"image"				"resource/svgs/engineer/hud_obj_status_upgrade_128.svg"
 				"drawcolor"			"AdditionalIcon"
 				"scaleImage"	"1"
 				
