@@ -452,27 +452,28 @@
 
 	"HudDeathNotice"
 	{
-		"fieldName"				"HudDeathNotice"
-		"visible" "1"
-		"enabled" "1"
-		"xpos"	 "r628"
-		"ypos"	 "18"
-		"zpos"	 "0"
-		"wide"	 "628"
-		"tall"	 "468"
+		"fieldName"	"HudDeathNotice"
+		"visible" 	"1"
+		"enabled" 	"1"
+		"xpos"	 	"r628"
+		"ypos"	 	"18"
+		"zpos"	 	"0"
+		"wide"	 	"628"
+		"tall"	 	"468"
 
-		"LineHeight"	  "13"
-		"LineSpacing"	  "1"
-		"CornerRadius"	  "0"
-		"RightJustify"			"1"	// If 1, draw notices from the right
+		"LineHeight"			"13"
+		"LineSpacing"			"1"
+		"CornerRadius"		"0"
+		"RightJustify"		"1"	// If 1, draw notices from the right
+		"IconHeightPadding"	"2"
 		
-		"TextFont"		"KillfeedFont"
+		"TextFont"	"KillfeedFont"
 		
-		"TeamBlue"		"HUDBlueTeamSolid"
-		"TeamRed"		"HUDRedTeamSolid"
-		"TeamGreen"		"HUDGreenTeamSolid"
-		"TeamYellow"		"HUDYellowTeamSolid"
-		"IconColor"		"HudWhite"
+		"TeamBlue"			"HUDBlueTeamSolid"
+		"TeamRed"			"HUDRedTeamSolid"
+		"TeamGreen"			"HUDGreenTeamSolid"
+		"TeamYellow"			"HUDYellowTeamSolid"
+		"IconColor"			"HudWhite"
 		"LocalPlayerColor"	"HUDBlack"
 
 		"BaseBackgroundColor"	"KillfeedNormal"
