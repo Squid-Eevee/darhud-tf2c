@@ -20,8 +20,8 @@
 		"wide"			"16"
 		"image"			"resource/svgs/meters/ico_harvester_inactive.svg"
 		
-		"drawcolor"		"ProgressOffWhite"
-		"dropshadow"	"1"
+		"drawcolor"		"MeterBackground"
+		"dropshadow"	"0"
 	}
 	
 	"ActiveIcon"
