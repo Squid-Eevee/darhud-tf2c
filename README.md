@@ -29,7 +29,7 @@ There are addons from the legacy version that are currently unimplemented.
 
 ### Scoreboard
 
-The new scoreboard is a nightmare to do anything interesting or different with. Everything is pinned to the background, the game expects this background to be a certain size, and the game will just automatically pin things to the top left corner despite specifying otherwise. I can make BLU/RED 2-team, BLU/RED/GRN 3-team, and 4-team work, but everything else is mostly out of my control.
+The new scoreboard is a nightmare to do anything interesting or different with. Everything is pinned to the background, the game expects this background to be a certain size, and the game will just automatically pin things relative to the top left corner of the background even if you tell it to do otherwise. I can make BLU/RED 2-team, BLU/RED/GRN 3-team, and 4-team work, but everything else is mostly out of my control.
 
 ### Centered Meters
 
