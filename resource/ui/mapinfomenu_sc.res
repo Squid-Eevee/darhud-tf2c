@@ -1,3 +1,5 @@
+#base "_customizations/info_screen/base.res"
+
 "Resource/UI/MapInfoMenu.res"
 {
 	"mapinfo"
@@ -9,47 +11,9 @@
 		"zpos"			"0"
 		"wide"			"f0"
 		"tall"			"480"
-		"autoResize"	"1"
-		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"paintBackground"	"0"
-	}
-	
-	"bg"
-	{		
-		"ControlName"	"EditablePanel"
-		"fieldName"		"bg"
-		"xpos"					"0"
-		"ypos"					"0"
-		"zpos"					"-2"
-		"wide"					"f0"
-		"tall"					"480"
-		"autoResize"			"0"
-		"pinCorner"				"0"
-		"visible"				"1"
-		"enabled"				"1"
-		"bgcolor_override"		"BackgroundTransparent"
-	}
-
-	"Stripe"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"Stripe"
-		"xpos"			"cs-0.5"
-		"ypos"			"cs-0.5"
-		"zpos"			"-1"
-		"wide"			"f0"
-		"tall"			"305"
-		"visible"		"1"
-		"enabled"		"1"
-		"bgcolor_override"	"TransparentStripe"
-	}
-
-	"MapInfoBG"
-	{
-		"visible"		"0"
-		"enabled"		"0"
 	}
 	
 	"MapInfoTitle"
@@ -126,24 +90,8 @@
 	
 	"Footer"
 	{
-		"ControlName"		"EditablePanel"
-		"fieldName"		"Footer"
-		"xpos"			"0"
-		"ypos"			"r40"
-		"wide"			"f0"
-		"tall"			"40"
-		"proportionaltoparent"	"1"
-		
 		"Buttons"
 		{
-			"ControlName"			"EditablePanel"
-			"fieldName"			"Buttons"
-			"xpos"				"0"
-			"ypos"				"0"
-			"wide"				"f0"
-			"tall"				"f0"
-			"proportionaltoparent"	"1"
-	
 			"BackButton"
 			{
 				"ControlName"	"CExButton"
@@ -153,14 +101,10 @@
 				"zpos"			"6"
 				"wide"			"150"
 				"tall"			"30"
-				"autoResize"	"0"
-				"pinCorner"		"2"
 				"visible"		"1"
 				"enabled"		"1"
 				"labelText"		"#TF_Back"
 				"textAlignment"	"center"
-				"dulltext"		"0"
-				"brighttext"	"0"
 				"command"		"back"
 				"font"			"HudFontSmallBold"
 				"roundedcorners"	"0"
@@ -181,13 +125,9 @@
 				"zpos"			"7"
 				"wide"			"25"
 				"tall"			"25"
-				"autoResize"	"0"
-				"pinCorner"		"2"
 				"visible"		"1"
 				"enabled"		"1"
 				"textAlignment"	"Left"
-				"dulltext"		"0"
-				"brighttext"	"0"
 				"actionSet"		"InGameHUDControls"
 				"actionName"	"menu_cancel"
 			}
@@ -201,14 +141,10 @@
 				"zpos"			"6"
 				"wide"			"150"
 				"tall"			"30"
-				"autoResize"	"0"
-				"pinCorner"		"2"
 				"visible"		"1"
 				"enabled"		"1"
 				"labelText"		"#TF_WatchIntro"
 				"textAlignment"	"center"
-				"dulltext"		"0"
-				"brighttext"	"0"
 				"command"		"intro"
 				"default"		"1"
 				"font"			"HudFontSmallBold"
@@ -230,14 +166,10 @@
 				"zpos"			"7"
 				"wide"			"25"
 				"tall"			"25"
-				"autoResize"	"0"
-				"pinCorner"		"2"
 				"visible"		"1"
 				"enabled"		"1"
 				"labelText"		"Y"
 				"textAlignment"	"Left"
-				"dulltext"		"0"
-				"brighttext"	"0"
 				"actionSet"		"InGameHUDControls"
 				"actionName"	"menu_toggle_function"
 			}
@@ -251,15 +183,10 @@
 				"zpos"			"6"
 				"wide"			"150"
 				"tall"			"30"
-				"autoResize"	"0"
-				"pinCorner"		"2"
 				"visible"		"1"
 				"enabled"		"1"
-				"tabPosition"		"0"
 				"labelText"		"#TF_Continue"
 				"textAlignment"		"center"
-				"dulltext"		"0"
-				"brighttext"		"0"
 				"wrap"		"0"
 				"command"		"continue"
 				"default"		"1"
@@ -282,38 +209,12 @@
 				"zpos"			"7"
 				"wide"			"25"
 				"tall"			"25"
-				"autoResize"	"0"
-				"pinCorner"		"2"
 				"visible"		"1"
 				"enabled"		"1"
 				"textAlignment"	"Left"
-				"dulltext"		"0"
-				"brighttext"	"0"
 				"actionSet"		"InGameHUDControls"
 				"actionName"	"menu_select"
 			}
 		}
-		"FooterLine"
-		{
-			"visible"	"0"
-		}
-		"FooterBackground"
-		{
-			"visible"	"0"
-		}
-	}
-	
-	"MenuBG"
-	{	
-		"wide"			"0"
-		"tall"			"0"
-		"visible"		"0"
-		"enabled"		"0"
-	}					
-
-	"ShadedBar"
-	{
-		"visible"		"0"
-		"enabled"		"0"
 	}
 }

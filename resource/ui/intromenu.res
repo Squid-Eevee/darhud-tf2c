@@ -1,3 +1,5 @@
+#base "_customizations/info_screen/base.res"
+
 "Resource/UI/IntroMenu.res"
 {
 	"intro"
@@ -14,59 +16,16 @@
 		"enabled"		"1"
 		"tabPosition"		"0"
 		"paintbackground"	"0"
-	}	
-	
-	"bg"
-	{		
-		"ControlName"	"EditablePanel"
-		"fieldName"		"bg"
-		"xpos"					"0"
-		"ypos"					"0"
-		"zpos"					"-2"
-		"wide"					"f0"
-		"tall"					"480"
-		"autoResize"			"0"
-		"pinCorner"				"0"
-		"visible"				"1"
-		"enabled"				"1"
-		"bgcolor_override"		"0 0 0 250"
 	}
 	
-	"titlelabel"
+	"Stripe"
 	{
-		"ControlName"		"CExLabel"
-		"fieldName"			"titlelabel"
-		"xpos"				"0"
-		"ypos"				"0"
-		"wide"				"f0"
-		"tall"				"70"
-		"autoResize"		"0"
-		"pinCorner"			"0"
-		"visible"			"0"
-		"enabled"			"0"
-		"tabPosition"		"0"
 	}
-	
+
 	"Footer"
 	{
-		"ControlName"		"EditablePanel"
-		"fieldName"		"Footer"
-		"xpos"			"0"
-		"ypos"			"r40"
-		"wide"			"f0"
-		"tall"			"40"
-		"proportionaltoparent"	"1"
-		
 		"Buttons"
 		{
-			"ControlName"			"EditablePanel"
-			"fieldName"			"Buttons"
-			"xpos"				"0"
-			"ypos"				"0"
-			"wide"				"f0"
-			"tall"				"f0"
-			"proportionaltoparent"	"1"
-	
 			"BackButton"
 			{
 				"ControlName"	"CExButton"
@@ -76,14 +35,10 @@
 				"zpos"			"6"
 				"wide"			"150"
 				"tall"			"30"
-				"autoResize"	"0"
-				"pinCorner"		"2"
 				"visible"		"1"
 				"enabled"		"1"
 				"labelText"		"#TF_Back"
 				"textAlignment"	"center"
-				"dulltext"		"0"
-				"brighttext"	"0"
 				"command"		"back"
 				"font"			"HudFontSmallBold"
 				"roundedcorners"	"0"
@@ -104,14 +59,10 @@
 				"zpos"			"6"
 				"wide"			"150"
 				"tall"			"30"
-				"autoResize"	"0"
-				"pinCorner"		"2"
 				"visible"		"1"
 				"enabled"		"1"
 				"labelText"		"#TF_ReplayIntro"
 				"textAlignment"	"center"
-				"dulltext"		"0"
-				"brighttext"	"0"
 				"command"		"replay"
 				"default"		"1"
 				"font"			"HudFontSmallBold"
@@ -133,14 +84,10 @@
 				"zpos"			"6"
 				"wide"			"150"
 				"tall"			"30"
-				"autoResize"	"0"
-				"pinCorner"		"2"
 				"visible"		"1"
 				"enabled"		"1"
 				"labelText"		"#Button_SkipIntro"
 				"textAlignment"	"center"
-				"dulltext"		"0"
-				"brighttext"	"0"
 				"command"		"skip"
 				"default"		"1"
 				"font"			"HudFontSmallBold"
@@ -162,15 +109,10 @@
 				"zpos"			"6"
 				"wide"			"150"
 				"tall"			"30"
-				"autoResize"	"0"
-				"pinCorner"		"2"
 				"visible"		"1"
 				"enabled"		"1"
-				"tabPosition"		"0"
 				"labelText"		"#TF_Continue"
 				"textAlignment"		"center"
-				"dulltext"		"0"
-				"brighttext"		"0"
 				"wrap"		"0"
 				"command"		"continue"
 				"default"		"1"
@@ -184,66 +126,46 @@
 				"dropshadowoffset"	"3"
 			}
 		}
-		"FooterLine"
-		{
-			"visible"	"0"
-		}
-		"FooterBackground"
-		{
-			"visible"	"0"
-		}
 	}
-	
-	"ShadedBar"
-	{
-		"visible"		"0"
-		"enabled"		"0"
-	}		
 	
 	"VideoPanel"
 	{
 		"ControlName"	"CTFVideoPanel"
 		"fieldName"		"VideoPanel"
-		"xpos"			"cs-0.5"
-		"ypos"			"c-153"
+		"pin_to_sibling"	"Stripe"
+		"pin_corner_to_sibling"	"pin_center_top"
+		"pin_to_sibling_corner"	"pin_center_top"
+		"xpos"			"0"
+		"ypos"			"-8"
 		"zpos"			"3"		
 		"wide"			"300"
 		"tall"			"225"
-		"autoResize"	"0"
-		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"start_delay"	"0"
+		"start_delay"		"0"
 		"end_delay"		"0"
 	}
-	
-	"MenuBG"
-	{	
-		"wide"			"0"
-		"tall"			"0"
-		"visible"		"0"
-		"enabled"		"0"
-	}					
 	
 	"VideoCaption"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"VideoCaption"
-		"xpos"			"cs-0.5"
-		"ypos"			"c70"
+		"pin_to_sibling"	"Stripe"
+		"pin_corner_to_sibling"	"pin_center_bottom"
+		"pin_to_sibling_corner"	"pin_center_bottom"
+		"xpos"			"0"
+		"ypos"			"0"
 		"zpos"			"6"
 		"wide"			"300"
 		"tall"			"70"
-		"autoResize"	"0"
-		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
 		"labelText"		" "
 		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
 		"font"			"IntroMenuCaption"
 		"fgcolor"		"GeneralLabel"
-		"wrap"			"1"
+		"centerwrap"			"1"
+		"dropshadow"		"1"
+		"dropshadowoffset"	"2"
 	}
 }

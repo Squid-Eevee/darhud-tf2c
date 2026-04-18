@@ -1,50 +1,19 @@
+#base "_customizations/info_screen/base.res"
+
 "Resource/UI/TextWindow.res"
 {
 	"info"
 	{
 		"ControlName"			"CTFTextWindow"
-		"fieldName"				"info"
-		"xpos"					"0"
-		"ypos"					"0"
-		"wide"					"f0"
-		"tall"					"480"
-		"autoResize"			"0"
-		"pinCorner"				"0"
-		"visible"				"1"
-		"enabled"				"1"
-		"tabPosition"			"0"
+		"fieldName"			"info"
+		"xpos"				"0"
+		"ypos"				"0"
+		"wide"				"f0"
+		"tall"				"480"
+		"visible"			"1"
+		"enabled"			"1"
 		"settitlebarvisible"	"0"
-		"paintBackground"	"0"
-	}
-
-	"bg"
-	{		
-		"ControlName"	"EditablePanel"
-		"fieldName"		"bg"
-		"xpos"					"0"
-		"ypos"					"0"
-		"zpos"					"-2"
-		"wide"					"f0"
-		"tall"					"480"
-		"autoResize"			"0"
-		"pinCorner"				"0"
-		"visible"				"1"
-		"enabled"				"1"
-		"bgcolor_override"		"BackgroundTransparent"
-	}
-
-	"Stripe"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"Stripe"
-		"xpos"			"cs-0.5"
-		"ypos"			"cs-0.5"
-		"zpos"			"-1"
-		"wide"			"f0"
-		"tall"			"305"
-		"visible"		"1"
-		"enabled"		"1"
-		"bgcolor_override"	"TransparentStripe"
+		"paintBackground"		"0"
 	}
 	
 	"TFMessageTitle"
@@ -56,14 +25,9 @@
 		"zpos"			"1"
 		"wide"			"420"
 		"tall"			"24"
-		"autoResize"	"0"
-		"pinCorner"		"0"
 		"visible"		"1"
-		"enabled"		"1"
 		"labelText"		"#TF_WELCOME"
 		"textAlignment"	"west"
-		"dulltext"		"0"
-		"brighttext"	"0"
 		"font"			"HudFontMediumSmallBold"
 		"fgcolor"		"GeneralLabel"
 	}	
@@ -78,7 +42,7 @@
 
 	"TFTextMessage"
 	{
-		"ControlName"	"CExRichText"
+		"ControlName"		"CExRichText"
 		"fieldName"		"TFTextMessage"
 		"font"			"HudFontSmall"
 		"xpos"			"cs-0.5"
@@ -86,11 +50,9 @@
 		"zpos"			"1"
 		"wide"			"415"
 		"tall"			"240"
-		"autoResize"	"3"
-		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"paintborder"	"0"
+		"paintborder"		"0"
 		"textAlignment"	"northwest"
 		"fgcolor"		"GeneralLabel"
 
@@ -106,11 +68,7 @@
 		"zpos"			"1"
 		"wide"			"415"
 		"tall"			"295"
-		"autoResize"	"1"
-		"pinCorner"		"0"
 		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"		"0"
 		"paintborder"	"0"
 	}
 
@@ -122,24 +80,8 @@
 	
 	"Footer"
 	{
-		"ControlName"		"EditablePanel"
-		"fieldName"		"Footer"
-		"xpos"			"0"
-		"ypos"			"r40"
-		"wide"			"f0"
-		"tall"			"40"
-		"proportionaltoparent"	"1"
-		
 		"Buttons"
 		{
-			"ControlName"			"EditablePanel"
-			"fieldName"			"Buttons"
-			"xpos"				"0"
-			"ypos"				"0"
-			"wide"				"f0"
-			"tall"				"f0"
-			"proportionaltoparent"	"1"
-			
 			"ContinueButton"
 			{
 				"ControlName"		"CExButton"
@@ -191,35 +133,13 @@
 				"actionName"	"menu_select"
 			}
 		}
-		"FooterLine"
-		{
-			"visible"	"0"
-		}
-		"FooterBackground"
-		{
-			"visible"	"0"
-		}
 	}
-	
-	"MenuBG"
-	{	
-		"wide"			"0"
-		"tall"			"0"
-		"visible"		"0"
-		"enabled"		"0"
-	}	
-	
-	"ShadedBar"
-	{
-		"visible"		"0"
-		"enabled"		"0"
-	}						
 	
 	"MessageTitle"
 	{
 		"ControlName"	"Label"
-		"fieldName"		"MessageTitle"
-		"visible"		"0"
-		"enabled"		"0"
+		"fieldName"	"MessageTitle"
+		"visible"	"0"
+		"enabled"	"0"
 	}		
 }
