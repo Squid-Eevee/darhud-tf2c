@@ -302,7 +302,7 @@
 				"wide"		"20"
 				"tall"		"20"
 				"visible"	"1"
-				"scaleImage"	"1"	
+				"scaleImage"	"1"
 				"icon"		""
 				"drawcolor"	"AdditionalIcon"
 				
@@ -319,6 +319,7 @@
 				"wide"				"16"
 				"tall"				"16"
 				"visible"			"1"
+				"scaleImage"	"1"
 				"image"				"resource/svgs/engineer/hud_obj_status_health_128.svg"
 				"drawcolor"	"AdditionalIcon"
 				
