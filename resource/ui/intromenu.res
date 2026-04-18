@@ -54,7 +54,8 @@
 			{
 				"ControlName"	"CExButton"
 				"fieldName"		"ReplayButton"
-				"xpos"			"c-50"
+				"proportionaltoparent"	"1"
+				"xpos"			"c-75"
 				"ypos"			"0"
 				"zpos"			"6"
 				"wide"			"150"
@@ -79,7 +80,8 @@
 			{
 				"ControlName"	"CExButton"
 				"fieldName"		"SkipButton"
-				"xpos"			"c-50"
+				"proportionaltoparent"	"1"
+				"xpos"			"c-75"
 				"ypos"			"0"
 				"zpos"			"6"
 				"wide"			"150"

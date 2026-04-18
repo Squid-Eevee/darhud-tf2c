@@ -124,7 +124,8 @@
 			{
 				"ControlName"	"CExButton"
 				"fieldName"		"IntroButton"
-				"xpos"			"c-50"
+				"proportionaltoparent"	"1"
+				"xpos"			"c-75"
 				"ypos"			"0"
 				"zpos"			"6"
 				"wide"			"150"
