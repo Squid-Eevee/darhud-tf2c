@@ -1,3 +1,5 @@
+#base "_customizations/scoreboard/dark_background.res"
+
 "Resource/UI/Scoreboard.res"
 {
 	"scores"
@@ -24,20 +26,6 @@
 		"ping_icon_width"			"25"
 		"ping_spacer"				"4"
 		"ping_text_width"			"22"
-	}
-	
-	"Background"
-	{
-		"ControlName"			"EditablePanel"
-		"fieldName"			"Background"
-		"xpos"				"cs-0.5"
-		"ypos"				"cs-0.5"
-		"zpos"				"-99"
-		"wide"				"f0"
-		"tall"				"f0"
-		"visible"			"1"
-		"enabled"			"1"
-		"bgcolor_override"	"0 0 0 96"
 	}
 	
 	"MainBG"
