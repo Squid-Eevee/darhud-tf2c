@@ -266,7 +266,7 @@
 				"visible"		"0"
 				"enabled"		"1"
 				"paintbackground"	"1"
-				"bgcolor_override"	"50 50 50 255"
+				"bgcolor_override"	"HudShadowSolid"
 
 				if_mvm
 				{
