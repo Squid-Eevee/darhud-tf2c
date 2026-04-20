@@ -16,9 +16,25 @@
 		"Box"
 		{
 			"image"		"../darhud/square_white"
-			"alpha"	"100"
 			"scaleimage"	"1"
-			"wide"		"6"
+		}
+		"UpArrow"
+		{
+			"SubImage"
+			{
+				"tall"	"o0.5"
+				"scaleimage"	"1"
+				"image"	"../darhud/scroll_arrow_up"
+			}
+		}
+		"DownArrow"
+		{
+			"SubImage"
+			{
+				"tall"	"o0.5"
+				"scaleimage"	"1"
+				"image"	"../darhud/scroll_arrow_down"
+			}
 		}
 	}
 }
