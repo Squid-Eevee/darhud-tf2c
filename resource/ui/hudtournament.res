@@ -92,7 +92,7 @@
 			"tall"			"28"
 			"zpos"			"6"
 
-			"color_ready"	"0 255 0 220"
+			"color_ready"		"0 255 0 220"
 			"color_notready"	"0 0 0 220"
 
 			"paintborder"			"1"
@@ -126,7 +126,8 @@
 				"visible"		"1"
 				"labelText"		"%playername%"
 				"textAlignment"	"center"
-				//"fgcolor"		"235 226 202 255"
+				"dropshadow"		"1"
+				"dropshadowoffset"	"1"
 
 				if_competitive
 				{
