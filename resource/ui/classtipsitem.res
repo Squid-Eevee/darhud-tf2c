@@ -7,7 +7,7 @@
 		"proportionaltoparent"		"1"
 		"xpos"					"0"
 		"ypos"					"0"
-		"wide"					"f0"
+		"wide"					"f8"
 		"tall"					"22"
 		"autoResize"			"0"
 		"pinCorner"				"1"
