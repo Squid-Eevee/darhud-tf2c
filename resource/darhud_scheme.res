@@ -12,6 +12,7 @@ Scheme
 		"GeneralLabel"		"235 226 202 255"
 		"GeneralShadow"		"0 0 0 240"
 		"GeneralBackground"	"0 0 0 192"
+		"CreditsBackground"	"33 53 17 192"
 
 		//Health
 		"HealthNormal"	"235 226 202 255"
