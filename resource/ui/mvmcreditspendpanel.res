@@ -1,6 +1,5 @@
 "Resource/UI/MvMCreditSpendPanel.res"
 {
-		
 	"TableBackground"
 	{
 		"ControlName"	"EditablePanel"
@@ -27,6 +26,8 @@
 		"wide"			"90"
 		"tall"			"14"
 		"fgcolor"		"GeneralLabel"
+		"dropshadow"		"1"
+		"dropshadowoffset"	"2"
 	}
 	
 	"UpgradesCountLabel"
@@ -43,21 +44,8 @@
 		"wide"			"100"
 		"tall"			"14"
 		"fgcolor"		"White"
-	}
-	"UpgradesCountLabelShadow"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"UpgradesCountLabelShadow"
-		"font"			"HudFontSmallBold"
-		"labelText"		"%upgrades%"
-		"textAlignment" "east"
-		"pin_to_sibling"	"UpgradesCountLabel"
-		"xpos"			"-1"
-		"ypos"			"-1"
-		"zpos"			"1"
-		"wide"			"100"
-		"tall"			"14"
-		"fgcolor"		"GeneralShadow"
+		"dropshadow"		"1"
+		"dropshadowoffset"	"2"
 	}
 	
 	"BuyBackLabel"
@@ -72,6 +60,8 @@
 		"wide"			"90"
 		"tall"			"14"
 		"fgcolor"		"GeneralLabel"
+		"dropshadow"		"1"
+		"dropshadowoffset"	"2"
 	}
 	
 	"BuyBackCountLabel"
@@ -88,21 +78,8 @@
 		"wide"			"100"
 		"tall"			"14"
 		"fgcolor"		"White"
-	}
-	"BuyBackCountLabelShadow"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"BuyBackCountLabelShadow"
-		"font"			"HudFontSmallBold"
-		"labelText"		"%buybacks%"
-		"textAlignment" "east"
-		"pin_to_sibling"	"BuyBackCountLabel"
-		"xpos"			"-1"
-		"ypos"			"-1"
-		"zpos"			"1"
-		"wide"			"100"
-		"tall"			"14"
-		"fgcolor"		"GeneralShadow"
+		"dropshadow"		"1"
+		"dropshadowoffset"	"2"
 	}
 	
 	"BottleLabel"
@@ -117,6 +94,8 @@
 		"wide"			"90"
 		"tall"			"14"
 		"fgcolor"		"GeneralLabel"
+		"dropshadow"		"1"
+		"dropshadowoffset"	"2"
 	}
 	
 	"BottleCountLabel"
@@ -133,20 +112,7 @@
 		"wide"			"100"
 		"tall"			"14"
 		"fgcolor"		"White"
-	}
-	"BottleCountLabelShadow"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"BottleCountLabelShadow"
-		"font"			"HudFontSmallBold"
-		"labelText"		"%bottles%"
-		"textAlignment" "east"
-		"pin_to_sibling"	"BottleCountLabel"
-		"xpos"			"-1"
-		"ypos"			"-1"
-		"zpos"			"1"
-		"wide"			"100"
-		"tall"			"14"
-		"fgcolor"		"GeneralShadow"
+		"dropshadow"		"1"
+		"dropshadowoffset"	"2"
 	}
 }

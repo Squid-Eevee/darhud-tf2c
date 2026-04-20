@@ -3,16 +3,72 @@
 	"WaveStatusPanel"
 	{
 		"ControlName"		"CWaveStatusPanel"
-		"fieldName"			"WaveStatusPanel"
-		"xpos"				"cs-0.5"
-		"ypos"				"0"
-		"zpos"				"0"
-		"wide"				"600"
-		"tall"				"67"
-		"visible"			"1"
-		"enabled"			"1"
+		"fieldName"		"WaveStatusPanel"
+		"xpos"			"cs-0.5"
+		"ypos"			"0"
+		"zpos"			"0"
+		"wide"			"600"
+		"tall"			"67"
+		"visible"		"1"
+		"enabled"		"1"
 		
-		"verbose"			"0"
+		"verbose"		"0"
+	}
+	
+	"Header"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"	"Header"
+		"xpos"		"cs-0.5"
+		"ypos"		"87"
+		"wide"		"592"
+		"tall"		"30"
+		"visible"	"1"
+		
+		"HeaderBG"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"	"HeaderBG"
+			"proportionaltoparent"	"1"
+			"xpos"		"0"
+			"ypos"		"0"
+			"zpos"		"0"
+			"wide"		"f0"
+			"tall"		"f0"
+			"visible"	"1"
+			"enabled"	"1"
+			"image"		"../darhud/scoreboard/score_middle_red"
+			"scaleImage"	"1"
+		}
+		
+		"HeaderImage1"
+		{
+			"ControlName"			"ImagePanel"
+			"fieldName"			"HeaderImage1"
+			"proportionaltoparent"	"1"
+			"xpos"				"22"
+			"ypos"				"-18"
+			"zpos"				"1"
+			"wide"				"60"
+			"tall"				"60"
+			"image"				"resource/svgs/darhud/health_equip_bg.svg"
+			"drawcolor"			"HudShadowSolid"
+			"scaleImage"			"1"
+		}
+		"HeaderImage2"
+		{
+			"ControlName"			"ImagePanel"
+			"fieldName"			"HeaderImage2"
+			"proportionaltoparent"	"1"
+			"xpos"				"r88"
+			"ypos"				"4"
+			"zpos"				"1"
+			"wide"				"60"
+			"tall"				"60"
+			"image"				"resource/svgs/darhud/health_equip_bg.svg"
+			"drawcolor"			"HudShadowSolid"
+			"scaleImage"			"1"
+		}
 	}
 	
 	"PopFileLabel"
@@ -21,28 +77,15 @@
 		"fieldName"		"PopFileLabel"
 		"font"			"ScoreboardMedium"
 		"labelText"		"%popfile%"
-		"textAlignment"	"east"
+		"textAlignment"	"center"
 		"xpos"			"cs-0.5"
-		"ypos"			"95"
+		"ypos"			"87"
+		"zpos"			"1"
 		"wide"			"524"
-		"tall"			"20"
+		"tall"			"30"
 		"fgcolor"		"GeneralLabel"
-	}
-		
-	"PopFileLabelShadow"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"PopFileLabelShadow"
-		"font"			"ScoreboardMedium"
-		"labelText"		"%popfile%"
-		"pin_to_sibling"	"PopFileLabel"
-		"textAlignment"	"east"
-		"xpos"			"-1"
-		"ypos"			"-1"
-		"zpos"			"-1"
-		"wide"			"524"
-		"tall"			"20"
-		"fgcolor"		"Black"
+		"dropshadow"		"1"
+		"dropshadowoffset"	"2"
 	}
 
 	"DifficultyContainer"
@@ -51,9 +94,9 @@
 		"fieldName"		"DifficultyContainer"
 		"xpos"			"cs-0.5"
 		"ypos"			"92"
+		"zpos"			"1"
 		"wide"			"526"
 		"tall"			"22"
-		"zpos"			"1"
 		"visible"		"1"
 		
 		"DifficultyLabel"
@@ -69,22 +112,6 @@
 			"tall"			"10"
 			"fgcolor"		"GeneralLabel"
 		}
-				
-		"DifficultyLabelShadow"
-		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"DifficultyLabelShadow"
-			"font"			"HudFontSmallest"
-			"labelText"		"#TF_MvM_Difficulty"
-			"pin_to_sibling"	"DifficultyLabel"
-			"textAlignment"	"center"
-			"xpos"			"-1"
-			"ypos"			"-1"
-			"zpos"			"-1"
-			"wide"			"100"
-			"tall"			"10"
-			"fgcolor"		"Black"
-		}
 
 		"DifficultyValue"
 		{
@@ -98,22 +125,6 @@
 			"wide"			"100"
 			"tall"			"10"
 			"fgcolor"		"GeneralLabel"
-		}		
-		
-		"DifficultyValueShadow"
-		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"DifficultyValueShadow"
-			"font"			"HudFontSmallBold"
-			"labelText"		"%difficultyvalue%"
-			"pin_to_sibling"	"DifficultyValue"
-			"textAlignment"	"center"
-			"xpos"			"-1"
-			"ypos"			"-1"
-			"zpos"			"-1"
-			"wide"			"100"
-			"tall"			"10"
-			"fgcolor"		"Black"
 		}
 	}
 	
@@ -122,10 +133,10 @@
 		"ControlName"		"EditablePanel"
 		"fieldName"		"PlayerListBackground"
 		"xpos"			"cs-0.5"
-		"ypos"			"90"
+		"ypos"			"116"
 		"zpos"			"-2"
 		"wide"			"526"
-		"tall"			"170"
+		"tall"			"139"
 		"visible"		"1"
 		"enabled"		"1"
 		"bgcolor_override" "GeneralBackground"
@@ -137,15 +148,12 @@
 		"ControlName"	"SectionedListPanel"
 		"fieldName"		"MvMPlayerList"
 		"xpos"			"cs-0.5"
-		"ypos"			"115"
-		"wide"			"530"
-		"tall"			"145"
-		"pinCorner"		"0"
+		"ypos"			"117"
+		"wide"			"528"
+		"tall"			"137"
 		"visible"		"1"
 		"enabled"		"1"
-		"tabPosition"	"0"
-		"autoresize"	"3"
-		"linespacing"	"22"
+		"linespacing"		"21"
 		"textcolor"		"GeneralLabel"
 	}
 	
@@ -159,12 +167,6 @@
 		"tall"			"125"
 		"visible"		"1"
 		
-		"CreditStatsBackground"
-		{
-			"visible"		"0"
-			"enabled"		"0"
-		}		
-		
 		"CreditStatsBackground1"
 		{
 			"ControlName"		"EditablePanel"
@@ -174,19 +176,10 @@
 			"zpos"			"-1"
 			"wide"			"332"
 			"tall"			"125"
-			"autoResize"	"0"
-			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"bgcolor_override" "GeneralBackground"
+			"bgcolor_override" "CreditsBackground"
 			"paintbackgroundtype"	"0"
-		}
-		
-		"CreditsLabel"
-		{
-			"wide"			"0"
-			"tall"			"0"
-			"fgcolor"		"GeneralLabel"
 		}
 		
 		"PreviousWaveCreditInfoPanel"
@@ -245,6 +238,8 @@
 			"wide"			"332"
 			"tall"			"23"
 			"fgcolor"		"GeneralLabel"
+			"dropshadow"		"1"
+			"dropshadowoffset"	"2"
 		}
 	}
 }

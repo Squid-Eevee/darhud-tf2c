@@ -13,21 +13,8 @@
 		"wide"			"300"
 		"tall"			"15"
 		"fgcolor"		"GeneralLabel"
-	}
-	"HeaderLabelShadow"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"HeaderLabelShadow"
-		"font"			"HudFontSmallBold"
-		"labelText"		"%header%"
-		"textAlignment" "north-west"
-		"pin_to_sibling"	"HeaderLabel"
-		"xpos"			"-1"
-		"ypos"			"-1"
-		"zpos"			"0"
-		"wide"			"300"
-		"tall"			"15"
-		"fgcolor"		"GeneralShadow"
+		"dropshadow"		"1"
+		"dropshadowoffset"	"2"
 	}
 		
 	"TableBackground"
@@ -61,22 +48,8 @@
 		"tall"				"20"
 		"auto_wide_tocontents"	"1"
 		"fgcolor"			"GeneralLabel"
-	}
-	"CreditRatingLabelShadow"
-	{
-		"ControlName"			"CExLabel"
-		"fieldName"			"CreditRatingLabelShadow"
-		"font"				"HudFontMediumBold"
-		"labelText"			"%ratingshadow%"
-		"pin_to_sibling"		"CreditRatingLabel"
-		"textAlignment"		"center"
-		"xpos"				"-1"
-		"ypos"				"-1"
-		"zpos"				"-1"
-		"wide"				"70"
-		"tall"				"20"
-		"auto_wide_tocontents"	"1"
-		"fgcolor"			"GeneralShadow"
+		"dropshadow"		"1"
+		"dropshadowoffset"	"2"
 	}
 	
 	"CreditCollectedTextLabel"
@@ -91,6 +64,8 @@
 		"wide"			"90"
 		"tall"			"14"
 		"fgcolor"		"GeneralLabel"
+		"dropshadow"		"1"
+		"dropshadowoffset"	"2"
 	}
 	
 	"CreditCollectedCountLabel"
@@ -109,21 +84,8 @@
 		"wide"			"100"
 		"tall"			"14"
 		"fgcolor"		"CreditsGreen"
-	}
-	"CreditCollectedCountLabelShadow"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"CreditCollectedCountLabelShadow"
-		"font"			"HudFontSmallBold"
-		"labelText"		"%creditscollected%"
-		"textAlignment" "east"
-		"pin_to_sibling"	"CreditCollectedCountLabel"
-		"xpos"			"-1"
-		"ypos"			"-1"
-		"zpos"			"1"
-		"wide"			"100"
-		"tall"			"14"
-		"fgcolor"		"GeneralShadow"
+		"dropshadow"		"1"
+		"dropshadowoffset"	"2"
 	}
 	
 	"CreditMissedTextLabel"
@@ -138,6 +100,8 @@
 		"wide"			"90"
 		"tall"			"14"
 		"fgcolor"		"GeneralLabel"
+		"dropshadow"		"1"
+		"dropshadowoffset"	"2"
 	}
 	
 	"CreditMissedCountLabel"
@@ -158,21 +122,8 @@
 		"wide"			"100"
 		"tall"			"14"
 		"fgcolor"		"RedSolid"
-	}
-	"CreditMissedCountLabelShadow"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"CreditMissedCountLabelShadow"
-		"font"			"HudFontSmallBold"
-		"labelText"		"%creditsmissed%"
-		"textAlignment" "east"
-		"pin_to_sibling"	"CreditMissedCountLabel"
-		"xpos"			"-1"
-		"ypos"			"-1"
-		"zpos"			"1"
-		"wide"			"100"
-		"tall"			"14"
-		"fgcolor"		"GeneralShadow"
+		"dropshadow"		"1"
+		"dropshadowoffset"	"2"
 	}
 	
 	"CreditBonusTextLabel"
@@ -187,6 +138,8 @@
 		"wide"			"90"
 		"tall"			"14"
 		"fgcolor"		"GeneralLabel"
+		"dropshadow"		"1"
+		"dropshadowoffset"	"2"
 	}
 	"CreditBonusCountLabel"
 	{
@@ -204,20 +157,7 @@
 		"wide"			"100"
 		"tall"			"14"
 		"fgcolor"		"CreditsGreen"
-	}
-	"CreditBonusCountLabelShadow"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"CreditBonusCountLabelShadow"
-		"font"			"HudFontSmallBold"
-		"labelText"		"%creditbonus%"
-		"textAlignment" "east"
-		"pin_to_sibling"	"CreditBonusCountLabel"
-		"xpos"			"-1"
-		"ypos"			"-1"
-		"zpos"			"1"
-		"wide"			"100"
-		"tall"			"14"
-		"fgcolor"		"GeneralShadow"
+		"dropshadow"		"1"
+		"dropshadowoffset"	"2"
 	}
 }
