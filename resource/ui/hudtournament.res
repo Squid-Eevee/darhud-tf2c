@@ -28,9 +28,9 @@
 
 		if_mvm
 		{
-			"xpos"					"c-250"
+			"xpos"					"cs-0.5"
 			"ypos"					"0"
-			"wide"					"500"
+			"wide"					"f0"
 			"tall"					"480"
 
 			"team1_player_base_y"			"70"
@@ -150,7 +150,7 @@
 				"tall"			"7"
 				"visible"		"1"
 				"paintBackground" "1"
-				"bgcolor_override"	"GeneralShadow"
+				"bgcolor_override"	"HudShadowSolid"
 			}
 
 			"classimage"
