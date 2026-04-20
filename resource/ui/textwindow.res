@@ -56,7 +56,9 @@
 		"textAlignment"	"northwest"
 		"fgcolor"		"GeneralLabel"
 
-		"image_box"		"../darhud/square_white"
+		"image_box"			"../darhud/square_white"
+		"image_up_arrow"		"../darhud/scroll_arrow_up"
+		"image_down_arrow"	"../darhud/scroll_arrow_down"
 	}
 
 	"HTMLMessage"
