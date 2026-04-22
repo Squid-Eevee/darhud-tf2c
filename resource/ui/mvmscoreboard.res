@@ -21,7 +21,7 @@
 		"fieldName"	"Header"
 		"xpos"		"cs-0.5"
 		"ypos"		"87"
-		"wide"		"592"
+		"wide"		"594"
 		"tall"		"30"
 		"visible"	"1"
 		
@@ -37,7 +37,8 @@
 			"tall"		"f0"
 			"visible"	"1"
 			"enabled"	"1"
-			"image"		"../darhud/scoreboard/score_middle_red"
+			"image"		"resource/svgs/darhud/scoreboard/scoreboard_middle_mask.svg"
+			"drawcolor"	"HUDRedTeamSolid"
 			"scaleImage"	"1"
 		}
 		
@@ -54,6 +55,7 @@
 			"image"				"resource/svgs/darhud/health_equip_bg.svg"
 			"drawcolor"			"HudShadowSolid"
 			"scaleImage"			"1"
+			"visible"			"1"
 		}
 		"HeaderImage2"
 		{
@@ -68,6 +70,7 @@
 			"image"				"resource/svgs/darhud/health_equip_bg.svg"
 			"drawcolor"			"HudShadowSolid"
 			"scaleImage"			"1"
+			"visible"			"1"
 		}
 	}
 	
@@ -77,7 +80,7 @@
 		"fieldName"		"PopFileLabel"
 		"font"			"ScoreboardMedium"
 		"labelText"		"%popfile%"
-		"textAlignment"	"center"
+		"textAlignment"	"east"
 		"xpos"			"cs-0.5"
 		"ypos"			"87"
 		"zpos"			"1"

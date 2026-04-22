@@ -55,14 +55,8 @@
 				"wide"			"530"
 				"tall"			"24"
 				"fgcolor"		"Orange"
-				"dropshadow"			"1"
-				"dropshadowoffset"	"4"
-			}
-			"HeaderShadow"
-			{
-				"wide"			"0"
-				"tall"			"0"
-				"visible"		"0"
+				"dropshadow"		"1"
+				"dropshadowoffset"	"3"
 			}
 		}
 	
@@ -79,7 +73,7 @@
 			"wide"			"200"
 			"tall"			"40"
 			"fgcolor"		"GeneralLabel"
-			"dropshadow"			"1"
+			"dropshadow"		"1"
 			"dropshadowoffset"	"3"
 		}
 		
@@ -131,8 +125,8 @@
 				"wide"			"180"
 				"tall"			"40"
 				"fgcolor"		"GeneralLabel"
-				"dropshadow"			"1"
-				"dropshadowoffset"	"3"
+				"dropshadow"		"1"
+				"dropshadowoffset"	"2"
 			}
 			
 			"RatingTextBackground"
@@ -145,26 +139,38 @@
 				"tall"		"50"
 				"zpos"		"1"
 				"image"		"resource/svgs/darhud/achievement_mask.svg"
+				"drawcolor"	"HUDRedTeamSolid"
 				"scaleImage"	"1"
-				"drawcolor"	"HudRedTeamSolid"
-				"dropshadow"			"1"
-				"dropshadowoffset"	"3"
+			}
+			"RatingTextBackgroundShadow"
+			{
+				"ControlName"	"ImagePanel"
+				"fieldName"	"RatingTextBackgroundShadow"
+				"pin_to_sibling"	"RatingTextBackground"
+				"xpos"		"-2"
+				"ypos"		"-2"
+				"wide"		"50"
+				"tall"		"50"
+				"zpos"		"0"
+				"image"		"resource/svgs/darhud/achievement_mask.svg"
+				"drawcolor"	"HudShadowSolid"
+				"scaleImage"	"1"
 			}
 			"RatingText"
 			{
-				"ControlName"			"CExLabel"
-				"fieldName"			"RatingText"
-				"font"				"HudFontGiantBold"
-				"labelText"			"%ratingscore%"
-				"textAlignment"		"center"
-				"xpos"				"0"
-				"ypos"				"30"
-				"zpos"				"3"
-				"wide"				"180"
-				"tall"				"50"
-				"fgcolor"			"White"
-				"dropshadow"			"1"
-				"dropshadowoffset"	"4"
+				"ControlName"	"CExLabel"
+				"fieldName"		"RatingText"
+				"font"			"HudFontGiantBold"
+				"labelText"		"%ratingscore%"
+				"textAlignment"	"center"
+				"xpos"			"0"
+				"ypos"			"30"
+				"zpos"			"3"
+				"wide"			"180"
+				"tall"			"50"
+				"fgcolor"		"White"
+				"dropshadow"		"1"
+				"dropshadowoffset"	"3"
 			}
 		}
 	}
