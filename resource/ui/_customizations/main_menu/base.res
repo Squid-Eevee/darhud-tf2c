@@ -61,7 +61,7 @@
 		"visible"		"1"
 		"proportionalToParent"	"1"
 		"textAlignment"		"north-east"
-		"labelText"			"DarHud Version 1.3.3" //eevee number...
+		"labelText"			"DarHud Version 1.3.4"
 		"font"				"HudFontSmallest"
 		"dropshadow"			"1"
 		"dropshadowoffset"	"2"
