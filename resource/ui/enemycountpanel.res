@@ -92,6 +92,7 @@
 		"enabled"		"1"
 		"textAlignment"	"center"
 		"labelText"		"%enemy_count%"
+		"fgcolor_override"	"GeneralLabel"
 		"dropshadow"		"1"
 		"dropshadowoffset"	"2"
 	}
