@@ -10,11 +10,8 @@
 		"ypos"						"0"
 		"wide"						"f0"
 		"tall"						"f0"
-		"autoResize"				"0"
-		"pinCorner"					"0"
 		"visible"					"1"
 		"enabled"					"1"
-		"tabPosition"				"0"
 		
 		"avatar_width"				"18"
 		"avatar_spacer"				"3"
@@ -435,8 +432,6 @@
 		"zpos"				"5"
 		"wide"				"272"
 		"tall"				"30"
-		"autoResize"		"0"
-		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
 		"dropshadow"		"1"
@@ -456,8 +451,6 @@
 		"zpos"				"5"
 		"wide"				"272"
 		"tall"				"30"
-		"autoResize"		"0"
-		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
 		"dropshadow"		"1"
@@ -477,8 +470,6 @@
 		"zpos"				"5"
 		"wide"				"272"
 		"tall"				"30"
-		"autoResize"		"0"
-		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
 		"dropshadow"		"1"
@@ -498,8 +489,6 @@
 		"zpos"				"5"
 		"wide"				"272"
 		"tall"				"30"
-		"autoResize"		"0"
-		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
 		"dropshadow"		"1"
@@ -775,17 +764,17 @@
 		"ypos"		"-66"
 		"wide"		"278"
 		"tall"		"219"
-		"visible"	"0"
+		"visible"	"1"
 		"bgcolor_override"	"GeneralBackground"
 		
 		"pin_to_sibling"		"MainBG"
 		"pin_corner_to_sibling"	"PIN_TOPRIGHT"
 		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 		
-		"if_2team"
-		{
-			"visible"		"1"
-		}
+		// "if_2team"
+		// {
+			// "visible"		"1"
+		// }
 		"if_3team"
 		{
 			"visible"		"1"
@@ -1680,10 +1669,10 @@
 			"pin_corner_to_sibling" "0"
 			"pin_to_sibling_corner" "2"
 		}
-		"Domination"
+		"Dominations"
 		{
 			"ControlName"		"CExLabel"
-			"fieldName"			"Domination"
+			"fieldName"			"Dominations"
 			"font"				"HudFontSmallest"
 			"labelText"			"%dominations%"
 			"textAlignment"		"east"
@@ -1694,7 +1683,7 @@
 			"tall"				"12"
 			"autoResize"		"0"
 			"pinCorner"			"0"
-			"visible"			"1"
+			"visible"			"0"
 			"enabled"			"1"
 			
 			"pin_to_sibling" "DominationLabel"
