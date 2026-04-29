@@ -254,7 +254,6 @@
 		}
 	}
 
-
 	"RespecContainer"
 	{
 		"ControlName"	"EditablePanel"
