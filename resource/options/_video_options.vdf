@@ -1,0 +1,954 @@
+"Options"
+{
+	"Groups"
+	{
+		"Video"
+		{
+			"VideoCategory"
+			{
+				"datatype"	"heading"
+				"description" "TF2c_OptionCategory_Video"
+				
+				"dependants"
+				{
+					"Resolution"		 "1"
+					"WindowMode"		 "1"
+					"AspectRatio"		 "1"
+					"AntialiasingMode"	 "1"
+					"FilteringMode"		 "1"
+					"Vsync"				 "1"
+					"MultiCoreRendering" "1"
+					"MaximumFramerate"   "1"
+				}
+			}
+
+			"Resolution"
+			{
+				// Provider sets available choices and determines what the choice actually does
+				"provider"  "ResolutionOption"
+				"description"	"#GameUI_Resolution"
+				"restart_required"	"1"
+			}
+
+			"WindowMode"
+			{
+				// Provider sets available choices and determines what the choice actually does
+				"provider"  "WindowModeOption"
+				"description"	"#GameUI_DisplayMode"
+				"restart_required"	"1"
+			}
+
+			"AspectRatio"
+			{
+				// Provider sets available choices and determines what the choice actually does
+				"provider"  "AspectRatioOption"
+				"description"	"#GameUI_AspectRatio"
+			}
+
+			"AntialiasingMode"
+			{
+				// Provider sets available choices and determines what the choice actually does
+				"provider"  "AntialiasOption"
+				"description"	"#GameUI_Antialiasing_Mode"
+			}
+
+			"FilteringMode"
+			{
+				// use existing description on how to display data
+				"dataType"  "list"
+				"description"	"#GameUI_Filtering_Mode"
+				"list"
+				{
+					"0" "#GameUI_Bilinear"
+					"1" "#GameUI_Trilinear"
+					"2" "#GameUI_Anisotropic2X"
+					"3" "#GameUI_Anisotropic4X"
+					"4" "#GameUI_Anisotropic8X"
+					"5" "#GameUI_Anisotropic16X"
+				}
+				// map given choice to a particular convar or set of convars
+				"convars"
+				{
+					"mat_trilinear"
+					{
+						"0"	"0"
+						"1"	"1"
+						"2"	"1"
+						"3"	"1"
+						"4"	"1"
+						"5"	"1"
+					}
+					
+					"mat_forceaniso"
+					{
+						"0"	"0"
+						"1"	"1:0"
+						"2"	"2"
+						"3"	"4"
+						"4"	"8"
+						"5"	"16"
+					}
+				}
+			}
+
+			"Vsync"
+			{
+				"description"	"#GameUI_Wait_For_VSync"
+				// use existing description on how to display data
+				"base"  "BooleanChoice"
+				// map a specific convar to a choice
+				"convar"    "mat_vsync"
+			}
+
+			"MultiCoreRendering"
+			{
+				// use existing description on how to display data
+				"base"  "BooleanChoice"
+				"description" "#GameUI_MulticoreRendering"
+				// map boolean convar choices if you need a string or something
+				"convar"
+				{
+					"mat_queue_mode"
+					{
+						"0"	"0"
+						"1"	"2"
+					}
+				}
+			}
+			
+			"FramerateLimit"
+			{
+				// use existing description on how to display data
+				"description" "#TF2c_Option_FramerateLimit"
+				"dataType"  "slider"
+				"min"       "30"
+				"max"       "240"
+				"precision"	"1"
+				"convar"    "fps_max"
+			}
+			
+			"GraphicsCategory"
+			{
+				"datatype"	"heading"
+				"description" "#TF2c_OptionCategory_Graphics"
+				
+				"dependants"
+				{
+					"FOV"							"1"
+					"ModelDetail"					"1"
+					"TextureDetail"					"1"
+					"ShaderDetail"					"1"
+					"WaterDetail"					"1"
+					"ShadowDetail"					"1"
+					"EffectDetail"					"1"
+					"MotionBlur"					"1"
+					"BloomScale"					"1"
+				}
+			}
+
+			"FOV"
+			{
+				// use existing description on how to display data
+				"description" "#GameUI_FOV"
+				"dataType"  "slider"
+				// range
+				"min"       "75"
+				// sick fucks going over 110
+				"max"       "130"
+				"precision"	"1"
+				// map a specific convar to a choice
+				"convar"    "fov_desired"
+			}
+
+			"ModelDetail"
+			{
+				// !!!!!!!!!!! Don't forget to update videoconfig_add.cfg if you change something here !!!!!!!!!!! //
+				// use existing description on how to display data
+				"base"  "LowToUltra"
+				//
+				"description"	"#GameUI_Model_Detail"
+				"descText"	""
+				// map given choice to a particular convar or set of convars
+				"convars"
+				{
+					"r_rootlod"
+					{
+						"0" "2"
+						"1" "1"
+						"2" "0"
+						"3" "0"
+					}
+					"r_lod"
+					{
+						"0" "-1"
+						"1" "-1"
+						"2" "-1"
+						"3" "0"
+					}
+					"cl_jiggle_bone_framerate_cutoff"
+					{
+						"0" "0"
+						"1" "64"
+						"2" "64"
+						"3" "1"
+					}
+					"r_drawropes"
+					{
+						"0" "1"
+						"1" "1"
+						"2" "1"
+						"3" "1"
+					}
+					"rope_rendersolid"
+					{
+						"0" "1"
+						"1" "1"
+						"2" "1"
+						"3" "1"
+					}
+					"r_ropetranslucent"
+					{
+						"0" "0"
+						"1" "0"
+						"2" "1"
+						"3" "1"
+					}
+					"rope_smooth"
+					{
+						"0" "0"
+						"1" "0"
+						"2" "1"
+						"3" "1"
+					}
+					"rope_subdiv"
+					{
+						"0" "1"
+						"1" "1"
+						"2" "2"
+						"3" "7"
+					}
+					"rope_collide"
+					{
+						"0" "0"
+						"1" "0"
+						"2" "1"
+						"3" "1"
+					}
+					"rope_wind_dist"
+					{
+						"0" "0"
+						"1" "0"
+						"2" "1000"
+						"3" "8192"
+					}
+					"cl_phys_props_enable"
+					{
+						"0" "0"
+						"1" "1"
+						"2" "1"
+						"3" "1"
+					}
+					"r_drawdetailprops"
+					{
+						"0" "0"
+						"1" "1"
+						"2" "1"
+						"3" "1"
+					}
+					"r_propsmaxdist"
+					{
+						"0" "0"
+						"1" "1200"
+						"2" "1200"
+						"3" "1200"
+					}
+				}
+			}
+
+			"TextureDetail"
+			{
+				// !!!!!!!!!!! Don't forget to update videoconfig_add.cfg if you change something here !!!!!!!!!!! //
+				// use existing description on how to display data
+				"description"	"#GameUI_Texture_Detail"
+				"base"  "LowToUltra"
+				// map given choice to a particular convar or set of convars
+				"convars"
+				{
+					"mat_picmip"
+					{
+						"0" "2"
+						"1" "1"
+						"2" "0"
+						"3" "-1"
+					}
+				}
+			}
+
+			"ShaderDetail"
+			{
+				// !!!!!!!!!!! Don't forget to update videoconfig_add.cfg if you change something here !!!!!!!!!!! //
+				// use existing description on how to display data
+				"base"  "LowToUltra"
+				"description"	"#GameUI_Shader_Detail"
+				// map given choice to a particular convar or set of convars
+				"convars"
+				{
+					"mat_reducefillrate"
+					{
+						"0"	"1"
+						"1"	"1"
+						"2"	"0"
+						"3"	"0"
+					}
+					"mat_disable_fancy_blending"
+					{
+						"0"	"1"
+						"1"	"0"
+						"2"	"0"
+						"3"	"0"
+					}
+					"mat_bumpmap"
+					{
+						"0"	"0"
+						"1"	"1"
+						"2"	"1"
+						"3"	"1"
+					}
+					"mat_specular"
+					{
+						"0"	"0"
+						"1"	"1"
+						"2"	"1"
+						"3"	"1"
+					}
+					"r_ambientboost"
+					{
+						"0"	"0"
+						"1"	"1"
+						"2"	"1"
+						"3"	"1"
+					}
+					"r_lightaverage"
+					{
+						"0"	"0"
+						"1"	"1"
+						"2"	"1"
+						"3"	"1"
+					}
+					"r_dynamic"
+					{
+						"0"	"0"
+						"1"	"0"
+						"2"	"1"
+						"3"	"1"
+					}
+					"r_maxdlights"
+					{
+						"0"	"0"
+						"1"	"0"
+						"2"	"4"
+						"3"	"32"
+					}
+					"r_worldlightmin"
+					{
+						"0"	"0.0004"
+						"1"	"0.0002"
+						"2"	"0.0002"
+						"3"	"0.000001"
+					}
+					"r_worldlights"
+					{
+						"0"	"0"
+						"1"	"2"
+						"2"	"4"
+						"3"	"4"
+					}
+					"mat_disable_lightwarp"
+					{
+						"0"	"1"
+						"1"	"0"
+						"2"	"0"
+						"3"	"0"
+					}
+					"r_pixelvisibility_partial"
+					{
+						"0"	"0"
+						"1"	"0"
+						"2"	"1"
+						"3"	"1"
+					}
+				}
+			}
+
+			"WaterDetail"
+			{
+				// !!!!!!!!!!! Don't forget to update videoconfig_add.cfg if you change something here !!!!!!!!!!! //
+				// use existing description on how to display data
+				"base"  "LowToHigh"
+				"description"	"#GameUI_Water_Detail"
+				// map given choice to a particular convar or set of convars
+				"convars"
+				{
+					"r_WaterDrawReflection"
+					{
+						"0"	"0"
+						"1"	"1"
+						"2"	"1"
+					}
+
+					"r_waterforcereflectentities"
+					{
+						"0"	"0"
+						"1"	"0"
+						"2"	"1"
+					}
+					"tf_water_resolution"
+					{
+						"0"	"512"
+						"1"	"1024"
+						"2"	"2048"
+					}
+					"r_WaterDrawRefraction"
+					{
+						"0"	"1"
+						"1"	"1"
+						"2"	"1"
+					}
+					"r_waterforceexpensive"
+					{
+						"0"	"1"
+						"1"	"1"
+						"2"	"1"
+					}
+				}
+			}
+
+			"ShadowDetail"
+			{
+				// !!!!!!!!!!! Don't forget to update videoconfig_add.cfg if you change something here !!!!!!!!!!! //
+				// use existing description on how to display data
+				"base"  "VeryLowToUltra"
+				"description"	"#GameUI_Shadow_Detail"
+				// map given choice to a particular convar or set of convars
+				"convars"
+				{
+					"r_shadows"
+					{
+						"0"	"0"
+						"1"	"1"
+						"2"	"1"
+						"3" "1"
+						"4" "1"
+					}
+					"r_shadowrendertotexture"
+					{
+						"0"	"0"
+						"1"	"0"
+						"2"	"1"
+						"3" "1"
+						"4" "1"
+					}
+					"cl_blobbyshadows"
+					{
+						"0"	"1"
+						"1"	"1"
+						"2"	"0"
+						"3" "0"
+						"4" "0"
+					}
+					"r_shadowmaxrendered"
+					{
+						"0"	"0"
+						"1"	"0"
+						"2"	"11"
+						"3" "23"
+						"4" "160"
+					}
+					"nb_shadow_dist"
+					{
+						"0"	"-1"
+						"1"	"-1"
+						"2"	"-1"
+						"3" "400"
+						"4" "8192"
+					}
+				}
+			}
+
+			"EffectDetail"
+			{
+				// use existing description on how to display data
+				"dataType"  "list"
+				"list"
+				{
+					"0"     "#GameUI_CrosshairNone" // "Default"
+					"1"     "#gameui_low"
+					"2"     "#gameui_medium"
+					"3"     "#gameui_high"
+					"4"     "#gameui_ultra"
+				}
+				"description"	"#GameUI_Effect_Detail"
+				// map given choice to a particular convar or set of convars
+				"convars"
+				{
+					"mp_decals"
+					{
+						"0"	"200"
+						"1"	"1"
+						"2"	"80"
+						"3"	"200"
+						"4" "2048"
+					}
+					"r_maxmodeldecal"
+					{
+						"0"	"50"
+						"1"	"1"
+						"2"	"9"
+						"3"	"50"
+						"4" "50"
+					}
+					"props_break_max_pieces"
+					{
+						"0"	"-1"
+						"1"	"0"
+						"2"	"-1"
+						"3"	"-1"
+						"4" "-1"
+					}
+					"cl_burninggibs"
+					{
+						"0"	"0"
+						"1"	"0"
+						"2"	"0"
+						"3"	"0"
+						"4" "1"
+					}
+					"r_decalstaticprops"
+					{
+						"0" "1"
+						"1"	"0"
+						"2"	"1"
+						"3"	"1"
+						"4" "1"
+					}
+					"cl_ragdoll_fade_time"
+					{
+						"0"	"15"
+						"1"	"-1"
+						"2"	"15"
+						"3"	"15"
+						"4" "15"
+					}
+					"cl_ragdoll_forcefade"
+					{
+						"0"	"0"
+						"1"	"1"
+						"2"	"0"
+						"3"	"0"
+						"4" "0"
+					}
+					"cl_ragdoll_physics_enable"
+					{
+						"0"	"1"
+						"1"	"0"
+						"2"	"1"
+						"3"	"1"
+						"4" "1"
+					}
+					"tf_impactwatertimeenable"
+					{
+						"0"	"0"
+						"1"	"1"
+						"2"	"1"
+						"3"	"1"
+						"4" "0"
+					}
+					"r_drawflecks"
+					{
+						"0"	"1"
+						"1"	"0"
+						"2"	"1"
+						"3"	"1"
+						"4" "1"
+					}
+					"tf_particles_disable_weather"
+					{
+						"0"	"0"
+						"1"	"1"
+						"2"	"0"
+						"3"	"0"
+						"4" "0"
+					}
+					"mat_reduceparticles"
+					{
+						"0"	"0"
+						"1"	"1"
+						"2"	"1"
+						"3"	"0"
+						"4" "0"
+					}
+					"cl_drawmonitors"
+					{
+						"0"	"1"
+						"1"	"0"
+						"2"	"1"
+						"3"	"1"
+						"4" "1"
+					}
+					"tf_monitor_resolution"
+					{
+						"0"	"1024"
+						"1"	"32"
+						"2"	"1024"
+						"3"	"1024"
+						"4" "1024"
+					}
+				}
+			}
+			
+
+			"MotionBlur"
+			{
+				"description"	"#GameUI_MotionBlur"
+				// use existing description on how to display data
+				"base"  "BooleanChoice"
+				// map a specific convar to a choice
+				"convar"    "mat_motion_blur_enabled"
+			}
+			
+			"BloomScale"
+			{
+				"description"	"#TF2c_Option_BloomScale"
+				"datatype"		"slider"
+				"min"			"0"
+				"max"			"2"
+				"precision"		"0.01"
+				"convar"		"mat_bloom_scalefactor_scalar"
+			}
+			
+			"ViewModelCategory"
+			{
+				"datatype"		"heading"
+				"description"	"#TF2c_OptionCategory_ViewModel"
+				
+				"dependants"
+				{
+					"viewmodel_fov"                              "1"
+					"viewmodel_offset_pitch"                              "1"
+					"viewmodel_offset_yaw"                              "1"
+					"viewmodel_offset_roll"                              "1"
+					"viewmodel_offset_x"                              "1"
+					"viewmodel_offset_y"                              "1"
+					"viewmodel_offset_z"                              "1"
+					"cl_flipviewmodels"                          "0"
+					"tf_use_min_viewmodels"                      "0"
+					"tf2c_invisible_arms"                        "0"
+					"r_viewmodel_opacity"                        "1"
+					"BetaMuzzleflash"							 "1"
+				}
+			}
+			
+			"viewmodel_fov"
+			{
+				"datatype"		"slider"
+				"description"	"#TF_ViewModelFOV"
+				"tooltip"		""
+				"min"			"54"
+				"max"			"70"
+				"convar"		"viewmodel_fov"
+			}
+			
+			"viewmodel_offset_pitch"
+			{
+				"datatype"		"slider"
+				"description"		"#TF_ViewModelOffsetPitch"
+				"tooltip"		""
+				"min"			"-180"
+				"max"			"180"
+				"precision"		"1"
+				"convar"			"viewmodel_offset_pitch"
+			}
+			"viewmodel_offset_yaw"
+			{
+				"datatype"		"slider"
+				"description"		"#TF_ViewModelOffsetYaw"
+				"tooltip"		""
+				"min"			"-180"
+				"max"			"180"
+				"precision"		"1"
+				"convar"			"viewmodel_offset_yaw"
+			}
+			"viewmodel_offset_roll"
+			{
+				"datatype"		"slider"
+				"description"		"#TF_ViewModelOffsetRoll"
+				"tooltip"		""
+				"min"			"-180"
+				"max"			"180"
+				"precision"		"1"
+				"convar"			"viewmodel_offset_roll"
+			}
+			
+			"viewmodel_offset_x"
+			{
+				"datatype"		"slider"
+				"description"		"#TF_ViewModelOffsetX"
+				"tooltip"		"#Tooltip_TF_ViewModelOffsetX"
+				"min"			"-100"
+				"max"			"100"
+				"precision"		"1"
+				"convar"			"viewmodel_offset_x"
+			}
+			"viewmodel_offset_y"
+			{
+				"datatype"		"slider"
+				"description"		"#TF_ViewModelOffsetY"
+				"tooltip"		"#Tooltip_TF_ViewModelOffsetY"
+				"min"			"-100"
+				"max"			"100"
+				"precision"		"1"
+				"convar"			"viewmodel_offset_y"
+			}
+			"viewmodel_offset_z"
+			{
+				"datatype"		"slider"
+				"description"		"#TF_ViewModelOffsetZ"
+				"tooltip"		"#Tooltip_TF_ViewModelOffsetZ"
+				"min"			"-100"
+				"max"			"100"
+				"precision"		"1"
+				"convar"			"viewmodel_offset_z"
+			}
+			
+			"cl_flipviewmodels"
+			{
+				"datatype"		"check"
+				"description"	"#TF_FlipViewModels"
+				"tooltip"		""
+				"convar"		"cl_flipviewmodels"
+			}
+			
+			"tf_use_min_viewmodels"
+			{
+				"datatype"		"check"
+				"description"	"#TF_use_min_viewmodels_option"
+				"tooltip"		"#Tooltip_use_min_viewmodels_option"
+				"convar"		"tf_use_min_viewmodels"
+			}	
+			
+			"tf2c_invisible_arms"
+			{
+				"datatype"		"check"
+				"description"	"#TF_InvisibleArms"
+				"tooltip"		""
+				"convar"		"tf2c_invisible_arms"
+			}	
+			
+			"r_viewmodel_opacity"
+			{
+				"datatype"		"slider"
+				"description"	"#TF_ViewModelOpacity"
+				"tooltip"		""
+				"min"			"0"
+				"max"			"1"
+				"precision"		"0.01"
+				"convar"		"r_viewmodel_opacity"
+			}
+			
+			"BetaMuzzleflash"
+			{
+				"datatype"		"check"
+				"description"	"#TF_ModelMuzzleFlash"
+				"tooltip"		"#TF_ModelMuzzleFlash_Tip"
+				"convar"		"tf2c_model_muzzleflash"
+			}
+			
+			"HUDCategory"
+			{
+				"datatype"		"heading"
+				"description"	"#TF2c_OptionCategory_HUD"
+				
+				"dependants"
+				{
+					"cl_hud_minmode"                        "1"
+					"tf2c_hud_show_current_weapon"			"1"
+					"cl_hud_playerclass_use_playermodel"    "1"
+					"tf_spectator_target_location"          "1"
+					"tf_hud_target_id_floating_health"      "1"
+					"tf_hud_target_id_show_avatars"			"1"
+					"tf_hud_target_id_alpha"                "1"
+					"tf2c_hud_deathnotice_max"              "1"
+					"tf2c_hud_deathnotice_time"             "1"
+					"tf_scoreboard_mouse_mode"              "1"
+					"tf2c_scoreboard_show_avatars"          "1"
+					"cl_use_tournament_specgui"             "1"
+					"tf2c_hud_disable_dropshadow"           "1"
+					"tf2c_hud_alternative_timer"            "1"
+					"glow_outline_effect_enable"            "1"
+					"tf2c_colorblind_pattern_enable"        "1"
+					"tf2c_hud_hide_keybinds"                "1"
+				}
+			}
+			
+			"cl_hud_minmode"
+			{
+				"datatype"		"check"
+				"description"	"#GameUI_EnableHUDMinMode"
+				"tooltip"		"#Tooltip_EnableHUDMinMode"
+				"convar"		"cl_hud_minmode"
+			}
+			
+			"tf2c_hud_show_current_weapon" 
+			{
+				"datatype"		"check"
+				"description"	"#TF_ShowCurrentWeapon"
+				"convar"		"tf2c_hud_show_current_weapon"
+			}
+			
+			"cl_hud_playerclass_use_playermodel"
+			{
+				"datatype"		"check"
+				"description"	"#GameUI_HudPlayerClassUsePlayerModel"
+				"tooltip"		"#ToolTip_HudPlayerClassUsePlayerModel"
+				"convar"		"cl_hud_playerclass_use_playermodel"
+			}
+
+			"tf_spectator_target_location"
+			{
+				"datatype"	"list"
+				"description"	"#TF_Spectator_TargetID_Location"
+				"list"
+				{
+					"0"	"#TF_Spectator_Default"
+					"1"	"#TF_Spectator_Bottom_Left"
+					"2"	"#TF_Spectator_Bottom_Center"
+					"3"	"#TF_Spectator_Bottom_Right"
+				}
+				"convar"	"tf_spectator_target_location"
+			}	
+
+			"tf_hud_target_id_floating_health"
+			{
+				"datatype"		"check"
+				"description"	"#TF_TargetID_Floating_Health"
+				"tooltip"		"#TF_TargetID_Floating_Health_Tip"
+				"convar"		"tf_hud_target_id_floating_health"
+			}
+
+			"tf_hud_target_id_show_avatars"
+			{
+				"datatype"		"list"
+				"description"	"#TF_TargetID_Show_Avatars"
+				"tooltip"		"#TF_TargetID_Show_Avatars_Tip"
+				"list"
+				{
+					"0"	"#GameUI_Off"
+					"1"	"#GameUI_Everyone"
+					"2"	"#GameUI_FriendsOnly"
+				}
+				"convar"		"tf_hud_target_id_show_avatars"
+			}
+
+			"tf_hud_target_id_alpha"
+			{
+				"datatype"		"slider"
+				"description"	"#TF_TargetID_Alpha"
+				"tooltip"		"#TF_TargetID_Alpha_Tip"
+				"min"			"0"
+				"max"			"255"
+				"precision"		"1"
+				"convar"		"tf_hud_target_id_alpha"
+			}
+			
+			"tf2c_hud_deathnotice_max"
+			{
+				"datatype"		"slider"
+				"description"	"#TF_DeathNoticeMax"
+				"tooltip"		"#TF_DeathNoticeMax_Tip"
+				"convar"		"tf2c_hud_deathnotice_max"
+				"min"			"0"
+				"max"			"100"
+				"precision"		"1"
+			}
+			
+			"tf2c_hud_deathnotice_time"
+			{
+				"datatype"		"slider"
+				"description"	"#TF_DeathNoticeTime"
+				"tooltip"		"#TF_DeathNoticeTime_Tip"
+				"convar"		"tf2c_hud_deathnotice_time"
+				"min"			"0"
+				"max"			"30"
+				"precision"		"0.1"
+			}
+			
+			"tf_scoreboard_mouse_mode"
+			{
+				"datatype"		"list"
+				"description"	"#TF_ScoreBoard_MouseMode"
+				"list"
+				{
+					"0"		"#TF_Disable"
+					"1"		"#TF_Enable"
+					"2"		"#TF_RightClick_Enable"
+				}
+				"convar"		"tf_scoreboard_mouse_mode"
+			}
+
+			"tf2c_scoreboard_show_avatars" 
+			{
+				"datatype"		"check"
+				"description"	"#TF_ScoreBoardShowAvatars"
+				"convar"		"tf2c_scoreboard_show_avatars"
+			}
+			
+			"cl_use_tournament_specgui"
+			{
+				"datatype"		"check"
+				"description"	"#TF_UseAdvancedTourneyGUI"
+				"tooltip"		"#Tooltip_UseAdvancedTourneyGUI"
+				"convar"		"cl_use_tournament_specgui"
+			}
+			
+			"tf2c_hud_disable_dropshadow"
+			{
+				"datatype"		"check"
+				"description"	"#TF_DisableDropShadow"
+				"tooltip"		"#TF_DisableDropShadow_Tip"
+				"convar"		"tf2c_hud_disable_dropshadow"
+			}
+
+			"tf2c_hud_alternative_timer"
+			{
+				"datatype"		"check"
+				"description"	"#TF_AlternativeTimer"
+				"tooltip"		"#TF_AlternativeTimer_Tip"
+				"convar"		"tf2c_hud_alternative_timer"
+			}
+			
+			"glow_outline_effect_enable"
+			{
+				"datatype"		"check"
+				"description"	"#TF_GlowEffects"
+				"tooltip"		"#TF_GlowEffects_Tip"
+				"convar"		"glow_outline_effect_enable"
+			}
+			
+			"tf2c_colorblind_pattern_enable"
+			{
+				"datatype"		"check"
+				"description"	"#TF_colorblindassist"
+				"tooltip"		"#Tooltip_colorblindassist"
+				"convar"		"tf2c_colorblind_pattern_enable"
+			}
+			
+			"tf2c_hud_hide_keybinds"
+			{
+				"datatype"		"check"
+				"description"	"#TF_HideKeybinds"
+				"tooltip"		"#TF_HideKeybinds_Tip"
+				"convar"		"tf2c_hud_hide_keybinds"
+			}
+		}
+	}
+}
