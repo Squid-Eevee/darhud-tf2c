@@ -886,12 +886,13 @@
 	"PVEWinPanel"
 	{
 		"fieldName"				"PVEWinPanel"
-		"visible"				"1"
-		"enabled"				"1"
-		"xpos"					"c-125"
-		"ypos"					"305"
-		"wide"					"250"
-		"tall"					"80"
+		"xpos"				"c-140"
+		"ypos"				"c50"
+		"zpos"				"0"
+		"wide"				"276"
+		"tall"				"101"
+		"visible"			"1"
+		"enabled"			"1"
 	}
 
 	//relocated to resource/ui/_customizations/statpanel/
