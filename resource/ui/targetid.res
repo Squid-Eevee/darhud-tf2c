@@ -282,6 +282,8 @@
 			"labelText"		"%movekey%"
 			"textAlignment"	"North"
 			"allcaps"		"1"
+			"dropshadow"		"1"
+			"dropshadowoffset"	"1"
 		}	
 	}
 	
