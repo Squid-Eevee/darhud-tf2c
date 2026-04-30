@@ -37,7 +37,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../darhud/metal_neutral"
-		"scaleImage"	"0"
+		"scaleImage"	"1"
 		"teambg_0"		"../darhud/metal_neutral"
 		"teambg_1"		"../darhud/metal_spectator"
 		"teambg_2"		"../darhud/metal_red"
@@ -48,7 +48,7 @@
 
 	"AccountBGShadow"
 	{
-		"ControlName"	"CTFImagePanel"
+		"ControlName"	"ImagePanel"
 		"fieldName"		"AccountBGShadow"
 		"pin_to_sibling"	"AccountBG"
 		"xpos"			"-2"
@@ -58,8 +58,9 @@
 		"tall"			"28"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../darhud/metal_shadow"
-		"scaleImage"	"0"	
+		"image"			"resource/svgs/darhud/metal_shadow_mask.svg"
+		"drawcolor"		"HudShadow"
+		"scaleImage"	"1"	
 	}
 	
 	"MetalIcon"	
@@ -82,10 +83,10 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"AccountValue"
 		"xpos"			"9"
-		"ypos"			"24"
+		"ypos"			"22"
 		"zpos"			"2"
 		"wide"			"55"
-		"tall"			"15"
+		"tall"			"19"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%metal%"
