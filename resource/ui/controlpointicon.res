@@ -37,15 +37,14 @@
 		"tall"		"14"
 		"visible"	"0"
 		"enabled"	"1"
-		"image"		"capture_icon"
+		"image"		"resource/svgs/darhud/arena/player_icon.svg"
+		"drawcolor"	"HudShadowSolid"
 		"scaleImage"	"1"
-
-		
 	}
 
 	"CapNumPlayers"
 	{	
-		"ControlName"	"Label"
+		"ControlName"		"Label"
 		"fieldName"		"CapNumPlayers"
 		"font"			"HudFontSmallest"
 		"xpos"			"11"
@@ -53,14 +52,11 @@
 		"zpos"			"4"
 		"wide"			"14"
 		"tall"			"21"
-		"autoResize"		"0"
-		"pinCorner"		"0"
 		"visible"		"1"
-		"enabled"		"1"
+		"enabled"		"0"
 		"labelText"		"#ControlPointIconCappers"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
+		"disabledfgcolor2_override"	"HudShadowSolid"
+		"textAlignment"	"west"
 	}
 
 	"OverlayImage"
@@ -91,15 +87,15 @@
 		"enabled"		"1"
 		"labelText"		"60"
 		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
 		"wrap"			"0"
 		"font"			"ControlPointTimer"
+		"dropshadow"		"1"
+		"dropshadowoffset"	"2"
 	}
 				
 	"CPTimerBG"
 	{
-		"ControlName"	"Panel"
+		"ControlName"	"ImagePanel"
 		"fieldName"		"CPTimerBG"
 		"xpos"			"0"
 		"ypos"			"0"
@@ -108,7 +104,7 @@
 		"tall"			"26"
 		"visible"		"0"
 		"enabled"		"1"
-		"image"			"../sprites/obj_icons/icon_obj_timer"	
+		"image"			"../sprites/obj_icons/icon_obj_timer"
 		"scaleImage"	"1"	
 	}
 	
