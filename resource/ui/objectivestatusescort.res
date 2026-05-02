@@ -63,7 +63,7 @@
 		"ypos"			"0"
 		"zpos"			"4"
 		"wide"			"170"
-		"tall"			"7"
+		"tall"			"10"
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"		"1"
@@ -77,7 +77,7 @@
 		"if_multiple_trains"
 		{
 			"zpos"			"6"
-			"tall"			"7"
+			"tall"			"10"
 			"visible"		"1"
 		}
 	}
@@ -505,18 +505,18 @@
 			"if_multiple_trains"
 			{
 				"ypos"			"51"
-				"wide"			"11"
-				"tall"			"11"
+				"wide"			"12"
+				"tall"			"12"
 			}
 			
 			"if_multiple_trains_top"
 			{
-				"ypos"			"51"
+				"ypos"			"43"
 			}	
 			
 			"if_multiple_trains_bottom"
 			{
-				"ypos"			"99"
+				"ypos"			"92"
 			}
 		}
 	
