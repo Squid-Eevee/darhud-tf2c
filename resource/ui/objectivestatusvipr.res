@@ -24,7 +24,6 @@
 		"tall"			"4"
 		"visible"		"0"
 		"enabled"		"1"
-		"labelText"		""
 		"image"			"../darhud/payload/cart_track"
 		"scaleImage"	"1"
 	}
@@ -40,7 +39,6 @@
 		"tall"			"30"
 		"visible"		"1"
 		"enabled"		"1"
-		"labelText"		""
 		"image"			"../darhud/vipr/vip_neutral"
 		"scaleImage"	"1"
 		
@@ -87,13 +85,14 @@
 		"zpos"			"55"
 		"wide"			"30"
 		"tall"			"30"
-		"wide_minmode"	"20"
-		"tall_minmode"	"20"
 		"visible"		"0"
 		"enabled"		"1"
 		"labelText"		""
-		"image"			"../hud/leaderboard_dead"
+		"image"			"resource/svgs/meters/skull.svg"
+		"drawcolor"		"ObjectiveLabel"
 		"scaleImage"	"1"
+		"dropshadow"		"1"
+		"dropshadowoffset"	"2"
 	}
 	
 	"HomeIcon"
