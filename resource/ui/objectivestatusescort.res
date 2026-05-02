@@ -5,7 +5,7 @@
 		"ControlName"		"EditablePanel"
 		"fieldName"			"ObjectiveStatusEscort"
 		"xpos"				"cs-0.5"
-		"ypos"				"r97"
+		"ypos"				"r105"
 		"zpos"				"1"
 		"wide"				"220"
 		"tall"				"87"
