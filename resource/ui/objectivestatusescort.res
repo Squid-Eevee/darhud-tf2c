@@ -20,10 +20,10 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"LevelBar"
 		"proportionaltoparent"	"1"
-		"xpos"			"cs-0.5"
+		"xpos"			"cs-0.5+6"
 		"ypos"			"75"
 		"zpos"			"0"
-		"wide"			"170"
+		"wide"			"f50"
 		"tall"			"10"
 		"visible"		"1"
 		"enabled"		"1"
@@ -33,13 +33,12 @@
 		
 		"if_over2team"
 		{
-			"wide"			"150"
-			"wide_minmode"	"100"
+			// "wide"			"150"
+			// "wide_minmode"	"100"
 		}
 
 		"if_multiple_trains"
 		{
-			"xpos"			"120"
 			"ypos"			"68"
 			"tall"			"10"
 		}
@@ -59,10 +58,11 @@
 		"pin_to_sibling"	"LevelBar"
 		"pin_corner_to_sibling"	"pin_center_left"
 		"pin_to_sibling_corner"	"pin_center_left"
+		"proportionaltoparent"	"1"
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"4"
-		"wide"			"170"
+		"wide"			"f50"
 		"tall"			"10"
 		"visible"		"1"
 		"enabled"		"1"
@@ -70,8 +70,8 @@
 		
 		"if_over2team"
 		{
-			"wide"			"150"
-			"wide_minmode"	"100"
+			// "wide"			"150"
+			// "wide_minmode"	"100"
 		}
 		
 		"if_multiple_trains"
