@@ -606,7 +606,14 @@
 				}
 			}
 			
-
+			"ClassicShading"
+			{
+				"description"	"#TF2c_Option_ClassicShading"
+				"tooltip"		"#TF2c_Option_ClassicShading_Tip"
+				"base"			"BooleanChoice"
+				"convar"		"tf2c_player_nohalflambert"
+			}
+			
 			"MotionBlur"
 			{
 				"description"	"#GameUI_MotionBlur"
