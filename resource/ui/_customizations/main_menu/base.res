@@ -1135,10 +1135,10 @@
 		}
 	}
 
-	"UpdatePanel"
+	"LinkPanel"
 	{
 		"ControlName"	"EditablePanel"
-		"fieldName"		"UpdatePanel"
+		"fieldName"		"LinkPanel"
 		"xpos"			"-1"
 		"ypos"			"-1"
 		"wide"			"225"
@@ -1185,7 +1185,7 @@
 			"style"			"MainMenuButton"
 			"xpos"			"8"
 			"ypos"			"8"
-			"wide"			"f108"
+			"wide"			"f78"
 			"tabPosition"	"0"
 			"labelText"		"#TF_Menu_Blog"
 			"Command"		"openblog"
@@ -1219,53 +1219,6 @@
 			"image"	"../darhud/square_white"
 			"pin_to_sibling"		"BlogButton"
 		}
-
-		"UpdateButton"
-		{
-			"ControlName"	"CExImageButton"
-			"fieldName"		"UpdateButton"
-			"style"			"MainMenuButton"
-			"xpos"			"3"
-			"ypos"			"0"
-			"wide"		"28"
-			"tall"		"28"
-			"tabPosition"	"0"
-			"labelText"		""
-			"tooltiptext"	"#TF_Menu_LatestUpdate"
-			"Command"		"openupdate"
-			"actionsignallevel"	"2"
-			"image_default"	"resource/svgs/mainmenu/icon_link.svg"
-			
-			"border_default"		"DarhudMMSquareButton"
-			"border_armed"		"DarhudMMSquareButtonArmed"
-			"border_selected"		"DarhudMMSquareButtonDepressed"
-			"border_depressed"	"DarhudMMSquareButtonDepressed"
-			"border_disabled"		"DarhudMMSquareButtonDisabled"
-			
-			"pin_to_sibling"		"BlogButton"
-			"pin_corner_to_sibling"	"PIN_TOPLEFT"
-			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
-			
-			"SubImage"
-			{
-				"wide"		"o1"
-				"tall"		"f8"
-				"xpos"		"cs-0.5+1"
-			}
-			
-			"navUp"			"ServerBrowserButton"
-			"navDown"		"AchievementsButton"
-		}
-		"UpdateButtonShadow"
-		{
-			"ControlName"		"CTFImagePanel"
-			"fieldName"		"UpdateButtonShadow"
-			"style"			"MainMenuButtonShadow"
-			"wide"			"28"
-			"tall"			"28"
-			"image"	"../darhud/square_white"
-			"pin_to_sibling"		"UpdateButton"
-		}
 		
 		"BugReportButton"
 		{
@@ -1289,7 +1242,7 @@
 			"border_depressed"	"DarhudMMSquareButtonDepressed"
 			"border_disabled"		"DarhudMMSquareButtonDisabled"
 			
-			"pin_to_sibling"		"UpdateButton"
+			"pin_to_sibling"		"BlogButton"
 			"pin_corner_to_sibling"	"PIN_TOPLEFT"
 			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 			
