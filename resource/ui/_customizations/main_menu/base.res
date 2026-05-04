@@ -38,7 +38,7 @@
 		"visible"		"1"
 		"proportionalToParent"	"1"
 		"textAlignment"		"north-east"
-		"labelText"			"%gameversion%"
+		"labelText"			"#TF2C_Version"
 		"font"				"HudFontSmall"
 		"dropshadow"			"1"
 		"dropshadowoffset"	"2"
