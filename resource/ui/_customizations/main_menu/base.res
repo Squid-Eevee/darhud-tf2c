@@ -38,7 +38,7 @@
 		"visible"		"1"
 		"proportionalToParent"	"1"
 		"textAlignment"		"north-east"
-		"labelText"			"VERSION 3.0.8"
+		"labelText"			"%gameversion%"
 		"font"				"HudFontSmall"
 		"dropshadow"			"1"
 		"dropshadowoffset"	"2"
