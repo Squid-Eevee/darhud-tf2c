@@ -1185,7 +1185,7 @@
 			"style"			"MainMenuButton"
 			"xpos"			"8"
 			"ypos"			"8"
-			"wide"			"f78"
+			"wide"			"f108"
 			"tabPosition"	"0"
 			"labelText"		"#TF_Menu_Blog"
 			"Command"		"openblog"
@@ -1313,6 +1313,52 @@
 			"image"	"../darhud/square_white"
 			"pin_to_sibling"		"BugReportButton"
 		}
+
+		"DonateButton"
+		{
+			"ControlName"	"CExImageButton"
+			"fieldName"		"DonateButton"
+			"style"			"MainMenuButton"
+			"xpos"			"3"
+			"ypos"			"0"
+			"wide"			"28"
+			"tall"			"28"
+			"tabPosition"	"0"
+			"labelText"		""
+			"tooltiptext"	"#TF_Menu_Donate"
+			"Command"		"opendonate"
+			"actionsignallevel"	"2"
+			"image_default"	"resource/svgs/mainmenu/icon_donate.svg"
+			
+			"border_default"		"DarhudMMSquareButton"
+			"border_armed"		"DarhudMMSquareButtonArmed"
+			"border_selected"		"DarhudMMSquareButtonDepressed"
+			"border_depressed"	"DarhudMMSquareButtonDepressed"
+			"border_disabled"		"DarhudMMSquareButtonDisabled"
+			
+			"pin_to_sibling"		"BugReportButton"
+			"pin_to_sibling_corner"	"pin_topright"
+			
+			"SubImage"
+			{
+				"wide"		"f8"
+				"tall"		"o1"
+				"xpos"		"cs-0.5+1"
+			}
+			
+			"navLeft"		"BugReportButton"
+			"navRight"		"BlogButton"
+		}
+		"DonateButtonShadow"
+		{
+			"ControlName"		"CTFImagePanel"
+			"fieldName"		"DonateButtonShadow"
+			"style"			"MainMenuButtonShadow"
+			"wide"			"28"
+			"tall"			"28"
+			"image"	"../darhud/square_white"
+			"pin_to_sibling"		"DonateButton"
+		}
 	}
 
 	"TooltipPanel"
@@ -1364,12 +1410,3 @@
 		"visible"	"0"
 	}
 }
-
-
-
-
-
-
-
-
-
