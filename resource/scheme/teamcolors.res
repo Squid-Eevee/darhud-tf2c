@@ -4,6 +4,7 @@
 #base "customteams/colorblind_grn_colors.res"
 #base "customteams/hue42_colors.res"
 #base "customteams/plm_colors.res"
+#base "customteams/olivine_colors.res"
 #base "customteams/vlt_colors.res"
 #base "customteams/gigaleak_grn_ylw_colors.res"
 
