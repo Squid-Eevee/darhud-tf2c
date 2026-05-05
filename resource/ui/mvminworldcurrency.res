@@ -37,15 +37,18 @@
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"		"MoneyImagePanel"
-		"xpos"			"0"
-		"ypos"			"0"
+		"xpos"			"-1"
+		"ypos"			"-2"
 		"zpos"			"4"
-		"wide"			"14"
-		"tall"			"14"
-		"image"			"../HUD/mvm_cash"
+		"wide"			"16"
+		"tall"			"16"
+		"image"			"resource/svgs/darhud/money.svg"
+		"drawcolor"		"AdditionalIcon"
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"		"1"
+		"dropshadow"		"1"
+		"dropshadowoffset"	"2"
 	}
 	
 	"CurrencyGood"
