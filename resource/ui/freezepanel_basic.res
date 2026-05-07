@@ -310,23 +310,10 @@
 			"wide"			"34"
 			"tall"			"34"
 			"visible"		"1"
-			"image"			"../hud/ico_camera"
-			"scaleImage"	"1"	
-		}
-		"ScreenshotIconShadow"
-		{
-			"ControlName"		"ImagePanel"
-			"fieldName"		"ScreenshotIconShadow"
-			"pin_to_sibling"	"ScreenshotIcon"
-			"xpos"			"-2"
-			"ypos"			"-2"
-			"zpos"			"2"
-			"wide"			"34"
-			"tall"			"34"
-			"visible"		"1"
-			"image"			"../hud/ico_camera"
+			"image"			"resource/svgs/ingame/ico_camera.svg"
 			"scaleImage"	"1"
-			"drawcolor"	"GeneralShadow"
+			"dropshadow"		"1"
+			"dropshadowoffset"	"2"
 		}
 		"ScreenshotLabel"
 		{	
@@ -343,23 +330,8 @@
 			"labelText"		"%text%"
 			"textAlignment"	"west"
 			"fgcolor_override"	"GeneralLabel"
-		}
-		"ScreenshotLabelShadow"
-		{	
-			"ControlName"		"Label"
-			"fieldName"		"ScreenshotLabelShadow"
-			"font"			"FontStorePrice"
-			"pin_to_sibling"	"ScreenshotLabel"
-			"xpos"			"-1"
-			"ypos"			"-1"
-			"zpos"			"2"
-			"wide"			"133"
-			"tall"			"12"
-			"visible"		"1"
-			"enabled"		"1"
-			"labelText"		"%text%"
-			"textAlignment"	"west"
-			"fgcolor_override"	"GeneralShadow"
+			"dropshadow"		"1"
+			"dropshadowoffset"	"2"
 		}
 	}
 }
