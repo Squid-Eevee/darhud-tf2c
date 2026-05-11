@@ -20,10 +20,10 @@
 		"ControlName"	"CTF2CHudVIPLiveCounter"
 		"fieldName"		"BlueTeam"
 		"xpos"			"c-57"
-		"ypos"			"402"
+		"ypos"			"374"
 		"zpos"			"1"
-		"wide"				"57"
-		"tall"				"32"
+		"wide"				"56"
+		"tall"				"29"
 		"visible"		"1"
 		
 		"delta_item_x"			"400"
@@ -36,7 +36,7 @@
 		
 		if_1team
 		{
-			"xpos"			"c-30"
+			"xpos"			"c-28"
 		}
 		
 		if_3team
@@ -62,10 +62,10 @@
 		"ControlName"	"CTF2CHudVIPLiveCounter"
 		"fieldName"		"RedTeam"
 		"xpos"			"c-3"
-		"ypos"			"402"
+		"ypos"			"374"
 		"zpos"			"1"
-		"wide"			"57"
-		"tall"			"32"
+		"wide"			"56"
+		"tall"			"29"
 		"visible"		"1"
 		
 		"delta_item_x"			"460"
@@ -75,6 +75,11 @@
 		"NegativeColor"			"255 0 0 255"
 		"delta_lifetime"		"1.5"
 		"delta_item_font"		"HudFontMediumBold"
+		
+		if_1team
+		{
+			"xpos"			"c-28"
+		}
 		
 		if_3team
 		{
@@ -99,10 +104,10 @@
 		"ControlName"	"CTF2CHudVIPLiveCounter"
 		"fieldName"		"GreenTeam"
 		"xpos"			"c45"
-		"ypos"			"402"
+		"ypos"			"374"
 		"zpos"			"1"
-		"wide"			"60"
-		"tall"			"30"
+		"wide"			"56"
+		"tall"			"29"
 		"visible"		"1"
 		
 		"delta_item_x"			"430"
@@ -113,6 +118,11 @@
 		"NegativeColor"			"255 0 0 255"
 		"delta_lifetime"		"1.5"
 		"delta_item_font"		"HudFontMediumBold"
+		
+		if_1team
+		{
+			"xpos"			"c-28"
+		}
 		
 		if_3team
 		{
@@ -137,10 +147,10 @@
 		"ControlName"	"CTF2CHudVIPLiveCounter"
 		"fieldName"		"YellowTeam"
 		"xpos"			"c-5"
-		"ypos"			"402"
+		"ypos"			"374"
 		"zpos"			"1"
-		"wide"			"60"
-		"tall"			"30"
+		"wide"			"56"
+		"tall"			"29"
 		"visible"		"1"
 		
 		"delta_item_x"			"430"
@@ -150,6 +160,11 @@
 		"NegativeColor"			"255 0 0 255"
 		"delta_lifetime"		"1.5"
 		"delta_item_font"		"HudFontMediumBold"
+		
+		if_1team
+		{
+			"xpos"			"c-28"
+		}
 		
 		if_3team
 		{
