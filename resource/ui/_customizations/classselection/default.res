@@ -44,6 +44,54 @@
 		"enabled"		"1"
 		"bgcolor_override"	"TransparentStripe"
 	}
+	"StripeBorder1"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"StripeBorder1"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"-1"
+		"wide"			"f0"
+		"tall"			"5"
+		"visible"		"1"
+		"enabled"		"1"
+		
+		"RoundedCorners" "0"
+		"PaintBackgroundType"	"4"
+		"paintbackground"	"1"
+		"bgcolor_override"	"TransparentStripe"
+		
+		"FadeAlphaStart"	"0"
+		"FadeAlphaEnd"	"255"
+		
+		"pin_to_sibling"	"Stripe"
+		"pin_corner_to_sibling"		"pin_bottomleft"
+		"pin_to_sibling_corner"	"pin_topleft"
+	}
+	"StripeBorder2"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"StripeBorder2"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"-1"
+		"wide"			"f0"
+		"tall"			"5"
+		"visible"		"1"
+		"enabled"		"1"
+		
+		"RoundedCorners" "0"
+		"PaintBackgroundType"	"4"
+		"paintbackground"	"1"
+		"bgcolor_override"	"TransparentStripe"
+		
+		"FadeAlphaStart"	"255"
+		"FadeAlphaEnd"	"0"
+		
+		"pin_to_sibling"	"Stripe"
+		"pin_corner_to_sibling"		"pin_topleft"
+		"pin_to_sibling_corner"	"pin_bottomleft"
+	}
 	
 	"SysMenu"
 	{
@@ -766,6 +814,9 @@
 		"armedFgColor_override"		"GeneralLabel"
 		"depressedFgColor_override"	"GeneralLabel"
 		"selectedFgColor_override"		"GeneralLabel"
+		
+		"image_drawcolor"		"255 255 255 255"
+		"image_armedcolor"	"255 255 255 255"
 		
 		"defaultbgColor_override"		"0 0 0 0"
 		"armedbgColor_override"		"0 0 0 0"
