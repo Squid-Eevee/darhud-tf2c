@@ -39,6 +39,7 @@
 			"tall"			"50"
 			"visible"		"0"
 			"border"			"DarHudTooltip"
+			"mouseinputenabled"	"0"
 
 			"TipLabel"
 			{
@@ -52,14 +53,14 @@
 				"zpos"				"2"
 				"wide"				"140"
 				"tall"				"30"
-				"autoResize"			"0"
-				"pinCorner"			"0"
 				"visible"			"1"
 				"enabled"			"1"
 				"fgcolor_override"	"GeneralLabel"
 				"auto_wide_tocontents" "1"
 				"dropshadow"			"1"
 				"dropshadowoffset"	"2"
+				"centerwrap"	"1"
+				"inputenabled"	"0"
 			}
 		}
 	
