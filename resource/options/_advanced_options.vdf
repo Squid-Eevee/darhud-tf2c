@@ -588,7 +588,7 @@
 				"datatype"		"slider"
 				"description"	"#TF_DomWarningSoundThreshold"
 				"tooltip"		"#Tooltip_DomWarningSoundThreshold"
-				"min"			"0.2"
+				"min"			"0"
 				"max"			"1"
 				"precision"		"0.01"
 				"convar"		"tf2c_dom_Warning_threshold"
