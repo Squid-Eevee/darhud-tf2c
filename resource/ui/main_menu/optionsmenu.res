@@ -39,7 +39,7 @@
 			"tall"			"50"
 			"visible"		"0"
 			"border"			"DarHudTooltip"
-			"mouseinputenabled"	"0"
+			"inputenabled"	"0"
 
 			"TipLabel"
 			{
