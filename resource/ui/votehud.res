@@ -311,6 +311,8 @@
 			"brighttext"	"0"
 			"font"			"VoteOption"
 			"fgcolor_override"	"255 255 255 255"
+			"dropshadow"		"1"
+			"dropshadowoffset"	"2"
 		}
 		
 		"Option2Background_Selected"
@@ -370,6 +372,8 @@
 			"brighttext"	"0"
 			"font"			"VoteOption"
 			"fgcolor_override"	"255 255 255 255"
+			"dropshadow"		"1"
+			"dropshadowoffset"	"2"
 		}
 		
 		"Option3Background_Selected"
@@ -408,6 +412,8 @@
 			"brighttext"	"0"
 			"font"			"VoteOption"
 			"fgcolor_override"	"255 255 255 255"
+			"dropshadow"		"1"
+			"dropshadowoffset"	"2"
 		}
 		
 		"Option4Background_Selected"
@@ -446,6 +452,8 @@
 			"brighttext"	"0"
 			"font"			"VoteOption"
 			"fgcolor_override"	"255 255 255 255"
+			"dropshadow"		"1"
+			"dropshadowoffset"	"2"
 		}
 		
 		"Option5Background_Selected"
