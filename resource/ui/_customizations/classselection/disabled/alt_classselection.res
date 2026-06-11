@@ -2095,6 +2095,7 @@
 		"ControlName"	"CTFClassTipsPanel"
 		"fieldName"		"ClassTipsPanel"
 		"xpos"			"cs-0.5"
+		"xpos_minmode"	"cs-0.5"
 		"ypos"			"c0"
 		"zpos"			"7"
 		"wide"			"250"
