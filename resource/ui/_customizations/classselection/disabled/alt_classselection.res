@@ -1995,13 +1995,13 @@
 		
 		"pin_to_sibling"	"Stripe"
 		"xpos"			"30"
+		"xpos_minmode"	"30"
 		"ypos"			"0"
 		"zpos"			"1"		
 		"wide"			"300"
+		"wide_minmode"	"300"
 		"tall"			"300"
 		
-		"autoResize"	"0"
-		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		
