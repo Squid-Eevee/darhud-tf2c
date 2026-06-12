@@ -60,7 +60,7 @@
 		"ypos"		"0"
 		"wide"		"f0"
 		"tall"		"480"
-		"zpos"		"-1"
+		"zpos"		"-2"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -692,7 +692,39 @@
 			"dropshadow"		"1"
 			"dropshadowoffset"	"3"
 		}
-	}	
+	}
+
+	"QuickCloseButton"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"QuickCloseButton"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"-1"
+		"wide"			"f0"
+		"tall"			"f0"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		""
+		"font"			"HudFontSmallestBold"
+		"textAlignment"	"center"
+		"textinsetx"	"50"
+		"Command"		"close"
+		"sound_depressed"	""
+		"sound_released"	""
+		"roundedcorners"	"0"
+		
+		"paintbackground"	"0"
+		"defaultFgColor_override"		"0 0 0 0"
+		"armedFgColor_override"		"0 0 0 0"
+		"selectedFgColor_override"		"0 0 0 0"
+		"depressedFgColor_override"	"0 0 0 0"
+		"disabledFgColor_override"		"0 0 0 0
+		"paintbackground"	"1""
+		
+		"dropshadow"		"1"
+		"dropshadowoffset"	"3"
+	}
 	
 	"TipPanel"
 	{
