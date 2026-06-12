@@ -715,12 +715,6 @@
 		"roundedcorners"	"0"
 		
 		"paintbackground"	"0"
-		"defaultFgColor_override"		"0 0 0 0"
-		"armedFgColor_override"		"0 0 0 0"
-		"selectedFgColor_override"		"0 0 0 0"
-		"depressedFgColor_override"	"0 0 0 0"
-		"disabledFgColor_override"		"0 0 0 0
-		"paintbackground"	"1""
 		
 		"dropshadow"		"1"
 		"dropshadowoffset"	"3"
