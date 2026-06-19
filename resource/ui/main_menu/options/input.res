@@ -71,7 +71,7 @@
 		"fieldName"				"Button"
 		"xpos"					"rs1"
 		"ypos"					"cs-0.5"
-		"wide"					"p0.14"
+		"wide"					"p0.16"
 		"tall"					"f4"
 		"visible"				"1"
 		"enabled"				"1"
