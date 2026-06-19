@@ -652,6 +652,16 @@
 					"tf2c_invisible_arms"                        "0"
 					"r_viewmodel_opacity"                        "1"
 					"BetaMuzzleflash"							 "1"
+					"tf2c_viewbob"		"1"
+					"tf2c_viewbob_bobcycle"		"0.8"
+					"tf2c_viewbob_ipitch_cycle"	"1.0"
+					"tf2c_viewbob_ipitch_level"	"0.3"
+					"tf2c_viewbob_iyaw_cycle"		"2.0"
+					"tf2c_viewbob_iyaw_level"		"0.3"
+					"tf2c_viewbob_iroll_cycle"		"0.5"
+					"tf2c_viewbob_iroll_level"		"0.5"
+					"tf2c_viewbob_rollangle"		"0.65"
+					"tf2c_viewbob_rollspeed"		"300.0"
 				}
 			}
 			
@@ -768,6 +778,118 @@
 				"description"	"#TF_ModelMuzzleFlash"
 				"tooltip"		"#TF_ModelMuzzleFlash_Tip"
 				"convar"		"tf2c_model_muzzleflash"
+			}
+			
+			"Viewbob"
+			{
+				"datatype"		"check"
+				"description"	"#TF2C_Viewbob"
+				"tooltip"		"#Tooltip_TF2C_Viewbob"
+				"convar"		"tf2c_viewbob"
+				
+				"dependants"
+				{
+					"tf2c_viewbob_bobcycle"		"0.8"
+					"tf2c_viewbob_ipitch_cycle"	"1.0"
+					"tf2c_viewbob_ipitch_level"	"0.3"
+					"tf2c_viewbob_iyaw_cycle"		"2.0"
+					"tf2c_viewbob_iyaw_level"		"0.3"
+					"tf2c_viewbob_iroll_cycle"		"0.5"
+					"tf2c_viewbob_iroll_level"		"0.1"
+					"tf2c_viewbob_rollangle"		"0.65"
+					"tf2c_viewbob_rollspeed"		"300.0"
+				}
+			}
+			
+			"tf2c_viewbob_bobcycle"
+			{
+				"datatype"		"slider"
+				"description"		"#TF2C_Viewbob_Bobcycle"
+				"tooltip"		"#Tooltip_TF2C_Viewbob_Bobcycle"
+				"min"			"0.1"
+				"max"			"1"
+				"precision"		"0.1"
+				"convar"		"tf2c_viewbob_bobcycle"
+			}
+			"tf2c_viewbob_ipitch_cycle"
+			{
+				"datatype"		"slider"
+				"description"		"#TF2C_Viewbob_IPitch_Cycle"
+				"tooltip"		"#Tooltip_TF2C_Viewbob_IPitch_Cycle"
+				"min"			"0.1"
+				"max"			"5"
+				"precision"		"0.1"
+				"convar"		"tf2c_viewbob_ipitch_cycle"
+			}
+			"tf2c_viewbob_ipitch_level"
+			{
+				"datatype"		"slider"
+				"description"		"#TF2C_Viewbob_IPitch_Level"
+				"tooltip"		"#Tooltip_TF2C_Viewbob_IPitch_Level"
+				"min"			"0"
+				"max"			"1"
+				"precision"		"0.1"
+				"convar"		"tf2c_viewbob_ipitch_level"
+			}
+			"tf2c_viewbob_iyaw_cycle"
+			{
+				"datatype"		"slider"
+				"description"		"#TF2C_Viewbob_IYaw_Cycle"
+				"tooltip"		"#Tooltip_TF2C_Viewbob_IYaw_Cycle"
+				"min"			"0.1"
+				"max"			"5"
+				"precision"		"0.1"
+				"convar"		"tf2c_viewbob_iyaw_cycle"
+			}
+			"tf2c_viewbob_iyaw_level"
+			{
+				"datatype"		"slider"
+				"description"		"#TF2C_Viewbob_IYaw_Level"
+				"tooltip"		"#Tooltip_TF2C_Viewbob_IYaw_Level"
+				"min"			"0"
+				"max"			"1"
+				"precision"		"0.1"
+				"convar"		"tf2c_viewbob_iyaw_level"
+			}
+			"tf2c_viewbob_iroll_cycle"
+			{
+				"datatype"		"slider"
+				"description"		"#TF2C_Viewbob_IRoll_Cycle"
+				"tooltip"		"#Tooltip_TF2C_Viewbob_IRoll_Cycle"
+				"min"			"0.1"
+				"max"			"5"
+				"precision"		"0.1"
+				"convar"		"tf2c_viewbob_iroll_cycle"
+			}
+			"tf2c_viewbob_iroll_level"
+			{
+				"datatype"		"slider"
+				"description"		"#TF2C_Viewbob_IRoll_Level"
+				"tooltip"		"#Tooltip_TF2C_Viewbob_IRoll_Level"
+				"min"			"0"
+				"max"			"1"
+				"precision"		"0.1"
+				"convar"		"tf2c_viewbob_iroll_level"
+			}
+			"tf2c_viewbob_rollangle"
+			{
+				"datatype"		"slider"
+				"description"		"#TF2C_Viewbob_RollAngle"
+				"tooltip"		"#Tooltip_TF2C_Viewbob_RollAngle"
+				"min"			"0"
+				"max"			"1"
+				"precision"		"0.01"
+				"convar"		"tf2c_viewbob_rollangle"
+			}
+			"tf2c_viewbob_rollspeed"
+			{
+				"datatype"		"slider"
+				"description"		"#TF2C_Viewbob_RollSpeed"
+				"tooltip"		"#Tooltip_TF2C_Viewbob_RollSpeed"
+				"min"			"1"
+				"max"			"520"
+				"precision"		"1"
+				"convar"		"tf2c_viewbob_rollspeed"
 			}
 			
 			"HUDCategory"
