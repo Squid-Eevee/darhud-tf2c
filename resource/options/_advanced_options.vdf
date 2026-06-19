@@ -36,6 +36,15 @@
 					"tf2c_damagefeedback_outgoing_volume"            "1"
 					"tf2c_damagefeedback_incoming"                   "1"
 					"tf2c_damagefeedback_incoming_volume"            "1"
+					"tf2c_damagefeedback_repeat_delay"				"0.1"
+					"tf2c_damagefeedback_bleed"					"1"
+					"tf2c_damagefeedback_building"					"1"
+					"tf2c_damagefeedback_burn"					"1"
+					"tf2c_damagefeedback_direct"					"1"
+					"tf2c_damagefeedback_generic"					"1"
+					"tf2c_damagefeedback_headshot"					"1"
+					"tf2c_damagefeedback_invuln"					"1"
+					"tf2c_damagefeedback_resist"					"1"
 
 					"tf_dingalingaling"                              "0"
 					"tf_dingaling_volume"                            "1"
@@ -92,6 +101,15 @@
 					"tf2c_damagefeedback_outgoing_volume"		"1"
 					"tf2c_damagefeedback_incoming"				"1"
 					"tf2c_damagefeedback_incoming_volume"		"1"
+					"tf2c_damagefeedback_repeat_delay"		"1"
+					"tf2c_damagefeedback_bleed"		"1"
+					"tf2c_damagefeedback_building"		"1"
+					"tf2c_damagefeedback_burn"		"1"
+					"tf2c_damagefeedback_direct"		"1"
+					"tf2c_damagefeedback_generic"		"1"
+					"tf2c_damagefeedback_headshot"		"1"
+					"tf2c_damagefeedback_invuln"		"1"
+					"tf2c_damagefeedback_resist"		"1"
 				}
 			}
 
@@ -131,6 +149,72 @@
 				"max"			"1"
 				"precision"		"0.01"
 				"convar"		"tf2c_damagefeedback_incoming_volume"
+			}
+			"tf2c_damagefeedback_repeat_delay"
+			{
+				"datatype"		"slider"
+				"description"	"#TF2C_Option_DamageFeedbackRepeatDelay"
+				"tooltip"		"#TF2C_Tooltip_DamageFeedbackRepeatDelay"
+				"min"			"0"
+				"max"			"1"
+				"precision"		"0.1"
+				"convar"		"tf2c_damagefeedback_repeat_delay"
+			}
+			"tf2c_damagefeedback_bleed"
+			{
+				"datatype"		"check"
+				"description"	"#TF2C_Option_DamageFeedbackBleed"
+				"tooltip"		"#TF2C_Tooltip_DamageFeedbackBleed"
+				"convar"		"tf2c_damagefeedback_bleed"
+			}
+			"tf2c_damagefeedback_building"
+			{
+				"datatype"		"check"
+				"description"	"#TF2C_Option_DamageFeedbackBuilding"
+				"tooltip"		"#TF2C_Tooltip_DamageFeedbackBuilding"
+				"convar"		"tf2c_damagefeedback_building"
+			}
+			"tf2c_damagefeedback_burn"
+			{
+				"datatype"		"check"
+				"description"	"#TF2C_Option_DamageFeedbackBurn"
+				"tooltip"		"#TF2C_Tooltip_DamageFeedbackBurn"
+				"convar"		"tf2c_damagefeedback_burn"
+			}
+			"tf2c_damagefeedback_direct"
+			{
+				"datatype"		"check"
+				"description"	"#TF2C_Option_DamageFeedbackDirect"
+				"tooltip"		"#TF2C_Tooltip_DamageFeedbackDirect"
+				"convar"		"tf2c_damagefeedback_direct"
+			}
+			"tf2c_damagefeedback_generic"
+			{
+				"datatype"		"check"
+				"description"	"#TF2C_Option_DamageFeedbackGeneric"
+				"tooltip"		"#TF2C_Tooltip_DamageFeedbackGeneric"
+				"convar"		"tf2c_damagefeedback_generic"
+			}
+			"tf2c_damagefeedback_headshot"
+			{
+				"datatype"		"check"
+				"description"	"#TF2C_Option_DamageFeedbackHeadshot"
+				"tooltip"		"#TF2C_Tooltip_DamageFeedbackHeadshot"
+				"convar"		"tf2c_damagefeedback_headshot"
+			}
+			"tf2c_damagefeedback_invuln"
+			{
+				"datatype"		"check"
+				"description"	"#TF2C_Option_DamageFeedbackInvuln"
+				"tooltip"		"#TF2C_Tooltip_DamageFeedbackInvuln"
+				"convar"		"tf2c_damagefeedback_invuln"
+			}
+			"tf2c_damagefeedback_resist"
+			{
+				"datatype"		"check"
+				"description"	"#TF2C_Option_DamageFeedbackResist"
+				"tooltip"		"#TF2C_Tooltip_DamageFeedbackResist"
+				"convar"		"tf2c_damagefeedback_resist"
 			}
 			
 			"tf_dingalingaling"
@@ -574,7 +658,7 @@
 			"tf2c_dom_warning"
 			{
 				"datatype"		"check"
-				"description"	"#TF_DomWarningSound"
+				"description"	"#TF2C_DomWarningSound"
 				"tooltip"		"#Tooltip_DomWarningSound"
 				"convar"		"tf2c_dom_warning"
 				
@@ -586,7 +670,7 @@
 			"tf2c_dom_warning_threshold"
 			{
 				"datatype"		"slider"
-				"description"	"#TF_DomWarningSoundThreshold"
+				"description"	"#TF2C_DomWarningSoundThreshold"
 				"tooltip"		"#Tooltip_DomWarningSoundThreshold"
 				"min"			"0"
 				"max"			"1"
@@ -597,7 +681,7 @@
 			"tf2c_vip_low_health_warning_sound"
 			{
 				"datatype"		"check"
-				"description"	"#TF_VIPLowHealthSound"
+				"description"	"#TF2C_VIPLowHealthSound"
 				"tooltip"		"#Tooltip_VIPLowHealthSound"
 				"convar"		"tf2c_vip_low_health_warning_sound"
 				
@@ -611,7 +695,7 @@
 			"tf2c_vip_low_health_sound_threshold"
 			{
 				"datatype"		"slider"
-				"description"	"#TF_VIPLowHealthSoundThreshold"
+				"description"	"#TF2C_VIPLowHealthSoundThreshold"
 				"tooltip"		"#Tooltip_VIPLowHealthSoundThreshold"
 				"min"			"0.05"
 				"max"			"0.75"
@@ -622,7 +706,7 @@
 			"tf2c_vip_low_health_warning_delay"
 			{
 				"datatype"		"slider"
-				"description"	"#TF_VIPLowHealthSoundDelay"
+				"description"	"#TF2C_VIPLowHealthSoundDelay"
 				"tooltip"		"#Tooltip_VIPLowHealthSoundDelay"
 				"min"			"5"
 				"max"			"30"
