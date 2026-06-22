@@ -29,8 +29,6 @@
 			"enabled"		"1"
 			"mouseinputenabled" "0"
 			"fgcolor_override"	"83 75 66 255"
-			"dropshadow"		"1"
-			"dropshadowoffset"	"2"
 		}
 
 		"DescLabel"
@@ -53,8 +51,6 @@
 			"auto_wide_tocontents" "0"
 			"wrap"				   "1"
 			"centerwrap"		   "1"
-			"dropshadow"		"1"
-			"dropshadowoffset"	"1"
 		}
 		
 		"ImageFrame"

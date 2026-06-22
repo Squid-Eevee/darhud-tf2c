@@ -108,8 +108,6 @@
 		"enabled"		"1"
 		"wrap"			"0"
 		"fgcolor_override"	"83 75 66 255"
-		"dropshadow"		"1"
-		"dropshadowoffset"	"2"
 	}
 	
 	"CurPageLabel"
@@ -128,8 +126,6 @@
 		"enabled"		"1"
 		"wrap"			"1"
 		"fgcolor_override"	"83 75 66 255"
-		"dropshadow"		"1"
-		"dropshadowoffset"	"2"
 	}
 	
 	"DescLabel"
@@ -150,8 +146,6 @@
 		"enabled"		"1"
 		"wrap"			"0"
 		"fgcolor_override"	"83 75 66 255"
-		"dropshadow"		"1"
-		"dropshadowoffset"	"1"
 	}
 	
 	"SelectCurrentGameModeButton"
