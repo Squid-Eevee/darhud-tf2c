@@ -60,7 +60,7 @@ Scheme
 		"KillfeedNormal"	"25 25 25 240"
 
 		//Chat
-		"ChatBackground"	"0 0 0 255"	//the alpha value doesn't seem to do anything to the chat window itself but this colour is shared with the chat filters window, which is fixed at 50% opacity for readability
+		"ChatBackground"	"0 170 255 255"	//the alpha value doesn't seem to do anything to the chat window itself but this colour is shared with the chat filters window, which is fixed at 50% opacity for readability
 							//so if you want your background opacities to match, leave the alpha at 255
 		
 		//Vote selection
@@ -1441,274 +1441,274 @@ Scheme
 		}
 		
 		//2-Split Button 1
-		"DarHudMM2SplitButton1"
+		"DarHudMM2SplitButtonMain"
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 							
-			"image"					"../darhud/mainmenu/button_2split1"	
+			"image"					"../darhud/mainmenu/button_2split"	
 			"color"					"ButtonMM"
 		}
-		"DarHudMM2SplitButton1Armed"
+		"DarHudMM2SplitButtonMainArmed"
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 							
-			"image"					"../darhud/mainmenu/button_2split1"
+			"image"					"../darhud/mainmenu/button_2split"
 			"color"					"ButtonArmedMM"
 		}
-		"DarHudMM2SplitButton1Depressed"
+		"DarHudMM2SplitButtonMainDepressed"
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 							
-			"image"					"../darhud/mainmenu/button_2split1"
+			"image"					"../darhud/mainmenu/button_2split"
 			"color"					"ButtonDepressedMM"
 		}
-		"DarHudMM2SplitButton1Disabled"
+		"DarHudMM2SplitButtonMainDisabled"
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 							
-			"image"					"../darhud/mainmenu/button_2split1"
+			"image"					"../darhud/mainmenu/button_2split"
 			"color"					"ButtonDisabledMM"
 		}
 		
 		//2-Split Reverse Button 1
-		"DarHudMM2SplitButton1Reverse"
+		"DarHudMM2SplitButtonMainReverse"
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 							
-			"image"					"../darhud/mainmenu/button_2split1_reverse"	
+			"image"					"../darhud/mainmenu/button_2split_reverse"	
 			"color"					"ButtonMM"
 		}
-		"DarHudMM2SplitButton1ReverseArmed"
+		"DarHudMM2SplitButtonMainReverseArmed"
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 							
-			"image"					"../darhud/mainmenu/button_2split1_reverse"
+			"image"					"../darhud/mainmenu/button_2split_reverse"
 			"color"					"ButtonArmedMM"
 		}
-		"DarHudMM2SplitButton1ReverseDepressed"
+		"DarHudMM2SplitButtonMainReverseDepressed"
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 							
-			"image"					"../darhud/mainmenu/button_2split1_reverse"
+			"image"					"../darhud/mainmenu/button_2split_reverse"
 			"color"					"ButtonDepressedMM"
 		}
-		"DarHudMM2SplitButton1ReverseDisabled"
+		"DarHudMM2SplitButtonMainReverseDisabled"
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 							
-			"image"					"../darhud/mainmenu/button_2split1_reverse"
+			"image"					"../darhud/mainmenu/button_2split_reverse"
 			"color"					"ButtonDisabledMM"
 		}
 		
 		//3-Split Button 1
-		"DarHudMM3SplitButton1"
+		"DarHudMM3SplitButtonMain"
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 							
-			"image"					"../darhud/mainmenu/button_3split1"	
+			"image"					"../darhud/mainmenu/button_3split"	
 			"color"					"ButtonMM"
 		}
-		"DarHudMM3SplitButton1Armed"
+		"DarHudMM3SplitButtonMainArmed"
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 							
-			"image"					"../darhud/mainmenu/button_3split1"
+			"image"					"../darhud/mainmenu/button_3split"
 			"color"					"ButtonArmedMM"
 		}
-		"DarHudMM3SplitButton1Depressed"
+		"DarHudMM3SplitButtonMainDepressed"
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 							
-			"image"					"../darhud/mainmenu/button_3split1"
+			"image"					"../darhud/mainmenu/button_3split"
 			"color"					"ButtonDepressedMM"
 		}
-		"DarHudMM3SplitButton1Disabled"
+		"DarHudMM3SplitButtonMainDisabled"
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 							
-			"image"					"../darhud/mainmenu/button_3split1"
+			"image"					"../darhud/mainmenu/button_3split"
 			"color"					"ButtonDisabledMM"
 		}
 		
 		//3-Split Reverse Button 1
-		"DarHudMM3SplitButton1Reverse"
+		"DarHudMM3SplitButtonMainReverse"
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 							
-			"image"					"../darhud/mainmenu/button_3split1_reverse"	
+			"image"					"../darhud/mainmenu/button_3split_reverse"	
 			"color"					"ButtonMM"
 		}
-		"DarHudMM3SplitButton1ReverseArmed"
+		"DarHudMM3SplitButtonMainReverseArmed"
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 							
-			"image"					"../darhud/mainmenu/button_3split1_reverse"
+			"image"					"../darhud/mainmenu/button_3split_reverse"
 			"color"					"ButtonArmedMM"
 		}
-		"DarHudMM3SplitButton1ReverseDepressed"
+		"DarHudMM3SplitButtonMainReverseDepressed"
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 							
-			"image"					"../darhud/mainmenu/button_3split1_reverse"
+			"image"					"../darhud/mainmenu/button_3split_reverse"
 			"color"					"ButtonDepressedMM"
 		}
-		"DarHudMM3SplitButton1ReverseDisabled"
+		"DarHudMM3SplitButtonMainReverseDisabled"
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 							
-			"image"					"../darhud/mainmenu/button_3split1_reverse"
+			"image"					"../darhud/mainmenu/button_3split_reverse"
 			"color"					"ButtonDisabledMM"
 		}
 		
-		//Split Button 2
-		"DarHudMMSplitButton2"
+		//Split Button Mid
+		"DarHudMMSplitButtonMid"
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 							
-			"image"					"../darhud/mainmenu/button_split2"	
+			"image"					"../darhud/mainmenu/button_split_mid"	
 			"color"					"ButtonMM"
 		}
-		"DarHudMMSplitButton2Armed"
+		"DarHudMMSplitButtonMidArmed"
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 							
-			"image"					"../darhud/mainmenu/button_split2"
+			"image"					"../darhud/mainmenu/button_split_mid"
 			"color"					"ButtonArmedMM"
 		}
-		"DarHudMMSplitButton2Depressed"
+		"DarHudMMSplitButtonMidDepressed"
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 							
-			"image"					"../darhud/mainmenu/button_split2"
+			"image"					"../darhud/mainmenu/button_split_mid"
 			"color"					"ButtonDepressedMM"
 		}
-		"DarHudMMSplitButton2Disabled"
+		"DarHudMMSplitButtonMidDisabled"
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 							
-			"image"					"../darhud/mainmenu/button_split2"
+			"image"					"../darhud/mainmenu/button_split_mid"
 			"color"					"ButtonDisabledMM"
 		}
 		
-		//Split Reverse Button 2
-		"DarHudMMSplitButton2Reverse"
+		//Split Reverse Button Mid
+		"DarHudMMSplitButtonMidReverse"
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 							
-			"image"					"../darhud/mainmenu/button_split2_reverse"	
+			"image"					"../darhud/mainmenu/button_split_mid_reverse"	
 			"color"					"ButtonMM"
 		}
-		"DarHudMMSplitButton2ReverseArmed"
+		"DarHudMMSplitButtonMidReverseArmed"
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 							
-			"image"					"../darhud/mainmenu/button_split2_reverse"
+			"image"					"../darhud/mainmenu/button_split_mid_reverse"
 			"color"					"ButtonArmedMM"
 		}
-		"DarHudMMSplitButton2ReverseDepressed"
+		"DarHudMMSplitButtonMidReverseDepressed"
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 							
-			"image"					"../darhud/mainmenu/button_split2_reverse"
+			"image"					"../darhud/mainmenu/button_split_mid_reverse"
 			"color"					"ButtonDepressedMM"
 		}
-		"DarHudMMSplitButton2ReverseDisabled"
+		"DarHudMMSplitButtonMidReverseDisabled"
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 							
-			"image"					"../darhud/mainmenu/button_split2_reverse"
+			"image"					"../darhud/mainmenu/button_split_mid_reverse"
 			"color"					"ButtonDisabledMM"
 		}
 		
-		//Split Button 3
-		"DarHudMMSplitButton3"
+		//Split Button End
+		"DarHudMMSplitButtonEnd"
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 							
-			"image"					"../darhud/mainmenu/button_split3"	
+			"image"					"../darhud/mainmenu/button_split_end"	
 			"color"					"ButtonMM"
 		}
-		"DarHudMMSplitButton3Armed"
+		"DarHudMMSplitButtonEndArmed"
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 							
-			"image"					"../darhud/mainmenu/button_split3"
+			"image"					"../darhud/mainmenu/button_split_end"
 			"color"					"ButtonArmedMM"
 		}
-		"DarHudMMSplitButton3Depressed"
+		"DarHudMMSplitButtonEndDepressed"
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 							
-			"image"					"../darhud/mainmenu/button_split3"
+			"image"					"../darhud/mainmenu/button_split_end"
 			"color"					"ButtonDepressedMM"
 		}
-		"DarHudMMSplitButton3Disabled"
+		"DarHudMMSplitButtonEndDisabled"
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 							
-			"image"					"../darhud/mainmenu/button_split3"
+			"image"					"../darhud/mainmenu/button_split_end"
 			"color"					"ButtonDisabledMM"
 		}
 		
 		//Split Reverse Button 3
-		"DarHudMMSplitButton3Reverse"
+		"DarHudMMSplitButtonEndReverse"
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 							
-			"image"					"../darhud/mainmenu/button_split3_reverse"	
+			"image"					"../darhud/mainmenu/button_split_end_reverse"	
 			"color"					"ButtonMM"
 		}
-		"DarHudMMSplitButton3ReverseArmed"
+		"DarHudMMSplitButtonEndReverseArmed"
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 							
-			"image"					"../darhud/mainmenu/button_split3_reverse"
+			"image"					"../darhud/mainmenu/button_split_end_reverse"
 			"color"					"ButtonArmedMM"
 		}
-		"DarHudMMSplitButton3ReverseDepressed"
+		"DarHudMMSplitButtonEndReverseDepressed"
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 							
-			"image"					"../darhud/mainmenu/button_split3_reverse"
+			"image"					"../darhud/mainmenu/button_split_end_reverse"
 			"color"					"ButtonDepressedMM"
 		}
-		"DarHudMMSplitButtonReverse3Disabled"
+		"DarHudMMSplitButtonEndReverseDisabled"
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 							
-			"image"					"../darhud/mainmenu/button_split3_reverse"
+			"image"					"../darhud/mainmenu/button_split_end_reverse"
 			"color"					"ButtonDisabledMM"
 		}
 		
@@ -1780,5 +1780,3 @@ Scheme
 		}
 	}
 }
-
-
