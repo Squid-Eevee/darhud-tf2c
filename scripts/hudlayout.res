@@ -573,10 +573,10 @@
 	
 	HudSpellMenu
 	{
-		"xpos"			"0"
-		"xpos_minmode"	"c-356"
-		"ypos"			"r41"
-		"ypos_minmode"	"r36"
+		"xpos"			"r150"
+		"xpos_minmode"	"c210"
+		"ypos"			"r146"
+		"ypos_minmode"	"r138"
 		"zpos"			"2"
         "wide"          "70"
 		"tall"			"41"
