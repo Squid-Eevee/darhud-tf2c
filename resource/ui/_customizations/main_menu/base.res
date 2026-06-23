@@ -79,7 +79,7 @@
 		"xpos"			"c-300"
 		"ypos"			"0"
 		"zpos"			"-10"
-		"wide"			"224"
+		"wide"			"256"
 		"tall"			"480"
 		"visible"		"1"
 		"enabled"		"1"
@@ -147,10 +147,13 @@
 	{
 		"ControlName"			"ImagePanel"
 		"fieldName"			"Logo"
-		"xpos"				"c-315"
-		"ypos"				"0"
+		"pin_to_sibling"		"VerticalBG"
+		"pin_corner_to_sibling"	"pin_center_top"
+		"pin_to_sibling_corner"	"pin_center_top"
+		"xpos"				"0"
+		"ypos"				"10"
 		"zpos"				"-2"
-		"wide"				"256"
+		"wide"				"280"
 		"tall"				"o0.5"
 		"visible"			"1"
 		"enabled"			"1"
@@ -163,9 +166,12 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"VanityPanelShadow"
-		"xpos"			"c-315"
-		"ypos"			"0"
-		"wide"			"256"
+		"pin_to_sibling"		"VerticalBG"
+		"pin_corner_to_sibling"	"pin_center_top"
+		"pin_to_sibling_corner"	"pin_center_top"
+		"xpos"			"0"
+		"ypos"			"10"
+		"wide"			"280"
 		"tall"			"o0.5"
 		"visible"		"1"
 		"enabled"		"1"
@@ -181,7 +187,7 @@
 			"xpos"				"0"
 			"ypos"				"0"
 			"zpos"				"-2"
-			"wide"				"256"
+			"wide"				"f0"
 			"tall"				"o0.5"
 			"visible"			"0"
 			"enabled"			"1"
@@ -197,7 +203,7 @@
 			"xpos"				"0"
 			"ypos"				"0"
 			"zpos"				"-1"
-			"wide"				"256"
+			"wide"				"f0"
 			"tall"				"o0.5"
 			"visible"			"0"
 			"enabled"			"1"
@@ -213,10 +219,8 @@
 		"fieldName"		"VanityPanel"
 		"xpos"			"c-300"
 		"ypos"			"115"
-		"wide"			"224"
+		"wide"			"256"
 		"tall"			"240"
-		"autoResize"	"0"
-		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
@@ -255,9 +259,6 @@
 			"tall"			"44"
 			"visible"		"1"
 			"enabled"		"1"
-			"RoundedCorners"	"10"
-			"CornerSize"		"3"
-			"PaintBackgroundType"	"2"
 			"proportionalToParent"	"1"
 			"bgcolor_override"	"Header"
 
@@ -278,8 +279,6 @@
 			"tall"			"50"
 			"visible"		"1"
 			"enabled"		"1"
-			"CornerSize"		"6"
-			"PaintBackgroundType"	"0"
 			"proportionalToParent"	"1"
 
 			"bgcolor_override"	"TanDark"
@@ -298,7 +297,7 @@
 		{
 			"ControlName"	"CAvatarImagePanel"
 			"fieldName"		"AvatarImage"
-			"xpos"			"6"
+			"xpos"			"10"
 			"ypos"			"12"
 			"wide"			"o1.0"
 			"tall"			"44"
@@ -385,7 +384,7 @@
 			"style"			"MainMenuButton"
 			"xpos"			"cs-0.5-31"
 			"ypos"			"37"
-			"wide"			"148"
+			"wide"			"180"
 			"tall"			"30"
 			"visible"		"0"
 			"labelText"		"#TF_Menu_ResumeGame"
@@ -394,10 +393,10 @@
 			"proportionalToParent"	"1"
 			"image_default"	"resource/svgs/mainmenu/icon_arrow_left.svg"
 			
-			"border_default"		"DarHudMM3SplitButton1Reverse"
-			"border_armed"		"DarHudMM3SplitButton1ReverseArmed"
-			"border_selected"		"DarHudMM3SplitButton1ReverseDepressed"
-			"border_depressed"	"DarHudMM3SplitButton1ReverseDepressed"
+			"border_default"		"DarHudMM3SplitButtonMainReverse"
+			"border_armed"		"DarHudMM3SplitButtonMainReverseArmed"
+			"border_selected"		"DarHudMM3SplitButtonMainReverseDepressed"
+			"border_depressed"	"DarHudMM3SplitButtonMainReverseDepressed"
 
 			"SubImage"
 			{
@@ -421,38 +420,15 @@
 			"ControlName"		"CTFImagePanel"
 			"fieldName"		"ResumeButtonShadow"
 			"style"			"MainMenuButtonShadow"
-			"wide"			"148"
+			"wide"			"180"
 			"tall"			"30"
 			"visible"		"0"
-			"image"	"../darhud/mainmenu/button_3split1_reverse"
+			"image"	"../darhud/mainmenu/button_3split_reverse"
 			"pin_to_sibling"		"ResumeButton"
 
 			"if_inlevel"
 			{
 				"visible"	"1"
-			}
-		}
-		
-		"ResumeButtonDeadZone"
-		{
-			"ControlName"	"EditablePanel"
-			"fieldName"		"ResumeButtonDeadZone"
-			"style"			"MainMenuSubButton"
-			"xpos"			"0"
-			"ypos"			"0"
-			"zpos"			"2"
-			"wide"			"48"
-			"tall"			"30"
-			"visible"		"0"
-			"proportionalToParent"	"1"
-			
-			"pin_to_sibling"		"ResumeButton"
-			"pin_to_sibling_corner"	"PIN_CENTER_RIGHT"
-			"pin_corner_to_sibling"	"PIN_CENTER_RIGHT"
-			
-			"if_inlevel"
-			{
-				"visible" "1"
 			}
 		}
 		
@@ -474,10 +450,10 @@
 			"proportionalToParent"	"1"
 			"image_default"	"resource/svgs/mainmenu/icon_mic_off.svg"
 
-			"border_default"	"DarHudMMSplitButton2Reverse"
-			"border_armed"		"DarHudMMSplitButton2ReverseArmed"
-			"border_disabled"	"DarHudMMSplitButton2ReverseDisabled"
-			"border_selected"	"DarHudMMSplitButton2ReverseDepressed"
+			"border_default"	"DarHudMMSplitButtonMidReverse"
+			"border_armed"		"DarHudMMSplitButtonMidReverseArmed"
+			"border_disabled"	"DarHudMMSplitButtonMidReverseDisabled"
+			"border_selected"	"DarHudMMSplitButtonMidReverseDepressed"
 
 			"pin_to_sibling"		"ResumeButton"
 			"pin_to_sibling_corner"	"pin_topright"
@@ -507,7 +483,7 @@
 			"wide"			"30"
 			"tall"			"30"
 			"visible"		"0"
-			"image"	"../darhud/mainmenu/button_split2_reverse"
+			"image"	"../darhud/mainmenu/button_split_mid_reverse"
 			"pin_to_sibling"		"MutePlayerButton"
 
 			"if_inlevel"
@@ -534,10 +510,10 @@
 			"proportionalToParent"	"1"
 			"image_default"	"resource/svgs/mainmenu/icon_check.svg"
 
-			"border_default"	"DarHudMMSplitButton3Reverse"
-			"border_armed"		"DarHudMMSplitButton3ReverseArmed"
-			"border_disabled"	"DarHudMMSplitButton3ReverseDisabled"
-			"border_selected"	"DarHudMMSplitButton3ReverseDepressed"
+			"border_default"	"DarHudMMSplitButtonEndReverse"
+			"border_armed"		"DarHudMMSplitButtonEndReverseArmed"
+			"border_disabled"	"DarHudMMSplitButtonEndReverseDisabled"
+			"border_selected"	"DarHudMMSplitButtonEndReverseDepressed"
 			
 			"dropshadow"		"1"
 			"dropshadowoffset"	"2"
@@ -570,7 +546,7 @@
 			"wide"			"30"
 			"tall"			"30"
 			"visible"		"0"
-			"image"	"../darhud/mainmenu/button_split3_reverse"
+			"image"	"../darhud/mainmenu/button_split_end_reverse"
 			"pin_to_sibling"		"CallVoteButton"
 
 			"if_inlevel"
@@ -586,7 +562,7 @@
 			"style"			"MainMenuButton"
 			"xpos"			"cs-0.5-31"
 			"ypos"			"71"
-			"wide"			"148"
+			"wide"			"180"
 			"tall"			"30"
 			"labelText"		"#TF_Menu_FindServers"
 			"Command"		"gamemenucommand OpenServerBrowser" // gamemenucommand OpenServerBrowser
@@ -594,10 +570,10 @@
 			"proportionalToParent"	"1"
 			"image_default"	"resource/svgs/mainmenu/icon_magnifier.svg"
 			
-			"border_default"		"DarHudMM3SplitButton1"
-			"border_armed"			"DarHudMM3SplitButton1Armed"
-			"border_selected"		"DarHudMM3SplitButton1Depressed"
-			"border_depressed"		"DarHudMM3SplitButton1Depressed"
+			"border_default"		"DarHudMM3SplitButtonMain"
+			"border_armed"			"DarHudMM3SplitButtonMainArmed"
+			"border_selected"		"DarHudMM3SplitButtonMainDepressed"
+			"border_depressed"		"DarHudMM3SplitButtonMainDepressed"
 
 			"SubImage"
 			{
@@ -614,12 +590,12 @@
 			"if_inlevel"
 			{
 				"xpos"			"cs-0.5-15"
-				"wide"			"178"
+				"wide"			"210"
 				
-				"border_default"		"DarHudMM2SplitButton1"
-				"border_armed"			"DarHudMM2SplitButton1Armed"
-				"border_selected"		"DarHudMM2SplitButton1Depressed"
-				"border_depressed"		"DarHudMM2SplitButton1Depressed"
+				"border_default"		"DarHudMM2SplitButtonMain"
+				"border_armed"			"DarHudMM2SplitButtonMainArmed"
+				"border_selected"		"DarHudMM2SplitButtonMainDepressed"
+				"border_depressed"		"DarHudMM2SplitButtonMainDepressed"
 				
 				"navUp" 		"ResumeButton"
 				"navRight"	"CreateServerButton"
@@ -631,37 +607,14 @@
 			"fieldName"		"ServerBrowserButtonShadow"
 			"style"			"MainMenuButtonShadow"
 			"pin_to_sibling"	"ServerBrowserButton"
-			"wide"			"148"
+			"wide"			"180"
 			"tall"			"30"
-			"image"			"../darhud/mainmenu/button_3split1"
+			"image"			"../darhud/mainmenu/button_3split"
 			
 			"if_inlevel"
 			{
-				"wide"			"178"
-				"image"			"../darhud/mainmenu/button_2split1"
-			}
-		}
-
-		"ServerBrowserButtonDeadZone"
-		{
-			"ControlName"	"EditablePanel"
-			"fieldName"		"ServerBrowserButtonDeadZone"
-			"style"			"MainMenuSubButton"
-			"xpos"			"0"
-			"ypos"			"0"
-			"zpos"			"2"
-			"wide"			"48"
-			"tall"			"30"
-			"visible"		"0"
-			"proportionalToParent"	"1"
-			
-			"pin_to_sibling"		"ServerBrowserButton"
-			"pin_to_sibling_corner"	"PIN_CENTER_RIGHT"
-			"pin_corner_to_sibling"	"PIN_CENTER_RIGHT"
-			
-			"if_inlevel"
-			{
-				"wide"			"25"
+				"wide"			"210"
+				"image"			"../darhud/mainmenu/button_2split"
 			}
 		}
 		
@@ -685,10 +638,10 @@
 			"image_default"	"resource/svgs/mainmenu/icon_target.svg"
 			"proportionalToParent" "1"
 			
-			"border_default"		"DarHudMMSplitButton2"
-			"border_armed"			"DarHudMMSplitButton2Armed"
-			"border_selected"		"DarHudMMSplitButton2Depressed"
-			"border_depressed"		"DarHudMMSplitButton2Depressed"
+			"border_default"		"DarHudMMSplitButtonMid"
+			"border_armed"			"DarHudMMSplitButtonMidArmed"
+			"border_selected"		"DarHudMMSplitButtonMidDepressed"
+			"border_depressed"		"DarHudMMSplitButtonMidDepressed"
 			
 			"navUp"			"QuitButton"
 			"navDown"		"LoadoutButton"
@@ -714,7 +667,7 @@
 			"wide"			"30"
 			"tall"			"30"
 			"pin_to_sibling"		"TrainingButton"
-			"image"			"../darhud/mainmenu/button_split2"
+			"image"			"../darhud/mainmenu/button_split_mid"
 			
 			"if_inlevel"
 			{
@@ -740,10 +693,10 @@
 			"Command"		"gamemenucommand OpenCreateMultiplayerGameDialog"
 			"image_default"	"resource/svgs/mainmenu/icon_plus.svg"
 			
-			"border_default"		"DarHudMMSplitButton3"
-			"border_armed"			"DarHudMMSplitButton3Armed"
-			"border_selected"		"DarHudMMSplitButton3Depressed"
-			"border_depressed"		"DarHudMMSplitButton3Depressed"
+			"border_default"		"DarHudMMSplitButtonEnd"
+			"border_armed"			"DarHudMMSplitButtonEndArmed"
+			"border_selected"		"DarHudMMSplitButtonEndDepressed"
+			"border_depressed"		"DarHudMMSplitButtonEndDepressed"
 			
 			"navUp"			"QuitButton"
 			"navDown"		"LoadoutButton"
@@ -768,12 +721,10 @@
 			"ControlName"	"CTFImagePanel"
 			"fieldName"		"CreateServerButtonShadow"
 			"style"			"MainMenuButtonShadow"
-			"xpos"			"-2"
-			"ypos"			"-2"
 			"wide"			"30"
 			"tall"			"30"
 			"pin_to_sibling"		"CreateServerButton"
-			"image"			"../darhud/mainmenu/button_split3"
+			"image"			"../darhud/mainmenu/button_split_end"
 		}
 		
 		"LoadoutButton"
@@ -783,7 +734,7 @@
 			"style"			"MainMenuButton"
 			"xpos"			"cs-0.5"
 			"ypos"			"105"
-			"wide"			"208"
+			"wide"			"240"
 			"tall"			"30"
 			"tabPosition"	"0"
 			"labelText"		"#TF_Menu_Loadout"
@@ -812,10 +763,8 @@
 		{
 			"ControlName"	"CTFImagePanel"
 			"fieldName"		"LoadoutButtonShadow"
-			"xpos"			"-2"
-			"ypos"			"-2"
-			"zpos"			"-1"
-			"wide"			"208"
+			"style"		"MainMenuButtonShadow"
+			"wide"			"240"
 			"tall"			"30"
 			"proportionalToParent"	"1"
 			"pin_to_sibling"		"LoadoutButton"
@@ -832,7 +781,7 @@
 			"xpos"			"cs-0.5-15"
 			"ypos"			"139"
 			"zpos"			"2"
-			"wide"			"178"
+			"wide"			"210"
 			"tall"			"30"
 			"tabPosition"	"0"
 			"labelText"		"#TF_Menu_Achievements"
@@ -841,11 +790,11 @@
 			"proportionalToParent"	"1"
 			"image_default"	"resource/svgs/mainmenu/icon_badge.svg"
 			
-			"border_default"		"DarHudMM2SplitButton1"
-			"border_armed"		"DarHudMM2SplitButton1Armed"
-			"border_selected"		"DarHudMM2SplitButton1Depressed"
-			"border_depressed"	"DarHudMM2SplitButton1Depressed"
-			"border_disabled"		"DarHudMM2SplitButton1Disabled"
+			"border_default"		"DarHudMM2SplitButtonMain"
+			"border_armed"		"DarHudMM2SplitButtonMainArmed"
+			"border_selected"		"DarHudMM2SplitButtonMainDepressed"
+			"border_depressed"	"DarHudMM2SplitButtonMainDepressed"
+			"border_disabled"		"DarHudMM2SplitButtonMainDisabled"
 			
 			"SubImage"
 			{
@@ -865,12 +814,9 @@
 			"fieldName"		"AchievementsButtonShadow"
 			"style"			"MainMenuButtonShadow"
 			"pin_to_sibling"	"AchievementsButton"
-			"xpos"			"-2"
-			"ypos"			"-2"
-			"zpos"			"1"
-			"wide"			"178"
+			"wide"			"210"
 			"tall"			"30"
-			"image"			"../darhud/mainmenu/button_2split1"
+			"image"			"../darhud/mainmenu/button_2split"
 		}
 		
 		"StatsButton"
@@ -890,10 +836,10 @@
 			"proportionalToParent"	"1"
 			"image_default"	"resource/svgs/mainmenu/icon_graph.svg"
 			
-			"border_default"		"DarHudMMSplitButton2"
-			"border_armed"			"DarHudMMSplitButton2Armed"
-			"border_selected"		"DarHudMMSplitButton2Depressed"
-			"border_depressed"		"DarHudMMSplitButton2Depressed"
+			"border_default"		"DarHudMMSplitButtonEnd"
+			"border_armed"		"DarHudMMSplitButtonEndArmed"
+			"border_selected"		"DarHudMMSplitButtonEndDepressed"
+			"border_depressed"	"DarHudMMSplitButtonEndDepressed"
 			
 			"SubImage"
 			{
@@ -918,7 +864,7 @@
 			"wide"			"30"
 			"tall"			"30"
 			"proportionalToParent"	"1"
-			"image"			"../darhud/mainmenu/button_split3"
+			"image"			"../darhud/mainmenu/button_split_end"
 		}
 
 		"OptionsButton"
@@ -928,17 +874,17 @@
 			"style"			"MainMenuButton"
 			"xpos"			"cs-0.5-15"
 			"ypos"			"173"
-			"wide"			"178"
+			"wide"			"210"
 			"tall"			"30"
 			"labelText"		"#TF_Menu_Options"
 			"Command"		"gamemenucommand Options"
 			"actionsignallevel"	"2"
 			"image_default"	"resource/svgs/mainmenu/icon_gear.svg"
 			
-			"border_default"		"DarHudMM2SplitButton1Reverse"
-			"border_armed"		"DarHudMM2SplitButton1ReverseArmed"
-			"border_selected"		"DarHudMM2SplitButton1ReverseDepressed"
-			"border_depressed"	"DarHudMM2SplitButton1ReverseDepressed"
+			"border_default"		"DarHudMM2SplitButtonMainReverse"
+			"border_armed"		"DarHudMM2SplitButtonMainReverseArmed"
+			"border_selected"		"DarHudMM2SplitButtonMainReverseDepressed"
+			"border_depressed"	"DarHudMM2SplitButtonMainReverseDepressed"
 
 			"SubImage"
 			{
@@ -963,10 +909,10 @@
 			"fieldName"		"OptionsButtonShadow"
 			"style"			"MainMenuButtonShadow"
 			"pin_to_sibling"	"OptionsButton"
-			"wide"			"178"
+			"wide"			"210"
 			"tall"			"30"
 			"proportionalToParent"	"1"
-			"image"			"../darhud/mainmenu/button_2split1_reverse"
+			"image"			"../darhud/mainmenu/button_2split_reverse"
 		}
 
 		"AddonsButton"
@@ -986,11 +932,11 @@
 			"proportionalToParent"	"1"
 			"image_default"	"resource/svgs/mainmenu/icon_puzzle.svg"
 			
-			"border_default"		"DarHudMMSplitButton2Reverse"
-			"border_armed"		"DarHudMMSplitButton2ReverseArmed"
-			"border_selected"		"DarHudMMSplitButton2ReverseDepressed"
-			"border_depressed"	"DarHudMMSplitButton2ReverseDepressed"
-			"border_disabled"		"DarHudMMSplitButton2ReverseDisabled"
+			"border_default"		"DarHudMMSplitButtonEndReverse"
+			"border_armed"		"DarHudMMSplitButtonEndReverseArmed"
+			"border_selected"		"DarHudMMSplitButtonEndReverseDepressed"
+			"border_depressed"	"DarHudMMSplitButtonEndReverseDepressed"
+			"border_disabled"		"DarHudMMSplitButtonEndReverseDisabled"
 			
 			"dropshadow"		"1"
 			"dropshadowoffset"	"2"
@@ -1016,7 +962,7 @@
 			"pin_to_sibling"	"AddonsButton"
 			"wide"			"30"
 			"tall"			"30"
-			"image"			"../darhud/mainmenu/button_split3_reverse"
+			"image"			"../darhud/mainmenu/button_split_end_reverse"
 		}
 
 		"QuitButton"
@@ -1026,7 +972,7 @@
 			"style"			"MainMenuButton"
 			"xpos"			"cs-0.5"
 			"ypos"			"207"
-			"wide"			"208"
+			"wide"			"240"
 			"tall"			"30"
 			"labelText"		"#TF_Menu_Quit"
 			"Command"		"gamemenucommand Quit"
@@ -1074,11 +1020,9 @@
 		{
 			"ControlName"	"CTFImagePanel"
 			"fieldName"		"QuitButtonShadow"
+			"style"			"MainMenuButtonShadow"
 			"pin_to_sibling"	"QuitButton"
-			"xpos"			"-2"
-			"ypos"			"-2"
-			"zpos"			"1"
-			"wide"			"208"
+			"wide"			"240"
 			"tall"			"30"
 			"proportionalToParent"	"1"
 			"image"			"../darhud/mainmenu/button"
@@ -1093,7 +1037,7 @@
 		"fieldName"		"UpdatePanelShadow"
 		"xpos"			"0"
 		"ypos"			"8"
-		"wide"			"227"
+		"wide"			"256"
 		"tall"			"46"
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -1141,7 +1085,7 @@
 		"fieldName"		"LinkPanel"
 		"xpos"			"-1"
 		"ypos"			"-1"
-		"wide"			"225"
+		"wide"			"256"
 		"tall"			"44"
 		"autoResize"	"0"
 		"pinCorner"		"0"
