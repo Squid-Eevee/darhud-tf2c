@@ -871,6 +871,72 @@ Scheme
 				"antialias" "1"
 			}
 		}
+		"MenuFont"
+		{
+			"1"
+			{
+				"name"		"TF2C Secondary"
+				"tall"		"12"
+				"weight"	"900"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"480 599"
+				"dropshadow"	"1"
+			}
+			"2"
+			{
+				"name"		"TF2C Secondary"
+				"tall"		"13"
+				"weight"	"900"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"600 767"
+				"dropshadow"	"1"
+			}
+			"3"
+			{
+				"name"		"TF2C Secondary"
+				"tall"		"14"
+				"weight"	"900"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"768 1023"
+				"antialias"	"1"
+				"dropshadow"	"1"
+			}
+			"4"
+			{
+				"name"		"TF2C Secondary"
+				"tall"		"20"
+				"weight"	"900"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"1024 1199"
+				"antialias"	"1"
+				"dropshadow"	"1"
+			}
+			"5" // Misyl: Proportional
+			{
+				"name"		"TF2C Secondary"
+				"tall"		"9"
+				"weight"	"900"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"antialias"	"1"
+				"dropshadow"	"1"
+			}
+			"6"
+			{
+				"name"		"TF2C Secondary"
+				"tall"		"12"
+				"range" 		"0x0000 0x00FF"
+				"weight"		"900"
+				"dropshadow"	"1"
+			}
+			"7"
+			{
+				"name"		"TF2C Secondary"
+				"tall"		"12"
+				"range" 		"0x0000 0x00FF"
+				"weight"		"800"
+				"dropshadow"	"1"
+			}
+		}
 	}
 	Borders
 	{
