@@ -549,9 +549,9 @@
 		"LeftBuffer"			"0"
 		"LeftBuffer_minmode"	"5"
 
-		"TextFont"				"Default"
-		"ItemFont"				"Default"
-		"ItemFontPulsing"		"Default"
+		"TextFont"				"MenuFont"
+		"ItemFont"				"MenuFont"
+		"ItemFontPulsing"		"MenuFont"
 		
 		"roundedcorners"	"0"
 	}
