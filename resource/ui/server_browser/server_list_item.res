@@ -308,25 +308,89 @@
 	{
 		"ControlName"	"Label"
 		"fieldName"		"TrustType"
-		"xpos"			"0"
-		"ypos"			"20"
-		"zpos"			"2"
-		"tall"			"20"
+		"proportionaltoparent"	"1"
+		"xpos"			"12"
+		"ypos"			"r14"
+		"zpos"			"3"
+		"wide"			"100"
+		"tall"			"12"
+		"dropshadow"		"1"
+		"dropshadowoffset"	"2"
 		"auto_wide_toContents" "1"
+		"textAlignment"	"east"
+		"textinsetx"	"2"
+		"fgcolor_override"	"GeneralLabel"
 
 		"labelText"		"%trusttype%"
 		
 		"if_official_server"
 		{
-			"fgcolor_override"	"BrightGreen"
+			"border"	"ServerTagOfficial"
 		}
 		"if_verified_server"
 		{
-			"fgcolor_override"	"DimYellow"
+			"border"	"ServerTagVerified"
 		}
 		"font"			"ServerBrowserBoldSmall"
 
-		"textinsetx"	"25"
+		"inputEnabled"	"0"
+	}
+	"TrustTypeEndLeft"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"		"TrustTypeEndLeft"
+		"pin_to_sibling"	"TrustType"
+		"pin_corner_to_sibling"	"pin_topright"
+		"pin_to_sibling_corner"	"pin_topleft"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"2"
+		"wide"			"10"
+		"tall"			"12"
+		"image"			"../darhud/mainmenu/servertag_end"
+		"scaleImage"		"1"
+		"visible"		"0"
+		
+		"if_official_server"
+		{
+			"drawcolor"	"BrightGreen"
+			"visible"	"1"
+		}
+		"if_verified_server"
+		{
+			"drawcolor"	"DimYellow"
+			"visible"	"1"
+		}
+		
+		"inputEnabled"	"0"
+	}
+	"TrustTypeEndRight"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"		"TrustTypeEndRight"
+		"pin_to_sibling"	"TrustType"
+		"pin_corner_to_sibling"	"pin_topleft"
+		"pin_to_sibling_corner"	"pin_topright"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"2"
+		"wide"			"10"
+		"tall"			"12"
+		"image"			"../darhud/mainmenu/servertag_end_reverse"
+		"scaleImage"		"1"
+		"visible"		"0"
+		
+		"if_official_server"
+		{
+			"drawcolor"	"BrightGreen"
+			"visible"	"1"
+		}
+		"if_verified_server"
+		{
+			"drawcolor"	"DimYellow"
+			"visible"	"1"
+		}
+		
 		"inputEnabled"	"0"
 	}
 
@@ -343,12 +407,12 @@
 				"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 				"xpos"	"0"
 				"ypos"	"0"
-				"wide"	"10"
+				"wide"	"0"
 				"tall"	"20"
 				"font"			"ServerBrowserBoldSmall"
 				"fgcolor_override"	"MainText"
 				"textAlignment"	"center"
-				"labelText"	"-"
+				"labelText"	""
 			}
 		}
 		"inputEnabled"	"0"
@@ -357,37 +421,100 @@
 	"ServerType"
 	{
 		"ControlName"	"Label"
-		"fieldName"		"VerificationType"
-		"xpos"			"0"
+		"fieldName"		"ServerType"
+		"xpos"			"12"
 		"ypos"			"20"
 		"zpos"			"2"
-		"tall"			"20"
+		"wide"			"100"
+		"tall"			"12"
+		"textAlignment"	"east"
+		"dropshadow"		"1"
+		"dropshadowoffset"	"2"
 		"auto_wide_toContents" "1"
-		"textinsetx"	"25"
+		"textinsetx"	"2"
+		"fgcolor_override"	"GeneralLabel"
 
 		"labelText"		""
 
 		"if_trusted_server"
 		{
-			"pin_to_sibling"	"Separator"
+			"pin_to_sibling"	"TrustTypeEndRight"
 			"pin_corner_to_sibling"	"PIN_TOPLEFT"
 			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
+			"xpos"	"4"
 			"ypos"	"0"
-			"textinsetx"	"0"
 		}
 
 		"if_custom_rules"
 		{
-			"fgcolor_override"	"BrightOrange"
+			"border"	"ServerTagType"
 			"labelText"	"%servertype%"
 		}
 		"if_custom_weapons"
 		{
-			"fgcolor_override"	"BrightOrange"
+			"border"	"ServerTagType"
 			"labelText"	"%servertype%"
 		}
 		"font"			"ServerBrowserBoldSmall"
 
+		"inputEnabled"	"0"
+	}
+	"ServerTypeEndLeft"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"		"ServerTypeEndLeft"
+		"pin_to_sibling"	"ServerType"
+		"pin_corner_to_sibling"	"pin_topright"
+		"pin_to_sibling_corner"	"pin_topleft"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"2"
+		"wide"			"10"
+		"tall"			"12"
+		"image"			"../darhud/mainmenu/servertag_end"
+		"scaleImage"		"1"
+		"visible"		"0"
+		
+		"if_custom_rules"
+		{
+			"drawcolor"	"BrightOrange"
+			"visible"	"1"
+		}
+		"if_custom_weapons"
+		{
+			"drawcolor"	"BrightOrange"
+			"visible"	"1"
+		}
+		
+		"inputEnabled"	"0"
+	}
+	"ServerTypeEndRight"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"		"ServerTypeEndRight"
+		"pin_to_sibling"	"ServerType"
+		"pin_corner_to_sibling"	"pin_topleft"
+		"pin_to_sibling_corner"	"pin_topright"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"2"
+		"wide"			"10"
+		"tall"			"12"
+		"image"			"../darhud/mainmenu/servertag_end_reverse"
+		"scaleImage"		"1"
+		"visible"		"0"
+		
+		"if_custom_rules"
+		{
+			"drawcolor"	"BrightOrange"
+			"visible"	"1"
+		}
+		"if_custom_weapons"
+		{
+			"drawcolor"	"BrightOrange"
+			"visible"	"1"
+		}
+		
 		"inputEnabled"	"0"
 	}
 
@@ -441,7 +568,7 @@
 	{
 		"ControlName"	"Label"
 		"fieldName"		"MapName"
-		"font"			"ServerBrowserSmallShadow"
+		"font"			"ServerBrowserSmall"
 		"fgcolor_override"	"MainText"
 
 		"xpos"			"0"
@@ -458,6 +585,9 @@
 
 		"textinsetx" "5"
 		"inputEnabled"		"0"
+		
+		"dropshadow"			"1"
+		"dropshadowoffset"	"2"
 	}
 
 	"BotIcon"
