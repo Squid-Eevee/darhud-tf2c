@@ -33,6 +33,21 @@
 		"scaleimage"			"0"
 		"inputEnabled"			"0"
 	}
+	"ShadowBorder"
+	{
+		"ControlName"		"EditablePanel"
+		"fieldName"		"ShadowBorder"
+		"pin_to_sibling"	"BgImage"
+		"pin_corner_to_sibling"	"PIN_CENTER_TOP"
+		"pin_to_sibling_corner"	"PIN_CENTER_TOP"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"10"
+		"wide"			"f0"
+		"tall"			"f0"
+		"border"			"InnerShadowBorder"
+		"inputEnabled"	"0"
+	}
 
 	"BodyBackground"
 	{
