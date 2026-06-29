@@ -119,6 +119,12 @@ Scheme
 		"HintText"		"255 220 0 127"
 		"HintTextFlash"	"255 220 0 255"
 		"HintTextFade"	"255 220 0 0"
+		
+		//Server browser tags
+		"ServerTagOfficial"		"113 173 53 255"
+		"ServerTagVerified"		"170 172 57 255"
+		"ServerTagCustomRules"		"215 150 49 255"
+		"ServerTagCustomWeapons"	"215 150 49 255"
 	}
 	
 	Fonts
@@ -1857,7 +1863,7 @@ Scheme
 			"backgroundtype"	"2"
 			
 			"image"			"../darhud/square_white"
-			"color"			"BrightGreen"
+			"color"			"ServerTagOfficial"
 		}
 		"ServerTagVerified"
 		{
@@ -1865,15 +1871,23 @@ Scheme
 			"backgroundtype"	"2"
 			
 			"image"			"../darhud/square_white"
-			"color"			"DimYellow"
+			"color"			"ServerTagVerified"
 		}
-		"ServerTagType"
+		"ServerTagCustomRules"
 		{
 			"bordertype"		"scalable_image"
 			"backgroundtype"	"2"
 			
 			"image"			"../darhud/square_white"
-			"color"			"BrightOrange"
+			"color"			"ServerTagCustomRules"
+		}
+		"ServerTagCustomWeapons"
+		{
+			"bordertype"		"scalable_image"
+			"backgroundtype"	"2"
+			
+			"image"			"../darhud/square_white"
+			"color"			"ServerTagCustomWeapons"
 		}
 	}
 }
