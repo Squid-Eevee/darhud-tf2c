@@ -353,12 +353,12 @@
 		
 		"if_official_server"
 		{
-			"drawcolor"	"BrightGreen"
+			"drawcolor"	"ServerTagOfficial"
 			"visible"	"1"
 		}
 		"if_verified_server"
 		{
-			"drawcolor"	"DimYellow"
+			"drawcolor"	"ServerTagVerified"
 			"visible"	"1"
 		}
 		
@@ -382,12 +382,12 @@
 		
 		"if_official_server"
 		{
-			"drawcolor"	"BrightGreen"
+			"drawcolor"	"ServerTagOfficial"
 			"visible"	"1"
 		}
 		"if_verified_server"
 		{
-			"drawcolor"	"DimYellow"
+			"drawcolor"	"ServerTagVerified"
 			"visible"	"1"
 		}
 		
@@ -422,8 +422,9 @@
 	{
 		"ControlName"	"Label"
 		"fieldName"		"ServerType"
+		"proportionaltoparent"	"1"
 		"xpos"			"12"
-		"ypos"			"20"
+		"ypos"			"r14"
 		"zpos"			"2"
 		"wide"			"100"
 		"tall"			"12"
@@ -447,12 +448,12 @@
 
 		"if_custom_rules"
 		{
-			"border"	"ServerTagType"
+			"border"	"ServerTagCustomRules"
 			"labelText"	"%servertype%"
 		}
 		"if_custom_weapons"
 		{
-			"border"	"ServerTagType"
+			"border"	"ServerTagCustomWeapons"
 			"labelText"	"%servertype%"
 		}
 		"font"			"ServerBrowserBoldSmall"
@@ -477,12 +478,12 @@
 		
 		"if_custom_rules"
 		{
-			"drawcolor"	"BrightOrange"
+			"drawcolor"	"ServerTagCustomRules"
 			"visible"	"1"
 		}
 		"if_custom_weapons"
 		{
-			"drawcolor"	"BrightOrange"
+			"drawcolor"	"ServerTagCustomWeapons"
 			"visible"	"1"
 		}
 		
@@ -506,12 +507,12 @@
 		
 		"if_custom_rules"
 		{
-			"drawcolor"	"BrightOrange"
+			"drawcolor"	"ServerTagCustomRules"
 			"visible"	"1"
 		}
 		"if_custom_weapons"
 		{
-			"drawcolor"	"BrightOrange"
+			"drawcolor"	"ServerTagCustomWeapons"
 			"visible"	"1"
 		}
 		
