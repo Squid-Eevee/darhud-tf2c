@@ -16,6 +16,23 @@
 		"CornerSize"			"0"
 		"PaintBackgroundType"	"0"
 	}
+	
+	"BgImage"
+	{
+		"ControlName"			"ImagePanel"
+		"fieldName"				"BgImage"
+		"proportionaltoparent"	"1"
+		"xpos"					"0"
+		"ypos"					"r0"
+		"zpos"					"0"
+		"wide"					"f0"
+		"tall"					"120"
+		"image"					"../darhud/mainmenu/striped_pattern"
+		"drawcolor"				"BackgroundDefault"
+		"tileImage"				"1"
+		"scaleimage"			"0"
+		"inputEnabled"			"0"
+	}
 
 	"BodyBackground"
 	{
