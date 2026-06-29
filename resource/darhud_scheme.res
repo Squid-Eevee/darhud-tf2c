@@ -116,7 +116,7 @@ Scheme
 		"HudShadowSolid"	"50 50 50 255"
 		
 		//Hint/menu colours
-		"HintText"		"255 220 0 100"
+		"HintText"		"255 220 0 127"
 		"HintTextFlash"	"255 220 0 255"
 		"HintTextFade"	"255 220 0 0"
 	}
