@@ -207,8 +207,8 @@
 		"ypos"					"0"
 		"wide"					"200"
 		"tall"					"78"
-		"RoundedCorners"		"5"
-		"CornerSize"			"5"
+		"RoundedCorners"		"0"
+		"CornerSize"			"0"
 		
 		"pin_to_sibling"		"PlayerListHeading"
 		"pin_to_sibling_corner" "PIN_BOTTOMLEFT"
@@ -273,8 +273,8 @@
 		"ypos"					"0"
 		"wide"					"130"
 		"tall"					"78"
-		"RoundedCorners"		"5"
-		"CornerSize"			"5"
+		"RoundedCorners"		"0"
+		"CornerSize"			"0"
 		
 		"pin_to_sibling"		"TagsHeading"
 		"pin_to_sibling_corner" "PIN_BOTTOMLEFT"
