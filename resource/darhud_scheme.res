@@ -1849,5 +1849,31 @@ Scheme
 			"image"					"../darhud/mainmenu/button"
 			"color"					"ButtonMMQuitDisabled"
 		}
+		
+		//Server tags
+		"ServerTagOfficial"
+		{
+			"bordertype"		"scalable_image"
+			"backgroundtype"	"2"
+			
+			"image"			"../darhud/square_white"
+			"color"			"BrightGreen"
+		}
+		"ServerTagVerified"
+		{
+			"bordertype"		"scalable_image"
+			"backgroundtype"	"2"
+			
+			"image"			"../darhud/square_white"
+			"color"			"DimYellow"
+		}
+		"ServerTagType"
+		{
+			"bordertype"		"scalable_image"
+			"backgroundtype"	"2"
+			
+			"image"			"../darhud/square_white"
+			"color"			"BrightOrange"
+		}
 	}
 }
