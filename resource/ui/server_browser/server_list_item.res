@@ -347,7 +347,7 @@
 		"zpos"			"2"
 		"wide"			"10"
 		"tall"			"12"
-		"image"			"../darhud/mainmenu/servertag_end"
+		"image"			"resource/svgs/darhud/mainmenu/servertag_end_mask.svg"
 		"scaleImage"		"1"
 		"visible"		"0"
 		
@@ -376,7 +376,7 @@
 		"zpos"			"2"
 		"wide"			"10"
 		"tall"			"12"
-		"image"			"../darhud/mainmenu/servertag_end_reverse"
+		"image"			"resource/svgs/darhud/mainmenu/servertag_end_reverse_mask.svg"
 		"scaleImage"		"1"
 		"visible"		"0"
 		
@@ -471,7 +471,7 @@
 		"zpos"			"2"
 		"wide"			"10"
 		"tall"			"12"
-		"image"			"../darhud/mainmenu/servertag_end"
+		"image"			"resource/svgs/darhud/mainmenu/servertag_end_mask.svg"
 		"scaleImage"		"1"
 		"visible"		"0"
 		
@@ -500,7 +500,7 @@
 		"zpos"			"2"
 		"wide"			"10"
 		"tall"			"12"
-		"image"			"../darhud/mainmenu/servertag_end_reverse"
+		"image"			"resource/svgs/darhud/mainmenu/servertag_end_reverse_mask.svg"
 		"scaleImage"		"1"
 		"visible"		"0"
 		
