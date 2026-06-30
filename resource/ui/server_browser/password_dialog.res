@@ -11,6 +11,7 @@
 		"enabled"		"1"
 		"paintbackground"	"0"
 		"paintborder"	"1"
+		"border"		"EconItemBorder"
 	}
 
 	"BorderBox"
