@@ -11,7 +11,6 @@
 		"enabled"		"1"
 		"paintbackground"	"0"
 		"paintborder"	"1"
-		"border"	"DialogBorder"
 	}
 
 	"BorderBox"
@@ -83,7 +82,7 @@
 				"tall"	"16"
 				"bgcolor_override"	"ListingBody"
 				"fgcolor_override"	"MainTextInactive"
-				"RoundedCorners"		"15"
+				"RoundedCorners"		"0"
 				"actionSignalLevel"	"3"
 			}
 		}
