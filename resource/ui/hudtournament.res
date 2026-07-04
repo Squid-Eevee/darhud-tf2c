@@ -19,7 +19,16 @@
 		"team2_player_base_y"				"0"
 		"team2_player_delta_x"				"47"
 		"team2_player_delta_y"				"0"
-		"teams_player_delta_x_comp"			"42"
+		"teams_player_delta_x_comp"		"42"
+		"team3_player_base_offset_x"		"-75"
+		"team3_player_base_y"				"0"
+		"team3_player_delta_x"				"-47"
+		"team3_player_delta_y"				"0"
+		"team4_player_base_offset_x"		"25"
+		"team4_player_base_y"				"0"
+		"team4_player_delta_x"				"47"
+		"team4_player_delta_y"				"0"
+		"teams_player_delta_x_comp"		"42"
 
 		"avatar_width"	"63"
 		"spacer"		"5"
@@ -57,11 +66,16 @@
 			"wide"							"f0"
 			"tall"							"480"
 
-			"team1_player_base_y"				"70"
+			"team1_player_base_y"				"50"
 			"team1_player_delta_y"				"0"
 			"team2_player_base_y"				"0"
 			"team2_player_delta_x"				"50"
 			"team2_player_delta_y"				"0"
+			"team3_player_base_y"				"70"
+			"team3_player_delta_y"				"0"
+			"team4_player_base_y"				"0"
+			"team4_player_delta_x"				"50"
+			"team4_player_delta_y"				"0"
 		}
 
 		"ModeImage"
@@ -73,7 +87,7 @@
 			"zpos"			"0"
 			"wide"			"60"
 			"tall"			"60"
-			"visible"		"0"
+			"visible"		"1"
 			"enabled"		"1"
 			"image"			"competitive/competitive_logo_laurel"
 			"scaleImage"	"1"
@@ -118,11 +132,12 @@
 				"fieldName"		"playername"
 				"font"			"ScoreboardSmallest"
 				"fgcolor"		"GeneralLabel"
+				"proportionaltoparent"	"1"
 				"xpos"			"0"
-				"ypos"			"21"
+				"ypos"			"r8"
 				"zpos"			"5"
-				"wide"			"48"
-				"tall"			"8"
+				"wide"			"f0"
+				"tall"			"9"
 				"visible"		"1"
 				"labelText"		"%playername%"
 				"textAlignment"	"center"
@@ -144,10 +159,11 @@
 			{
 				"ControlName"	"EditablePanel"
 				"fieldName"		"playernamebg"
+				"proportionaltoparent"	"1"
 				"xpos"			"0"
-				"ypos"			"22"
+				"ypos"			"r7"
 				"zpos"			"5"
-				"wide"			"48"
+				"wide"			"f0"
 				"tall"			"7"
 				"visible"		"1"
 				"paintBackground" "1"
@@ -158,20 +174,19 @@
 			{
 				"ControlName"	"CTFClassImage"
 				"fieldName"		"classimage"
+				"proportionaltoparent" "1"
 				"xpos"			"0"
-				"ypos"			"2"
+				"ypos"			"0"
 				"zpos"			"2"
-				"wide"			"20"
-				"tall"			"20"
+				"wide"			"22"
+				"tall"			"22"
 				"visible"		"1"
 				"enabled"		"1"
 				"image"			"../hud/class_scoutred"
-				"proportionaltoparent" "1"
 				"scaleImage"	"1"
 
 				if_mvm
 				{
-					"xpos"			"2"
 					"image"			"../vgui/hud_connecting"
 				}
 
@@ -259,7 +274,7 @@
 				"ControlName"	"EditablePanel"
 				"fieldName"		"ReadyBG1"
 				"xpos"			"30"
-				"ypos"			"6"
+				"ypos"			"5"
 				"zpos"			"-1"
 				"wide"			"12"
 				"tall"			"12"
@@ -286,7 +301,7 @@
 
 				if_readymode
 				{
-					"visible"		"0"
+					"visible"		"1"
 				}
 			}
 
@@ -294,8 +309,8 @@
 			{
 				"ControlName"		"ImagePanel"
 				"fieldName"		"ReadyImage"
-				"xpos"			"0"
-				"ypos"			"6"
+				"xpos"			"30"
+				"ypos"			"5"
 				"zpos"			"3"
 				"wide"			"12"
 				"tall"			"12"
@@ -910,7 +925,6 @@
 			"visible"	"0"
 		}
 		
-		
 		if_over2team
 		{
 			"tall"	"25"
@@ -1018,15 +1032,13 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"TournamentConditionLabel"
-		"font"			"WinPanelDetailsFont"
+		"font"			"TournamentSetupFont"
 		"fgcolor"		"GeneralLabel"
 		"xpos"			"cs-0.5"
 		"ypos"			"36"
 		"zpos"			"1"
 		"wide"			"238"
 		"tall"			"8"
-		"autoResize"		"0"
-		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"wrap"			"0"
@@ -1053,7 +1065,8 @@
 		if_readymode
 		{
 			"xpos"			"cs-0.5"
-			"ypos"			"45"
+			"textAlignment"	"center"
+			"ypos"			"18"
 			"visible"		"1"
 		}
 		
@@ -1072,7 +1085,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"TournamentInstructionsLabel"
-		"font"			"WinPanelDetailsFont"
+		"font"			"TournamentSetupFont"
 		"fgcolor"		"GeneralLabel"
 		"xpos"			"cs-0.5"
 		"ypos"			"48"
