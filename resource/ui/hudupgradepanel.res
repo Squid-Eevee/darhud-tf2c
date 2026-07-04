@@ -583,6 +583,7 @@
 			
 			"dropshadow"		"1"
 			"dropshadowoffset"	"3"
+			"textinsetx"		"3"
 		}
 		
 		"CreditsTextLabel"
