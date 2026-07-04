@@ -37,23 +37,13 @@
 
 		if_mvm
 		{
-			"xpos"					"cs-0.5"
-			"ypos"					"0"
-			"wide"					"f0"
-			"tall"					"480"
-
-			"team1_player_base_y"			"70"
+			"team1_player_base_y"			"73"
 			"team2_player_base_y"			"66"
 			"team2_player_delta_x"			"50"
 		}
 
 		if_competitive
 		{
-			"xpos"							"cs-0.5"
-			"ypos"							"0"
-			"wide"							"f0"
-			"tall"							"480"
-
 			"team1_player_base_y"			"75"
 			"team2_player_base_y"			"66"
 			"team2_player_base_offset_x"	"5"
@@ -61,11 +51,6 @@
 
 		if_readymode
 		{
-			"xpos"							"cs-0.5"
-			"ypos"							"0"
-			"wide"							"f0"
-			"tall"							"480"
-
 			"team1_player_base_y"				"50"
 			"team1_player_delta_y"				"0"
 			"team2_player_base_y"				"0"
@@ -103,7 +88,7 @@
 		{
 			"visible"		"0"
 			"wide"			"48"
-			"tall"			"28"
+			"tall"			"30"
 			"zpos"			"6"
 
 			"color_ready"		"0 255 0 220"
@@ -134,15 +119,16 @@
 				"fgcolor"		"GeneralLabel"
 				"proportionaltoparent"	"1"
 				"xpos"			"0"
-				"ypos"			"r8"
+				"ypos"			"r7"
 				"zpos"			"5"
 				"wide"			"f0"
-				"tall"			"9"
+				"tall"			"7"
 				"visible"		"1"
 				"labelText"		"%playername%"
 				"textAlignment"	"center"
 				"dropshadow"		"1"
 				"dropshadowoffset"	"1"
+				"bgcolor_override"	"HudShadowSolid"
 
 				if_competitive
 				{
@@ -155,85 +141,35 @@
 				}
 			}
 
-			"playernamebg"
-			{
-				"ControlName"	"EditablePanel"
-				"fieldName"		"playernamebg"
-				"proportionaltoparent"	"1"
-				"xpos"			"0"
-				"ypos"			"r7"
-				"zpos"			"5"
-				"wide"			"f0"
-				"tall"			"7"
-				"visible"		"1"
-				"paintBackground" "1"
-				"bgcolor_override"	"HudShadowSolid"
-			}
-
 			"classimage"
 			{
 				"ControlName"	"CTFClassImage"
 				"fieldName"		"classimage"
 				"proportionaltoparent" "1"
-				"xpos"			"0"
-				"ypos"			"0"
-				"zpos"			"2"
-				"wide"			"22"
-				"tall"			"22"
-				"visible"		"1"
-				"enabled"		"1"
-				"image"			"../hud/class_scoutred"
-				"scaleImage"	"1"
-
-				if_mvm
-				{
-					"image"			"../vgui/hud_connecting"
-				}
-
-				if_competitive
-				{
-					"image"			"../vgui/hud_connecting"
-				}
-
-				if_readymode
-				{
-					"image"			"../vgui/hud_connecting"
-				}
-			}
-
-			"classimagebg"
-			{
-				"ControlName"		"Panel"
-				"fieldName"		"classimagebg"
-				"xpos"			"0"
+				"xpos"			"2"
 				"ypos"			"2"
 				"zpos"			"2"
 				"wide"			"20"
 				"tall"			"20"
-				"visible"		"0"
+				"visible"		"1"
 				"enabled"		"1"
-				"bgcolor_override"		"Black"
-				"PaintBackgroundType"	"0"
+				"image"			"../hud/class_scoutred"
+				"scaleImage"	"1"
+				"fillcolor"		"Black"
 
 				if_mvm
 				{
-					"xpos"			"2"
-					"visible"		"1"
+					"image"			"../vgui/hud_connecting"
 				}
 
 				if_competitive
 				{
-					"xpos"			"4"
-					"ypos"			"4"
-					"wide"			"p0.4"
-					"tall"			"p0.6"
-					"visible"		"1"
-					"proportionaltoparent" "1"
+					"image"			"../vgui/hud_connecting"
 				}
 
 				if_readymode
 				{
-					"visible"		"0"
+					"image"			"../vgui/hud_connecting"
 				}
 			}
 
@@ -273,8 +209,8 @@
 			{
 				"ControlName"	"EditablePanel"
 				"fieldName"		"ReadyBG1"
-				"xpos"			"30"
-				"ypos"			"5"
+				"xpos"			"29"
+				"ypos"			"6"
 				"zpos"			"-1"
 				"wide"			"12"
 				"tall"			"12"
@@ -285,7 +221,6 @@
 
 				if_mvm
 				{
-					"xpos"			"29"
 					"visible"		"1"
 				}
 
@@ -309,8 +244,8 @@
 			{
 				"ControlName"		"ImagePanel"
 				"fieldName"		"ReadyImage"
-				"xpos"			"30"
-				"ypos"			"5"
+				"xpos"			"29"
+				"ypos"			"6"
 				"zpos"			"3"
 				"wide"			"12"
 				"tall"			"12"
@@ -321,7 +256,6 @@
 
 				if_mvm
 				{
-					"xpos"			"29"
 					"visible"		"1"
 				}
 
@@ -501,7 +435,7 @@
 
 		if_readymode
 		{
-			"visible"		"1"
+			"visible"		"0"
 		}	
 	}
 
@@ -662,7 +596,6 @@
 			"visible"	"0"
 		}
 		
-		
 		if_over2team
 		{
 			"tall"	"25"
@@ -793,7 +726,6 @@
 			"xpos"		"200"
 			"visible"	"0"
 		}
-		
 		
 		if_over2team
 		{
@@ -1066,7 +998,9 @@
 		{
 			"xpos"			"cs-0.5"
 			"textAlignment"	"center"
+			"font"			"HudFontSmall"
 			"ypos"			"18"
+			"tall"			"12"
 			"visible"		"1"
 		}
 		
@@ -1199,23 +1133,23 @@
 		"proportionaltoparent"		"1"
 		"dropshadow"				"1"
 		"dropshadowoffset"		"3"
+
+		if_readymode
+		{
+			"ypos"			"130"
+		}
+		if_mvm
+		{
+			"ypos"			"130"
+		}
 	}
 	
 	"CountdownLabelShadow"
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"CountdownLabelShadow"
-		"font"			"HudFontMediumBigBold"
-		"fgcolor"		"GeneralShadow"
-		"xpos"					"r0"
-		"ypos"					"r0"
 		"wide"					"0"
 		"tall"					"0"
-		"zpos"					"4"
 		"visible"				"0"
-		"enabled"				"1"
-		"labelText"				"%tournamentstatelabel%"
-		"textAlignment"			"center"
-		"proportionaltoparent"	"1"
 	}
 }
