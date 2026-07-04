@@ -198,6 +198,8 @@
 				"labelText"		"%respawntime%"
 				"textAlignment"	"west"
 				"fgcolor"		"GeneralLabel"
+				"dropshadow"		"1"
+				"dropshadowoffset"	"2"
 			}
 			
 			"chargeamount"
@@ -327,6 +329,12 @@
 		if_mvm
 		{
 			"ypos"			"95"
+			
+		
+			if_verbose
+			{
+				"ypos"		"107"
+			}
 		}
 	}
 
