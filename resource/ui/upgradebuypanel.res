@@ -133,8 +133,12 @@
 		
 		"labelText"		""
 		"textAlignment"	"center"
-		"font"			"FontStorePromotion"
+		"font"			"FontStorePrice"
+		"fgcolor_override"	"GeneralLabel"
 		"mouseinputenabled"	"0"
+		
+		"dropshadow"		"1"
+		"dropshadowoffset"	"2"
 	}
 	
 	"ShortDescriptionLabel"
