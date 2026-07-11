@@ -12,7 +12,7 @@
 		"PositiveColor"		"HealthGain"
 		"NegativeColor"		"255 0 0 255"
 		"delta_lifetime"		"2"
-		"delta_item_font"		"HudFontSmall"
-		"delta_item_font_big"	"HudFontSmallBold"
+		"delta_item_font"		"DamageAccountFont"
+		"delta_item_font_big"	"DamageAccountFontBig"
 	}
 }
