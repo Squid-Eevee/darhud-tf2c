@@ -948,6 +948,29 @@ Scheme
 				"dropshadow"	"1"
 			}
 		}
+		"DamageAccountFont"
+		{
+			"1"
+			{
+				"name"		"TF2C Secondary"
+				"tall"		"14"
+				"tall_lodef"	"16"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" 	"1"
+			}
+		}
+		"DamageAccountFontBig"
+		{
+			"1"
+			{
+				"name"		"TF2C Build"
+				"tall"		"14"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
 	}
 	Borders
 	{
