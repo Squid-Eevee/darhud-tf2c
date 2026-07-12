@@ -53,6 +53,7 @@
 		"drawcolor"			"0 0 0 0"
 		
 		"dropshadow"		"1"
+		"dropshadowoffset"	"2"
 		"dropshadowresize"	"0"
 	}
 
