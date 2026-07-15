@@ -472,7 +472,7 @@
 		"TeamBlue"			"HUDBlueTeamSolid"
 		"TeamRed"			"HUDRedTeamSolid"
 		"TeamGreen"			"HUDGreenTeamSolid"
-		"TeamYellow"			"HUDYellowTeamSolid"
+		"TeamYellow"		"HUDYellowTeamSolid"
 		"IconColor"			"HudWhite"
 		"LocalPlayerColor"	"HUDBlack"
 
@@ -552,6 +552,8 @@
 		"TextFont"				"MenuFont"
 		"ItemFont"				"MenuFont"
 		"ItemFontPulsing"		"MenuFont"
+
+		"MenuItemColor"			"HintText"
 		
 		"roundedcorners"	"0"
 	}
