@@ -580,7 +580,7 @@
 		"ypos"			"r165"
 		"ypos_minmode"	"r160"
 		"zpos"			"2"
-        "wide"          "70"
+        "wide"          "75"
 		"tall"			"40"
 	}
 	
