@@ -67,10 +67,10 @@
 		"dropshadowoffset"		"2"
 	}
 	
-	"ItemEffectIcon"
+	"ItemEffectIconBG"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"ItemEffectIcon"
+		"fieldName"		"ItemEffectIconBG"
 		"xpos"			"8"
 		"ypos"			"3"
 		"zpos"			"2"
@@ -79,8 +79,28 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	
+		"image"			"resource/svgs/meters/ico_powerup_bottle.svg"
+		"drawcolor"		"GeneralLabel"
+		"dropshadow"		"1"
+		"dropshadowoffset"	"2"
+	}
+	"ItemEffectIcon"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"ItemEffectIcon"
+		"pin_to_sibling"	"ItemEffectIconBG"
+		"pin_corner_to_sibling"	"pin_center_bottom"
+		"pin_to_sibling_corner"	"pin_center_bottom"
+		"xpos"			"0"
+		"ypos"			"-5"
+		"zpos"			"2"
+		"wide"			"8"
+		"tall"			"8"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"	
 		"image"			"../hud/ico_powerup_critboost_red"
-		"fgcolor"		"GeneralLabel"
+		"drawcolor"		"GeneralLabel"
 		"dropshadow"		"1"
 		"dropshadowoffset"	"2"
 	}
