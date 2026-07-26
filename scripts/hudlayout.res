@@ -744,7 +744,7 @@
 		"avatar_tall"		"16"
 		
 		"show_medal"			"1"
-		"medal_xpos"			"12"
+		"medal_xpos"			"4"
 		"medal_ypos"			"0"
 		"medal_wide"			"8"
 		"medal_tall"			"16"
@@ -761,7 +761,7 @@
 		"icon_wide"		"12"
 		"icon_tall"		"12"
 		
-		"text_xpos"		"10"
+		"text_xpos"		"4"
 
 		"fade_in_time"	"0"
 		"fade_out_time"	"0.1"
