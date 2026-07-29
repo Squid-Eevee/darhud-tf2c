@@ -231,7 +231,7 @@
 		"textAlignment"	"east"
 		"fgcolor"			"MainMenuLabel"
 		"xpos"			"c-100"
-		"ypos"			"15"
+		"ypos"			"20"
 		"zpos"			"1"
 		"wide"			"375"
 		"tall"			"25"
