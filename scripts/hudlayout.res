@@ -572,16 +572,15 @@
 		"wide_minmode"			"273"
 		"tall"	 				"123"
 	}
-	
+
 	"HudSpellMenu"
 	{
-		"xpos"			"r150"
-		"xpos_minmode"	"c210"
-		"ypos"			"r165"
-		"ypos_minmode"	"r160"
+		"xpos"			"r127"
+		"xpos_minmode"	"c234"
+		"ypos"			"r20"
 		"zpos"			"2"
-        "wide"          "75"
-		"tall"			"40"
+        "wide"			"88"
+		"tall"			"20"
 	}
 	
 	HudCloseCaption
