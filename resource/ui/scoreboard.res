@@ -857,10 +857,10 @@
 		"labelText"		"%servertime%"
 		"textAlignment"	"center"
 		"xpos"			"cs-0.5"
-		"ypos"			"0"
+		"ypos"			"2"
 		"zpos"			"4"
 		"wide"			"200"
-		"tall"			"35"
+		"tall"			"14"
 		"visible"		"1"
 		"enabled"		"1"
 		"fgcolor"		"brightyellow"
@@ -871,11 +871,39 @@
 		"if_alternative"
 		{
 			"font"		"AlternativeTimerFont"
+			"ypos"		"0"
+			"tall"		"22"
+			"if_mvm"
+			{
+				"ypos"	"50"
+			}
 		}
 		"if_mvm"
 		{
-			"ypos"	"60"
+			"ypos"	"55"
 		}
+	}
+
+	"ServerNextLevelLabel"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"ServerNextLevelLabel"
+		"font"			"HudFontSmallest"
+		"labelText"		"%nextlevel%"
+		"textAlignment"	"center"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"4"
+		"wide"			"200"
+		"tall"			"10"
+		"visible"		"1"
+		"enabled"		"1"
+		"dropshadow"		"1"
+		"dropshadowoffset"	"2"
+		
+		"pin_to_sibling"		"ServerTimeLabel"
+		"pin_corner_to_sibling"	"PIN_CENTER_TOP"
+		"pin_to_sibling_corner"	"PIN_CENTER_BOTTOM"
 	}
 
 	"ServerNameLabel"
