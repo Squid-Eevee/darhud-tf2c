@@ -521,6 +521,23 @@
 			"yes_texture"		"vgui/hud/vote_yes"
 			"no_texture"		"vgui/hud/vote_no"
 		}
+		
+		"TimeRemainingProgressBar"
+		{
+			"ControlName"	"CircularProgressBar"
+			"fieldName"		"TimeRemainingProgressBar"
+			"pin_to_sibling"	"TitleBG"
+			"pin_corner_to_sibling"	"pin_center_right"
+			"pin_to_sibling_corner"	"pin_center_right"
+			"xpos"			"-1"
+			"ypos"			"0"
+			"zpos"			"2"
+			"wide"			"15"
+			"tall"			"o1"
+			"proportionaltoparent"	"1"
+			"fg_image"	"progress_bar"
+			"bg_image"	"progress_bar_pointer_right"
+		}
 	}
 	
 	// This is sent to the vote caller when they're not able to start the vote
