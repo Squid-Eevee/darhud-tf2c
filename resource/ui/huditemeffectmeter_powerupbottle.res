@@ -56,7 +56,7 @@
 		"pin_to_sibling"			"ItemEffectMeterBG"
 		"pin_corner_to_sibling"	"pin_center_left"
 		"pin_to_sibling_corner"	"pin_center_right"
-		"xpos"					"0"
+		"xpos"					"2"
 		"ypos"					"0"
 		"wide"					"f46"
 		"tall"					"f0"
