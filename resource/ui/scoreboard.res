@@ -857,13 +857,14 @@
 		"labelText"		"%servertime%"
 		"textAlignment"	"center"
 		"xpos"			"cs-0.5"
-		"ypos"			"2"
+		"ypos"			"0"
 		"zpos"			"4"
 		"wide"			"200"
-		"tall"			"14"
+		"tall"			"35"
 		"visible"		"1"
 		"enabled"		"1"
 		"fgcolor"		"brightyellow"
+		"textAlignment"	"center"
 		
 		"dropshadow"		"1"
 		"dropshadowoffset"	"2"
@@ -872,10 +873,11 @@
 		{
 			"font"		"AlternativeTimerFont"
 			"ypos"		"0"
-			"tall"		"22"
+			"tall"		"30"
 			"if_mvm"
 			{
 				"ypos"	"50"
+			"tall"		"22"
 			}
 		}
 		"if_mvm"
@@ -892,7 +894,7 @@
 		"labelText"		"%nextlevel%"
 		"textAlignment"	"center"
 		"xpos"			"0"
-		"ypos"			"0"
+		"ypos"			"-11"
 		"zpos"			"4"
 		"wide"			"200"
 		"tall"			"10"
@@ -904,6 +906,11 @@
 		"pin_to_sibling"		"ServerTimeLabel"
 		"pin_corner_to_sibling"	"PIN_CENTER_TOP"
 		"pin_to_sibling_corner"	"PIN_CENTER_BOTTOM"
+		
+		"if_alternative"
+		{
+			"ypos"		"-5"
+		}
 	}
 
 	"ServerNameLabel"
