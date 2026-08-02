@@ -116,7 +116,7 @@
 				}
 			}
 			
-			"FramerateLimit"
+			"MaximumFramerate"
 			{
 				// use existing description on how to display data
 				"description" "#TF2c_Option_FramerateLimit"
