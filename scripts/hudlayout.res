@@ -476,11 +476,10 @@
 		"IconColor"			"HudWhite"
 		"LocalPlayerColor"	"HUDBlack"
 
-		"BaseBackgroundColor"	"KillfeedNormal"
-		"LocalBackgroundColor"	"KillfeedKill"
-		
-		"SVGIconColor"		"236 227 187 255"
-		"SVGIconColorNegative"	"63 57 35 255"
+		"BaseBackgroundColor"	"KillfeedBG"
+		"LocalBackgroundColor"	"KillfeedBGLocal"
+		"SVGIconColor"			"KillfeedIcon"
+		"SVGIconColorNegative"	"KillfeedIconLocal"
 	}
 
 	HudVehicle
