@@ -56,8 +56,10 @@ Scheme
 		"ObjectiveShadow"	"0 0 0 240"
 
 		//Killfeed
-		"KillfeedKill"	"235 235 235 255"
-		"KillfeedNormal"	"25 25 25 240"
+		"KillfeedBGLocal"	"235 235 235 255"
+		"KillfeedBG"		"25 25 25 240"
+		"KillfeedIconLocal"	"63 57 35 255"
+		"KillfeedIcon"		"236 227 187 255"
 
 		//Chat
 		"ChatBackground"	"0 170 255 255"	//the alpha value doesn't seem to do anything to the chat window itself but this colour is shared with the chat filters window, which is fixed at 50% opacity for readability
