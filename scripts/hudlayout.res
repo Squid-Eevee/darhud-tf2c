@@ -478,6 +478,9 @@
 
 		"BaseBackgroundColor"	"KillfeedNormal"
 		"LocalBackgroundColor"	"KillfeedKill"
+		
+		"SVGIconColor"		"236 227 187 255"
+		"SVGIconColorNegative"	"63 57 35 255"
 	}
 
 	HudVehicle
