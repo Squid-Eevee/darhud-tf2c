@@ -101,6 +101,7 @@ Scheme
 		"WelcomeLabel"		"255 255 255 255"
 		"NicknameLabel"		"235 226 202 255"
 		"Tooltip"			"20 20 20 255"
+		"TooltipLabel"		"235 226 202 255"
 		
 		//Loadout Screen
 		"LoadoutBackground"	"31 31 31 255"
