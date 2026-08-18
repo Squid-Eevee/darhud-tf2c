@@ -154,7 +154,7 @@ Scheme
 		TextEntry.SelectedBgColor	        "ButtonArmed"	
 		
 		Tooltip.BgColor	"0 0 0 0"
-		Tooltip.TextColor	"GeneralLabel"	
+		Tooltip.TextColor	"TooltipLabel"	
 		
 		// Console background
 		RichText.BgColor				"BackgroundTransparent"		
