@@ -151,7 +151,10 @@ Scheme
 		// Text fields
 		TextEntry.TextColor			        "ButtonLabel"
 		TextEntry.DisabledTextColor	        "TFTanMedium"
-		TextEntry.SelectedBgColor	        "ButtonArmed"		
+		TextEntry.SelectedBgColor	        "ButtonArmed"	
+		
+		Tooltip.BgColor	"0 0 0 0"
+		Tooltip.TextColor	"GeneralLabel"	
 		
 		// Console background
 		RichText.BgColor				"BackgroundTransparent"		
@@ -228,6 +231,14 @@ Scheme
 					"offset" 				"0 0"
 				}
 			}
+		}
+		TooltipBorder
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			"color"					"Tooltip"
+			
+			"image"					"../darhud/square_white"
 		}
 	}
 	
