@@ -62,8 +62,8 @@ Scheme
 		"KillfeedIcon"		"236 227 187 255"
 
 		//Chat
-		"ChatBackground"	"60 56 53 255"	//the alpha value doesn't seem to do anything to the chat window itself but this colour is shared with the chat filters window, which is fixed at 50% opacity for readability
-							//so if you want your background opacities to match, leave the alpha at 255
+		"ChatBackground"	"60 56 53 255"	//the chat window itself is hard-coded to cap at ~180 alpha but this colour is shared with the chat filters window, which i fixed at 180 alpha for consistency
+									//so if you want your background opacities to match, leave the alpha at 255
 		
 		//Vote selection
 		"VoteSelect"		"88 119 140 180"
