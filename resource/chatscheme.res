@@ -449,9 +449,9 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2C Build"
+				"name"			"TF2C Secondary"
 				"tall"			"10"
-				"weight"		"600"
+				"weight"		"500"
 				"antialias"		"1"
 				"dropshadow"	"0"
 			}
@@ -462,7 +462,7 @@ Scheme
 			{
 				"name"			"TF2C Secondary"
 				"tall"			"8"
-				"weight"		"600"
+				"weight"		"500"
 				"antialias"		"1"
 				"dropshadow"	"0"
 			}
@@ -473,7 +473,41 @@ Scheme
 			{
 				"name"			"TF2C Secondary"
 				"tall"			"7"
-				"weight"		"300"
+				"weight"		"500"
+				"antialias"		"1"
+				"dropshadow"	"0"
+			}
+		}
+		
+		"ChatOptionsFontLargeBold"
+		{
+			"1"
+			{
+				"name"			"TF2C Build"
+				"tall"			"10"
+				"weight"		"500"
+				"antialias"		"1"
+				"dropshadow"	"0"
+			}
+		}
+		"ChatOptionsFontMediumBold"
+		{
+			"1"
+			{
+				"name"			"TF2C Build"
+				"tall"			"8"
+				"weight"		"500"
+				"antialias"		"1"
+				"dropshadow"	"0"
+			}
+		}
+		"ChatOptionsFontSmallBold"
+		{
+			"1"
+			{
+				"name"			"TF2C Build"
+				"tall"			"7"
+				"weight"		"500"
 				"antialias"		"1"
 				"dropshadow"	"0"
 			}
