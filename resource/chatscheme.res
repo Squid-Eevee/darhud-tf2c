@@ -55,8 +55,9 @@ Scheme
 		"SelectionBG"					"90 84 75 255"			// background color of any selected text or menu item
 		"SelectionBG2"					"69 64 57 255"			// selection background in window w/o focus
 		"ListBG"						"39 36 34 255"			// background of server browser, buddy list, etc.
-		
-		"DropShadow"					"0 0 0 140"
+
+		//Inherited from darhud_scheme
+		//"DropShadow"					"0 0 0 140"
 	}
 
 	///////////////////// BASE SETTINGS ////////////////////////
