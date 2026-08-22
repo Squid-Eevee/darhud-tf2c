@@ -264,7 +264,7 @@
 			"tall"			"15"
 			"zpos"			"1"
 			"drawcolor"		"VoteSelect"
-			"image"			"..\darhud\square\gradient\white"
+			"image"			"../darhud/square_gradient_white"
 			"scaleImage"		"1"
 			"visible"		"1"
 		}
@@ -325,7 +325,7 @@
 			"tall"			"15"
 			"zpos"			"1"
 			"drawcolor"		"VoteSelect"
-			"image"			"..\darhud\square\gradient\white"
+			"image"			"../darhud/square_gradient_white"
 			"scaleImage"		"1"
 			"visible"		"1"
 		}
@@ -386,7 +386,7 @@
 			"tall"			"15"
 			"zpos"			"1"
 			"drawcolor"		"VoteSelect"
-			"image"			"..\darhud\square\gradient\white"
+			"image"			"../darhud/square_gradient_white"
 			"scaleImage"		"1"
 			"visible"		"1"
 		}
@@ -426,7 +426,7 @@
 			"tall"			"15"
 			"zpos"			"1"
 			"drawcolor"		"VoteSelect"
-			"image"			"..\darhud\square\gradient\white"
+			"image"			"../darhud/square_gradient_white"
 			"scaleImage"		"1"
 			"visible"		"1"
 		}
@@ -466,7 +466,7 @@
 			"tall"			"15"
 			"zpos"			"1"
 			"drawcolor"		"VoteSelect"
-			"image"			"..\darhud\square\gradient\white"
+			"image"			"../darhud/square_gradient_white"
 			"scaleImage"		"1"
 			"visible"		"1"
 		}
