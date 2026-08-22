@@ -43,8 +43,9 @@ Scheme
 		
 		"TeamYellow"				"255 178 0 255"
 		"TeamGreen"					"153 255 153 255"
-		
-		"DropShadow"				"0 0 0 240"
+
+		//Inherited from darhud_scheme
+		//"DropShadow"				"0 0 0 240"
 
 		"BuildingStatusNotBuilt"	"210 210 210 220"
 		
