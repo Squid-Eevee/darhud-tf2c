@@ -55,7 +55,7 @@
 		"xpos"				"4"
 		"ypos"				"r18"
 		"zpos"				"1"
-		"wide"				"f4"
+		"wide"				"f8"
 		"tall"				"18"
 		"visible"			"1"
 		"enabled"			"1"
@@ -97,28 +97,29 @@
 
 	"HudChatHistory"
 	{
-		"ControlName"		"RichText"
-		"fieldName"		"HudChatHistory"
-		"xpos"			"4"
-		"ypos"			"4"
-		"zpos"			"1"
-		"wide"	 		"260"
-		"tall"			"88"
-		"wrap"			"1"
-		"visible"		"1"
-		"enabled"		"1"
-		"labelText"		""
-		"textAlignment"	"west"
-		"font"			"ChatFont"
-		"maxchars"		"-1"
-		"bgcolor_override"	"0 0 0 0"
+		"ControlName"			"RichText"
+		"fieldName"				"HudChatHistory"
+		"proportionaltoparent"	"1"
+		"xpos"					"4"
+		"ypos"					"4"
+		"zpos"					"1"
+		"wide"	 				"f8"
+		"tall"					"88"
+		"wrap"					"1"
+		"visible"				"1"
+		"enabled"				"1"
+		"labelText"				""
+		"textAlignment"			"west"
+		"font"					"ChatFont"
+		"maxchars"				"-1"
+		"bgcolor_override"		"0 0 0 0"
 		"paintbackgroundtype"	"0"
-		"roundedcorners"	"0"
+		"roundedcorners"		"0"
 		
 		"ScrollBar"
 		{
-			"nobuttons"			"1"
-			"wide"				"9"
+			"nobuttons"				"1"
+			"wide"					"9"
 			"proportionaltoparent"	"1"
 			
 			"Slider"
@@ -131,31 +132,33 @@
 			"UpButton"
 			{
 				"ControlName"	"Button"
-				"FieldName"	"UpButton"
-				"visible"	"0"
+				"FieldName"		"UpButton"
+				"visible"		"0"
 			}
 		
 			"DownButton"
 			{
 				"ControlName"	"Button"
-				"FieldName"	"DownButton"
-				"visible"	"0"
+				"FieldName"		"DownButton"
+				"visible"		"0"
 			}
 		}
 	}
 	ChatInputLine
 	{
-		"ControlName"				"EditablePanel"
-		"fieldName" 				"ChatInputLine"
-		"pin_to_sibling"			"HudChatHistory"
-		"pin_corner_to_sibling"	"pin_topleft"
-		"pin_to_sibling_corner"	"pin_bottomleft"
-		"visible" 				"1"
-		"enabled" 				"1"
+		"ControlName"			"EditablePanel"
+		"fieldName" 			"ChatInputLine"
+		"proportionaltoparent"	"1"
 		"xpos"					"0"
 		"ypos"					"4"
 		"zpos"					"1"
-		"wide"	 				"260"
+		"wide"	 				"f8"
 		"tall"	 				"12"
+		"visible" 				"1"
+		"enabled" 				"1"
+
+		"pin_to_sibling"		"HudChatHistory"
+		"pin_corner_to_sibling"	"pin_topleft"
+		"pin_to_sibling_corner"	"pin_bottomleft"
 	}
 }
