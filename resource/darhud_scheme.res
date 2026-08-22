@@ -117,6 +117,8 @@ Scheme
 		//HUD Drop Shadow
 		"HudShadow"			"50 50 50 191"
 		"HudShadowSolid"	"50 50 50 255"
+
+		"DropShadow"		"0 0 0 240"
 		
 		//Hint/menu colours
 		"HintText"		"255 220 0 127"
