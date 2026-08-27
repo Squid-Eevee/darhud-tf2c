@@ -172,6 +172,7 @@
 			
 			"xpos"				"0"
 			"ypos"				"0"
+			"zpos"				"0"
 			
 			"wide"				"f0"
 			"tall"				"f0"
@@ -200,7 +201,7 @@
 			
 			"xpos"					"0"
 			"ypos"					"10"
-			"zpos"					"-2"
+			"zpos"					"-1"
 			
 			"wide"					"280"
 			"tall"					"o0.5"
@@ -211,6 +212,11 @@
 			
 			"visible"				"0"
 			"enabled"				"1"
+			
+			"if_qwtf_birthday"
+			{
+				"visible"	"0"
+			}
 		}
 		"ColoredLogoFG"
 		{
@@ -224,7 +230,7 @@
 			
 			"xpos"					"0"
 			"ypos"					"10"
-			"zpos"					"-2"
+			"zpos"					"0"
 			
 			"wide"					"280"
 			"tall"					"o0.5"
@@ -234,25 +240,33 @@
 			
 			"visible"				"0"
 			"enabled"				"1"
+			
+			"if_qwtf_birthday"
+			{
+				"visible"	"0"
+			}
 		}
 		
 		"LogoCircle"
 		{
 			"controlname"			"CTFRotatingImagePanel"
-			"fieldname"				"LogoCircle"
-			"xpos"					"p0.215"
-			"ypos"					"p0.283"
-			"zpos"					"1"
-			"wide"					"16"
-			"tall"					"16"
+			"fieldname"			"LogoCircle"
 			"proportionaltoparent"	"1"
-			"visible"				"1"
-			"enabled"				"1"
-			"image"					"vgui/main_menu/tf2classified_logo_circle"
+			
+			"xpos"				"p0.215"
+			"ypos"				"p0.283"
+			"zpos"				"1"
+			
+			"wide"				"16"
+			"tall"				"16"
+			
+			"image"				"vgui/main_menu/tf2classified_logo_circle"
+			
+			"visible"			"1"
 			
 			"if_qwtf_birthday"
 			{
-				"visible"			"0"
+				"visible"	"0"
 			}
 		}
 	}
@@ -271,7 +285,6 @@
 		"tall"					"240"
 		
 		"visible"				"1"
-		"enabled"				"1"
 
 		"TextBackground"
 		{
@@ -288,7 +301,6 @@
 			"bgcolor_override"	"Header"
 			
 			"visible"			"1"
-			"enabled"			"1"
 
 			"if_inlevel"
 			{
@@ -316,7 +328,6 @@
 			"bgcolor_override"		"TanDark"
 			
 			"visible"				"1"
-			"enabled"				"1"
 
 			"if_inlevel"
 			{
@@ -341,7 +352,6 @@
 			"bgcolor_override"	"255 255 255 255"
 			
 			"visible"			"1"
-			"enabled"			"1"
 
 			"if_inlevel"
 			{
@@ -377,6 +387,7 @@
 			"dropshadowoffset"		"3"
 			
 			"visible"				"1"
+			"enabled"				"1"
 
 			"if_inlevel"
 			{
@@ -410,6 +421,7 @@
 			"dropshadowoffset"		"3"
 			
 			"visible"				"1"
+			"enabled"				"1"
 
 			"if_inlevel"
 			{
@@ -422,9 +434,8 @@
 
 		"ResumeButton"
 		{
-			"controlname"			"CEximageButton"
+			"controlname"			"CExImageButton"
 			"fieldname"			"ResumeButton"
-			"proportionaltoparent"	"1"
 			
 			"style"				"MainMenuButton"
 			
@@ -441,7 +452,7 @@
 			
 			"navUp"				"QuitButton"
 			"navDown"			"ServerBrowserButton"
-			"navLeft"			"CallVoteButton"
+			"navLeft"			"<DonateButton"
 			"navRight"			"MutePlayerButton"
 			
 			"image_default"		"resource/svgs/mainmenu/icon_arrow_left.svg"
@@ -453,16 +464,19 @@
 			
 			"visible"			"0"
 
-			"Subimage"
-			{
-				"wide"	"o1"
-				"tall"	"f14"
-				"xpos"	"6"
-			}
-
 			"if_inlevel"
 			{
+				"navUp"		"DisconnectButton"
+				"navLeft"	"CallVoteButton"
 				"visible"	"1"
+			}
+
+			"Subimage"
+			{
+				"xpos"	"6"
+				
+				"wide"	"o1"
+				"tall"	"f14"
 			}
 		}
 		"ResumeButtonShadow"
@@ -489,17 +503,17 @@
 		
 		"MutePlayerButton"
 		{
-			"controlname"				"CEximageButton"
+			"controlname"				"CExImageButton"
 			"fieldname"				"MutePlayerButton"
-			"proportionaltoparent"	"1"
+			
+			"style"					"MainMenuButton"
 
 			"pin_to_sibling"			"ResumeButton"
 			"pin_to_sibling_corner"	"pin_topright"
 			
-			"style"					"MainMenuButton"
-			
 			"xpos"					"0"
 			"ypos"					"0"
+			
 			"wide"					"30"
 			"tall"					"30"
 			
@@ -509,10 +523,10 @@
 			"actionsignallevel"		"2"
 			"tooltiptext"				"#TF_Menu_Mute"
 			
-			"navUp"			"QuitButton"
-			"navDown"		"ServerBrowserButton"
-			"navLeft"		"ResumeButton"
-			"navRight"		"CallVoteButton"
+			"navUp"					"DisconnectButton"
+			"navDown"				"ServerBrowserButton"
+			"navLeft"				"ResumeButton"
+			"navRight"				"CallVoteButton"
 			
 			"image_default"			"resource/svgs/mainmenu/icon_mic_off.svg"
 
@@ -525,9 +539,9 @@
 			
 			"Subimage"
 			{
-				"xpos"		"6"
-				"wide"		"f9"
-				"tall"		"f9"
+				"xpos"	"6"
+				"wide"	"f9"
+				"tall"	"f9"
 			}
 			
 			"if_inlevel"
@@ -540,9 +554,9 @@
 			"controlname"		"CTFImagePanel"
 			"fieldname"		"MutePlayerButtonShadow"
 			
-			"pin_to_sibling"	"MutePlayerButton"
-			
 			"style"			"MainMenuButtonShadow"
+			
+			"pin_to_sibling"	"MutePlayerButton"
 			
 			"wide"			"30"
 			"tall"			"30"
@@ -559,60 +573,68 @@
 		
 		"CallVoteButton"
 		{
-			"controlname"	"CEximageButton"
-			"fieldname"		"CallVoteButton"
-			"style"			"MainMenuButton"
-			"xpos"			"0"
-			"ypos"			"0"
-			"wide"			"30"
-			"tall"			"30"
+			"controlname"				"CExImageButton"
+			"fieldname"				"CallVoteButton"
 			
-			"visible"		"0"
-			"labelText"		""
-			"tooltiptext"	"#TF_Menu_Vote"
-			"Command"		"engine callvote; gamemenucommand ResumeGame"
-			"actionsignallevel"	"2"
-			"proportionaltoparent"	"1"
-			"image_default"	"resource/svgs/mainmenu/icon_check.svg"
+			"style"					"MainMenuButton"
 
-			"border_default"	"DarHudMMSplitButtonEndReverse"
-			"border_armed"		"DarHudMMSplitButtonEndReverseArmed"
-			"border_disabled"	"DarHudMMSplitButtonEndReverseDisabled"
-			"border_selected"	"DarHudMMSplitButtonEndReverseDepressed"
-			
-			"dropshadow"		"1"
-			"dropshadowoffset"	"2"
-
-			"Subimage"
-			{
-				"xpos"		"6"
-				"wide"		"f10"
-				"tall"		"f10"
-			}
-
-			"pin_to_sibling"		"MutePlayerButton"
+			"pin_to_sibling"			"MutePlayerButton"
 			"pin_to_sibling_corner"	"pin_topright"
+			
+			"xpos"					"0"
+			"ypos"					"0"
+			
+			"wide"					"30"
+			"tall"					"30"
+			
+			"labelText"				""
+			
+			"Command"				"engine callvote; gamemenucommand ResumeGame"
+			"actionsignallevel"		"2"
+			"tooltiptext"				"#TF_Menu_Vote"
+			
+			"navUp"					"QuitButton"
+			"navDown"				"ServerBrowserButton"
+			"navLeft"				"MutePlayerButton"
+			"navRight"				"ResumeButton"
+			
+			"image_default"			"resource/svgs/mainmenu/icon_check.svg"
+
+			"border_default"			"DarHudMMSplitButtonEndReverse"
+			"border_armed"			"DarHudMMSplitButtonEndReverseArmed"
+			"border_disabled"			"DarHudMMSplitButtonEndReverseDisabled"
+			"border_selected"			"DarHudMMSplitButtonEndReverseDepressed"
+			
+			"visible"				"0"
 
 			"if_inlevel"
 			{
 				"visible"	"1"
 			}
-			
-			"navUp"			"QuitButton"
-			"navDown"		"ServerBrowserButton"
-			"navLeft"		"MutePlayerButton"
-			"navRight"		"ResumeButton"
+
+			"Subimage"
+			{
+				"xpos"	"6"
+				
+				"wide"	"f10"
+				"tall"	"f10"
+			}
 		}
 		"CallVoteButtonShadow"
 		{
-			"controlname"		"CTFImagePanel"
-			"fieldname"		"CallVoteButtonShadow"
-			"style"			"MainMenuButtonShadow"
-			"wide"			"30"
-			"tall"			"30"
-			"visible"		"0"
-			"image"	"../darhud/mainmenu/button_split_end_reverse"
+			"controlname"			"CTFImagePanel"
+			"fieldname"			"CallVoteButtonShadow"
+			
+			"style"				"MainMenuButtonShadow"
+			
 			"pin_to_sibling"		"CallVoteButton"
+			
+			"wide"				"30"
+			"tall"				"30"
+			
+			"image"				"../darhud/mainmenu/button_split_end_reverse"
+			
+			"visible"			"0"
 
 			"if_inlevel"
 			{
@@ -622,116 +644,138 @@
 		
 		"ServerBrowserButton"
 		{
-			"controlname"	"CEximageButton"
-			"fieldname"		"ServerBrowserButton"
-			"style"			"MainMenuButton"
-			"xpos"			"cs-0.5-31"
-			"ypos"			"71"
-			"wide"			"180"
-			"tall"			"30"
-			"labelText"		"#TF_Menu_FindServers"
-			"Command"		"gamemenucommand OpenServerBrowser" // gamemenucommand OpenServerBrowser
+			"controlname"			"CExImageButton"
+			"fieldname"			"ServerBrowserButton"
+			
+			"style"				"MainMenuButton"
+			
+			"xpos"				"cs-0.5-31"
+			"ypos"				"71"
+			
+			"wide"				"180"
+			"tall"				"30"
+			
+			"labelText"			"#TF_Menu_FindServers"
+			
+			"Command"			"gamemenucommand OpenServerBrowser" // gamemenucommand OpenServerBrowser
 			"actionsignallevel"	"2"
-			"proportionaltoparent"	"1"
-			"image_default"	"resource/svgs/mainmenu/icon_magnifier.svg"
+			
+			"navUp"				"QuitButton"
+			"navDown"			"LoadoutButton"
+			"navLeft"			"<DonateButton"
+			"navRight"			"TrainingButton"
+			
+			"image_default"		"resource/svgs/mainmenu/icon_magnifier.svg"
 			
 			"border_default"		"DarHudMM3SplitButtonMain"
-			"border_armed"			"DarHudMM3SplitButtonMainArmed"
+			"border_armed"		"DarHudMM3SplitButtonMainArmed"
 			"border_selected"		"DarHudMM3SplitButtonMainDepressed"
-			"border_depressed"		"DarHudMM3SplitButtonMainDepressed"
+			"border_depressed"	"DarHudMM3SplitButtonMainDepressed"
 
 			"Subimage"
 			{
-				"wide"		"o1"
-				"tall"		"f14"
-				"xpos"		"6"
+				"xpos"	"6"
+				
+				"wide"	"o1"
+				"tall"	"f14"
 			}
-			
-			"navUp"			"QuitButton"
-			"navDown"		"LoadoutButton"
-			"navLeft"		"CreateServerButton"
-			"navRight"		"TrainingButton"
 			
 			"if_inlevel"
 			{
-				"xpos"			"cs-0.5-15"
-				"wide"			"210"
+				"xpos"				"cs-0.5-15"
+				
+				"wide"				"210"
+				
+				"navUp" 				"ResumeButton"
+				"navLeft"			"CreateServerButton"
+				"navRight"			"CreateServerButton"
 				
 				"border_default"		"DarHudMM2SplitButtonMain"
-				"border_armed"			"DarHudMM2SplitButtonMainArmed"
+				"border_armed"		"DarHudMM2SplitButtonMainArmed"
 				"border_selected"		"DarHudMM2SplitButtonMainDepressed"
-				"border_depressed"		"DarHudMM2SplitButtonMainDepressed"
-				
-				"navUp" 		"ResumeButton"
-				"navRight"	"CreateServerButton"
+				"border_depressed"	"DarHudMM2SplitButtonMainDepressed"
 			}
 		}
 		"ServerBrowserButtonShadow"
 		{
-			"controlname"	"CTFImagePanel"
+			"controlname"		"CTFImagePanel"
 			"fieldname"		"ServerBrowserButtonShadow"
+			
 			"style"			"MainMenuButtonShadow"
+			
 			"pin_to_sibling"	"ServerBrowserButton"
+			
 			"wide"			"180"
 			"tall"			"30"
+			
 			"image"			"../darhud/mainmenu/button_3split"
 			
 			"if_inlevel"
 			{
 				"wide"			"210"
+				
 				"image"			"../darhud/mainmenu/button_2split"
 			}
 		}
 		
 		"TrainingButton"
 		{
-			"controlname"	"CEximageButton"
-			"fieldname"		"TrainingButton"
-			"style"			"MainMenuSubButton"
-			"xpos"			"0"
-			"ypos"			"0"
-			"wide"			"30"
-			"tall"			"30"
+			"controlname"				"CExImageButton"
+			"fieldname"				"TrainingButton"
 			
-			"pin_to_sibling"		"ServerBrowserButton"
+			"style"					"MainMenuSubButton"
+			
+			"xpos"					"0"
+			"ypos"					"0"
+			
+			"wide"					"30"
+			"tall"					"30"
+			
+			"pin_to_sibling"			"ServerBrowserButton"
 			"pin_to_sibling_corner"	"pin_topright"
 
-			"labelText"		""
-			"tooltiptext"	"#TF_Menu_OfflineTraining"
-			"actionsignallevel"	"2"
-			"Command"		"engine training_showdlg 2"
-			"image_default"	"resource/svgs/mainmenu/icon_target.svg"
-			"proportionaltoparent" "1"
+			"labelText"				""
 			
-			"border_default"		"DarHudMMSplitButtonMid"
+			"Command"				"engine training_showdlg 2"
+			"actionsignallevel"		"2"
+			"tooltiptext"				"#TF_Menu_OfflineTraining"
+			
+			"image_default"			"resource/svgs/mainmenu/icon_target.svg"
+			
+			"border_default"			"DarHudMMSplitButtonMid"
 			"border_armed"			"DarHudMMSplitButtonMidArmed"
-			"border_selected"		"DarHudMMSplitButtonMidDepressed"
+			"border_selected"			"DarHudMMSplitButtonMidDepressed"
 			"border_depressed"		"DarHudMMSplitButtonMidDepressed"
 			
-			"navUp"			"QuitButton"
-			"navDown"		"LoadoutButton"
-			"navLeft"		"ServerBrowserButton"
-			"navRight"		"CreateServerButton"
-			
-			"Subimage"
-			{
-				"xpos"		"6"
-			}
+			"navUp"					"QuitButton"
+			"navDown"				"LoadoutButton"
+			"navLeft"				"ServerBrowserButton"
+			"navRight"				"CreateServerButton"
 			
 			"if_inlevel"
 			{
+				"navUp" 		"ResumeButton"
+				
 				"visible"	"0"
-				"navUp" 	"ResumeButton"
+			}
+			
+			"Subimage"
+			{
+				"xpos"	"6"
 			}
 		}
 		"TrainingButtonShadow"
 		{
-			"controlname"	"CTFImagePanel"
+			"controlname"		"CTFImagePanel"
 			"fieldname"		"TrainingButtonShadow"
+			
 			"style"			"MainMenuButtonShadow"
+			
+			"pin_to_sibling"	"TrainingButton"
+			
 			"wide"			"30"
 			"tall"			"30"
-			"pin_to_sibling"		"TrainingButton"
+			
 			"image"			"../darhud/mainmenu/button_split_mid"
 			
 			"if_inlevel"
@@ -742,74 +786,91 @@
 
 		"CreateServerButton"
 		{
-			"controlname"	"CEximageButton"
-			"fieldname"		"CreateServerButton"
+			"controlname"				"CExImageButton"
+			"fieldname"				"CreateServerButton"
 			
-			"style"			"MainMenuSubButton"
+			"style"					"MainMenuSubButton"
 			
-			"xpos"			"0"
-			"ypos"			"0"
-			"wide"			"30"
-			"tall"			"30"
-			
-			"pin_to_sibling"		"TrainingButton"
+			"pin_to_sibling"			"TrainingButton"
 			"pin_to_sibling_corner"	"pin_topright"
+			
+			"xpos"					"0"
+			"ypos"					"0"
+			
+			"wide"					"30"
+			"tall"					"30"
 
-			"labelText"		""
-			"tooltiptext"	"#TF_Menu_CreateServer"
-			"actionsignallevel"	"2"
-			"Command"		"gamemenucommand OpenCreateMultiplayerGameDialog"
-			"image_default"	"resource/svgs/mainmenu/icon_plus.svg"
+			"labelText"				""
 			
-			"border_default"		"DarHudMMSplitButtonEnd"
+			"Command"				"gamemenucommand OpenCreateMultiplayerGameDialog"
+			"actionsignallevel"		"2"
+			"tooltiptext"				"#TF_Menu_CreateServer"
+			
+			"navUp"					"QuitButton"
+			"navDown"				"LoadoutButton"
+			"navLeft"				"TrainingButton"
+			"navRight"				"<BlogButton"
+			
+			"image_default"			"resource/svgs/mainmenu/icon_plus.svg"
+			
+			"border_default"			"DarHudMMSplitButtonEnd"
 			"border_armed"			"DarHudMMSplitButtonEndArmed"
-			"border_selected"		"DarHudMMSplitButtonEndDepressed"
+			"border_selected"			"DarHudMMSplitButtonEndDepressed"
 			"border_depressed"		"DarHudMMSplitButtonEndDepressed"
-			
-			"navUp"			"QuitButton"
-			"navDown"		"LoadoutButton"
-			"navLeft"		"TrainingButton"
-			"navRight"		"ServerBrowserButton"
 			
 			"Subimage"
 			{
-				"xpos"		"6"
+				"xpos"	"6"
 			}
 			
 			"if_inlevel"
 			{
-				"pin_to_sibling"		"ServerBrowserButton"
+				"pin_to_sibling"	"ServerBrowserButton"
 				
-				"navUp" 	"ResumeButton"
-				"navLeft"	"ServerBrowserButton"
+				"navUp" 			"ResumeButton"
+				"navLeft"		"ServerBrowserButton"
+				"navRight"		"ServerBrowserButton"
 			}
 		}
 		"CreateServerButtonShadow"
 		{
-			"controlname"	"CTFImagePanel"
+			"controlname"		"CTFImagePanel"
 			"fieldname"		"CreateServerButtonShadow"
+			
 			"style"			"MainMenuButtonShadow"
+			
+			"pin_to_sibling"	"CreateServerButton"
+			
 			"wide"			"30"
 			"tall"			"30"
-			"pin_to_sibling"		"CreateServerButton"
+			
 			"image"			"../darhud/mainmenu/button_split_end"
 		}
 		
 		"LoadoutButton"
 		{
-			"controlname"	"CEximageButton"
-			"fieldname"		"LoadoutButton"
-			"style"			"MainMenuButton"
-			"xpos"			"cs-0.5"
-			"ypos"			"105"
-			"wide"			"240"
-			"tall"			"30"
-			"tabPosition"	"0"
-			"labelText"		"#TF_Menu_Loadout"
-			"Command"		"engine open_charinfo"
+			"controlname"			"CExImageButton"
+			"fieldname"			"LoadoutButton"
+			
+			"style"				"MainMenuButton"
+			
+			"xpos"				"cs-0.5"
+			"ypos"				"105"
+			
+			"wide"				"240"
+			"tall"				"30"
+			
+			"labelText"			"#TF_Menu_Loadout"
+			
+			"Command"			"engine open_charinfo"
 			"actionsignallevel"	"2"
-			"proportionaltoparent"	"1"
-			"image_default"	"resource/svgs/mainmenu/icon_backpack.svg"
+
+			"navUp"				"ServerBrowserButton"
+			"navDown"			"AchievementsButton"
+			"navLeft"			"<DonateButton"
+			"navRight"			"<BlogButton"
+			
+			"image_default"		"resource/svgs/mainmenu/icon_backpack.svg"
 			
 			"border_default"		"DarHudMMButtonReverse"
 			"border_armed"		"DarHudMMButtonReverseArmed"
@@ -817,46 +878,59 @@
 			"border_depressed"	"DarHudMMButtonReverseDepressed"
 			"border_disabled"		"DarHudMMButtonReverseDisabled"
 			
+			"if_inlevel"
+			{
+				"navLeft"	""
+				"navRight"	""
+			}
+			
 			"Subimage"
 			{
-				"wide"		"o1"
-				"tall"		"f13"
-				"xpos"		"6"
+				"xpos"	"6"
+				
+				"wide"	"o1"
+				"tall"	"f13"
 			}
-
-			"navUp"			"ServerBrowserButton"
-			"navDown"		"AchievementsButton"
 		}
 		"LoadoutButtonShadow"
 		{
-			"controlname"	"CTFImagePanel"
+			"controlname"		"CTFImagePanel"
 			"fieldname"		"LoadoutButtonShadow"
-			"style"		"MainMenuButtonShadow"
+			
+			"style"			"MainMenuButtonShadow"
+			
+			"pin_to_sibling"	"LoadoutButton"
+			
 			"wide"			"240"
 			"tall"			"30"
-			"proportionaltoparent"	"1"
-			"pin_to_sibling"		"LoadoutButton"
-			"image"			"../darhud/mainmenu/button_reverse"
 			
-			"drawcolor"		"LoadoutMMShadow"
+			"image"			"../darhud/mainmenu/button_reverse"
 		}
 		
 		"AchievementsButton"
 		{
-			"controlname"	"CEximageButton"
-			"fieldname"		"AchievementsButton"
-			"style"			"MainMenuButton"
-			"xpos"			"cs-0.5-15"
-			"ypos"			"139"
-			"zpos"			"2"
-			"wide"			"210"
-			"tall"			"30"
-			"tabPosition"	"0"
-			"labelText"		"#TF_Menu_Achievements"
-			"Command"		"gamemenucommand OpenAchievementsMenu"
+			"controlname"			"CExImageButton"
+			"fieldname"			"AchievementsButton"
+			
+			"style"				"MainMenuButton"
+			
+			"xpos"				"cs-0.5-15"
+			"ypos"				"139"
+			
+			"wide"				"210"
+			"tall"				"30"
+			
+			"labelText"			"#TF_Menu_Achievements"
+			
+			"Command"			"gamemenucommand OpenAchievementsMenu"
 			"actionsignallevel"	"2"
-			"proportionaltoparent"	"1"
-			"image_default"	"resource/svgs/mainmenu/icon_badge.svg"
+			
+			"navUp"				"LoadoutButton"
+			"navDown"			"OptionsButton"
+			"navLeft"			"<DonateButton"
+			"navRight"			"StatsButton"
+			
+			"image_default"		"resource/svgs/mainmenu/icon_badge.svg"
 			
 			"border_default"		"DarHudMM2SplitButtonMain"
 			"border_armed"		"DarHudMM2SplitButtonMainArmed"
@@ -864,184 +938,246 @@
 			"border_depressed"	"DarHudMM2SplitButtonMainDepressed"
 			"border_disabled"		"DarHudMM2SplitButtonMainDisabled"
 			
+			"if_inlevel"
+			{
+				"navLeft"	"StatsButton"
+			}
+			
 			"Subimage"
 			{
-				"wide"		"o1"
-				"tall"		"f14"
-				"xpos"		"6"
+				"xpos"	"6"
+				
+				"wide"	"o1"
+				"tall"	"f14"
 			}
 		}
 		"AchievementsButtonShadow"
 		{
-			"controlname"	"CTFImagePanel"
+			"controlname"		"CTFImagePanel"
 			"fieldname"		"AchievementsButtonShadow"
+			
 			"style"			"MainMenuButtonShadow"
+			
 			"pin_to_sibling"	"AchievementsButton"
+			
 			"wide"			"210"
 			"tall"			"30"
+			
 			"image"			"../darhud/mainmenu/button_2split"
 		}
 		
 		"StatsButton"
 		{
-			"controlname"	"CEximageButton"
-			"fieldname"		"StatsButton"
-			"style"			"MainMenuSubButton"
-			"xpos"			"0"
-			"ypos"			"0"
-			"wide"			"30"
-			"tall"			"30"
-			"labelText"		""
-			"tooltiptext"	"#TF_Menu_Stats"
-			"Command"		"gamemenucommand OpenStatsPage"
-			"enabled"		"1"
-			"actionsignallevel"	"2"
-			"proportionaltoparent"	"1"
-			"image_default"	"resource/svgs/mainmenu/icon_graph.svg"
+			"controlname"				"CExImageButton"
+			"fieldname"				"StatsButton"
+			"style"					"MainMenuSubButton"
 			
-			"border_default"		"DarHudMMSplitButtonEnd"
-			"border_armed"		"DarHudMMSplitButtonEndArmed"
-			"border_selected"		"DarHudMMSplitButtonEndDepressed"
-			"border_depressed"	"DarHudMMSplitButtonEndDepressed"
+			"pin_to_sibling"			"AchievementsButton"
+			"pin_to_sibling_corner"	"pin_topright"
+			
+			"xpos"					"0"
+			"ypos"					"0"
+			
+			"wide"					"30"
+			"tall"					"30"
+			
+			"labelText"				""
+			
+			"Command"				"gamemenucommand OpenStatsPage"
+			"actionsignallevel"		"2"
+			"tooltiptext"				"#TF_Menu_Stats"
+			
+			"navUp"					"LoadoutButton"
+			// "navDown"				"AddonsButton"
+			"navDown"				"OptionsButton"	//for now, until the addons button is enabled
+			"navLeft"				"AchievementsButton"
+			"navRight"				"<BlogButton"
+			
+			"image_default"			"resource/svgs/mainmenu/icon_graph.svg"
+			
+			"border_default"			"DarHudMMSplitButtonEnd"
+			"border_armed"			"DarHudMMSplitButtonEndArmed"
+			"border_selected"			"DarHudMMSplitButtonEndDepressed"
+			"border_depressed"		"DarHudMMSplitButtonEndDepressed"
+			
+			"if_inlevel"
+			{
+				"navRight"	"AchievementsButton"
+			}
 			
 			"Subimage"
 			{
 				"xpos"		"5"
 			}
-			
-			"pin_to_sibling"	"AchievementsButton"
-			"pin_to_sibling_corner"	"pin_topright"
 		}
 		"StatsButtonShadow"
 		{
-			"controlname"	"CTFImagePanel"
+			"controlname"		"CTFImagePanel"
 			"fieldname"		"StatsButtonShadow"
+			
 			"style"			"MainMenuButtonShadow"
+			
 			"pin_to_sibling"	"StatsButton"
+			
 			"wide"			"30"
 			"tall"			"30"
-			"proportionaltoparent"	"1"
+			
 			"image"			"../darhud/mainmenu/button_split_end"
 		}
 
 		"OptionsButton"
 		{
-			"controlname"	"CEximageButton"
-			"fieldname"		"OptionsButton"
-			"style"			"MainMenuButton"
-			"xpos"			"cs-0.5-15"
-			"ypos"			"173"
-			"wide"			"210"
-			"tall"			"30"
-			"labelText"		"#TF_Menu_Options"
-			"Command"		"gamemenucommand Options"
+			"controlname"			"CExImageButton"
+			"fieldname"			"OptionsButton"
+			
+			"style"				"MainMenuButton"
+			
+			"xpos"				"cs-0.5-15"
+			"ypos"				"173"
+			
+			"wide"				"210"
+			"tall"				"30"
+			
+			"labelText"			"#TF_Menu_Options"
+			
+			"Command"			"gamemenucommand Options"
 			"actionsignallevel"	"2"
-			"image_default"	"resource/svgs/mainmenu/icon_gear.svg"
+			
+			"navUp"				"AchievementsButton"
+			"navDown"			"QuitButton"
+			"navLeft"			"<DonateButton"
+			// "navRight"			"AddonsButton"
+			"navRight"			"<BlogButton"	//for now, until the addons button is enabled
+			
+			"image_default"		"resource/svgs/mainmenu/icon_gear.svg"
 			
 			"border_default"		"DarHudMM2SplitButtonMainReverse"
 			"border_armed"		"DarHudMM2SplitButtonMainReverseArmed"
 			"border_selected"		"DarHudMM2SplitButtonMainReverseDepressed"
 			"border_depressed"	"DarHudMM2SplitButtonMainReverseDepressed"
+			
+			"if_inlevel"
+			{
+				"navDown"	"DisconnectButton"
+				//"navLeft"	"AddonsButton"
+				"navLeft"	""	//for now, until the addons button is enabled
+				"navRight"	""	//for now, until the addons button is enabled
+			}
 
 			"Subimage"
 			{
-				"wide"		"o1"
-				"tall"		"f14"
-				"xpos"		"6"
+				"xpos"	"6"
+				
+				"wide"	"o1"
+				"tall"	"f14"
 			}
-
-			"if_inlevel"
-			{
-				// "ypos"			"161"
-			}
-			
-			"navUp"			"AchievementsButton"
-			"navDown"		"QuitButton"
-			//"navLeft"		"AddonsButton"
-			//"navRight"	"AddonsButton"
 		}
 		"OptionsButtonShadow"
 		{
-			"controlname"	"CTFImagePanel"
+			"controlname"		"CTFImagePanel"
 			"fieldname"		"OptionsButtonShadow"
+			
 			"style"			"MainMenuButtonShadow"
+			
 			"pin_to_sibling"	"OptionsButton"
+			
 			"wide"			"210"
 			"tall"			"30"
-			"proportionaltoparent"	"1"
+			
 			"image"			"../darhud/mainmenu/button_2split_reverse"
 		}
 
 		"AddonsButton"
 		{
-			"controlname"	"CEximageButton"
-			"fieldname"		"AddonsButton"
-			"style"			"MainMenuSubButton"
-			"xpos"			"0"
-			"ypos"			"0"
-			"wide"			"30"
-			"tall"			"30"
-			"labelText"		""
-			"tooltiptext"	"#TF_Menu_Addons"
-			"Command"		""
-			"enabled"		"0"
-			"actionsignallevel"	"2"
-			"proportionaltoparent"	"1"
-			"image_default"	"resource/svgs/mainmenu/icon_puzzle.svg"
+			"controlname"				"CExImageButton"
+			"fieldname"				"AddonsButton"
 			
-			"border_default"		"DarHudMMSplitButtonEndReverse"
-			"border_armed"		"DarHudMMSplitButtonEndReverseArmed"
-			"border_selected"		"DarHudMMSplitButtonEndReverseDepressed"
-			"border_depressed"	"DarHudMMSplitButtonEndReverseDepressed"
-			"border_disabled"		"DarHudMMSplitButtonEndReverseDisabled"
+			"style"					"MainMenuSubButton"
+
+			"pin_to_sibling"			"OptionsButton"
+			"pin_to_sibling_corner"	"pin_topright"
 			
-			"dropshadow"		"1"
-			"dropshadowoffset"	"2"
+			"xpos"					"0"
+			"ypos"					"0"
+			
+			"wide"					"30"
+			"tall"					"30"
+			
+			"labelText"				""
+			
+			"tooltiptext"				"#TF_Menu_Addons"
+			"Command"				""
+			"actionsignallevel"		"2"
+			
+			"navUp"					"StatsButton"
+			"navDown"				"QuitButton"
+			"navLeft"				"OptionsButton"
+			"navRight"				"<BlogButton"
+			
+			"image_default"			"resource/svgs/mainmenu/icon_puzzle.svg"
+			
+			"border_default"			"DarHudMMSplitButtonEndReverse"
+			"border_armed"			"DarHudMMSplitButtonEndReverseArmed"
+			"border_selected"			"DarHudMMSplitButtonEndReverseDepressed"
+			"border_depressed"		"DarHudMMSplitButtonEndReverseDepressed"
+			"border_disabled"			"DarHudMMSplitButtonEndReverseDisabled"
+			
+			"enabled"				"0"
 
 			"Subimage"
 			{
-				"xpos"		"5"
+				"xpos"	"5"
 			}
-
-			"pin_to_sibling"	"OptionsButton"
-			"pin_to_sibling_corner"	"pin_topright"
 			
-			"navUp"			"StatsButton"
-			"navDown"		"QuitButton"
-			"navLeft"		"OptionsButton"
-			"navRight"		"OptionsButton"
+			"if_inlevel"
+			{
+				"navRight"	"OptionsButton"
+			}
 		}
 		"AddonsButtonShadow"
 		{
-			"controlname"	"CTFImagePanel"
+			"controlname"		"CTFImagePanel"
 			"fieldname"		"AddonsButtonShadow"
+			
 			"style"			"MainMenuButtonShadow"
+			
 			"pin_to_sibling"	"AddonsButton"
+			
 			"wide"			"30"
 			"tall"			"30"
+			
 			"image"			"../darhud/mainmenu/button_split_end_reverse"
 		}
 
 		"DisconnectButton"
 		{
-			"controlname"	"CEximageButton"
-			"fieldname"		"DisconnectButton"
-			"style"			"MainMenuButton"
-			"xpos"			"cs-0.5-15"
-			"ypos"			"207"
-			"wide"			"210"
-			"tall"			"30"
-			"labelText"		"#TF_Menu_Disconnect"
-			"Command"		"gamemenucommand Disconnect"
-			"actionsignallevel"	"2"
-			"proportionaltoparent"	"1"
-			"image_default"	"resource/svgs/mainmenu/icon_exit.svg"
-
-			"border_default"		"DarHudMM2SplitQuitButtonMain"
-			"border_armed"		"DarHudMM2SplitQuitButtonMainArmed"
-			"border_selected"		"DarHudMM2SplitQuitButtonMainDepressed"
-			"border_depressed"	"DarHudMM2SplitQuitButtonMainDepressed"
-			"border_disabled"		"DarHudMM2SplitQuitButtonMainDisabled"
+			"controlname"					"CExImageButton"
+			"fieldname"					"DisconnectButton"
+			
+			"style"						"MainMenuButton"
+			
+			"xpos"						"cs-0.5-15"
+			"ypos"						"207"
+			
+			"wide"						"210"
+			"tall"						"30"
+			
+			"labelText"					"#TF_Menu_Disconnect"
+			
+			"Command"					"gamemenucommand Disconnect"
+			"actionsignallevel"			"2"
+			
+			"navUp"						"OptionsButton"
+			"navDown"					"<BlogButton"
+			"navLeft"					"<DonateButton"
+			"navRight"					""
+			
+			"image_default"				"resource/svgs/mainmenu/icon_exit.svg"
+			"image_drawcolor"				"ButtonMMQuitLabel"
+			"image_armedcolor"			"ButtonMMQuitArmedLabel"
+			"image_selectedcolor"			"ButtonMMQuitDepressedLabel"
+			"image_depressedcolor"			"ButtonMMQuitDepressedLabel"
+			"image_disabledcolor"			"ButtonQuitDisabledLabel"
 				
 			"defaultFgColor_override"		"ButtonMMQuitLabel"
 			"armedFgColor_override"		"ButtonMMQuitArmedLabel"
@@ -1049,70 +1185,84 @@
 			"depressedFgColor_override"	"ButtonMMQuitDepressedLabel"
 			"disabledFgColor_override"		"ButtonQuitDisabledLabelMM"
 
-			"image_drawcolor"		"ButtonMMQuitLabel"
-			"image_armedcolor"	"ButtonMMQuitArmedLabel"
-			"image_selectedcolor"	"ButtonMMQuitDepressedLabel"
-			"image_depressedcolor"	"ButtonMMQuitDepressedLabel"
-			"image_disabledcolor"	"ButtonQuitDisabledLabel"
+			"border_default"				"DarHudMM2SplitQuitButtonMain"
+			"border_armed"				"DarHudMM2SplitQuitButtonMainArmed"
+			"border_selected"				"DarHudMM2SplitQuitButtonMainDepressed"
+			"border_depressed"			"DarHudMM2SplitQuitButtonMainDepressed"
+			"border_disabled"				"DarHudMM2SplitQuitButtonMainDisabled"
 			
-			"visible"	"0"
-			
-			"Subimage"
-			{
-				"wide"		"o1"
-				"tall"		"f8"
-				"xpos"		"4"
-			}
+			"visible"					"0"
 			
 			"if_inlevel"
 			{
+				"navLeft"	"QuitButton"
+				"navDown"	"ResumeButton"
+				"navRight"	"QuitButton"
+				
 				"visible"	"1"
+			}
+			
+			"Subimage"
+			{
+				"xpos"	"4"
+				
+				"wide"	"o1"
+				"tall"	"f8"
 			}
 		}
 		"DisconnectButtonShadow"
 		{
-			"controlname"	"CTFImagePanel"
+			"controlname"		"CTFImagePanel"
 			"fieldname"		"DisconnectButtonShadow"
-			"proportionaltoparent"	"1"
 			
 			"style"			"MainMenuButtonShadow"
 			
 			"pin_to_sibling"	"DisconnectButton"
 			
-			"wide"			"240"
+			"wide"			"210"
 			"tall"			"30"
 			
 			"image"			"../darhud/mainmenu/button"
-			"drawcolor"		"ButtonMMShadow"
 			
-			"visible"	"0"
+			"visible"		"0"
 			
 			"if_inlevel"
 			{
+				"image"		"../darhud/mainmenu/button_2split"
+				
 				"visible"	"1"
 			}
 		}
 
 		"QuitButton"
 		{
-			"controlname"	"CEximageButton"
-			"fieldname"		"QuitButton"
-			"style"			"MainMenuButton"
-			"xpos"			"cs-0.5"
-			"ypos"			"207"
-			"wide"			"240"
-			"tall"			"30"
-			"labelText"		"#TF_Menu_Quit"
-			"Command"		"gamemenucommand Quit"
-			"actionsignallevel"	"2"
-			"proportionaltoparent"	"1"
-			"image_default"	"resource/svgs/mainmenu/icon_power.svg"
-
-			"border_default"		"DarHudMMQuitButton"
-			"border_armed"		"DarHudMMQuitButtonArmed"
-			"border_depressed"	"DarHudMMQuitButtonDepressed"
-			"border_selected"		"DarHudMMQuitButtonDepressed"
-			"border_disabled"		"DarHudMMQuitButtonDisabled"
+			"controlname"					"CExImageButton"
+			"fieldname"					"QuitButton"
+			
+			"style"						"MainMenuButton"
+			
+			"xpos"						"cs-0.5"
+			"ypos"						"207"
+			
+			"wide"						"240"
+			"tall"						"30"
+			
+			"labelText"					"#TF_Menu_Quit"
+			
+			"Command"					"gamemenucommand Quit"
+			"actionsignallevel"			"2"
+			
+			"navUp"						"OptionsButton"
+			"navDown"					"ServerBrowserButton"
+			"navLeft"					"<DonateButton"
+			"navRight"					"<BlogButton"
+			
+			"image_default"				"resource/svgs/mainmenu/icon_power.svg"
+			"image_drawcolor"				"ButtonMMQuitLabel"
+			"image_armedcolor"			"ButtonMMQuitArmedLabel"
+			"image_selectedcolor"			"ButtonMMQuitDepressedLabel"
+			"image_depressedcolor"			"ButtonMMQuitDepressedLabel"
+			"image_disabledcolor"			"ButtonQuitDisabledLabel"
 				
 			"defaultFgColor_override"		"ButtonMMQuitLabel"
 			"armedFgColor_override"		"ButtonMMQuitArmedLabel"
@@ -1120,62 +1270,68 @@
 			"depressedFgColor_override"	"ButtonMMQuitDepressedLabel"
 			"disabledFgColor_override"		"ButtonQuitDisabledLabelMM"
 
-			"image_drawcolor"		"ButtonMMQuitLabel"
-			"image_armedcolor"	"ButtonMMQuitArmedLabel"
-			"image_selectedcolor"	"ButtonMMQuitDepressedLabel"
-			"image_depressedcolor"	"ButtonMMQuitDepressedLabel"
-			"image_disabledcolor"	"ButtonQuitDisabledLabel"
-			
-			"Subimage"
-			{
-				"wide"		"o1"
-				"tall"		"f8"
-				"xpos"		"4"
-				
-				"if_inlevel"
-				{
-					"xpos"	"5"
-					
-				}
-			}
+			"border_default"				"DarHudMMQuitButton"
+			"border_armed"				"DarHudMMQuitButtonArmed"
+			"border_depressed"			"DarHudMMQuitButtonDepressed"
+			"border_selected"				"DarHudMMQuitButtonDepressed"
+			"border_disabled"				"DarHudMMQuitButtonDisabled"
 			
 			"if_inlevel"
 			{
-				"pin_to_sibling"	"DisconnectButton"
+				"pin_to_sibling"			"DisconnectButton"
 				"pin_to_sibling_corner"	"pin_topright"
 				
 				"xpos"					"0"
 				"ypos"					"0"
 				
-				"wide"		"30"
+				"wide"					"30"
 				
-				"labelText"		""
-				"tooltiptext"	"#TF_Menu_Quit"
+				"labelText"				""
+				
+				"tooltiptext"				"#TF_Menu_Quit"
 			
-				"border_default"		"DarHudMMSplitQuitButtonEnd"
-				"border_armed"		"DarHudMMSplitQuitButtonEndArmed"
-				"border_selected"		"DarHudMMSplitQuitButtonEndDepressed"
-				"border_depressed"	"DarHudMMSplitQuitButtonEndDepressed"
+				"navUp"					"OptionsButton"
+				"navDown"				"ResumeButton"
+				"navLeft"				"DisconnectButton"
+				"navRight"				"DisconnectButton"
+			
+				"border_default"			"DarHudMMSplitQuitButtonEnd"
+				"border_armed"			"DarHudMMSplitQuitButtonEndArmed"
+				"border_selected"			"DarHudMMSplitQuitButtonEndDepressed"
+				"border_depressed"		"DarHudMMSplitQuitButtonEndDepressed"
+			}
+			
+			"Subimage"
+			{
+				"xpos"	"4"
+				"wide"	"o1"
+				"tall"	"f8"
 				
-				"visible"	"1"
+				"if_inlevel"
+				{
+					"xpos"	"5"
+				}
 			}
 		}
 		"QuitButtonShadow"
 		{
-			"controlname"	"CTFImagePanel"
+			"controlname"		"CTFImagePanel"
 			"fieldname"		"QuitButtonShadow"
+			
 			"style"			"MainMenuButtonShadow"
+			
 			"pin_to_sibling"	"QuitButton"
+			
 			"wide"			"240"
 			"tall"			"30"
-			"proportionaltoparent"	"1"
-			"image"			"../darhud/mainmenu/button"
 			
-			"drawcolor"		"ButtonMMShadow"
+			"image"			"../darhud/mainmenu/button"
 			
 			"if_inlevel"
 			{
-				"wide"		"30"
+				"wide"	"30"
+				
+				"image"	"../darhud/mainmenu/button_split_end"
 			}
 		}
 	}
@@ -1183,24 +1339,23 @@
 	"LinkPanel"
 	{
 		"controlname"	"EditablePanel"
-		"fieldname"		"LinkPanel"
+		"fieldname"	"LinkPanel"
 		
-		"xpos"			"r100"
-		"ypos"			"r38"
-		"wide"			"90"
-		"tall"			"28"
+		"xpos"		"r100"
+		"ypos"		"r38"
+		"wide"		"90"
+		"tall"		"28"
 		
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"	"1"
 
 		"if_inlevel"
 		{
-			"visible"		"0"
+			"visible"	"0"
 		}
 		
 		"BlogButton"
 		{
-			"controlname"			"CEximageButton"
+			"controlname"			"CExImageButton"
 			"fieldname"			"BlogButton"
 			
 			"style"				"MainMenuLinkButton"
@@ -1212,12 +1367,22 @@
 			"actionsignallevel"	"2"
 			"tooltiptext"			"#TF_Menu_Blog"
 			
+			"navUp"				"<QuitButton"
+			"navDown"			"<ServerBrowserButton"
+			"navLeft"			"<QuitButton"
+			"navRight"			"BugReportButton"
+			
 			"image_default"		"resource/svgs/mainmenu/icon_logo.svg"
+			
+			"if_inlevel"
+			{
+				"navDown"	"<ResumeButton"
+			}
 		}
 		
 		"BugReportButton"
 		{
-			"controlname"				"CEximageButton"
+			"controlname"				"CExImageButton"
 			"fieldname"				"BugReportButton"
 			
 			"style"					"MainMenuLinkButton"
@@ -1232,12 +1397,22 @@
 			"actionsignallevel"		"2"
 			"tooltiptext"				"#TF_Menu_ReportBug"
 			
+			"navUp"					"<QuitButton"
+			"navDown"				"<ServerBrowserButton"
+			"navLeft"				"BlogButton"
+			"navRight"				"DonateButton"
+			
 			"image_default"			"resource/svgs/mainmenu/icon_bug_link.svg"
+			
+			"if_inlevel"
+			{
+				"navDown"	"<ResumeButton"
+			}
 		}
 
 		"DonateButton"
 		{
-			"controlname"				"CEximageButton"
+			"controlname"				"CExImageButton"
 			"fieldname"				"DonateButton"
 			
 			"style"					"MainMenuLinkButton"
@@ -1251,31 +1426,44 @@
 			"Command"				"opendonate"
 			"actionsignallevel"		"2"
 			"tooltiptext"				"#TF_Menu_Donate"
+			
+			"navUp"					"<QuitButton"
+			"navDown"				"<ServerBrowserButton"
+			"navLeft"				"BugReportButton"
+			"navRight"				"<QuitButton"
 
 			"image_armedcolor"		"CreditsGreen"
 			"image_depressedcolor"		"CreditsGreen"
 			"image_selectedcolor"		"CreditsGreen"
 			
 			"image_default"			"resource/svgs/mainmenu/icon_donate.svg"
+			
+			"if_inlevel"
+			{
+				"navDown"	"<ResumeButton"
+			}
 		}
 	}
 	
 	"FriendPanel"
 	{
 		"controlname"		"UIFriendPanel"
-		"fieldname"			"FriendPanel"
-		"xpos"				"c-300"
-		"ypos"				"r16"
-		"zpos"				"-1"
-		"wide"				"256"
-		"tall"				"124"
-		"visible"			"1"
-		"enabled"			"1"
+		"fieldname"		"FriendPanel"
+		
+		"xpos"			"c-300"
+		"ypos"			"r16"
+		"zpos"			"-1"
+		
+		"wide"			"256"
+		"tall"			"124"
+		
 		"paintbackground"	"0"
+		
+		"visible"		"1"
 		
 		"if_streamermode"
 		{
-			"visible"		"0"
+			"visible"	"0"
 		}
 
 		"InnerBackground"
@@ -1290,10 +1478,9 @@
 			"wide"				"f12"
 			"tall"				"120"
 			
-			"bgcolor_override"		"TanDarkest"
+			"bgcolor_override"	"TanDarkest"
 			
 			"visible"			"0"
-			"enabled"			"1"
 		}
 		
 		"SteamFriendsList"
@@ -1368,99 +1555,84 @@
 		
 		"ShowFriendListButton"
 		{
-			"controlname"					"CEximageButton"
-			"fieldname"					"ShowFriendListButton"
-			"proportionaltoparent"			"1"
+			"controlname"		"CExImageButton"
+			"fieldname"		"ShowFriendListButton"
 			
-			"style"					"MainMenuSubButton"
+			"style"			"MainMenuSubButton"
 			
-			"xpos"						"cs-0.5"
-			"ypos"						"0"
-			"zpos"						"-2"
+			"xpos"			"cs-0.5"
+			"ypos"			"0"
+			"zpos"			"-2"
 			
-			"wide"						"40"
-			"tall"						"16"
+			"wide"			"40"
+			"tall"			"16"
 			
-			"labelText"					""
+			"labelText"		""
 			
-			"command"					"show"
-			"tooltiptext"					"#TF_Menu_ShowFriends"
+			"command"		"show"
+			"tooltiptext"		"#TF_Menu_ShowFriends"
 			
-			"RoundedCorners"				"0"
+			"sound_released"	"UI/slide_down.wav"
 			
-			"sound_released"				"UI/slide_down.wav"
-			
-			"image_default"			"resource/svgs/mainmenu/icon_friend.svg"
-			
-			"visible"					"1"
+			"image_default"	"resource/svgs/mainmenu/icon_friend.svg"
 			
 			"Subimage"
 			{
-				"controlname"			"ImagePanel"
-				"fieldname"			"Subimage"
-				"proportionaltoparent"	"1"
+				"controlname"	"ImagePanel"
+				"fieldname"	"Subimage"
 				
-				"xpos"				"cs-0.5+1"
-				"ypos"				"cs-0.5"
-				"zpos"				"1"
+				"xpos"		"cs-0.5+1"
+				"ypos"		"cs-0.5"
+				"zpos"		"1"
 				
-				"wide"				"o1"
-				"tall"				"f2"
+				"wide"		"o1"
+				"tall"		"f2"
 				
-				"scaleimage"			"1"
-				
-				"visible"			"1"
-				"enabled"			"1"
+				"scaleimage"	"1"
 			}
 			
 			"if_inlevel"
 			{
-				"navRight"		"<ResumeButton"
+				"navDown"	"<ResumeButton"
 			}
 		}
 		
 		"HideFriendListButton"
 		{
-			"controlname"				"CEximageButton"
-			"fieldname"				"HideFriendListButton"
-			"proportionaltoparent"		"1"
+			"controlname"		"CExImageButton"
+			"fieldname"		"HideFriendListButton"
 			
-			"style"					"MainMenuSubButton"
+			"style"			"MainMenuSubButton"
 			
-			"xpos"					"cs-0.5"
-			"ypos"					"0"
-			"zpos"					"-2"
+			"xpos"			"cs-0.5"
+			"ypos"			"0"
+			"zpos"			"-2"
 			
-			"wide"					"40"
-			"tall"					"16"
+			"wide"			"40"
+			"tall"			"16"
 			
-			"visible"				"0"
-			"labelText"				""
-			"tooltiptext"				"#TF_Menu_HideFriends"
-			"command"				"hide"
-			"RoundedCorners"			"0"
+			"visible"		"0"
+			"labelText"		""
+			"tooltiptext"		"#TF_Menu_HideFriends"
+			"command"		"hide"
 			
-			"sound_released"			"UI/slide_up.wav"
+			"sound_released"	"UI/slide_up.wav"
 			
 			"image_default"	"resource/svgs/mainmenu/icon_friend_off.svg"
 			
 			"Subimage"
 			{
-				"controlname"			"ImagePanel"
-				"fieldname"			"Subimage"
-				"proportionaltoparent"	"1"
+				"controlname"	"ImagePanel"
+				"fieldname"	"Subimage"
 				
-				"xpos"				"cs-0.5+1"
-				"ypos"				"cs-0.5"
-				"zpos"				"1"
+				"xpos"		"cs-0.5+1"
+				"ypos"		"cs-0.5"
+				"zpos"		"1"
 				
-				"wide"				"o1"
-				"tall"				"f2"
+				"wide"		"o1"
+				"tall"		"f2"
 				
-				"scaleimage"			"1"
-				
-				"visible"			"1"
-				"enabled"			"1"
+				"scaleimage"	"1"
 			}
 		}
 	}

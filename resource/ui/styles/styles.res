@@ -69,7 +69,6 @@
 			"dropshadowoffset"	"3"
 			
 			"visible"			"1"
-			"enabled"			"1"
 		}
 	}
 	"MainMenuButtonShadow"
@@ -146,7 +145,6 @@
 			"dropshadowoffset"	"3"
 			
 			"visible"			"1"
-			"enabled"			"1"
 		}
 	}
 	
@@ -195,7 +193,6 @@
 			"dropshadowoffset"	"3"
 			
 			"visible"			"1"
-			"enabled"			"1"
 		}
 	}
 	
@@ -382,7 +379,6 @@
 				"tall"				"f0"
 				
 				"visible"			"1"
-				"enabled"			"1"
 				
 				"Bullet"
 				{
@@ -401,7 +397,6 @@
 					"drawcolor_override"		"MainTextInactive"
 					
 					"visible"			"1"
-					"enabled"			"1"
 				}				
 			}
 
@@ -439,7 +434,6 @@
 				"drawcolor"	"BackgroundDefault"
 				
 				"visible"	"1"
-				"enabled"	"1"
 			}
 			
 			"HeaderLine"
@@ -460,7 +454,6 @@
 				"bgcolor_override"	"ButtonMM"
 				
 				"visible"			"1"
-				"enabled"			"1"
 			}
 			
 			"Title"
@@ -530,7 +523,6 @@
 				"fadealphaend"			"255"
 				
 				"visible"				"1"
-				"enabled"				"1"
 			}
 			
 			"ContainerShadow2"
@@ -559,7 +551,6 @@
 				"fadealphaend"			"0"
 				
 				"visible"				"1"
-				"enabled"				"1"
 			}
 			
 			"ContainerShadowMid"
@@ -580,7 +571,6 @@
 				"bgcolor_override"	"0 0 0 240"
 				
 				"visible"			"1"
-				"enabled"			"1"
 			}
 		}
 		
@@ -633,7 +623,6 @@
 				"bgcolor_override"	"ButtonMM"
 				
 				"visible"			"1"
-				"enabled"			"1"
 			}
 			
 			"FooterBackground"
@@ -645,24 +634,24 @@
 	
 	"AchievementsSubButton"
 	{
-		"proportionaltoparent"	"1"
+		"proportionaltoparent"			"1"
 		
-		"labelText"		"MissingNo."
+		"labelText"					"MissingNo."
 
-		"cornersize"	"0"
+		"cornersize"					"0"
 
-		"defaultBgColor_override"	"ListingBody"
+		"defaultBgColor_override"		"ListingBody"
 		"armedBgColor_override"		"ListingItems"
-		"selectedBgColor_override"	"ListingItems"
+		"selectedBgColor_override"		"ListingItems"
 		"depressedBgColor_override"	"ListingItems"
 
-		"image_drawcolor"		"MainTextInactive"
-		"image_armedcolor"		"MainText"
-		"image_depressedcolor"	"MainText"
-		"image_selectedcolor"	"MainTextInactive"
+		"image_drawcolor"				"MainTextInactive"
+		"image_armedcolor"			"MainText"
+		"image_depressedcolor"			"MainText"
+		"image_selectedcolor"			"MainTextInactive"
 		
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"					"1"
+		"enabled"					"1"
 		
 		"Subimage"
 		{
@@ -680,7 +669,6 @@
 			"scaleimage"			"1"
 			
 			"visible"			"1"
-			"enabled"			"1"
 		}
 	}
 	"CommandButton"
@@ -759,7 +747,6 @@
 			"scaleimage"			"1"
 			
 			"visible"			"1"
-			"enabled"			"1"
 		}
 	}
 	
