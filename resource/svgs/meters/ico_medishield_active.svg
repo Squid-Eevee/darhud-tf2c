@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   id="ico_battery_active"
+   width="128"
+   height="128"
+   viewBox="0 0 128 128"
+   version="1.1"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1">
+    <linearGradient
+       id="linearGradient20">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1;"
+         offset="0.20259741"
+         id="stop20" />
+      <stop
+         style="stop-color:#ffffff;stop-opacity:0;"
+         offset="1"
+         id="stop21" />
+    </linearGradient>
+    <style
+       id="style1"></style>
+    <linearGradient
+       xlink:href="#linearGradient20"
+       id="linearGradient21"
+       x1="63.997448"
+       y1="106.3989"
+       x2="63.997452"
+       y2="21.601168"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <g
+     id="layer1"
+     style="display:inline;stroke-width:0.79375;stroke-dasharray:none"
+     transform="matrix(3.7795276,0,0,3.7795276,-0.00339074,-0.50054695)">
+    <path
+       id="path28"
+       style="display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.79375;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:16.7;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+       d="M 16.933333,2.8272176 C 13.66685,4.7878645 9.8470794,6.2807319 4.5377075,6.5127808 4.681926,18.033144 6.7299577,27.936253 16.933333,31.304032 27.187019,27.500948 29.401233,17.766373 29.328959,6.5127808 24.187913,6.2018164 20.34773,4.7078626 16.933333,2.8272176 Z m 0,1.3565064 c 3.950561,1.5134509 7.298305,2.9380348 11.21482,3.3341634 C 28.251063,17.969648 26.167859,26.759387 16.933333,29.947526 7.4497849,26.69324 5.6325112,17.756418 5.718514,7.5178874 9.8450401,7.02461 13.409819,5.6802249 16.933333,4.183724 Z" />
+  </g>
+  <path
+     id="path19"
+     style="fill:url(#linearGradient21);fill-opacity:1;stroke:none;stroke-width:5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:12.7;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+     d="M 63.996094,15.3125 C 50.678875,20.968566 37.205694,26.049708 21.609375,27.914062 21.284325,66.610872 28.152762,100.38784 63.996094,112.6875 98.89824,100.63784 106.77176,67.41678 106.38281,27.914062 91.580238,26.416884 78.927348,21.032629 63.996094,15.3125 Z M 49.431641,34.5 H 78.568359 V 49.431641 H 93.5 V 78.568359 H 78.568359 V 93.5 H 49.431641 V 78.568359 H 34.5 V 49.431641 h 14.931641 z m 7,7 V 56.431641 H 41.5 V 71.568359 H 56.431641 V 86.5 H 71.568359 V 71.568359 H 86.5 V 56.431641 H 71.568359 V 41.5 Z" />
+  <path
+     id="rect232"
+     style="fill:#ffffff;fill-opacity:1;stroke-width:1.74775;stroke-linejoin:round"
+     d="M 52.930688,38 V 52.930687 H 38 V 75.068712 H 52.930688 V 90 H 75.068712 V 75.068712 H 90 V 52.930687 H 75.068712 V 38 Z" />
+</svg>

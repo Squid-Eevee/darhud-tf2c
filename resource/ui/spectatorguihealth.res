@@ -1,106 +1,124 @@
 "Resource/UI/SpectatorGUIHealth.res"
 {
-	"PlayerStatusHealthImage"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"PlayerStatusHealthImage"
-		"xpos"			"7"
-		"ypos"			"7"
-		"zpos"			"4"
-		"wide"			"14"
-		"tall"			"14"
-		"visible"		"1"
-		"enabled"		"1"
-		"scaleImage"	"1"	
-	}
 	"PlayerStatusHealthImageBG"
 	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"PlayerStatusHealthImageBG"
-		"xpos"			"6"
-		"ypos"			"6"
-		"zpos"			"3"
-		"wide"			"16"
-		"tall"			"16"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"../hud/health_bg"
-		"scaleImage"	"1"	
-	}	
+		"controlname"			"ImagePanel"
+		"fieldname"			"PlayerStatusHealthImageBG"
+		
+		"xpos"				"5"
+		"ypos"				"5"
+		"zpos"				"3"
+		
+		"wide"				"16"
+		"tall"				"16"
+		
+		"image"				"resource\svgs\ingame\health_white.svg"
+		"scaleimage"			"1"
+		"drawcolor"			"TanDarker"
+		
+		"dropshadow"			"1"
+		"dropshadowoffset"	"2"
+		
+		"visible"			"1"
+	}
+	"PlayerStatusHealthImage"
+	{
+		"controlname"	"ImagePanel"
+		"fieldname"	"PlayerStatusHealthImage"
+		
+		"xpos"		"6"
+		"ypos"		"6"
+		"zpos"		"4"
+		
+		"wide"		"14"
+		"tall"		"14"
+		
+		"scaleimage"	"1"
+		
+		"visible"	"1"
+	}
+	"PlayerStatusHealthImageOverheal"
+	{
+		"controlname"	"ImagePanel"
+		"fieldname"	"PlayerStatusHealthImageOverheal"
+		
+		"xpos"		"6"
+		"ypos"		"6"
+		"zpos"		"5"
+		
+		"wide"		"14"
+		"tall"		"14"
+		
+		"image"			"..\darhud\health\healthbar\overheal"
+		"scaleImage"		"1"
+		"drawcolor"		"HealthGain"
+		
+		"alpha"			"0"
+		
+		"visible"	"1"
+	}
+	
 	"BuildingStatusHealthImageBG"
 	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"BuildingStatusHealthImageBG"
-		"xpos"			"2"
-		"ypos"			"3"
-		"zpos"			"2"
-		"wide"			"22"
-		"tall"			"22"
-		"visible"		"0"
-		"enabled"		"1"
-		"image"			"../hud/health_equip_bg"
-		"scaleImage"	"1"	
-	}	
+		"controlname"	"ImagePanel"
+		"fieldname"	"BuildingStatusHealthImageBG"
+		"proportionaltoparent"	"1"
+		
+		"xpos"		"3"
+		"ypos"		"3"
+		"zpos"		"2"
+		
+		"wide"		"20"
+		"tall"		"20"
+		
+		"image"		"resource\svgs\ingame\health_equip_bg.svg"
+		"scaleimage"	"1"
+		"drawcolor"	"TanDarker"
+		
+		"visible"	"1"
+	}
+	
 	"PlayerStatusHealthBonusImage"
 	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"PlayerStatusHealthBonusImage"
-		"xpos"			"8"
-		"ypos"			"8"
-		"zpos"			"3"
-		"wide"			"12"
-		"tall"			"12"
-		"visible"		"0"
-		"enabled"		"1"
-		"image"			"../hud/health_over_bg"
-		"scaleImage"	"1"	
+		"controlname"	"ImagePanel"
+		"fieldname"	"PlayerStatusHealthBonusImage"
+		"proportionaltoparent"	"1"
+		
+		"xpos"		"5"
+		"ypos"		"5"
+		"zpos"		"3"
+		
+		"wide"		"16"
+		"tall"		"16"
+		
+		"image"		"../hud/health_over_bg"
+		"scaleimage"	"1"
+		
+		"visible"	"0"
 	}
+	
 	"PlayerStatusHealthValue"
 	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"PlayerStatusHealthValue"
-		"xpos"			"0"
-		"ypos"			"12"
-		"zpos"			"5"
-		"wide"			"28"
-		"tall"			"15"
-		"visible"		"1"
-		"enabled"		"1"
-		"labelText"		"%Health%"
-		"textAlignment"	"center"
-		"font"			"ChatFont"
-		"fgcolor"		"HealthNormal"
+		"controlname"			"CExLabel"
+		"fieldname"			"PlayerStatusHealthValue"
+		
+		"xpos"				"0"
+		"ypos"				"5"
+		"zpos"				"5"
+		
+		"wide"				"26"
+		"tall"				"16"
+		
+		"labelText"			"%Health%"
+		"font"				"TargetHealthFont"
+		"textAlignment"		"south"
+		
+		"fgcolor"			"HealthNormal"
+		
+		"dropshadow"			"1"
+		"dropshadowoffset"	"2"
+		
+		"visible"			"1"
+		"enabled"			"1"
 	}
-	"PlayerStatusHealthValueRejuv"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"PlayerStatusHealthValueRejuv"
-		"xpos"			"0"
-		"ypos"			"12"
-		"zpos"			"5"
-		"wide"			"28"
-		"tall"			"15"
-		"visible"		"1"
-		"enabled"		"1"
-		"labelText"		"%Health%"
-		"textAlignment"	"center"
-		"font"			"ChatFont"
-		"fgcolor"		"HealthNormal"
-	}
-	"PlayerStatusPlayerLevel"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"PlayerStatusPlayerLevel"
-		"xpos"			"8"
-		"xpos_minmode"	"0"
-		"ypos"			"9"
-		"zpos"			"5"
-		"wide"			"16"
-		"tall"			"12"
-		"visible"		"0"
-		"enabled"		"1"
-		"textAlignment"	"center"	
-		"font"			"ScoreboardVerySmall"
-		"fgcolor"		"TFOrange"
-	}							
 }

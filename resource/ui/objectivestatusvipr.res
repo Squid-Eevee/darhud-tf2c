@@ -2,8 +2,8 @@
 {
 	"ObjectiveStatusVIPR"
 	{
-		"ControlName"		"EditablePanel"
-		"fieldName"			"ObjectiveStatusVIPR"
+		"controlname"		"EditablePanel"
+		"fieldname"			"ObjectiveStatusVIPR"
 		"xpos"				"c-200"
 		"ypos"				"r150"
 		"zpos"				"1"
@@ -15,8 +15,8 @@
 	
 	"BarTemplate"
 	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"BarTemplate"	
+		"controlname"	"ImagePanel"
+		"fieldname"		"BarTemplate"	
 		"xpos"			"14"
 		"ypos"			"122"
 		"zpos"			"-8"
@@ -24,15 +24,14 @@
 		"tall"			"4"
 		"visible"		"0"
 		"enabled"		"1"
-		"labelText"		""
 		"image"			"../darhud/payload/cart_track"
-		"scaleImage"	"1"
+		"scaleimage"	"1"
 	}
 	
-	"VIPImage"
+	"VIPimage"
 	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"VIPImage"	
+		"controlname"	"ImagePanel"
+		"fieldname"		"VIPimage"	
 		"xpos"			"0"
 		"ypos"			"108"
 		"zpos"			"50"
@@ -40,9 +39,8 @@
 		"tall"			"30"
 		"visible"		"1"
 		"enabled"		"1"
-		"labelText"		""
-		"image"			"../hud/cart_neutral"
-		"scaleImage"	"1"
+		"image"			"../darhud/vipr/vip_neutral"
+		"scaleimage"	"1"
 		
 		"if_team_blue"
 		{
@@ -64,9 +62,9 @@
 	
 	"VIPShadow"
 	{
-		"ControlName"	"ImagePanel"
-		"fieldName"	"VIPShadow"
-		"pin_to_sibling"	"VIPImage"
+		"controlname"	"ImagePanel"
+		"fieldname"	"VIPShadow"
+		"pin_to_sibling"	"VIPimage"
 		"xpos"		"0"
 		"ypos"		"0"
 		"zpos"		"49"
@@ -75,31 +73,32 @@
 		"visible"	"1"
 		"enabled"	"1"
 		"image"		"../darhud/vipr/vip_shadow"
-		"scaleImage"	"1"
+		"scaleimage"	"1"
 	}
 	
-	"DeadImage"
+	"Deadimage"
 	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"DeadImage"	
+		"controlname"	"ImagePanel"
+		"fieldname"		"Deadimage"	
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"55"
 		"wide"			"30"
 		"tall"			"30"
-		"wide_minmode"	"20"
-		"tall_minmode"	"20"
 		"visible"		"0"
 		"enabled"		"1"
 		"labelText"		""
-		"image"			"../hud/leaderboard_dead"
-		"scaleImage"	"1"
+		"image"			"resource/svgs/meters/skull.svg"
+		"drawcolor"		"ObjectiveLabel"
+		"scaleimage"	"1"
+		"dropshadow"		"1"
+		"dropshadowoffset"	"2"
 	}
 	
 	"HomeIcon"
 	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"HomeIcon"	
+		"controlname"	"ImagePanel"
+		"fieldname"		"HomeIcon"	
 		"xpos"			"0"
 		"ypos"			"111"
 		"zpos"			"-7"
@@ -108,8 +107,8 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		""
-		"image"			"../darhud/obj_icons/vipr/icon_obj_home_blu"
-		"scaleImage"	"1"
+		"image"			"../darhud/obj_icons/vipr/icon_obj_home_neutral"
+		"scaleimage"	"1"
 		
 		"if_team_blue"
 		{

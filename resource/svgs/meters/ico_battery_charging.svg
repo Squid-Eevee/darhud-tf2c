@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   id="ico_battery_active"
+   width="128"
+   height="128"
+   viewBox="0 0 128 128"
+   version="1.1"
+   sodipodi:docname="ico_battery_charging.svg"
+   inkscape:version="1.4.2 (f4327f4, 2025-05-13)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#808080"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="6.140625"
+     inkscape:cx="74.422392"
+     inkscape:cy="75.236641"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="ico_battery_active" />
+  <defs
+     id="defs1">
+    <style
+       id="style1">
+      .cls-1 {
+        fill: #fff;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path
+     class="cls-1"
+     d="m 85,96 c -0.126,1.87 -2.158,4 -4,4 H 47 c -1.842,0 -3.883,-2.13 -4,-4 L 39,40 c -0.163,-2.6 1.791,-4 4,-4 h 13 v -4 c 0,-2.209139 1.790861,-4 4,-4 h 8 c 2.209139,0 4,1.790861 4,4 v 4 h 13 c 2.209,0 4.175,1.4 4,4 z M 43,40 47,96 h 34 l 4,-56 z m 16.144,44 h 18.713 l -0.571,8 H 50.714 L 50.143,84 Z M 79.087,66.787 78.143,80 H 49.857 L 48.914212,66.787 Z"
+     id="path1"
+     sodipodi:nodetypes="cssccscsssscscccccccccccccccccc" />
+</svg>

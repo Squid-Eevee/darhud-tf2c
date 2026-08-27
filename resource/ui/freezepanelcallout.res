@@ -2,55 +2,72 @@
 {
 	"CalloutBG"
 	{
-		"ControlName"		"CTFImagePanel"
-		"fieldName"		"CalloutBG"
-		"xpos"			"12"
-		"ypos"			"13"
+		"controlname"		"CTFImagePanel"
+		"fieldname"		"CalloutBG"
+		
+		"xpos"			"0"
+		"ypos"			"0"
 		"zpos"			"0"
+		
 		"wide"			"76"
 		"tall"			"24"
+		
+		"image"			"..\darhud\square\square_neutral"
+		"teambg_0"		"..\darhud\square\square_neutral"
+		"teambg_1"		"..\darhud\square\square_spectator"
+		"teambg_2"		"..\darhud\square\square_red"
+		"teambg_3"		"..\darhud\square\square_blue"
+		"teambg_4"		"..\darhud\square\square_green"
+		"teambg_5"		"..\darhud\square\square_yellow"
+		"scaleimage"		"1"
+		
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../darhud/square_neutral"
-		"scaleImage"		"1"
-		"teambg_0"		"../darhud/square_neutral"
-		"teambg_1"		"../darhud/square_spectator"
-		"teambg_2"		"../darhud/square_red"
-		"teambg_3"		"../darhud/square_blue"
-		"teambg_4"		"../darhud/square_green"
-		"teambg_5"		"../darhud/square_yellow"
 	}
 	"ArrowIcon"
 	{
-		"ControlName"		"ImagePanel"
-		"fieldName"		"ArrowIcon"
-		"xpos"			"20"
-		"ypos"			"37"
-		"zpos"			"3"
-		"wide"			"20"
-		"tall"			"10"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"../hud/freezecam_callout_arrow"
-		"scaleImage"	"1"	
-	}		
+		"controlname"				"ImagePanel"
+		"fieldname"				"ArrowIcon"
+		
+		"pin_to_sibling"			"CalloutBG"
+		"pin_corner_to_sibling"	"pin_center_top"
+		"pin_to_sibling_corner"	"pin_center_bottom"
+		
+		"xpos"					"0"
+		"ypos"					"0"
+		"zpos"					"0"
+		
+		"wide"					"20"
+		"tall"					"10"
+		
+		"image"					"../hud/freezecam_callout_arrow"
+		"scaleimage"				"1"	
+		
+		"visible"				"1"
+		"enabled"				"1"
+	}
 	"CalloutLabel"
 	{	
-		"ControlName"		"CExLabel"
-		"fieldName"		"CalloutLabel"
-		"font"			"HudFontSmallShadow"
-		"xpos"			"15"
-		"ypos"			"15"
-		"zpos"			"2"
-		"wide"			"70"
-		"tall"			"20"
-		"autoResize"		"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"labelText"		"#FreezePanel_Callout"
+		"controlname"			"CExLabel"
+		"fieldname"			"CalloutLabel"
+		
+		"pin_to_sibling"		"CalloutBG"
+		
+		"xpos"				"0"
+		"ypos"				"0"
+		"zpos"				"1"
+		
+		"wide"				"76"
+		"tall"				"24"
+		
+		"labelText"			"#FreezePanel_Callout"
+		"font"				"HudFontSmall"
 		"textAlignment"		"center"
-		"dulltext"		"0"
-		"brighttext"		"0"
+		
+		"dropshadow"			"1"
+		"dropshadowoffset"	"2"
+		
+		"visible"			"1"
+		"enabled"			"1"
 	}
 }

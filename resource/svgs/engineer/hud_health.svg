@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="64"
+   height="64"
+   viewBox="0 0 16.933333 16.933334"
+   version="1.1"
+   id="svg1"
+   inkscape:export-filename="hud_health.svg"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   sodipodi:docname="hud_health.svg"
+   inkscape:version="1.4.2 (f4327f4, 2025-05-13)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#ffffff;stroke-width:13.1469;stroke-linecap:round;stroke-miterlimit:12.7;paint-order:stroke fill markers"
+       id="rect1"
+       width="6.3499999"
+       height="16.933332"
+       x="5.2916665"
+       y="0" />
+    <rect
+       style="fill:#ffffff;stroke-width:13.1469;stroke-linecap:round;stroke-miterlimit:12.7;paint-order:stroke fill markers"
+       id="rect2"
+       width="16.933332"
+       height="6.3499999"
+       x="0"
+       y="5.2916665" />
+  </g>
+</svg>

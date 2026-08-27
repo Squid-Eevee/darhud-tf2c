@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   id="armor_color"
+   width="128"
+   height="128"
+   viewBox="0 0 128 128"
+   version="1.1"
+   xml:space="preserve"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><defs
+     id="defs2"><style
+       id="style1">
+      .cls-1 {
+        fill-rule: evenodd;
+        fill: url(#linear-gradient);
+      }
+    </style><linearGradient
+       id="linear-gradient"
+       x1="64"
+       y1="128"
+       x2="64"
+       gradientUnits="userSpaceOnUse"><stop
+         offset="0"
+         stop-color="#afa68e"
+         id="stop1" /><stop
+         offset="1"
+         stop-color="#fceccb"
+         id="stop2" /></linearGradient></defs><path
+     id="Shape_75_copy"
+     data-name="Shape 75 copy"
+     class="cls-1"
+     d="M 46,0 V 46 H 0 v 36 h 46 v 46 H 82 V 82 h 46 V 46 H 82 V 0 Z"
+     style="fill:url(#linear-gradient)" /></svg>

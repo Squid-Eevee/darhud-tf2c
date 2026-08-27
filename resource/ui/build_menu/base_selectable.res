@@ -2,8 +2,8 @@
 {
 	"MainBackground"	
 	{
-		"ControlName"	"CIconPanel"
-		"fieldName"		"MainBackground"
+		"controlname"	"CIconPanel"
+		"fieldname"		"MainBackground"
 		"xpos"			"3"
 		"ypos"			"1"
 		"zpos"			"0"
@@ -11,15 +11,15 @@
 		"tall"			"135"
 		"visible"		"1"
 		"enabled"		"1"
-		"scaleImage"	"1"	
+		"scaleimage"	"1"
 		"icon"			"hud_menu_item_bg"
 		"iconColor"		"128 128 128 255"
 	}
 	
 	"ItemNameLabel"
 	{	
-		"ControlName"	"CExLabel"
-		"fieldName"		"ItemNameLabel"
+		"controlname"	"CExLabel"
+		"fieldname"		"MeterLabelFont"
 		"font"			"Default"
 		"xpos"			"10"
 		"ypos"			"2"
@@ -33,15 +33,15 @@
 		"labelText"		"#TF_Empty_Slot"
 		"labelText_lodef"		"#TF_Empty_Slot"
 		"textAlignment"	"Left"
-		"dulltext"		"0"
-		"brighttext"	"0"
+		"dropshadow"		"1"
+		"dropshadowoffset"	"1"
 		"fgcolor"		"black"
 	}
 
 	"ItemBackground"
 	{
-		"ControlName"	"CIconPanel"
-		"fieldName"		"ItemBackground"
+		"controlname"	"CIconPanel"
+		"fieldname"		"ItemBackground"
 		"xpos"			"4"
 		"ypos"			"0"
 		"zpos"			"0"
@@ -49,7 +49,7 @@
 		"tall"			"135"
 		"visible"		"1"
 		"enabled"		"1"
-		"scaleImage"	"1"	
+		"scaleimage"	"1"
 		"icon"			"hud_menu_item_bg"
 		"iconColor"		"ProgressOffWhite"
 		"roundedcorners"	"0"
@@ -57,8 +57,8 @@
 	
 	"BuildingIcon"	
 	{
-		"ControlName"	"CIconPanel"
-		"fieldName"		"BuildingIcon"
+		"controlname"	"CIconPanel"
+		"fieldname"		"BuildingIcon"
 		"xpos"			"22"
 		"ypos"			"19"
 		"zpos"			"2"
@@ -66,31 +66,34 @@
 		"tall"			"56"
 		"visible"		"0"
 		"enabled"		"1"
-		"scaleImage"	"1"	
+		"scaleimage"	"1"
 		"icon"			"hud_menu_sentry_build"
 		"iconColor"		"255 255 255 255"
 	}
 	
 	"MetalIcon"	
 	{
-		"ControlName"	"CIconPanel"
-		"fieldName"		"MetalIcon"
-		"xpos"			"10"
-		"ypos"			"79"
+		"controlname"	"ImagePanel"
+		"fieldname"		"MetalIcon"
+		"pin_to_sibling" "BuildingIcon"
+		"pin_corner_to_sibling" "PIN_TOPLEFT"
+		"pin_to_sibling_corner" "PIN_BOTTOMLEFT"
+		"xpos"			"3"
+		"ypos"			"-2"
 		"zpos"			"1"
-		"wide"			"10"
-		"tall"			"10"
-		"visible"		"0"
+		"wide"			"16"
+		"tall"			"16"
+		"visible"		"1"
 		"enabled"		"1"
-		"scaleImage"	"1"	
-		"icon"			"ico_metal"
-		"iconColor"		"TanDarker"
+		"scaleimage"	"1"
+		"image"			"resource/svgs/engineer/ico_metal.svg"
+		"drawcolor"		"TanDarker"
 	}
 	
 	"CostLabel"
 	{	
-		"ControlName"	"CExLabel"
-		"fieldName"		"CostLabel"
+		"controlname"	"CExLabel"
+		"fieldname"		"CostLabel"
 		"font"			"HudFontSmall"
 		"fgcolor"		"TanDarker"
 		"xpos"			"23"
@@ -103,6 +106,8 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"labelText"		"%metal%"
-		"textAlignment"	"Left"	
+		"textAlignment"	"Left"
+		"dropshadow"		"1"
+		"dropshadowoffset"	"1"
 	}
 }

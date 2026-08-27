@@ -1,0 +1,205 @@
+#base "_customizations/info_screen/base.res"
+
+"Resource/UI/IntroMenu.res"
+{
+	"intro"
+	{
+		"controlname"		"CTFIntroMenu"
+		"fieldname"		"intro"
+		"xpos"			"0"
+		"ypos"			"0"
+		"wide"			"f0"
+		"tall"			"480"
+		"autoResize"		"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"		"0"
+		"paintbackground"	"0"
+	}
+	
+	"Stripe"
+	{
+	}
+	
+	"Footer"
+	{
+		"Buttons"
+		{
+			"BackButton"
+			{
+				"controlname"	"CExButton"
+				"fieldname"		"BackButton"
+				"xpos"			"40"
+				"ypos"			"r40"
+				"zpos"			"6"
+				"wide"			"150"
+				"tall"			"30"
+				"visible"		"1"
+				"enabled"		"1"
+				"labelText"		"#TF_Back"
+				"textAlignment"	"center"
+				"command"		"back"
+				"font"			"HudFontSmallBold"
+				"roundedcorners"	"0"
+				
+				"sound_armed"		"ui/buttonrollover.wav"
+				"sound_depressed"	"ui/buttonclick.wav"
+				"sound_released"	"ui/buttonclickrelease.wav"
+				"dropshadow"		"1"
+				"dropshadowoffset"	"3"
+			}
+
+			"BackHintIcon"
+			{
+				"controlname"	"CSCHintIcon"
+				"fieldname"		"BackHintIcon"
+				"xpos"			"45"
+				"ypos"			"r37"
+				"zpos"			"7"
+				"wide"			"25"
+				"tall"			"25"
+				"visible"		"1"
+				"enabled"		"1"
+				"textAlignment"	"Left"
+				"actionSet"		"InGameHUDControls"
+				"actionName"	"menu_cancel"
+			}
+	
+			"ReplayButton"
+			{
+				"controlname"	"CExButton"
+				"fieldname"		"ReplayButton"
+				"proportionaltoparent"	"1"
+				"xpos"			"c-75"
+				"ypos"			"0"
+				"zpos"			"6"
+				"wide"			"150"
+				"tall"			"30"
+				"visible"		"1"
+				"enabled"		"1"
+				"labelText"		"#TF_ReplayIntro"
+				"textAlignment"	"center"
+				"command"		"replay"
+				"default"		"1"
+				"font"			"HudFontSmallBold"
+				"roundedcorners"	"0"
+				
+				"sound_armed"		"ui/buttonrollover.wav"
+				"sound_depressed"	"ui/buttonclick.wav"
+				"sound_released"	"ui/buttonclickrelease.wav"
+				"dropshadow"		"1"
+				"dropshadowoffset"	"3"
+			}
+	
+			"SkipButton"
+			{
+				"controlname"	"CExButton"
+				"fieldname"		"SkipButton"
+				"proportionaltoparent"	"1"
+				"xpos"			"c-75"
+				"ypos"			"0"
+				"zpos"			"6"
+				"wide"			"150"
+				"tall"			"30"
+				"visible"		"1"
+				"enabled"		"1"
+				"labelText"		"#Button_SkipIntro"
+				"textAlignment"	"center"
+				"command"		"skip"
+				"default"		"1"
+				"font"			"HudFontSmallBold"
+				"roundedcorners"	"0"
+				
+				"sound_armed"		"ui/buttonrollover.wav"
+				"sound_depressed"	"ui/buttonclick.wav"
+				"sound_released"	"ui/buttonclickrelease.wav"
+				"dropshadow"		"1"
+				"dropshadowoffset"	"3"
+			}
+			
+			"ContinueButton"
+			{
+				"controlname"		"CExButton"
+				"fieldname"		"ContinueButton"
+				"xpos"			"r190"
+				"ypos"			"0"
+				"zpos"			"6"
+				"wide"			"150"
+				"tall"			"30"
+				"visible"		"1"
+				"enabled"		"1"
+				"labelText"		"#TF_Continue"
+				"textAlignment"		"center"
+				"wrap"		"0"
+				"command"		"continue"
+				"default"		"1"
+				"font"			"HudFontSmallBold"
+				"roundedcorners"	"0"
+				
+				"sound_armed"		"ui/buttonrollover.wav"
+				"sound_depressed"	"ui/buttonclick.wav"
+				"sound_released"	"ui/buttonclickrelease.wav"
+				"dropshadow"		"1"
+				"dropshadowoffset"	"3"
+			}
+
+			"ContinueHintIcon"
+			{
+				"controlname"	"CSCHintIcon"
+				"fieldname"		"ContinueHintIcon"
+				"xpos"			"r185"
+				"ypos"			"r37"
+				"zpos"			"7"
+				"wide"			"25"
+				"tall"			"25"
+				"visible"		"1"
+				"enabled"		"1"
+				"textAlignment"	"Left"
+				"actionSet"		"InGameHUDControls"
+				"actionName"	"menu_select"
+			}
+		}
+	}
+	
+	"VideoPanel"
+	{
+		"controlname"	"CTFVideoPanel"
+		"fieldname"		"VideoPanel"
+		"pin_to_sibling"	"Stripe"
+		"pin_corner_to_sibling"	"pin_center_top"
+		"pin_to_sibling_corner"	"pin_center_top"
+		"xpos"			"0"
+		"ypos"			"-8"
+		"zpos"			"3"		
+		"wide"			"300"
+		"tall"			"225"
+		"visible"		"1"
+		"enabled"		"1"
+		"start_delay"	"0"
+		"end_delay"		"0"
+	}
+	
+	"VideoCaption"
+	{
+		"controlname"	"CExLabel"
+		"fieldname"		"VideoCaption"
+		"pin_to_sibling"	"Stripe"
+		"pin_corner_to_sibling"	"pin_center_bottom"
+		"pin_to_sibling_corner"	"pin_center_bottom"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"6"
+		"wide"			"300"
+		"tall"			"70"
+		"visible"		"0"
+		"enabled"		"1"
+		"labelText"		" "
+		"textAlignment"	"center"
+		"font"			"IntroMenuCaption"
+		"fgcolor"		"GeneralLabel"
+		"centerwrap"			"1"
+		"dropshadow"		"1"
+		"dropshadowoffset"	"2"
+	}
+}

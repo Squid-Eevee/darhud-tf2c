@@ -1,0 +1,9 @@
+"Patch"
+{
+	include "materials\darhud\bases\teams\base_blue.vmt"
+	
+	insert
+	{
+		"$basetexture"			"darhud\boss_bar\carrier\boss_bar_surround_mask"
+	}
+}

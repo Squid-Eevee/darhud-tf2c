@@ -1,149 +1,181 @@
 "Resource/UI/HudPlayerClass.res"
 {
-	// player class data
 	"HudPlayerClass"
 	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"HudPlayerClass"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"1"
-		"wide"			"f0"
-		"tall"			"480"
-		"visible"		"1"
-		"enabled"		"1"		
+		"controlname"	"EditablePanel"
+		"fieldname"	"HudPlayerClass"
+		
+		"xpos"		"0"
+		"ypos"		"0"
+		"zpos"		"1"
+		
+		"wide"		"f0"
+		"tall"		"f0"
+		
+		"visible"	"1"
+		"enabled"	"1"
 	}
-	"PlayerStatusClassImage"
+	"PlayerStatusClassimage"
 	{
-		"ControlName"	"CTFClassImage"
-		"fieldName"		"PlayerStatusClassImage"
-		"xpos"			"10"
+		"controlname"			"CTFClassimage"
+		"fieldname"			"PlayerStatusClassimage"
+		
+		"xpos"				"10"
+		"ypos"				"r80"
+		"zpos"				"2"
+		
+		"xpos_minmode"		"c-350"
+		
+		"wide"				"83"
+		"tall"				"83"
+		
+		"scaleimage"			"1"
+		
+		"dropshadow"			"1"
+		"dropshadowoffset"	"3"
+		
+		"visible"			"1"
+	}
+	"PlayerStatusSpyimage"
+	{
+		"controlname"		"CTFImagePanel"
+		"fieldname"		"PlayerStatusSpyimage"
+		
+		"xpos"			"-12"
 		"ypos"			"r80"
-		"xpos_minmode"			"c-350"
-		"zpos"			"0"
+		"zpos"			"2"
+		
+		"xpos_minmode"	"c-372"
+		
 		"wide"			"80"
 		"tall"			"80"
+		
+		"image"			"../hud/class/spy_global"
+		"teambg_0"		"../hud/class/spy_global"
+		"teambg_1"		"../hud/class/spy_global"
+		"teambg_2"		"../hud/class/spy_red"
+		"teambg_3"		"../hud/class/spy_blue"
+		"teambg_4"		"../hud/class/spy_green"
+		"teambg_5"		"../hud/class/spy_yellow"
+		"scaleimage"		"1"
+		
+		"drawcolor"		"160 160 160 255"
+		
 		"visible"		"1"
-		"enabled"		"1"
-		"image"			"../hud/class_scoutred"
-		"scaleImage"	"1"	
 	}
-	"PlayerStatusSpyImage"
+	"PlayerStatusSpyOutlineimage"
 	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"PlayerStatusSpyImage"
-		"xpos"			"3"
-		"ypos"			"r67"
-		"zpos"			"2"
-		"wide"			"0"
-		"tall"			"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"../hud/class_spyred"
-		"scaleImage"	"1"	
-		"teambg_2"		"../hud/class_spyred"
-		"teambg_3"		"../hud/class_spyblue"
-		"teambg_4"		"../hud/class_spygreen"
-		"teambg_5"		"../hud/class_spyyellow"
-	}	
-	"PlayerStatusSpyOutlineImage"
-	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"PlayerStatusSpyOutlineImage"
-		"xpos"			"3"
-		"ypos"			"r67"
-		"zpos"			"7"
-		"wide"			"55"
-		"tall"			"55"
-		"visible"		"0"
-		"enabled"		"1"
-		"image"			"../hud/class_spy_outline"
-		"scaleImage"	"1"	
+		"controlname"	"CTFImagePanel"
+		"fieldname"	"PlayerStatusSpyOutlineimage"
+		
+		"xpos"		"3"
+		"ypos"		"r67"
+		"zpos"		"7"
+		
+		"wide"		"55"
+		"tall"		"55"
+		
+		"image"		"../hud/class_spy_outline"
+		"scaleimage"	"1"
+		
+		"visible"	"0"
 	}		
-	"PlayerStatusClassImageBG"
+	"PlayerStatusClassimageBG"
 	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"PlayerStatusClassImageBG"
+		"controlname"		"CTFImagePanel"
+		"fieldname"		"PlayerStatusClassimageBG"
+		
 		"xpos"			"100"
 		"ypos"			"r85"
-		"xpos_minmode"			"c-260"
 		"zpos"			"1"
+		
+		"xpos_minmode"	"c-260"
+		
 		"wide"			"118"
 		"tall"			"58"
+		
+		"image"			"..\darhud\health\health_neutral"
+		"teambg_0"		"..\darhud\health\health_neutral"
+		"teambg_1"		"..\darhud\health\health_spectator"
+		"teambg_2"		"..\darhud\health\health_red"
+		"teambg_3"		"..\darhud\health\health_blue"
+		"teambg_4"		"..\darhud\health\health_green"
+		"teambg_5"		"..\darhud\health\health_yellow"
+		"scaleimage"		"1"
+		
 		"visible"		"1"
-		"enabled"		"1"
-		"scaleImage"	"1"
-		"image"				"../darhud/chr_neutral"
-		"teambg_0"			"../darhud/chr_neutral"
-		"teambg_1"			"../darhud/chr_spectator"
-		"teambg_2"			"../darhud/chr_red"
-		"teambg_3"			"../darhud/chr_blue"
-		"teambg_4"			"../darhud/chr_green"
-		"teambg_5"			"../darhud/chr_yellow"
 	}
 
 	"classmodelpanelBG"
 	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"classmodelpanelBG"
-		"xpos"			"100"
-		"ypos"			"r85"
-		"xpos_minmode"			"c-260"
+		"controlname"		"CTFImagePanel"
+		"fieldname"		"classmodelpanelBG"
+		
+		"pin_to_sibling"	"PlayerStatusClassimageBG"
+		
+		"xpos"			"0"
+		"ypos"			"0"
 		"zpos"			"1"
+		
+		"xpos_minmode"	"c-260"
+		
 		"wide"			"118"
 		"tall"			"58"
+		
+		"image"			"..\darhud\health\health_neutral"
+		"teambg_0"		"..\darhud\health\health_neutral"
+		"teambg_1"		"..\darhud\health\health_spectator"
+		"teambg_2"		"..\darhud\health\health_red"
+		"teambg_3"		"..\darhud\health\health_blue"
+		"teambg_4"		"..\darhud\health\health_green"
+		"teambg_5"		"..\darhud\health\health_yellow"
+		"scaleimage"		"1"
+		
 		"visible"		"1"
-		"enabled"		"1"
-		"scaleImage"	"1"
-		"image"				"../darhud/chr_neutral"
-		"teambg_0"			"../darhud/chr_neutral"
-		"teambg_1"			"../darhud/chr_spectator"
-		"teambg_2"			"../darhud/chr_red"
-		"teambg_3"			"../darhud/chr_blue"
-		"teambg_4"			"../darhud/chr_green"
-		"teambg_5"			"../darhud/chr_yellow"
 	}
 
-	"classmodelpanelBGShadow"
+	"PlayerStatusClassimageBGShadow"
 	{
-		"ControlName"		"CTFImagePanel"
-		"fieldName"		"classmodelpanelBGShadow"
-		"xpos"			"103"
-		"ypos"			"r82"
-		"xpos_minmode"			"c-257"
+		"controlname"		"ImagePanel"
+		"fieldname"		"PlayerStatusClassimageBGShadow"
+		
+		"pin_to_sibling"	"PlayerStatusClassimageBG"
+		
+		"xpos"			"-3"
+		"ypos"			"-3"
 		"zpos"			"1"
+		
 		"wide"			"118"
 		"tall"			"58"
+		
+		"image"			"resource/svgs/darhud/chr_mask.svg"
+		"scaleimage"		"1"
+		"drawcolor"		"HudShadow"
+		
 		"visible"		"1"
-		"enabled"		"1"
-		"scaleImage"	"1"
-		"image"				"../darhud/chr_shadow"
 	}
 
 	"classmodelpanel"
 	{
-		"ControlName"	"CTFPlayerModelPanel"
-		"fieldName"		"classmodelpanel"
+		"controlname"		"CTFPlayerModelPanel"
+		"fieldname"		"classmodelpanel"
 		
 		"xpos"			"0"
 		"ypos"			"r220"
-		"xpos_minmode"			"c-360"
-		"zpos"			"2"		
+		"zpos"			"2"	
+		
+		"xpos_minmode"	"c-360"
+		
 		"wide"			"100"
 		"tall"			"220"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
 		
 		"render_texture"	"0"
 		"fov"			"12"
 		"allow_rot"		"1"
-
 		"disable_speak_event"	"1"
-		// "disable_frame_advancement"	"1" // This disables frame advancement on the 3D Player Model.
-		
 		"display_player_effects"	"7" // Cloak(1) + Crit(2) + Invuln(4) = 7
+
+		"visible"		"1"
 				
 		"model"
 		{
@@ -152,12 +184,15 @@
 			"angles_x" "0"
 			"angles_y" "172"
 			"angles_z" "0"
+			
 			"origin_x" "200"
 			"origin_y" "0"
 			"origin_z" "-60"
+			
 			"frame_origin_x"	"0"
 			"frame_origin_y"	"0"
 			"frame_origin_z"	"0"
+			
 			"spotlight" "1"
 
 			"modelname"		""
@@ -223,9 +258,11 @@
 			"Scout"
 			{
 				"fov"			"25"
+				
 				"angles_x"		"-15"
 				"angles_y"		"160"
 				"angles_z"		"0"
+				
 				"origin_x"		"105"
 				"origin_y"		"4"
 				"origin_z"		"-78"
@@ -233,9 +270,11 @@
 			"Soldier"
 			{
 				"fov"			"23"
+				
 				"angles_x"		"-10"
 				"angles_y"		"170"
 				"angles_z"		"0"
+				
 				"origin_x"		"145"
 				"origin_y"		"0"
 				"origin_z"		"-85"
@@ -243,9 +282,11 @@
 			"Pyro"
 			{
 				"fov"			"20"
+				
 				"angles_x"		"-5"
 				"angles_y"		"172"
 				"angles_z"		"0"
+				
 				"origin_x"		"175"
 				"origin_y"		"-5"
 				"origin_z"		"-90"
@@ -253,9 +294,11 @@
 			"Demoman"
 			{
 				"fov"			"23"
+				
 				"angles_x"		"-13"
 				"angles_y"		"160"
 				"angles_z"		"0"
+				
 				"origin_x"		"138"
 				"origin_y"		"0"
 				"origin_z"		"-86"
@@ -263,9 +306,11 @@
 			"Heavy"
 			{
 				"fov"			"18"
+				
 				"angles_x"		"-5"
 				"angles_y"		"160"
 				"angles_z"		"0"
+				
 				"origin_x"		"190"
 				"origin_y"		"0"
 				"origin_z"		"-90"
@@ -273,9 +318,11 @@
 			"Engineer"
 			{
 				"fov"			"20"
+				
 				"angles_x"		"-10"
 				"angles_y"		"168"
 				"angles_z"		"0"
+				
 				"origin_x"		"140"
 				"origin_y"		"-2"
 				"origin_z"		"-82"
@@ -283,9 +330,11 @@
 			"Medic"
 			{
 				"fov"			"20"
+				
 				"angles_x"		"-5"
 				"angles_y"		"165"
 				"angles_z"		"0"
+				
 				"origin_x"		"150"
 				"origin_y"		"0"
 				"origin_z"		"-91"
@@ -293,9 +342,11 @@
 			"Sniper"
 			{
 				"fov"			"24"
+				
 				"angles_x"		"-10"
 				"angles_y"		"172"
 				"angles_z"		"0"
+				
 				"origin_x"		"130"
 				"origin_y"		"0"
 				"origin_z"		"-94"
@@ -303,9 +354,11 @@
 			"Spy"
 			{
 				"fov"			"19"
+				
 				"angles_x"		"-5"
 				"angles_y"		"160"
 				"angles_z"		"0"
+				
 				"origin_x"		"160"
 				"origin_y"		"0"
 				"origin_z"		"-90"
@@ -313,9 +366,11 @@
 			"Civilian"
 			{
 				"fov"			"20"
+				
 				"angles_x"		"-5"
 				"angles_y"		"168"
 				"angles_z"		"0"
+				
 				"origin_x"		"140"
 				"origin_y"		"4"
 				"origin_z"		"-78"
@@ -325,100 +380,84 @@
 
 	"CarryingWeapon"
 	{
-		"ControlName"			"EditablePanel"
-		"fieldName"				"CarryingWeapon"
-		"xpos"					"60"
-		"ypos"					"r20"
-		"xpos_minmode"			"c-290"
-		"zpos"					"100"
-		"wide"					"500"
-		"tall"	 				"28"
+		"controlname"		"EditablePanel"
+		"fieldname"		"CarryingWeapon"
+		
+		"xpos"			"60"
+		"ypos"			"r20"
+		"zpos"			"100"
+		
+		"xpos_minmode"	"c-290"
+		
+		"wide"			"500"
+		"tall"	 		"28"
 
 		"CarryingBackground"
 		{
-			"ControlName"			"CTFImagePanel"
-			"fieldName"				"CarryingBackground"
-			"xpos"			"0"
-			"ypos"			"0"
-			"zpos"			"0"
-			"wide"			"152"
-			"tall"	 		"24"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"image"			"../darhud/meter_red"
-			"scaleImage"	"1"	
-			"teambg_2"		"../darhud/meter_red"
-			"teambg_3"		"../darhud/meter_blue"
+			"controlname"	"CTFImagePanel"
+			"fieldname"	"CarryingBackground"
+			
+			"xpos"		"0"
+			"ypos"		"0"
+			"zpos"		"0"
+			
+			"wide"		"152"
+			"tall"	 	"24"
+			
+			"image"		"..\darhud\meter\meter_neutral"
+			"teambg_0"	"..\darhud\meter\meter_neutral"
+			"teambg_1"	"..\darhud\meter\meter_spectator"
+			"teambg_2"	"..\darhud\meter\meter_red"
+			"teambg_3"	"..\darhud\meter\meter_blue"
+			"teambg_4"	"..\darhud\meter\meter_green"
+			"teambg_5"	"..\darhud\meter\meter_yellow"
+			"scaleimage"	"1"
+			
+			"visible"	"1"
 		}
 
 		"CarryingLabel"
 		{	
-			"ControlName"		"CExLabel"
-			"fieldName"			"CarryingLabel"
-			"font"				"HudFontSmallest"
-			"font_minmode"		"TFFontMedium"
+			"controlname"			"CExLabel"
+			"fieldname"			"CarryingLabel"
+			"proportionaltoparent"	"1"
+			
 			"xpos"				"5"
 			"ypos"				"2"
 			"zpos"				"1"
-			"wide"				"200"
+			
+			"wide"				"f0"
 			"tall"	 			"f0"
-			"autoResize"		"0"
-			"pinCorner"			"0"
-			"visible"			"1"
-			"enabled"			"1"
-			"textAlignment"		"North-West"
-			"dulltext"			"0"
-			"brighttext"		"0"
-			"proportionaltoparent"	"1"
-			"auto_wide_tocontents"	"1"
+			
 			"labelText"			"%carrying%"
-		}
-
-		"CarryingLabelDropShadow"
-		{	
-			"ControlName"		"CExLabel"
-			"fieldName"			"CarryingLabelDropShadow"
 			"font"				"HudFontSmallest"
-			"font_minmode"		"TFFontMedium"
-			"xpos"				"5"
-			"ypos"				"3"
-			"zpos"				"0"
-			"wide"				"200"
-			"tall"	 			"f0"
-			"autoResize"		"0"
-			"pinCorner"			"0"
+			"textAlignment"		"North-West"
+			
+			"dropshadow"			"1"
+			"dropshadowoffset"	"2"
+			
 			"visible"			"1"
 			"enabled"			"1"
-			"textAlignment"		"North-West"
-			"dulltext"			"0"
-			"brighttext"		"0"
-			"proportionaltoparent"	"1"
-			"auto_wide_tocontents"	"1"
-			"fgcolor_override"	"Black"
-			"labelText"			"%carrying%"
 		}
 
 		"OwnerLabel"
 		{	
-			"ControlName"		"Label"
-			"fieldName"			"OwnerLabel"
-			"font"				"TF2Default"
+			"controlname"			"Label"
+			"fieldname"			"OwnerLabel"
+			"proportionaltoparent"	"1"
+			
 			"xpos"				"5"
 			"ypos"				"12"
 			"zpos"				"0"
+			
 			"wide"				"200"
 			"tall"	 			"f0"
-			"autoResize"		"0"
-			"pinCorner"			"0"
+			
+			"font"				"DisguiseWeaponFont"
+			"textAlignment"		"north-west"
+			
 			"visible"			"1"
 			"enabled"			"1"
-			"textAlignment"		"North-West"
-			"dulltext"			"0"
-			"brighttext"		"0"
-			"proportionaltoparent"	"1"
-			"auto_wide_tocontents"	"1"
 		}
 	}
 }

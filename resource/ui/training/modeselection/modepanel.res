@@ -1,0 +1,138 @@
+"Resource/training/modeselection/modepanel.res"
+{
+	"ModeInfoContainer"
+	{
+		"controlname"	"EditablePanel"
+		"fieldname"		"ModeInfoContainer"
+		"xpos"			"0"
+		"ypos"			"0"
+		"wide"			"225"
+		"tall"			"205"
+		"visible"		"1"
+		"enabled"		"1"
+
+		"ModeNameLabel"
+		{
+			"controlname"	"CExLabel"
+			"fieldname"		"ModeNameLabel"
+			"font"			"HudFontSmallBold"
+			"labelText"		"%modename%"
+			"textAlignment"	"center"
+			"xpos"			"0"
+			"ypos"			"7"
+			"zpos"			"2"
+			"wide"			"225"
+			"tall"			"25"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"mouseinputenabled" "0"
+			"fgcolor_override"	"83 75 66 255"
+		}
+
+		"DescLabel"
+		{
+			"controlname"	"CExLabel"
+			"fieldname"		"DescLabel"
+			"font"			"HudFontSmallest"
+			"labelText"		"%description%"
+			"textAlignment"	"north"
+			"xpos"			"0"
+			"ypos"			"175"
+			"zpos"			"2"
+			"wide"			"225"
+			"tall"			"55"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"fgcolor_override"	"83 75 66 255"
+			"auto_wide_tocontents" "0"
+			"wrap"				   "1"
+			"centerwrap"		   "1"
+		}
+		
+		"imageFrame"
+		{
+			"controlname"		"EditablePanel"
+			"fieldname"		"imageFrame"
+			"xpos"			"10"
+			"ypos"			"0"
+			"wide"			"205"
+			"tall"			"205"
+			"visible"		"1"
+			"enabled"		"1"
+			"border"			"NoBorder"
+			"bgcolor_override"		"252 241 216 255"
+			"paintbackground"	"1"
+		}
+		
+		// Parented to imageFrame in code.
+		"image"
+		{
+			"controlname"	"ImagePanel"
+			"fieldname"		"image"
+			"xpos"			"10"
+			"ypos"			"32"
+			"wide"			"185"
+			"tall"			"185"
+			"visible"		"1"
+			"enabled"		"1"
+			"tileimage"		"0"
+			"scaleimage"	"1"
+			"image"			""
+		}	
+	}
+
+	"StartButton"
+	{
+		"controlname"		"CExButton"
+		"fieldname"			"StartButton"
+		"xpos"				"48"
+		"ypos"				"215"
+		"zpos"				"100"
+		"wide"				"130"
+		"tall"				"30"
+		"autoResize"		"0"
+		"pinCorner"			"0"
+		"visible"			"1"
+		"enabled"			"1"
+		"tabPosition"		"0"
+		"labelText"			"#TF_Training_SelectMode"
+		"font"				"HudFontSmallBold"
+		"textAlignment"		"center"
+		"textinsetx"		"50"
+		"dulltext"			"0"
+		"brighttext"		"0"
+		"Command"			"%startcommand%"
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+			
+		"border_default"		"DarhudMMSquareButton"
+		"border_armed"		"DarhudMMSquareButtonArmed"
+		"border_selected"		"DarhudMMSquareButtonDepressed"
+		"border_depressed"	"DarhudMMSquareButtonDepressed"
+		"border_disabled"		"DarhudMMSquareButtonDisabled"
+			
+		"defaultFgColor_override"		"ButtonLabelMM"
+		"armedFgColor_override"		"ButtonArmedLabelMM"
+		"selectedFgColor_override"		"ButtonDepressedLabelMM"
+		"depressedFgColor_override"	"ButtonDepressedLabelMM"
+		"disabledFgColor_override"		"ButtonDisabledLabelMM"
+		
+		"paintbackground"		"0"
+		
+		"dropshadow"		"1"
+		"dropshadowoffset"	"3"
+	}
+	"StartButtonShadow"
+	{
+		"controlname"		"CTFImagePanel"
+		"fieldname"		"StartButtonShadow"
+		"style"			"MainMenuButtonShadow"
+		"wide"			"130"
+		"tall"			"30"
+		"pin_to_sibling"	"StartButton"
+	}
+}

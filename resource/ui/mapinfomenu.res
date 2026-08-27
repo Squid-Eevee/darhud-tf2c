@@ -1,61 +1,25 @@
+#base "_customizations/info_screen/base.res"
+
 "Resource/UI/MapInfoMenu.res"
 {
 	"mapinfo"
 	{
-		"ControlName"	"Frame"
-		"fieldName"		"mapinfo"
+		"controlname"	"Frame"
+		"fieldname"		"mapinfo"
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"0"
 		"wide"			"f0"
 		"tall"			"480"
-		"autoResize"	"1"
-		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"paintBackground"	"0"
 	}
 	
-	"bg"
-	{		
-		"ControlName"	"EditablePanel"
-		"fieldName"		"bg"
-		"xpos"					"0"
-		"ypos"					"0"
-		"zpos"					"-2"
-		"wide"					"f0"
-		"tall"					"480"
-		"autoResize"			"0"
-		"pinCorner"				"0"
-		"visible"				"1"
-		"enabled"				"1"
-		"bgcolor_override"		"BackgroundTransparent"
-	}
-
-	"Stripe"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"Stripe"
-		"xpos"			"cs-0.5"
-		"ypos"			"cs-0.5"
-		"zpos"			"-1"
-		"wide"			"f0"
-		"tall"			"305"
-		"visible"		"1"
-		"enabled"		"1"
-		"bgcolor_override"	"TransparentStripe"
-	}
-
-	"MapInfoBG"
-	{
-		"visible"		"0"
-		"enabled"		"0"
-	}
-	
 	"MapInfoTitle"
 	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"MapInfoTitle"
+		"controlname"	"CExLabel"
+		"fieldname"		"MapInfoTitle"
 		"xpos"			"c-190"
 		"ypos"			"125"
 		"zpos"			"2"
@@ -73,8 +37,8 @@
 	
 	"MapInfoType"
 	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"MapInfoType"
+		"controlname"	"CExLabel"
+		"fieldname"		"MapInfoType"
 		"xpos"			"c-190"
 		"ypos"			"155"
 		"zpos"			"2"
@@ -92,8 +56,8 @@
 	
 	"MapInfoText"
 	{
-		"ControlName"	"CExRichText"
-		"fieldName"		"MapInfoText"
+		"controlname"	"CExRichText"
+		"fieldname"		"MapInfoText"
 		"font"			"HudFontSmallest"
 		"xpos"			"c-190"
 		"ypos"			"190"
@@ -109,10 +73,10 @@
 		"fgcolor"		"GeneralLabel"
 	}
 	
-	"MapImage"
+	"Mapimage"
 	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"MapImage"
+		"controlname"	"ImagePanel"
+		"fieldname"		"Mapimage"
 		"xpos"			"c0"
 		"ypos"			"105"
 		"zpos"			"2"
@@ -121,100 +85,95 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			""
-		"scaleImage"	"1"		
-	}
-
-	"MapInfoContinue"
-	{
-		"ControlName"	"CExButton"
-		"fieldName"		"MapInfoContinue"
-		"xpos"			"r190"
-		"ypos"			"r40"
-		"zpos"			"6"
-		"wide"			"150"
-		"tall"			"30"
-		"autoResize"	"0"
-		"pinCorner"		"2"
-		"visible"		"1"
-		"enabled"		"1"
-		"labelText"		"#TF_Continue"
-		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
-		"command"		"continue"
-		"default"		"1"
-		"font"			"HudFontSmallBold"
-		"roundedcorners"	"0"
-		
-		"sound_armed"		"ui/buttonrollover.wav"
-		"sound_depressed"	"ui/buttonclick.wav"
-		"sound_released"	"ui/buttonclickrelease.wav"
+		"scaleimage"	"1"
 	}
 	
-	"MapInfoWatchIntro"
-	{
-		"ControlName"	"CExButton"
-		"fieldName"		"MapInfoWatchIntro"
-		"xpos"			"c-50"
-		"ypos"			"r40"
-		"zpos"			"6"
-		"wide"			"150"
-		"tall"			"30"
-		"autoResize"	"0"
-		"pinCorner"		"2"
-		"visible"		"1"
-		"enabled"		"1"
-		"labelText"		"#TF_WatchIntro"
-		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
-		"command"		"intro"
-		"default"		"1"
-		"font"			"HudFontSmallBold"
-		"roundedcorners"	"0"
-		
-		"sound_armed"		"ui/buttonrollover.wav"
-		"sound_depressed"	"ui/buttonclick.wav"
-		"sound_released"	"ui/buttonclickrelease.wav"
-	}
+	"Footer"
+	{		
+		"Buttons"
+		{
+			"BackButton"
+			{
+				"controlname"	"CExButton"
+				"fieldname"		"BackButton"
+				"xpos"			"40"
+				"ypos"			"r40"
+				"zpos"			"6"
+				"wide"			"150"
+				"tall"			"30"
+				"autoResize"	"0"
+				"pinCorner"		"2"
+				"visible"		"1"
+				"enabled"		"1"
+				"labelText"		"#TF_Back"
+				"textAlignment"	"center"
+				"dulltext"		"0"
+				"brighttext"	"0"
+				"command"		"back"
+				"font"			"HudFontSmallBold"
+				"roundedcorners"	"0"
+				
+				"sound_armed"		"ui/buttonrollover.wav"
+				"sound_depressed"	"ui/buttonclick.wav"
+				"sound_released"	"ui/buttonclickrelease.wav"
+				"dropshadow"		"1"
+				"dropshadowoffset"	"3"
+			}
 	
-	"MapInfoBack"
-	{
-		"ControlName"	"CExButton"
-		"fieldName"		"MapInfoBack"
-		"xpos"			"40"
-		"ypos"			"r40"
-		"zpos"			"6"
-		"wide"			"150"
-		"tall"			"30"
-		"autoResize"	"0"
-		"pinCorner"		"2"
-		"visible"		"1"
-		"enabled"		"1"
-		"labelText"		"#TF_Back"
-		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
-		"command"		"back"
-		"font"			"HudFontSmallBold"
-		"roundedcorners"	"0"
-		
-		"sound_armed"		"ui/buttonrollover.wav"
-		"sound_depressed"	"ui/buttonclick.wav"
-		"sound_released"	"ui/buttonclickrelease.wav"
-	}
-	
-	"MenuBG"
-	{	
-		"wide"			"0"
-		"tall"			"0"
-		"visible"		"0"
-		"enabled"		"0"
-	}					
-
-	"ShadedBar"
-	{
-		"visible"		"0"
-		"enabled"		"0"
+			"IntroButton"
+			{
+				"controlname"	"CExButton"
+				"fieldname"		"IntroButton"
+				"proportionaltoparent"	"1"
+				"xpos"			"c-75"
+				"ypos"			"0"
+				"zpos"			"6"
+				"wide"			"150"
+				"tall"			"30"
+				"autoResize"	"0"
+				"pinCorner"		"2"
+				"visible"		"1"
+				"enabled"		"1"
+				"labelText"		"#TF_WatchIntro"
+				"textAlignment"	"center"
+				"dulltext"		"0"
+				"brighttext"	"0"
+				"command"		"intro"
+				"default"		"1"
+				"font"			"HudFontSmallBold"
+				"roundedcorners"	"0"
+				
+				"sound_armed"		"ui/buttonrollover.wav"
+				"sound_depressed"	"ui/buttonclick.wav"
+				"sound_released"	"ui/buttonclickrelease.wav"
+				"dropshadow"		"1"
+				"dropshadowoffset"	"3"
+			}
+			
+			"ContinueButton"
+			{
+				"controlname"		"CExButton"
+				"fieldname"		"ContinueButton"
+				"xpos"			"r190"
+				"ypos"			"0"
+				"zpos"			"6"
+				"wide"			"150"
+				"tall"			"30"
+				"visible"		"1"
+				"enabled"		"1"
+				"labelText"		"#TF_Continue"
+				"textAlignment"	"center"
+				"command"		"continue"
+				"default"		"1"
+				"font"			"HudFontSmallBold"
+				"roundedcorners"	"0"
+				
+				"sound_armed"		"ui/buttonrollover.wav"
+				"sound_depressed"	"ui/buttonclick.wav"
+				"sound_released"	"ui/buttonclickrelease.wav"
+				"dropshadow"		"1"
+				"dropshadowoffset"	"3"
+			}
+		}
 	}
 }

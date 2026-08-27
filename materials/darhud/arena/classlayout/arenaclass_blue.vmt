@@ -1,0 +1,9 @@
+"Patch"
+{
+	include "materials\darhud\bases\teams\base_blue.vmt"
+	
+	insert
+	{
+		"$baseTexture"        "darhud\arena\classlayout\arenaclass_mask"
+	}
+}

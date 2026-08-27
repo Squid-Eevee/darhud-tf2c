@@ -9,7 +9,7 @@
 	
 	"BuildingIcon"	
 	{
-		"icon"			"obj_status_tele_exit"
+		"image"			"resource/svgs/engineer/hud_obj_status_tele_exit.svg"
 	}
 	
 	"NumberLabel"

@@ -1,5 +1,7 @@
-#base "SourceSchemeBase.res"
-#base "../darhud_addons/theme/customcolors.res"
+#base "sourcescheme_tf2c.res"
+#base "customfontfiles.res"
+#base "sourceschemebase.res"
+#base "darhud_scheme.res"
 
 Scheme
 {
@@ -149,7 +151,10 @@ Scheme
 		// Text fields
 		TextEntry.TextColor			        "ButtonLabel"
 		TextEntry.DisabledTextColor	        "TFTanMedium"
-		TextEntry.SelectedBgColor	        "ButtonArmed"		
+		TextEntry.SelectedBgColor	        "ButtonArmed"	
+		
+		Tooltip.BgColor	"0 0 0 0"
+		Tooltip.TextColor	"TooltipLabel"	
 		
 		// Console background
 		RichText.BgColor				"BackgroundTransparent"		
@@ -226,6 +231,14 @@ Scheme
 					"offset" 				"0 0"
 				}
 			}
+		}
+		TooltipBorder
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			"color"					"Tooltip"
+			
+			"image"					"../darhud/square/square_white"
 		}
 	}
 	
@@ -439,69 +452,14 @@ Scheme
 			}
 		}
 
-	}
-	
-	CustomFontFiles
-	{
-		"6" 
+		"ConsoleText"
 		{
-			"font" "resource/TF2CBuild.ttf"
-			"name" "TF2C Build"
-			"turkish"
+			"1"
 			{
-				"range" "0x0000 0x015F"
-			}
-			"swedish"
-			{
-				"range" "0x0000 0x00F6"
-			}
-			"spanish"
-			{
-				"range" "0x0000 0x00FC"
-			}
-			"romanian"
-			{
-				"range" "0x0000 0x021B"
-			}
-			"polish"
-			{
-				"range" "0x0000 0x017C"
-			}
-			"norwegian"
-			{
-				"range" "0x0000 0x00F8"
-			}
-			"danish"
-			{
-				"range" "0x0000 0x00F8"
-			}
-			"hungarian"
-			{
-				"range" "0x0000 0x0171"
-			}
-			"german"
-			{
-				"range" "0x0000 0x00FC"
-			}
-			"french"
-			{
-				"range" "0x0000 0x0178"
-			}
-			"finnish"
-			{
-				"range" "0x0000 0x017E"
-			}
-			"czech"
-			{
-				"range" "0x0000 0x017E"
-			}
-			"bulgarian"
-			{
-				"range" "0x0000 0x0451"
-			}
-			"russian"
-			{
-				"range" "0x0000 0x0451"
+				"name"		"Inconsolata"
+				"tall"		"14"
+				"weight"	"500"
+				"antialias"		"1"
 			}
 		}
 	}

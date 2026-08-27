@@ -2,9 +2,9 @@
 {
 	"ItemNameLabel"
 	{	
-		"ControlName"	"CExLabel"
-		"fieldName"		"ItemNameLabel"
-		"font"			"TF2DefaultSmall"
+		"controlname"	"CExLabel"
+		"fieldname"		"ItemNameLabel"
+		"font"			"MeterLabelFont"
 		"fgcolor"		"Black"
 		"xpos"			"0"
 		"ypos"			"0"
@@ -17,14 +17,12 @@
 		"enabled"		"1"
 		"labelText"		"#TF_Object_Sentry"
 		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
 	}
 
 	"ItemBackground"
 	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"ItemBackground"
+		"controlname"	"EditablePanel"
+		"fieldname"		"ItemBackground"
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"0"
@@ -32,7 +30,7 @@
 		"tall"			"62"
 		"visible"		"1"
 		"enabled"		"1"
-		"scaleImage"	"1"
+		"scaleimage"	"1"
 		"bgcolor_override"		"White"
 		"paintbackgroundtype" "2"
 		"proportionaltoparent"	"1"
@@ -41,8 +39,8 @@
 	
 	"BuildingIcon"	
 	{
-		"ControlName"	"CIconPanel"
-		"fieldName"		"BuildingIcon"
+		"controlname"	"CIconPanel"
+		"fieldname"		"BuildingIcon"
 		"pin_to_sibling" "ItemNameLabel"
 		"pin_corner_to_sibling" "PIN_CENTER_TOP"
 		"pin_to_sibling_corner" "PIN_CENTER_BOTTOM"
@@ -53,15 +51,15 @@
 		"tall"			"43"
 		"visible"		"1"
 		"enabled"		"1"
-		"scaleImage"	"1"	
+		"scaleimage"	"1"
 		"icon"			"hud_menu_sentry_build"
 		"iconColor"		"255 255 255 255"
 	}
 	
 	"ModeLabel"
 	{	
-		"ControlName"	"CExLabel"
-		"fieldName"		"ModeLabel"
+		"controlname"	"CExLabel"
+		"fieldname"		"ModeLabel"
 		"font"			"DefaultSmall"
 		"fgcolor"		"TanDarker"
 		"xpos"			"33"
@@ -79,32 +77,32 @@
 	
 	"NumberBg"	
 	{
-		"ControlName"	"CIconPanel"
-		"fieldName"		"NumberBg"
+		"controlname"	"CIconPanel"
+		"fieldname"		"NumberBg"
 		"pin_to_sibling" "BuildingIcon"
 		"pin_corner_to_sibling" "PIN_CENTER_TOP"
 		"pin_to_sibling_corner" "PIN_CENTER_BOTTOM"
 		"xpos"			"0"
-		"ypos"			"0"
+		"ypos"			"1"
 		"zpos"			"0"
 		"wide"			"11"
 		"tall"			"11"
 		"visible"		"1"
 		"enabled"		"1"
-		"scaleImage"	"1"	
+		"scaleimage"	"1"
 		"icon"			"ico_key_blank"
 		"iconColor"		"255 255 255 255"
 	}
 	
 	"NumberLabel"
 	{	
-		"ControlName"	"CExLabel"
-		"fieldName"		"NumberLabel"
+		"controlname"	"CExLabel"
+		"fieldname"		"NumberLabel"
 		"pin_to_sibling" "NumberBg"
 		"font"			"FontStorePrice"
 		"fgcolor"		"Black"
 		"xpos"			"0"
-		"ypos"			"0"
+		"ypos"			"1"
 		"zpos"			"5"
 		"wide"			"11"
 		"tall"			"11"

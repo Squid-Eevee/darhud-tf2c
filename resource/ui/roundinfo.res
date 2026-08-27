@@ -1,69 +1,39 @@
+#base "_customizations/info_screen/base.res"
+
 "Resource/UI/RoundInfo.res"
 {
 	"roundinfo"
 	{
-		"ControlName"	"Frame"
-		"fieldName"		"roundinfo"
+		"controlname"	"Frame"
+		"fieldname"		"roundinfo"
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"0"
 		"wide"			"f0"
 		"tall"			"480"
-		"autoResize"	"1"
-		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"paintBackground"	"0"
 	}
 	
-	"bg"
-	{		
-		"ControlName"	"EditablePanel"
-		"fieldName"		"bg"
-		"xpos"					"0"
-		"ypos"					"0"
-		"zpos"					"-2"
-		"wide"					"f0"
-		"tall"					"480"
-		"autoResize"			"0"
-		"pinCorner"				"0"
-		"visible"				"1"
-		"enabled"				"1"
-		"bgcolor_override"		"BackgroundTransparent"
-	}
-
-	"Stripe"
+	"Mapimage"
 	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"Stripe"
-		"xpos"			"cs-0.5"
-		"ypos"			"cs-0.5"
-		"zpos"			"-1"
-		"wide"			"f0"
-		"tall"			"305"
-		"visible"		"1"
-		"enabled"		"1"
-		"bgcolor_override"	"TransparentStripe"
-	}
-	
-	"MapImage"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"MapImage"
-		"xpos"			"c-280"
-		"ypos"			"c-126"
-		"zpos"			"3"
-		"wide"			"560"
-		"tall"			"280"
-		"visible"		"1"
-		"enabled"		"1"
-		"scaleImage"	"1"	
+		"controlname"	"ImagePanel"
+		"fieldname"	"Mapimage"
+		"xpos"		"c-280"
+		"ypos"		"c-126"
+		"zpos"		"3"
+		"wide"		"560"
+		"tall"		"280"
+		"visible"	"1"
+		"enabled"	"1"
+		"scaleimage"	"1"
 	}
 	
 	"Overlay"
 	{
-		"ControlName"	"RoundInfoOverlay"
-		"fieldName"		"Overlay"
+		"controlname"	"RoundInfoOverlay"
+		"fieldname"		"Overlay"
 		"xpos"			"c-280"
 		"ypos"			"c-126"
 		"zpos"			"4"
@@ -77,8 +47,8 @@
 	
 	"Title"
 	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"Title"
+		"controlname"	"CExLabel"
+		"fieldname"		"Title"
 		"xpos"			"c-215"
 		"ypos"			"95"
 		"zpos"			"2"
@@ -96,8 +66,8 @@
 	
 	"Mapname"
 	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"Mapname"
+		"controlname"	"CExLabel"
+		"fieldname"		"Mapname"
 		"xpos"			"c-215"
 		"ypos"			"110"
 		"zpos"			"4"
@@ -117,35 +87,44 @@
 	
 	"RoundContinue"
 	{
-		"ControlName"	"CExButton"
-		"fieldName"		"RoundContinue"
-		"xpos"			"r190"
-		"ypos"			"r40"
-		"zpos"			"6"
-		"wide"			"150"
-		"tall"			"30"
-		"autoResize"	"0"
-		"pinCorner"		"2"
-		"visible"		"1"
-		"enabled"		"1"
-		"labelText"		"#TF_Continue"
-		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
-		"command"		"continue"
-		"default"		"1"
-		"font"			"HudFontSmallBold"
-		"roundedcorners"	"0"
-		
-		"sound_armed"		"ui/buttonrollover.wav"
-		"sound_depressed"	"ui/buttonclick.wav"
-		"sound_released"	"ui/buttonclickrelease.wav"
+		"visible"		"0"
+	}
+	
+	"Footer"
+	{		
+		"Buttons"
+		{
+			"ContinueButton"
+			{
+				"controlname"		"CExButton"
+				"fieldname"		"ContinueButton"
+				"xpos"			"r190"
+				"ypos"			"0"
+				"zpos"			"6"
+				"wide"			"150"
+				"tall"			"30"
+				"visible"		"1"
+				"enabled"		"1"
+				"labelText"		"#TF_Continue"
+				"textAlignment"		"center"
+				"command"		"continue"
+				"default"		"1"
+				"font"			"HudFontSmallBold"
+				"roundedcorners"	"0"
+				
+				"sound_armed"		"ui/buttonrollover.wav"
+				"sound_depressed"	"ui/buttonclick.wav"
+				"sound_released"	"ui/buttonclickrelease.wav"
+				"dropshadow"		"1"
+				"dropshadowoffset"	"3"
+			}
+		}
 	}
 	
 	"MenuBG"
 	{
-		"ControlName"	"CModelPanel"
-		"fieldName"		"MenuBG"
+		"controlname"	"CModelPanel"
+		"fieldname"		"MenuBG"
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"0"		
@@ -170,43 +149,5 @@
 			"origin_y" "0"
 			"origin_z" "-39"
 		}
-	}					
-
-	"ShadedBar"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"ShadedBar"
-		"xpos"			"0"
-		"ypos"			"r50"
-		"ypos_lodef"			"r74"
-		"ypos_hidef"			"r65"
-		"zpos"			"5"
-		"wide"			"f0"
-		"tall"			"50"
-		"tall_lodef"			"74"
-		"tall_hidef"			"65"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"	"0"	
-		"image"			"loadout_bottom_gradient"
-		"tileImage"		"1"
-		"PaintBackgroundType"	"0"
-	}	
-	
-	"MenuBG"
-	{	
-		"wide"			"0"
-		"tall"			"0"
-		"visible"		"0"
-		"enabled"		"0"
-	}					
-
-	"ShadedBar"
-	{
-		"visible"		"0"
-		"enabled"		"0"
 	}
 }
-

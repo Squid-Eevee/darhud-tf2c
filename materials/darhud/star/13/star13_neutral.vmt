@@ -1,0 +1,9 @@
+"Patch"
+{
+	include "materials\darhud\bases\teams\base_neutral.vmt"
+	
+	insert
+	{
+		"$basetexture"	"darhud\star\13\star13_mask"
+	}
+}

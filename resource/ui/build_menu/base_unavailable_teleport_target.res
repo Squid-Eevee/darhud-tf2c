@@ -2,9 +2,9 @@
 {
 	"ItemNameLabel"
 	{	
-		"ControlName"	"CExLabel"
-		"fieldName"		"ItemNameLabel"
-		"font"			"TF2DefaultSmall"
+		"controlname"	"CExLabel"
+		"fieldname"		"ItemNameLabel"
+		"font"			"MeterLabelFont"
 		"fgcolor"		"HudBlack"
 		"xpos"			"0"
 		"ypos"			"0"
@@ -17,14 +17,14 @@
 		"enabled"		"1"
 		"labelText"		"#TF_Object_Sentry"
 		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
+		"dropshadow"		"1"
+		"dropshadowoffset"	"1"
 	}
 	
 	"ItemBackground"	
 	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"ItemBackground"
+		"controlname"	"EditablePanel"
+		"fieldname"		"ItemBackground"
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"0"
@@ -32,16 +32,16 @@
 		"tall"			"62"
 		"visible"		"1"
 		"enabled"		"1"
-		"scaleImage"	"1"
+		"scaleimage"	"1"
 		"bgcolor_override"		"0 0 0 192"
-		"paintbackgroundtype" "2"
+		"paintbackgroundtype" "0"
 		"proportionaltoparent"	"1"
 	}
 		
 	"BuildingIcon"	
 	{
-		"ControlName"	"CIconPanel"
-		"fieldName"		"BuildingIcon"
+		"controlname"	"ImagePanel"
+		"fieldname"		"BuildingIcon"
 		"pin_to_sibling" "ItemNameLabel"
 		"pin_corner_to_sibling" "PIN_CENTER_TOP"
 		"pin_to_sibling_corner" "PIN_CENTER_BOTTOM"
@@ -52,17 +52,17 @@
 		"tall"			"43"
 		"visible"		"1"
 		"enabled"		"1"
-		"scaleImage"	"1"	
+		"scaleimage"	"1"
 		//"icon"			"obj_status_sentrygun_1"
-		"iconColor"		"HudBlack"
+		"drawcolor"		"HudBlack"
 	}
 
 	
 	"CantBuildReason"
 	{	
-		"ControlName"	"CExLabel"
-		"fieldName"		"CantBuildReason"
-		"font"			"TF2DefaultSmall"
+		"controlname"	"CExLabel"
+		"fieldname"		"CantBuildReason"
+		"font"			"MeterLabelFont"
 		"fgcolor"		"White"
 		"xpos"			"0"
 		"ypos"			"21"
@@ -75,14 +75,14 @@
 		"enabled"		"1"
 		"labelText"		"#Hud_Menu_Build_Unavailable"
 		"textAlignment"	"Center"
-		"dulltext"		"0"
-		"brighttext"	"0"
+		"dropshadow"		"1"
+		"dropshadowoffset"	"2"
 	}
 
 	"ModeLabel"
 	{	
-		"ControlName"	"CExLabel"
-		"fieldName"		"ModeLabel"
+		"controlname"	"CExLabel"
+		"fieldname"		"ModeLabel"
 		"font"			"DefaultSmall"
 		"fgcolor"		"TanDark"
 		"xpos"			"33"

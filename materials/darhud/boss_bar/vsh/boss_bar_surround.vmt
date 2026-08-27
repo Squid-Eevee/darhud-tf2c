@@ -1,0 +1,10 @@
+"Patch"
+{
+	"include"	"materials\darhud\bases\base.vmt"
+	
+	"insert"
+	{
+		"$basetexture"	"darhud\boss_bar\boss_bar_surround_mask"
+		"$color"		"{76 52 46}"
+	}
+}

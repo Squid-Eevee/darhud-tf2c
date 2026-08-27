@@ -1,0 +1,671 @@
+"."
+{
+	"CommandsPanel"
+	{
+		"controlname"	"EditablePanel"
+		"fieldname"	"CommandsPanel"
+		"xpos"		"r300"
+		"ypos"		"r150"
+		"wide"		"300"
+		"tall"		"150"
+		"bgcolor_override"	"TransparentStripe"
+		"visible"	"0"
+
+		"if_inlevel"
+		{
+			"visible"		"1"
+		}
+		
+		"Title"
+		{
+			"controlname"	"Label"
+			"fieldname"		"Title"
+			"xpos"			"0"
+			"ypos"			"10"
+			"zpos"			"2"
+			"wide"			"f0"
+			"tall"			"16"
+			"visible"		"1"
+			"enabled"		"1"
+			"proportionaltoparent"	"1"
+			"labelText"		"#dar_commands"
+			"textAlignment"	"center"
+			"dulltext"		"0"
+			"brighttext"	"0"
+			"font"			"HudFontSmallBold"
+			"fgcolor_override"	"HeaderLabel"
+		}
+		
+		"TitleBG"
+		{
+			"controlname"		"EditablePanel"
+			"fieldname"			"TitleBG"
+			"xpos"				"0"
+			"ypos"				"10"
+			"zpos"				"1"
+			"wide"				"f0"
+			"tall"				"16"
+			"proportionaltoparent"	"1"
+			"visible"			"1"
+			"enabled"			"1"
+			"bgcolor_override"	"Header"
+		}
+		
+		"ScrollableContainer"
+		{
+			"controlname"		"CExScrollingEditablePanel"
+			"fieldname"		"ScrollableContainer"
+			"xpos"			"0"
+			"ypos"			"26"
+			"wide"			"f0"
+			"tall"			"124"
+			"proportionaltoparent"	"1"
+		
+			"ScrollBar"
+			{
+				"nobuttons"		"1"
+				"wide"			"8"
+				"proportionaltoparent"	"1"
+				
+				"Slider"
+				{
+					"wide"				"8"
+					"fgcolor_override"	"255 255 255 60"
+					"bgcolor_override"	"0 0 0 255"
+				}
+				
+				"UpButton"
+				{
+					"controlname"		"Button"
+					"fieldname"		"UpButton"
+					"wide"			"8"
+					"visible"		"0"
+				}
+			
+				"DownButton"
+				{
+					"controlname"		"Button"
+					"fieldname"		"DownButton"
+					"wide"			"8"
+					"visible"		"0"
+				}
+			}
+			
+			"UtilityCommandsContainer"
+			{
+				"controlname"	"EditablePanel"
+				"fieldname"	"UtilityCommandsContainer"
+				"xpos"		"0"
+				"ypos"		"0"
+				"wide"		"f8"
+				"tall"		"46"
+				"proportionaltoparent"	"1"
+				
+				"TitleLabel"
+				{
+					"controlname"		"Label"
+					"fieldname"		"TitleLabel"
+					"xpos"			"0"
+					"ypos"			"0"
+					"wide"			"f0"
+					"tall"			"14"
+					"proportionaltoparent"	"1"
+					"labelText"	"#dar_commands_category_utility"
+					"font"			"HudFontSmallestBold"
+					"textAlignment"	"center"
+				}
+				"ReloadHUDButton"
+				{
+					"controlname"		"CEximageButton"
+					"fieldname"		"ReloadHUDButton"
+					"style"			"CommandButton"
+					"xpos"			"8"
+					"ypos"			"14"
+					"wide"			"91"
+					"tall"			"15"
+					"labelText"		"#dar_commands_reloadhud"
+					"command"		"engine hud_reloadscheme"
+					"actionsignallevel"	"4"
+					
+					"tooltiptext"	"#dar_commands_reloadhud_tooltip"
+				}
+				"RestartSoundButton"
+				{
+					"controlname"		"CEximageButton"
+					"fieldname"		"RestartSoundButton"
+					"style"			"CommandButton"
+					"xpos"			"101"
+					"ypos"			"14"
+					"wide"			"91"
+					"tall"			"15"
+					"labelText"		"#dar_commands_restartsound"
+					"command"		"engine snd_restart"
+					"actionsignallevel"	"4"
+					
+					"tooltiptext"	"#dar_commands_restartsound_tooltip"
+				}
+				"FixPlayersButton"
+				{
+					"controlname"		"CEximageButton"
+					"fieldname"		"FixPlayersButton"
+					"style"			"CommandButton"
+					"xpos"			"194"
+					"ypos"			"14"
+					"wide"			"91"
+					"tall"			"15"
+					"proportionaltoparent"	"1"
+					"labelText"		"#dar_commands_fixplayers"
+					"command"		"engine record fix;stop"
+					"actionsignallevel"	"4"
+					
+					"tooltiptext"	"#dar_commands_fixplayers_tooltip"
+				}
+				"ReloadStylesButton"
+				{
+					"controlname"		"CEximageButton"
+					"fieldname"		"ReloadStylesButton"
+					"style"			"CommandButton"
+					"xpos"			"8"
+					"ypos"			"31"
+					"wide"			"91"
+					"tall"			"15"
+					"proportionaltoparent"	"1"
+					"labelText"		"#dar_commands_reloadstyles"
+					"command"		"engine reload_styles"
+					"actionsignallevel"	"4"
+					
+					"tooltiptext"	"#dar_commands_reloadstyles_tooltip"
+				}
+				"ReloadMainMenuButton"
+				{
+					"controlname"		"CEximageButton"
+					"fieldname"		"ReloadMainMenuButton"
+					"style"			"CommandButton"
+					"xpos"			"101"
+					"ypos"			"31"
+					"wide"			"91"
+					"tall"			"15"
+					"proportionaltoparent"	"1"
+					"labelText"		"#dar_commands_reloadmainmenu"
+					"command"		"engine tf2c_mainmenu_reload"
+					"actionsignallevel"	"4"
+					
+					"tooltiptext"	"#dar_commands_reloadmainmenu_tooltip"
+				}
+			}
+			"OperatorCommandsContainer"
+			{
+				"controlname"	"EditablePanel"
+				"fieldname"	"OperatorCommandsContainer"
+				"xpos"		"0"
+				"ypos"		"46"
+				"wide"		"f8"
+				"tall"		"121"
+				"proportionaltoparent"	"1"
+				
+				"TitleLabel"
+				{
+					"controlname"		"Label"
+					"fieldname"		"TitleLabel"
+					"xpos"			"0"
+					"ypos"			"0"
+					"wide"			"f0"
+					"tall"			"14"
+					"proportionaltoparent"	"1"
+					"labelText"		"#dar_commands_category_operator"
+					"font"			"HudFontSmallestBold"
+					"textAlignment"	"center"
+				}
+				"ToggleCheatsCheckbox"
+				{
+					"controlname"		"CvarToggleCheckButton"
+					"fieldname"		"ToggleCheatsCheckbox"
+					"xpos"			"6"
+					"ypos"			"14"
+					"zpos"			"3"
+					"wide"			"91"
+					"tall"			"14"
+					"labelText"		""
+					"enabled"		"1"
+					"cvar_name"		"sv_cheats"
+					"mouseinputenabled"	"0"
+					"smallcheckimage"	"1"
+				}
+				"ToggleCheatsButton"
+				{
+					"controlname"		"CEximageButton"
+					"fieldname"		"ToggleCheatsButton"
+					"style"			"CommandButton"
+					"xpos"			"8"
+					"ypos"			"14"
+					"zpos"			"2"
+					"wide"			"91"
+					"tall"			"15"
+					"labelText"		"#dar_commands_servercheats"
+					"textAlignment"	"west"
+					"textinsetx"		"23"
+					"command"		"engine toggle sv_cheats"
+					"actionsignallevel"	"4"
+						
+					"tooltiptext"	"#dar_commands_servercheats_tooltip"
+				}
+				"NoclipButton"
+				{
+					"controlname"		"CEximageButton"
+					"fieldname"		"NoclipButton"
+					"style"			"CommandButton"
+					"xpos"			"101"
+					"ypos"			"14"
+					"zpos"			"2"
+					"wide"			"91"
+					"tall"			"15"
+					"labelText"		"#dar_commands_noclip"
+					"command"		"engine noclip"
+					"actionsignallevel"	"4"
+						
+					"tooltiptext"	"#dar_commands_noclip_tooltip"
+				}
+				"ToggleAutoJumpCheckbox"
+				{
+					"controlname"		"CvarToggleCheckButton"
+					"fieldname"		"ToggleAutoJumpCheckbox"
+					"xpos"			"6"
+					"ypos"			"31"
+					"zpos"			"3"
+					"wide"			"91"
+					"tall"			"14"
+					"labelText"		""
+					"enabled"		"1"
+					"cvar_name"		"tf2c_autojump"
+					"mouseinputenabled"	"0"
+					"smallcheckimage"	"1"
+				}
+				"ToggleAutoJumpButton"
+				{
+					"controlname"		"CEximageButton"
+					"fieldname"		"ToggleAutoJumpButton"
+					"style"			"CommandButton"
+					"xpos"			"8"
+					"ypos"			"31"
+					"zpos"			"2"
+					"wide"			"91"
+					"tall"			"15"
+					"labelText"		"#dar_commands_autojump"
+					"textAlignment"	"west"
+					"textinsetx"		"29"
+					"command"		"engine toggle tf2c_autojump"
+					"actionsignallevel"	"4"
+						
+					"tooltiptext"	"#dar_commands_autojump_tooltip"
+				}
+				"ToggleDuckJumpCheckbox"
+				{
+					"controlname"		"CvarToggleCheckButton"
+					"fieldname"		"ToggleDuckJumpCheckbox"
+					"xpos"			"99"
+					"ypos"			"31"
+					"zpos"			"3"
+					"wide"			"95"
+					"tall"			"14"
+					"labelText"		""
+					"enabled"		"1"
+					"cvar_name"		"tf2c_duckjump"
+					"mouseinputenabled"	"0"
+					"smallcheckimage"	"1"
+				}
+				"ToggleDuckJumpButton"
+				{
+					"controlname"		"CEximageButton"
+					"fieldname"		"ToggleDuckJumpButton"
+					"style"			"CommandButton"
+					"xpos"			"101"
+					"ypos"			"31"
+					"zpos"			"2"
+					"wide"			"91"
+					"tall"			"15"
+					"labelText"		"#dar_commands_duckjump"
+					"textAlignment"	"west"
+					"textinsetx"		"23"
+					"command"		"engine toggle tf2c_duckjump"
+					"actionsignallevel"	"4"
+						
+					"tooltiptext"	"#dar_commands_duckjump_tooltip"
+				}
+				"ToggleInfiniteAmmoCheckbox"
+				{
+					"controlname"		"CvarToggleCheckButton"
+					"fieldname"		"ToggleInfiniteAmmoCheckbox"
+					"xpos"			"192"
+					"ypos"			"31"
+					"zpos"			"3"
+					"wide"			"91"
+					"tall"			"14"
+					"labelText"		""
+					"enabled"		"1"
+					"cvar_name"		"tf2c_infinite_ammo"
+					"mouseinputenabled"	"0"
+					"smallcheckimage"	"1"
+				}
+				"ToggleInfiniteAmmoButton"
+				{
+					"controlname"		"CEximageButton"
+					"fieldname"		"ToggleInfiniteAmmoButton"
+					"style"			"CommandButton"
+					"xpos"			"194"
+					"ypos"			"31"
+					"zpos"			"2"
+					"wide"			"91"
+					"tall"			"15"
+					"labelText"		"#dar_commands_infiniteammo"
+					"textAlignment"	"west"
+					"textinsetx"		"23"
+					"command"		"engine toggle tf2c_infinite_ammo"
+					"actionsignallevel"	"4"
+						
+					"tooltiptext"	"#dar_commands_infiniteammo_tooltip"
+				}
+				"ToggleSpecialClassesSlider"
+				{
+					"controlname"		"CCvarSlider"
+					"fieldname"		"ToggleSpecialClassesSlider"
+					"xpos"			"10"
+					"ypos"			"48"
+					"zpos"			"3"
+					"wide"			"91"
+					"tall"			"15"
+					"labelText"		""
+					"enabled"		"1"
+					"cvar_name"		"tf2c_allow_special_classes"
+					"minValue"		"0.000000"
+					"maxValue"		"2.000000"
+					"numTicks"		"2"
+					"mouseinputenabled"	"0"
+					"smallcheckimage"	"1"
+					"textHidden"		"0"
+					"allowoutofrange"	"0"
+				}
+				"ToggleSpecialClassesButton"
+				{
+					"controlname"		"CEximageButton"
+					"fieldname"		"ToggleSpecialClassesButton"
+					"style"			"CommandButton"
+					"xpos"			"8"
+					"ypos"			"48"
+					"zpos"			"2"
+					"wide"			"91"
+					"tall"			"15"
+					"labelText"		"#dar_commands_specialclasses"
+					"textAlignment"	"center"
+					"textinsetx"		"0"
+					"command"		"engine incrementvar tf2c_allow_special_classes 0 2 1"
+					"actionsignallevel"	"4"
+						
+					"tooltiptext"	"#dar_commands_specialclasses_tooltip"
+				}
+				"TeamsTitleLabel"
+				{
+					"controlname"		"Label"
+					"fieldname"		"TeamsTitleLabel"
+					"xpos"			"0"
+					"ypos"			"63"
+					"wide"			"f0"
+					"tall"			"14"
+					"proportionaltoparent"	"1"
+					"labelText"	"#dar_commands_category_teams"
+					"font"			"HudFontSmallest"
+					"textAlignment"	"center"
+				}
+				"TeamsActivateTitleLabel"
+				{
+					"controlname"		"Label"
+					"fieldname"		"TeamsActivateTitleLabel"
+					"xpos"			"0"
+					"ypos"			"73"
+					"wide"			"146"
+					"tall"			"14"
+					"proportionaltoparent"	"1"
+					"labelText"	"#dar_commands_category_teams_activate"
+					"font"			"HudFontSmallest"
+					"textAlignment"	"center"
+						
+					"tooltiptext"	"#dar_commands_category_teams_activate_tooltip"
+				}
+				"ActivateBLUButton"
+				{
+					"controlname"		"CEximageButton"
+					"fieldname"		"ActivateBLUButton"
+					"style"			"CommandTeamButton"
+					"pin_to_sibling"	"TeamsActivateTitleLabel"
+					"pin_corner_to_sibling"	"pin_center_top"
+					"pin_to_sibling_corner"	"pin_center_bottom"
+					"xpos"			"-33"
+					"ypos"			"0"
+					"wide"			"20"
+					"tall"			"20"
+					"command"		"engine tf_activate_team blue"
+					"actionsignallevel"	"4"
+
+					"defaultBgColor_override"	"HudBlueTeam"
+					"armedBgColor_override"		"HudBlueTeamSolid"
+					"selectedBgColor_override"	"HudBlueTeam"
+					"depressedBgColor_override"	"HudBlueTeam"
+					
+					"Subimage"
+					{
+						"image"		"teambutton_blue_icon"
+					}
+				}
+				"ActivateREDButton"
+				{
+					"controlname"		"CEximageButton"
+					"fieldname"		"ActivateREDButton"
+					"style"			"CommandTeamButton"
+					"pin_to_sibling"	"TeamsActivateTitleLabel"
+					"pin_corner_to_sibling"	"pin_center_top"
+					"pin_to_sibling_corner"	"pin_center_bottom"
+					"xpos"			"-11"
+					"ypos"			"0"
+					"wide"			"20"
+					"tall"			"20"
+					"command"		"engine tf_activate_team red"
+					"actionsignallevel"	"4"
+
+					"defaultBgColor_override"	"HudRedTeam"
+					"armedBgColor_override"		"HudRedTeamSolid"
+					"selectedBgColor_override"	"HudRedTeam"
+					"depressedBgColor_override"	"HudRedTeam"
+					
+					"Subimage"
+					{
+						"image"		"teambutton_red_icon"
+					}
+				}
+				"ActivateGRNButton"
+				{
+					"controlname"		"CEximageButton"
+					"fieldname"		"ActivateGRNButton"
+					"style"			"CommandTeamButton"
+					"pin_to_sibling"	"TeamsActivateTitleLabel"
+					"pin_corner_to_sibling"	"pin_center_top"
+					"pin_to_sibling_corner"	"pin_center_bottom"
+					"xpos"			"11"
+					"ypos"			"0"
+					"wide"			"20"
+					"tall"			"20"
+					"command"		"engine tf_activate_team green"
+					"actionsignallevel"	"4"
+
+					"defaultBgColor_override"	"HudGreenTeam"
+					"armedBgColor_override"		"HudGreenTeamSolid"
+					"selectedBgColor_override"	"HudGreenTeam"
+					"depressedBgColor_override"	"HudGreenTeam"
+					
+					"Subimage"
+					{
+						"image"		"teambutton_green_icon"
+					}
+				}
+				"ActivateYLWButton"
+				{
+					"controlname"		"CEximageButton"
+					"fieldname"		"ActivateYLWButton"
+					"style"			"CommandTeamButton"
+					"pin_to_sibling"	"TeamsActivateTitleLabel"
+					"pin_corner_to_sibling"	"pin_center_top"
+					"pin_to_sibling_corner"	"pin_center_bottom"
+					"xpos"			"33"
+					"ypos"			"0"
+					"wide"			"20"
+					"tall"			"20"
+					"command"		"engine tf_activate_team yellow"
+					"actionsignallevel"	"4"
+
+					"defaultBgColor_override"	"HudYellowTeam"
+					"armedBgColor_override"		"HudYellowTeamSolid"
+					"selectedBgColor_override"	"HudYellowTeam"
+					"depressedBgColor_override"	"HudYellowTeam"
+					
+					"Subimage"
+					{
+						"image"		"teambutton_yellow_icon"
+					}
+				}
+				"TeamsDeactivateTitleLabel"
+				{
+					"controlname"		"Label"
+					"fieldname"		"TeamsDeactivateTitleLabel"
+					"xpos"			"146"
+					"ypos"			"73"
+					"wide"			"146"
+					"tall"			"14"
+					"proportionaltoparent"	"1"
+					"labelText"	"#dar_commands_category_teams_deactivate"
+					"font"			"HudFontSmallest"
+					"textAlignment"	"center"
+					
+					"tooltiptext"	"#dar_commands_category_teams_deactivate_tooltip"
+				}
+				"DeactivateBLUButton"
+				{
+					"controlname"		"CEximageButton"
+					"fieldname"		"DeactivateBLUButton"
+					"style"			"CommandTeamButton"
+					"pin_to_sibling"	"TeamsDeactivateTitleLabel"
+					"pin_corner_to_sibling"	"pin_center_top"
+					"pin_to_sibling_corner"	"pin_center_bottom"
+					"xpos"			"-33"
+					"ypos"			"0"
+					"wide"			"20"
+					"tall"			"20"
+					"command"		"engine tf_deactivate_team blue"
+					"actionsignallevel"	"4"
+
+					"defaultBgColor_override"	"HudBlueTeam"
+					"armedBgColor_override"		"HudBlueTeamSolid"
+					"selectedBgColor_override"	"HudBlueTeam"
+					"depressedBgColor_override"	"HudBlueTeam"
+					
+					"Subimage"
+					{
+						"image"		"teambutton_blue_icon"
+					}
+				}
+				"DeactivateREDButton"
+				{
+					"controlname"		"CEximageButton"
+					"fieldname"		"DeactivateREDButton"
+					"style"			"CommandTeamButton"
+					"pin_to_sibling"	"TeamsDeactivateTitleLabel"
+					"pin_corner_to_sibling"	"pin_center_top"
+					"pin_to_sibling_corner"	"pin_center_bottom"
+					"xpos"			"-11"
+					"ypos"			"0"
+					"wide"			"20"
+					"tall"			"20"
+					"command"		"engine tf_deactivate_team red"
+					"actionsignallevel"	"4"
+
+					"defaultBgColor_override"	"HudRedTeam"
+					"armedBgColor_override"		"HudRedTeamSolid"
+					"selectedBgColor_override"	"HudRedTeam"
+					"depressedBgColor_override"	"HudRedTeam"
+					
+					"Subimage"
+					{
+						"image"		"teambutton_red_icon"
+					}
+				}
+				"DeactivateGRNButton"
+				{
+					"controlname"		"CEximageButton"
+					"fieldname"		"DeactivateGRNButton"
+					"style"			"CommandTeamButton"
+					"pin_to_sibling"	"TeamsDeactivateTitleLabel"
+					"pin_corner_to_sibling"	"pin_center_top"
+					"pin_to_sibling_corner"	"pin_center_bottom"
+					"xpos"			"11"
+					"ypos"			"0"
+					"wide"			"20"
+					"tall"			"20"
+					"command"		"engine tf_deactivate_team green"
+					"actionsignallevel"	"4"
+
+					"defaultBgColor_override"	"HudGreenTeam"
+					"armedBgColor_override"		"HudGreenTeamSolid"
+					"selectedBgColor_override"	"HudGreenTeam"
+					"depressedBgColor_override"	"HudGreenTeam"
+					
+					"Subimage"
+					{
+						"image"		"teambutton_green_icon"
+					}
+				}
+				"DeactivateYLWButton"
+				{
+					"controlname"		"CEximageButton"
+					"fieldname"		"DeactivateYLWButton"
+					"style"			"CommandTeamButton"
+					"pin_to_sibling"	"TeamsDeactivateTitleLabel"
+					"pin_corner_to_sibling"	"pin_center_top"
+					"pin_to_sibling_corner"	"pin_center_bottom"
+					"xpos"			"33"
+					"ypos"			"0"
+					"wide"			"20"
+					"tall"			"20"
+					"command"		"engine tf_deactivate_team yellow"
+					"actionsignallevel"	"4"
+
+					"defaultBgColor_override"	"HudYellowTeam"
+					"armedBgColor_override"		"HudYellowTeamSolid"
+					"selectedBgColor_override"	"HudYellowTeam"
+					"depressedBgColor_override"	"HudYellowTeam"
+					
+					"Subimage"
+					{
+						"image"		"teambutton_yellow_icon"
+					}
+				}
+			}
+		}
+	}
+
+	"CommandsPanelBorder"
+	{
+		"controlname"	"EditablePanel"
+		"fieldname"		"CommandsPanelBorder"
+		"xpos"			"5"
+		"ypos"			"5"
+		"zpos"			"-11"
+		"wide"			"320"
+		"tall"			"200"
+		"visible"		"0"
+		"enabled"		"1"
+		"border"		"OuterShadowBorder"
+		"pin_to_sibling" "CommandsPanel"
+
+		"if_inlevel"
+		{
+			"visible"		"1"
+		}
+	}
+}

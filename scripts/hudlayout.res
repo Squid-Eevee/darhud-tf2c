@@ -1,1468 +1,1595 @@
+#base "hudlayout_mapbase_tf.res"
 #base "hudlayout_tf2c.res"
-#base "../darhud_addons/default_close_captions_hudlayout.res"
-#base "../darhud_addons/hint_display.res"
-#base "../darhud_addons/statpanel.res"
 
-#base "../darhud_base/in_game/popups/hint_display.res"
-#base "../darhud_base/in_game/popups/statpanel.res"
-#base "../darhud_base/in_game/close_captions/close_captions_hudlayout.res"
+//Customisations
+#base "../resource/ui/_customizations/weapon_selection/small.res"
+
+//Defaults
+#base "../resource/ui/_customizations/statpanel/statpanel.res"
+#base "../resource/ui/_customizations/weapon_selection/default.res"
 
 "Resource/HudLayout.res"
 {
-	HudPlayerStatus
+	"HudPlayerStatus"
 	{
-		"fieldName" "HudPlayerStatus"
-		"visible" "1"
-		"enabled" "1"
-		"xpos"	"0"
-		"ypos"	"0"
-		"wide"	"f0"
-		"tall"	"480"
-	}
-	
-	HudWeaponAmmo
-	{
-		"fieldName" "HudWeaponAmmo"
-		"visible" "1"
-		"enabled" "1"
-		"xpos"	"r227"
-		"xpos_minmode" "c133"
-		"ypos"	"r100"
-		"zpos"			"1"
-		"wide"	"125"
-		"tall"	"100"
-	}
-	
-	HudObjectiveStatus
-	{
-		"fieldName" "HudObjectiveStatus"
-		"visible" "1"
-		"enabled" "1"
-		"xpos"	"0"
-		"ypos"	"0"
-		"wide"	"f0"
-		"tall"	"480"
-	}	
-	
-	HudKothTimeStatus
-	{
-		"fieldName" "HudKothTimeStatus"
-		"visible" "1"
-		"enabled" "1"
-		"xpos"	"cs-0.5"
-		"ypos"	"0"
-		"wide"	"f0"
-		"tall"	"100"
+		"fieldname" "HudPlayerStatus"
 		
-		"blue_active_xpos"				"-16"
-		"blue_active_xpos_minmode"			"-16"
-	
-		"red_active_xpos"					"-112"
-		"red_active_xpos_minmode"			"-96"
-		
-		"4team_blue_active_xpos"			"-16"
-		"4team_blue_active_xpos_minmode"	"-16"
-		
-		"4team_red_active_xpos"			"-112"
-		"4team_red_active_xpos_minmode"		"-96"
-		
-		"4team_green_active_xpos"			"-208"
-		"4team_green_active_xpos_minmode"	"-176"
-		
-		"4team_yellow_active_xpos"			"-304"
-		"4team_yellow_active_xpos_minmode"	"-256"
-	}
-
-	HudItemEffectMeter
-	{
-		"fieldName"		"HudItemEffectMeter"
-		"visible"		"1"
-		"enabled"		"1"
-		"xpos"			"r162"	[$WIN32]
-		"xpos_minmode"	"r52"	[$WIN32]
-		"ypos"			"r52"	[$WIN32]
-		"ypos_minmode"	"r50"	[$WIN32]
-		"wide"			"100"
-		"tall"			"50"
-		"MeterFG"		"White"
-		"MeterBG"		"Gray"
-	}
-	
-	HudMedicCharge
-	{
-		"fieldName"		"HudMedicCharge"
-		"visible"		"1"
-		"enabled"		"1"
-		"xpos"			"r250"
-		"xpos_minmode"	"c143"
-		"ypos"			"r115"
-		"wide"			"220"
-		"tall"			"90"
-	}
-	
-	HudDemomanCharge
-	{
-		"fieldName"		"HudDemomanCharge"
-		"visible"		"1"
-		"enabled"		"1"
-		"xpos"			"r202"
-		"xpos_minmode"	"r269"
-		"ypos"			"r25"
-		"zpos"			"3"
-		"wide"			"82"
-		"tall"			"12"	
-	}
-
-	HudFlameRocketCharge
-	{
-		"fieldName"		"HudFlameRocketCharge"
-		"visible"		"1"
-		"enabled"		"1"
-		"xpos"			"r80"	[$WIN32]
-		"xpos_minmode"	"r52"	[$WIN32]
-		"ypos"			"r21"	[$WIN32]
-		"ypos_minmode"	"r40"	[$WIN32]
-		"xpos"			"r112"	[$X360]
-		"ypos"			"r45"	[$X360]
-		"zpos"			"1"			// draw in front of ammo
-		"wide"			"60"
-		"wide_minmode"	"50"
-		"tall"			"8"
-		"MeterFG"		"White"
-		"MeterBG"		"Gray"
-	}
-
-	HudBossHealth
-	{
-		"fieldName"		"HudBossHealth"
-		"visible"		"1"
-		"enabled"		"1"
-		"xpos"			"c-100"
-		"ypos"			"42"
-		"zpos"			"0"			// draw in front of ammo
-		"wide"			"200"
-		"tall"			"50"
-		"MeterFG"		"Red"
-		"MeterBG"		"Gray"
-	}
-
-	HudWeaponSelection
-	{
-		"fieldName" "HudWeaponSelection"
-		"xpos"	"0"
-		"wide"	"f0"
-		"ypos" 	"0"
-		"tall"	"480"
-		"RightMargin" "0"
-		"RightMargin_hidef" "32"
-		"RightMargin_lodef" "38"
-		"visible" "1"
-		"enabled" "1"
-		"SmallBoxWide" "72"
-		"SmallBoxTall" "54"
-		"PlusStyleBoxWide" "90"
-		"PlusStyleBoxTall" "63"
-		"PlusStyleExpandSelected"	"0.3"
-		"LargeBoxWide" "110"
-		"LargeBoxTall" "77"
-		"BoxGap" "4"	[$WIN32]
-		"BoxGap" "4"	[$X360]
-		"SelectionNumberXPos" "12"
-		"SelectionNumberYPos" "4"
-		"IconXPos" "8"
-		"IconYPos" "0"
-		"TextYPos" "70"		[$WIN32]
-		"TextYPos" "65"		[$X360]
-		"ErrorYPos" "48"
-		"TextColor" "SelectionTextFg"
-		"MaxSlots"	"6"
-		"PlaySelectSounds"	"1"
-		"Alpha" "220"
-		"SelectionAlpha" "220"
-		"BoxColor" "0 0 0 220"
-		"SelectedBoxColor" "0 0 0 220"
-		"SelectionNumberFg"	"200 187 161 255"
-		"NumberFont" "HudSelectionText"
-	}
-	
-	CHudAccountPanel
-	{
-		"fieldName"				"CHudAccountPanel"
-		"xpos"					"r162"	[$WIN32]
-		"ypos"					"r152"	[$WIN32]
-		"ypos_minmode"			"r134"	[$WIN32]
-		"xpos"					"r194"	[$X360]
-		"ypos"					"r174"	[$X360]
-		"wide"					"116"
-		"tall"  				"180"
-		"visible" 				"1"
-		"enabled" 				"1"
-		"PaintBackgroundType"	"2"
-	}
-	
-	CHealthAccountPanel
-	{
-		"fieldName"				"CHealthAccountPanel"
-		"xpos"					"76"
-		"xpos_minmode"			"61"
-		"ypos"					"r152"
-		"ypos_minmode"			"r134"
-		"wide"					"116"
-		"tall"  				"180"
-		"visible" 				"1"
-		"enabled" 				"1"
-		"PaintBackgroundType"	"2"
-	}
-	
-	CDamageAccountPanel
-	{
-		"fieldName"				"CDamageAccountPanel"
-		"xpos"					"0"
-		"ypos"					"0"
-		"wide"					"f0"
-		"tall"					"480"
-		"visible" 				"1"
-		"enabled" 				"1"
-		"PaintBackgroundType"	"2"
-	}
-	
-	DisguiseStatus
-	{
-		"fieldName" "DisguiseStatus"
-		"visible"	"1"
-		"enabled"	"1"
-		"xpos"		"10"	[$WIN32]
-		"ypos"		"r64"	[$WIN32]
-		"xpos"		"50"	[$X360]
-		"ypos"		"330"	[$X360]
-		"zpos"		"9"
-		"wide"		"500"
-		"tall"		"200"
-		"TextFont"	"Default"	[$X360]
-	}
-
-	CMainTargetID
-	{
-		"fieldName" 	"CMainTargetID"
-		"visible" 	"0"
-		"enabled" 	"1"
-		"xpos"		"c-126"
-		"ypos"		"320"
-		"wide"	 	"252"
-		"tall"	 	"24"
-		"priority"	"40"
-
-		if_vr
-		{
-			"ypos"		"370"
-			"x_offset"	"20"
-		}
-		
-		"medal_x_offset"		"0"
-	}
-	
-	CSpectatorTargetID
-	{
-		"fieldName" 	"CSpectatorTargetID"
-		"visible" 	"0"
-		"enabled" 	"1"
-		"xpos"		"c-126"
-		"ypos"		"344"
-		"wide"	 	"255"
-		"tall"	 	"24"
-		"priority"	"40"
-		
-		"x_offset" "20"
-		"y_offset" "20"
-		
-		"medal_x_offset"		"0"
-	}
-	
-	CSecondaryTargetID
-	{
-		"fieldName" 	"CSecondaryTargetID"
-		"visible" 	"0"
-		"enabled" 	"1"
-		"xpos"		"c-126"
-		"ypos"		"296"
-		"wide"	 	"252"
-		"tall"	 	"24"
-		"priority"	"35"
-
-		if_vr
-		{
-			"ypos"		"330"
-			"x_offset"	"20"
-		}
-		
-		"medal_x_offset"		"0"
-	}
-	
-	BuildingStatus_Spy
-	{
-		"fieldName" "BuildingStatus_Spy"
-		"visible"	"1"
-		"enabled"	"1"
-		"xpos"		"-12"
-		"ypos"		"0"
-		"wide"		"640"
-		"tall"		"480"
-		
-		"PaintBackgroundType"	"2"
-	}
-	
-	BuildingStatus_Engineer
-	{
-		"fieldName" "BuildingStatus_Engineer"
-		"visible"	"1"
-		"enabled"	"1"
-		"xpos"		"-12"
-		"ypos"		"0"
-		"wide"		"640"
-		"tall"		"480"
-		
-		"PaintBackgroundType"	"2"
-	}
-	
-	HudMannVsMachineStatus
-	{
-		"fieldName" "HudMannVsMachineStatus"
-		"visible"	"1"
-		"enabled"	"1"
 		"xpos"		"0"
 		"ypos"		"0"
-		"zpos"		"-1"
+		
 		"wide"		"f0"
 		"tall"		"480"
 		
-		"PaintBackgroundType"	"2"
+		"visible" 	"1"
+		"enabled" 	"1"
+	}
+
+	"HudWeaponAmmo"
+	{
+		"fieldname"					"HudWeaponAmmo"
+		
+		"xpos"						"r233"
+		"ypos"						"r100"
+		"zpos"						"0"
+		
+		"xpos_minmode"				"c127"
+		
+		"wide"						"105"
+		"tall"						"85"
+		
+		"x_offset_mediccharge"			"-40"
+		"y_offset_mediccharge"			"-78"
+		
+		"x_offset_mediccharge_minmode"	"-20"
+		"y_offset_mediccharge_minmode"	"-73"
+		
+		"visible"					"1"
+		"enabled"					"1"
 	}
 	
-	HudProgressBar
-	{
-		"fieldName" "HudProgressBar"
-		"xpos"	"c-150"
-		"ypos"	"300"
-		"wide"	"300"
-		"tall"  "15"
-		"visible" "1"
-		"enabled" "1"
-
-		"BorderThickness" "1"
-
-		"PaintBackgroundType"	"2"
-	}
-
-	HudRoundTimer
-	{
-		"fieldName" "HudRoundTimer"
-		"xpos"	"c-20"
-		"ypos"	"440"
-		"wide"	"120"
-		"tall"  "40"
-		"visible" "1"
-		"enabled" "1"
+	"HudObjectiveStatus"
+	{	
+		"fieldname"	"HudObjectiveStatus"
 		
-		"PaintBackgroundType"	"2"
-
-		"FlashColor" "HudIcon_Red"		
-
-		"icon_xpos"		"0"
-		"icon_ypos"		"2"
-		"digit_xpos"	"34"
-		"digit_ypos"	"2"
-	}
-
-	HudScenarioIcon 
-	{
-		"fieldName" "HudScenarioIcon"
-		"xpos"	"c110"
-		"ypos"	"443"
-		"wide"	"40"
-		"tall"  "44"
-		"visible" "1"
-		"enabled" "1"
-
-		"PaintBackgroundType"	"2"
-
-		"IconColor"				"Hostage_Yellow"	
-	}
-	
-	HudFlashlight
-	{
-		"fieldName" "HudFlashlight"
-		"visible" "1"
-		"enabled" "1"
-		"xpos"	"16"
-		"ypos"	"370"
-		"wide"	"102"
-		"tall"	"20"
+		"xpos"		"0"
+		"ypos"		"0"
 		
-		"text_xpos" "8"
-		"text_ypos" "6"
-		"TextColor"	"255 170 0 220"
-
-		"PaintBackgroundType"	"2"
-	}
-
-	HudDamageIndicator
-	{
-		"fieldName" "HudDamageIndicator"
-		"visible" "1"
-		"enabled" "1"
-		"MinimumWidth" "10"
-		"MaximumWidth" "30"
-		"StartRadius" "80"
-		"EndRadius" "80"
-		"MinimumHeight" "50"
-		"MaximumHeight" "50"
-		"MinimumTime" "1"
+		"wide"		"f0"
+		"tall"		"480"
 		
-		// MaximumDamage
-		// MaximumTime
-		// TravelTime
-		// FadeOutPercentage
-		// Noise
-	}
-
-	HudCommentary
-	{
-		"fieldName" "HudCommentary"
-		"xpos"	"c-190"
-		"ypos"	"320"
-		"wide"	"380"
-		"tall"  "50"
-		"visible" "1"
-		"enabled" "1"
-		
-		"PaintBackgroundType"	"2"
-		"BackgroundOverrideColor" "0 0 0 128"
-		
-		"bar_xpos"		"50"
-		"bar_ypos"		"20"
-		"bar_height"	"8"
-		"bar_width"		"320"
-		"speaker_xpos"	"50"
-		"speaker_ypos"	"8"
-		"count_xpos_from_right"	"10"	// Counts from the right side
-		"count_ypos"	"8"
-		
-		"icon_texture"	"vgui/hud/icon_commentary"
-		"icon_xpos"		"0"
-		"icon_ypos"		"0"		
-		"icon_width"	"40"
-		"icon_height"	"40"
-
-		"use_script_bgcolor"	"1"
-	}
-
-	HudZoom
-	{
-		"fieldName" "HudZoom"
-		"visible" "1"
-		"enabled" "1"
-		"Circle1Radius" "66"
-		"Circle2Radius"	"74"
-		"DashGap"	"16"
-		"DashHeight" "4"
-		"BorderThickness" "88"
-	}
-
-	HudCrosshair
-	{
-		"fieldName" "HudCrosshair"
-		"visible" "1"
-		"enabled" "1"
-		"wide"	 "640"
-		"tall"	 "480"
-	}
-
-	HudDeathNotice
-	{
-		"fieldName" "HudDeathNotice"
-		"visible" "1"
-		"enabled" "1"
-		"xpos"	 "r628"
-		"ypos"	 "18"
-		"zpos"	 "0"
-		"wide"	 "628"
-		"tall"	 "468"
-
-		"MaxDeathNotices" "7"
-		"IconScale"	  "0.35"
-		"LineHeight"	  "13"
-		"LineSpacing"	  "1"
-		"CornerRadius"	  "0"
-		"RightJustify"	  "1"	// If 1, draw notices from the right
-		
-		"TextFont"		"KillfeedFont"
-		
-		"TeamBlue"		"HUDBlueTeamSolid"
-		"TeamRed"		"HUDRedTeamSolid"
-		"TeamGreen"		"HUDGreenTeamSolid"
-		"TeamYellow"		"HUDYellowTeamSolid"
-		"IconColor"		"HudWhite"
-		"LocalPlayerColor"	"HUDBlack"
-
-		"BaseBackgroundColor"	"KillfeedNormal"
-		"LocalBackgroundColor"	"KillfeedKill"
-	}
-
-	HudVehicle
-	{
-		"fieldName" "HudVehicle"
-		"visible" "1"
-		"enabled" "1"
-		"wide"	 "640"
-		"tall"	 "480"
-	}
-
-	CVProfPanel
-	{
-		"fieldName" "CVProfPanel"
-		"visible" "1"
-		"enabled" "1"
-		"wide"	 "640"
-		"tall"	 "480"
-	}
-
-	ScorePanel
-	{
-		"fieldName" "ScorePanel"
-		"visible" "1"
-		"enabled" "1"
-		"wide"	 "640"
-		"tall"	 "480"
-	}
-
-	HudTrain
-	{
-		"fieldName" "HudTrain"
-		"visible" "1"
-		"enabled" "1"
-		"wide"	 "640"
-		"tall"	 "480"
-	}
-
-	HudMOTD
-	{
-		"fieldName" "HudMOTD"
-		"visible" "1"
-		"enabled" "1"
-		"wide"	 "640"
-		"tall"	 "480"
-	}
-
-	HudMessage
-	{
-		"fieldName" "HudMessage"
-		"visible" "1"
-		"enabled" "1"
-		"ypos"	"0"
-		"zpos"	"99"
-		"wide"	 "f0"
-		"tall"	 "480"
-	}
-
-	HudMenu
-	{
-		"fieldName" "HudMenu"
-		"visible" "1"
-		"enabled" "1"
-		"wide"	 "640"
-		"tall"	 "480"
-		"zpos" "1"
-
-		"TextFont"				"Default"
-		"ItemFont"				"Default"
-		"ItemFontPulsing"		"Default"
-		
-		"roundedcorners"	"0"
-	}
-
-	HudSpellMenu
-	{
-		"fieldName" "HudSpellMenu"
-		"visible" "1"
-		"enabled" "1"
-		"wide"	 "640"
-		"tall"	 "480"
-		"zpos" 	"2"
-		"xpos"			"130"
-		"ypos"			"r61"
-		
-		"TextFont"				"Default"
-		"ItemFont"				"Default"
-		"ItemFontPulsing"		"Default"
-	}
-	
-	//Moved to darhud_base
-	// HudCloseCaption
-	// {
-		// "fieldName" "HudCloseCaption"
-		// "visible"	"1"
-		// "enabled"	"1"
-		// "xpos"		"r225"
-		// "xpos_minmode"		"c130"
-		// "ypos"		"220"
-		// "wide"		"200"
-		// "tall"		"136"
-
-		// "BgAlpha"	"0"
-
-		// "GrowTime"		"0.25"
-		// "ItemHiddenTime"	"0.2"  // Nearly same as grow time so that the item doesn't start to show until growth is finished
-		// "ItemFadeInTime"	"0.15"	// Once ItemHiddenTime is finished, takes this much longer to fade in
-		// "ItemFadeOutTime"	"0.3"
-		// "topoffset"		"0"
-	// }
-
-	HudHistoryResource 
-	{
-		"fieldName" "HudHistoryResource"
-		"visible" "0"
-		"enabled" "0"
-		"xpos"	 "r640"	[$WIN32]
-		"xpos"	 "r672"	[$X360]
-		"wide"	 "640"
-		"tall"	 "330"
-		"history_gap" "55"
-	}
-
-	HudGeiger
-	{
-		"fieldName" "HudGeiger"
-		"visible" "1"
-		"enabled" "1"
-		"wide"	 "640"
-		"tall"	 "480"
-	}
-
-	HUDQuickInfo
-	{
-		"fieldName" "HUDQuickInfo"
-		"visible" "1"
-		"enabled" "1"
-		"wide"	 "640"
-		"tall"	 "480"
-	}
-
-	HudWeapon
-	{
-		"fieldName" "HudWeapon"
-		"visible" "1"
-		"enabled" "1"
-		"wide"	 "640"
-		"tall"	 "480"
-	}
-	HudAnimationInfo
-	{
-		"fieldName" "HudAnimationInfo"
-		"visible" "1"
-		"enabled" "1"
-		"wide"	 "640"
-		"tall"	 "480"
-	}
-	CBudgetPanel
-	{
-		"fieldName" "CBudgetPanel"
-		"visible" "1"
-		"enabled" "1"
-		"wide"	 "640"
-		"tall"	 "480"
-	}
-	CTextureBudgetPanel
-	{
-		"fieldName" "CTextureBudgetPanel"
-		"visible" "1"
-		"enabled" "1"
-		"wide"	 "640"
-		"tall"	 "480"
-	}
-
-	HudPredictionDump
-	{
-		"fieldName" "HudPredictionDump"
-		"visible" "1"
-		"enabled" "1"
-		"wide"	 "1280"
-		"tall"	 "1024"
-	}
-
-
-	HudLocation
-	{
-		"fieldName" "HudLocation"
-		"visible"	"1"
+		"visible" 	"1"
 		"enabled"	"1"
-		"xpos"		"16"
-		"ypos"		"112"
-		"wide"		"96"
-		"tall"		"16"
-		"textAlignment"	"north"
-	}
-
-	HudScope
-	{
-		"fieldName" "HudScope"
-		"visible" "1"
-		"enabled" "1"
-		"wide"	 "640"
-		"tall"	 "480"
-	}
+	}	
 	
-	HudScopeCharge
+	"HudKothTimeStatus"
 	{
-		"fieldName" "HudScopeCharge"
-		"visible" "1"
-		"enabled" "1"
-		"xpos"	 "c64"
-		"ypos"	 "c-64"
-		"wide"	 "64"
-		"tall"	 "128"
-	}
-	
-	HudVoiceSelfStatus
-	{
-		"fieldName" "HudVoiceSelfStatus"
-		"visible" "1"
-		"enabled" "1"
-		"xpos" "r180"
-		"xpos_minmode" "c-320"
-		"ypos" "340"
-		"wide" "24"
-		"tall" "24"
-	}
+		"fieldname"		"HudKothTimeStatus"
+		
+		"timer_offset"	"3"
+		
+		"visible"		"1"
+	}	
 
-	HudVoiceStatus
+	"HudItemEffectMeter"
 	{
-		"fieldName"		"HudVoiceStatus"
+		"fieldname"		"HudItemEffectMeter"
+		
+		"xpos"			"r162"
+		"ypos"			"r52"
+		
+		"xpos_minmode"	"r52"
+		"ypos_minmode"	"r50"
+		
+		"wide"			"100"
+		"tall"			"50"
+		
+		"MeterFG"		"White"
+		"MeterBG"		"Gray"
+		
 		"visible"		"1"
 		"enabled"		"1"
+	}
+	
+	"HudMedicCharge"
+	{
+		"fieldname"		"HudMedicCharge"
+		
+		"xpos"			"r250"
+		"ypos"			"r120"
+		
+		"xpos_minmode"	"c143"
+		
+		"wide"			"220"
+		"tall"			"90"
+		
+		"visible"		"1"
+		"enabled"		"1"
+	}
+
+	"HudFlameRocketCharge"
+	{
+		"fieldname"		"HudFlameRocketCharge"
+		
+		"xpos"			"r202"
+		"ypos"			"r23"
+		"zpos"			"3"
+		
+		"xpos_minmode"	"c158"
+		
+		"wide"			"82"
+		"tall"			"12"
+		
+		"visible"		"1"
+		"enabled"		"1"
+	}
+
+	"HudBossHealth"
+	{
+		"fieldname"	"HudBossHealth"
+		
+		"xpos"		"c-100"
+		"ypos"		"42"
+		"zpos"		"0"
+		
+		"wide"		"200"
+		"tall"		"50"
+		
+		"visible"	"1"
+		"enabled"	"1"
+	}
+
+	//resource/ui/_customizations/weapon_selection/
+	"HudWeaponSelection"
+	{
+	}
+	
+	"CHudAccountPanel"
+	{
+		"fieldname"		"CHudAccountPanel"
+		
+		"xpos"			"r162"
+		"ypos"			"r152"
+		
+		"ypos_minmode"	"r134"
+		
+		"wide"			"116"
+		"tall"  			"180"
+		
+		"visible" 		"1"
+		"enabled" 		"1"
+	}
+	
+	"CHealthAccountPanel"
+	{
+		"fieldname"		"CHealthAccountPanel"
+		
+		"xpos"			"76"
+		"ypos"			"r152"
+		
+		"xpos_minmode"	"61"
+		"ypos_minmode"	"r134"
+		
+		"wide"			"116"
+		"tall"  			"180"
+		
+		"visible" 		"1"
+		"enabled" 		"1"
+	}
+	
+	"CDamageAccountPanel"
+	{
+		"fieldname"	"CDamageAccountPanel"
+		
+		"xpos"		"0"
+		"ypos"		"0"
+		
+		"wide"		"f0"
+		"tall"		"480"
+		
+		"visible" 	"1"
+		"enabled" 	"1"
+	}
+	
+	
+	"DisguiseStatus"
+	{
+		"fieldname"		"DisguiseStatus"
+		
+		"xpos"			"5"
+		"ypos"			"r76"
+		
+		"xpos_minmode"	"-10"
+		"ypos_minmode"	"r70"
+		
+		"wide"			"500"
+		"tall"			"200"
+		
+		"visible"		"1"
+		"enabled"		"1"
+	}
+
+	"CMainTargetID"
+	{
+		"fieldname" 				"CMainTargetID"
+		
+		"xpos"					"c-126"
+		"ypos"					"320"
+		"zpos"					"2"
+		
+		"wide"	 				"252"
+		"tall"	 				"26"
+		
+		"priority"				"40"
+		
+		"visible" 				"0"
+		"enabled" 				"1"
+	}
+	
+	"CSecondaryTargetID"
+	{
+		"fieldname" 				"CSecondaryTargetID"
+		
+		"xpos"					"c-126"
+		"ypos"					"296"
+		"zpos"					"2"
+		
+		"wide"	 				"252"
+		"tall"	 				"26"
+		
+		"priority"				"35"
+		
+		"visible" 				"0"
+		"enabled" 				"1"
+	}
+
+	"CSpectatorTargetID"
+	{
+		"fieldname" 				"CSpectatorTargetID"
+		
+		"xpos"					"c-126"
+		"ypos"					"320"
+		"zpos"					"2"
+		
+		"wide"	 				"255"
+		"tall"	 				"26"
+		
+		"priority"				"40"
+		
+		"visible" 				"0"
+		"enabled" 				"1"
+	}
+	
+	"BuildingStatus_Engineer"
+	{
+		"fieldname"		"BuildingStatus_Engineer"
+		
+		"xpos"			"0"
+		"ypos"			"10"
+		
+		"xpos_minmode"	"c-320"
+		
+		"wide"			"f0"
+		"tall"			"480"
+		
+		"visible"		"1"
+		"enabled"		"1"
+	}
+	
+	"BuildingStatus_Spy"
+	{
+		"fieldname"		"BuildingStatus_Spy"
+		
+		"xpos"			"0"
+		"ypos"			"10"
+		
+		"xpos_minmode"	"c-320"
+		
+		"wide"			"f0"
+		"tall"			"480"
+		
+		"visible"		"1"
+		"enabled"		"1"
+	}
+	
+	"HudMannVsMachineStatus"
+	{
+		"fieldname"	"HudMannVsMachineStatus"
+		
+		"xpos"		"0"
+		"ypos"		"0"
+		"zpos"		"-1"
+		
+		"wide"		"f0"
+		"tall"		"480"
+		
+		"visible"	"1"
+		"enabled"	"1"
+	}
+	
+	"CurrencyStatusPanel"
+	{
+		"controlname"	"CCurrencyStatusPanel"
+		"fieldname"	"CurrencyStatusPanel"
+		
+		"xpos"		"cs-1"
+		"ypos"		"r16"
+		"zpos"		"-2"
+		
+		"wide"		"68"
+		"tall"		"16"
+		
+		"visible"	"0"
+		"enabled"	"1"
+	}
+	
+	"HudFlashlight"
+	{
+		"fieldname"	"HudFlashlight"
+		
+		"xpos"		"16"
+		"ypos"		"370"
+		
+		"wide"		"102"
+		"tall"		"20"
+		
+		"text_xpos"	"8"
+		"text_ypos"	"6"
+		"TextColor"	"255 170 0 220"
+		
+		"visible"	"1"
+		"enabled"	"1"
+	}
+
+	"HudDamageIndicator"
+	{
+		"fieldname"		"HudDamageIndicator"
+		
+		"MinimumWidth"	"10"
+		"MaximumWidth"	"100"
+		"MinimumHeight"	"20"
+		"MaximumHeight"	"100"
+		"StartRadius"		"140"
+		"EndRadius"		"120"
+		
+		"visible"		"1"
+		"enabled"		"1"
+	}
+
+	"HudCommentary"
+	{
+		"fieldname"				"HudCommentary"
+		
+		"xpos"					"c-190"
+		"ypos"					"320"
+		
+		"wide"					"380"
+		"tall"					"50"
+		
+		"PaintBackgroundType"		"2"
+		"BackgroundOverrideColor"	"0 0 0 128"
+		
+		"bar_xpos"				"50"
+		"bar_ypos"				"20"
+		"bar_height"				"8"
+		"bar_width"				"320"
+		"speaker_xpos"			"50"
+		"speaker_ypos"			"8"
+		"count_xpos_from_right"	"10"
+		"count_ypos"				"8"
+		
+		"icon_texture"			"vgui/hud/icon_commentary"
+		"icon_xpos"				"0"
+		"icon_ypos"				"0"		
+		"icon_width"				"40"
+		"icon_height"				"40"
+
+		"use_script_bgcolor"		"1"
+		
+		"visible"				"1"
+		"enabled"				"1"
+	}
+
+	"HudDeathNotice"
+	{
+		"fieldname"			"HudDeathNotice"
+		"xpos"				"0"
+		"ypos"				"0"
+		"zpos"				"0"
+		
+		"wide"				"f0"
+		"tall"				"f0"
+
+		"LineHeight"			"13"
+		"LineSpacing"			"1"
+		"CornerRadius"		"0"
+		"RightJustify"		"1"
+		"IconHeightPadding"	"2"
+		
+		"TextFont"			"KillfeedFont"
+		
+		"TeamBlue"			"HUDBlueTeamSolid"
+		"TeamRed"			"HUDRedTeamSolid"
+		"TeamGreen"			"HUDGreenTeamSolid"
+		"TeamYellow"			"HUDYellowTeamSolid"
+		
+		"IconColor"			"HudWhite"
+		"SVGIconColor"		"KillfeedIcon"		//these control the colours of the svg kill icons in the kill feed
+		"SVGIconColorNegative"	"KillfeedIconLocal"	//i'm mentioning this at all because the default hud doesn't specify these
+												//i had to rake through client.dll to find these
+		"LocalPlayerColor"	"HUDBlack"
+
+		"BaseBackgroundColor"	"KillfeedBG"
+		"LocalBackgroundColor"	"KillfeedBGLocal"
+		
+		"visible" 			"1"
+		"enabled" 			"1"
+	}
+
+	"HudMessage"
+	{
+		"fieldname"	"HudMessage"
+		
+		"xpos"		"0"
+		"ypos"		"0"
+		"zpos"		"99"
+		
+		"wide"		"f0"
+		"tall"		"f0"
+		
+		"visible"	"1"
+		"enabled"	"1"
+	}
+
+	"HudMenu"
+	{
+		"fieldname"			"HudMenu"
+		
+		"xpos"				"11"
+		"ypos"				"165"
+		"zpos"				"10"
+		
+		"xpos_minmode"		"-5"
+		
+		"LeftBuffer"			"0"
+		
+		"LeftBuffer_minmode"	"5"
+
+		"TextFont"			"MenuFont"
+		"ItemFont"			"MenuFont"
+		"ItemFontPulsing"		"MenuFont"
+
+		"MenuItemColor"		"HintText"
+		
+		"roundedcorners"		"0"
+		
+		"visible"			"1"
+		"enabled"			"1"
+	}
+
+	"HudChat"
+	{
+		"controlname"			"EditablePanel"
+		"fieldname" 			"HudChat"
+		
+		"xpos"				"11"
+		"ypos"				"255"
+		"zpos"				"1"
+		
+		"wide"	 			"268"
+		"tall"	 			"126"
+		
+		"roundedcorners"		"0"
+		"bordervisible"		"1"
+		"paintbackground"		"1"
+		"PaintBackgroundType"	"0"
+		"bgcolor_override"	"ChatBackground"
+		
+		"visible" 			"1"
+		"enabled" 			"1"
+	}
+
+	"HudSpellMenu"
+	{
+		"fieldname"		"HudSpellMenu"
+		
+		"xpos"			"r127"
+		"ypos"			"r20"
+		"zpos"			"2"
+		
+		"xpos_minmode"	"c234"
+		
+        "wide"			"88"
+		"tall"			"20"
+	}
+	
+	"HudCloseCaption"
+	{
+		"fieldname"		"HudCloseCaption"
+		
+		"xpos"			"c-250"
+		"ypos"			"276"
+		
+		"wide"			"500"
+		"tall"			"136"
+
+		"BgAlpha"		"128"
+
+		"GrowTime"		"0.25"
+		"ItemHiddenTime"	"0.2"
+		"ItemFadeInTime"	"0.15"
+		"ItemFadeOutTime"	"0.3"
+		"topoffset"		"0"
+		
+		"visible"		"1"
+		"enabled"		"1"
+	}
+	
+	//I don't think these are used anywhere
+	//but they sound like debugging tools so I'm hesitant to remove them
+	"HudAnimationInfo"
+	{
+		"fieldname"	"HudAnimationInfo"
+		
+		"wide"		"f0"
+		"tall"		"f0"
+		
+		"visible"	"1"
+		"enabled"	"1"
+	}
+	"CBudgetPanel"
+	{
+		"fieldname"	"CBudgetPanel"
+		
+		"wide"		"f0"
+		"tall"		"f0"
+		
+		"visible"	"1"
+		"enabled"	"1"
+	}
+	"CTextureBudgetPanel"
+	{
+		"fieldname"	"CTextureBudgetPanel"
+		
+		"wide"		"f0"
+		"tall"		"f0"
+		
+		"visible"	"1"
+		"enabled"	"1"
+	}
+	"HudPredictionDump"
+	{
+		"fieldname"	"HudPredictionDump"
+		
+		"wide"		"f0"
+		"tall"		"f0"
+		
+		"visible"	"1"
+		"enabled"	"1"
+	}
+	"HudLocation"
+	{
+		"fieldname"		"HudLocation"
+		
+		"xpos"			"16"
+		"ypos"			"112"
+		
+		"wide"			"96"
+		"tall"			"16"
+		
+		"textAlignment"	"north"
+		
+		"visible"		"1"
+		"enabled"		"1"
+	}
+
+	"HudScope"
+	{
+		"fieldname"	"HudScope"
+		
+		"wide"		"f0"
+		"tall"		"f0"
+		
+		"visible"	"1"
+		"enabled"	"1"
+	}
+	
+	"HudScopeCharge"
+	{
+		"fieldname"	"HudScopeCharge"
+		
+		"xpos"		"c64"
+		"ypos"		"c-64"
+		
+		"wide"		"64"
+		"tall"		"128"
+		
+		"visible"	"1"
+		"enabled"	"1"
+	}
+	
+	"HudVoiceSelfStatus"
+	{
+		"fieldname"		"HudVoiceSelfStatus"
+		
+		"xpos"			"r180"
+		"ypos"			"340"
+		
+		"xpos_minmode"	"c-320"
+		
+		"wide"			"24"
+		"tall"			"24"
+		
+		"visible"		"1"
+		"enabled"		"1"
+	}
+
+	"HudVoiceStatus"
+	{
+		"fieldname"		"HudVoiceStatus"
+		
 		"xpos"			"r150"
-		"ypos"			"-10"
+		"ypos"			"0"
+		
 		"wide"			"150"
-		"tall"			"370"
+		"tall"			"360"
 		
 		"item_wide"		"150"
 		"item_tall"		"16"
 		"item_spacing"	"1"
 		
+		"show_friend"		"1"
 		"show_avatar"		"1"
-		"show_friend"		"0"
+		"show_medal"		"1"
+		"show_dead_icon"	"1"
+		"show_voice_icon"	"1"
+		
 		"avatar_xpos"		"12"
 		"avatar_ypos"		"0"
 		"avatar_wide"		"16"
 		"avatar_tall"		"16"
 		
-		"show_dead_icon"	"1"
-		"dead_xpos"		"28"
+		"medal_xpos"		"4"
+		"medal_ypos"		"0"
+		"medal_wide"		"8"
+		"medal_tall"		"16"
+		
+		"dead_xpos"		"14"
 		"dead_ypos"		"2"
 		"dead_wide"		"12"
 		"dead_tall"		"12"
 		
-		"show_voice_icon"	"1"
 		"icon_ypos"		"2"
 		"icon_xpos"		"0"
 		"icon_wide"		"12"
 		"icon_tall"		"12"
 		
-		"text_xpos"		"40"
+		"text_xpos"		"4"
 
 		"fade_in_time"	"0"
 		"fade_out_time"	"0.1"
-	}
-	
-	overview
-	{
-		"fieldname" "overview"
-		"visible"	"1"
-		"enabled" "1"
-		"xpos"	"0"
-		"ypos"	"0"
-		"wide"	"640"
-		"tall"	"480"
-	}
-	
-	VguiScreenCursor
-	{
-		"fieldName" "VguiScreenCursor"
-		"visible" "1"
-		"enabled" "1"
-		"wide"	 "640"
-		"tall"	 "480"
-	}
-
-	HudControlPointIcons
-	{
-		"fieldName"				"HudControlPointIcons"
-		"xpos"					"0"
-		"ypos"					"410"
-		"wide"					"f0"
-		"tall"					"200"
-		"visible"				"1"
-		"enabled"				"1"
-		"separator_width"			"9"	// distance between the icons (including their backgrounds)
-		"separator_height"		"9"
-		"height_offset"			"0" // distance from the bottom of the panel
-	}
-
-	HudCapturePanel
-	{
-		"fieldName"				"HudCapturePanel"
-		"xpos"					"c-75"
-		"ypos"					"c80"
-		"wide"					"150"
-		"tall"					"90"
-		"visible"				"1"
-		"enabled"				"1"
-		"icon_space"			"2"
-	}
-	
-	HUDAutoAim
-	{
-
-	}	
-	
-	HudHDRDemo
-	{
-
-	}
-	
-	WinPanel
-	{
-		"fieldName"				"WinPanel"
-		"visible"				"1"
-		"enabled"				"1"
-		"xpos"					"c-150"
-		"ypos"					"0"
-		"wide"					"302"
-		"tall"					"480"
-		"zpos"					"12"
-		"proportionaltoparent"	"1"
-	}
-	
-	ArenaWinPanel
-	{
-		"fieldName"				"ArenaWinPanel"
-		"visible"				"1"
-		"enabled"				"1"
-		"xpos"					"c-185"
-		"ypos"					"0"
-		"wide"					"372"
-		"tall"					"480"
-		"zpos"					"3000"
-	}
-	
-	PVEWinPanel
-	{
-		"fieldName"				"PVEWinPanel"
-		"visible"				"1"
-		"enabled"				"1"
-		"xpos"					"c-150"
-		"ypos"					"255"
-		"wide"					"300"
-		"tall"					"215"
-	}
-	
-	//Moved to darhud_base
-	// StatPanel
-	// {
-		// "fieldName"	"StatPanel"
-		// "visible"	"0"
-		// "enabled"	"0"
-		// "xpos"		"r202"
-		// "ypos"		"136"
-		// "wide"		"0"
-		// "tall"		"0"
-	// }
-	
-	FreezePanel
-	{
-		"fieldName"				"FreezePanel"
-		"visible"				"1"
-		"enabled"				"1"
-		"xpos"					"0"
-		"ypos"					"0"
-		"wide"					"f0"
-		"tall"					"480"
-	}
-
-	FreezePanelCallout
-	{
-		"fieldName"				"FreezePanelCallout"
-		"visible"				"1"
-		"enabled"				"1"
-		"xpos"					"200"
-		"ypos"					"200"
-		"wide"					"100"
-		"tall"					"50"
-	}
-
-	AnnotationsPanelCallout
-	{
-		"fieldName"			"AnnotationsPanelCallout"
-		"visible"				"1"
-		"enabled"				"1"
-		"xpos"					"200"
-		"ypos"					"200"
-		"wide"					"100"
-		"tall"					"50"
-	}
-	
-	AnnotationsPanel
-	{
 		
+		"name_font"		"VoiceChatFont"
+		
+		"visible"		"1"
+		"enabled"		"1"
 	}
 
-	WaitingForPlayersPanel
+	"HudHintDisplay"
 	{
-		"fieldName"				"WaitingForPlayersPanel"
-		"visible"				"0"
-		"enabled"				"1"
-		"xpos"					"c-146"
-		"ypos"					"10"
-		"wide"					"292"
-		"tall"					"64"
+		"fieldname"			"HudHintDisplay"
+		"xpos"				"c-240"
+		"ypos"				"c60"
+		
+		"wide"				"480"
+		"tall"				"100"
+		
+		"HintSize"			"1"
+		"text_xpos"			"8"
+		"text_ypos"			"8"
+		"center_x"			"0"
+		"center_y"			"-1"
+		
+		"PaintBackgroundType"	"0"
+		
+		"visible"			"0"
+		"enabled"			"1"
+	}	
+
+	"HudHintKeyDisplay"
+	{
+		"fieldname"			"HudHintKeyDisplay"
+		
+		"xpos"				"r120"
+		"ypos"				"r340"
+		
+		"wide"				"100"
+		"tall"				"200"
+		
+		"text_xpos"			"8"
+		"text_ypos"			"8"
+		"text_xgap"			"8"
+		"text_ygap"			"8"
+		"TextColor"			"HintText"
+
+		"PaintBackgroundType"	"0"
+		
+		"visible"			"0"
+		"enabled" 			"1"
+	}
+	
+	"overview"
+	{
+		"fieldname"	"overview"
+		
+		"xpos"		"0"
+		"ypos"		"0"
+		
+		"wide"		"f0"
+		"tall"		"f0"
+		
+		"visible"	"1"
+		"enabled"	"1"
+	}
+	
+	"VguiScreenCursor"
+	{
+		"fieldname"	"VguiScreenCursor"
+		
+		"wide"		"f0"
+		"tall"		"f0"
+		
+		"visible"	"1"
+		"enabled"	"1"
+	}
+
+	"HudControlPointIcons"
+	{
+		"fieldname"			"HudControlPointIcons"
+		
+		"xpos"				"0"
+		"ypos"				"410"
+		
+		"wide"				"f0"
+		"tall"				"200"
+		
+		"separator_width"		"9"
+		"separator_height"	"9"
+		"height_offset"		"15"
+		
+		"visible"			"1"
+		"enabled"			"1"
+	}
+
+	//i can't get this to do anything but the code for it was an interesting rabbit hole
+	"HudCapturePanel"
+	{
+		"fieldname"	"HudCapturePanel"
+		
+		"xpos"		"c-75"
+		"ypos"		"c80"
+		
+		"wide"		"150"
+		"tall"		"90"
+		
+		"icon_space"	"2"
+		
+		"visible"	"1"
+		"enabled"	"1"
+	}
+	
+	"HudHDRDemo"
+	{
+		"fieldname"		"HudHDRDemo"
+		
+		"xpos"			"0"
+		"ypos"			"0"
+		
+		"wide"			"f0"
+		"tall"			"f0"
+		
+		"BorderColor"		"0 0 0 255"
+		"TextColor"		"255 255 255 255"
+		"BorderLeft"		"8"
+		"BorderRight"		"8"
+		"BorderTop"		"8"
+		"BorderBottom"	"8"
+		"BorderCenter"	"8"
+		
+		"LeftTitleY"		"8"
+		"RightTitleY"		"8"
+		
+		"visible"		"1"
+		"enabled"		"1"
+	}
+	
+	"WinPanel"
+	{
+		"fieldname"			"WinPanel"
+		"proportionaltoparent"	"1"
+		
+		"xpos"				"c-210"
+		"ypos"				"0"
+		"zpos"				"12"
+		
+		"wide"				"422"
+		"tall"				"480"
+		
+		"visible"			"1"
+		"enabled"			"1"
+	}
+	
+	"ArenaWinPanel"
+	{
+		"fieldname"	"ArenaWinPanel"
+		
+		"xpos"		"c-225"
+		"ypos"		"0"
+		"zpos"		"12"
+		
+		"wide"		"552"
+		"tall"		"480"
+		
+		"visible"	"1"
+		"enabled"	"1"
+	}
+	
+	"PVEWinPanel"
+	{
+		"fieldname"	"PVEWinPanel"
+		
+		"xpos"		"c-140"
+		"ypos"		"c50"
+		"zpos"		"12"
+		
+		"wide"		"276"
+		"tall"		"101"
+		
+		"visible"	"1"
+		"enabled"	"1"
+	}
+
+	//resource/ui/_customizations/statpanel/
+	"StatPanel"
+	{
+	}
+	
+	"FreezePanel"
+	{
+		"fieldname"	"FreezePanel"
+		
+		"xpos"		"0"
+		"ypos"		"0"
+		
+		"wide"		"f0"
+		"tall"		"f0"
+		
+		"visible"	"1"
+		"enabled"	"1"
+	}
+
+	"FreezePanelCallout"
+	{
+		"fieldname"	"FreezePanelCallout"
+		
+		"xpos"		"200"
+		"ypos"		"200"
+		
+		"wide"		"76"
+		"tall"		"34"
+		
+		"visible"	"1"
+		"enabled"	"1"
+	}
+	
+	"AnnotationsPanel"
+	{
+		"fieldname"	"AnnotationsPanel"
+		
+		"xpos"		"0"
+		"ypos"		"0"
+		
+		"wide"		"f0"
+		"tall"		"f0"
+		
+		"visible"	"1"
+		"enabled"	"1"
+	}
+
+	"AnnotationsPanelCallout"
+	{
+		"fieldname"	"AnnotationsPanelCallout"
+		
+		"xpos"		"200"
+		"ypos"		"200"
+		
+		"wide"		"100"
+		"tall"		"50"
+		
+		"visible"	"1"
+		"enabled"	"1"
+	}
+	
+	//i'm guessing this is a holdover from tfc?
+	//it's supposed to update when certain teamplay game events fire, but they never seem to
+	//it's fully functional otherwise, manually firing the events with vscript proves as much
+	//not really necessary anymore since the waiting for players indicator is part of the timer
+	"WaitingForPlayersPanel"
+	{
+		"fieldname"	"WaitingForPlayersPanel"
+		
+		"xpos"		"c-146"
+		"ypos"		"10"
+		
+		"wide"		"302"
+		"tall"		"66"
+		
+		"visible"	"0"	//leaving this hidden since it does nothing in normal play and it's visible by default for some reason
+		"enabled"	"1"
 	}
 	
 	"HudUpgradePanel"
 	{
-		"fieldName"		"HudUpgradePanel"
-		"visible"		"0"
-		"enable"		"1"
-		"xpos"			"c-200"
-		"ypos"			"260"
-		"wide"			"400"
-		"tall"			"160"		
-	}
-
-	"HudChat"
-	{
-		"ControlName"		"EditablePanel"
-		"fieldName" 		"HudChat"
-		"visible" 		"1"
-		"enabled" 		"1"
-		"xpos"			"10"
-		"ypos"			"275"
-		"zpos"			"-1"
-		"wide"	 		"320"
-		"tall"	 		"120"
-		"PaintBackgroundType"	"2"
+		"controlname"	"EditablePanel"
+		"fieldname"	"HudUpgradePanel"
+		
+		"xpos"		"c-200"
+		"ypos"		"260"
+		
+		"wide"		"400"
+		"tall"		"160"
+		
+		"visible"	"1"
+		"enabled"	"1"
 	}
 	
 	"HudMenuEngyBuild"
 	{
-		"fieldName" 	"HudMenuEngyBuild"
-		"visible" 		"1"
-		"enabled" 		"1"
-		"xpos"			"cs-0.5"
-		"ypos"			"c90"
-		"zpos"			"1"
-		"wide"			"275"
-		"tall"			"108"
-		"PaintBackgroundType"	"0"
+		"controlname"	"EditablePanel"
+		"fieldname" 	"HudMenuEngyBuild"
+		
+		"xpos"		"cs-0.5"
+		"ypos"		"c90"
+		"zpos"		"1"
+		
+		"wide"		"275"
+		"tall"		"108"
+		
+		"visible"	"1"
+		"enabled"	"1"
 	}
 	
 	"HudMenuEngyDestroy"
 	{
-		"fieldName" 	"HudMenuEngyDestroy"
-		"visible" 		"1"
-		"enabled" 		"1"
-		"xpos"			"cs-0.5"
-		"ypos"			"c90"
-		"zpos"			"1"
-		"wide"			"275"
-		"tall"			"108"
-		"PaintBackgroundType"	"0"
+		"controlname"	"EditablePanel"
+		"fieldname" 	"HudMenuEngyDestroy"
+		
+		"xpos"		"cs-0.5"
+		"ypos"		"c90"
+		"zpos"		"1"
+		
+		"wide"		"275"
+		"tall"		"108"
+		
+		"visible"	"1"
+		"enabled"	"1"
 	}
 
 	"HudEurekaEffectTeleportMenu"
 	{
-		"fieldName" 	"HudEurekaEffectTeleportMenu"
-		"visible" 		"1"
-		"enabled" 		"1"
-		"xpos"			"cs-0.5"
-		"ypos"			"c90"
-		"zpos"			"1"
-		"wide"			"140"
-		"tall"			"108"
-		"PaintBackgroundType"	"0"
+		"controlname"	"EditablePanel"
+		"fieldname"	"HudEurekaEffectTeleportMenu"
+		
+		"xpos"		"cs-0.5"
+		"ypos"		"c90"
+		"zpos"		"1"
+		
+		"wide"		"140"
+		"tall"		"108"
+		
+		"visible"	"1"
+		"enabled"	"1"
 	}
 	
 	"HudMenuSpyDisguise"
 	{
-		"fieldName" 	"HudMenuSpyDisguise"
-		"ControlName"	"EditablePanel"
-		"visible" 		"1"
-		"enabled" 		"1"
-		"xpos"			"cs-0.5"
-		"ypos"			"c90"
-		"zpos"			"10"
-		"wide"			"305"
-		"tall"			"85"
+		"controlname"	"EditablePanel"
+		"fieldname"	"HudMenuSpyDisguise"
+		
+		"xpos"		"cs-0.5"
+		"ypos"		"c90"
+		"zpos"		"10"
+		
+		"wide"		"305"
+		"tall"		"90"
+		
+		"visible"	"1"
+		"enabled"	"1"
+	}
+
+	"HudTeamGoal"
+	{
+		"fieldname"	"HudTeamGoal"
+		
+		"xpos"		"cs-0.5"
+		"ypos"		"80"
+		
+		"wide"		"302"
+		"tall"		"56"
+		
+		"visible"	"1"
+		"enabled"	"1"
+	}
+
+	"HudTeamGoalTournament"
+	{
+		"fieldname"	"HudTeamGoalTournament"
+		
+		"xpos"		"c-160"
+		"ypos"		"15"
+		
+		"wide"		"320"
+		"tall"		"300"
+		
+		"visible"	"0"
+		"enabled"	"1"
+	}
+
+	"HudArenaNotification"
+	{
+		"fieldname"	"HudArenaNotification"
+		
+		"xpos"		"0"
+		"ypos"		"66"
+		"zpos"		"-1"
+		
+		"wide"		"f0"
+		"tall"		"30"
+		
+		"visible"	"0"
+		"enabled"	"1"
+	}
+
+	"HudArenaCapPointCountdown"
+	{
+		"fieldname"	"HudArenaCapPointCountdown"
+		
+		"xpos"		"c-15"
+		"ypos"		"429"
+		"zpos"		"99"
+		
+		"wide"		"30"
+		"tall"		"30"
+		
+		"visible"	"1"
+		"enabled"	"1"
+	}
+
+	"HudStalemate"
+	{
+		"fieldname"	"HudStalemate"
+		
+		"xpos"		"c-160"
+		"ypos"		"65"
+		
+		"wide"		"320"
+		"tall"		"100"
+		
+		"visible"	"0"
+		"enabled"	"1"
+	}
+	"HudTournament"
+	{
+		"fieldname"	"HudTournament"
+		
+		"xpos"		"c-125"
+		"ypos"		"5"
+		"zpos"		"2"
+		
+		"wide"		"250"
+		"tall"		"80"
+		
+		"visible"	"0"
+		"enabled"	"1"
+	}
+
+	"HudTournamentSetup"
+	{
+		"fieldname"	"HudTournamentSetup"
+		"xpos"		"c-90"
+		"ypos"		"-70"
+		"wide"		"180"
+		"tall"		"65"
+		"visible"	"0"
+		"enabled"	"1"
+	}
+
+	"HudStopWatch"
+	{
+		"fieldname"	"HudStopWatch"
+		
+		"xpos"		"c-180"
+		"ypos"		"5"
+		
+		"wide"		"145"
+		"tall"		"70"
+		
+		"visible"	"1"
+		"enabled"	"1"
 	}
 	
-	HudDemomanPipes
+	"NotificationPanel"
 	{
-		"fieldName"		"HudDemomanPipes"
-		"visible"		"1"
-		"enabled"		"1"
-		"xpos"			"r162"	[$WIN32]
-		"xpos_minmode"	"r110"	[$WIN32]
-		"ypos"			"r52"	[$WIN32]
-		"ypos_minmode"	"r30"	[$WIN32]
-		"xpos"			"r194"	[$X360]
-		"ypos"			"r74"	[$X360]
-		"wide"			"100"
-		"tall"			"50"
-	}	
-
-	HudTeamGoal
-	{
-		"fieldName"				"HudTeamGoal"
-		"visible"				"1"
-		"enabled"				"1"
-		"xpos"					"cs-0.5"
-		"ypos"					"80"
-		"wide"					"302"
-		"tall"					"56"
+		"fieldname"	"NotificationPanel"
+		
+		"xpos"		"cs-0.5"
+		"ypos"		"287"
+		
+		"wide"		"640"
+		"tall"		"100"
+		
+		"visible"	"1"
+		"enabled"	"1"
 	}
 
-
-	HudTeamGoalTournament
+	"AchievementNotificationPanel"
 	{
-		"fieldName"				"HudTeamGoalTournament"
-		"visible"				"1"
-		"enabled"				"1"
-		"xpos"					"c-160"
-		"ypos"					"15"
-		"ypos_lodef"			"75"
-		"wide"					"320"
-		"tall"					"300"
-	}
-
-	HudTeamSwitch
-	{
-		"fieldName"				"HudTeamSwitch"
-		"visible"				"0"
-		"enabled"				"1"
-		"xpos"					"c-150"
-		"ypos"					"80"
-		"wide"					"302"
-		"tall"					"56"
-	}
-
-	HudArenaNotification
-	{
-		"fieldName"				"HudArenaNotification"
-		"visible"		"0"
-		"enable"		"1"
-		"xpos"			"0"
-		"ypos"			"66"
-		"zpos"			"-1"
-		"wide"			"f0"
-		"tall"			"30"
-	}
-
-	HudArenaCapPointCountdown
-	{
-		"fieldName"				"HudArenaCapPointCountdown"
-		"visible"				"1"
-		"enabled"				"1"
-		"xpos"					"c-15"
-		"ypos"					"442"
-		"wide"					"30"
-		"tall"					"30"
-		"zpos"					"99"
-	}
-
-	HudStalemate
-	{
-		"fieldName"				"HudStalemate"
-		"visible"				"0"
-		"enabled"				"1"
-		"xpos"					"c-160"
-		"ypos"					"65"
-		"wide"					"320"
-		"tall"					"60"
-	}
-	HudTournament
-	{
-		"fieldName"				"HudTournament"
-		"visible"				"0"
-		"enabled"				"1"
-		"xpos"					"c-125"
-		"ypos"					"5"
-		"ypos_lodef"				"75"
-		"zpos"					"2"
-		"wide"					"250"
-		"tall"					"80"
-	}
-
-	HudTournamentSetup
-	{
-		"fieldName"				"HudTournamentSetup"
-		"visible"				"0"
-		"enabled"				"1"
-		"xpos"					"c-90"
-		"ypos"					"-70"
-		"ypos_lodef"				"75"
-		"wide"					"180"
-		"tall"					"65"
-	}
-
-	HudStopWatch
-	{
-		"fieldName"				"HudStopWatch"
-		"visible"				"1"
-		"enabled"				"1"
-		"xpos"					"c-160"
-		"ypos"					"5"
-		"ypos_minmode"				"15"
-		"ypos_lodef"				"75"
-		"wide"					"125"
-		"tall"					"70"
+		"fieldname"	"AchievementNotificationPanel"
+		
+		"xpos"		"0"
+		"ypos"		"180"
+		
+		"wide"		"f10"
+		"tall"		"100"
+		
+		"visible"	"1"
+		"enabled"	"1"
 	}
 	
-	NotificationPanel
+	//if this is what i think it is you can see this in the SFM version of TF2
+	//can't get it to show here even using vscript
+	"CriticalPanel"
 	{
-		"fieldName"				"NotificationPanel"
-		"visible"				"1"
-		"enabled"				"1"
-		"xpos"					"c-320"
-		"ypos"					"287"
-		"wide"					"640"
-		"tall"					"100"
-	}
-
-	AchievementNotificationPanel	
-	{
-		"fieldName"				"AchievementNotificationPanel"
-		"visible"				"1"
-		"enabled"				"1"
-		"xpos"					"0"
-		"ypos"					"c-20"
-		"wide"					"f0"
-		"tall"					"42"
-	}
-
-	CriticalPanel [$WIN32]
-	{
-		"fieldName"				"CriticalPanel"		
-		"visible"				"1"
-		"enabled"				"1"
+		"fieldname"				"CriticalPanel"
+		
 		"xpos"					"r155"
 		"ypos"					"r75"
+		
 		"wide"					"150"
 		"tall"					"25"
+		
+		"visible"				"1"
+		"enabled"				"1"
 	}
 	
 	"HudArenaClassLayout"
 	{
-		"fieldName"				"HudArenaClassLayout"		
-		"visible"				"1"
-		"enabled"				"1"
+		"fieldname"				"HudArenaClassLayout"
+		
 		"xpos"					"0"
 		"ypos"					"r300"
+		
 		"wide"					"f0"
 		"tall"					"320"
-	}
-	
-	HudArenaVsPanel [$WIN32]
-	{
-		"fieldName"				"HudArenaVsPanel"		
+		
 		"visible"				"1"
 		"enabled"				"1"
+	}
+	
+	//hud panel for an unused arena intro animation it looks like
+	//seems sick as hell
+	//i actually kitted it out in this hud even though it'll never be seen
+	//you can see it yourself by running `script_client FireGameEvent("show_vs_panel", {show = true})` from the console while on an arena map
+	"HudArenaVsPanel"
+	{
+		"fieldname"				"HudArenaVsPanel"
+		
 		"xpos"					"0"
-		"ypos"					"240"
+		"ypos"					"cs-0.5"
+		
 		"wide"					"f0"
 		"tall"					"240"
-	}
-	
-	HudArenaPlayerCount [$WIN32]
-	{
-		"fieldName"				"HudArenaPlayerCount"		
+		
 		"visible"				"1"
 		"enabled"				"1"
+	}
+	
+	"HudArenaPlayerCount"
+	{
+		"fieldname"				"HudArenaPlayerCount"	
+		
 		"xpos"					"0"
 		"ypos"					"10"
+		
 		"wide"					"f0"
 		"tall"					"45"
-	}	
+		
+		"visible"				"1"
+		"enabled"				"1"
+	}
 	
 	"HudAchievementTracker"
 	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"HudAchievementTracker"
-		"xpos"			"5"
-		"NormalY"		"10"
-		"EngineerY"		"170"
-		"zpos"			"2"
-		"wide"			"280"
-		"tall"			"280"
-		"visible"		"1"
-		"enabled"		"1"	
+		"controlname"	"EditablePanel"
+		"fieldname"	"HudAchievementTracker"
+		
+		"xpos"		"r200"
+		"ypos"		"200"
+		"zpos"		"2"
+		
+		"wide"		"200"
+		"tall"		"280"
+		
+		"visible"	"1"
+		"enabled"	"1"
 	}
 	
-	HudTrainingInfoMsg
+	"HudTrainingInfoMsg"
 	{
-		"fieldName"				"HudTrainingInfoMsg"
-		"visible"				"0"
-		"enabled"				"1"
+		"fieldname"				"HudTrainingInfoMsg"
+		
 		"xpos"					"10"
 		"ypos"					"50"
+		
 		"wide"					"200"
 		"tall"					"300"
+		
+		"visible"				"0"
+		"enabled"				"1"
 	}
 	
-	HudTrainingMsg
+	"HudTrainingMsg"
 	{
 		
 	}
 	
-	TrainingComplete
+	"TrainingComplete"
 	{
 		
 	}
 
-	HudInspectPanel
+	"HudInspectPanel"
 	{
-		"fieldName"				"HudInspectPanel"
-		"visible"				"0"
-		"enabled"				"1"
-		"xpos"					"r200"
-		"ypos"					"rs1"
-		"zpos"					"10"
-		"wide"					"190"
-		"tall"					"f0"
+		"fieldname"	"HudInspectPanel"
+		
+		"xpos"		"r200"
+		"ypos"		"rs1"
+		"zpos"		"10"
+		
+		"wide"		"190"
+		"tall"		"f0"
+		
+		"visible"	"0"
+		"enabled"	"1"
 	}
 	
-	HudTFCrosshair
+	"HudTFCrosshair"
 	{
-		"fieldName" "HudTFCrosshair"
-		"visible" "1"
-		"enabled" "1"
-		"wide"	 "640"
-		"tall"	 "480"
+		"fieldname"	"HudTFCrosshair"
+		
+		"wide"		"f0"
+		"tall"		"f0"
+		
+		"visible"	"1"
+		"enabled"	"1"
 	}
 	
-	ItemQuickSwitchPanel
+	"ItemQuickSwitchPanel"
 	{
-		"fieldName"				"ItemQuickSwitchPanel"
-		"visible"				"0"
-		"enabled"				"1"
-		"xpos"			"c-125"
-		"ypos"			"280"
-		"wide"			"250"
-		"tall"			"160"
+		"fieldname"	"ItemQuickSwitchPanel"
+		
+		"xpos"		"c-125"
+		"ypos"		"280"
+		
+		"wide"		"250"
+		"tall"		"160"
+		
+		"visible"	"0"
+		"enabled"	"1"
 	}
 	
-	ReplayReminder
+	"ReplayReminder"
 	{
-		"fieldName"		"ReplayReminder"
-		"visible"		"0"
-		"enable"		"1"
+		"fieldname"	"ReplayReminder"
+		"visible"	"0"
+		"enabled"	"1"
 	}
 	
-	MainMenuAdditions
+	"MainMenuAdditions"
 	{
-		"fieldName"		"MainMenuAdditions"
-		"visible"		"1"
-		"enabled"		"1"
-		"xpos"			"c0"
-		"ypos"			"310"
-		"zpos"			"0"
-		"wide"			"300"
-		"tall"			"100"
+		"fieldname"	"MainMenuAdditions"
+		
+		"xpos"		"c0"
+		"ypos"		"310"
+		"zpos"		"0"
+		
+		"wide"		"300"
+		"tall"		"100"
+		
+		"visible"	"1"
+		"enabled"	"1"
 	}	
 
-	CoachedByPanel
+	"CoachedByPanel"
 	{
-		"fieldName"		"CoachedByPanel"
-		"visible"		"0"
-		"enable"		"1"
-		"xpos"			"5"
-		"ypos"			"10"
-		"wide"			"250"
-		"tall"			"44"
+		"fieldname"	"CoachedByPanel"
+		
+		"xpos"		"5"
+		"ypos"		"10"
+		
+		"wide"		"250"
+		"tall"		"44"
+		
+		"visible"	"0"
+		"enabled"	"1"
 	}
 
-	ItemTestHUDPanel
+	"ItemTestHUDPanel"
 	{
-		"fieldName"		"ItemTestHUDPanel"
-		"visible"		"0"
-		"enable"		"1"
-		"xpos"			"5"
-		"ypos"			"10"
-		"wide"			"150"
-		"tall"			"44"
+		"fieldname"	"ItemTestHUDPanel"
+		
+		"xpos"		"5"
+		"ypos"		"10"
+		
+		"wide"		"150"
+		"tall"		"44"
+		
+		"visible"	"0"
+		"enabled"	"1"
 	}
 
-	NotificationQueuePanel
+	"NotificationQueuePanel"
 	{
-		"fieldName"		"NotificationQueuePanel"
-		"visible"		"0"
-		"enable"		"1"
-		"xpos"			"r155"
-		"ypos"			"r90"
-		"zpos"			"100"
-		"wide"			"200"
-		"tall"			"0"
+		"fieldname"	"NotificationQueuePanel"
+		
+		"xpos"		"r155"
+		"ypos"		"r90"
+		"zpos"		"100"
+		
+		"wide"		"200"
+		"tall"		"0"
+		
+		"visible"	"0"
+		"enabled"	"1"
 	}
 	
 	"CHudVote"
 	{
-		"fieldName"		"CHudVote"
-		"xpos"			"0"
-		"xpos_minmode"	"c-300"
+		"fieldname"		"CHudVote"
+		
+		"xpos"			"0"			
 		"ypos"			"0"
-		"zpos"			"0"
+		"zpos"			"100"
+		
 		"wide"			"f0"
-		"tall"			"480"
-		"visible"		"1"
-		"enabled"		"1"
+		"tall"			"f0"
+		
 		"bgcolor_override"	"0 0 0 0"
-		"PaintBackgroundType"	"0" // rounded corners
+		"PaintBackgroundType"	"0"
+		
+		"visible"		"1"
 	}
 
 	"HudAlert"
 	{
-		"fieldName"	"HudAlert"
-		"visible"	"0"
-		"enabled"	"1"
+		"fieldname"	"HudAlert"
+		
 		"xpos"		"c-150"
 		"ypos"		"137"
+		
 		"wide"		"302"
 		"tall"		"56"
+		
+		"visible"	"0"
 	}
 
+	"HudTeamSwitch"
+	{
+		"fieldname"	"HudTeamSwitch"
+		
+		"xpos"		"c-150"
+		"ypos"		"80"
+		
+		"wide"		"302"
+		"tall"		"56"
+		
+		"visible"	"0"
+	}
 
 	"CTFStreakNotice"
 	{
-		"fieldName"		"CTFStreakNotice"
-		"xpos"			"0"
-		"ypos"			"0"
-		"wide"			"640"
-		"tall"			"480"
-		"visible"		"1"
-		"enabled"		"1"
-		"bgcolor_override"	"0 0 0 0"
-		"PaintBackgroundType"	"0" // rounded corners
+		"fieldname"	"CTFStreakNotice"
+		
+		"xpos"		"0"
+		"ypos"		"0"
+		
+		"wide"		"f0"
+		"tall"		"f0"
+		
+		"visible"	"1"
 	}
 
-	CTFFlagCalloutPanel
+	"CTFFlagCalloutPanel"
 	{
-		"fieldName"		"CTFFlagCalloutPanel"
-		"visible" 		"1"
-		"enabled" 		"1"
-		"xpos"			"0"
-		"ypos"			"0"
-		"wide"	 		"40"
-		"tall"	 		"40"
-		"priority"		"40"
+		"fieldname"	"CTFFlagCalloutPanel"
+		
+		"xpos"		"0"
+		"ypos"		"0"
+		
+		"wide"		"40"
+		"tall"		"40"
+		
+		"priority"	"40"
+		
+		"visible"	"0"
 	}
 
 	"HudMenuTauntSelection"
 	{
-		"fieldName" 	"HudMenuTauntSelection"
-		"visible" 		"1"
-		"enabled" 		"1"
-		"xpos"			"cs-0.5"
-		"ypos"			"c70"
-		"wide"			"185"
-		"tall"			"134"
-		"PaintBackgroundType"	"0"
+		"fieldname" 	"HudMenuTauntSelection"
+		
+		"xpos"		"c-235"
+		"ypos"		"c-52"
+		
+		"wide"		"470"
+		"tall"		"200"
+		
+		"visible" 	"1"
 	}
 
 	"ItemAttributeTracker"
 	{
-		"fieldName" 	"ItemAttributeTracker"
-		"visible" 		"1"
-		"enabled" 		"1"
-		"xpos"			"0"
-		"ypos"			"0"
-		"wide"			"f5"
-		"tall"			"f0"
-		"PaintBackgroundType"	"0"
+		"fieldname" 	"ItemAttributeTracker"
+		
+		"xpos"		"0"
+		"ypos"		"0"
+		
+		"wide"		"f5"
+		"tall"		"f0"
+		
+		"visible" 	"1"
 	}
 
-	HudMiniGame
+	"HudMiniGame"
 	{
-		"fieldName" "HudMiniGame"
-		"visible" "1"
-		"enabled" "1"
-		"xpos"	"0"
-		"ypos"	"0"
-		"wide"	"f0"
-		"tall"	"480"
+		"fieldname"	"HudMiniGame"
+		
+		"xpos"		"0"
+		"ypos"		"0"
+		
+		"wide"		"f0"
+		"tall"		"f0"
+		
+		"visible"	"1"
 	}
 
 	"QuestNotificationPanel"
 	{
-		"fieldName"	"QuestNotificationPanel"
-		"visible" "1"
-		"enabled" "1"
-		"xpos"	"0"
-		"ypos"	"0"
-		"wide"	"f0"
-		"tall"	"f0"
+		"fieldname"	"QuestNotificationPanel"
+		
+		"xpos"		"0"
+		"ypos"		"0"
+		
+		"wide"		"f0"
+		"tall"		"f0"
+		
+		"visible"	"1"
 	}
 
 	"MatchMakingContainer"
 	{
-		"ControlName"		"EditablePanel"
-		"fieldName" 		"MatchMakingContainer"
-		"visible" 		"1"
-		"enabled" 		"1"
+		"controlname"		"EditablePanel"
+		"fieldname" 		"MatchMakingContainer"
+		
 		"xpos"			"0"
 		"ypos"			"0"
+		
 		"wide"	 		"f0"
 		"tall"	 		"f0"
+		
+		"visible" 		"0"
 	}
 
-	HudSpectatorExtras
+	"HudSpectatorExtras"
 	{
-		"fieldName" "HudSpectatorExtras"
-		"visible" "1"
-		"enabled" "1"
-		"xpos"	"0"
-		"ypos"	"0"
-		"wide"	"f0"
-		"tall"	"f0"
-	}
-
-	MatchSummary
-	{
-		"fieldName" "MatchSummary"
-		"visible" "0"
-		"enabled" "1"
-		"xpos"	"0"
-		"ypos"	"0"
-		"wide"	"f0"
-		"tall"	"f0"
-	}
-
-	HudMatchStatus
-	{
-		"fieldName"				"HudMatchStatus"
-		"visible"				"1"
-		"enabled"				"1"
-		"xpos"					"0"
-		"ypos"					"0"
-		"zpos"					"8"
-		"wide"					"f0"
-		"tall"					"f0"
-	}
-
-	"HudBetaStamp"
-	{
-		"fieldname"	"HudBetaStamp"
-		"xpos"		"c-380"
-		"ypos"		"c-250"
-		"wide"		"60"
-		"tall"		"60"
+		"fieldname"	"HudSpectatorExtras"
+		
+		"xpos"		"0"
+		"ypos"		"0"
+		
+		"wide"		"f0"
+		"tall"		"f0"
+		
 		"visible"	"1"
-		"enabled"	"1"
+	}
+
+	"MatchSummary"
+	{
+		"fieldname" "MatchSummary"
+		
+		"xpos"		"0"
+		"ypos"		"0"
+		
+		"wide"		"f0"
+		"tall"		"f0"
+		
+		"visible"	"0"
+	}
+
+	"HudMatchStatus"
+	{
+		"fieldname"	"HudMatchStatus"
+		
+		"xpos"		"0"
+		"ypos"		"0"
+		"zpos"		"3"
+		
+		"wide"		"f0"
+		"tall"		"f0"
+		
+		"visible"	"1"
+	}
+
+	"QueueHUDStatus"
+	{
+		"fieldname"			"QueueHUDStatus"
+		"proportionaltoparent"	"1"
+		
+		"xpos"				"rs1-5"
+		"ypos"				"1"
+		"zpos"				"1001"
+		
+		"wide"				"200"
+		"tall"				"18"
+		
+		"keyboardinputenabled"	"1"
+		"mouseinputenabled"	"0"
+		
+		"alpha"				"100"
+		
+		"visible"			"1"
+	}
+	
+	"HudDemomanPipes"
+	{
+		"fieldname"		"HudDemomanPipes"
+		
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"4"
+		
+		"wide"			"f0"
+		"tall"			"480"
+		
+		"visible"		"1"
+	}
+	
+	//i Think these are from Half-Life 2/Half-Life 2
+	//either way they don't do anything but you get a message in the console on startup if they aren't there
+	"HudCrosshair"
+	{
+	}
+	
+	"HudTrain"
+	{
+	}
+	
+	"HudWeapon"
+	{
+	}
+	
+	"HudVehicle"
+	{
+	}
+	
+	"HudAutoAim"
+	{
+	}
+	
+	"HudHistoryResource"
+	{
+	}
+	
+	"HudGeiger"
+	{
 	}
 }

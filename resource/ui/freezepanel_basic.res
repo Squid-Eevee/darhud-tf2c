@@ -2,265 +2,284 @@
 {
 	"FreezePanel"
 	{
-		"ControlName"	"CTFFreezePanel"
-		"fieldName"		"FreezePanel"
+		"controlname"	"CTFFreezePanel"
+		"fieldname"		"FreezePanel"
 
 		"screenshot_move_panel_to_corner"	"1"
 	}
 	
 	"FreezePanelBase"
 	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"FreezePanelBase"
-		"xpos"			"c-200"
-		"ypos"			"c50"		
-		"wide"			"400"
-		"tall"			"130"
-		"visible"		"1"
+		"controlname"	"EditablePanel"
+		"fieldname"	"FreezePanelBase"
+		
+		"xpos"		"c-200"
+		"ypos"		"c50"	
+		
+		"wide"		"400"
+		"tall"		"130"
+		
+		"visible"	"1"
 
 		"FreezePanelBG"
 		{
-			"ControlName"		"CTFImagePanel"
-			"fieldName"		"FreezePanelBG"
-			"xpos"			"c-150"
-			"ypos"			"50"
-			"zpos"			"0"
-			"wide"			"300"
-			"tall"			"34"
-			"visible"		"1"
-			"enabled"		"1"
-			"image"			"../darhud/meter_blue"
-			"scaleImage"	"1"	
+			"controlname"			"CTFImagePanel"
+			"fieldname"			"FreezePanelBG"
 			"proportionaltoparent"	"1"
+			
+			"xpos"				"c-150"
+			"ypos"				"50"
+			"zpos"				"0"
+			
+			"wide"				"300"
+			"tall"				"34"
+			
+			"image"				"..\darhud\meter\meter_blue"
+			"scaleimage"			"1"	
+			
+			"visible"			"1"
+			"enabled"			"1"
 		}
 		"FreezePanelBGShadow"
 		{
-			"ControlName"		"CTFImagePanel"
-			"fieldName"		"FreezePanelBGShadow"
-			"pin_to_sibling"	"FreezePanelBG"
-			"xpos"			"-2"
-			"ypos"			"-2"
-			"zpos"			"-1"
-			"wide"			"300"
-			"tall"			"34"
-			"visible"		"1"
-			"enabled"		"1"
-			"image"			"../darhud/meter_shadow"
-			"scaleImage"	"1"
+			"controlname"			"CTFImagePanel"
+			"fieldname"			"FreezePanelBGShadow"
 			"proportionaltoparent"	"1"
+			
+			"pin_to_sibling"		"FreezePanelBG"
+			
+			"xpos"				"-2"
+			"ypos"				"-2"
+			"zpos"				"-1"
+			
+			"wide"				"300"
+			"tall"				"34"
+			
+			"image"				"..\darhud\meter\meter_shadow"
+			"scaleimage"			"1"
+			
+			"visible"			"1"
+			"enabled"			"1"
 		}
 		
-		"MedalImage"
+		"Medalimage"
 		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"MedalImage"
+			"controlname"		"ImagePanel"
+			"fieldname"		"Medalimage"
+			
 			"xpos"			"20"
 			"ypos"			"40"
 			"zpos"			"1"
+			
 			"wide"			"25"
 			"tall"			"50"
+
+			"image"			"../hud/medal_tester_red"
+			"scaleimage"		"1"
+			
 			"visible"		"0"
 			"enabled"		"1"
-			"image"			"../hud/medal_tester_red"
-			"scaleImage"	"1"
 		}
 		
 		"FreezeLabel"
 		{	
-			"ControlName"		"Label"
-			"fieldName"		"FreezeLabel"
-			"font"			"TF2DefaultShadow"
-			"fgcolor_override"		"GeneralLabel"
-			"xpos"			"120"
-			"ypos"			"52"
-			"zpos"			"1"
-			"wide"			"200"
-			"tall"			"12"
-			"autoResize"		"0"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"labelText"		"#FreezePanel_Killer"
-			"textAlignment"		"south-west"
-			"dulltext"		"0"
-			"brighttext"		"0"
+			"controlname"			"Label"
+			"fieldname"			"FreezeLabel"
 			"proportionaltoparent"	"1"
+			
+			"xpos"				"120"
+			"ypos"				"52"
+			"zpos"				"1"
+			
+			"wide"				"200"
+			"tall"				"14"
+			
+			"labelText"			"#FreezePanel_Killer"
+			"font"				"DisguiseWeaponFont"
+			"textAlignment"		"west"
+			
+			"fgcolor_override"	"GeneralLabel"
+			
+			"dropshadow"			"1"
+			"dropshadowoffset"	"2"
+			
+			"visible"			"1"
+			"enabled"			"1"
 		}
 		
 		"FreezePanelHealth"
 		{
-			"ControlName"	"CTFFreezePanelHealth"
-			"fieldName"		"FreezePanelHealth"
-			"xpos"			"45"
-			"ypos"			"24"
-			"zpos"			"1"
-			"wide"			"90"
-			"tall"			"90"
-			"visible"		"1"
-			"enabled"		"1"	
-			"HealthBonusPosAdj"	"40"
-			"HealthDeathWarning"	"0.49"
-			"TFFont"		"HudFontSmall"
+			"controlname"				"CTFFreezePanelHealth"
+			"fieldname"				"FreezePanelHealth"
+			
+			"xpos"					"45"
+			"ypos"					"24"
+			"zpos"					"1"
+			
+			"wide"					"90"
+			"tall"					"90"
+			
+			"HealthBonusPosAdj"		"40"
+			"HealthDeathWarning"		"0.49"
+			"TFFont"					"HudFontSmall"
 			"HealthDeathWarningColor"	"HealthWarning"
-			"TextColor"		"HealthNormal"
-			"proportionaltoparent"	"1"
+			"TextColor"				"HealthNormal"
+			
+			"visible"				"1"
+			"enabled"				"1"	
 		}
 		
 		"FreezeLabelKiller"
 		{	
-			"ControlName"			"Label"
-			"fieldName"			"FreezeLabelKiller"
-			"fgcolor_override"	"GeneralLabel"
-			"font"				"HudFontSmall"
+			"controlname"			"Label"
+			"fieldname"			"FreezeLabelKiller"
+			
 			"xpos"				"140"
 			"ypos"				"65"
 			"zpos"				"2"
+			
 			"wide"				"200"
 			"tall"				"16"
-			"autoResize"			"0"
-			"pinCorner"			"0"
-			"visible"			"1"
-			"enabled"			"1"
-			"labelText"			"%killername%"
-			"textAlignment"		"west"
-			"textinsetx"			"5"
-		}
-		"FreezeLabelKillerShadow"
-		{	
-			"ControlName"			"Label"
-			"fieldName"			"FreezeLabelKillerShadow"
-			"fgcolor_override"	"GeneralShadow"
+			
 			"font"				"HudFontSmall"
-			"pin_to_sibling"		"FreezeLabelKiller"
-			"xpos"				"-1"
-			"ypos"				"-1"
-			"zpos"				"1"
-			"wide"				"200"
-			"tall"				"16"
-			"autoResize"			"0"
-			"pinCorner"			"0"
-			"visible"			"1"
-			"enabled"			"1"
 			"labelText"			"%killername%"
 			"textAlignment"		"west"
-			"textinsetx"			"5"
+			"textinsetx"			"0"
+			
+			"fgcolor_override"	"GeneralLabel"
+			
+			"dropshadow"			"1"
+			"dropshadowoffset"	"2"
+			
+			"visible"			"1"
+			"enabled"			"1"
 		}
 
-		"AvatarImage"
+		"Avatarimage"
 		{
-			"ControlName"		"CAvatarImagePanel"
-			"fieldName"		"AvatarImage"
+			"controlname"		"CAvatarImagePanel"
+			"fieldname"		"Avatarimage"
+			
 			"xpos"			"120"
 			"ypos"			"64"
-			"zpos"			"1"
+			"zpos"			"3"
+			
 			"wide"			"16"
 			"tall"			"16"
+			
+			"image"			""
+			"scaleimage"		"1"
+			
+			"color_outline"	"52 48 45 255"
+			
 			"visible"		"1"
 			"enabled"		"1"
-			"image"			""
-			"scaleImage"		"1"	
-			"color_outline"		"52 48 45 255"
-			"proportionaltoparent"	"1"
 		}	
 		
 		"NemesisSubPanel"
 		{
-			"ControlName"		"EditablePanel"
-			"fieldName"		"NemesisSubPanel"
-			"xpos"			"c-200"
-			"ypos"			"0"		
-			"wide"			"400"
-			"tall"			"62"
-			"visible"		"1"
+			"controlname"			"EditablePanel"
+			"fieldname"			"NemesisSubPanel"
 			"proportionaltoparent"	"1"
+			
+			"xpos"				"c-200"
+			"ypos"				"0"
+			"zpos"				"2"
+			
+			"wide"				"f0"
+			"tall"				"f0"
+			
+			"visible"			"1"
 
 			"NemesisPanelBG"
 			{
-				"ControlName"		"ScalableImagePanel"
-				"fieldName"		"NemesisPanelBG"
+				"controlname"		"ScalableImagePanel"
+				"fieldname"		"NemesisPanelBG"
+				
 				"xpos"			"0"
 				"ypos"			"0"
 				"zpos"			"5"
+				
 				"wide"			"0"
 				"tall"			"0"
+				
+				"image"			"..\darhud\arena\classlayout\arenaclass_shadow"
+				"scaleimage"		"1"
+				
 				"visible"		"0"
 				"enabled"		"1"
-				"image"			"../darhud/arena/arenaclass_shadow"
-				"scaleImage"		"1"
-				"proportionaltoparent"	"1"
 			}
 			"NemesisIcon"
 			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"NemesisIcon"
-				"xpos"			"175"
-				"ypos"			"0"
-				"zpos"			"4"
-				"wide"			"50"
-				"tall"			"50"
-				"visible"		"1"
-				"enabled"		"1"
-				"image"			"../hud/leaderboard_nemesis_freezecam"
-				"scaleImage"	"1"	
-				"proportionaltoparent"	"1"
-				"drawcolor"		"170 170 170 255"
-			}
-			"NemesisIconShadow"
-			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"NemesisIconShadow"
-				"pin_to_sibling"	"NemesisIcon"
-				"xpos"			"-2"
-				"ypos"			"-2"
-				"zpos"			"3"
-				"wide"			"50"
-				"tall"			"50"
-				"visible"		"1"
-				"enabled"		"1"
-				"image"			"../hud/leaderboard_nemesis_freezecam"
-				"scaleImage"	"1"	
-				"proportionaltoparent"	"1"
-				"drawcolor"		"GeneralShadow"
+				"controlname"			"ImagePanel"
+				"fieldname"			"NemesisIcon"
+				
+				"xpos"				"175"
+				"ypos"				"0"
+				"zpos"				"4"
+				
+				"wide"				"50"
+				"tall"				"50"
+				
+				"image"				"../hud/leaderboard_nemesis_freezecam"
+				"scaleimage"			"1"	
+				"drawcolor"			"170 170 170 255"
+				
+				"dropshadow"			"1"
+				"dropshadowoffset"	"3"
+				
+				"visible"			"1"
+				"enabled"			"1"
 			}
 			"NemesisLabel"
 			{	
-				"ControlName"			"Label"
-				"fieldName"			"NemesisLabel"
-				"font"				"HudFontSmallBold"
-				"fgcolor_override"	"GeneralLabel"
+				"controlname"			"Label"
+				"fieldname"			"NemesisLabel"
+				"proportionaltoparent"	"1"
+				
 				"xpos"				"0"
 				"ypos"				"17"
 				"zpos"				"6"
+				
 				"wide"				"f0"
 				"tall"				"20"
-				"autoResize"			"0"
-				"pinCorner"			"0"
-				"visible"			"1"
-				"enabled"			"1"
+				
 				"labelText"			"%nemesisname%"
 				"textAlignment"		"center"
-				"proportionaltoparent"	"1"
-			}
-			"NemesisLabelShadow"
-			{	
-				"ControlName"			"Label"
-				"fieldName"			"NemesisLabelShadow"
 				"font"				"HudFontSmallBold"
-				"fgcolor_override"	"GeneralShadow"
-				"pin_to_sibling"		"NemesisLabel"
-				"xpos"				"-2"
-				"ypos"				"-2"
-				"zpos"				"5"
-				"wide"				"f0"
-				"tall"				"20"
-				"autoResize"			"0"
-				"pinCorner"			"0"
+				
+				"fgcolor_override"	"GeneralLabel"
+				
+				"dropshadow"			"1"
+				"dropshadowoffset"	"3"
+				
 				"visible"			"1"
 				"enabled"			"1"
-				"labelText"			"%nemesisname%"
-				"textAlignment"		"center"
-				"proportionaltoparent"	"1"
 			}
+			"NemesisAvatarBG"
+			{
+				"controlname"			"ImagePanel"
+				"fieldname"			"NemesisAvatarBG"
+				
+				"xpos"				"113"
+				"ypos"				"57"
+				
+				"wide"				"30"
+				"tall"				"30"
+				
+				"image"				"resource/svgs/darhud/nemesis_mask.svg"
+				"scaleimage"			"1"
+				"drawcolor"			"255 0 0 255"
+				
+				"dropshadow"			"1"
+				"dropshadowoffset"	"2"
+				
+				"visible"			"1"
+				"enabled"			"1"
+			}
+			//from what i can tell this was originally going to be used in mvm
+			//but there's a comment above that bit of code that says "UNDONE: We're not shipping this for now"
+			//it looks like if you died in mvm the game would use this label to show you a hint related to your current class
 			"NemesisLabel2"
 			{
 				"visible"		"0"
@@ -269,206 +288,145 @@
 		}
 	}
 	
-	"itempanel_anchor"
-	{
-		"ControlName"		"EditablePanel"
-		"fieldName"		"itempanel_anchor"
-		"xpos"			"r200"
-		"ypos"			"c130"
-		"wide"			"1"
-		"tall"			"1"
-		"visible"		"1"
-	}
-
 	"itempanel"
 	{
-		"ControlName"			"CItemModelPanel"
-		"fieldName"			"itempanel"
-		"pin_to_sibling"	"itempanel_anchor"
-		"xpos"				"0"
-		"ypos"				"0"
+		"controlname"			"CItemModelPanel"
+		"fieldname"			"itempanel"
+		
+		"xpos"				"rs1-10"
+		"ypos"				"rs1"
 		"zpos"				"10"
+		
 		"wide"				"190"
-		"tall"				"90"
-		"visible"			"0"
-		"bgcolor_override"	"Tooltip"
+		"tall"				"200"
+		
 		"PaintBackgroundType"	"0"
-		"roundedcorners"		"0"
+		"bgcolor_override"	"255 255 255 0"
 		
-		"model_ypos"		"10"
-		"model_center_x"	"1"
-		"model_wide"		"90"
-		"model_tall"		"60"
+		"model_ypos"			"10"
+		"model_center_x"		"1"
+		"model_wide"			"90"
+		"model_tall"			"60"
 		
-		"text_xpos"		"10"
-		"text_ypos"		"72"
-		"text_wide"		"170"
-		"text_center"		"1"
+		"text_xpos"			"10"
+		"text_ypos"			"10"
+		"text_wide"			"170"
+		"text_center"			"1"
 		
-		"max_text_height"	"100"
-		"padding_height"	"10"
-		"resize_to_text"	"1"
-		"text_forcesize"	"6"
+		"max_text_height"		"180"
+		"padding_height"		"10"
+		"resize_to_text"		"1"
+		"text_forcesize"		"2"
+		
+		"visible"			"0"
 		
 		"itemmodelpanel"
 		{
-			"fieldName"		"itemmodelpanel"
-			"use_item_rendertarget" "0"
-			"useparentbg"		"1"
-		}
-		
-		"ItemLabel"
-		{	
-			"ControlName"	"Label"
-			"fieldName"		"ItemLabel"
-			"font"			"DefaultSmall"
-			"xpos"			"10"
-			"ypos"			"3"
-			"zpos"			"1"
-			"wide"			"270"
-			"tall"			"9"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"labelText"		"#FreezePanel_Item"
-			"textAlignment"	"Left"
-			"dulltext"		"0"
-			"brighttext"	"0"
+			"fieldname"				"itemmodelpanel"
+			"use_item_rendertarget"	"0"
+			"useparentbg"				"1"
 		}
 	}
 	
 	"ScreenshotPanel"
 	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"ScreenshotPanel"
+		"controlname"		"EditablePanel"
+		"fieldname"		"ScreenshotPanel"
+		
 		"xpos"			"c-100"
 		"ypos"			"-50"
 		"zpos"			"2"
+		
 		"wide"			"202"
 		"tall"			"48"
+		
 		"visible"		"0"
 			
 		"ScreenshotPanelBGColor"
 		{
-			"ControlName"		"CTFImagePanel"
-			"fieldName"		"ScreenshotPanelBGColor"
+			"controlname"		"CTFImagePanel"
+			"fieldname"		"ScreenshotPanelBGColor"
+			
 			"xpos"			"0"
 			"ypos"			"15"
 			"zpos"			"1"
+			
 			"wide"			"200"
 			"tall"			"24"
+			
+			"image"			"..\darhud\meter\meter_neutral"
+			"teambg_0"		"..\darhud\meter\meter_neutral"
+			"teambg_1"		"..\darhud\meter\meter_spectator"
+			"teambg_2"		"..\darhud\meter\meter_red"
+			"teambg_3"		"..\darhud\meter\meter_blue"
+			"teambg_4"		"..\darhud\meter\meter_green"
+			"teambg_5"		"..\darhud\meter\meter_yellow"
+			"scaleimage"		"1"
+			
 			"visible"		"1"
-			"image"			"../darhud/meter_shadow"
-			"scaleImage"		"1"
-			"teambg_0"		"../darhud/meter_neutral"
-			"teambg_1"		"../darhud/meter_spectator"
-			"teambg_2"		"../darhud/meter_blue"
-			"teambg_3"		"../darhud/meter_red"
-			"teambg_4"		"../darhud/meter_green"
-			"teambg_5"		"../darhud/meter_yellow"
 		}
 		"ScreenshotPanelBG"
 		{
-			"ControlName"		"CTFImagePanel"
-			"fieldName"		"ScreenshotPanelBG"
+			"controlname"		"CTFImagePanel"
+			"fieldname"		"ScreenshotPanelBG"
+			
 			"pin_to_sibling"	"ScreenshotPanelBGColor"
+			
 			"xpos"			"-2"
 			"ypos"			"-2"
 			"zpos"			"0"
+			
 			"wide"			"200"
 			"tall"			"24"
+			
+			"image"			"..\darhud\meter\meter_shadow"
+			"scaleimage"		"1"
+			
 			"visible"		"1"
-			"image"			"../darhud/meter_shadow"
-			"scaleImage"		"1"
 		}
 		"ScreenshotIcon"
 		{
-			"ControlName"		"ImagePanel"
-			"fieldName"		"ScreenshotIcon"
-			"xpos"			"3"
-			"ypos"			"0"
-			"zpos"			"3"
-			"wide"			"34"
-			"tall"			"34"
-			"visible"		"1"
-			"image"			"../hud/ico_camera"
-			"scaleImage"	"1"	
-		}
-		"ScreenshotIconShadow"
-		{
-			"ControlName"		"ImagePanel"
-			"fieldName"		"ScreenshotIconShadow"
-			"pin_to_sibling"	"ScreenshotIcon"
-			"xpos"			"-2"
-			"ypos"			"-2"
-			"zpos"			"2"
-			"wide"			"34"
-			"tall"			"34"
-			"visible"		"1"
-			"image"			"../hud/ico_camera"
-			"scaleImage"	"1"
-			"drawcolor"	"GeneralShadow"
+			"controlname"			"ImagePanel"
+			"fieldname"			"ScreenshotIcon"
+			
+			"xpos"				"3"
+			"ypos"				"0"
+			"zpos"				"3"
+			
+			"wide"				"34"
+			"tall"				"34"
+			
+			"image"				"resource/svgs/ingame/ico_camera.svg"
+			"scaleimage"			"1"
+			
+			"dropshadow"			"1"
+			"dropshadowoffset"	"2"
+			
+			"visible"			"1"
 		}
 		"ScreenshotLabel"
 		{	
-			"ControlName"		"Label"
-			"fieldName"		"ScreenshotLabel"
-			"font"			"FontStorePrice"
-			"xpos"			"38"
-			"ypos"			"22"
-			"zpos"			"2"
-			"wide"			"150"
-			"tall"			"12"
-			"visible"		"1"
-			"enabled"		"1"
-			"labelText"		"%text%"
-			"textAlignment"	"west"
+			"controlname"			"Label"
+			"fieldname"			"ScreenshotLabel"
+			
+			"xpos"				"38"
+			"ypos"				"22"
+			"zpos"				"2"
+			
+			"wide"				"150"
+			"tall"				"12"
+			
+			"labelText"			"%text%"
+			"textAlignment"		"west"
+			"font"				"FontStorePrice"
+			
 			"fgcolor_override"	"GeneralLabel"
-		}
-		"ScreenshotLabelShadow"
-		{	
-			"ControlName"		"Label"
-			"fieldName"		"ScreenshotLabelShadow"
-			"font"			"FontStorePrice"
-			"pin_to_sibling"	"ScreenshotLabel"
-			"xpos"			"-1"
-			"ypos"			"-1"
-			"zpos"			"2"
-			"wide"			"133"
-			"tall"			"12"
-			"visible"		"1"
-			"enabled"		"1"
-			"labelText"		"%text%"
-			"textAlignment"	"west"
-			"fgcolor_override"	"GeneralShadow"
-		}
-	}
-	"FreezePanelModelBG"
-	{
-		"ControlName"	"CModelPanel"
-		"fieldName"		"FreezePanelModelBG"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"-1"
-		"wide"			"f0"
-		"tall"			"480"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"1"
-		"fov"			"20"
-		
-		"model"
-		{
-			"modelname"	"models/vgui/UI_deathcam.mdl"
-			"skin"		"0"
-			"angles_x" "0"
-			"angles_y" "180"
-			"angles_z" "0"
-			"origin_x" "140"
-			"origin_y" "0"
-			"origin_z" "0"
+			
+			"dropshadow"			"1"
+			"dropshadowoffset"	"2"
+			
+			"visible"			"1"
+			"enabled"			"1"
 		}
 	}
 }

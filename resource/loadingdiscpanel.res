@@ -2,57 +2,71 @@
 {
 	"CLoadingDiscPanel"
 	{
-		"ControlName"			"CLoadingDiscPanel"
-		"fieldName"			"CLoadingDiscPanel"
+		"controlname"			"CLoadingDiscPanel"
+		"fieldname"			"CLoadingDiscPanel"
+		
 		"wide" 				"f0"
 		"tall"				"480"
+		
 		"PaintBackground"		"0"
 		"PaintBackgroundType"	"0"
+		
 		"visible"			"1"
 	}
 
 	"LoadingLabel"
 	{
-		"ControlName"			"Label"
-		"fieldName"			"LoadingLabel"
+		"controlname"			"Label"
+		"fieldname"			"LoadingLabel"
+		
 		"xpos" 				"0"
 		"ypos"				"c-16"
 		"zpos"				"1"
+		
 		"wide"				"f0"
 		"tall"				"32"
-		"visible"			"1"
+		
 		"labeltext"			"#GameUI_Paused"
-		"textAlignment"		"center"
 		"font"				"HudFontSmallBold"
+		"textAlignment"		"center"
+		
 		"fgcolor_override"	"GeneralLabel"
-	}
-	"LoadingLabelShadow"
-	{
-		"ControlName"			"Label"
-		"fieldName"			"LoadingLabelShadow"
-		"pin_to_sibling"		"LoadingLabel"
-		"xpos" 				"-2"
-		"ypos"				"-2"
-		"zpos"				"0"
-		"wide"				"f0"
-		"tall"				"32"
+		
+		"dropshadow"			"1"
+		"dropshadowoffset"	"3"
+		
 		"visible"			"1"
-		"labeltext"			"#GameUI_Paused"
-		"textAlignment"		"center"
-		"font"				"HudFontSmallBold"
-		"fgcolor_override"	"GeneralShadow"
 	}
-	"LoadingLabelBackground"
+	"LoadingLabelBackground1"
 	{
-		"ControlName"		"CTFImagePanel"
-		"fieldName"		"LoadingLabelBackground"
-		"xpos"			"cs-0.5"
-		"ypos"			"c-16"
-		"zpos"			"-1"
-		"wide"			"100"
-		"tall"			"32"
-		"visible"		"1"
-		"image"			"../darhud/meter_shadow"
-		"scaleimage"		"1"
+		"controlname"			"EditablePanel"
+		"fieldname"			"LoadingLabelBackground1"
+		
+		"xpos"				"c-20"
+		"ypos"				"c-25"
+		"zpos"				"-1"
+		
+		"wide"				"15"
+		"tall"				"50"
+		
+		"bgcolor_override"	"GeneralBackground"
+		
+		"visible"			"1"
+	}
+	"LoadingLabelBackground2"
+	{
+		"controlname"			"EditablePanel"
+		"fieldname"			"LoadingLabelBackground2"
+		
+		"xpos"				"c5"
+		"ypos"				"c-25"
+		"zpos"				"-1"
+		
+		"wide"				"15"
+		"tall"				"50"
+		
+		"bgcolor_override"	"GeneralBackground"
+		
+		"visible"			"1"
 	}
 }

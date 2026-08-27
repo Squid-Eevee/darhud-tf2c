@@ -2,8 +2,8 @@
 {
 	"ItemNameLabel"
 	{	
-		"ControlName"	"CExLabel"
-		"fieldName"		"ItemName"
+		"controlname"	"CExLabel"
+		"fieldname"		"ItemName"
 		"font"			"Default"
 		"xpos"			"0"
 		"ypos"			"10"
@@ -28,8 +28,8 @@
 	
 	"Icon"
 	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"Icon"
+		"controlname"	"CTFImagePanel"
+		"fieldname"		"Icon"
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"2"
@@ -39,13 +39,13 @@
 		"enabled"		"1"
 		//"image"			"../hud/leaderboard_class_scout"
 		"bgcolor_override"	"HUDRedTeam"
-		"scaleImage"	"0"		
+		"scaleimage"	"0"		
 	}		
     
     "bg"
     {
-        "ControlName"		"panel"
-		"fieldName"		"bg"
+        "controlname"		"panel"
+		"fieldname"		"bg"
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"0"
@@ -53,16 +53,15 @@
 		"tall"			"25"
 		"visible"		"1"
 		"enabled"		"1"
-		"scaleImage"		"1"	
+		"scaleimage"		"1"
 		//"fillcolor"			"0 0 0 192"
-		"paintbackgroundtype" "2"
 		"proportionaltoparent"	"1"
     }
 		
 	"NumberBg"	
 	{
-		"ControlName"	"CIconPanel"
-		"fieldName"		"NumberBg"
+		"controlname"	"CIconPanel"
+		"fieldname"		"NumberBg"
 		"pin_to_sibling" "Icon"
 		"pin_corner_to_sibling" "PIN_CENTER_TOP"
 		"pin_to_sibling_corner" "PIN_CENTER_BOTTOM"
@@ -73,15 +72,15 @@
 		"tall"			"11"
 		"visible"		"1"
 		"enabled"		"1"
-		"scaleImage"	"1"	
+		"scaleimage"	"1"
 		"icon"			"ico_key_blank"
 		"iconColor"		"255 255 255 255"
 	}	
 	
 	"NewNumberLabel"
 	{	
-		"ControlName"	"CExLabel"
-		"fieldName"		"NumberLabel"
+		"controlname"	"CExLabel"
+		"fieldname"		"NumberLabel"
 		"font"			"FontStorePrice"
 		"fgcolor"		"Black"
 		"xpos"			"0"
@@ -102,8 +101,8 @@
 	
 	"NumberLabel"
 	{	
-		"ControlName"	"CExLabel"
-		"fieldName"		"NumberLabel"
+		"controlname"	"CExLabel"
+		"fieldname"		"NumberLabel"
 		"font"			"FontStorePrice"
 		"fgcolor"		"Black"
 		"xpos"			"0"

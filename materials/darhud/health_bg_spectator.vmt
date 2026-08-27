@@ -1,9 +1,0 @@
-"Patch"
-{
-	include "materials\darhud\base_spectator.vmt"
-	
-	insert
-	{
-		"$basetexture"			"darhud/health_bg_mask"
-	}
-}

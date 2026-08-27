@@ -1,4 +1,4 @@
 "Patch"
 {
-	include "materials\darhud\square_blue.vmt"
+	include "materials\darhud\square\square_blue.vmt"
 }

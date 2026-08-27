@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture"	"vgui\achievements\tf_sniper_kill_unscoped"
+	"$vertexcolor"	"1"
+	"$vertexalpha"	"1"
+}

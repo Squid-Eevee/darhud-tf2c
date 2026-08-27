@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   id="eng_status_alert_ico_wrench"
+   width="128"
+   height="128"
+   viewBox="0 0 128 128"
+   version="1.1"
+   xml:space="preserve"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><defs
+     id="defs1"><style
+       id="style1">
+      .cls-1 {
+        fill: #fff;
+        fill-rule: evenodd;
+      }
+    </style></defs><path
+     id="rect1"
+     style="opacity:1;fill:#ffffff;fill-opacity:1;stroke-width:3;stroke-linecap:round;stroke-miterlimit:12.7;paint-order:stroke fill markers"
+     d="m 51.5,28 h 25 v 25 l -4,29 h -17 l -4,-29 z" /><path
+     id="rect2"
+     style="fill:#ffffff;fill-opacity:1;stroke-width:3;stroke-linecap:round;stroke-miterlimit:12.7;paint-order:stroke fill markers"
+     d="m 55,86 h 18 v 15 H 54.927624 Z" /></svg>

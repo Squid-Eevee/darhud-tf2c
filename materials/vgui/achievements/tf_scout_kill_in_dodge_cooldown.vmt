@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture"	"vgui\achievements\tf_scout_kill_in_dodge_cooldown"
+	"$vertexcolor"	"1"
+	"$vertexalpha"	"1"
+}

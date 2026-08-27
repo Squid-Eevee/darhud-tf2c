@@ -1,9 +1,0 @@
-"Patch"
-{
-	include "materials\darhud\base_neutral.vmt"
-	
-	insert
-	{
-		"$basetexture"			"darhud/meter_mask"
-	}
-}

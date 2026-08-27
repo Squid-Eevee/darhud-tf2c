@@ -1,17 +1,4 @@
-"UnlitGeneric"
+"Patch"
 {
-	"$baseTexture"		"darhud/ctf/briefcase_blue"
-	"$translucent"		"1"
-	"$vertexcolor"		"1"
-	"$distancealpha"	"1"
-	"$no_fullbright"	"1"
-	"$ignorez"			"1"
-
-	"$glow"			"1"
-	"$glowcolor"	"{0 0 0}"
-	"$glowalpha"	"0.95"
-	"$glowstart"	"0.03"
-	"$glowend"		"1"
-	"$glowx"		"-.05"
-	"$glowy"		"-.05"
+	"include"		"materials/hud/objectives_flagpanel_carried_blue.vmt"
 }

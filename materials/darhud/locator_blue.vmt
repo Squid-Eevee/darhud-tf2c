@@ -1,9 +1,0 @@
-"Patch"
-{
-	include "materials\darhud\base_blue.vmt"
-	
-	insert
-	{
-		"$basetexture"			"darhud/locator_mask"
-	}
-}

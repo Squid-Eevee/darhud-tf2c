@@ -2,8 +2,8 @@
 {
 	"ObjectiveStatusVIPRManager"
 	{
-		"ControlName"		"EditablePanel"
-		"fieldName"			"ObjectiveStatusVIPRManager"
+		"controlname"		"EditablePanel"
+		"fieldname"			"ObjectiveStatusVIPRManager"
 		"xpos"				"0"
 		"ypos"				"0"
 		"wide"				"f0"
@@ -14,28 +14,28 @@
 	
 	"RedVIPRPanel"
 	{
-		"ControlName"		"CTFHudVIPR"
-		"fieldName"			"RedVIPRPanel"
+		"controlname"		"CTFHudVIPR"
+		"fieldname"			"RedVIPRPanel"
 		"xpos"				"c-50"
-		"ypos"				"r140"
+		"ypos"				"r155"
 		"zpos"				"1"
-		"wide"				"400"
+		"wide"				"f0"
 		"tall"				"200"
 		"visible"			"1"
 		"enabled"			"1"
 
 		"if_red_is_top"
 		{
-			"ypos"	"r180"
+			"ypos"	"r195"
 		}
 	}
 	
 	"BlueVIPRPanel"
 	{
-		"ControlName"		"CTFHudVIPR"
-		"fieldName"		"BlueVIPRPanel"
+		"controlname"		"CTFHudVIPR"
+		"fieldname"		"BlueVIPRPanel"
 		"xpos"			"c-50"
-		"ypos"			"r145"
+		"ypos"			"r155"
 		"zpos"			"1"
 		"wide"			"f0"
 		"tall"			"480"
@@ -44,16 +44,16 @@
 
 		"if_blue_is_top"
 		{
-			"ypos"	"r180"
+			"ypos"	"r195"
 		}
 	}
 	
 	"YellowVIPRPanel"
 	{
-		"ControlName"		"CTFHudVIPR"
-		"fieldName"			"YellowVIPRPanel"
+		"controlname"		"CTFHudVIPR"
+		"fieldname"			"YellowVIPRPanel"
 		"xpos"				"50"
-		"ypos"				"r140"
+		"ypos"				"r155"
 		"zpos"				"1"
 		"wide"				"f0"
 		"tall"				"480"
@@ -62,16 +62,16 @@
 
 		"if_yellow_is_top"
 		{
-			"ypos"				"r164"
+			"ypos"	"r195"
 		}
 	}
 	
 	"GreenVIPRPanel"
 	{
-		"ControlName"		"CTFHudVIPR"
-		"fieldName"			"GreenVIPRPanel"
+		"controlname"		"CTFHudVIPR"
+		"fieldname"			"GreenVIPRPanel"
 		"xpos"				"50"
-		"ypos"				"r140"
+		"ypos"				"r155"
 		"zpos"				"1"
 		"wide"				"f0"
 		"tall"				"480"
@@ -80,7 +80,7 @@
 
 		"if_green_is_top"
 		{
-			"ypos"				"r164"
+			"ypos"	"r195"
 		}
 	}
 }

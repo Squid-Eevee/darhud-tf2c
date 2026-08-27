@@ -1,0 +1,161 @@
+// enum PinCorner_e 
+// {
+// 	PIN_TOPLEFT = 0,
+// 	PIN_TOPRIGHT,
+// 	PIN_BOTTOMLEFT,
+// 	PIN_BOTTOMRIGHT,
+
+// 	// For sibling pinning
+// 	PIN_CENTER_TOP,
+// 	PIN_CENTER_RIGHT,
+// 	PIN_CENTER_BOTTOM,
+// 	PIN_CENTER_LEFT,
+// };
+
+"Resource/UI/HudPasstimePassNotify.res"
+{
+	"HudPasstimePassNotify"
+	{
+		"controlname"	"EditablePanel"
+		"fieldname"	"HudPasstimePassNotify"
+		"xpos"		"0"
+		"ypos"		"0"
+		"zpos"		"0"
+		"wide"		"f0"
+		"tall"		"480"
+		"visible"	"1"
+		"enabled"	"1"
+	}
+
+	"TextBox"
+	{
+		"controlname"		"EditablePanel"
+		"fieldname"		"TextBox"
+		"xpos"			"c-150"
+		"ypos"			"c-156"
+		"zpos"			"1"
+		"wide"			"302"
+		"tall"			"50"
+		"visible"		"1"
+		"enabled"		"1"
+		"border"			"TFFatLineBorder"
+		"RoundedCorners"	"0"
+
+		"TextInPassRange"
+		{
+			"controlname"			"CExLabel"
+			"fieldname"			"TextInPassRange"
+			"font"				"HudFontMediumSmallBold"
+			"xpos"				"0"
+			"ypos"				"0"
+			"zpos"				"3"
+			"wide"				"300"
+			"tall"				"20"
+			"visible"			"1"
+			"enabled"			"1"
+			"centerwrap"			"1"
+			"textAlignment"		"center"
+			"labelText"			"#Msg_PasstimeInPassRange"
+			"fgcolor_override"	"224 217 197 180"
+			"dropshadow"			"1"
+			"dropshadowoffset"	"3"
+		}
+
+		"TextLockedOn"
+		{
+			"controlname"			"CExLabel"
+			"fieldname"			"TextLockedOn"
+			"font"				"HudFontMediumSmallBold"
+			"xpos"				"0"
+			"ypos"				"0"
+			"zpos"				"3"
+			"wide"				"300"
+			"tall"				"20"
+			"visible"			"1"
+			"enabled"			"1"
+			"centerwrap"			"1"
+			"textAlignment"		"center"
+			"labelText"			"#Msg_PasstimeLockedOn"
+			"fgcolor_override"	"224 217 197 180"
+			"dropshadow"			"1"
+			"dropshadowoffset"	"3"
+		}
+
+		"TextPassIncoming"
+		{
+			"controlname"			"CExLabel"
+			"fieldname"			"TextPassIncoming"
+			"font"				"HudFontMediumSmallBold"
+			"xpos"				"0"
+			"ypos"				"15"
+			"zpos"				"3"
+			"wide"				"300"
+			"tall"				"20"
+			"visible"			"1"
+			"enabled"			"1"
+			"centerwrap"			"1"
+			"textAlignment"		"center"
+			"labelText"			"#Msg_PasstimePassIncoming"
+			"fgcolor_override"	"224 217 197 180"
+			"dropshadow"			"1"
+			"dropshadowoffset"	"3"
+		}
+
+		"TextPlayerName"
+		{
+			"controlname"			"CExLabel"
+			"fieldname"			"TextPlayerName"
+			"font"				"HudFontSmall"
+			"xpos"				"0"
+			"ypos"				"34"
+			"zpos"				"3"
+			"wide"				"300"
+			"tall"				"16"
+			"visible"			"1"
+			"enabled"			"1"
+			"textAlignment"		"center"
+			"labelText"			""
+			"fgcolor_override"	"224 217 197 180"
+			"dropshadow"			"1"
+			"dropshadowoffset"	"2"
+		}	
+	}
+
+	"PassLockIndicator"
+	{
+		"controlname"				"ImagePanel"
+		"fieldname"				"PassLockIndicator"
+		"xpos"					"2"
+		"ypos"					"0"
+		"zpos"					"3"
+		"wide"					"54"
+		"tall"					"50"
+		"visible"				"1"
+		"enabled"				"1"
+		"scaleimage"				"1"
+		"image"					"resource/svgs/darhud/passtime/passtime_ball.svg"
+		"pin_to_sibling"			"TextBox"
+		"pin_corner_to_sibling"	"0"
+		"pin_to_sibling_corner"	"1"
+		"dropshadow"				"1"
+		"dropshadowoffset"		"3"
+	}
+
+	"SpeechIndicator"
+	{
+		"controlname"				"ImagePanel"
+		"fieldname"				"SpeechIndicator"
+		"xpos"					"8"
+		"ypos"					"8"
+		"zpos"					"3"
+		"wide"					"48"
+		"tall"					"48"
+		"visible"				"1"
+		"enabled"				"1"
+		"scaleimage"				"1"
+		"image"					"../passtime/hud/passtime_pass_to_me_prompt"
+		"pin_to_sibling"			"TextBox"
+		"pin_corner_to_sibling"	"1"
+		"pin_to_sibling_corner"	"0"
+	}
+}

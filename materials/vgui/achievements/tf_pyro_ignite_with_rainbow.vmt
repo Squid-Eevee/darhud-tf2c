@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture"	"vgui\achievements\tf_pyro_ignite_with_rainbow"
+	"$vertexcolor"	"1"
+	"$vertexalpha"	"1"
+}

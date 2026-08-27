@@ -5,12 +5,11 @@
 	"ItemNameLabel"
 	{	
 		"labelText"		"#TF_Object_Sentry"
-		"labelText_lodef"		"#TF_Object_Sentry_360"
 	}
 	
 	"BuildingIcon"	
 	{
-		"icon"			"obj_status_sentrygun_1"
+		"image"			"resource/svgs/engineer/hud_obj_status_sentry_1.svg"
 	}
 	
 	"NumberLabel"

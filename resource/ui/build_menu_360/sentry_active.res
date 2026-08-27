@@ -12,9 +12,4 @@
 	{
 		"icon"			"hud_menu_sentry_build"
 	}
-	
-	"NumberLabel"
-	{	
-		"labelText"		"1"
-	}
 }

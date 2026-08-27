@@ -1,0 +1,111 @@
+#base "../hudmenuengydestroy.res"
+
+"Resource/UI/build_menu/HudMenuEngyDestroy.res"
+{
+	"MainBackground"	
+	{
+		"controlname"	"EditablePanel"
+		"bgcolor_override"	"0 0 0 0"
+		"proportionaltoparent"	"1"
+		"wide"			"f0"
+		"tall"			"f0"
+		
+		"PipBoyBackground"
+		{
+			"controlname"		"CTFImagePanel"
+			"fieldname"		"PipBoyBackground"
+			"proportionaltoparent"	"1"
+			"xpos"			"0"
+			"ypos"			"0"
+			"wide"			"f0"
+			"tall"			"f0"
+			"image"			"../darhud/square_border_white"
+			"src_corner_height"		"2"				// pixels inside the image
+			"src_corner_width"		"2"
+			"draw_corner_width"		"2"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 		"2"
+			"drawcolor"		"0 255 0 255"
+		}
+	}
+	
+	"BackgroundScanlines"
+	{
+		"fieldname" 		"MainBackground"
+		"controlname"		"ImagePanel"
+		"proportionaltoparent"	"1"
+		"visible" 		"1"
+		"enabled" 		"1"
+		"xpos"			"0"
+		"ypos"			"0"
+		"wide"			"f0"
+		"tall"			"f0"
+		"image"			"../darhud/building/pipboy/scanlines"
+		"scaleimage"		"1"
+		"drawcolor"		"0 255 0 255"
+	}
+	
+	"Divider"
+	{
+		"visible"		"0"
+		"enabled"		"0"
+	}
+	
+	"ItemBackground"
+	{
+		"controlname"	"CTFImagePanel"
+		"fieldname"		"ItemBackground"
+		"xpos"			"cs-0.5"
+		"ypos"			"c90"
+		"wide"			"290"
+		"tall"			"110"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleimage"	"1"
+		"image"			"pipboy_overlay"
+		"tileimage"		"1"
+		"drawcolor"		"192 192 192 255"
+	}
+
+	"BackgroundEngineer"
+	{
+		"controlname"	"CTFImagePanel"
+		"fieldname"		"BackgroundEngineer"
+		"xpos"			"c100"
+		"ypos"			"c85"
+		"zpos"			"1"
+		"wide"			"40"
+		"tall"			"40"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleimage"	"1"
+		"image"			"pipboy_engineer"
+		"tileimage"		"0"
+		"tileVertically" "0"
+	}
+	
+	"DestroyIcon"	
+	{
+		"ypos"			"3"
+		"wide"			"27"
+		"tall"			"27"
+		"drawcolor"		"0 255 0 255"
+		"dropshadow"		"0"
+	}
+	
+	"TitleLabel"
+	{
+		"tall"			"27"
+		"fgcolor"	"0 255 0 255"
+		"font"		"PipBoyTitle"
+		"allcaps"	"1"
+		"dropshadow"		"0"
+	}
+	
+	"CancelLabel"
+	{
+		"ypos"		"96"
+		"fgcolor"	"0 255 0 255"
+		"font"		"PipBoyItem"
+		"dropshadow"		"0"
+	}
+}

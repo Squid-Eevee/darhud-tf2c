@@ -2,12 +2,13 @@
 {
 	"ClassTipsItemPanel"
 	{
-		"ControlName"			"CTFClassTipsItemPanel"
-		"fieldName"				"ClassTipsItemPanel"
+		"controlname"			"CTFClassTipsItemPanel"
+		"fieldname"				"ClassTipsItemPanel"
+		"proportionaltoparent"		"1"
 		"xpos"					"0"
 		"ypos"					"0"
-		"wide"					"160"
-		"tall"					"20"
+		"wide"					"f8"
+		"tall"					"22"
 		"autoResize"			"0"
 		"pinCorner"				"1"
 		"visible"				"1"
@@ -17,8 +18,8 @@
 
 		"TipIcon"
 		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"TipIcon"
+			"controlname"	"ImagePanel"
+			"fieldname"		"TipIcon"
 			"xpos"			"0"
 			"ypos"			"0"
 			"wide"			"20"
@@ -26,23 +27,26 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"scaleimage"	"1"
+			"dropshadow"	"1"
+			"dropshadowoffset"	"2"
 		}
 
 		"TipLabel"
 		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"TipLabel"
+			"controlname"	"CExLabel"
+			"fieldname"		"TipLabel"
+			"proportionaltoparent"	"1"
 			"xpos"			"25"
-			"ypos"			"2"
-			"wide"			"135"
+			"ypos"			"1"
+			"wide"			"f25"
 			"tall"			"20"
 			"visible"		"1"
 			"enabled"		"1"
 			"wrap"			"1"
-			"font"			"TF2DefaultLarge"
-			"autoResize"	"3"
-			"pinCorner"		"1"
-			"textAlignment"	"north-west"
+			"font"			"ClassTipsFont"
+			"textAlignment"	"west"
+			"dropshadow"		"1"
+			"dropshadowoffset"	"2"
 		}
 	}
 }

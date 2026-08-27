@@ -2,61 +2,75 @@
 {
 	"background"
 	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"background"
-		"xpos"			"c-100"
-		"ypos"			"130"
-		"zpos"			"1"
-		"wide"			"20"
-		"tall"			"100"
-		"visible"		"1"
-		"image"			"../darhud/arena/arenaclass_neutral"
-		"scaleImage"	"1"
-		"teambg_0"		"../darhud/arena/arenaclass_neutral"
-		"teambg_1"		"../darhud/arena/arenaclass_spectator"
-		"teambg_2"		"../darhud/arena/arenaclass_red"
-		"teambg_3"		"../darhud/arena/arenaclass_blue"
-		"teambg_4"		"../darhud/arena/arenaclass_green"
-		"teambg_5"		"../darhud/arena/arenaclass_yellow"
+		"controlname"	"CTFImagePanel"
+		"fieldname"	"background"
+		
+		"xpos"		"c-100"
+		"ypos"		"130"
+		"zpos"		"1"
+		
+		"wide"		"20"
+		"tall"		"100"
+		
+		"image"		"..\darhud\arena\classlayout\arenaclass_neutral"
+		"teambg_0"	"..\darhud\arena\classlayout\arenaclass_neutral"
+		"teambg_1"	"..\darhud\arena\classlayout\arenaclass_spectator"
+		"teambg_2"	"..\darhud\arena\classlayout\arenaclass_red"
+		"teambg_3"	"..\darhud\arena\classlayout\arenaclass_blue"
+		"teambg_4"	"..\darhud\arena\classlayout\arenaclass_green"
+		"teambg_5"	"..\darhud\arena\classlayout\arenaclass_yellow"
+		"scaleimage"	"1"
+		
+		"visible"	"1"
 	}
 	
 	"localPlayerBG"
 	{
-		"ControlName"			"CTFImagePanel"
-		"fieldName"			"localPlayerBG"
+		"controlname"			"CTFImagePanel"
+		"fieldname"			"localPlayerBG"
+		
 		"xpos"				"0"
 		"ypos"				"137"
 		"zpos"				"4"
+		
 		"wide"				"45"
 		"tall"				"83"
-		"visible"			"1"
+		
 		"image"				"../darhud/backpack/border"
-		"scaleImage"			"1"
+		"scaleimage"			"1"
+		
 		"fgcolor_override"	"GeneralLabel"
 		
 		"src_corner_width"	"3"
 		"src_corner_height"	"3"
 		"draw_corner_width"	"2"
-		"draw_corner_height" 	"2"	
+		"draw_corner_height" 	"2"
+		
+		"visible"			"1"
 	}
 	"localPlayerBGShadow"
 	{
-		"ControlName"			"EditablePanel"
-		"fieldName"			"localPlayerBGShadow"
+		"controlname"			"EditablePanel"
+		"fieldname"			"localPlayerBGShadow"
+		
 		"pin_to_sibling"		"localPlayerBG"
+		
 		"xpos"				"-1"
 		"ypos"				"-1"
 		"zpos"				"3"
+		
 		"wide"				"43"
 		"tall"				"81"
-		"visible"			"1"
+		
 		"border"				"InnerShadowBorderThin"
+		
+		"visible"			"1"
 	}
 	
 	"you"
 	{
-		"ControlName"				"CExLabel"
-		"fieldName"				"you"
+		"controlname"				"CExLabel"
+		"fieldname"				"you"
 		"pin_to_sibling"			"localPlayerBG"
 		"pin_corner_to_sibling"	"PIN_TOP_MIDDLE"
 		"pin_sibling_to_corner"	"PIN_TOP_MIDDLE"
@@ -64,34 +78,20 @@
 		"ypos"					"-2"
 		"zpos"					"5"
 		"wide"					"45"
-		"tall"					"10"
+		"tall"					"12"
 		"visible"				"1"
 		"labelText"				"#Callout_Ragdoll"
 		"textAlignment"			"center"
 		"font"					"HudFontSmallestBold"
 		"fgcolor_override"		"GeneralLabel"
-	}
-	"youShadow"
-	{
-		"ControlName"			"CExLabel"
-		"fieldName"			"youShadow"
-		"pin_to_sibling"		"you"
-		"xpos"				"-1"
-		"ypos"				"-1"
-		"zpos"				"4"
-		"wide"				"45"
-		"tall"				"10"
-		"visible"			"1"
-		"labelText"			"#Callout_Ragdoll"
-		"textAlignment"		"center"
-		"font"				"HudFontSmallestBold"
-		"fgcolor_override"	"GeneralShadow"
+		"dropshadow"				"1"
+		"dropshadowoffset"		"2"
 	}
 	
 	"title"
 	{
-		"ControlName"		"CExLabel"
-		"fieldName"		"title"
+		"controlname"		"CExLabel"
+		"fieldname"		"title"
 		"xpos"			"c-200"
 		"ypos"			"107"
 		"zpos"			"6"
@@ -105,8 +105,8 @@
 	}
 	"titleShadow"
 	{
-		"ControlName"		"CExLabel"
-		"fieldName"		"titleShadow"
+		"controlname"		"CExLabel"
+		"fieldname"		"titleShadow"
 		"pin_to_sibling"	"title"
 		"xpos"			"-2"
 		"ypos"			"-2"
@@ -122,8 +122,8 @@
 		
 	"changeLabel"
 	{
-		"ControlName"		"CExLabel"
-		"fieldName"		"changeLabel"
+		"controlname"		"CExLabel"
+		"fieldname"		"changeLabel"
 		"xpos"			"c-220"
 		"ypos"			"230"
 		"zpos"			"6"
@@ -137,8 +137,8 @@
 	}
 	"changeLabelShadow"
 	{
-		"ControlName"		"CExLabel"
-		"fieldName"		"changeLabelShadow"
+		"controlname"		"CExLabel"
+		"fieldname"		"changeLabelShadow"
 		"xpos"			"c-219"
 		"ypos"			"231"
 		"zpos"			"5"
@@ -151,10 +151,10 @@
 		"fgcolor"		"GeneralShadow"
 	}
 	
-	"classImage0"
+	"classimage0"
 	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"	"classImage0"
+		"controlname"	"CTFImagePanel"
+		"fieldname"	"classimage0"
 		"xpos"		"0"
 		"ypos"		"125"
 		"zpos"		"3"
@@ -162,12 +162,12 @@
 		"tall"		"90"
 		"visible"	"0"
 		"image"		""
-		"scaleImage"	"1"
+		"scaleimage"	"1"
 	}
-	"classImage1"
+	"classimage1"
 	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"	"classImage1"
+		"controlname"	"CTFImagePanel"
+		"fieldname"	"classimage1"
 		"xpos"		"0"
 		"ypos"		"0"
 		"zpos"		"3"
@@ -175,12 +175,12 @@
 		"tall"		"90"
 		"visible"	"0"
 		"image"		""
-		"scaleImage"	"1"
+		"scaleimage"	"1"
 	}
-	"classImage2"
+	"classimage2"
 	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"	"classImage2"
+		"controlname"	"CTFImagePanel"
+		"fieldname"	"classimage2"
 		"xpos"		"0"
 		"ypos"		"0"
 		"zpos"		"3"
@@ -188,12 +188,12 @@
 		"tall"		"90"
 		"visible"	"0"
 		"image"		""
-		"scaleImage"	"1"
+		"scaleimage"	"1"
 	}
-	"classImage3"
+	"classimage3"
 	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"	"classImage3"
+		"controlname"	"CTFImagePanel"
+		"fieldname"	"classimage3"
 		"xpos"		"0"
 		"ypos"		"0"
 		"zpos"		"3"
@@ -201,12 +201,12 @@
 		"tall"		"90"
 		"visible"	"0"
 		"image"		""
-		"scaleImage"	"1"
+		"scaleimage"	"1"
 	}
-	"classImage4"
+	"classimage4"
 	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"	"classImage4"
+		"controlname"	"CTFImagePanel"
+		"fieldname"	"classimage4"
 		"xpos"		"0"
 		"ypos"		"0"
 		"zpos"		"3"
@@ -214,12 +214,12 @@
 		"tall"		"90"
 		"visible"	"0"
 		"image"		""
-		"scaleImage"	"1"
+		"scaleimage"	"1"
 	}
-	"classImage5"
+	"classimage5"
 	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"	"classImage5"
+		"controlname"	"CTFImagePanel"
+		"fieldname"	"classimage5"
 		"xpos"		"0"
 		"ypos"		"0"
 		"zpos"		"3"
@@ -227,12 +227,12 @@
 		"tall"		"90"
 		"visible"	"0"
 		"image"		""
-		"scaleImage"	"1"
+		"scaleimage"	"1"
 	}
-	"classImage6"
+	"classimage6"
 	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"	"classImage6"
+		"controlname"	"CTFImagePanel"
+		"fieldname"	"classimage6"
 		"xpos"		"0"
 		"ypos"		"0"
 		"zpos"		"3"
@@ -240,12 +240,12 @@
 		"tall"		"90"
 		"visible"	"0"
 		"image"		""
-		"scaleImage"	"1"
+		"scaleimage"	"1"
 	}
-	"classImage7"
+	"classimage7"
 	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"	"classImage7"
+		"controlname"	"CTFImagePanel"
+		"fieldname"	"classimage7"
 		"xpos"		"0"
 		"ypos"		"0"
 		"zpos"		"3"
@@ -253,12 +253,12 @@
 		"tall"		"90"
 		"visible"	"0"
 		"image"		""
-		"scaleImage"	"1"
+		"scaleimage"	"1"
 	}
-	"classImage8"
+	"classimage8"
 	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"classImage8"
+		"controlname"	"CTFImagePanel"
+		"fieldname"		"classimage8"
 		"xpos"		"0"
 		"ypos"		"0"
 		"zpos"		"3"
@@ -266,12 +266,12 @@
 		"tall"		"90"
 		"visible"	"0"
 		"image"		""
-		"scaleImage"	"1"
+		"scaleimage"	"1"
 	}
-	"classImage9"
+	"classimage9"
 	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"	"classImage9"
+		"controlname"	"CTFImagePanel"
+		"fieldname"	"classimage9"
 		"xpos"		"0"
 		"ypos"		"0"
 		"zpos"		"3"
@@ -279,12 +279,12 @@
 		"tall"		"90"
 		"visible"	"0"
 		"image"		""
-		"scaleImage"	"1"
+		"scaleimage"	"1"
 	}
-	"classImage10"
+	"classimage10"
 	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"	"classImage10"
+		"controlname"	"CTFImagePanel"
+		"fieldname"	"classimage10"
 		"xpos"		"0"
 		"ypos"		"0"
 		"zpos"		"3"
@@ -292,12 +292,12 @@
 		"tall"		"90"
 		"visible"	"0"
 		"image"		""
-		"scaleImage"	"1"
+		"scaleimage"	"1"
 	}
-	"classImage11"
+	"classimage11"
 	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"	"classImage11"
+		"controlname"	"CTFImagePanel"
+		"fieldname"	"classimage11"
 		"xpos"		"0"
 		"ypos"		"0"
 		"zpos"		"3"
@@ -305,6 +305,6 @@
 		"tall"		"90"
 		"visible"	"0"
 		"image"		""
-		"scaleImage"	"1"
+		"scaleimage"	"1"
 	}
 }

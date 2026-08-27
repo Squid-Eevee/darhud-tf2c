@@ -1,0 +1,9 @@
+"Patch"
+{
+	include "materials\darhud\bases\teams\base_yellow.vmt"
+	
+	insert
+	{
+		"$basetexture"	"darhud\scoreboard\side\score_left_mask"
+	}
+}

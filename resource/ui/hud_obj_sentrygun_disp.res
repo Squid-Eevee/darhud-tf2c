@@ -2,420 +2,676 @@
 {
 	"BuildingStatusItem"
 	{
-		"ControlName"	"Frame"
-		"fieldName"		"BuildingStatusItem"
-		"xpos"			"0"
-		"ypos"			"0"
-		"wide"			"160"
-		"tall"			"26"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"	"0"
+		"controlname"	"Frame"
+		"fieldname"	"BuildingStatusItem"
+		
+		"xpos"		"0"
+		"ypos"		"0"
+		
+		"wide"		"200"
+		"tall"		"28"
+		
+		"visible"	"1"
 	}
 	
 	"Background"
 	{
 		"visible"		"0"
-		"enabled"		"0"
 	}
 
 	"Icon_Sentry_1"
 	{
-		"ControlName"		"CIconPanel"
-		"fieldName"		"Icon_Sentry_1"
-		"xpos"			"25"
-		"ypos"			"-2"
-		"tall"			"22"
-		"wide"			"22"
-		"visible"		"1"
-		"scaleImage"		"1"	
-		"icon"			"obj_status_sentrygun_1"
-		"iconColor"		"AdditionalIcon"
+		"controlname"			"ImagePanel"
+		"fieldname"			"Icon_Sentry_1"
+		
+		"xpos"				"13"
+		"ypos"				"-3"
+		
+		"tall"				"28"
+		"wide"				"28"
+		
+		"image"				"resource/svgs/engineer/hud_obj_status_sentry_mini.svg"
+		"scaleimage"			"1"
+		"drawcolor"			"AdditionalIcon"
+		
+		"dropshadow"			"1"
+		"dropshadowoffset"	"2"
+		
+		"visible"			"1"
 	}
 	
 	"NotBuiltPanel"
 	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"NotBuiltPanel"
-		"xpos"			"0"
-		"ypos"			"0"
-		"wide"			"160"
-		"tall"			"26"
-		"visible"		"1"
+		"controlname"	"EditablePanel"
+		"fieldname"	"NotBuiltPanel"
 		
-		"BackgroundContainer"
+		"xpos"		"0"
+		"ypos"		"0"
+		
+		"wide"		"160"
+		"tall"		"26"
+		
+		"visible"	"1"
+
+		"Icon_Sentry_1"
 		{
-			"ControlName"	"EditablePanel"
-			"fieldName"	"BackgroundContainer"
-			"xpos"		"-2"
-			"ypos"		"0"
-			"wide"		"226"
-			"tall"		"24"
-			"visible"	"1"
+			"controlname"			"ImagePanel"
+			"fieldname"			"Icon_Sentry_1"
 			
-			"Background"
-			{
-				"ControlName"		"CTFImagePanel"
-				"fieldName"		"Background"
-				"xpos"			"0"
-				"ypos"			"0"
-				"zpos"			"-3"
-				"wide"			"226"
-				"tall"			"50"
-				"visible"		"1"
-				"image"			"darhud/building/build_sentry_shadow"
-				"scaleImage"		"1"
-			}
+			"xpos"				"13"
+			"ypos"				"-3"
+			
+			"tall"				"28"
+			"wide"				"28"
+			
+			"image"				"resource/svgs/engineer/hud_obj_status_sentry_mini.svg"
+			"scaleimage"			"1"
+			"drawcolor"			"AdditionalIcon"
+			
+			"dropshadow"			"1"
+			"dropshadowoffset"	"2"
+			
+			"visible"			"1"
+		}
+
+		"Background"
+		{
+			"visible"	"0"
+		}
+		"BackgroundShadow"
+		{
+			"controlname"		"ImagePanel"
+			"fieldname"		"BackgroundShadow"
+			
+			"xpos"			"-52"
+			"ypos"			"0"
+			"zpos"			"-3"
+			
+			"wide"			"96"
+			"tall"			"26"
+			
+			"image"			"resource/svgs/darhud/building/building_mask.svg"
+			"scaleimage"		"1"
+			"drawcolor"		"HudShadow"
+			
+			"visible"		"1"
 		}
 		"NotBuiltLabel"
 		{
-			"ControlName"		"CExLabel"
-			"fieldName"		"NotBuiltLabel"
-			"font"			"ScoreboardVerySmall"
-			"xpos"			"60"
-			"ypos"			"0"
-			"zpos"			"1"
-			"wide"			"200"
-			"tall"			"24"
-			"visible"		"1"
-			"enabled"		"1"
-			"labelText"		"#Building_hud_disp_sentry_not_built"
-			"textAlignment"	"west"
-			"fgcolor"		"GeneralLabel"
+			"controlname"			"CExLabel"
+			"fieldname"			"NotBuiltLabel"
+			
+			"xpos"				"62"
+			"ypos"				"0"
+			"zpos"				"1"
+			
+			"wide"				"200"
+			"tall"				"26"
+			
+			"labelText"			"#Building_hud_disp_sentry_not_built"
+			"font"				"HudFontTiny"
+			"textAlignment"		"west"
+			
+			"fgcolor"			"GeneralLabel"
+				
+			"dropshadow"			"1"
+			"dropshadowoffset"	"1"
+			
+			"visible"			"1"
+			"enabled"			"1"
 		}
-		"NotBuiltLabelShadow"
+	}
+	
+	"AlertPanel"
+	{
+		"controlname"		"EditablePanel"
+		"fieldname"		"AlertPanel"
+		
+		"xpos"			"116"
+		"ypos"			"0"
+		"zpos"			"-2"
+		
+		"wide"			"48"
+		"tall"			"48"
+		
+		"visible"		"1"
+		
+		"AlertTray"
 		{
-			"ControlName"		"CExLabel"
-			"fieldName"		"NotBuiltLabelShadow"
-			"font"			"ScoreboardVerySmall"
-			"pin_to_sibling"	"NotBuiltLabel"
-			"xpos"			"-1"
-			"ypos"			"-1"
-			"zpos"			"0"
-			"wide"			"200"
-			"tall"			"24"
-			"visible"		"1"
-			"enabled"		"1"
-			"labelText"		"#Building_hud_disp_sentry_not_built"
-			"textAlignment"	"west"
-			"fgcolor"		"GeneralShadow"
+			"controlname"	"CBuildingStatusAlertTray"
+			"fieldname"	"AlertTray"
+			
+			"xpos"		"-93"
+			"ypos"		"-2"
+			"zpos"		"-2"
+			
+			"wide"		"125"
+			"tall"		"30"
+			
+			"icon"		"dar_building_alert"
+			
+			"visible"	"1"
+		}
+		
+		"RepairIcon"
+		{
+			"controlname"			"ImagePanel"
+			"fieldname"			"RepairIcon"
+			
+			"xpos"				"3"
+			"ypos"				"-1"
+			"zpos"				"1"
+			
+			"wide"				"27"
+			"tall"				"27"
+			
+			"image"				"resource/svgs/engineer/eng_status_alert_ico_exclamation.svg"
+			"scaleimage"			"1"
+			"drawcolor"			"ProgressBar.FgColor"
+			
+			"dropshadow"			"1"
+			"dropshadowoffset"	"2"
+			"dropshadowresize"	"0"
+			
+			"visible"			"0"
+		}
+		
+		"ReloadIcon"
+		{
+			"controlname"			"ImagePanel"
+			"fieldname"			"ReloadIcon"
+			
+			"xpos"				"3"
+			"ypos"				"-1"
+			"zpos"				"1"
+			
+			"wide"				"27"
+			"tall"				"27"
+			
+			"image"				"resource/svgs/engineer/eng_status_alert_ico_exclamation.svg"
+			"scaleimage"			"1"
+			"drawcolor"			"ProgressBar.FgColor"
+			
+			"dropshadow"			"1"
+			"dropshadowoffset"	"2"
+			"dropshadowresize"	"0"
+			
+			"visible"			"0"
+		}
+		
+		"SapperIcon"
+		{
+			"controlname"			"ImagePanel"
+			"fieldname"			"SapperIcon"
+			
+			"xpos"				"4"
+			"ypos"				"0"
+			"zpos"				"1"
+			
+			"wide"				"24"
+			"tall"				"24"
+			
+			"image"				"resource/svgs/engineer/hud_obj_status_sapper_128.svg"
+			"scaleimage"			"1"
+			"drawcolor"			"ProgressBar.FgColor"
+			
+			"dropshadow"			"1"
+			"dropshadowoffset"	"2"
+			"dropshadowresize"	"0"
+			
+			"visible"			"0"
+		}
+		
+		"TranqIcon"
+		{
+			"controlname"			"ImagePanel"
+			"fieldname"			"TranqIcon"
+			
+			"xpos"				"6"
+			"ypos"				"0"
+			"zpos"				"1"
+			
+			"wide"				"36"
+			"tall"				"36"
+			
+			"image"				"resource/svgs/engineer/hud_obj_status_tranq_128.svg"
+			"scaleimage"			"1"
+			"drawcolor"			"ProgressBar.FgColor"
+			
+			"dropshadow"			"1"
+			"dropshadowoffset"	"2"
+			"dropshadowresize"	"0"
+			
+			"visible"			"0"
 		}
 	}
 	
 	"BuiltPanel"
 	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"BuiltPanel"
-		"xpos"			"0"
-		"ypos"			"0"
-		"wide"			"160"
-		"tall"			"24"
-		"visible"		"0"
+		"controlname"	"EditablePanel"
+		"fieldname"	"BuiltPanel"
 		
-		"BackgroundContainer"
+		"xpos"		"0"
+		"ypos"		"0"
+		
+		"wide"		"160"
+		"tall"		"28"
+		
+		"visible"	"0"
+		
+		"Background"
 		{
-			"ControlName"	"EditablePanel"
-			"fieldName"	"BackgroundContainer"
-			"xpos"		"-2"
+			"controlname"	"CTFImagePanel"
+			"fieldname"	"Background"
+			
+			"xpos"		"-52"
 			"ypos"		"0"
-			"zpos"		"-1"
-			"wide"		"226"
-			"tall"		"24"
-			"visible"	"1"
 			
-			"Background"
-			{
-				"ControlName"		"CTFImagePanel"
-				"fieldName"		"Background"
-				"xpos"			"0"
-				"ypos"			"0"
-				"wide"			"226"
-				"tall"			"50"
-				"visible"		"1"
-				"image"		"darhud/building/build_sentry_shadow"
-				"scaleImage"	"1"
-				"teambg_0"	"darhud/building/build_sentry_neutral"
-				"teambg_1"	"darhud/building/build_sentry_spectator"
-				"teambg_2"	"darhud/building/build_sentry_red"
-				"teambg_3"	"darhud/building/build_sentry_blue"
-				"teambg_4"	"darhud/building/build_sentry_green"
-				"teambg_5"	"darhud/building/build_sentry_yellow"
-			}
+			"wide"		"96"
+			"tall"		"26"
+			
+			"image"		"../darhud/building/building_neutral"
+			"teambg_0"	"../darhud/building/building_neutral"
+			"teambg_1"	"../darhud/building/building_spectator"
+			"teambg_2"	"../darhud/building/building_red"
+			"teambg_3"	"../darhud/building/building_blue"
+			"teambg_4"	"../darhud/building/building_green"
+			"teambg_5"	"../darhud/building/building_yellow"
+			"scaleimage"	"1"
+			
+			"visible"	"1"
 		}
-		
-		"BackgroundShadowContainer"
+
+		"BackgroundShadow"
 		{
-			"ControlName"	"EditablePanel"
-			"fieldName"	"BackgroundShadowContainer"
-			"xpos"		"0"
-			"ypos"		"2"
-			"zpos"		"-3"
-			"wide"		"226"
-			"tall"		"24"
-			"visible"	"1"
+			"controlname"		"ImagePanel"
+			"fieldname"		"BackgroundShadow"
 			
-			"BackgroundShadow"
-			{
-				"ControlName"		"CTFImagePanel"
-				"fieldName"		"BackgroundShadow"
-				"xpos"			"0"
-				"ypos"			"0"
-				"zpos"			"-3"
-				"wide"			"226"
-				"tall"			"50"
-				"visible"		"1"
-				"image"			"replay/thumbnails/building/build_sentry_shadow"
-				"scaleImage"		"1"
-			}
+			"pin_to_sibling"	"Background"
+			
+			"xpos"			"-2"
+			"ypos"			"-2"
+			"zpos"			"-3"
+			
+			"wide"			"96"
+			"tall"			"26"
+			
+			"image"			"resource/svgs/darhud/building/building_mask.svg"
+			"scaleimage"		"1"
+			"drawcolor"		"HudShadow"
+			
+			"visible"		"1"
+		}
+		"StatsBackground"
+		{
+			"controlname"	"ImagePanel"
+			"fieldname"	"StatsBackground"
+			
+			"xpos"		"15"
+			"ypos"		"1"
+			"zpos"		"-2"
+			
+			"wide"		"96"
+			"tall"		"24"
+			
+			"image"		"resource/svgs/darhud/building/building_mask.svg"
+			"scaleimage"	"1"
+			"drawcolor"	"HudShadowSolid"
+			
+			"visible"	"1"
 		}
 		
 		"Icon_Upgrade_1"
 		{
-			"ControlName"	"CIconPanel"
-			"fieldName"		"Icon_Upgrade_1"
-			"xpos"			"46"
-			"ypos"			"4"
-			"zpos"			"1"
-			"wide"			"8"
-			"tall"			"8"
-			"visible"		"0"
-			"enabled"		"0"
-			"scaleImage"	"1"
-			"icon"			""
-			"iconColor"		"255 255 255 255"
-		}
-	
-		"AlertTray"
-		{
-			"ControlName"	"CBuildingStatusAlertTray"
-			"fieldName"		"AlertTray"
-			"xpos"			"110"
-			"ypos"			"1"
-			"zpos"			"-2"
-			"wide"			"55"
-			"tall"			"48"
-			"visible"		"1"
-			"enabled"		"1"	
-			"icon"			"obj_status_alert_background_tall"
-		}
-		
-		"WrenchIcon"
-		{
-			"ControlName"	"CIconPanel"
-			"fieldName"		"WrenchIcon"
-			"xpos"			"123"
-			"ypos"			"11"
-			"zpos"			"1"
-			"wide"			"27"
-			"tall"			"27"
-			"visible"		"0"
-			"enabled"		"1"
-			"scaleImage"	"1"	
-			"icon"			"obj_status_icon_wrench"
-			"iconColor"		"255 255 255 255"
-		}
-		
-		"SapperIcon"
-		{
-			"ControlName"	"CIconPanel"
-			"fieldName"		"SapperIcon"
-			"xpos"			"117"
-			"ypos"			"12"
-			"zpos"			"1"
-			"wide"			"15"
-			"tall"			"15"
-			"visible"		"0"
-			"enabled"		"0"
-			"scaleImage"	"1"	
-			"icon"			"obj_status_icon_sapper"
-			"iconColor"		"255 255 255 255"
+			"controlname"			"ImagePanel"
+			"fieldname"			"Icon_Upgrade_1"
+			
+			"xpos"				"34"
+			"ypos"				"4"
+			"zpos"				"1"
+			
+			"wide"				"8"
+			"tall"				"8"
+			
+			"image"				"resource/svgs/engineer/hud_upgrade_1.svg"
+			"scaleimage"			"1"
+			"drawcolor"			"AdditionalIcon"
+				
+			"dropshadow"			"1"
+			"dropshadowoffset"	"2"
+			"dropshadowresize"	"0"
+			
+			"visible"			"0"
 		}
 		
 		"HealthBG"
 		{
-			"ControlName"			"EditablePanel"
-			"fieldName"			"HealthBG"
+			"controlname"			"EditablePanel"
+			"fieldname"			"HealthBG"
+			
 			"xpos"				"0"
 			"ypos"				"0"
-			"zpos"				"0"
+			"zpos"				"2"
+			
 			"wide"				"12"
-			"tall"				"24"
+			"tall"				"26"
+			
+			"bgcolor_override"	"HudShadowSolid"
+			
 			"visible"			"1"
-			"bgcolor_override"	"0 0 0 127"
 		}
-		
 		"Health"
 		{	
-			"ControlName"	"CBuildingHealthBar"
-			"fieldName"	"Health"
-			"font"		"Default"
+			"controlname"	"CBuildingHealthBar"
+			"fieldname"	"Health"
+			
 			"xpos"		"2"
-			"ypos"		"1"
-			"zpos"		"1"
+			"ypos"		"11"
+			"zpos"		"3"
+			
 			"wide"		"8"
-			"tall"		"23"
+			"tall"		"15"
+			
 			"visible"	"1"
+		}
+		"HealthIcon"
+		{
+			"controlname"		"ImagePanel"
+			"fieldname"		"HealthIcon"
+			
+			"xpos"			"1"
+			"ypos"			"1"
+			"zpos"			"3"
+			
+			"wide"			"10"
+			"tall"			"10"
+			
+			"image"			"resource/svgs/engineer/hud_health.svg"
+			"scaleimage"		"1"
+			"drawcolor"		"ProgressOffWhite"
+			
+			"visible"		"1"
 		}
 		
 		"BuildingPanel"
 		{
-			"ControlName"	"EditablePanel"
-			"fieldName"	"BuildingPanel"
+			"controlname"	"EditablePanel"
+			"fieldname"	"BuildingPanel"
+			
 			"xpos"		"0"
 			"ypos"		"0"
 			"zpos"		"1"
-			"wide"		"160"
-			"tall"		"24"
+			
+			"wide"		"138"
+			"tall"		"26"
+			
 			"visible"	"0"
+		
+			"DisabledOverlay"
+			{
+				"controlname"	"CTFImagePanel"
+				"fieldname"	"DisabledOverlay"
+				
+				"xpos"		"-52"
+				"ypos"		"0"
+				
+				"wide"		"96"
+				"tall"		"26"
+				
+				"image"		"../darhud/building/building_white"
+				"scaleimage"	"1"
+				"drawcolor"	"255 255 255 255"
+				
+				"alpha"		"127"
+				
+				"visible"	"1"
+			}
 
 			"BuildingLabel"
 			{
-				"ControlName"		"CExLabel"
-				"fieldName"		"BuildingLabel"
-				"font"			"HudFontSmallest"
-				"xpos"			"60"
-				"ypos"			"1"
-				"zpos"			"1"
-				"wide"			"200"
-				"tall"			"12"
-				"visible"		"1"
-				"enabled"		"1"
-				"labelText"		"#Building_hud_building"
-				"textAlignment"	"west"
-				"fgcolor"		"AdditionalValue"
-			}
-			"BuildingLabelShadow"
-			{
-				"ControlName"		"CExLabel"
-				"fieldName"		"BuildingLabelShadow"
-				"font"			"HudFontSmallest"
-				"pin_to_sibling"	"BuildingLabel"
-				"xpos"			"-1"
-				"ypos"			"-1"
-				"zpos"			"0"
-				"wide"			"200"
-				"tall"			"12"
-				"visible"		"1"
-				"enabled"		"1"
-				"labelText"		"#Building_hud_building"
-				"textAlignment"	"west"
-				"fgcolor"		"AdditionalShadow"
+				"controlname"			"CExLabel"
+				"fieldname"			"BuildingLabel"
+				
+				"xpos"				"48"
+				"ypos"				"2"
+				"zpos"				"1"
+				
+				"wide"				"200"
+				"tall"				"12"
+				
+				"labelText"			"#Building_hud_building"
+				"font"				"HudFontSmallest"
+				"textAlignment"		"west"
+				
+				"fgcolor"			"AdditionalValue"
+				
+				"dropshadow"			"1"
+				"dropshadowoffset"	"2"
+				
+				"visible"			"1"
+				"enabled"			"1"
 			}
 			
+			"BuildingIcon"
+			{
+				"controlname"			"ImagePanel"
+				"fieldname"			"BuildingIcon"
+				"xpos"				"40"
+				"ypos"				"10"
+				"zpos"				"1"
+				
+				"wide"				"16"
+				"tall"				"16"
+				
+				"image"				"resource/svgs/engineer/hud_obj_status_build_128.svg"
+				"scaleimage"			"1"
+				"drawcolor"			"AdditionalIcon"
+				
+				"dropshadow"			"1"
+				"dropshadowoffset"	"2"
+				"dropshadowresize"	"0"
+				
+				"visible"			"1"
+			}
 			"BuildingProgress"
 			{	
-				"ControlName"			"ContinuousProgressBar"
-				"fieldName"			"BuildingProgress"
+				"controlname"			"ContinuousProgressBar"
+				"fieldname"			"BuildingProgress"
+				
+				"xpos"				"56"
+				"ypos"				"14"
+				
+				"wide"				"44"
+				"tall"				"8"
+				
 				"bgcolor_override"	"MeterBackground"
 				"fgcolor_override"	"ProgressOffWhite"
-				"xpos"				"60"
-				"ypos"				"13"
-				"wide"				"47"
-				"tall"				"8"
+				
 				"visible"			"1"
 			}
 		}
 		
 		"RunningPanel"
 		{
-			"ControlName"	"EditablePanel"
-			"fieldName"		"RunningPanel"
-			"xpos"			"60"
+			"controlname"	"EditablePanel"
+			"fieldname"		"RunningPanel"
+			
+			"xpos"			"38"
 			"ypos"			"0"
+			
 			"wide"			"100"
-			"tall"			"24"
+			"tall"			"26"
+			
 			"visible"		"0"
 			
 			"KillIcon"	
 			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"KillIcon"
-				"xpos"			"0"
-				"ypos"			"2"
-				"zpos"			"1"
-				"wide"			"10"
-				"tall"			"10"
-				"visible"		"1"
-				"enabled"		"0"
-				"scaleImage"	"1"
-				"image"			"../hud/hud_obj_status_kill_64"
-				"drawcolor"	"AdditionalIcon"
+				"controlname"			"ImagePanel"
+				"fieldname"			"KillIcon"
+				
+				"xpos"				"4"
+				"ypos"				"0"
+				"zpos"				"1"
+				
+				"wide"				"16"
+				"tall"				"16"
+				
+				"image"				"resource/svgs/engineer/hud_obj_status_kill_128.svg"
+				"scaleimage"			"1"
+				"drawcolor"			"AdditionalIcon"
+				
+				"dropshadow"			"1"
+				"dropshadowoffset"	"2"
+				"dropshadowresize"	"0"
+				
+				"visible"			"1"
 			}
 						
 			"KillsLabel"
 			{	
-				"ControlName"	"CExLabel"
-				"fieldName"		"KillsLabel"
-				"font"			"HudFontSmallest"
-				"fgcolor"		"AdditionalValue"
-				"xpos"			"12"
-				"ypos"			"3"
-				"zpos"			"1"
-				"wide"			"200"
-				"tall"			"8"
-				"autoResize"	"0"
-				"pinCorner"		"0"
-				"visible"		"1"
-				"enabled"		"1"
-				"labelText"		"#Building_hud_sentry_kills_assists"
-				"textAlignment"	"west"
-				"dulltext"		"0"
-				"brighttext"	"0"
+				"controlname"			"CExLabel"
+				"fieldname"			"KillsLabel"
+				
+				"xpos"				"20"
+				"ypos"				"2"
+				"zpos"				"1"
+				
+				"wide"				"200"
+				"tall"				"12"
+				
+				"labelText"			"#Building_hud_sentry_kills_assists"
+				"font"				"HudFontSmallest"
+				"textAlignment"		"west"
+				
+				"fgcolor"			"AdditionalValue"
+				
+				"dropshadow"			"1"
+				"dropshadowoffset"	"2"
+				
+				"visible"			"1"
+				"enabled"			"1"
 			}
-			"KillsShadow"
-			{	
-				"ControlName"	"CExLabel"
-				"fieldName"		"KillsShadow"
-				"font"			"HudFontSmallest"
-				"fgcolor"		"AdditionalShadow"
-				"pin_to_sibling"	"KillsLabel"
-				"xpos"			"-1"
-				"ypos"			"-1"
-				"zpos"			"0"
-				"wide"			"200"
-				"tall"			"8"
-				"visible"		"1"
-				"enabled"		"1"
-				"labelText"		"#Building_hud_sentry_kills_assists"
-				"textAlignment"	"west"
-			}
-					
-			"ShellIcon"	
+			
+			"ShellIcon"
 			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"ShellIcon"
-				"xpos"			"0"
-				"ypos"			"13"
-				"zpos"			"1"
-				"wide"			"10"
-				"tall"			"10"
-				"visible"		"1"
-				"enabled"		"1"
-				"scaleImage"	"1"
-				"image"			"../hud/hud_obj_status_ammo_64"
-				"drawcolor"	"AdditionalIcon"
+				"controlname"			"ImagePanel"
+				"fieldname"			"ShellIcon"
+				
+				"xpos"				"2"
+				"ypos"				"10"
+				"zpos"				"1"
+				
+				"wide"				"16"
+				"tall"				"16"
+				
+				"image"				"resource/svgs/engineer/hud_obj_status_ammo_128.svg"
+				"scaleimage"			"1"
+				"drawcolor"			"AdditionalIcon"
+				
+				"dropshadow"			"1"
+				"dropshadowoffset"	"2"
+				"dropshadowresize"	"0"
+				
+				"visible"			"1"
 			}
 			
 			"Shells"
 			{	
-				"ControlName"	"ContinuousProgressBar"
-				"fieldName"		"Shells"
-				"font"			"Default"
-				"bgcolor_override" 		"255 255 255 24"
-				"fgcolor_override" 		"White"
-				"xpos"			"12"
-				"ypos"			"14"
-				"wide"			"38"
-				"tall"			"8"				
-				"autoResize"	"0"
-				"pinCorner"		"0"
-				"visible"		"1"
-				"enabled"		"1"
-				"textAlignment"	"Left"
-				"dulltext"		"0"
-				"brighttext"	"0"
+				"controlname"			"ContinuousProgressBar"
+				"fieldname"			"Shells"
+				
+				"xpos"				"18"
+				"ypos"				"14"
+				
+				"wide"				"44"
+				"tall"				"8"
+				
+				"bgcolor_override"	"MeterBackground"
+				"fgcolor_override"	"ProgressOffWhite"
+				
+				"visible"			"1"
+			}
+		}
+
+		"DisabledPanel"
+		{
+			"controlname"	"EditablePanel"
+			"fieldname"	"DisabledPanel"
+			
+			"xpos"		"0"
+			"ypos"		"0"
+			"zpos"		"1"
+			
+			"wide"		"138"
+			"tall"		"26"
+			
+			"visible"	"0"
+		
+			"DisabledOverlay"
+			{
+				"controlname"	"CTFImagePanel"
+				"fieldname"	"DisabledOverlay"
+				
+				"xpos"		"-52"
+				"ypos"		"0"
+				
+				"wide"		"96"
+				"tall"		"26"
+				
+				"image"		"../darhud/building/building_white"
+				"scaleimage"	"1"
+				"drawcolor"	"255 255 255 255"
+				
+				"alpha"		"127"
+				
+				"visible"	"1"
+			}
+			
+			"DisabledIcon"
+			{
+				"controlname"			"ImagePanel"
+				"fieldname"			"DisabledIcon"
+				
+				"xpos"				"42"
+				"ypos"				"5"
+				"zpos"				"1"
+				
+				"wide"				"16"
+				"tall"				"16"
+				
+				"image"				"resource/svgs/mainmenu/icon_alert.svg"
+				"scaleimage"			"1"
+				"drawcolor"			"CounterIcon"
+				
+				"dropshadow"			"1"
+				"dropshadowoffset"	"2"
+				"dropshadowresize"	"0"
+				
+				"visible"			"1"
+			}
+
+			"DisabledLabel"
+			{
+				"controlname"			"CExLabel"
+				"fieldname"			"DisabledLabel"
+				
+				"xpos"				"58"
+				"ypos"				"7"
+				
+				"wide"				"200"
+				"tall"				"12"
+				
+				"labelText"			"%status%"
+				"font"				"HudFontSmallest"
+				"textAlignment"		"west"
+				
+				"fgcolor"			"AdditionalValue"
+				
+				"dropshadow"			"1"
+				"dropshadowoffset"	"2"
+				
+				"visible"			"1"
+				"enabled"			"1"
 			}
 		}
 	}

@@ -1,0 +1,9 @@
+"Patch"
+{
+	include "materials\darhud\bases\base_warning.vmt"
+	
+	insert
+	{
+		"$basetexture"	"darhud\ammo\ammo_mask"
+	}
+}

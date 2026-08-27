@@ -1,0 +1,719 @@
+// enum PinCorner_e 
+// {
+// 	PIN_TOPLEFT = 0,
+// 	PIN_TOPRIGHT,
+// 	PIN_BOTTOMLEFT,
+// 	PIN_BOTTOMRIGHT,
+
+// 	// For sibling pinning
+// 	PIN_CENTER_TOP,
+// 	PIN_CENTER_RIGHT,
+// 	PIN_CENTER_BOTTOM,
+// 	PIN_CENTER_LEFT,
+// };
+
+"Resource/UI/HudPasstimeBallStatus.res"
+{	
+	"HudPasstimeBallStatus"
+	{
+		"controlname"		"EditablePanel"
+		"fieldname"			"HudPasstimeBallStatus"
+		"xpos"				"0"
+		"ypos"				"0"
+		"zpos"				"100"
+		"wide"				"f0"
+		"tall"				"f0"
+		"visible"			"1"
+		"enabled"			"1"
+	}
+
+	"EventTitleLabel"
+	{
+		"controlname"			"CExLabel"
+		"fieldname"			"EventTitleLabel"
+		"font"				"HudFontBiggerBold"
+		"xpos"				"0"
+		"ypos"				"c100"
+		"zpos"				"3"
+		"wide"				"f"
+		"tall"				"30"
+		"visible"			"1"
+		"enabled"			"1"
+		"textAlignment"		"center"
+		"labelText"			"A TEAM STOLE THE BALL"
+		"fgcolor_override"	"ObjectiveLabel"
+		"dropshadow"			"1"
+		"dropshadowoffset"	"4"
+	}
+
+	"EventBonusLabel"
+	{
+		"controlname"				"CExLabel"
+		"fieldname"				"EventBonusLabel"
+		"font"					"HudFontMediumSmallBold"
+		"xpos"					"0"
+		"ypos"					"0"
+		"zpos"					"3"
+		"wide"					"f"
+		"tall"					"20"
+		"visible"				"1"
+		"enabled"				"1"
+		"textAlignment"			"center"
+		"labelText"				"Bonus"
+		"fgcolor_override"		"255 235 35 200"
+		"pin_to_sibling"			"EventTitleLabel"
+		"pin_corner_to_sibling"	"6"
+		"pin_to_sibling_corner"	"4"
+		"dropshadow"				"1"
+		"dropshadowoffset"		"3"
+	}
+
+	"EventDetailLabel"
+	{
+		"controlname"				"CExLabel"
+		"fieldname"				"EventDetailLabel"
+		"font"					"HudFontMediumSmallBold"
+		"xpos"					"0"
+		"ypos"					"0"
+		"zpos"					"3"
+		"wide"					"f"
+		"tall"					"24"
+		"visible"				"1"
+		"enabled"				"1"
+		"textAlignment"			"center"
+		"labelText"				"A TEAM STOLE THE BALL"
+		"fgcolor_override"		"ObjectiveLabel"
+		"pin_to_sibling"			"EventTitleLabel"
+		"pin_corner_to_sibling"	"4"
+		"pin_to_sibling_corner"	"6"
+		"dropshadow"				"1"
+		"dropshadowoffset"		"3"
+	}
+
+	"ProgressLevelBar"
+	{
+		"controlname"			"ImagePanel"
+		"fieldname"			"ProgressLevelBar"	
+		"xpos"				"c-188"
+		"xpos_minmode"		"c-149"
+		"ypos"				"r97"
+		"zpos"				"0"
+		"wide"				"378"
+		"wide_minmode"		"300"
+		"tall"				"o0.125"
+		"tall_minmode"		"o0.125"
+		"visible"			"1"
+		"enabled"			"1"
+		"labelText"			""
+		"image"				"../darhud/passtime/passtime_bar"
+		"scaleimage"			"1"
+		"dropshadow"			"1"
+		"dropshadowoffset"	"3"
+	}
+
+	"BlueProgressEnd"
+	{
+		// tells the code where the end of the progress bar is since the image
+		// might be padded for npot reasons.
+		"controlname" 	"Panel"
+		"fieldname"		"BlueProgressEnd"
+		"xpos"			"c-152"
+		"xpos_minmode"	"c-120"
+		"ypos"			"r75"
+		"ypos_minmode"	"r80"
+		"visible"		"0"
+	}
+
+	"RedProgressEnd"
+	{
+		// tells the code where the end of the progress bar is since the image
+		// might be padded for npot reasons.
+		"controlname"	"Panel"
+		"fieldname"		"RedProgressEnd"
+		"xpos"			"c152"
+		"xpos_minmode"	"c120"
+		"ypos"			"r75"
+		"ypos_minmode"	"r80"
+		"visible"		"0"
+	}	
+
+	"GoalBlue0"
+	{
+		"controlname"	"ImagePanel"
+		"fieldname"		"GoalBlue0"	
+		"xpos"			"c-162"
+		"ypos"			"r72"
+		"zpos"			"1"									
+		"wide"			"17"
+		"tall"			"17"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"0"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"labelText"		""
+		"image"			"../passtime/hud/passtime_goal_blue_icon"
+		"scaleimage"	"1"
+	}
+
+	"GoalBlue1"
+	{
+		"controlname"	"ImagePanel"
+		"fieldname"		"GoalBlue1"	
+		"xpos"			"c-132"
+		"ypos"			"r72"
+		"zpos"			"1"									
+		"wide"			"17"
+		"tall"			"17"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"0"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"labelText"		""
+		"image"			"../passtime/hud/passtime_goal_blue_icon"
+		"scaleimage"	"1"
+	}
+
+	"GoalBlue2"
+	{
+		"controlname"	"ImagePanel"
+		"fieldname"		"GoalBlue2"	
+		"xpos"			"c-102"
+		"ypos"			"r72"
+		"zpos"			"1"									
+		"wide"			"17"
+		"tall"			"17"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"0"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"labelText"		""
+		"image"			"../passtime/hud/passtime_goal_blue_icon"
+		"scaleimage"	"1"
+	}
+
+
+	"GoalRed0"
+	{
+		"controlname"	"ImagePanel"
+		"fieldname"		"GoalRed0"	
+		"xpos"			"c146"
+		"ypos"			"r72"
+		"zpos"			"1"									
+		"wide"			"17"
+		"tall"			"17"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"0"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"labelText"		""
+		"image"			"../passtime/hud/passtime_goal_red_icon"
+		"scaleimage"	"1"
+	}
+
+	"GoalRed1"
+	{
+		"controlname"	"ImagePanel"
+		"fieldname"		"GoalRed1"
+		"xpos"			"c116"
+		"ypos"			"r72"
+		"zpos"			"1"									
+		"wide"			"17"
+		"tall"			"17"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"0"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"labelText"		""
+		"image"			"../passtime/hud/passtime_goal_red_icon"
+		"scaleimage"	"1"
+	}
+
+
+	"GoalRed2"
+	{
+		"controlname"	"ImagePanel"
+		"fieldname"		"GoalRed2"
+		"xpos"			"c86"
+		"ypos"			"r72"
+		"zpos"			"1"									
+		"wide"			"17"
+		"tall"			"17"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"0"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"labelText"		""
+		"image"			"../passtime/hud/passtime_goal_red_icon"
+		"scaleimage"	"1"
+	}
+
+	"ProgressBallIcon"
+	{
+		"controlname"	"ImagePanel"
+		"fieldname"		"ProgressBallIcon"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"10"
+		"wide"			"42"
+		"tall"			"42"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"labelText"		""
+		"image"			"../passtime/hud/passtime_ball"
+		"scaleimage"	"1"
+	}	
+
+	"ProgressSelfPlayerIcon"
+	{
+		"controlname"	"ImagePanel"
+		"fieldname"		"ProgressSelfPlayerIcon"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"-100"
+		"wide"			"42"
+		"tall"			"42"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"labelText"		""
+		"scaleimage"	"1"
+	}	
+
+	"ProgressBallCarrierName"
+	{
+		"controlname"			"Label"
+		"fieldname"			"ProgressBallCarrierName"
+		"font"				"HudFontSmall"
+		"fgcolor_override"	"ObjectiveLabel"
+		"visible"			"1"
+		"enabled"			"1"
+		"zpos"				"5"
+		"xpos"				"cs-0.5"
+		"ypos"				"r16"
+		"wide"				"f0"
+		"tall"				"16"
+		"textAlignment"		"center"
+		"labelText"			"NameOfCarrier"
+		"dropshadow"			"1"
+		"dropshadowoffset"	"2"
+	}
+
+	"BallPowerCluster" 
+	{
+		"controlname" "EditablePanel"
+		"fieldname" "BallPowerCluster"
+		"xpos" "0"
+		"ypos" "32"
+		"zpos" "5"
+		"wide" "f0"
+		"tall" "f0"
+		"visible"		"1"
+		"enabled"		"1"
+
+		"BallPowerMeterFrame"
+		{
+			"controlname"	"ImagePanel"
+			"fieldname"		"BallPowerMeterFrame"	
+			"xpos"			"c-92"
+			"ypos"			"12"
+			"zpos"			"5"
+			"wide"			"183"
+			"tall"			"26"
+			"visible"		"1"
+			"enabled"		"1"
+			"image"			"../darhud/boss_bar/boss_bar_surround_neutral"
+			"scaleimage"	"1"
+		}
+		"BallPowerMeterFrameShadow"
+		{
+			"controlname"	"ImagePanel"
+			"fieldname"		"BallPowerMeterFrameShadow"	
+			"xpos"			"c-90"
+			"ypos"			"14"
+			"zpos"			"2"
+			"wide"			"183"
+			"tall"			"26"
+			"visible"		"1"
+			"enabled"		"1"
+			"image"			"../darhud/boss_bar/boss_bar_surround_shadow"
+			"scaleimage"	"1"
+		}
+		
+		"BallPowerMeterFramePassIcon"
+		{
+			"controlname"		"ImagePanel"
+			"fieldname"		"BallPowerMeterFramePassIcon"
+			"xpos"			"c-156"
+			"ypos"			"13"
+			"zpos"			"6"
+			"wide"			"72"
+			"tall"			"24"
+			"visible"		"1"
+			"image"			"resource/svgs/darhud/passtime/passtime_pass.svg"
+			"scaleimage"		"1"
+			"drawcolor"		"AdditionalIcon"
+			"dropshadow"		"1"
+			"dropshadowoffset"	"2"
+		}
+		"BallPowerMeterBonusGoalIcon"
+		{
+			"controlname"		"ImagePanel"
+			"fieldname"		"BallPowerMeterBonusGoalIcon"
+			"xpos"			"c78"
+			"ypos"			"0"
+			"zpos"			"6"
+			"wide"			"32"
+			"tall"			"50"
+			"visible"		"1"
+			"image"			"resource/svgs/darhud/passtime/passtime_bonusgoal.svg"
+			"scaleimage"		"1"
+			"drawcolor"		"AdditionalIcon"
+			"dropshadow"		"1"
+			"dropshadowoffset"	"2"
+		}
+
+		"BallPowerMeterFinalSectionContainer"
+		{
+			// This exists because the bar is filled by changing the width dynamically
+			// and if you change the width of the ImagePanel, it will stretch the image.
+			// But if you instead change the width of this container, the image is simply
+			// cut off instead of stretched.
+			// Also so that the bar is clipped nicely to the border.
+			"controlname"		"EditablePanel"
+			"fieldname"			"BallPowerMeterFinalSectionContainer"
+			"xpos"			"c-84"
+			"ypos"			"15"
+			"zpos"			"3"
+			"wide"			"168"
+			"tall"			"20"
+			"visible"			"1"
+			"enabled"			"1"
+
+			"BallPowerMeterFinalSection"
+			{
+				"controlname"			"ImagePanel"
+				"fieldname"			"BallPowerMeterFinalSection"
+				"proportionaltoparent"	"1"
+				"xpos"				"0"
+				"ypos"				"1"
+				"zpos"				"0"
+				"wide"				"f0"
+				"tall"				"f0"
+				"visible"			"1"
+				"enabled"			"1"
+				"image"				"white"
+				"scaleimage"			"1"					
+			}
+		}
+		
+		"BallPowerMeterFillContainer"
+		{
+			// This exists because the bar is filled by changing the width dynamically
+			// and if you change the width of the ImagePanel, it will stretch the image.
+			// But if you instead change the width of this container, the image is simply
+			// cut off instead of stretched.
+			// Also so that the bar is clipped nicely to the border.
+			"controlname"		"EditablePanel"
+			"fieldname"			"BallPowerMeterFillContainer"
+			"xpos"				"c-85"
+			"ypos"				"16"
+			"zpos"				"4"
+			"wide"				"169"
+			"tall"				"20"
+			"visible"			"1"
+			"enabled"			"1"
+
+			"BallPowerMeterFill"
+			{
+				"controlname"		"ImagePanel"
+				"fieldname"			"BallPowerMeterFill"
+				"proportionaltoparent"	"1"
+				"xpos"				"0"
+				"ypos"				"0"
+				"zpos"				"0"
+				"wide"				"169"
+				"tall"				"f0"
+				"visible"			"1"
+				"enabled"			"1"
+				"image"				"white"
+				"scaleimage"			"1"					
+			}
+		}
+	}
+
+	"playericon0"
+	{
+		"controlname"	"ImagePanel"
+		"fieldname"		"playericon0"
+		"ypos"	"5"
+		wide 12
+		tall 12
+	}
+
+	"playericon1"
+	{
+		"controlname"	"ImagePanel"
+		"fieldname"		"playericon1"
+		wide 12
+		tall 12
+	}
+
+	"playericon2"
+	{
+		"controlname"	"ImagePanel"
+		"fieldname"		"playericon2"
+		wide 12
+		tall 12
+	}
+
+	"playericon3"
+	{
+		"controlname"	"ImagePanel"
+		"fieldname"		"playericon3"
+		wide 12
+		tall 12
+	}
+
+	"playericon4"
+	{
+		"controlname"	"ImagePanel"
+		"fieldname"		"playericon4"
+		wide 12
+		tall 12
+	}
+
+	"playericon5"
+	{
+		"controlname"	"ImagePanel"
+		"fieldname"		"playericon5"
+		wide 12
+		tall 12
+	}
+
+	"playericon6"
+	{
+		"controlname"	"ImagePanel"
+		"fieldname"		"playericon6"
+		wide 12
+		tall 12
+	}
+
+	"playericon7"
+	{
+		"controlname"	"ImagePanel"
+		"fieldname"		"playericon7"
+		wide 12
+		tall 12
+	}
+
+	"playericon8"
+	{
+		"controlname"	"ImagePanel"
+		"fieldname"		"playericon8"
+		wide 12
+		tall 12
+	}
+
+	"playericon9"
+	{
+		"controlname"	"ImagePanel"
+		"fieldname"		"playericon9"
+		wide 12
+		tall 12
+	}
+
+	"playericon10"
+	{
+		"controlname"	"ImagePanel"
+		"fieldname"		"playericon10"
+		wide 12
+		tall 12
+	}
+
+	"playericon11"
+	{
+		"controlname"	"ImagePanel"
+		"fieldname"		"playericon11"
+		wide 12
+		tall 12
+	}
+
+	"playericon12"
+	{
+		"controlname"	"ImagePanel"
+		"fieldname"		"playericon12"
+		wide 12
+		tall 12
+	}
+
+	"playericon13"
+	{
+		"controlname"	"ImagePanel"
+		"fieldname"		"playericon13"
+		wide 12
+		tall 12
+	}
+
+	"playericon14"
+	{
+		"controlname"	"ImagePanel"
+		"fieldname"		"playericon14"
+		wide 12
+		tall 12
+	}
+
+	"playericon15"
+	{
+		"controlname"	"ImagePanel"
+		"fieldname"		"playericon15"
+		wide 12
+		tall 12
+	}
+
+	"playericon16"
+	{
+		"controlname"	"ImagePanel"
+		"fieldname"		"playericon16"
+		wide 12
+		tall 12
+	}
+
+	"playericon17"
+	{
+		"controlname"	"ImagePanel"
+		"fieldname"		"playericon17"
+		wide 12
+		tall 12
+	}
+
+	"playericon18"
+	{
+		"controlname"	"ImagePanel"
+		"fieldname"		"playericon18"
+		wide 12
+		tall 12
+	}
+
+	"playericon19"
+	{
+		"controlname"	"ImagePanel"
+		"fieldname"		"playericon19"
+		wide 12
+		tall 12
+	}
+
+	"playericon20"
+	{
+		"controlname"	"ImagePanel"
+		"fieldname"		"playericon20"
+		wide 12
+		tall 12
+	}
+
+	"playericon21"
+	{
+		"controlname"	"ImagePanel"
+		"fieldname"		"playericon21"
+		wide 12
+		tall 12
+	}
+
+	"playericon22"
+	{
+		"controlname"	"ImagePanel"
+		"fieldname"		"playericon22"
+		wide 12
+		tall 12
+	}
+
+	"playericon23"
+	{
+		"controlname"	"ImagePanel"
+		"fieldname"		"playericon23"
+		wide 12
+		tall 12
+	}
+
+	"playericon24"
+	{
+		"controlname"	"ImagePanel"
+		"fieldname"		"playericon24"
+		wide 12
+		tall 12
+	}
+
+	"playericon25"
+	{
+		"controlname"	"ImagePanel"
+		"fieldname"		"playericon25"
+		wide 12
+		tall 12
+	}
+
+	"playericon26"
+	{
+		"controlname"	"ImagePanel"
+		"fieldname"		"playericon26"
+		wide 12
+		tall 12
+	}
+
+	"playericon27"
+	{
+		"controlname"	"ImagePanel"
+		"fieldname"		"playericon27"
+		wide 12
+		tall 12
+	}
+
+	"playericon28"
+	{
+		"controlname"	"ImagePanel"
+		"fieldname"		"playericon28"
+		wide 12
+		tall 12
+	}
+
+	"playericon29"
+	{
+		"controlname"	"ImagePanel"
+		"fieldname"		"playericon29"
+		wide 12
+		tall 12
+	}
+
+	"playericon30"
+	{
+		"controlname"	"ImagePanel"
+		"fieldname"		"playericon30"
+		wide 12
+		tall 12
+	}
+
+	"playericon31"
+	{
+		"controlname"	"ImagePanel"
+		"fieldname"		"playericon31"
+		wide 12
+		tall 12
+	}
+
+	"playericon32"
+	{
+		"controlname"	"ImagePanel"
+		"fieldname"		"playericon32"
+		wide 12
+		tall 12
+	}
+}

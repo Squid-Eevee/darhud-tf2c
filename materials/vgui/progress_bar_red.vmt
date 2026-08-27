@@ -1,6 +1,6 @@
 "Patch"
 {
-	include "materials\darhud\base_red.vmt"
+	include "materials\darhud\bases\teams\base_red.vmt"
 	
 	insert
 	{

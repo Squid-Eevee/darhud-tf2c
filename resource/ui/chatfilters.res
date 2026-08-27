@@ -2,165 +2,211 @@
 {
 	"HudChatFilterPanel"
 	{
-		"ControlName"		"EditablePanel"
-		"fieldName"		"HudChatFilterPanel"
-		"xpos"			"310"
-		"ypos"			"275"
-		"zpos"			"0"
-		"wide"			"100"
-		"tall"			"74"
-		"visible"		"0"
-		"enabled"		"1"
-		"roundedcorners"	"0"
-		"bordervisible"	"0"
-		"paintbackground"	"0"
-		"PaintBackgroundType" "0"
-		"bgcolor_override"	"0 0 0 128"
+		"controlname"			"EditablePanel"
+		"fieldname"			"HudChatFilterPanel"
+		
+		"xpos"				"279"
+		"ypos"				"255"
+		
+		"wide"	 			"130"
+		"tall"				"126"
+		
+		"bgcolor_override"	"0 0 0 0"
+		
+		"visible"			"0"
+		"enabled"			"1"
 	}
 	
 	"background"
 	{
-		"ControlName"	"EditablePanel"
-		"fieldName"	"background"
-		"zpos"		"-10"
-		"wide"		"f0"
-		"tall"		"f0"
+		"controlname"			"EditablePanel"
+		"fieldname"			"background"
+		
+		"zpos"				"-10"
+		
+		"wide"				"f0"
+		"tall"				"f0"
+		
+		"alpha"				"180"
+		
+		"paintbackgroundtype"	"3"
 		"bgcolor_override"	"ChatBackground"
-		"alpha"		"128"
+		"roundedcorners"		"0"
+		
+		"visible"	"1"
 	}
 
 	"joinleave_button"
 	{
-		"ControlName"		"CheckButton"
-		"fieldName"		"joinleave_button"
-		"xpos"			"0"
-		"ypos"			"2"
-		"wide"			"150"
-		"tall"			"10"
-		"autoResize"		"1"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"		"0"
-		"labelText"		"#filter_joinleave"
-		"textAlignment"	"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"Default"		"0"		
+		"controlname"			"CheckButton"
+		"fieldname"			"joinleave_button"
+		
+		"xpos"				"0"
+		"ypos"				"0"
+		
+		"wide"				"125"
+		"tall"				"18"
+		
+		"labelText"			"#filter_joinleave"
+		"font"				"ChatOptionsFontMedium"
+		"textAlignment"		"west"
+		
+		"dropshadow"			"1"
+		"dropshadowoffset"	"2"
+		
+		"visible"			"1"
+		"enabled"			"1"
 	}
 	"namechange_button"
 	{
-		"ControlName"		"CheckButton"
-		"fieldName"		"namechange_button"
-		"xpos"			"0"
-		"ypos"			"12"
-		"wide"			"150"
-		"tall"			"10"
-		"autoResize"		"1"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"		"0"
-		"labelText"		"#filter_namechange"
-		"textAlignment"	"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"Default"		"0"		
+		"controlname"				"CheckButton"
+		"fieldname"				"namechange_button"
+		
+		"pin_to_sibling"			"joinleave_button"
+		"pin_corner_to_sibling"	"pin_topleft"
+		"pin_to_sibling_corner"	"pin_bottomleft"
+		
+		"xpos"					"0"
+		"ypos"					"0"
+		
+		"wide"					"125"
+		"tall"					"18"
+		
+		"font"					"ChatOptionsFontMedium"
+		"labelText"				"#filter_namechange"
+		"textAlignment"			"west"
+		
+		"dropshadow"				"1"
+		"dropshadowoffset"		"2"
+		
+		"visible"				"1"
+		"enabled"				"1"
 	}
 	"publicchat_button"
 	{
-		"ControlName"		"CheckButton"
-		"fieldName"		"publicchat_button"
-		"xpos"			"0"
-		"ypos"			"22"
-		"wide"			"150"
-		"tall"			"10"
-		"autoResize"		"1"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"		"0"
-		"labelText"		"#filter_publicchat"
-		"textAlignment"	"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"Default"		"0"		
+		"controlname"				"CheckButton"
+		"fieldname"				"publicchat_button"
+
+		"pin_to_sibling"			"namechange_button"
+		"pin_corner_to_sibling"	"pin_topleft"
+		"pin_to_sibling_corner"	"pin_bottomleft"
+		
+		"xpos"					"0"
+		"ypos"					"0"
+		
+		"wide"					"125"
+		"tall"					"18"
+		
+		"labelText"				"#filter_publicchat"
+		"font"					"ChatOptionsFontMedium"
+		"textAlignment"			"west"
+		
+		"dropshadow"				"1"
+		"dropshadowoffset"		"2"
+		
+		"visible"				"1"
+		"enabled"				"1"
 	}
 	"servermsg_button"
 	{
-		"ControlName"		"CheckButton"
-		"fieldName"		"servermsg_button"
-		"xpos"			"0"
-		"ypos"			"32"
-		"wide"			"150"
-		"tall"			"10"
-		"autoResize"		"1"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"		"0"
-		"labelText"		"#filter_servermsg"
-		"textAlignment"	"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"Default"		"0"		
+		"controlname"				"CheckButton"
+		"fieldname"				"servermsg_button"
+		
+		"pin_to_sibling"			"publicchat_button"
+		"pin_corner_to_sibling"	"pin_topleft"
+		"pin_to_sibling_corner"	"pin_bottomleft"
+		
+		"xpos"					"0"
+		"ypos"					"0"
+		
+		"wide"					"125"
+		"tall"					"18"
+		
+		"labelText"				"#filter_servermsg"
+		"font"					"ChatOptionsFontMedium"
+		"textAlignment"			"west"
+		
+		"dropshadow"				"1"
+		"dropshadowoffset"		"2"
+		
+		"visible"				"1"
+		"enabled"				"1"
 	}
 	"teamchange_button"
 	{
-		"ControlName"		"CheckButton"
-		"fieldName"		"teamchange_button"
-		"xpos"			"0"
-		"ypos"			"42"
-		"wide"			"150"
-		"tall"			"10"
-		"autoResize"		"1"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"		"0"
-		"labelText"		"#filter_teamchange"
-		"textAlignment"	"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"Default"		"0"		
+		"controlname"				"CheckButton"
+		"fieldname"				"teamchange_button"
+		
+		"pin_to_sibling"			"servermsg_button"
+		"pin_corner_to_sibling"	"pin_topleft"
+		"pin_to_sibling_corner"	"pin_bottomleft"
+		
+		"xpos"					"0"
+		"ypos"					"0"
+		
+		"wide"					"125"
+		"tall"					"18"
+		
+		"labelText"				"#filter_teamchange"
+		"font"					"ChatOptionsFontMedium"
+		"textAlignment"			"west"
+		
+		"dropshadow"				"1"
+		"dropshadowoffset"		"2"
+		
+		"visible"				"1"
+		"enabled"				"1"
 	}
 	
-	"achivement_button"
+	"achievement_button"
 	{
-		"ControlName"		"CheckButton"
-		"fieldName"		"achivement_button"
-		"xpos"			"0"
-		"ypos"			"52"
-		"wide"			"150"
-		"tall"			"10"
-		"autoResize"		"1"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"		"0"
-		"labelText"		"#filter_achievement"
-		"textAlignment"	"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"Default"		"0"		
+		"controlname"				"CheckButton"
+		"fieldname"				"achievement_button"
+		
+		"pin_to_sibling"			"teamchange_button"
+		"pin_corner_to_sibling"	"pin_topleft"
+		"pin_to_sibling_corner"	"pin_bottomleft"
+		
+		"xpos"					"0"
+		"ypos"					"0"
+		
+		"wide"					"125"
+		"tall"					"18"
+		
+		"labelText"				"#filter_achievement"
+		"font"					"ChatOptionsFontMedium"
+		"textAlignment"			"west"
+		
+		"dropshadow"				"1"
+		"dropshadowoffset"		"2"
+		
+		"visible"				"1"
+		"enabled"				"1"
 	}
+	
 	"voicecommand_button"
 	{
-		"ControlName"		"CheckButton"
-		"fieldName"		"voicecommand_button"
-		"xpos"			"0"
-		"ypos"			"62"
-		"wide"			"150"
-		"tall"			"10"
-		"autoResize"		"1"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"		"0"
-		"labelText"		"#filter_voicecommand"
-		"textAlignment"	"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"Default"		"0"		
+		"controlname"				"CheckButton"
+		"fieldname"				"voicecommand_button"
+		
+		"pin_to_sibling"			"achievement_button"
+		"pin_corner_to_sibling"	"pin_topleft"
+		"pin_to_sibling_corner"	"pin_bottomleft"
+		
+		"xpos"					"0"
+		"ypos"					"0"
+		
+		"wide"					"125"
+		"tall"					"18"
+		
+		"labelText"				"#Chat_Filter_Voice"
+		"font"					"ChatOptionsFontMedium"
+		"textAlignment"			"west"
+		
+		"dropshadow"				"1"
+		"dropshadowoffset"		"2"
+		
+		"visible"				"1"
+		"enabled"				"1"
 	}
 }

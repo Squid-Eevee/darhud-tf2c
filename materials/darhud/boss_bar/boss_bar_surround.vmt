@@ -1,9 +1,9 @@
 "Patch"
 {
-	include "materials\darhud\base_spectator.vmt"
+	include "materials\darhud\bases\halloween\base_halloween_purple.vmt"
 	
 	insert
 	{
-		"$basetexture"			"darhud/boss_bar/boss_bar_surround_mask"
+		"$basetexture"	"darhud\boss_bar\boss_bar_surround_mask"
 	}
 }

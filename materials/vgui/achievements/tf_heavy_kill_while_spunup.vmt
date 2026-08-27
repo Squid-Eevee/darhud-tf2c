@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture"	"vgui\achievements\tf_heavy_kill_while_spunup"
+	"$vertexcolor"	"1"
+	"$vertexalpha"	"1"
+}

@@ -1,262 +1,222 @@
-"Resource/UI/ItemModelPanel.res"
+"Resource/UI/disguisestatuspanel.res"
 {
-	DisguiseStatus
+	"DisguiseStatus"
 	{
-		"fieldName"		"DisguiseStatus"
-		"visible"		"1"
-		"enabled"		"1"
-		"xpos"			"60"
-		"ypos"			"r32"
-		"xpos_minmode"	"c-290"
-		"zpos"			"9"
-		"wide"			"180"
-		"tall"			"28"
-	}
-
-	"itemmodelpanel"
-	{
-		"ControlName"		"CEmbeddedItemModelPanel"
-		"fieldName"		"itemmodelpanel"
-	
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"9"		
-		"wide"			"0"
-		"tall"			"0"
-		"autoResize"		"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"useparentbg"		"1"
-
-		"fov"			"54"
-		"start_framed"		"1"
-
-		"disable_manipulation"	"1"
-
-		"model"
-		{
-			"angles_x"		"10"
-			"angles_y"		"130"
-			"angles_z"		"0"
-		}
+		"fieldname"			"DisguiseStatus"
+		
+		"xpos"				"60"
+		"ypos"				"r32"
+		"zpos"				"9"
+		
+		"xpos_minmode"		"c-290"
+		
+		"wide"				"130"
+		"tall"				"28"
+		
+		"LeftSideOffsetX"		"0"
+		"RightSideOffsetX"	"3"
+		"HealthOffsetX"		"16"
+		"ArmorOffsetX"		"-4"
+		"NameOffsetX"			"0"
+		"SpywalkOffsetX"		"-4"
+		"MinimumBGWidth"		"130"
+		"MaximumBGWidth"		"152"
+		
+		"visible"			"1"
 	}
 	
 	"SpyIcon"
 	{
-		"ControlName"	"CIconPanel"
-		"fieldName"		"SpyIcon"
-		"xpos"			"-6"
-		"ypos"			"0"
-		"zpos"			"3"
-		"wide"			"30"
-		"tall"			"30"
-		"visible"		"1"
-		"enabled"		"1"
-		"scaleImage"	"1"	
-		"icon"			"hud_spy_disguise_menu_icon"
-		"iconColor"		"GeneralLabel"
+		"controlname"	"CIconPanel"
+		"fieldname"	"SpyIcon"
+		
+		"xpos"		"-6"
+		"ypos"		"0"
+		"zpos"		"1"
+		
+		"wide"		"30"
+		"tall"		"30"
+		
+		"icon"		"hud_spy_disguise_menu_icon"
+		"scaleimage"	"1"
+		"iconColor"	"GeneralLabel"
+		
+		"visible"	"1"
 	}
 
 	"DisguiseStatusBG"
 	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"DisguiseStatusBG"
-		"xpos"			"0"
-		"ypos"			"2"
-		"zpos"			"0"
-		"wide"			"152"
-		"tall"	 		"24"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"../darhud/disguise_neutral"
-		"scaleImage"	"1"
-		"teambg_0"		"../darhud/disguise_neutral"
-		"teambg_1"		"../darhud/disguise_spectator"
-		"teambg_2"		"../darhud/disguise_red"
-		"teambg_3"		"../darhud/disguise_blue"
-		"teambg_4"		"../darhud/disguise_green"
-		"teambg_5"		"../darhud/disguise_yellow"
-	}
-
-	"DisguiseStatusBGShadow"
-	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"DisguiseStatusBGShadow"
-		"xpos"			"3"
-		"ypos"			"5"
-		"zpos"			"-1"
-		"wide"			"152"
-		"tall"	 		"24"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"../darhud/disguise_shadow"
-		"scaleImage"	"1"
+		"controlname"	"CTFImagePanel"
+		"fieldname"	"DisguiseStatusBG"
+		
+		"xpos"		"0"
+		"ypos"		"2"
+		"zpos"		"0"
+		
+		"tall"	 	"24"
+		
+		"image"		"..\darhud\disguise\disguise_neutral"
+		"teambg_0"	"..\darhud\disguise\disguise_neutral"
+		"teambg_1"	"..\darhud\disguise\disguise_spectator"
+		"teambg_2"	"..\darhud\disguise\disguise_red"
+		"teambg_3"	"..\darhud\disguise\disguise_blue"
+		"teambg_4"	"..\darhud\disguise\disguise_green"
+		"teambg_5"	"..\darhud\disguise\disguise_yellow"
+		"scaleimage"	"1"
+		
+		"visible"	"1"
 	}
 
 	"DisguiseNameLabel"
 	{	
-		"ControlName"			"Label"
-		"fieldName"			"DisguiseNameLabel"
-		"font"				"HudFontSmallest"
-		"fgcolor_override" 	"GeneralLabel"
+		"controlname"			"Label"
+		"fieldname"			"DisguiseNameLabel"
+		
 		"xpos"				"46"
-		"ypos"				"4"
+		"ypos"				"3"
 		"zpos"				"1"
+		
 		"wide"				"102"
-		"tall"				"10"
-		"autoResize"			"0"
-		"pinCorner"			"0"
-		"visible"			"1"
-		"enabled"			"1"
+		"tall"				"12"
+		
 		"labelText"			"%disguisename%"
-		"textAlignment"		"west"
-	}
-	"DisguiseNameShadow"
-	{	
-		"ControlName"			"Label"
-		"fieldName"			"DisguiseNameShadow"
 		"font"				"HudFontSmallest"
-		"fgcolor_override"	"GeneralShadow"
-		"pin_to_sibling"		"DisguiseNameLabel"
-		"xpos"				"-1"
-		"ypos"				"-1"
-		"zpos"				"1"
-		"wide"				"102"
-		"tall"				"10"
-		"autoResize"			"0"
-		"pinCorner"			"0"
-		"visible"			"1"
-		"enabled"			"1"
-		"labelText"			"%disguisename%"
 		"textAlignment"		"west"
+		
+		"fgcolor_override"	"GeneralLabel"
+				
+		"dropshadow"			"1"
+		"dropshadowoffset"	"2"
+		
+		"visible"			"1"
 	}
 	
 	"WeaponNameLabel"
 	{	
-		"ControlName"			"Label"
-		"fieldName"			"WeaponNameLabel"
-		"font"				"TF2Default"
-		"fgcolor_override"	"GeneralLabel"
+		"controlname"			"Label"
+		"fieldname"			"WeaponNameLabel"
+		
 		"xpos"				"46"
-		"ypos"				"15"
+		"ypos"				"13"
 		"zpos"				"1"
+		
 		"wide"				"102"
-		"tall"				"10"
-		"autoResize"			"0"
-		"pinCorner"			"0"
-		"visible"			"1"
-		"enabled"			"1"
+		"tall"				"12"
+		
 		"labelText"			"%weaponname%"
+		"font"				"DisguiseWeaponFont"
 		"textAlignment"		"west"
-	}
-	"WeaponNameShadow"
-	{	
-		"ControlName"			"Label"
-		"fieldName"			"WeaponNameShadow"
-		"font"				"TF2Default"
-		"fgcolor_override"	"GeneralShadow"
-		"pin_to_sibling"		"WeaponNameLabel"
-		"xpos"				"-1"
-		"ypos"				"-1"
-		"zpos"				"1"
-		"wide"				"102"
-		"tall"				"10"
-		"autoResize"			"0"
-		"pinCorner"			"0"
+		
+		"fgcolor_override"	"GeneralLabel"
+				
+		"dropshadow"			"1"
+		"dropshadowoffset"	"2"
+		
 		"visible"			"1"
-		"enabled"			"1"
-		"labelText"			"%weaponname%"
-		"textAlignment"		"west"
 	}
 	
 	"SpectatorGUIHealth"
 	{
-		"ControlName"				"EditablePanel"
-		"fieldName"				"SpectatorGUIHealth"
-		"xpos"					"18"
-		"ypos"					"0"
-		"zpos"					"2"
-		"wide"					"52"
-		"tall"					"44"
-		"visible"				"1"
-		"enabled"				"1"
+		"controlname"				"EditablePanel"
+		"fieldname"				"SpectatorGUIHealth"
+		
+		"ypos"					"1"
+		"zpos"					"1"
+		
+		"wide"					"26"
+		"tall"					"26"
+		
 		"HealthBonusPosAdj"		"10"
 		"HealthDeathWarning"		"0.49"
 		"TFFont"					"HudFontSmall"
 		"HealthDeathWarningColor"	"HealthWarning"
 		"TextColor"				"HealthNormal"
+		
+		"visible"				"1"
+	}
+
+	"SpectatorGUIArmor"
+	{
+		"controlname"	"EditablePanel"
+		"fieldname"	"SpectatorGUIArmor"
+		
+		"ypos"		"1"
+		"zpos"		"1"
+		
+		"wide"		"21"
+		"tall"		"26"
+		
+		"visible"	"1"
 	}
 	
 	"SpywalkLabel"
 	{	
-		"ControlName"		"Label"
-		"fieldName"		"SpywalkLabel"
-		"font"			"DefaultVerySmallShadow"
-		"xpos"			"151"
-		"ypos"			"2"
-		"zpos"			"2"
-		"wide"			"30"
-		"tall"			"24"
-		"visible"		"1"
-		"enabled"		"1"
-		"labelText"		"%spywalkbind%"
-		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"		"0"
+		"controlname"			"Label"
+		"fieldname"			"SpywalkLabel"
+		
+		"ypos"				"12"
+		"zpos"				"2"
+		
+		"wide"				"24"
+		"tall"				"24"
+		
+		"labelText"			"%spywalkbind%"
+		"font"				"HudFontTiny"
+		"textAlignment"		"center"
+				
+		"dropshadow"			"1"
+		"dropshadowoffset"	"2"
+		
+		"visible"			"1"
 	}
 	"SpywalkBG"
 	{
-		"ControlName"		"CTFImagePanel"
-		"fieldName"		"SpywalkBG"
-		"xpos"			"154"
-		"ypos"			"2"
+		"controlname"		"CTFImagePanel"
+		"fieldname"		"SpywalkBG"
+		
+		"ypos"			"4"
 		"zpos"			"-1"
-		"wide"			"24"
-		"tall"	 		"24"
+		
+		"wide"			"30"
+		"tall"	 		"19"
+		
+		"image"			"..\darhud\disguise\spywalk\spywalk_bg_shadow"
+		"scaleimage"		"1"
+		
 		"visible"		"1"
-		"enabled"		"1"
-		"image"			"../darhud/icons/spywalk/spywalk_bg"
-		"scaleImage"		"1"
 	}	
 	"SpywalkStatusIconInactive"
 	{
-		"ControlName"		"CTFImagePanel"
-		"fieldName"		"SpywalkStatusIconInactive"
-		"pin_to_sibling"	"SpywalkBg"
-		"xpos"			"0"
-		"ypos"			"0"
+		"controlname"		"ImagePanel"
+		"fieldname"		"SpywalkStatusIconInactive"
+		
+		"ypos"			"2"
 		"zpos"			"-1"
-		"wide"			"0"
-		"tall"	 		"0"
-		"visible"		"0"
-		"enabled"		"1"
-		"image"			"../hud/leaderboard_class_scout"
-		"scaleImage"		"1"
+		
+		"wide"			"24"
+		"tall"	 		"24"
+		
+		"image"			"resource/svgs/meters/ico_spywalk_inactive.svg"
+		"scaleimage"		"1"
+		"drawcolor"		"ProgressBar.BgColor"
+		
+		"visible"		"1"
 	}	
 	"SpywalkStatusIconActive"
 	{
-		"ControlName"		"CTFImagePanel"
-		"fieldName"		"SpywalkStatusIconActive"
-		"pin_to_sibling"	"SpywalkBg"
-		"xpos"			"0"
-		"ypos"			"0"
+		"controlname"		"ImagePanel"
+		"fieldname"		"SpywalkStatusIconActive"
+		
+		"ypos"			"2"
 		"zpos"			"-1"
+		
 		"wide"			"24"
 		"tall"	 		"24"
+		
+		"image"			"resource/svgs/meters/ico_spywalk_active.svg"
+		"scaleimage"		"1"
+		
+		"drawcolor"		"ProgressBar.FgColor"
 		"visible"		"1"
-		"enabled"		"1"
-		"image"			"../darhud/icons/spywalk/spywalk_fg_neutral"
-		"scaleImage"		"1"
-		"teambg_0"		"../darhud/icons/spywalk/spywalk_fg_neutral"
-		"teambg_1"		"../darhud/icons/spywalk/spywalk_fg_spectator"
-		"teambg_2"		"../darhud/icons/spywalk/spywalk_fg_red"
-		"teambg_3"		"../darhud/icons/spywalk/spywalk_fg_blue"
-		"teambg_4"		"../darhud/icons/spywalk/spywalk_fg_green"
-		"teambg_5"		"../darhud/icons/spywalk/spywalk_fg_yellow"
 	}
 }

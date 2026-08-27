@@ -1,0 +1,9 @@
+"Patch"
+{
+	include "materials\darhud\bases\teams\base_red.vmt"
+	
+	insert
+	{
+		"$basetexture"	"darhud\square\border\square_border_mask"
+	}
+}

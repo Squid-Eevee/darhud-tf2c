@@ -2,9 +2,9 @@
 {
 	"ItemNameLabel"
 	{	
-		"ControlName"	"CExLabel"
-		"fieldName"		"ItemNameLabel"
-		"font"			"TF2DefaultSmall"
+		"controlname"	"CExLabel"
+		"fieldname"		"ItemNameLabel"
+		"font"			"MeterLabelFont"
 		"fgcolor"		"White"
 		"xpos"			"0"
 		"ypos"			"0"
@@ -17,14 +17,14 @@
 		"enabled"		"1"
 		"labelText"		"#TF_Object_Sentry"
 		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
+		"dropshadow"		"1"
+		"dropshadowoffset"	"1"
 	}
 	
 	"ItemBackground"	
 	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"ItemBackground"
+		"controlname"	"EditablePanel"
+		"fieldname"		"ItemBackground"
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"0"
@@ -32,7 +32,7 @@
 		"tall"			"62"
 		"visible"		"1"
 		"enabled"		"1"
-		"scaleImage"	"1"
+		"scaleimage"	"1"
 		"bgcolor_override"		"15 15 15 230"
 		"paintbackgroundtype" "2"
 		"proportionaltoparent"	"1"
@@ -41,9 +41,9 @@
 	
 	"NotBuiltLabel"
 	{	
-		"ControlName"	"CExLabel"
-		"fieldName"		"NotBuiltLabel"
-		"font"			"TF2Default"
+		"controlname"	"CExLabel"
+		"fieldname"		"NotBuiltLabel"
+		"font"			"MeterLabelFont"
 		"fgcolor"		"White"
 		"xpos"			"0"
 		"ypos"			"21"
@@ -56,14 +56,14 @@
 		"enabled"		"1"
 		"labelText"		"#TF_NotBuilt"
 		"textAlignment"	"Center"
-		"dulltext"		"0"
-		"brighttext"	"0"
+		"dropshadow"		"1"
+		"dropshadowoffset"	"1"
 	}
 		
 	"BuildingIcon"	
 	{
-		"ControlName"	"CIconPanel"
-		"fieldName"		"BuildingIcon"
+		"controlname"	"ImagePanel"
+		"fieldname"		"BuildingIcon"
 		"pin_to_sibling" "ItemNameLabel"
 		"pin_corner_to_sibling" "PIN_CENTER_TOP"
 		"pin_to_sibling_corner" "PIN_CENTER_BOTTOM"
@@ -74,9 +74,9 @@
 		"tall"			"43"
 		"visible"		"1"
 		"enabled"		"1"
-		"scaleImage"	"1"	
-		//"icon"			"obj_status_sentrygun_1"
-		"iconColor"		"HudBlack"
+		"scaleimage"	"1"
+		//"image"			"obj_status_sentrygun_1"
+		"drawcolor"		"HudBlack"
 	}
 		
 	"NumberBg"	

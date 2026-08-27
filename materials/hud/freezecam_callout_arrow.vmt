@@ -1,11 +1,10 @@
 "Patch"
 {
-	include "materials\darhud\base_blue.vmt"
+	include "materials\darhud\bases\base_shadow_opaque.vmt"
 	
 	insert
 	{
-		"$basetexture"		"darhud/freezecam_arrow_mask"
-		"$alpha"			"1"
-		"$color"			"{50 50 50}"
+		"$basetexture"	"darhud\freezecam_arrow_mask"
+		"$color"	"{50 50 50}"
 	}
 }

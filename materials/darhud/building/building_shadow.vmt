@@ -1,0 +1,9 @@
+"Patch"
+{
+	include "materials\darhud\bases\base_shadow.vmt"
+	
+	insert
+	{
+		"$baseTexture"	"darhud\building\building_mask"
+	}
+}

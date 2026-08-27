@@ -1,496 +1,971 @@
 "Resource/UI/VoteHud.res"
-{	
-	"VotePassed"
+{
+	"VoteSetupDialog"
 	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"VotePassed"
-		"xpos"			"5"
-		"ypos"			"r320"
-		"wide"			"159"
-		"tall"			"71"
-		"visible"		"0"
-		"enabled"		"1"
-		"border"			"OuterShadowBorder"
+		"controlname"				"CVoteSetupDialog"
+		"fieldname"				"VoteSetupDialog"
 		
+		"xpos"					"c-255"
+		"ypos"					"c-150"
+		
+		"wide"					"510"
+		"tall"					"320"
+		
+		"settitlebarvisible"		"0"
+		"bordervisible"			"0"
+		"bgcolor_override"		"0 0 0 0"
+		"PaintBackground"			"0"
+
+		"header_font"				"ItemFontNameLarge"
+		"issue_font"				"ItemFontNameSmall"
+		"player_font"				"ItemFontNameSmall"
+		"header_fgcolor"			"Orange"
+		"issue_fgcolor"			"TanLight"
+		"issue_fgcolor_disabled"	"TanDark"
+		"issue_width"				"200"
+		"parameter_width"			"200"
+		
+		"visible"				"1"
+		"enabled"				"1"
+		
+		"BackgroundBorder"
+		{
+			"controlname"			"EditablePanel"
+			"fieldname"			"BackgroundBorder"
+			"proportionaltoparent"	"1"
+			
+			"xpos"				"0"
+			"ypos"				"0"
+			"zpos"				"-1"
+			
+			"wide"				"f0"
+			"tall"				"f0"
+			
+			"border"				"OuterShadowBorder"
+			
+			"visible"			"1"
+			"enabled"			"1"
+		}
 		"Background"
 		{
-			"ControlName"		"EditablePanel"
-			"fieldName"		"Background"
-			"xpos"			"5"
-			"ypos"			"5"
-			"zpos"			"0"
-			"wide"			"150"
-			"tall"			"62"
-			"visible"		"1"
-			"enabled"		"1"
+			"controlname"			"EditablePanel"
+			"fieldname"			"Background"
+			"proportionaltoparent"	"1"
+			
+			"xpos"				"5"
+			"ypos"				"5"
+			"zpos"				"0"
+			
+			"wide"				"f10"
+			"tall"				"310"
+			
 			"bgcolor_override"	"MainMenuBackground"
+			
+			"visible"			"1"
+			"enabled"			"1"
 		}
 
 		"TitleBG"
 		{
-			"ControlName"		"EditablePanel"
-			"fieldName"			"TitleBG"
+			"controlname"			"EditablePanel"
+			"fieldname"			"TitleBG"
+			"proportionaltoparent"	"1"
+			
+			"xpos"				"5"
+			"ypos"				"10"
+			"zpos"				"4"
+			
+			"wide"				"f10"
+			"tall"				"20"
+			
+			"bgcolor_override"	"Header"
+			
+			"visible"			"1"
+			"enabled"			"1"
+		}
+		"TitleLabel"
+		{
+			"controlname"			"CExLabel"
+			"fieldname"			"TitleLabel"
+			"proportionaltoparent"	"1"
+			
+			"xpos"				"20"
+			"ypos"				"10"
+			"zpos"				"5"
+			
+			"wide"				"f10"
+			"tall"				"20"
+			
+			"fgcolor"			"HeaderLabel"
+			
+			"font"				"HudFontMediumSmallBold"
+			"labelText"			"#TF_Vote_Title"
+			"textAlignment"		"center"
+			"wrap"				"0"
+			
+			"visible"			"1"
+			"enabled"			"1"
+		}
+									
+		"VoteSetupList"
+		{
+			"controlname"			"SectionedListPanel"
+			"fieldname"			"VoteSetupList"
+			"proportionaltoparent"	"1"
+			
+			"xpos"				"15"
+			"ypos"				"43"
+			"zpos"				"2"
+			
+			"wide"				"230"
+			"tall"				"200"
+			
+			"linespacing"			"16"
+			"roundedcorners"		"0"
+			
+			"dropshadow"						"1"
+			"dropshadowoffset"				"2"
+			
+			"visible"			"1"
+			"enabled"			"1"
+
+			"ScrollBar"
+			{
+				"proportionaltoparent"	"1"
+				
+				"wide"				"9"
+				
+				"nobuttons"			"1"
+			
+				"Slider"
+				{
+					"wide"				"10"
+					
+					"fgcolor_override"	"255 255 255 60"
+					"bgcolor_override"	"0 0 0 100"
+					
+					"ScrollLerpTime"		"0.1"
+				}
+				"UpButton"
+				{
+					"controlname"	"Button"
+					"fieldname"	"UpButton"
+					
+					"visible"	"0"
+				}
+				"DownButton"
+				{
+					"controlname"	"Button"
+					"fieldname"	"DownButton"
+					
+					"visible"	"0"
+				}
+			}
+		}
+		
+		"VoteParameterList"
+		{
+			"controlname"			"SectionedListPanel"
+			"fieldname"			"VoteParameterList"
+			"proportionaltoparent"	"1"
+			
+			"xpos"				"r245"
+			"ypos"				"43"
+			"zpos"				"2"
+			
+			"wide"				"230"
+			"tall"				"200"
+			
+			"linespacing"			"16"
+			"roundedcorners"		"0"
+			
+			"dropshadow"						"1"
+			"dropshadowoffset"				"2"
+			
+			"visible"			"1"
+			"enabled"			"1"
+
+			"ScrollBar"
+			{
+				"proportionaltoparent"	"1"
+				
+				"wide"				"9"
+				
+				"nobuttons"			"1"
+			
+				"Slider"
+				{
+					"wide"				"10"
+					
+					"fgcolor_override"	"255 255 255 60"
+					"bgcolor_override"	"0 0 0 100"
+					
+					"ScrollLerpTime"		"0.1"
+				}
+				"UpButton"
+				{
+					"controlname"	"Button"
+					"fieldname"	"UpButton"
+					
+					"visible"	"0"
+				}
+				"DownButton"
+				{
+					"controlname"	"Button"
+					"fieldname"	"DownButton"
+					
+					"visible"	"0"
+				}
+			}
+		}
+
+		"ComboLabel"
+		{
+			"controlname"		"CExLabel"
+			"fieldname"		"ComboLabel"
+			
+			"xpos"			"15"
+			"ypos"			"250"
+			"zpos"			"1"
+			
+			"wide"			"120"
+			"tall"			"20"
+			
+			"font"			"HudFontSmallestBold"
+			"labelText"		"%combo_label%"
+			"textAlignment"	"west"
+			
+			"dropshadow"						"1"
+			"dropshadowoffset"				"2"
+			
+			"visible"		"1"
+			"enabled"		"1"
+		}
+		"ComboBox"
+		{
+			"controlname"						"ComboBox"
+			"fieldname"						"ComboBox"
+			"proportionaltoparent"				"1"
+			
+			"xpos"							"r300"
+			"ypos"							"250"
+			"zpos"							"1"
+			
+			"wide"							"285"
+			"tall"							"20"
+			
+			"font"							"HudFontSmallestBold"
+			
+			"fgcolor_override"				"GeneralLabel"
+			"bgcolor_override"				"GeneralBackground"
+			"disabledFgColor_override"			"117 107 94 255"
+			"disabledBgColor_override"			"251 235 202 255"
+			"selectionColor_override"			"GeneralLabel"
+			"selectionTextColor_override"		"0 0 0 0"
+			"defaultSelectionBG2Color_override"	"255 0 255 255"
+			
+			"dropshadow"						"1"
+			"dropshadowoffset"				"2"
+			
+			"textHidden"						"0"
+			"editable"						"0"
+			"maxchars"						"-1"
+			"NumericInputOnly"				"0"
+			"unicode"						"0"
+			
+			"visible"						"1"
+			"enabled"						"1"
+			
+		}
+			
+		"CallVoteButton"
+		{
+			"controlname"			"Button"
+			"fieldname"			"CallVoteButton"
+			
+			"xpos"				"125"
+			"ypos"				"280"
+			"zpos"				"1"
+			
+			"wide"				"160"
+			"tall"				"24"
+			
+			"labelText"			"#TF_call_vote"
+			"textAlignment"		"center"
+			"font"				"HudFontSmallBold"
+			"roundedcorners"		"0"
+			
+			"Command"			"CallVote"
+			"Default"			"0"
+			
+			"dropshadow"			"1"
+			"dropshadowoffset"	"3"
+			
+			"visible"			"1"
+			"enabled"			"0"
+		}
+		"Button1"
+		{
+			"controlname"			"Button"
+			"fieldname"			"Button1"
+			
+			"xpos"				"295"
+			"ypos"				"280"
+			"zpos"				"1"
+			
+			"wide"				"80"
+			"tall"				"24"
+			
+			"labelText"			"#GameUI_Close"
+			"textAlignment"		"center"
+			"font"				"HudFontSmallBold"
+			"roundedcorners"		"0"
+			
+			"Command"			"Close"
+			"Default"			"0"
+			
+			"dropshadow"			"1"
+			"dropshadowoffset"	"3"
+			
+			"visible"			"1"
+			"enabled"			"1"
+		}
+	}
+	
+	// This is sent to the vote caller when they're not able to start the vote
+	"CallVoteFailed"
+	{
+		"controlname"			"EditablePanel"
+		"fieldname"			"CallVoteFailed"
+		
+		"xpos"				"5"
+		"ypos"				"c-35"
+		
+		"wide"				"160"
+		"tall"				"70"
+		
+		"visible"			"0"
+		"enabled"			"1"
+		
+		"Shadow"
+		{
+			"controlname"			"EditablePanel"
+			"fieldname"			"Shadow"
+			"proportionaltoparent"	"1"
+			
+			"xpos"				"0"
+			"ypos"				"0"
+			"zpos"				"-1"
+			
+			"wide"				"f0"
+			"tall"				"f0"
+			
+			"border"				"OuterShadowBorder"
+			
+			"visible"			"1"
+			"enabled"			"1"
+		}
+		
+		"Background"
+		{
+			"controlname"			"EditablePanel"
+			"fieldname"			"Background"
+			"proportionaltoparent"	"1"
+			
+			"xpos"				"5"
+			"ypos"				"5"
+			"zpos"				"0"
+			
+			"wide"				"f10"
+			"tall"				"f10"
+			
+			"bgcolor_override"	"MainMenuBackground"
+			
+			"visible"			"1"
+			"enabled"			"1"
+		}
+
+		"TitleBG"
+		{
+			"controlname"			"EditablePanel"
+			"fieldname"			"TitleBG"
+			"proportionaltoparent"	"1"
+			
 			"xpos"				"5"
 			"ypos"				"10"
 			"zpos"				"1"
-			"wide"				"149"
+			
+			"wide"				"f10"
 			"tall"				"16"
+			
+			"bgcolor_override"	"Header"
+			
 			"visible"			"1"
 			"enabled"			"1"
-			// "border"			"MainMenuAdvBGBorderAlpha"
-			"bgcolor_override"	"Header"
 		}
 		
-		"PassedIcon"
+		"FailedIcon"
 		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"PassedIcon"
-			"xpos"			"10"
-			"ypos"			"10"
-			"zpos"			"2"
-			"wide"			"16"
-			"tall"			"16"
-			"visible"		"1"
-			"enabled"		"1"
-			"scaleImage"	"1"
-			"image"			"hud/vote_yes"
+			"controlname"				"ImagePanel"
+			"fieldname"				"FailedIcon"
+			
+			"pin_to_sibling"			"TitleBG"
+			"pin_corner_to_sibling"	"pin_center_right"
+			"pin_to_sibling_corner"	"pin_center_right"
+			
+			"xpos"					"-2"
+			"ypos"					"0"
+			"zpos"					"2"
+			
+			"wide"					"12"
+			"tall"					"12"
+			
+			"image"					"resource/svgs/mainmenu/icon_cross.svg"
+			"scaleimage"				"1"
+			"drawcolor"				"VoteFailed"
+			
+			"visible"				"1"
+			"enabled"				"1"
 		}
 		
-		"PassedTitle"
+		"FailedTitle"
 		{
-			"ControlName"	"Label"
-			"fieldName"		"PassedTitle"
-			"xpos"			"30"
-			"ypos"			"10"
-			"zpos"			"2"
-			"wide"			"129"
-			"tall"			"16"
-			"visible"		"1"
-			"enabled"		"1"
-			"labelText"		"#GameUI_vote_passed"
-			"textAlignment"	"west"
-			"dulltext"		"0"
-			"brighttext"	"0"
-			"font"			"HudFontSmallBold"
-			"wrap"			"1"
+			"controlname"			"Label"
+			"fieldname"			"FailedTitle"
+			
+			"xpos"				"10"
+			"ypos"				"10"
+			"zpos"				"2"
+			
+			"wide"				"f20"
+			"tall"				"16"
+			
+			"labelText"			"#GameUI_vote_failed"
+			"textAlignment"		"west"
+			"font"				"HudFontSmallBold"
+			"wrap"				"1"
+			
 			"fgcolor_override"	"HeaderLabel"
+			
+			"dropshadow"			"1"
+			"dropshadowoffset"	"3"
+			
+			"visible"			"1"
+			"enabled"			"1"
 		}
 		
-		"PassedResult"
+		"FailedReason"
 		{
-			"ControlName"	"Label"
-			"fieldName"		"PassedResult"
-			"xpos"			"10"
-			"ypos"			"29"
-			"zpos"			"1"
-			"wide"			"140"
-			"tall"			"40"
-			"visible"		"1"
-			"enabled"		"1"
-			"labelText"		"%passedresult%"
-			"textAlignment"	"north-west"
-			"dulltext"		"0"
-			"brighttext"	"0"
-			"font"			"ScoreboardSmallShadow"
-			"wrap"			"1"
+			"controlname"			"Label"
+			"fieldname"			"FailedReason"
+			
+			"xpos"				"10"
+			"ypos"				"29"
+			"zpos"				"1"
+			
+			"wide"				"140"
+			"tall"				"40"
+			
+			"labelText"			"%FailedReason%"
+			"textAlignment"		"north-west"
+			"font"				"ScoreboardSmall"
+			"wrap"				"1"
+			"noshortcutsyntax"	"1"
+			
 			"fgcolor_override"	"255 255 255 255"
-			"noshortcutsyntax" "1"
+			
+			"dropshadow"			"1"
+			"dropshadowoffset"	"2"
+			
+			"visible"			"1"
+			"enabled"			"1"
 		}
 	}
 	
 	"VoteActive"
 	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"VoteActive"
-		"xpos"			"5"
-		"ypos"			"r320"
-		"wide"			"159"
-		"tall"			"154"
-		"visible"		"0"
-		"enabled"		"1"
-		"border"		"OuterShadowBorder"
+		"controlname"			"EditablePanel"
+		"fieldname"			"VoteActive"
+		
+		"xpos"				"5"
+		"ypos"				"cs-0.5"
+		"zpos"				"2"
+		
+		"wide"				"160"
+		"tall"				"132"
+		
+		"visible"			"0"
+		"enabled"			"1"
+		
+		"Shadow"
+		{
+			"controlname"			"EditablePanel"
+			"fieldname"			"Shadow"
+			"proportionaltoparent"	"1"
+			
+			"xpos"				"0"
+			"ypos"				"0"
+			"zpos"				"-1"
+			
+			"wide"				"f0"
+			"tall"				"f0"
+			
+			"border"				"OuterShadowBorder"
+			
+			"visible"			"1"
+			"enabled"			"1"
+		}
 		
 		"Background"
 		{
-			"ControlName"		"EditablePanel"
-			"fieldName"		"Background"
-			"xpos"			"5"
-			"ypos"			"5"
-			"zpos"			"-10"
-			"wide"			"150"
-			"tall"			"145"
+			"controlname"			"EditablePanel"
+			"fieldname"			"Background"
+			"proportionaltoparent"	"1"
+			
+			"xpos"				"5"
+			"ypos"				"5"
+			"zpos"				"0"
+			
+			"wide"				"f10"
+			"tall"				"f10"
+			
+			"bgcolor_override"	"MainMenuBackground"
+
 			"visible"		"1"
 			"enabled"		"1"
-			"bgcolor_override"	"MainMenuBackground"
 		}
 		
 		"Header"
 		{
-			"ControlName"	"Label"
-			"fieldName"		"Header"
-			"xpos"			"10"
-			"ypos"			"28"
-			"wide"			"140"
-			"tall"			"18"
-			"visible"		"1"
-			"enabled"		"1"
-			"labelText"		"%header%"
+			"controlname"			"Label"
+			"fieldname"			"Header"
+			"proportionaltoparent"	"1"
+			
+			"xpos"				"10"
+			"ypos"				"28"
+			"zpos"				"1"
+			
+			"wide"				"f20"
+			"tall"				"18"
+			
+			"labelText"			"%header%"
 			"textAlignment"		"north-west"
-			"dulltext"		"0"
-			"brighttext"		"0"
-			"font"			"TFFontSmall"
-			"wrap"			"1"
+			"font"				"VoteOption"
+			"wrap"				"1"
+			
 			"fgcolor_override"	"128 128 128 255"
+			
+			"visible"			"1"
+			"enabled"			"1"
 		}
 
 		"TitleBG"
 		{
-			"ControlName"		"EditablePanel"
-			"fieldName"			"TitleBG"
+			"controlname"			"EditablePanel"
+			"fieldname"			"TitleBG"
+			"proportionaltoparent"	"1"
+			
 			"xpos"				"5"
 			"ypos"				"10"
 			"zpos"				"1"
-			"wide"				"150"
+			
+			"wide"				"f10"
 			"tall"				"16"
+			
+			"bgcolor_override"	"Header"
+			
 			"visible"			"1"
 			"enabled"			"1"
-			// "border"			"MainMenuAdvBGBorderAlpha"
-			"bgcolor_override"	"Header"
 		}
 		
 		"Title"
 		{
-			"ControlName"	"Label"
-			"fieldName"		"Title"
-			"xpos"			"10"
-			"ypos"			"10"
-			"zpos"			"2"
-			"wide"			"129"
-			"tall"			"16"
-			"visible"		"1"
-			"enabled"		"1"
-			"labelText"		"#Vote_notification_title"
-			"textAlignment"	"west"
-			"dulltext"		"0"
-			"brighttext"	"0"
-			"font"			"HudFontSmallBold"
-			"wrap"			"1"
+			"controlname"			"Label"
+			"fieldname"			"Title"
+			
+			"xpos"				"10"
+			"ypos"				"10"
+			"zpos"				"2"
+			
+			"wide"				"129"
+			"tall"				"16"
+			
+			"labelText"			"#Vote_notification_title"
+			"textAlignment"		"west"
+			"font"				"HudFontSmallBold"
+			"wrap"				"1"
+			
 			"fgcolor_override"	"HeaderLabel"
+			
+			"visible"			"1"
+			"enabled"			"1"
 		}
 		
 		"Issue"
 		{
-			"ControlName"	"Label"
-			"fieldName"		"Issue"
-			"xpos"			"10"
-			"ypos"			"40"
-			"wide"			"140"
-			"tall"			"28"
+			"controlname"			"Label"
+			"fieldname"			"Issue"
+			
+			"xpos"				"10"
+			"ypos"				"40"
+			"zpos"				"1"
+			
+			"wide"				"121"
+			"tall"				"28"
+			
+			"labelText"			"%voteissue%"
+			"textAlignment"		"north-west"
+			"font"				"ScoreboardSmall"
+			"wrap"				"1"
+			"noshortcutsyntax"	"1"
+			
+			"fgcolor_override"	"GeneralLabel"
+			
+			"dropshadow"		"1"
+			"dropshadowoffset"	"2"
+			
 			"visible"		"1"
 			"enabled"		"1"
-			"labelText"		"%voteissue%"
-			"textAlignment"	"west"
-			"dulltext"		"0"
-			"brighttext"	"0"
-			"font"			"ScoreboardSmallShadow"
-			"fgcolor_override"	"255 255 255 255"
-			"wrap"			"1"
-			"noshortcutsyntax" "1"
 		}
 
-		"TargetAvatarImage"
+		"TargetAvatarimage"
 		{
-			"ControlName"	"CAvatarImagePanel"
-			"fieldName"		"TargetAvatarImage"
+			"controlname"		"CAvatarImagePanel"
+			"fieldname"		"TargetAvatarimage"
+			
 			"xpos"			"10"
-			"ypos"			"23"
+			"ypos"			"46"
+			"zpos"			"1"
+			
 			"wide"			"16"
 			"tall"			"16"
-			"visible"		"0"
-			"enabled"		"1"
+			
 			"image"			""
-			"scaleImage"	"1"	
+			"scaleimage"		"1"
+			
 			"color_outline"	"52 48 45 255"
+			
+			"visible"		"1"
+			"enabled"		"1"
 		}
 		
 		// divider
 		"Divider"
 		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"Divider"
+			"controlname"			"ImagePanel"
+			"fieldname"			"Divider"
+			"proportionaltoparent"	"1"
+			
 			"xpos"			"10"
 			"ypos"			"70"
-			"wide"			"130"
+			"zpos"			"1"
+			
+			"wide"			"f20"
 			"tall"			"1"
+			
 			"fillcolor"		"128 128 128 255"
-			"zpos"			"0"
+			
+			"visible"		"1"
+			"enabled"		"1"
 		}
-		
-		// Temp UI
 		
 		"LabelOption1"
 		{
-			"ControlName"	"Label"
-			"fieldName"		"LabelOption1"
+			"controlname"		"Label"
+			"fieldname"		"LabelOption1"
+			
 			"xpos"			"12"
 			"ypos"			"72"
-			"wide"			"130"
-			"tall"			"15"
 			"zpos"			"2"
+			
+			"wide"			"130"
+			"tall"			"10"
+			
+			"labelText"		"Option 1"
+			"textAlignment"	"west"
+			"font"			"VoteOption"
+			
+			"fgcolor_override"	"255 255 255 255"
+			
+			"dropshadow"		"1"
+			"dropshadowoffset"	"2"
+			
 			"visible"		"1"
 			"enabled"		"1"
-			"labelText"		""
-			"textAlignment"	"west"
-			"dulltext"		"0"
-			"brighttext"	"0"
-			"font"			"TFFontSmallShadow"
-			"fgcolor_override"	"255 255 255 255"
 		}
-		
 		"Option1Background_Selected"
 		{
-			"ControlName"		"ImagePanel"
-			"fieldName"		"Option1Background_Selected"
-			"pin_to_sibling"	"LabelOption1"
-			"xpos"			"3"
-			"ypos"			"0"
-			"wide"			"132"
-			"tall"			"15"
-			"zpos"			"1"
-			"drawcolor"		"VoteSelect"
-			"image"			"../darhud/square_gradient_white"
-			"scaleImage"		"1"
-			"visible"		"1"
-		}
-		
-		"Option1CountLabel"
-		{
-			"ControlName"	"Label"
-			"fieldName"		"Option1CountLabel"
-			"xpos"			"28"
-			"ypos"			"130"
-			"wide"			"16"
-			"tall"			"15"
-			"zpos"			"2"
-			"visible"		"1"
-			"enabled"		"1"
-			"labelText"		"Yes"
-			"textAlignment"	"center"
-			"dulltext"		"0"
-			"brighttext"	"0"
-			"font"			"ScoreboardSmallShadow"
-			"fgcolor_override"	"255 255 255 255"
+			"controlname"			"EditablePanel"
+			"fieldname"			"Option1Background_Selected"
+			
+			"pin_to_sibling"		"LabelOption1"
+			
+			"xpos"				"3"
+			"ypos"				"0"
+			"zpos"				"1"
+			
+			"wide"				"132"
+			"tall"				"10"
+			
+			"paintbackground"		"1"
+			"paintbackgroundtype"	"3"
+			"bgcolor_override"	"VoteSelect"
+			
+			"roundedcorners"		"0"
+			
+			"visible"			"1"
 		}
 		
 		"LabelOption2"
 		{
-			"ControlName"	"Label"
-			"fieldName"		"LabelOption2"
-			"pin_to_sibling"	"LabelOption1"
+			"controlname"				"Label"
+			"fieldname"				"LabelOption2"
+			
+			"pin_to_sibling"			"LabelOption1"
 			"pin_corner_to_sibling"	"pin_topleft"
 			"pin_to_sibling_corner"	"pin_bottomleft"
-			"xpos"			"0"
-			"ypos"			"0"
-			"wide"			"130"
-			"tall"			"15"
-			"zpos"			"2"
-			"visible"		"1"
-			"enabled"		"1"
-			"labelText"		""
-			"textAlignment"	"west"
-			"dulltext"		"0"
-			"brighttext"	"0"
-			"font"			"TFFontSmallShadow"
-			"fgcolor_override"	"255 255 255 255"
+			
+			"xpos"					"0"
+			"ypos"					"0"
+			"zpos"					"2"
+			
+			"wide"					"130"
+			"tall"					"10"
+			
+			"labelText"				"Option 2"
+			"textAlignment"			"west"
+			"font"					"VoteOption"
+			
+			"fgcolor_override"		"255 255 255 255"
+			
+			"dropshadow"				"1"
+			"dropshadowoffset"		"2"
+			
+			"visible"				"1"
+			"enabled"				"1"
 		}
-		
 		"Option2Background_Selected"
 		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"Option2Background_Selected"
-			"pin_to_sibling"	"LabelOption2"
-			"xpos"			"2"
-			"ypos"			"0"
-			"wide"			"132"
-			"tall"			"15"
-			"zpos"			"1"
-			"drawcolor"		"VoteSelect"
-			"image"			"../darhud/square_gradient_white"
-			"scaleImage"		"1"
-			"visible"		"1"
-		}
-		
-		"Option2CountLabel"
-		{
-			"ControlName"	"Label"
-			"fieldName"		"Option2CountLabel"
-			"xpos"			"74"
-			"ypos"			"130"
-			"wide"			"16"
-			"tall"			"15"
-			"zpos"			"2"
-			"visible"		"1"
-			"enabled"		"1"
-			"labelText"		"No"
-			"textAlignment"	"center"
-			"dulltext"		"0"
-			"brighttext"	"0"
-			"font"			"ScoreboardSmallShadow"
-			"fgcolor_override"	"255 255 255 255"
+			"controlname"			"EditablePanel"
+			"fieldname"			"Option2Background_Selected"
+			
+			"pin_to_sibling"		"LabelOption2"
+			
+			"xpos"				"3"
+			"ypos"				"0"
+			"zpos"				"1"
+			
+			"wide"				"132"
+			"tall"				"10"
+			
+			"paintbackground"		"1"
+			"paintbackgroundtype"	"3"
+			"bgcolor_override"	"VoteSelect"
+			
+			"roundedcorners"		"0"
+			
+			"visible"			"1"
 		}
 		
 		"LabelOption3"
 		{
-			"ControlName"	"Label"
-			"fieldName"		"LabelOption3"
-			"pin_to_sibling"	"LabelOption2"
+			"controlname"				"Label"
+			"fieldname"				"LabelOption3"
+			
+			"pin_to_sibling"			"LabelOption2"
 			"pin_corner_to_sibling"	"pin_topleft"
 			"pin_to_sibling_corner"	"pin_bottomleft"
-			"xpos"			"0"
-			"ypos"			"0"
-			"wide"			"130"
-			"tall"			"15"
-			"zpos"			"2"
-			"visible"		"1"
-			"enabled"		"1"
-			"labelText"		""
-			"textAlignment"	"west"
-			"dulltext"		"0"
-			"brighttext"	"0"
-			"font"			"TFFontSmallShadow"
-			"fgcolor_override"	"255 255 255 255"
+			
+			"xpos"					"0"
+			"ypos"					"0"
+			"zpos"					"2"
+			
+			"wide"					"130"
+			"tall"					"10"
+			
+			"labelText"				"Option 3"
+			"textAlignment"			"west"
+			"font"					"VoteOption"
+			"fgcolor_override"		"255 255 255 255"
+			
+			"dropshadow"				"1"
+			"dropshadowoffset"		"2"
+			
+			"visible"				"1"
+			"enabled"				"1"
 		}
-		
 		"Option3Background_Selected"
 		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"Option3Background_Selected"
-			"pin_to_sibling"	"LabelOption3"
-			"xpos"			"2"
-			"ypos"			"0"
-			"wide"			"132"
-			"tall"			"15"
-			"zpos"			"1"
-			"drawcolor"		"VoteSelect"
-			"image"			"../darhud/square_gradient_white"
-			"scaleImage"		"1"
-			"visible"		"1"
+			"controlname"			"EditablePanel"
+			"fieldname"			"Option3Background_Selected"
+			
+			"pin_to_sibling"		"LabelOption3"
+			
+			"xpos"				"3"
+			"ypos"				"0"
+			"zpos"				"1"
+			
+			"wide"				"132"
+			"tall"				"10"
+			
+			"paintbackground"		"1"
+			"paintbackgroundtype"	"3"
+			"bgcolor_override"	"VoteSelect"
+			
+			"roundedcorners"		"0"
+			
+			"visible"			"1"
 		}
 		
 		"LabelOption4"
 		{
-			"ControlName"	"Label"
-			"fieldName"		"LabelOption4"
-			"pin_to_sibling"	"LabelOption3"
+			"controlname"				"Label"
+			"fieldname"			"LabelOption4"
+			
+			"pin_to_sibling"			"LabelOption3"
 			"pin_corner_to_sibling"	"pin_topleft"
 			"pin_to_sibling_corner"	"pin_bottomleft"
-			"xpos"			"0"
-			"ypos"			"0"
-			"wide"			"130"
-			"tall"			"15"
-			"zpos"			"2"
-			"visible"		"1"
-			"enabled"		"1"
-			"labelText"		""
-			"textAlignment"	"west"
-			"dulltext"		"0"
-			"brighttext"	"0"
-			"font"			"TFFontSmallShadow"
-			"fgcolor_override"	"255 255 255 255"
+			
+			"xpos"					"0"
+			"ypos"					"0"
+			"zpos"					"2"
+			
+			"wide"					"130"
+			"tall"					"10"
+			
+			"labelText"				"Option 4"
+			"textAlignment"			"west"
+			"font"					"VoteOption"
+			"fgcolor_override"		"255 255 255 255"
+			
+			"dropshadow"				"1"
+			"dropshadowoffset"		"2"
+			
+			"visible"				"1"
+			"enabled"				"1"
 		}
-		
 		"Option4Background_Selected"
 		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"Option4Background_Selected"
-			"pin_to_sibling"	"LabelOption4"
-			"xpos"			"2"
-			"ypos"			"0"
-			"wide"			"132"
-			"tall"			"15"
-			"zpos"			"1"
-			"drawcolor"		"VoteSelect"
-			"image"			"../darhud/square_gradient_white"
-			"scaleImage"		"1"
-			"visible"		"1"
+			"controlname"			"EditablePanel"
+			"fieldname"			"Option4Background_Selected"
+			
+			"pin_to_sibling"		"LabelOption4"
+			
+			"xpos"				"3"
+			"ypos"				"0"
+			"zpos"				"1"
+			
+			"wide"				"132"
+			"tall"				"10"
+			
+			"paintbackground"		"1"
+			"paintbackgroundtype"	"3"
+			"bgcolor_override"	"VoteSelect"
+			
+			"roundedcorners"		"0"
+			
+			"visible"			"1"
 		}
 		
 		"LabelOption5"
 		{
-			"ControlName"	"Label"
-			"fieldName"		"LabelOption5"
-			"pin_to_sibling"	"LabelOption4"
+			"controlname"				"Label"
+			"fieldname"				"LabelOption5"
+			
+			"pin_to_sibling"			"LabelOption4"
 			"pin_corner_to_sibling"	"pin_topleft"
 			"pin_to_sibling_corner"	"pin_bottomleft"
-			"xpos"			"0"
-			"ypos"			"0"
-			"wide"			"130"
-			"tall"			"15"
-			"zpos"			"2"
-			"visible"		"1"
-			"enabled"		"1"
-			"labelText"		""
-			"textAlignment"	"west"
-			"dulltext"		"0"
-			"brighttext"	"0"
-			"font"			"TFFontSmallShadow"
-			"fgcolor_override"	"255 255 255 255"
+			
+			"xpos"					"0"
+			"ypos"					"0"
+			"zpos"					"2"
+			
+			"wide"					"130"
+			"tall"					"10"
+			
+			"labelText"				"Option 5"
+			"textAlignment"			"west"
+			"font"					"VoteOption"
+			
+			"fgcolor_override"		"255 255 255 255"
+			
+			"dropshadow"				"1"
+			"dropshadowoffset"		"2"
+			
+			"visible"				"1"
+			"enabled"				"1"
 		}
-		
 		"Option5Background_Selected"
 		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"Option5Background_Selected"
-			"pin_to_sibling"	"LabelOption5"
-			"xpos"			"2"
-			"ypos"			"0"
-			"wide"			"132"
-			"tall"			"15"
-			"zpos"			"1"
-			"drawcolor"		"VoteSelect"
-			"image"			"../darhud/square_gradient_white"
-			"scaleImage"		"1"
-			"visible"		"1"
+			"controlname"			"EditablePanel"
+			"fieldname"			"Option5Background_Selected"
+			
+			"pin_to_sibling"		"LabelOption5"
+			
+			"xpos"				"3"
+			"ypos"				"0"
+			"zpos"				"1"
+			
+			"wide"				"132"
+			"tall"				"10"
+			
+			"paintbackground"		"1"
+			"paintbackgroundtype"	"3"
+			"bgcolor_override"	"VoteSelect"
+			
+			"roundedcorners"		"0"
+			
+			"visible"			"1"
 		}
 		
-		// divider
 		"Divider2"
 		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"Divider2"
-			"xpos"			"10"
-			"ypos"			"103"
-			"wide"			"130"
-			"tall"			"1"
-			"fillcolor"		"128 128 128 255"
-			"zpos"			"0"
+			"controlname"			"ImagePanel"
+			"fieldname"			"Divider2"
+			"proportionaltoparent"	"1"
+			
+			"xpos"				"10"
+			"ypos"				"94"
+			"zpos"				"0"
+			
+			"wide"				"f20"
+			"tall"				"1"
+			
+			"fillcolor"			"128 128 128 255"
+			
+			"visible"			"1"
+			"enabled"			"1"
 		}
 		
 		"VoteCountLabel"
 		{
-			"ControlName"	"Label"
-			"fieldName"		"VoteCountLabel"
-			"xpos"			"10"
-			"ypos"			"105"
-			"wide"			"140"
-			"tall"			"20"
-			"visible"		"1"
-			"enabled"		"1"
-			"labelText"		"#GameUI_vote_current_vote_count"
-			"textAlignment"	"north-west"
-			"dulltext"		"0"
-			"brighttext"	"0"
-			"font"			"TFFontSmall"
+			"controlname"			"Label"
+			"fieldname"			"VoteCountLabel"
+			
+			"xpos"				"10"
+			"ypos"				"96"
+			"zpos"				"1"
+			
+			"wide"				"140"
+			"tall"				"20"
+			
+			"labelText"			"#GameUI_vote_current_vote_count"
+			"textAlignment"		"north-west"
+			"font"				"VoteOption"
+			
 			"fgcolor_override"	"128 128 128 255"
+			
+			"visible"			"1"
+			"enabled"			"1"
 		}
 		
 		// vote bar
 		"VoteBar"
 		{
-			"ControlName"		"Panel"
-			"fieldName"		"VoteBar"
+			"controlname"		"Panel"
+			"fieldname"		"VoteBar"
 			"xpos"			"10"
-			"ypos"			"130"
+			"ypos"			"107"
 			"zpos"			"2"
 			"wide"			"130"
 			"tall"			"15"
@@ -502,438 +977,366 @@
 			"yes_texture"		"vgui/hud/vote_yes"
 			"no_texture"		"vgui/hud/vote_no"
 		}
+		
+		"Option1CountLabel"
+		{
+			"controlname"			"Label"
+			"fieldname"			"Option1CountLabel"
+			
+			"xpos"				"28"
+			"ypos"				"107"
+			"zpos"				"1"
+			
+			"wide"				"32"
+			"tall"				"15"
+			
+			"labelText"			"Yes"
+			"textAlignment"		"west"
+			"font"				"VoteCount"
+			"fgcolor_override"	"255 255 255 255"
+			
+			"dropshadow"			"1"
+			"dropshadowoffset"	"3"
+			
+			"visible"			"1"
+			"enabled"			"1"
+		}
+		"Option2CountLabel"
+		{
+			"controlname"			"Label"
+			"fieldname"			"Option2CountLabel"
+			"xpos"				"74"
+			"ypos"				"107"
+			"zpos"				"1"
+			
+			"wide"				"32"
+			"tall"				"15"
+			
+			"labelText"			"No"
+			"textAlignment"		"west"
+			"font"				"VoteCount"
+			"fgcolor_override"	"255 255 255 255"
+			
+			"dropshadow"			"1"
+			"dropshadowoffset"	"3"
+			
+			"visible"			"1"
+			"enabled"			"1"
+		}
+		
+		"TimeRemainingProgressBar"
+		{
+			"controlname"	"CircularProgressBar"
+			"fieldname"		"TimeRemainingProgressBar"
+			"pin_to_sibling"	"TitleBG"
+			"pin_corner_to_sibling"	"pin_center_right"
+			"pin_to_sibling_corner"	"pin_center_right"
+			"xpos"			"-1"
+			"ypos"			"0"
+			"zpos"			"2"
+			"wide"			"15"
+			"tall"			"o1"
+			"proportionaltoparent"	"1"
+			"fg_image"	"progress_bar"
+			"bg_image"	"progress_bar_pointer_right"
+		}
 	}
 	
-	// This is sent to the vote caller when they're not able to start the vote
-	"CallVoteFailed"
+	"VotePassed"
 	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"CallVoteFailed"
+		"controlname"		"EditablePanel"
+		"fieldname"		"VotePassed"
+		
 		"xpos"			"5"
-		"ypos"			"r320"
-		"wide"			"159"
-		"tall"			"71"
+		"ypos"			"c-35"
+		
+		"wide"			"160"
+		"tall"			"70"
+		
 		"visible"		"0"
 		"enabled"		"1"
-		"border"			"OuterShadowBorder"
+		
+		"Shadow"
+		{
+			"controlname"			"EditablePanel"
+			"fieldname"			"Shadow"
+			"proportionaltoparent"	"1"
+			
+			"xpos"				"0"
+			"ypos"				"0"
+			"zpos"				"-1"
+			
+			"wide"				"f0"
+			"tall"				"f0"
+			
+			"border"				"OuterShadowBorder"
+			
+			"visible"			"1"
+			"enabled"			"1"
+		}
 		
 		"Background"
 		{
-			"ControlName"		"EditablePanel"
-			"fieldName"		"Background"
-			"xpos"			"5"
-			"ypos"			"5"
-			"zpos"			"0"
-			"wide"			"150"
-			"tall"			"62"
-			"visible"		"1"
-			"enabled"		"1"
+			"controlname"			"EditablePanel"
+			"fieldname"			"Background"
+			"proportionaltoparent"	"1"
+			
+			"xpos"				"5"
+			"ypos"				"5"
+			"zpos"				"0"
+			
+			"wide"				"f10"
+			"tall"				"f10"
+			
 			"bgcolor_override"	"MainMenuBackground"
+			
+			"visible"			"1"
+			"enabled"			"1"
 		}
 
 		"TitleBG"
 		{
-			"ControlName"		"EditablePanel"
-			"fieldName"			"TitleBG"
+			"controlname"			"EditablePanel"
+			"fieldname"			"TitleBG"
+			"proportionaltoparent"	"1"
+			
 			"xpos"				"5"
 			"ypos"				"10"
 			"zpos"				"1"
-			"wide"				"149"
+			
+			"wide"				"f10"
 			"tall"				"16"
+			
+			"bgcolor_override"	"Header"
+			
 			"visible"			"1"
 			"enabled"			"1"
-			// "border"			"MainMenuAdvBGBorderAlpha"
-			"bgcolor_override"	"Header"
 		}
 		
-		"FailedIcon"
+		"PassedIcon"
 		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"FailedIcon"
-			"xpos"			"10"
-			"ypos"			"10"
-			"zpos"			"2"
-			"wide"			"16"
-			"tall"			"16"
-			"visible"		"1"
-			"enabled"		"1"
-			"scaleImage"	"1"
-			"image"			"hud/vote_no"
+			"controlname"				"ImagePanel"
+			"fieldname"				"PassedIcon"
+			
+			"pin_to_sibling"			"TitleBG"
+			"pin_corner_to_sibling"	"pin_center_right"
+			"pin_to_sibling_corner"	"pin_center_right"
+			
+			"xpos"					"-2"
+			"ypos"					"0"
+			"zpos"					"2"
+			
+			"wide"					"12"
+			"tall"					"12"
+			
+			"image"					"resource/svgs/mainmenu/ico_checkmark.svg"
+			"scaleimage"				"1"
+			"drawcolor"				"VotePassed"
+			
+			"visible"				"1"
+			"enabled"				"1"
 		}
 		
-		"FailedTitle"
+		"PassedTitle"
 		{
-			"ControlName"	"Label"
-			"fieldName"		"FailedTitle"
-			"xpos"			"30"
-			"ypos"			"10"
-			"zpos"			"2"
-			"wide"			"129"
-			"tall"			"16"
-			"visible"		"1"
-			"enabled"		"1"
-			"labelText"		"#GameUI_vote_failed"
-			"textAlignment"	"west"
-			"dulltext"		"0"
-			"brighttext"	"0"
-			"font"			"HudFontSmallBold"
-			"wrap"			"1"
+			"controlname"			"Label"
+			"fieldname"			"PassedTitle"
+			
+			"xpos"				"10"
+			"ypos"				"10"
+			"zpos"				"2"
+			
+			"wide"				"f20"
+			"tall"				"16"
+			
+			"labelText"			"#GameUI_vote_passed"
+			"textAlignment"		"west"
+			"font"				"HudFontSmallBold"
+			"wrap"				"1"
+			
 			"fgcolor_override"	"HeaderLabel"
+			
+			"dropshadow"			"1"
+			"dropshadowoffset"	"3"
+			
+			"visible"			"1"
+			"enabled"			"1"
 		}
 		
-		"FailedReason"
+		"PassedResult"
 		{
-			"ControlName"	"Label"
-			"fieldName"		"FailedReason"
-			"xpos"			"10"
-			"ypos"			"29"
-			"zpos"			"1"
-			"wide"			"140"
-			"tall"			"40"
-			"visible"		"1"
-			"enabled"		"1"
-			"labelText"		"%FailedReason%"
-			"textAlignment"	"north-west"
-			"dulltext"		"0"
-			"brighttext"	"0"
-			"font"			"ScoreboardSmallShadow"
-			"wrap"			"1"
+			"controlname"			"Label"
+			"fieldname"			"PassedResult"
+			
+			"xpos"				"10"
+			"ypos"				"29"
+			"zpos"				"1"
+			
+			"wide"				"140"
+			"tall"				"40"
+			
+			"labelText"			"%passedresult%"
+			"textAlignment"		"north-west"
+			"font"				"ScoreboardSmall"
+			"wrap"				"1"
+			"noshortcutsyntax"	"1"
+			
 			"fgcolor_override"	"255 255 255 255"
-			"noshortcutsyntax" "1"
+			
+			"dropshadow"			"1"
+			"dropshadowoffset"	"2"
+			
+			"visible"			"1"
+			"enabled"			"1"
 		}
 	}
 	
-	// This is shown to everyone when a vote fails due to lack of votes
 	"VoteFailed"
 	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"VoteFailed"
-		"xpos"			"5"
-		"ypos"			"r320"
-		"wide"			"159"
-		"tall"			"71"
-		"visible"		"0"
-		"enabled"		"1"
-		"border"			"OuterShadowBorder"
+		"controlname"	"EditablePanel"
+		"fieldname"		"VoteFailed"
+		
+		"xpos"				"5"
+		"ypos"				"c-35"
+		
+		"wide"				"160"
+		"tall"				"70"
+		
+		"visible"			"0"
+		"enabled"			"1"
+		
+		"Shadow"
+		{
+			"controlname"			"EditablePanel"
+			"fieldname"			"Shadow"
+			"proportionaltoparent"	"1"
+			
+			"xpos"				"0"
+			"ypos"				"0"
+			"zpos"				"-1"
+			
+			"wide"				"f0"
+			"tall"				"f0"
+			
+			"border"				"OuterShadowBorder"
+			
+			"visible"			"1"
+			"enabled"			"1"
+		}
 		
 		"Background"
 		{
-			"ControlName"		"EditablePanel"
-			"fieldName"		"Background"
-			"xpos"			"5"
-			"ypos"			"5"
-			"zpos"			"0"
-			"wide"			"150"
-			"tall"			"62"
-			"visible"		"1"
-			"enabled"		"1"
+			"controlname"			"EditablePanel"
+			"fieldname"			"Background"
+			"proportionaltoparent"	"1"
+			
+			"xpos"				"5"
+			"ypos"				"5"
+			"zpos"				"0"
+			
+			"wide"				"f10"
+			"tall"				"f10"
+			
 			"bgcolor_override"	"MainMenuBackground"
+			
+			"visible"			"1"
+			"enabled"			"1"
 		}
 
 		"TitleBG"
 		{
-			"ControlName"		"EditablePanel"
-			"fieldName"			"TitleBG"
+			"controlname"			"EditablePanel"
+			"fieldname"			"TitleBG"
+			"proportionaltoparent"	"1"
+			
 			"xpos"				"5"
 			"ypos"				"10"
 			"zpos"				"1"
-			"wide"				"149"
+			
+			"wide"				"f10"
 			"tall"				"16"
+			
+			"bgcolor_override"	"Header"
+			
 			"visible"			"1"
 			"enabled"			"1"
-			// "border"			"MainMenuAdvBGBorderAlpha"
-			"bgcolor_override"	"Header"
 		}
 		
 		"FailedIcon"
 		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"FailedIcon"
-			"xpos"			"10"
-			"ypos"			"10"
-			"zpos"			"2"
-			"wide"			"16"
-			"tall"			"16"
-			"visible"		"1"
-			"enabled"		"1"
-			"scaleImage"	"1"
-			"image"			"hud/vote_no"
+			"controlname"				"ImagePanel"
+			"fieldname"				"FailedIcon"
+			
+			"pin_to_sibling"			"TitleBG"
+			"pin_corner_to_sibling"	"pin_center_right"
+			"pin_to_sibling_corner"	"pin_center_right"
+			
+			"xpos"					"-2"
+			"ypos"					"0"
+			"zpos"					"2"
+			
+			"wide"					"12"
+			"tall"					"12"
+			
+			"image"					"resource/svgs/mainmenu/icon_cross.svg"
+			"scaleimage"				"1"
+			"drawcolor"				"VoteFailed"
+			
+			"visible"				"1"
+			"enabled"				"1"
 		}
 		
 		"FailedTitle"
 		{
-			"ControlName"	"Label"
-			"fieldName"		"FailedTitle"
-			"xpos"			"30"
-			"ypos"			"10"
-			"zpos"			"2"
-			"wide"			"129"
-			"tall"			"16"
-			"visible"		"1"
-			"enabled"		"1"
-			"labelText"		"#GameUI_vote_failed"
-			"textAlignment"	"west"
-			"dulltext"		"0"
-			"brighttext"	"0"
-			"font"			"HudFontSmallBold"
-			"wrap"			"1"
+			"controlname"			"Label"
+			"fieldname"			"FailedTitle"
+			
+			"xpos"				"10"
+			"ypos"				"10"
+			"zpos"				"2"
+			
+			"wide"				"f20"
+			"tall"				"16"
+			
+			"labelText"			"#GameUI_vote_failed"
+			"textAlignment"		"west"
+			"font"				"HudFontSmallBold"
+			"wrap"				"1"
+			
 			"fgcolor_override"	"HeaderLabel"
+			
+			"dropshadow"			"1"
+			"dropshadowoffset"	"3"
+			
+			"visible"			"1"
+			"enabled"			"1"
 		}
 		
 		"FailedReason"
 		{
-			"ControlName"	"Label"
-			"fieldName"		"FailedReason"
-			"xpos"			"10"
-			"ypos"			"29"
-			"zpos"			"1"
-			"wide"			"140"
-			"tall"			"40"
-			"visible"		"1"
-			"enabled"		"1"
-			"labelText"		""
-			"textAlignment"	"north-west"
-			"dulltext"		"0"
-			"brighttext"	"0"
-			"font"			"ScoreboardSmallShadow"
-			"wrap"			"1"
-			"fgcolor_override"	"255 255 255 255"
-			"noshortcutsyntax" "1"
-		}
-	}
-	
-	"VoteSetupDialog"
-	{
-		"ControlName"			"CVoteSetupDialog"
-		"fieldName"			"VoteSetupDialog"
-		"xpos"				"c-200"
-		"ypos"				"c-150"
-		"wide"				"410"
-		"tall"				"320"
-		"autoResize"			"0"
-		"pinCorner"			"0"
-		"visible"			"1"
-		"enabled"			"1"
-		"tabPosition"			"0"
-		"settitlebarvisible"	"0"
-		//"border"				""
-		"bordervisible"		"0"
-		"bgcolor_override"	"0 0 0 0"
-		"PaintBackground"		"0"
-
-		"header_font"		"ItemFontNameLarge"
-		"header_fgcolor"	"Orange"
-
-		"issue_width"		"180"		
-		"issue_font"		"ItemFontNameSmall"
-		"issue_fgcolor"		"TanLight"
-		"issue_fgcolor_disabled"	"TanDark"
-		
-		"parameter_width"	"200"
-		
-		"Background"
-		{
-			"ControlName"		"EditablePanel"
-			"fieldName"		"Background"
-			"xpos"			"5"
-			"ypos"			"5"
-			"zpos"			"0"
-			"wide"			"400"
-			"tall"			"310"
-			"visible"		"1"
-			"enabled"		"1"
-			"bgcolor_override"	"MainMenuBackground"
-		}
-		"BackgroundBorder"
-		{
-			"ControlName"		"EditablePanel"
-			"fieldName"		"BackgroundBorder"
-			"xpos"			"0"
-			"ypos"			"0"
-			"zpos"			"-1"
-			"wide"			"409"
-			"tall"			"319"
-			"visible"		"1"
-			"enabled"		"1"
-			"border"			"OuterShadowBorder"
-		}
-
-		"TitleBG"
-		{
-			"ControlName"		"EditablePanel"
-			"fieldName"			"TitleBG"
-			"xpos"				"5"
-			"ypos"				"10"
-			"zpos"				"4"
-			"wide"				"400"
-			"tall"				"20"
-			"visible"			"1"
-			"enabled"			"1"
-			// "border"			"MainMenuAdvBGBorderAlpha"
-			"bgcolor_override"	"Header"
-		}
-		"TitleLabel"
-		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"TitleLabel"
-			"font"			"HudFontMediumSmallBold"
-			"labelText"		"#TF_Vote_Title"
-			"textAlignment"	"west"
-			"xpos"			"20"
-			"ypos"			"10"
-			"zpos"			"5"
-			"wide"			"400"
-			"tall"			"20"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"wrap"			"0"
-			"fgcolor"		"HeaderLabel"
-		}
-									
-		"VoteSetupList"
-		{
-			"ControlName"	"SectionedListPanel"
-			"fieldName"		"VoteSetupList"
-			"xpos"		"15"
-			"ypos"		"43"
-			"zpos"		"2"
-			"wide"		"180"
-			"tall"		"200"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"tabPosition"	"0"
-			"autoresize"	"0"
-			"linespacing"	"16"
-
-			"ScrollBar"
-			{
-				"Slider"
-				{
-					"ScrollLerpTime"	"0.1"
-				}
-			}
-		}
-		
-		"VoteParameterList"
-		{
-			"ControlName"		"SectionedListPanel"
-			"fieldName"		"VoteParameterList"
-			"xpos"		"195"
-			"ypos"		"43"
-			"zpos"		"2"
-			"wide"		"200"
-			"tall"		"200"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"tabPosition"	"0"
-			"autoresize"	"0"
-			"linespacing"	"16"
-
-			"ScrollBar"
-			{
-				"Slider"
-				{
-					"ScrollLerpTime"	"0.1"
-				}
-			}
-		}
-
-		"ComboLabel"
-		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"ComboLabel"
-			"font"			"HudFontSmallestBold"
-			"labelText"		"%combo_label%"
-			"textAlignment"	"east"
-			"xpos"			"10"
-			"ypos"			"250"
-			"zpos"			"1"
-			"wide"			"75"
-			"tall"			"20"
-			"autoResize"	"1"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-		}
-		"ComboBox"
-		{
-			"ControlName"		"ComboBox"
-			"fieldName"			"ComboBox"
-			"Font"				"HudFontSmallestBold"
-			"xpos"				"90"
-			"ypos"				"250"
+			"controlname"			"Label"
+			"fieldname"			"FailedReason"
+			
+			"xpos"				"10"
+			"ypos"				"29"
 			"zpos"				"1"
-			"wide"				"235"
-			"tall"				"20"
-			"autoResize"		"0"
-			"pinCorner"			"0"
+			
+			"wide"				"140"
+			"tall"				"40"
+			
+			"labelText"			"%FailedReason%"
+			"textAlignment"		"north-west"
+			"font"				"ScoreboardSmall"
+			"wrap"				"1"
+			"noshortcutsyntax"	"1"
+			
+			"fgcolor_override"	"255 255 255 255"
+			
+			"dropshadow"			"1"
+			"dropshadowoffset"	"2"
+			
 			"visible"			"1"
 			"enabled"			"1"
-			"tabPosition"		"1"
-			"textHidden"		"0"
-			"editable"			"0"
-			"maxchars"			"-1"
-			"NumericInputOnly"	"0"
-			"unicode"			"0"
-			
-			"fgcolor_override"	"117 107 94 255"
-			"bgcolor_override"	"251 235 202 255"
-			"disabledFgColor_override" "117 107 94 255"
-			"disabledBgColor_override" "251 235 202 255"
-			"selectionColor_override" "251 235 202 255"
-			"selectionTextColor_override" "117 107 94 255"
-			"defaultSelectionBG2Color_override" "251 235 202 255"
-		}
-			
-		"CallVoteButton"
-		{
-			"ControlName"		"Button"
-			"fieldName"		"CallVoteButton"
-			"xpos"		"75"
-			"ypos"		"280"
-			"zpos"		"1"
-			"wide"		"160"
-			"tall"		"24"
-			"autoResize"	"0"
-			"pinCorner"		"3"
-			"visible"		"1"
-			"enabled"		"0"
-			"tabPosition"	"4"
-			"labelText"		"#TF_call_vote"
-			"textAlignment"	"center"
-			"dulltext"		"0"
-			"brighttext"	"0"
-			"Command"		"CallVote"
-			"Default"		"0"
-			"font"			"HudFontSmallBold"
-			"roundedcorners"	"0"
-		}
-		"Button1"
-		{
-			"ControlName"		"Button"
-			"fieldName"		"Button1"
-			"xpos"		"245"
-			"ypos"		"280"
-			"zpos"		"1"
-			"wide"		"80"
-			"tall"		"24"
-			"autoResize"	"0"
-			"pinCorner"		"3"
-			"visible"		"1"
-			"enabled"		"1"
-			"tabPosition"	"4"
-			"labelText"		"#GameUI_Close"
-			"textAlignment"	"center"
-			"dulltext"		"0"
-			"brighttext"	"0"
-			"Command"		"Close"
-			"Default"		"0"
-			"font"			"HudFontSmallBold"
-			"roundedcorners"	"0"
 		}
 	}
 }

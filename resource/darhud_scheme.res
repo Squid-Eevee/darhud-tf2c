@@ -1,0 +1,2014 @@
+#base "scheme/theme/customcolors.res"
+#base "scheme/teamcolors.res"
+
+Scheme
+{	
+	Colors
+	{
+		//In-Game elements		
+		
+		//General
+		//Will be used by most elements of the hud, so try to choose some readable colors. Or not, i'm not your parent
+		"GeneralLabel"		"235 226 202 255"
+		"GeneralShadow"		"0 0 0 240"
+		"GeneralBackground"	"0 0 0 192"
+		"CreditsBackground"	"33 53 17 192"
+
+		//Health
+		"HealthNormal"	"235 226 202 255"
+		"HealthShadow" 	"0 0 0 240"
+		"HealthWarning"	"255 0 0 255"
+		"MaxHealth"		"235 226 202 255"		
+		"HealthGain"		"0 202 133 255"	//Also used when the uber is ready
+		"HealthLow"		"255 230 0 255"
+		
+		//Armor
+		"ArmorNormal"		"222 176 156 255"
+
+		//Damage Numbers customisation
+		"DamageNumber"	"255 230 0 255"
+
+		//Ammo
+		"AmmoNormal" 	"235 226 202 255"
+		"AmmoReserve"		"235 226 202 255"
+		"AmmoShadow" 	"0 0 0 240"
+		"AmmoLow"		"255 230 0 255"
+
+		//Additional (stickies, metal, ubercharge)
+		"AdditionalValue"		"235 226 202 255"
+		"AdditionalShadow"	"0 0 0 255"
+		"AdditionalIcon"		"235 226 202 255"
+		"UberForeground"		"235 226 202 255"
+
+		//Meters
+		"MeterLabel"		"50 50 50 255"
+		"MeterBackground"	"255 255 255 48" //Also used as the background of the uber meter
+		// "MeterColor"		"235 226 202 255"
+		"ProgressOffWhite"	"235 226 202 255" //Certain meters are hard-coded to use the colour with this name
+		"MeterIconInactive"	"250 234 201 51"
+		"MeterIconActive"		"235 226 202 255"
+
+		//Counter
+		"CounterValue"	"235 226 202 255"
+		"CounterShadow"	"0 0 0 240"
+		"CounterIcon"		"235 226 202 255"
+
+		//Objectives
+		"ObjectiveLabel"	"235 226 202 255"
+		"ObjectiveIcon"	"235 226 202 255"
+		"ObjectiveShadow"	"0 0 0 240"
+
+		//Killfeed
+		"KillfeedBGLocal"	"235 235 235 255"
+		"KillfeedBG"		"25 25 25 240"
+		"KillfeedIconLocal"	"63 57 35 255"
+		"KillfeedIcon"		"236 227 187 255"
+
+		//Chat
+		"ChatBackground"	"60 56 53 255"	//the chat window itself is hard-coded to cap at ~180 alpha but this colour is shared with the chat filters window, which i fixed at 180 alpha for consistency
+									//so if you want your background opacities to match, leave the alpha at 255
+		
+		//Vote selection
+		"VoteSelect"		"88 119 140 180"
+		
+		//Achievement notification background
+		//Reminder: the last value is transparency, so you can set it to 0 if you don't want to see it
+		"AchievementBackground"	"60 68 52 127"
+
+		//Menus
+
+		//Main Menu
+		"BackgroundDefault"		"31 31 31 255"
+		"BackgroundTransparent"	"0 0 0 220"
+		"TransparentStripe"		"0 0 0 235"
+
+		"MainMenuLabel"			"235 226 202 255"
+
+		//Buttons
+		//Main Menu - Relocated to buttoncolors.res
+		
+		//Default
+		"ButtonDefault"		"61 60 59 255"
+		"ButtonLabelDefault"	"235 226 202 255"
+
+		"ButtonArmed"			"178 82 22 255" //Used when you hover over a button
+		"ButtonLabelArmed"	"235 235 235 255"
+
+		"ButtonArmedHovering"		"178 82 22 128" //Used when you hover over a selected button
+		"ButtonLabelArmedHovering"	"235 235 235 255"
+		
+		//Dialog Backgrounds
+		"MainMenuBackground"	"0 0 0 235"
+		"Header"				"46 42 41 255"
+		"HeaderLabel"			"235 226 202 255"
+		"WelcomeLabel"		"255 255 255 255"
+		"NicknameLabel"		"235 226 202 255"
+		"Tooltip"			"20 20 20 255"
+		"TooltipLabel"		"235 226 202 255"
+		
+		//Loadout Screen
+		"LoadoutBackground"	"31 31 31 255"
+		"LoadoutFooter"		"20 20 20 255"
+		"ClassModelBackground"	"20 20 20 255"
+		
+		"DialogBackground"	"31 31 31 255"
+		"OptionsBackground"	"31 31 31 255"
+		
+		"VotePassed"			"112 176 74 255"
+		"VoteFailed"			"210 79 57 255"
+		
+		//HUD Drop Shadow
+		"HudShadow"			"50 50 50 191"
+		"HudShadowSolid"	"50 50 50 255"
+
+		"DropShadow"		"0 0 0 240"
+		
+		//Hint/menu colours
+		"HintText"		"255 220 0 127"
+		"HintTextFlash"	"255 220 0 255"
+		"HintTextFade"	"255 220 0 0"
+		
+		//Server browser tags
+		"ServerTagOfficial"		"113 173 53 255"
+		"ServerTagVerified"		"170 172 57 255"
+		"ServerTagCustomRules"		"215 150 49 255"
+		"ServerTagCustomWeapons"	"215 150 49 255"
+	}
+	
+	Fonts
+	{
+		//TF2C overrides
+		"ClockSubText"
+		{
+			"1"
+			{
+				"name"		"TF2C Secondary"
+				"tall"		"9"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"ClockSubTextSuddenDeath"
+		{
+			"1"
+			{
+				"name"		"TF2C Build"
+				"tall"		"8"
+				"tall_hidef"	"9"
+				"tall_lodef"	"10"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"ClockSubTextTiny"
+		{
+			"1"
+			{
+				"name"		"TF2C Secondary"
+				"tall"		"8"
+				"tall_hidef"	"7"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"MeterLabelFont"
+		{
+			"1"
+			{
+				"name"		"Verdana"
+				"tall"		"10"
+				"weight"	"0"
+				"range"		"0x0000 0x017F"
+				"yres"	"480 599"
+			}
+			"2"
+			{
+				"name"		"Verdana"
+				"tall"		"13"
+				"weight"	"0"
+				"range"		"0x0000 0x017F"
+				"yres"	"600 768"
+			}
+			"3"
+			{
+				"name"		"TF2C Build"
+				"tall"		"11"
+				"weight"	"0"
+				"antialias"	"1"
+				"range"		"0x0000 0x017F"
+				"yres"	"769 1023"
+				"antialias"	"1"
+			}
+			"4"
+			{
+				"name"		"TF2C Build"
+				"tall"		"16"
+				"weight"	"0"
+				"antialias"	"1"
+				"range"		"0x0000 0x017F"
+				"yres"	"1024 1199"
+				"antialias"	"1"
+			}
+			"5"
+			{
+				"name"		"TF2C Build"
+				"tall"		"20"
+				"weight"	"0"
+				"antialias"	"1"
+				"range"		"0x0000 0x017F"
+				"yres"	"1200 6000"
+				"antialias"	"1"
+			}
+			"6"
+			{
+				"name"		"TF2C Build"
+				"tall"		"20"
+				"range" 		"0x0000 0x00FF"
+				"weight"		"0"
+				"antialias"	"1"
+			}
+		}
+		
+		"KillfeedFont"
+		{
+			"1"
+			{
+				"name"		"TF2C Secondary"
+				"tall"		"11"
+				"weight"		"700"
+				"additive"	"0"
+				"antialias"	"1"
+			}
+		}
+		"TimerFont"
+		{
+			"1"
+			{
+				"name"		"TF2C Secondary"
+				"tall"		"18"
+				"weight"		"500"
+				"additive"	"0"
+				"antialias"	"1"
+			}
+		}
+		"TimerFontSmall"
+		{
+			"1"
+			{
+				"name"		"TF2C Secondary"
+				"tall"		"14"
+				"weight"		"500"
+				"additive"	"0"
+				"antialias"	"1"
+			}
+		}
+		
+//--------------------------------------------------
+		
+		// Options
+		"SubmenuTab"
+		{
+			"1"
+			{
+				"name"		 "TF2C Build"
+				"tall"		 "14"
+				"weight"	 "400"
+				"additive"	 "0"
+				"antialias"  "1"
+			}
+		}
+		"SubmenuSubTab"
+		{
+			"1"
+			{
+				"name"		 "TF2C Build"
+				"tall"		 "12"
+				"weight"	 "400"
+				"additive"	 "0"
+				"antialias"  "1"
+			}
+		}
+		"SubmenuSubHeader"
+		{
+			"1"
+			{
+				"name"		 "TF2C Build"
+				"tall"		 "14"
+				"weight"	 "400"
+				"additive"	 "0"
+				"antialias"  "1"
+			}
+		}
+		"SubmenuText"
+		{
+			"1"
+			{
+				"name"		 "TF2C Secondary"
+				"tall"		 "12"
+				"weight"	 "400"
+				"additive"	 "0"
+				"antialias"  "1"
+			}
+		}
+		
+		"SubmenuTextEntry"
+		{
+			"1"
+			{
+				"name"		 "TF2C Secondary"
+				"tall"		 "14"
+				"weight"	 "900"
+				"additive"	 "0"
+				"antialias"  "1"
+			}
+		}
+		
+		"DisguiseWeaponFont"
+		{
+			"1"
+			{
+				"name"		"TF2C Secondary"
+				"tall"		"10"
+				"weight"	"900"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"480 599"
+			}
+			"2"
+			{
+				"name"		"TF2C Secondary"
+				"tall"		"12"
+				"weight"	"900"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"600 768"
+			}
+			"3"
+			{
+				"name"		"TF2C Secondary"
+				"tall"		"13"
+				"weight"	"900"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"769 1023"
+				"antialias"	"1"
+			}
+			"4"
+			{
+				"name"		"TF2C Secondary"
+				"tall"		"17"
+				"weight"	"900"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"1024 1199"
+				"antialias"	"1"
+			}
+			"5"
+			{
+				"name"		"TF2C Secondary"
+				"tall"		"22"
+				"weight"	"900"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"1200 6000"
+				"antialias"	"1"
+			}
+			"6"
+			{
+				"name"		"TF2C Secondary"
+				"tall"		"22"
+				"range" 		"0x0000 0x00FF"
+				"weight"		"900"
+			}
+			"7"
+			{
+				"name"		"TF2C Secondary"
+				"tall"		"22"
+				"range" 		"0x0000 0x00FF"
+				"weight"		"800"
+			}
+		}
+		
+		"CommandButtonFont"
+		{
+			"1"
+			{
+				"name"		"TF2C Secondary"
+				"tall"		"10"
+				"weight"	"600"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"480 599"
+			}
+			"2"
+			{
+				"name"		"TF2C Secondary"
+				"tall"		"12"
+				"weight"	"600"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"600 768"
+			}
+			"3"
+			{
+				"name"		"TF2C Secondary"
+				"tall"		"13"
+				"weight"	"600"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"769 1023"
+				"antialias"	"1"
+			}
+			"4"
+			{
+				"name"		"TF2C Secondary"
+				"tall"		"17"
+				"weight"	"600"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"1024 1199"
+				"antialias"	"1"
+			}
+			"5"
+			{
+				"name"		"TF2C Secondary"
+				"tall"		"22"
+				"weight"	"600"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"1200 6000"
+				"antialias"	"1"
+			}
+			"6"
+			{
+				"name"		"TF2C Secondary"
+				"tall"		"22"
+				"range" 		"0x0000 0x00FF"
+				"weight"		"600"
+			}
+			"7"
+			{
+				"name"		"TF2C Secondary"
+				"tall"		"22"
+				"range" 		"0x0000 0x00FF"
+				"weight"		"600"
+			}
+		}
+		
+		"VoteOption"
+		{
+			"1"
+			{
+				"name"		"Verdana"
+				"tall"		"8"
+				"weight"		"0"
+				"additive"	"0"
+				"antialias" 	"1"
+			}
+		}
+		"VoteCount"
+		{
+			"1"
+			{
+				"name"		"TF2C Build"
+				"tall"		"14"
+				"weight"		"500"
+				"additive"	"0"
+				"antialias" 	"1"
+			}
+		}
+		
+		"ClassTipsFont"
+		{
+			"1"
+			{
+				"name"		"TF2C Secondary"
+				"tall"		"9"
+				"weight"	"800"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"ScoreboardFont"
+		{
+			"1"
+			{
+				"name"		"TF2C Secondary"
+				"tall"		"10"
+				"weight"	"0"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		
+		"ClassSelectCountFont"
+		{
+			"1"
+			{
+				"name"		"TF2C Secondary"
+				"tall"		"9"
+				"weight"	"800"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"ControlPointProgressFont"
+		{
+			"1"
+			{
+				"name"		"TF2C Secondary"
+				"tall"		"12"
+				"weight"	"0"
+				"range"		"0x0000 0x017F"
+				"yres"	"480 599"
+			}
+			"2"
+			{
+				"name"		"TF2C Secondary"
+				"tall"		"13"
+				"weight"	"0"
+				"range"		"0x0000 0x017F"
+				"yres"	"600 767"
+			}
+			"3"
+			{
+				"name"		"TF2C Secondary"
+				"tall"		"14"
+				"weight"	"0"
+				"range"		"0x0000 0x017F"
+				"yres"	"768 1023"
+				"antialias"	"1"
+			}
+			"4"
+			{
+				"name"		"TF2C Secondary"
+				"tall"		"20"
+				"weight"	"0"
+				"range"		"0x0000 0x017F"
+				"yres"	"1024 1199"
+				"antialias"	"1"
+			}
+			"5" // Misyl: Proportional
+			{
+				"name"		"TF2C Secondary"
+				"tall"		"9"
+				"weight"	"0"
+				"range"		"0x0000 0x017F"
+				"antialias"	"1"
+			}
+			"6"
+			{
+				"name"		"TF2C Secondary"
+				"tall"		"12"
+				"range" 		"0x0000 0x00FF"
+				"weight"		"0"
+			}
+		}
+		"EscortProgressFont"
+		{
+			"1"
+			{
+				"name"		"TF2C Secondary"
+				"tall"		"9"
+				"weight"	"0"
+				"range"		"0x0000 0x017F"
+				"yres"	"480 599"
+			}
+			"2"
+			{
+				"name"		"TF2C Secondary"
+				"tall"		"10"
+				"weight"	"0"
+				"range"		"0x0000 0x017F"
+				"yres"	"600 767"
+			}
+			"3"
+			{
+				"name"		"TF2C Secondary"
+				"tall"		"11"
+				"weight"	"0"
+				"range"		"0x0000 0x017F"
+				"yres"	"768 1023"
+				"antialias"	"1"
+			}
+			"4"
+			{
+				"name"		"TF2C Secondary"
+				"tall"		"17"
+				"weight"	"0"
+				"range"		"0x0000 0x017F"
+				"yres"	"1024 1199"
+				"antialias"	"1"
+			}
+			"5" // Misyl: Proportional
+			{
+				"name"		"TF2C Secondary"
+				"tall"		"6"
+				"weight"	"0"
+				"range"		"0x0000 0x017F"
+				"antialias"	"1"
+			}
+			"6"
+			{
+				"name"		"TF2C Secondary"
+				"tall"		"9"
+				"range" 		"0x0000 0x00FF"
+				"weight"		"0"
+			}
+		}
+		
+		"DamageNumberFont"
+		{
+			"1"
+			{
+				"name"		"TF2C Build"
+				"tall"		"12"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		
+		"VoiceChatFont"
+		{
+			"1"
+			{
+				"name"		"TF2C Secondary"
+				"tall"		"9"
+				"weight"		"0"
+				"additive"	"0"
+				"antialias"	"1"
+				"dropshadow"	"1"
+			}
+		}
+
+		"WinPanelDetailsFont"
+		{
+			"1"
+			{
+				"name"		"TF2C Secondary"
+				"tall"		"8"
+				"weight"	"400"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"WinPanelStatsFont"
+		{
+			"1"
+			{
+				"name"		"TF2C Secondary"
+				"tall"		"12"
+				"weight"	"900"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"480 599"
+			}
+			"2"
+			{
+				"name"		"TF2C Secondary"
+				"tall"		"13"
+				"weight"	"900"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"600 767"
+			}
+			"3"
+			{
+				"name"		"TF2C Secondary"
+				"tall"		"14"
+				"weight"	"900"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"768 1023"
+				"antialias"	"1"
+			}
+			"4"
+			{
+				"name"		"TF2C Secondary"
+				"tall"		"20"
+				"weight"	"900"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"1024 1199"
+				"antialias"	"1"
+			}
+			"5" // Misyl: Proportional
+			{
+				"name"		"TF2C Secondary"
+				"tall"		"9"
+				"weight"	"900"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"antialias"	"1"
+			}
+			"6"
+			{
+				"name"		"TF2C Secondary"
+				"tall"		"12"
+				"range" 		"0x0000 0x00FF"
+				"weight"		"900"
+			}
+			"7"
+			{
+				"name"		"Arial"
+				"tall"		"12"
+				"range" 		"0x0000 0x00FF"
+				"weight"		"800"
+			}
+		}
+		
+		"TargetDataFont"
+		{
+			"1"
+			{
+				"name"		"TF2C Secondary"
+				"tall"		"15"
+				"weight"		"550"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"480 599"
+			}
+			"2"
+			{
+				"name"		"TF2C Secondary"
+				"tall"		"15"
+				"weight"		"550"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"600 767"
+			}
+			"3"
+			{
+				"name"		"TF2C Secondary"
+				"tall"		"15"
+				"weight"		"550"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"768 1023"
+				"antialias"	"1"
+			}
+			"4"
+			{
+				"name"		"TF2C Secondary"
+				"tall"		"17"
+				"weight"		"550"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"1024 1199"
+				"antialias"	"1"
+			}
+			"5" // Misyl: Proportional
+			{
+				"name"		"TF2C Secondary"
+				"tall"		"15"
+				"weight"		"550"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"antialias"	"1"
+			}
+		}
+		
+		"TargetHealthFont"
+		{
+			"1"
+			{
+				"name"		"TF2C"
+				"tall"		"12"
+				"weight"	"300"
+				"yres"		"480 599"
+				"dropshadow"	"0"
+				"antialias"	"1"
+			}
+			"2"
+			{
+				"name"		"TF2C Build"
+				"tall"		"13"
+				"weight"	"300"
+				"yres"		"600 767"
+				"dropshadow"	"0"
+				"antialias"	"1"
+			}
+			"3"
+			{
+				"name"		"TF2C Build"
+				"tall"		"14"
+				"weight"	"300"
+				"yres"		"768 1023"
+				"dropshadow"	"0"
+				"antialias"	"1"
+			}
+			"4"
+			{
+				"name"		"TF2C Build"
+				"tall"		"20"
+				"weight"	"300"
+				"yres"		"1024 1199"
+				"dropshadow"	"0"
+				"antialias"	"1"
+			}
+			"5"
+			{
+				"name"		"TF2C Build"
+				"tall"		"24"
+				"weight"	"300"
+				"yres"		"1200 10000"
+				"dropshadow"	"0"
+				"antialias"	"1"
+			}
+		}
+		"TipFont"
+		{
+			"1"
+			{
+				"name"		"TF2C Secondary"
+				"tall"		"9"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" 	"1"
+			}
+		}
+		"HudFontTiny"
+		{
+			"1"
+			{
+				"name"		"TF2C Secondary"
+				"tall"		"8"
+				"weight"		"500"
+				"additive"	"0"
+				"antialias"	"1"
+			}
+		}
+		"PipBoyTitle"
+		{
+			"1"
+			{
+				"name"		"DejaVu Sans Condensed"
+				"tall"		"30"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"PipBoyItem"
+		{
+			"1"
+			{
+				"name"		"Inconsolata"
+				"tall"		"10"
+				"weight"	"0"
+				"range"		"0x0000 0x017F"
+				"yres"	"480 599"
+			}
+			"2"
+			{
+				"name"		"Inconsolata"
+				"tall"		"13"
+				"weight"	"0"
+				"range"		"0x0000 0x017F"
+				"yres"	"600 768"
+			}
+			"3"
+			{
+				"name"		"Inconsolata"
+				"tall"		"11"
+				"weight"	"0"
+				"antialias"	"1"
+				"range"		"0x0000 0x017F"
+				"yres"	"769 1023"
+				"antialias"	"1"
+			}
+			"4"
+			{
+				"name"		"Inconsolata"
+				"tall"		"16"
+				"weight"	"0"
+				"antialias"	"1"
+				"range"		"0x0000 0x017F"
+				"yres"	"1024 1199"
+				"antialias"	"1"
+			}
+			"5"
+			{
+				"name"		"Inconsolata"
+				"tall"		"20"
+				"weight"	"0"
+				"antialias"	"1"
+				"range"		"0x0000 0x017F"
+				"yres"	"1200 6000"
+				"antialias"	"1"
+			}
+			"6"
+			{
+				"name"		"Inconsolata"
+				"tall"		"20"
+				"range" 		"0x0000 0x00FF"
+				"weight"		"0"
+				"antialias"	"1"
+			}
+		}
+		"PipBoyNumber"
+		{
+			"1"
+			{
+				"name"		"Inconsolata"
+				"tall"		"9"
+				"weight"	"1000"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"MenuFont"
+		{
+			"1"
+			{
+				"name"		"TF2C Secondary"
+				"tall"		"12"
+				"weight"	"900"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"480 599"
+				"dropshadow"	"1"
+			}
+			"2"
+			{
+				"name"		"TF2C Secondary"
+				"tall"		"13"
+				"weight"	"900"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"600 767"
+				"dropshadow"	"1"
+			}
+			"3"
+			{
+				"name"		"TF2C Secondary"
+				"tall"		"14"
+				"weight"	"900"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"768 1023"
+				"antialias"	"1"
+				"dropshadow"	"1"
+			}
+			"4"
+			{
+				"name"		"TF2C Secondary"
+				"tall"		"20"
+				"weight"	"900"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"1024 1199"
+				"antialias"	"1"
+				"dropshadow"	"1"
+			}
+			"5" // Misyl: Proportional
+			{
+				"name"		"TF2C Secondary"
+				"tall"		"9"
+				"weight"	"900"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"antialias"	"1"
+				"dropshadow"	"1"
+			}
+			"6"
+			{
+				"name"		"TF2C Secondary"
+				"tall"		"12"
+				"range" 		"0x0000 0x00FF"
+				"weight"		"900"
+				"dropshadow"	"1"
+			}
+			"7"
+			{
+				"name"		"TF2C Secondary"
+				"tall"		"12"
+				"range" 		"0x0000 0x00FF"
+				"weight"		"800"
+				"dropshadow"	"1"
+			}
+		}
+		"DamageAccountFont"
+		{
+			"1"
+			{
+				"name"		"TF2C Secondary"
+				"tall"		"14"
+				"tall_lodef"	"16"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" 	"1"
+			}
+		}
+		"DamageAccountFontBig"
+		{
+			"1"
+			{
+				"name"		"TF2C Build"
+				"tall"		"14"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"HDRDemoText"
+		{
+			"1"
+			{
+				"name"		"TF2C Build"
+				"tall"		"18"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+	}
+	Borders
+	{
+		//TF2C overrides
+		TFThinLineBorder
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"../darhud/square/square_spectator"
+		}
+		TFFatLineBorderOpaque
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"../darhud/square/square_spectator"
+		}
+		TFFatLineBorder
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"../darhud/square/square_spectator"
+		}
+		TFFatLineBorderRedBGOpaque
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"../darhud/square/square_red"
+		}
+		TFFatLineBorderRedBGOpaque_Store
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"../darhud/square/square_red"
+		}
+		TFFatLineBorderRedBG
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"../darhud/square/square_red"
+		}
+		TFFatLineBorderRedBGMoreOpaque
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"../darhud/square/square_red"
+		}
+		TFFatLineBorderBlueBG
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"../darhud/square/square_blue"
+		}
+		TFFatLineBorderBlueBGMoreOpaque
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"../darhud/square/square_blue"
+		}
+		TFFatLineBorderBlueBGOpaque
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"../darhud/square/square_blue"
+		}
+		TFFatLineBorderGreenBG
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"../darhud/square/square_green"
+		}
+		TFFatLineBorderGreenBGMoreOpaque
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"../darhud/square/square_green"
+		}
+		TFFatLineBorderGreenBGOpaque
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"../darhud/square/square_green"
+		}
+		TFFatLineBorderYellowBG
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"../darhud/square/square_yellow"
+		}
+		TFFatLineBorderYellowBGMoreOpaque
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"../darhud/square/square_yellow"
+		}
+		TFFatLineBorderYellowBGOpaque
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"../darhud/square/square_yellow"
+		}
+		EconItemBorder
+		{
+			"inset" "0 0 1 1"
+			Left
+			{
+				"1"
+				{
+					"color" "ButtonMM"
+					"offset" "0 0"
+				}                
+				"2"
+				{
+					"color" "ButtonMM"
+					"offset" "0 0"
+				}                
+				"3"
+				{
+					"color" "ButtonMM"
+					"offset" "0 0"
+				}                
+				"4"
+				{
+					"color" "ButtonMM"
+					"offset" "0 0"
+				}
+			}
+
+			Right
+			{
+				"1"
+				{
+					"color" "ButtonMM"
+					"offset" "1 0"
+				}                
+				"2"
+				{
+					"color" "ButtonMM"
+					"offset" "1 0"
+				}                
+				"3"
+				{
+					"color" "ButtonMM"
+					"offset" "1 0"
+				}                
+				"4"
+				{
+					"color" "ButtonMM"
+					"offset" "1 0"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" "ButtonMM"
+					"offset" "0 0"
+				}                
+				"2"
+				{
+					"color" "ButtonMM"
+					"offset" "0 0"
+				}                
+				"3"
+				{
+					"color" "ButtonMM"
+					"offset" "0 0"
+				}                
+				"4"
+				{
+					"color" "ButtonMM"
+					"offset" "0 0"
+				}
+			}
+
+			Bottom
+			{
+				"1"
+				{
+					"color" "ButtonMM"
+					"offset" "0 0"
+				}                
+				"2"
+				{
+					"color" "ButtonMM"
+					"offset" "0 0"
+				}                
+				"3"
+				{
+					"color" "ButtonMM"
+					"offset" "0 0"
+				}                
+				"4"
+				{
+					"color" "ButtonMM"
+					"offset" "0 0"
+				}
+			}
+		}
+		
+//--------------------------------------------------
+		
+		
+		"ControllerSelectBorder"
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			"color" "ButtonArmed"
+			
+			"image"					"../darhud/backpack/border"
+			"src_corner_height"		"3"				// pixels inside the image
+			"src_corner_width"		"3"
+			"draw_corner_width"		"2"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 		"2"	
+		}
+		
+		"SelectedTabBorder"
+		{
+			"inset" "0 0 1 1"
+			Left
+			{
+				"1"
+				{
+					"color" "ButtonArmed"
+					"offset" "0 0"
+				}				
+				"2"
+				{
+					"color" "ButtonArmed"
+					"offset" "0 0"
+				}				
+				"3"
+				{
+					"color" "ButtonArmed"
+					"offset" "0 0"
+				}				
+				"4"
+				{
+					"color" "ButtonArmed"
+					"offset" "0 0"
+				}
+			}
+
+			Right
+			{
+				"1"
+				{
+					"color" "ButtonArmed"
+					"offset" "1 0"
+				}				
+				"2"
+				{
+					"color" "ButtonArmed"
+					"offset" "1 0"
+				}				
+				"3"
+				{
+					"color" "ButtonArmed"
+					"offset" "1 0"
+				}				
+				"4"
+				{
+					"color" "ButtonArmed"
+					"offset" "1 0"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" "ButtonArmed"
+					"offset" "0 0"
+				}				
+				"2"
+				{
+					"color" "ButtonArmed"
+					"offset" "0 0"
+				}				
+				"3"
+				{
+					"color" "ButtonArmed"
+					"offset" "0 0"
+				}				
+				"4"
+				{
+					"color" "ButtonArmed"
+					"offset" "0 0"
+				}
+			}
+		}
+		"SelectedTabBorderBox"
+		{
+			"inset" "0 0 1 1"
+			Left
+			{
+				"1"
+				{
+					"color" "ButtonArmed"
+					"offset" "0 0"
+				}                
+				"2"
+				{
+					"color" "ButtonArmed"
+					"offset" "0 0"
+				}                
+				"3"
+				{
+					"color" "ButtonArmed"
+					"offset" "0 0"
+				}                
+				"4"
+				{
+					"color" "ButtonArmed"
+					"offset" "0 0"
+				}
+			}
+
+			Right
+			{
+				"1"
+				{
+					"color" "ButtonArmed"
+					"offset" "1 0"
+				}                
+				"2"
+				{
+					"color" "ButtonArmed"
+					"offset" "1 0"
+				}                
+				"3"
+				{
+					"color" "ButtonArmed"
+					"offset" "1 0"
+				}                
+				"4"
+				{
+					"color" "ButtonArmed"
+					"offset" "1 0"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" "ButtonArmed"
+					"offset" "0 0"
+				}                
+				"2"
+				{
+					"color" "ButtonArmed"
+					"offset" "0 0"
+				}                
+				"3"
+				{
+					"color" "ButtonArmed"
+					"offset" "0 0"
+				}                
+				"4"
+				{
+					"color" "ButtonArmed"
+					"offset" "0 0"
+				}
+			}
+
+			Bottom
+			{
+				"1"
+				{
+					"color" "ButtonArmed"
+					"offset" "0 0"
+				}                
+				"2"
+				{
+					"color" "ButtonArmed"
+					"offset" "0 0"
+				}                
+				"3"
+				{
+					"color" "ButtonArmed"
+					"offset" "0 0"
+				}                
+				"4"
+				{
+					"color" "ButtonArmed"
+					"offset" "0 0"
+				}
+			}
+		}
+		"EquippedBG"
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"color"				"0 0 0 255"
+			"image"				"../darhud/uber/uber_white"
+		}
+		
+		
+		"LoadoutTabBorder"
+		{
+			"inset" "0 0 1 1"
+			Left
+			{
+				"1"
+				{
+					"color" "ButtonDisabledMM"
+					"offset" "0 0"
+				}				
+				"2"
+				{
+					"color" "ButtonDisabledMM"
+					"offset" "0 0"
+				}				
+				"3"
+				{
+					"color" "ButtonDisabledMM"
+					"offset" "0 0"
+				}				
+				"4"
+				{
+					"color" "ButtonDisabledMM"
+					"offset" "0 0"
+				}
+			}
+
+			Right
+			{
+				"1"
+				{
+					"color" "ButtonDisabledMM"
+					"offset" "1 0"
+				}				
+				"2"
+				{
+					"color" "ButtonDisabledMM"
+					"offset" "1 0"
+				}				
+				"3"
+				{
+					"color" "ButtonDisabledMM"
+					"offset" "1 0"
+				}				
+				"4"
+				{
+					"color" "ButtonDisabledMM"
+					"offset" "1 0"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" "ButtonDisabledMM"
+					"offset" "0 0"
+				}				
+				"2"
+				{
+					"color" "ButtonDisabledMM"
+					"offset" "0 0"
+				}				
+				"3"
+				{
+					"color" "ButtonDisabledMM"
+					"offset" "0 0"
+				}				
+				"4"
+				{
+					"color" "ButtonDisabledMM"
+					"offset" "0 0"
+				}
+			}
+		}
+		DarHudTooltip
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			"color"					"Tooltip"
+			
+			"image"					"../darhud/square/square_white"		
+		}
+		
+		//Main Menu Buttons
+		//Whole Button
+		"DarHudMMButton"
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+							
+			"image"					"../darhud/mainmenu/button"	
+			"color"					"ButtonMM"
+		}
+		"DarHudMMButtonArmed"
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+							
+			"image"					"../darhud/mainmenu/button"
+			"color"					"ButtonArmedMM"
+		}
+		"DarHudMMButtonDepressed"
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+							
+			"image"					"../darhud/mainmenu/button"
+			"color"					"ButtonDepressedMM"
+		}
+		"DarHudMMButtonDisabled"
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+							
+			"image"					"../darhud/mainmenu/button"
+			"color"					"ButtonDisabledMM"
+		}
+		
+		//Whole Reverse Button
+		"DarHudMMButtonReverse"
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+							
+			"image"					"../darhud/mainmenu/button_reverse"
+			"color"					"ButtonMM"
+		}
+		"DarHudMMButtonReverseArmed"
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+							
+			"image"					"../darhud/mainmenu/button_reverse"
+			"color"					"ButtonArmedMM"
+		}
+		"DarHudMMButtonReverseDepressed"
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+							
+			"image"					"../darhud/mainmenu/button_reverse"
+			"color"					"ButtonDepressedMM"
+		}
+		"DarHudMMButtonReverseDisabled"
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+							
+			"image"					"../darhud/mainmenu/button_reverse"
+			"color"					"ButtonDisabledMM"
+		}
+		
+		//2-Split Button 1
+		"DarHudMM2SplitButtonMain"
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+							
+			"image"					"../darhud/mainmenu/button_2split"	
+			"color"					"ButtonMM"
+		}
+		"DarHudMM2SplitButtonMainArmed"
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+							
+			"image"					"../darhud/mainmenu/button_2split"
+			"color"					"ButtonArmedMM"
+		}
+		"DarHudMM2SplitButtonMainDepressed"
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+							
+			"image"					"../darhud/mainmenu/button_2split"
+			"color"					"ButtonDepressedMM"
+		}
+		"DarHudMM2SplitButtonMainDisabled"
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+							
+			"image"					"../darhud/mainmenu/button_2split"
+			"color"					"ButtonDisabledMM"
+		}
+		
+		//2-Split Reverse Button 1
+		"DarHudMM2SplitButtonMainReverse"
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+							
+			"image"					"../darhud/mainmenu/button_2split_reverse"	
+			"color"					"ButtonMM"
+		}
+		"DarHudMM2SplitButtonMainReverseArmed"
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+							
+			"image"					"../darhud/mainmenu/button_2split_reverse"
+			"color"					"ButtonArmedMM"
+		}
+		"DarHudMM2SplitButtonMainReverseDepressed"
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+							
+			"image"					"../darhud/mainmenu/button_2split_reverse"
+			"color"					"ButtonDepressedMM"
+		}
+		"DarHudMM2SplitButtonMainReverseDisabled"
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+							
+			"image"					"../darhud/mainmenu/button_2split_reverse"
+			"color"					"ButtonDisabledMM"
+		}
+		
+		//3-Split Button 1
+		"DarHudMM3SplitButtonMain"
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+							
+			"image"					"../darhud/mainmenu/button_3split"	
+			"color"					"ButtonMM"
+		}
+		"DarHudMM3SplitButtonMainArmed"
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+							
+			"image"					"../darhud/mainmenu/button_3split"
+			"color"					"ButtonArmedMM"
+		}
+		"DarHudMM3SplitButtonMainDepressed"
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+							
+			"image"					"../darhud/mainmenu/button_3split"
+			"color"					"ButtonDepressedMM"
+		}
+		"DarHudMM3SplitButtonMainDisabled"
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+							
+			"image"					"../darhud/mainmenu/button_3split"
+			"color"					"ButtonDisabledMM"
+		}
+		
+		//3-Split Reverse Button 1
+		"DarHudMM3SplitButtonMainReverse"
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+							
+			"image"					"../darhud/mainmenu/button_3split_reverse"	
+			"color"					"ButtonMM"
+		}
+		"DarHudMM3SplitButtonMainReverseArmed"
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+							
+			"image"					"../darhud/mainmenu/button_3split_reverse"
+			"color"					"ButtonArmedMM"
+		}
+		"DarHudMM3SplitButtonMainReverseDepressed"
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+							
+			"image"					"../darhud/mainmenu/button_3split_reverse"
+			"color"					"ButtonDepressedMM"
+		}
+		"DarHudMM3SplitButtonMainReverseDisabled"
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+							
+			"image"					"../darhud/mainmenu/button_3split_reverse"
+			"color"					"ButtonDisabledMM"
+		}
+		
+		//Split Button Mid
+		"DarHudMMSplitButtonMid"
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+							
+			"image"					"../darhud/mainmenu/button_split_mid"	
+			"color"					"ButtonMM"
+		}
+		"DarHudMMSplitButtonMidArmed"
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+							
+			"image"					"../darhud/mainmenu/button_split_mid"
+			"color"					"ButtonArmedMM"
+		}
+		"DarHudMMSplitButtonMidDepressed"
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+							
+			"image"					"../darhud/mainmenu/button_split_mid"
+			"color"					"ButtonDepressedMM"
+		}
+		"DarHudMMSplitButtonMidDisabled"
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+							
+			"image"					"../darhud/mainmenu/button_split_mid"
+			"color"					"ButtonDisabledMM"
+		}
+		
+		//Split Reverse Button Mid
+		"DarHudMMSplitButtonMidReverse"
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+							
+			"image"					"../darhud/mainmenu/button_split_mid_reverse"	
+			"color"					"ButtonMM"
+		}
+		"DarHudMMSplitButtonMidReverseArmed"
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+							
+			"image"					"../darhud/mainmenu/button_split_mid_reverse"
+			"color"					"ButtonArmedMM"
+		}
+		"DarHudMMSplitButtonMidReverseDepressed"
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+							
+			"image"					"../darhud/mainmenu/button_split_mid_reverse"
+			"color"					"ButtonDepressedMM"
+		}
+		"DarHudMMSplitButtonMidReverseDisabled"
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+							
+			"image"					"../darhud/mainmenu/button_split_mid_reverse"
+			"color"					"ButtonDisabledMM"
+		}
+		
+		//Split Button End
+		"DarHudMMSplitButtonEnd"
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+							
+			"image"					"../darhud/mainmenu/button_split_end"	
+			"color"					"ButtonMM"
+		}
+		"DarHudMMSplitButtonEndArmed"
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+							
+			"image"					"../darhud/mainmenu/button_split_end"
+			"color"					"ButtonArmedMM"
+		}
+		"DarHudMMSplitButtonEndDepressed"
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+							
+			"image"					"../darhud/mainmenu/button_split_end"
+			"color"					"ButtonDepressedMM"
+		}
+		"DarHudMMSplitButtonEndDisabled"
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+							
+			"image"					"../darhud/mainmenu/button_split_end"
+			"color"					"ButtonDisabledMM"
+		}
+		
+		//Split Reverse Button 3
+		"DarHudMMSplitButtonEndReverse"
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+							
+			"image"					"../darhud/mainmenu/button_split_end_reverse"	
+			"color"					"ButtonMM"
+		}
+		"DarHudMMSplitButtonEndReverseArmed"
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+							
+			"image"					"../darhud/mainmenu/button_split_end_reverse"
+			"color"					"ButtonArmedMM"
+		}
+		"DarHudMMSplitButtonEndReverseDepressed"
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+							
+			"image"					"../darhud/mainmenu/button_split_end_reverse"
+			"color"					"ButtonDepressedMM"
+		}
+		"DarHudMMSplitButtonEndReverseDisabled"
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+							
+			"image"					"../darhud/mainmenu/button_split_end_reverse"
+			"color"					"ButtonDisabledMM"
+		}
+		
+		"DarHudMMSquareButton"
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+							
+			"image"					"../darhud/square/square_white"	
+			"color"					"ButtonMM"
+		}
+		"DarHudMMSquareButtonArmed"
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+							
+			"image"					"../darhud/square/square_white"
+			"color"					"ButtonArmedMM"
+		}
+		"DarHudMMSquareButtonDepressed"
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+							
+			"image"					"../darhud/square/square_white"
+			"color"					"ButtonDepressedMM"
+		}
+		"DarHudMMSquareButtonDisabled"
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+							
+			"image"					"../darhud/square/square_white"
+			"color"					"ButtonDisabledMM"
+		}
+		
+		//Quit Button
+		"DarHudMMQuitButton"
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+							
+			"image"					"../darhud/mainmenu/button"	
+			"color"					"ButtonMMQuit"
+		}
+		"DarHudMMQuitButtonArmed"
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+							
+			"image"					"../darhud/mainmenu/button"
+			"color"					"ButtonMMQuitArmed"
+		}
+		"DarHudMMQuitButtonDepressed"
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+							
+			"image"					"../darhud/mainmenu/button"
+			"color"					"ButtonMMQuitDepressed"
+		}
+		"DarHudMMQuitButtonDisabled"
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+							
+			"image"					"../darhud/mainmenu/button"
+			"color"					"ButtonMMQuitDisabled"
+		}
+		
+		//2-Split Quit Button 1
+		"DarHudMM2SplitQuitButtonMain"
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+							
+			"image"					"../darhud/mainmenu/button_2split"	
+			"color"					"ButtonMMQuit"
+		}
+		"DarHudMM2SplitQuitButtonMainArmed"
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+							
+			"image"					"../darhud/mainmenu/button_2split"
+			"color"					"ButtonMMQuitArmed"
+		}
+		"DarHudMM2SplitQuitButtonMainDepressed"
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+							
+			"image"					"../darhud/mainmenu/button_2split"
+			"color"					"ButtonMMQuitDepressed"
+		}
+		"DarHudMM2SplitQuitButtonMainDisabled"
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+							
+			"image"					"../darhud/mainmenu/button_2split"
+			"color"					"ButtonMMQuitDisabled"
+		}
+		
+		//Split Quit Button End
+		"DarHudMMSplitQuitButtonEnd"
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+							
+			"image"					"../darhud/mainmenu/button_split_end"	
+			"color"					"ButtonMMQuit"
+		}
+		"DarHudMMSplitQuitButtonEndArmed"
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+							
+			"image"					"../darhud/mainmenu/button_split_end"
+			"color"					"ButtonMMQuitArmed"
+		}
+		"DarHudMMSplitQuitButtonEndDepressed"
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+							
+			"image"					"../darhud/mainmenu/button_split_end"
+			"color"					"ButtonMMQuitDepressed"
+		}
+		"DarHudMMSplitQuitButtonEndDisabled"
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+							
+			"image"					"../darhud/mainmenu/button_split_end"
+			"color"					"ButtonMMQuitDisabled"
+		}
+		
+		//Server tags
+		"ServerTagOfficial"
+		{
+			"bordertype"		"scalable_image"
+			"backgroundtype"	"2"
+			
+			"image"			"../darhud/square/square_white"
+			"color"			"ServerTagOfficial"
+		}
+		"ServerTagVerified"
+		{
+			"bordertype"		"scalable_image"
+			"backgroundtype"	"2"
+			
+			"image"			"../darhud/square/square_white"
+			"color"			"ServerTagVerified"
+		}
+		"ServerTagCustomRules"
+		{
+			"bordertype"		"scalable_image"
+			"backgroundtype"	"2"
+			
+			"image"			"../darhud/square/square_white"
+			"color"			"ServerTagCustomRules"
+		}
+		"ServerTagCustomWeapons"
+		{
+			"bordertype"		"scalable_image"
+			"backgroundtype"	"2"
+			
+			"image"			"../darhud/square/square_white"
+			"color"			"ServerTagCustomWeapons"
+		}
+	}
+}

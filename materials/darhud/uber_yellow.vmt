@@ -1,9 +1,0 @@
-"Patch"
-{
-	include "materials\darhud\base_yellow.vmt"
-	
-	insert
-	{
-		"$basetexture"			"darhud/uber_mask"
-	}
-}

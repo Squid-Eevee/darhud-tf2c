@@ -8,8 +8,8 @@
 	
 	"Icon"
 	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"Icon"
+		"controlname"	"CTFImagePanel"
+		"fieldname"		"Icon"
 		"xpos"			"5"
 		"ypos"			"5"
 		"zpos"			"2"
@@ -19,13 +19,13 @@
 		"enabled"		"1"
 		//"image"			"../hud/leaderboard_class_scout"
 		"bgcolor_override"	"HUDRedTeam"
-		"scaleImage"	"0"		
+		"scaleimage"	"0"		
 	}		
     
     "bg"
     {
-        "ControlName"		"panel"
-		"fieldName"		"bg"
+        "controlname"		"panel"
+		"fieldname"		"bg"
 		"xpos"			"5"
 		"ypos"			"5"
 		"zpos"			"0"
@@ -33,9 +33,8 @@
 		"tall"			"25"
 		"visible"		"1"
 		"enabled"		"1"
-		"scaleImage"		"1"	
+		"scaleimage"		"1"
 		//"fillcolor"			"0 0 0 192"
-		"paintbackgroundtype" "2"
 		"proportionaltoparent"	"1"
     }
 }

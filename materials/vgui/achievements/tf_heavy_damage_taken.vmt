@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture"	"vgui\achievements\tf_heavy_damage_taken"
+	"$vertexcolor"	"1"
+	"$vertexalpha"	"1"
+}

@@ -1,0 +1,244 @@
+"Resource/UI/UpgradeBuyPanel.res"
+{	
+	"UpgradeBuyPanel"
+	{
+		"controlname"	"EditablePanel"
+		"fieldname"		"UpgradeBuyPanel"
+		"xpos"			"0"
+		"ypos"			"0"
+		"wide"			"159"
+		"tall"			"44"
+		"visible"		"1"
+		"enabled"		"1"
+		
+		"upgradebutton_xpos"	"33"
+		"upgradebutton_ypos"	"33"
+		
+		"skilltreebuttons_kv"
+		{
+			"wide"			"12"
+			"tall"			"12"
+			"textAlignment"	"center"
+			"font"			"HudFontSmallest"
+			"image"			"pve/upgrade_unowned"
+			"scaleimage"	"1"
+			
+			"defaultFgColor_override"	"UpgradeDefaultFg"
+			"defaultBgColor_override"	"UpgradeDefaultBg"
+			"armedFgColor_override"		"UpgradeArmedFg"
+			"armedBgColor_override"		"UpgradeArmedBg"
+			"depressedFgColor_override"	"UpgradeDepressedFg"
+			"depressedBgColor_override"	"UpgradeDepressedBg"
+			"selectedFgColor_override"	"UpgradeSelectedFg"
+			"selectedBgColor_override"	"UpgradeSelectedBg"
+			"disabledfgcolor2_override"	"UpgradeDisabledFg"
+		}
+	}
+	
+	"InnerPanelRim"
+	{
+		"controlname"	"Panel"
+		"fieldname"		"InnerPanelRim"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"-1"
+		"wide"			"155"
+		"tall"			"45"
+		"visible"		"0"
+		"enabled"		"1"
+		
+		"PaintBackgroundType" "0"
+		"bgcolor_override"	"97 94 85 255"
+	}
+	"Background"
+	{
+		"controlname"	"CTFImagePanel"
+		"fieldname"	"Background"
+		"xpos"		"-10"
+		"ypos"		"0"
+		"zpos"		"-1"
+		"wide"		"165"
+		"tall"		"34"
+		"visible"	"1"
+		"enabled"	"1"
+		"image"		"../darhud/mvm/upgrade_bg_neutral"
+		"scaleimage"	"1"
+		"teambg_0"		"../darhud/mvm/upgrade_bg_neutral"
+		"teambg_1"		"../darhud/mvm/upgrade_bg_spectator"
+		"teambg_2"		"../darhud/mvm/upgrade_bg_red"
+		"teambg_3"		"../darhud/mvm/upgrade_bg_blue"
+		"teambg_4"		"../darhud/mvm/upgrade_bg_green"
+		"teambg_5"		"../darhud/mvm/upgrade_bg_yellow"
+	}
+	"BackgroundShadow"
+	{
+		"controlname"	"CTFImagePanel"
+		"fieldname"	"BackgroundShadow"
+		"xpos"		"-43"
+		"ypos"		"2"
+		"zpos"		"-2"
+		"wide"		"200"
+		"tall"		"42"
+		"visible"	"1"
+		"enabled"	"1"
+		"image"		"..\darhud\scoreboard\side\score_left_shadow"
+		"scaleimage"	"1"
+	}
+	
+	"IconBorder"
+	{
+		"controlname"	"Panel"
+		"fieldname"		"IconBorder"
+		"xpos"			"0"
+		"ypos"			"1"
+		"zpos"			"0"
+		"wide"			"33"
+		"tall"			"33"
+		"visible"		"1"
+		"enabled"		"1"
+		
+		"PaintBackgroundType" "0"
+		"bgcolor_override"	"235 226 202 255"
+	}
+	
+	"Icon"
+	{
+		"controlname"	"ImagePanel"
+		"fieldname"		"Icon"
+		"pin_to_sibling"	"IconBorder"
+		"xpos"			"-1"
+		"ypos"			"-1"
+		"wide"			"31"
+		"tall"			"31"
+		"zpos"			"20"
+		"visible"		"1"
+		"enabled"		"0"
+		
+		"scaleimage"	"1"
+
+		"image"		"pve/buy_disabled"
+	}
+	
+	"PriceLabel"
+	{
+		"controlname"	"Label"
+		"fieldname"		"PriceLabel"
+		"xpos"			"0"
+		"ypos"			"34"
+		"wide"			"33"
+		"tall"			"11"
+		"zpos"			"25"
+		"visible"		"1"
+		"enabled"		"1"
+		
+		"labelText"		""
+		"textAlignment"	"center"
+		"font"			"FontStorePrice"
+		"fgcolor_override"	"GeneralLabel"
+		"mouseinputenabled"	"0"
+		
+		"dropshadow"		"1"
+		"dropshadowoffset"	"2"
+	}
+	
+	"ShortDescriptionLabel"
+	{
+		"controlname"	"Label"
+		"fieldname"		"ShortDescriptionLabel"
+		"xpos"			"33"
+		"ypos"			"2"
+		"wide"			"95"
+		"tall"			"32"
+		"zpos"			"25"
+		"visible"		"1"
+		"enabled"		"1"
+		"wrap"			"1"
+		"textinsetx" "7"
+		
+		"labelText"		""
+		"textAlignment"	"center-west"
+		"font"			"FontStoreOriginalPrice"
+		
+		"dropshadow"		"1"
+		"dropshadowoffset"	"2"
+	}
+	
+	"BuySellBG"
+	{
+		"controlname"	"Panel"
+		"fieldname"		"BuySellBG"
+		"xpos"			"135"
+		"ypos"			"0"
+		"zpos"			"-1"
+		"wide"			"20"
+		"tall"			"45"
+		"visible"		"0"
+		"enabled"		"1"
+		
+		"PaintBackgroundType" "0"
+		"bgcolor_override"	"117 114 103 255"
+	}
+	
+	"IncrementButton"
+	{
+		"controlname"		"CimageButton"
+		"fieldname"		"IncrementButton"
+		"xpos"			"139"
+		"ypos"			"2"
+		"wide"			"12"
+		"tall"			"12"
+		"zpos"			"20"
+		"visible"		"1"
+		"enabled"		"0"
+		
+		"scaleimage"	"1"
+
+		"activeimage"		"pve/buy_disabled"
+		"inactiveimage"	"pve/buy_disabled"
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		"defaultFgColor_override"	"255 255 255 0"
+		"defaultBgColor_override"	"255 255 255 0"
+		"armedFgColor_override"		"255 255 255 0"
+		"armedBgColor_override"		"255 255 255 0"
+		"depressedFgColor_override"	"255 255 255 0"
+		"depressedBgColor_override"	"255 255 255 0"
+		"selectedFgColor_override"	"255 255 255 0"
+		"selectedBgColor_override"	"255 255 255 0"
+		"disabledfgcolor2_override"	"255 255 255 0"
+	}
+	
+	"DecrementButton"
+	{
+		"controlname"	"CimageButton"
+		"fieldname"		"DecrementButton"
+		"xpos"			"134"
+		"ypos"			"20"
+		"wide"			"12"
+		"tall"			"12"
+		"zpos"			"20"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"0"
+		"tabPosition"	"0"
+		
+		"scaleimage"	"1"
+
+		"activeimage"		"pve/sell_disabled"
+		"inactiveimage"		"pve/sell_disabled"
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		"defaultFgColor_override"	"255 255 255 0"
+		"defaultBgColor_override"	"255 255 255 0"
+		"armedFgColor_override"		"255 255 255 0"
+		"armedBgColor_override"		"255 255 255 0"
+		"depressedFgColor_override"	"255 255 255 0"
+		"depressedBgColor_override"	"255 255 255 0"
+		"selectedFgColor_override"	"255 255 255 0"
+		"selectedBgColor_override"	"255 255 255 0"
+		"disabledfgcolor2_override"	"255 255 255 0"
+	}
+}

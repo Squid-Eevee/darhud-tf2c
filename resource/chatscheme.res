@@ -1,12 +1,6 @@
-#base "../darhud_addons/hue-6_colors.res"
-#base "../darhud_addons/hue24_colors.res"
-#base "../darhud_addons/gry_colors.res"
-#base "../darhud_addons/colorblind_grn_colors.res"
-#base "../darhud_addons/hue42_colors.res"
-#base "../darhud_addons/plm_colors.res"
-#base "../darhud_addons/vlt_colors.res"
-#base "../darhud_addons/gigaleak_grn_ylw_colors.res"
-#base "../darhud_addons/theme/customcolors.res"
+#base "darhud_scheme.res"
+#base "scheme/teamcolors.res"
+#base "customfontfiles.res"
 
 ///////////////////////////////////////////////////////////
 // Tracker scheme resource file
@@ -27,14 +21,43 @@ Scheme
 	{
 		// base colors
 		"White"				"255 255 255 255"
-		"OffWhite"			"255 255 255 255"
+		"OffWhite"			"216 216 216 255"
 		"DullWhite"			"142 142 142 255"
-		"Orange"				"255 155 0 255"
+		"Orange"			"255 155 0 255"
 		"TransparentBlack"	"0 0 0 128"
-		"Black"				"0 0 0 255"
-		"Green"				"63 185 73 255"
-
 		"Blank"				"0 0 0 0"
+		
+		"TFDarkBrown"					"60 56 53 255"
+	    "TFDarkBrownTransparent"		"60 56 53 190"
+		"TFMediumBrown"					"69 64 58 255"
+	    "TFTanBright"					"236 227 203 150"
+	    "TFTanLight"					"201 188 162 150"
+	    "TFTanMedium"					"131 121 104 150"
+		"TFTanLightBright"				"229 223 211 90"
+	    "TFTanLightDark"				"96 90 78 90"
+	    
+	    "TFOrangeBright"				"156 82 33 255"
+		
+		"TFTextBright"					"251 236 203 255"
+	    "TFTextLight"					"201 188 162 255"
+	    "TFTextMedium"              	"131 121 104 255"
+	    "TFTextMediumDark"          	"104 96 83 255"
+	    "TFTextBlack"               	"42 39 37 255"
+	    "TFTextDull"                	"131 121 104 255"
+		
+		"QuickListBGDeselected"			"69 64 58 255"
+	    "QuickListBGSelected"			"131 121 104 150"
+		
+		// background colors
+		"ControlBG"						"76 88 68 255"			// background color of controls
+		"ControlDarkBG"					"90 106 80 255"			// darker background color; used for background of scrollbars
+		"WindowBG"						"62 70 55 255"			// background color of text edit panes (chat, text entries, etc.)
+		"SelectionBG"					"90 84 75 255"			// background color of any selected text or menu item
+		"SelectionBG2"					"69 64 57 255"			// selection background in window w/o focus
+		"ListBG"						"39 36 34 255"			// background of server browser, buddy list, etc.
+
+		//Inherited from darhud_scheme
+		//"DropShadow"					"0 0 0 140"
 	}
 
 	///////////////////// BASE SETTINGS ////////////////////////
@@ -44,111 +67,114 @@ Scheme
 	BaseSettings
 	{
 		// vgui_controls color specifications
-		Border.Bright					"200 200 200 196"	// the lit side of a control
-		Border.Dark					"40 40 40 196"		// the dark/unlit side of a control
-		Border.Selection				"0 0 0 196"			// the additional border color for displaying the default/selected button
+		Border.Bright									"Blank"	// the lit side of a control
+		Border.Dark										"Blank"		// the dark/unlit side of a control
+		Border.Selection								"Blank"		// the additional border color for displaying the default/selected button
 
-		Button.TextColor				"White"
-		Button.BgColor				"Blank"
-		Button.ArmedTextColor			"White"
-		Button.ArmedBgColor			"Blank"
-		Button.DepressedTextColor		"White"
-		Button.DepressedBgColor		"Blank"
-		Button.FocusBorderColor		"Black"
+		Button.TextColor								"TFDarkBrown"
+		Button.BgColor									"255 255 255 60"
+		Button.ArmedTextColor							"TFDarkBrown"
+		Button.ArmedBgColor								"255 255 255 60"
+		Button.SelectedTextColor						"TFDarkBrown"
+		Button.SelectedBgColor							"255 255 255 60"
+		Button.DepressedTextColor						"TFDarkBrown"
+		Button.DepressedBgColor							"255 255 255 60"
+		Button.FocusBorderColor							"Blank"
 		
-		CheckButton.TextColor			"OffWhite"
-		CheckButton.SelectedTextColor	"White"
-		CheckButton.BgColor			"TransparentBlack"
-		CheckButton.Border1  			"Border.Dark" 		// the left checkbutton border
-		CheckButton.Border2  			"Border.Bright"		// the right checkbutton border
-		CheckButton.Check				"White"				// color of the check itself
+		CheckButton.TextColor							"TFTanMedium"
+		CheckButton.SelectedTextColor					"251 235 202 255"
+		CheckButton.BgColor								"TransparentBlack"
+		CheckButton.HighlightFgColor					"251 235 202 255"
+		CheckButton.ArmedBgColor						"Blank"
+		CheckButton.DepressedBgColor					"Blank"
+		CheckButton.Border1  							"Blank" 			// the left checkbutton border
+		CheckButton.Border2  							"Blank"				// the right checkbutton border
+		CheckButton.Check								"251 235 202 255"	// color of the check itself
+		CheckButton.DisabledBgColor	    				"TransparentBlack"
 
-		ComboBoxButton.ArrowColor		"DullWhite"
-		ComboBoxButton.ArmedArrowColor	"White"
-		ComboBoxButton.BgColor			"Blank"
-		ComboBoxButton.DisabledBgColor	"Blank"
+		ComboBoxButton.ArrowColor						"TFTanLight"
+		ComboBoxButton.ArmedArrowColor					"TFTanBright"
+		ComboBoxButton.BgColor							"Blank"
+		ComboBoxButton.DisabledBgColor					"Blank"
 
-		"Chat.TypingText"		"White"
+		Chat.TypingText									"251 235 202 255"
 
-		Frame.TitleTextInsetX				16
-		Frame.ClientInsetX				8
-		Frame.ClientInsetY				6
-		Frame.BgColor						"160 160 160 128"
-		Frame.OutOfFocusBgColor			"160 160 160 32"
-		Frame.FocusTransitionEffectTime		"0.3"	// time it takes for a window to fade in/out on focus/out of focus
-		Frame.TransitionEffectTime			"0.3"	// time it takes for a window to fade in/out on open/close
-		Frame.AutoSnapRange				"0"
-		FrameGrip.Color1					"50 50 50 196"
-		FrameGrip.Color2					"0 0 0 196"
-		FrameTitleButton.FgColor			"200 200 200 196"
-		FrameTitleButton.BgColor			"Blank"
-		FrameTitleButton.DisabledFgColor	"255 255 255 192"
-		FrameTitleButton.DisabledBgColor	"Blank"
-		FrameSystemButton.FgColor			"Blank"
-		FrameSystemButton.BgColor			"Blank"
-		FrameSystemButton.Icon				""
-		FrameSystemButton.DisabledIcon		""
-		FrameTitleBar.Font				"UiBold"
-		FrameTitleBar.Font				"DefaultLarge"
-		FrameTitleBar.TextColor			"White"
-		FrameTitleBar.BgColor				"Blank"
-		FrameTitleBar.DisabledTextColor		"255 255 255 192"
-		FrameTitleBar.DisabledBgColor		"Blank"
+		Frame.TitleTextInsetX							16
+		Frame.ClientInsetX								8
+		Frame.ClientInsetY								6
+		Frame.BgColor									"TransparentBlack"
+		Frame.OutOfFocusBgColor							"TransparentBlack"
+		Frame.FocusTransitionEffectTime					"0.0"
+		Frame.TransitionEffectTime						"0.0"
+		Frame.AutoSnapRange								"0"
+		FrameGrip.Color1								"Blank"
+		FrameGrip.Color2								"Blank"
+		FrameTitleButton.FgColor						"Blank"
+		FrameTitleButton.BgColor						"Blank"
+		FrameTitleButton.DisabledFgColor				"Blank"
+		FrameTitleButton.DisabledBgColor				"Blank"
+		FrameSystemButton.FgColor						"Blank"
+		FrameSystemButton.BgColor						"Blank"
+		FrameSystemButton.Icon							""
+		FrameSystemButton.DisabledIcon					""
+		FrameTitleBar.TextColor							"Orange"
+		FrameTitleBar.BgColor							"Blank"
+		FrameTitleBar.DisabledTextColor					"Orange"
+		FrameTitleBar.DisabledBgColor					"Blank"
 
-		GraphPanel.FgColor				"White"
-		GraphPanel.BgColor				"TransparentBlack"
+		GraphPanel.FgColor								"White"
+		GraphPanel.BgColor								"TransparentBlack"
 
-		Label.TextDullColor		"DullWhite"
-		Label.TextColor			"White"
-		Label.TextBrightColor		"White"
-		Label.SelectedTextColor	"White"
-		Label.BgColor				"TransparentBlack"
-		Label.DisabledFgColor1		"117 117 117 255"
-		Label.DisabledFgColor2		"30 30 30 255"
+		Label.TextDullColor								"TFTextDull"
+		Label.TextColor									"251 235 202 255"
+		Label.TextBrightColor							"TFTextBright"
+		Label.SelectedTextColor							"TFTextBright"
+		Label.BgColor									"Blank"
+		Label.DisabledFgColor1							"TFTextDull"	
+		Label.DisabledFgColor2							"Blank"	
 
-		ListPanel.TextColor				"White"
-		ListPanel.TextBgColor				"Blank"
-		ListPanel.BgColor					"TransparentBlack"
-		ListPanel.SelectedTextColor			"Black"
-		ListPanel.SelectedBgColor			"Orange"
-		ListPanel.SelectedOutOfFocusBgColor	"255 155 0 128"
-		ListPanel.EmptyListInfoTextColor	"White"
+		ListPanel.TextColor								"TFTextBright"
+		ListPanel.TextBgColor							"Blank"
+		ListPanel.BgColor								"ListBG"
+		ListPanel.SelectedBgColor						"SelectionBG"
+		ListPanel.SelectedOutOfFocusBgColor				"SelectionBG2"
+		ListPanel.EmptyListInfoTextColor				"OffWhite"
 
-		Menu.TextColor		"White"
-		Menu.BgColor			"160 160 160 64"
-		Menu.ArmedTextColor	"Black"
-		Menu.ArmedBgColor		"Orange"
-		Menu.TextInset		"6"
+		Menu.TextColor									"251 235 202 255"
+		Menu.BgColor									"ListBG"
+		Menu.ArmedTextColor								"TFTextBlack"
+		Menu.ArmedBgColor								"TFOrangeBright"
+		Menu.TextInset									"6"
 
-		Panel.FgColor	"Blank"
-		Panel.BgColor	"DullWhite"
+		Panel.FgColor									"Blank"
+		Panel.BgColor									"TFDarkBrown"
 
-		ProgressBar.FgColor	"White"
-		ProgressBar.BgColor	"TransparentBlack"
+		ProgressBar.FgColor								"White"
+		ProgressBar.BgColor								"TransparentBlack"
 
-		PropertySheet.TextColor			"White"
-		PropertySheet.SelectedTextColor		"White"
-		PropertySheet.TransitionEffectTime	"0.25"	// time to change from one tab to another
+		PropertySheet.TextColor							"OffWhite"
+		PropertySheet.SelectedTextColor					"White"
+		PropertySheet.TransitionEffectTime				"0.25"	// time to change from one tab to another
 
-		RadioButton.TextColor			"DullWhite"
-		RadioButton.SelectedTextColor	"White"
+		RadioButton.TextColor							"DullWhite"
+		RadioButton.SelectedTextColor					"White"
 
-		RichText.TextColor		"White"
-		RichText.BgColor			"TransparentBlack"
-		RichText.SelectedTextColor	"Black"
-		RichText.SelectedBgColor	"Orange"
+		RichText.TextColor								"251 235 202 255"
+		RichText.BgColor								"ListBG"
+		RichText.SelectedTextColor						"251 235 202 255"
+		RichText.SelectedBgColor						"TFOrangeBright"
 
-		ScrollBar.Wide	8
+		ScrollBar.Wide									"8"
 
-		ScrollBarButton.FgColor			"White"
-		ScrollBarButton.BgColor			"Blank"
-		ScrollBarButton.ArmedFgColor		"White"
-		ScrollBarButton.ArmedBgColor		"Blank"
-		ScrollBarButton.DepressedFgColor	"White"
-		ScrollBarButton.DepressedBgColor	"Blank"
+		ScrollBarButton.FgColor							"TFDarkBrown"
+		ScrollBarButton.BgColor							"TFTanLight"
+		ScrollBarButton.ArmedFgColor					"TFDarkBrown"
+		ScrollBarButton.ArmedBgColor					"TFTanBright"
+		ScrollBarButton.DepressedFgColor				"TFDarkBrown"
+		ScrollBarButton.DepressedBgColor				"TFTanLight"
 
-		ScrollBarSlider.FgColor				"White"	// nob color
-		ScrollBarSlider.BgColor				"0 0 0 64"	// slider background color
+		ScrollBarSlider.BgColor							"TFTanMedium"
+		ScrollBarSlider.FgColor							"TFTanLight"
 
 		SectionedListPanel.HeaderTextColor				"White"
 		SectionedListPanel.HeaderBgColor				"Blank"
@@ -156,59 +182,52 @@ Scheme
 		SectionedListPanel.TextColor					"DullWhite"
 		SectionedListPanel.BrightTextColor				"White"
 		SectionedListPanel.BgColor						"TransparentBlack"
-		SectionedListPanel.SelectedTextColor				"Black"
+		SectionedListPanel.SelectedTextColor			"Black"
 		SectionedListPanel.SelectedBgColor				"Orange"
 		SectionedListPanel.OutOfFocusSelectedTextColor	"Black"
-		SectionedListPanel.OutOfFocusSelectedBgColor		"255 155 0 128"
+		SectionedListPanel.OutOfFocusSelectedBgColor	"255 155 0 128"
 
-		Slider.NobColor				"108 108 108 255"
-		Slider.TextColor				"180 180 180 255"
-		Slider.TrackColor				"31 31 31 255"
-		Slider.DisabledTextColor1		"117 117 117 255"
-		Slider.DisabledTextColor2		"30 30 30 255"
+		Slider.NobColor									"TFTanLight"		
+		Slider.TextColor								"TFTextBright"
+		Slider.TrackColor								"ListBG"
+		Slider.DisabledTextColor1						"TFTextMediumDark"
+        Slider.DisabledTextColor2						"Blank"
 
-		TextEntry.TextColor				"White"
-		TextEntry.BgColor					"TransparentBlack"
-		TextEntry.CursorColor				"White"
-		TextEntry.DisabledTextColor			"DullWhite"
-		TextEntry.DisabledBgColor			"Blank"
-		TextEntry.SelectedTextColor			"Black"
-		TextEntry.SelectedBgColor			"Orange"
-		TextEntry.OutOfFocusSelectedBgColor	"255 155 0 128"
-		TextEntry.FocusEdgeColor			"0 0 0 196"
+		TextEntry.TextColor			       				"251 235 202 255"
+		TextEntry.BgColor								"TransparentBlack"
+		TextEntry.CursorColor							"OffWhite"
+		TextEntry.DisabledTextColor	        			"251 235 202 255"
+		TextEntry.SelectedTextColor						"Black"
+		TextEntry.SelectedBgColor	        			"TFOrangeBright"
+		TextEntry.OutOfFocusSelectedBgColor				"255 155 0 128"
+		TextEntry.FocusEdgeColor						"0 0 0 196"
 
-		ToggleButton.SelectedTextColor	"White"
+		ToggleButton.SelectedTextColor					"TFOrangeBright"
 
-		Tooltip.TextColor	"0 0 0 196"
-		Tooltip.BgColor	"Orange"
+		Tooltip.TextColor								"0 0 0 196"
+		Tooltip.BgColor									"TFOrangeBright"
 
-		TreeView.BgColor			"TransparentBlack"
+		TreeView.BgColor								"TransparentBlack"
 
-		WizardSubPanel.BgColor		"Blank"
+		WizardSubPanel.BgColor							"Blank"
 
 		// scheme-specific colors
-		MainMenu.TextColor			"White"
-		MainMenu.ArmedTextColor		"White"
-		
-		MainMenu.ArmedTextColor		"White"
-		MainMenu.DepressedTextColor		"192 186 80 255"
-		MainMenu.MenuItemHeight		"16"
-		MainMenu.Inset				"32"
-		MainMenu.Backdrop				"0 0 0 156"
+		MainMenu.TextColor								"White"
+		MainMenu.ArmedTextColor							"200 200 200 255"
+		MainMenu.DepressedTextColor						"192 186 80 255"
+		MainMenu.MenuItemHeight							"16"
+		MainMenu.Inset									"32"
+		MainMenu.Backdrop								"0 0 0 156"
 
-		Console.TextColor			"White"
-		Console.DevTextColor		"White"
+		Console.TextColor								"OffWhite"
+		Console.DevTextColor							"White"
 
-		NewGame.TextColor			"White"
-		NewGame.FillColor			"0 0 0 255"
-		NewGame.SelectionColor		"Orange"
-		NewGame.DisabledColor		"128 128 128 196"
+		NewGame.TextColor								"White"
+		NewGame.FillColor								"0 0 0 255"
+		NewGame.SelectionColor							"Orange"
+		NewGame.DisabledColor							"128 128 128 196"
 
-		"TFColors.ChatTextYellow"		"White"
-		"TFColors.ChatTextTeamBlue"	"153 204 255 255"
-		"TFColors.ChatTextTeamRed"		"255 63 53 255"
-		"TFColors.ChatTextTeamGreen"	"153 255 153 255"
-		"TFColors.ChatTextTeamYellow"	"255 178 0 255"
+		TFColors.ChatTextYellow							"251 235 202 255"
 	}
 
 	//////////////////////// BITMAP FONT FILES /////////////////////////////
@@ -228,10 +247,12 @@ Scheme
 
 		"Default"
 		{
+			"isproportional" "only"
 			"1"
 			{
 				"name"		"Verdana"
-				"tall"		"12"
+				"tall"		"12" [!$POSIX]
+				"tall"		"14" [$POSIX]
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
 				"yres"	"480 599"
@@ -239,7 +260,8 @@ Scheme
 			"2"
 			{
 				"name"		"Verdana"
-				"tall"		"13"
+				"tall"		"13" [!$POSIX]
+				"tall"		"16" [$POSIX]
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
 				"yres"	"600 767"
@@ -247,7 +269,8 @@ Scheme
 			"3"
 			{
 				"name"		"Verdana"
-				"tall"		"14"
+				"tall"		"14" [!$POSIX]
+				"tall"		"16" [$POSIX]
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
 				"yres"	"768 1023"
@@ -256,19 +279,19 @@ Scheme
 			"4"
 			{
 				"name"		"Verdana"
-				"tall"		"16"
+				"tall"		"16" [!$POSIX]
+				"tall"		"18" [$POSIX]
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
 				"yres"	"1024 1199"
 				"antialias"	"1"
 			}
-			"5"
+			"5" // Misyl: Proportional
 			{
 				"name"		"Verdana"
-				"tall"		"20"
+				"tall"		"8"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
-				"yres"	"1200 6000"
 				"antialias"	"1"
 			}
 		}
@@ -276,7 +299,6 @@ Scheme
 		// this is the symbol font
 		"Marlett"
 		{
-
 			"1"
 			{
 				"name"		"Marlett"
@@ -365,49 +387,132 @@ Scheme
 
 		"ChatFont"
 		{
+			"isproportional" "only"
 			"1"
 			{
-				"name"		"Verdana"
-				"tall"		"12"
-				"weight"	"700"
-				"yres"		"480 599"
+				"name"			"DejaVu Sans"
+				"tall"			"12"	[!$POSIX]
+				"tall"			"15"	[$POSIX]
+				"weight"		"700"
+				"yres"			"480 599"
 				"dropshadow"	"1"
 			}
 			"2"
 			{
-				"name"		"Verdana"
-				"tall"		"14"
-				"weight"	"700"
-				"yres"		"600 767"
+				"name"			"DejaVu Sans"
+				"tall"			"14"	[!$POSIX]
+				"tall"			"17"	[$POSIX]
+				"weight"		"700"
+				"yres"			"600 767"
 				"dropshadow"	"1"
 			}
 			"3"
 			{
-				"name"		"Verdana"
-				"tall"		"15"
-				"weight"	"700"
-				"yres"		"768 1023"
+				"name"			"DejaVu Sans"
+				"tall"			"15"	[!$POSIX]
+				"tall"			"18"	[$POSIX]
+				"weight"		"700"
+				"yres"			"768 1023"
 				"dropshadow"	"1"
 			}
 			"4"
 			{
-				"name"		"Verdana"
-				"tall"		"17"
-				"weight"	"700"
-				"yres"		"1024 1199"
+				"name"			"DejaVu Sans"
+				"tall"			"17"	[!$POSIX]
+				"tall"			"20"	[$POSIX]
+				"weight"		"700"
+				"yres"			"1024 1199"
 				"dropshadow"	"1"
 			}
 			"5"
 			{
-				"name"		"Verdana"
-				"tall"		"22"
-				"weight"	"700"
-				"yres"		"1200 10000"
+				"name"			"DejaVu Sans"
+				"tall"			"23"	[!$POSIX]
+				"tall"			"26"	[$POSIX]
+				"weight"		"100"
+				"yres"			"1200 1440"
 				"dropshadow"	"1"
 			}
+			"6" // Misyl: Proportional
+			{
+				"name"			"DejaVu Sans"
+				"tall"			"8"
+				// Misyl: Looks bad when proportional
+				// Removing the weight here.
+				"weight" 		"300"
+				//"weight"		"700"
+				"dropshadow"	"1"
+				"antialias" 	"0"
+			}
 		}
-
-
+		
+		"ChatOptionsFontLarge"
+		{
+			"1"
+			{
+				"name"			"TF2C Secondary"
+				"tall"			"10"
+				"weight"		"500"
+				"antialias"		"1"
+				"dropshadow"	"0"
+			}
+		}
+		"ChatOptionsFontMedium"
+		{
+			"1"
+			{
+				"name"			"TF2C Secondary"
+				"tall"			"8"
+				"weight"		"500"
+				"antialias"		"1"
+				"dropshadow"	"0"
+			}
+		}
+		"ChatOptionsFontSmall"
+		{
+			"1"
+			{
+				"name"			"TF2C Secondary"
+				"tall"			"7"
+				"weight"		"500"
+				"antialias"		"1"
+				"dropshadow"	"0"
+			}
+		}
+		
+		"ChatOptionsFontLargeBold"
+		{
+			"1"
+			{
+				"name"			"TF2C Build"
+				"tall"			"10"
+				"weight"		"500"
+				"antialias"		"1"
+				"dropshadow"	"0"
+			}
+		}
+		"ChatOptionsFontMediumBold"
+		{
+			"1"
+			{
+				"name"			"TF2C Build"
+				"tall"			"8"
+				"weight"		"500"
+				"antialias"		"1"
+				"dropshadow"	"0"
+			}
+		}
+		"ChatOptionsFontSmallBold"
+		{
+			"1"
+			{
+				"name"			"TF2C Build"
+				"tall"			"7"
+				"weight"		"500"
+				"antialias"		"1"
+				"dropshadow"	"0"
+			}
+		}
 	}
 
 	//
@@ -805,15 +910,5 @@ Scheme
 				}
 			}
 		}
-	}
-
-	//////////////////////// CUSTOM FONT FILES /////////////////////////////
-	//
-	// specifies all the custom (non-system) font files that need to be loaded to service the above described fonts
-	CustomFontFiles
-	{
-		"1"		"resource/HALFLIFE2.ttf"
-		"2"		"resource/HL2EP2.ttf"
-		"3"		"resource/neosans.ttf"
 	}
 }

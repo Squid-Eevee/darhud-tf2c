@@ -6,10 +6,10 @@
 	{	
 		"labelText"		"#TF_Object_dispenser"
 	}
-		
+	
 	"BuildingIcon"	
 	{
-		"icon"			"obj_status_dispenser"
+		"image"			"resource/svgs/engineer/hud_obj_status_dispenser.svg"
 	}
 
 	"NumberLabel"

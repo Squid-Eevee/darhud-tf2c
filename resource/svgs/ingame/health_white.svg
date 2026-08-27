@@ -1,0 +1,11 @@
+<svg id="health_white" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="128" height="128" viewBox="0 0 128 128">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path id="Shape_75_copy" data-name="Shape 75 copy" class="cls-1" d="M 41,0 V 41 H 0 v 46 h 41 v 41 H 87 V 87 h 41 V 41 H 87 V 0 Z"/>
+</svg>

@@ -1,116 +1,76 @@
+#base "_customizations/info_screen/base.res"
+
 "Resource/UI/TextWindow.res"
 {
 	"info"
 	{
-		"ControlName"			"CTFTextWindow"
-		"fieldName"				"info"
-		"xpos"					"0"
-		"ypos"					"0"
-		"wide"					"f0"
-		"tall"					"480"
-		"autoResize"			"0"
-		"pinCorner"				"0"
-		"visible"				"1"
-		"enabled"				"1"
-		"tabPosition"			"0"
+		"controlname"			"CTFTextWindow"
+		"fieldname"			"info"
+		"xpos"				"0"
+		"ypos"				"0"
+		"wide"				"f0"
+		"tall"				"480"
+		"visible"			"1"
+		"enabled"			"1"
 		"settitlebarvisible"	"0"
-		"paintBackground"	"0"
-	}
-
-	"bg"
-	{		
-		"ControlName"	"EditablePanel"
-		"fieldName"		"bg"
-		"xpos"					"0"
-		"ypos"					"0"
-		"zpos"					"-2"
-		"wide"					"f0"
-		"tall"					"480"
-		"autoResize"			"0"
-		"pinCorner"				"0"
-		"visible"				"1"
-		"enabled"				"1"
-		"bgcolor_override"		"BackgroundTransparent"
-	}
-
-	"Stripe"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"Stripe"
-		"xpos"			"cs-0.5"
-		"ypos"			"cs-0.5"
-		"zpos"			"-1"
-		"wide"			"f0"
-		"tall"			"305"
-		"visible"		"1"
-		"enabled"		"1"
-		"bgcolor_override"	"TransparentStripe"
+		"paintBackground"		"0"
 	}
 	
 	"TFMessageTitle"
 	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"TFMessageTitle"
+		"controlname"	"CExLabel"
+		"fieldname"		"TFMessageTitle"
 		"xpos"			"c-184"
 		"ypos"			"95"
 		"zpos"			"1"
 		"wide"			"420"
 		"tall"			"24"
-		"autoResize"	"0"
-		"pinCorner"		"0"
 		"visible"		"1"
-		"enabled"		"1"
 		"labelText"		"#TF_WELCOME"
 		"textAlignment"	"west"
-		"dulltext"		"0"
-		"brighttext"	"0"
 		"font"			"HudFontMediumSmallBold"
 		"fgcolor"		"GeneralLabel"
 	}	
 
 	"TextMessage"
 	{
-		"ControlName"	"TextEntry"
-		"fieldName"		"TextMessage"
+		"controlname"	"TextEntry"
+		"fieldname"		"TextMessage"
 		"visible"		"0"
 		"enabled"		"0"
 	}
 
 	"TFTextMessage"
 	{
-		"ControlName"	"CExRichText"
-		"fieldName"		"TFTextMessage"
+		"controlname"		"CExRichText"
+		"fieldname"		"TFTextMessage"
 		"font"			"HudFontSmall"
 		"xpos"			"cs-0.5"
 		"ypos"			"cs-0.5"
 		"zpos"			"1"
 		"wide"			"415"
 		"tall"			"240"
-		"autoResize"	"3"
-		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"paintborder"	"0"
+		"paintborder"		"0"
 		"textAlignment"	"northwest"
 		"fgcolor"		"GeneralLabel"
 
-		"image_box"		"../darhud/square_white"
+		"image_box"			"..\darhud\square\square_white"
+		"image_up_arrow"		"../darhud/scroll_arrow_up"
+		"image_down_arrow"	"../darhud/scroll_arrow_down"
 	}
 
 	"HTMLMessage"
 	{
-		"ControlName"		"HTML"
-		"fieldName"		"HTMLMessage"
+		"controlname"		"HTML"
+		"fieldname"		"HTMLMessage"
 		"xpos"			"cs-0.5"
 		"ypos"			"cs-0.5"
 		"zpos"			"1"
 		"wide"			"415"
 		"tall"			"295"
-		"autoResize"	"1"
-		"pinCorner"		"0"
 		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"		"0"
 		"paintborder"	"0"
 	}
 
@@ -120,54 +80,43 @@
 		"enabled"		"0"
 	}
 	
-	"ok"
+	"Footer"
 	{
-		"ControlName"		"CExButton"
-		"fieldName"		"ok"
-		"xpos"			"r190"
-		"ypos"			"r40"
-		"zpos"			"6"
-		"wide"			"150"
-		"tall"			"30"
-		"autoResize"	"0"
-		"pinCorner"		"2"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"		"0"
-		"labelText"		"#TF_Continue"
-		"textAlignment"		"center"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
-		"command"		"okay"
-		"default"		"1"
-		"font"			"HudFontSmallBold"
-		"roundedcorners"	"0"
-		
-		"sound_armed"		"ui/buttonrollover.wav"
-		"sound_depressed"	"ui/buttonclick.wav"
-		"sound_released"	"ui/buttonclickrelease.wav"
+		"Buttons"
+		{
+			"ContinueButton"
+			{
+				"controlname"		"CExButton"
+				"fieldname"		"ContinueButton"
+				"xpos"			"r190"
+				"ypos"			"0"
+				"zpos"			"6"
+				"wide"			"150"
+				"tall"			"30"
+				"visible"		"1"
+				"enabled"		"1"
+				"labelText"		"#TF_Continue"
+				"textAlignment"		"center"
+				"wrap"		"0"
+				"command"		"continue"
+				"default"		"1"
+				"font"			"HudFontSmallBold"
+				"roundedcorners"	"0"
+				
+				"sound_armed"		"ui/buttonrollover.wav"
+				"sound_depressed"	"ui/buttonclick.wav"
+				"sound_released"	"ui/buttonclickrelease.wav"
+				"dropshadow"		"1"
+				"dropshadowoffset"	"3"
+			}
+		}
 	}
-	
-	"MenuBG"
-	{	
-		"wide"			"0"
-		"tall"			"0"
-		"visible"		"0"
-		"enabled"		"0"
-	}	
-	
-	"ShadedBar"
-	{
-		"visible"		"0"
-		"enabled"		"0"
-	}						
 	
 	"MessageTitle"
 	{
-		"ControlName"	"Label"
-		"fieldName"		"MessageTitle"
-		"visible"		"0"
-		"enabled"		"0"
+		"controlname"	"Label"
+		"fieldname"	"MessageTitle"
+		"visible"	"0"
+		"enabled"	"0"
 	}		
 }

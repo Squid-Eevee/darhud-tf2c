@@ -1,0 +1,118 @@
+"Resource/UI/MvMCreditSpendPanel.res"
+{
+	"TableBackground"
+	{
+		"controlname"	"EditablePanel"
+		"fieldname"		"TableBackground"
+		"xpos"			"0"
+		"ypos"			"15"
+		"proportionaltoparent"	"1"
+		"zpos"			"-1"
+		"wide"			"f0"
+		"tall"			"f15"
+		"visible"		"1"
+		"bgcolor_override"		"GeneralBackground"
+	}
+	
+	"UpgradesLabel"
+	{
+		"controlname"	"CExLabel"
+		"fieldname"		"UpgradesLabel"
+		"font"			"HudFontSmall"
+		"labelText"		"#TF_PVE_Upgrades"
+		"textAlignment" "north-west"
+		"xpos"			"10"
+		"ypos"			"16"
+		"wide"			"90"
+		"tall"			"14"
+		"fgcolor"		"GeneralLabel"
+		"dropshadow"		"1"
+		"dropshadowoffset"	"2"
+	}
+	
+	"UpgradesCountLabel"
+	{
+		"controlname"	"CExLabel"
+		"fieldname"		"UpgradesCountLabel"
+		"font"			"HudFontSmallBold"
+		"labelText"		"%upgrades%"
+		"textAlignment" "east"
+		"proportionaltoparent"	"1"
+		"xpos"			"r110"
+		"ypos"			"16"
+		"zpos"			"1"
+		"wide"			"100"
+		"tall"			"14"
+		"fgcolor"		"White"
+		"dropshadow"		"1"
+		"dropshadowoffset"	"2"
+	}
+	
+	"BuyBackLabel"
+	{
+		"controlname"	"CExLabel"
+		"fieldname"		"BuyBackLabel"
+		"font"			"HudFontSmall"
+		"labelText"		"#TF_PVE_Buybacks"
+		"textAlignment" "west"
+		"xpos"			"10"
+		"ypos"			"28"
+		"wide"			"90"
+		"tall"			"14"
+		"fgcolor"		"GeneralLabel"
+		"dropshadow"		"1"
+		"dropshadowoffset"	"2"
+	}
+	
+	"BuyBackCountLabel"
+	{
+		"controlname"	"CExLabel"
+		"fieldname"		"BuyBackCountLabel"
+		"font"			"HudFontSmallBold"
+		"labelText"		"%buybacks%"
+		"textAlignment" "east"
+		"proportionaltoparent"	"1"
+		"xpos"			"r110"
+		"ypos"			"28"
+		"zpos"			"1"
+		"wide"			"100"
+		"tall"			"14"
+		"fgcolor"		"White"
+		"dropshadow"		"1"
+		"dropshadowoffset"	"2"
+	}
+	
+	"BottleLabel"
+	{
+		"controlname"	"CExLabel"
+		"fieldname"		"BottleLabel"
+		"font"			"HudFontSmall"
+		"labelText"		"#TF_PVE_Bottles"
+		"textAlignment" "west"
+		"xpos"			"10"
+		"ypos"			"40"
+		"wide"			"90"
+		"tall"			"14"
+		"fgcolor"		"GeneralLabel"
+		"dropshadow"		"1"
+		"dropshadowoffset"	"2"
+	}
+	
+	"BottleCountLabel"
+	{
+		"controlname"	"CExLabel"
+		"fieldname"		"BottleCountLabel"
+		"font"			"HudFontSmallBold"
+		"labelText"		"%bottles%"
+		"textAlignment" "east"
+		"proportionaltoparent"	"1"
+		"xpos"			"r110"
+		"ypos"			"40"
+		"zpos"			"1"
+		"wide"			"100"
+		"tall"			"14"
+		"fgcolor"		"White"
+		"dropshadow"		"1"
+		"dropshadowoffset"	"2"
+	}
+}

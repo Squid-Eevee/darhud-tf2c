@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture"	"vgui\achievements\tf_pyro_reflect_projectiles"
+	"$vertexcolor"	"1"
+	"$vertexalpha"	"1"
+}

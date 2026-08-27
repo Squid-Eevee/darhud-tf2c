@@ -1,0 +1,1155 @@
+"Resource/UI/HudTournament.res"
+{
+	HudTournament
+	{
+		"controlname"		"EditablePanel"
+		"fieldname"				"HudTournament"
+
+		"xpos"					"cs-0.5"
+		"ypos"					"0"
+		"wide"					"f0"
+		"tall"					"480"
+		"proportionaltoparent"	"1"
+
+		"team1_player_base_offset_x"		"-75"
+		"team1_player_base_y"				"0"
+		"team1_player_delta_x"				"-47"
+		"team1_player_delta_y"				"0"
+		"team2_player_base_offset_x"		"25"
+		"team2_player_base_y"				"0"
+		"team2_player_delta_x"				"47"
+		"team2_player_delta_y"				"0"
+		"teams_player_delta_x_comp"		"42"
+		"team3_player_base_offset_x"		"-75"
+		"team3_player_base_y"				"0"
+		"team3_player_delta_x"				"-47"
+		"team3_player_delta_y"				"0"
+		"team4_player_base_offset_x"		"25"
+		"team4_player_base_y"				"0"
+		"team4_player_delta_x"				"47"
+		"team4_player_delta_y"				"0"
+		"teams_player_delta_x_comp"		"42"
+
+		"avatar_width"	"63"
+		"spacer"		"5"
+		"name_width"	"63"
+		"horiz_inset"	"2"
+
+		if_mvm
+		{
+			"team1_player_base_y"			"73"
+			"team2_player_base_y"			"66"
+			"team2_player_delta_x"			"50"
+		}
+
+		if_competitive
+		{
+			"team1_player_base_y"			"75"
+			"team2_player_base_y"			"66"
+			"team2_player_base_offset_x"	"5"
+		}
+
+		if_readymode
+		{
+			"team1_player_base_y"				"50"
+			"team1_player_delta_y"				"0"
+			"team2_player_base_y"				"0"
+			"team2_player_delta_x"				"50"
+			"team2_player_delta_y"				"0"
+			"team3_player_base_y"				"70"
+			"team3_player_delta_y"				"0"
+			"team4_player_base_y"				"0"
+			"team4_player_delta_x"				"50"
+			"team4_player_delta_y"				"0"
+		}
+
+		"Modeimage"
+		{
+			"controlname"	"ImagePanel"
+			"fieldname"		"Modeimage"
+			"xpos"			"cs-0.5"
+			"ypos"			"35"
+			"zpos"			"0"
+			"wide"			"60"
+			"tall"			"60"
+			"visible"		"1"
+			"enabled"		"1"
+			"image"			"competitive/competitive_logo_laurel"
+			"scaleimage"	"1"
+			"proportionaltoparent"	"1"
+
+			if_competitive
+			{
+				"visible"		"1"
+			}
+		}
+
+		"playerpanels_kv"
+		{
+			"visible"		"0"
+			"wide"			"48"
+			"tall"			"30"
+			"zpos"			"6"
+
+			"color_ready"		"0 255 0 220"
+			"color_notready"	"0 0 0 220"
+
+			"paintborder"			"1"
+			"paintbackground"		"1"
+
+			if_mvm
+			{
+			}
+
+			if_competitive
+			{
+				"wide"		"62"
+				"tall"		"37"
+			}
+
+			if_readymode
+			{
+			}
+
+			"playername"
+			{
+				"controlname"	"CExLabel"
+				"fieldname"		"playername"
+				"font"			"ScoreboardSmallest"
+				"fgcolor"		"GeneralLabel"
+				"proportionaltoparent"	"1"
+				"xpos"			"0"
+				"ypos"			"r7"
+				"zpos"			"5"
+				"wide"			"f0"
+				"tall"			"7"
+				"visible"		"1"
+				"labelText"		"%playername%"
+				"textAlignment"	"center"
+				"dropshadow"		"1"
+				"dropshadowoffset"	"1"
+				"bgcolor_override"	"HudShadowSolid"
+
+				if_competitive
+				{
+					"xpos"				"4"
+					"ypos"				"21"
+					"wide"				"p0.9"
+					"tall"				"p0.22"
+					"textAlignment"		"center"
+					"proportionaltoparent" "1"
+				}
+			}
+
+			"classimage"
+			{
+				"controlname"	"CTFClassimage"
+				"fieldname"		"classimage"
+				"proportionaltoparent" "1"
+				"xpos"			"2"
+				"ypos"			"2"
+				"zpos"			"2"
+				"wide"			"20"
+				"tall"			"20"
+				"visible"		"1"
+				"enabled"		"1"
+				"image"			"../hud/class_scoutred"
+				"scaleimage"	"1"
+				"fillcolor"		"Black"
+
+				if_mvm
+				{
+					"image"			"../vgui/hud_connecting"
+				}
+
+				if_competitive
+				{
+					"image"			"../vgui/hud_connecting"
+				}
+
+				if_readymode
+				{
+					"image"			"../vgui/hud_connecting"
+				}
+			}
+
+			"HealthIcon"
+			{
+				"controlname"		"EditablePanel"
+				"fieldname"			"HealthIcon"
+				"xpos"				"9"
+				"ypos"				"-14"
+				"zpos"				"3"
+				"wide"				"50"
+				"tall"				"50"
+				"visible"			"1"
+				"enabled"			"1"
+				"HealthBonusPosAdj"	"10"
+				"HealthDeathWarning"		"0.49"
+				"Font"					"Default"
+				"HealthDeathWarningColor"	"HealthWarning"
+				"TextColor"					"GeneralLabel"
+
+				if_competitive
+				{
+					"wide"			"p0.64"
+					"tall"			"p0.96"
+					"visible"		"1"
+					"proportionaltoparent" "1"
+				}
+			}
+
+			"ReadyBG"
+			{
+				"wide" "0"
+				"tall"	"0"
+			}
+
+			"ReadyBG1"
+			{
+				"controlname"	"EditablePanel"
+				"fieldname"		"ReadyBG1"
+				"xpos"			"29"
+				"ypos"			"6"
+				"zpos"			"-1"
+				"wide"			"12"
+				"tall"			"12"
+				"visible"		"0"
+				"enabled"		"1"
+				"paintbackground"	"1"
+				"bgcolor_override"	"HudShadowSolid"
+
+				if_mvm
+				{
+					"visible"		"1"
+				}
+
+				if_competitive
+				{
+					"xpos"			"28"
+					"ypos"			"5"
+					"wide"			"p0.3"
+					"tall"			"p0.45"
+					"proportionaltoparent" "1"
+					"visible"		"1"
+				}
+
+				if_readymode
+				{
+					"visible"		"1"
+				}
+			}
+
+			"Readyimage"
+			{
+				"controlname"		"ImagePanel"
+				"fieldname"		"Readyimage"
+				"xpos"			"29"
+				"ypos"			"6"
+				"zpos"			"3"
+				"wide"			"12"
+				"tall"			"12"
+				"visible"		"1"
+				"enabled"		"1"
+				"image"			"hud/checkmark"
+				"scaleimage"	"1"
+
+				if_mvm
+				{
+					"visible"		"1"
+				}
+
+				if_competitive
+				{
+					"xpos"			"30"
+					"ypos"			"7"
+					"wide"			"p0.21"
+					"tall"			"p0.34"
+					"proportionaltoparent" "1"
+					"visible"		"1"
+				}
+
+				if_readymode
+				{
+					"visible"		"1"
+				}
+			}
+
+			"respawntime"
+			{
+				"controlname"	"CExLabel"
+				"fieldname"		"respawntime"
+				"font"			"TF2DefaultSmall"
+				"fgcolor"		"GeneralLabel"
+				"xpos"			"24"
+				"ypos"			"0"
+				"zpos"			"5"
+				"wide"			"24"
+				"tall"			"6"
+				"visible"		"1"
+				"labelText"		"%respawntime%"
+				"textAlignment"	"center"
+				//"fgcolor"		"235 226 202 255"
+
+				if_competitive
+				{
+					"xpos"			"6"
+					"ypos"			"7.5"
+					"wide"			"p0.5"
+					"tall"			"p0.28"
+					"autoResize"	"1"
+					"proportionaltoparent" "1"
+				}
+			}
+
+			"chargeamount"
+			{
+				"controlname"	"CExLabel"
+				"fieldname"		"chargeamount"
+				"font"			"DefaultSmall"
+				"xpos"			"25"
+				"ypos"			"17"
+				"zpos"			"6"
+				"wide"			"25"
+				"tall"			"15"
+				"visible"		"1"
+				"labelText"		"%chargeamount%"
+				"textAlignment"	"north"
+				"fgcolor"		"0 255 0 255"
+
+				if_mvm
+				{
+					"visible"		"0"
+				}
+
+				if_competitive
+				{
+					"xpos"			"22"
+					"ypos"			"15"
+					"wide"			"p0.45"
+					"tall"			"p0.28"
+					"proportionaltoparent" "1"
+				}
+			}
+
+			"specindex"
+			{
+				"controlname"	"CExLabel"
+				"fieldname"		"specindex"
+				"font"			"DefaultVerySmall"
+				"xpos"			"0"
+				"ypos"			"-1"
+				"zpos"			"5"
+				"wide"			"50"
+				"tall"			"8"
+				"visible"		"1"
+				"labelText"		"%specindex%"
+				"textAlignment"	"north-west"
+				//"fgcolor"		"235 226 202 255"
+
+				if_competitive
+				{
+					"wide"			"p0.9"
+					"tall"			"p0.22"
+					"proportionaltoparent" "1"
+				}
+			}
+		}
+	}
+
+	"HudTournamentBG"
+	{
+		"wide" "0"
+	}
+
+	"HudTournamentBG1"
+	{
+		"controlname"		"EditablePanel"
+		"fieldname"		"HudTournamentBG1"
+		"xpos"			"cs-0.5"
+		"ypos"			"0"
+		"zpos"			"-1"
+		"wide"			"238"
+		"tall"			"46"
+		"visible"		"1"
+		"enabled"		"1"
+		"paintBackground"	"1"
+		"paintbackgroundtype"	"0"
+		"bgcolor_override"	"0 0 0 192"
+
+		if_mvm
+		{
+			"visible"	"0"
+		}
+
+		if_competitive
+		{
+			"xpos"		"cs-0.5"
+			"ypos"		"12"
+			"tall"		"20"
+			"visible"	"1"
+		}
+
+		if_readymode
+		{
+			"xpos"		"195"
+			"visible"	"0"
+		}
+		
+		if_over2team
+		{
+			"tall"	"56"
+		}
+	}
+
+	"TournamentLabel"
+	{
+		"controlname"		"Label"
+		"fieldname"		"TournamentLabel"
+		"font"			"HudFontSmall"
+		"fgcolor_override"		"GeneralLabel"
+		"xpos"			"cs-0.5"
+		"ypos"			"0"
+		"zpos"			"1"
+		"wide"			"240"
+		"tall"			"19"
+		"visible"		"1"
+		"enabled"		"1"
+		"wrap"			"0"
+		"labelText"		"%tournamentstatelabel%"
+		"textAlignment"		"center"
+		"proportionaltoparent"	"1"
+		"dropshadow"		"1"
+		"dropshadowoffset"	"2"
+
+		if_mvm
+		{
+			"visible"		"0"
+		}
+
+		if_competitive
+		{
+			"xpos"			"cs-0.5"
+			"visible"		"0"
+		}
+
+		if_readymode
+		{
+			"visible"		"0"
+		}	
+	}
+
+	"HudTournamentBLUEBG"
+	{
+		"controlname"		"ImagePanel"
+		"fieldname"		"HudTournamentBLUEBG"
+		"xpos"			"c-120"
+		"ypos"			"18"
+		"zpos"			"-1"
+		"wide"			"120"
+		"tall"			"16"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"..\darhud\square\square_blue"
+		"scaleimage"		"1"
+		"proportionaltoparent"	"1"
+
+		if_mvm
+		{
+			"visible"	"0"
+		}
+
+		if_readymode
+		{
+			"xpos"		"200"
+			"visible"	"0"
+		}
+		
+		if_over2team
+		{
+			"tall"	"26"
+		}
+		if_3team
+		{
+			"xpos"	"c-120"
+			"tall"	"25"
+			"wide"	"80"
+		}
+		if_4team
+		{
+			"xpos"	"c-120"
+			"wide"	"60"
+		}
+	}
+	"TournamentBLUELabel"
+	{
+		"controlname"		"Label"
+		"fieldname"		"TournamentBLUELabel"
+		"font"			"HudFontSmallestBold"
+		"fgcolor_override"	"GeneralLabel"
+		"xpos"			"c-120"
+		"ypos"			"18"
+		"zpos"			"1"
+		"wide"			"120"
+		"tall"			"16"
+		"visible"		"1"
+		"enabled"		"1"
+		"wrap"			"0"
+		"labelText"		"%bluenamelabel%"
+		"textAlignment"		"west"
+		"textinsetx"		"10"
+		"proportionaltoparent"	"1"
+		"dropshadow"		"1"
+		"dropshadowoffset"	"2"
+
+		if_mvm
+		{
+			"visible"	"0"
+		}
+
+		if_readymode
+		{
+			"xpos"		"207"
+			"visible"	"0"
+		}
+		
+		if_3team
+		{
+			"wide"	"80"
+			"textAlignment"	"west"
+		}
+		if_4team
+		{
+			"wide"	"60"
+		}
+	}
+	"TournamentBLUEStateLabel"
+	{
+		"controlname"		"Label"
+		"fieldname"		"TournamentBLUEStateLabel"
+		"font"			"HudFontSmallest"
+		"fgcolor_override"	"GeneralLabel"
+		"xpos"			"c-120"
+		"ypos"			"18"
+		"zpos"			"1"
+		"wide"			"120"
+		"tall"			"16"
+		"visible"		"1"
+		"enabled"		"1"
+		"wrap"			"0"
+		"labelText"		"%bluestate%"
+		"textAlignment"		"east"
+		"textinsetx"		"10"
+		"proportionaltoparent"	"1"
+		"dropshadow"		"1"
+		"dropshadowoffset"	"2"
+
+		if_mvm
+		{
+			"visible"	"0"
+		}
+
+		if_readymode
+		{
+			"xpos"		"251"
+			"visible"	"0"
+		}
+		
+		if_over2team
+		{
+			"ypos"			"28"
+			"textAlignment"	"west"
+		}
+		if_3team
+		{
+			"wide"	"80"
+		}
+		if_4team
+		{
+			"wide"	"60"
+		}
+	}
+
+	"HudTournamentREDBG"
+	{
+		"controlname"		"ImagePanel"
+		"fieldname"		"HudTournamentREDBG"
+		"xpos"			"c0"
+		"ypos"			"18"
+		"zpos"			"-1"
+		"wide"			"120"
+		"tall"			"16"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"..\darhud\square\square_red"
+		"scaleimage"		"1"
+		"proportionaltoparent"	"1"
+
+		if_mvm
+		{
+			"visible"	"0"
+		}
+
+		if_readymode
+		{
+			"xpos"		"320"
+			"visible"	"0"
+		}
+		
+		if_over2team
+		{
+			"tall"	"25"
+		}
+		if_3team
+		{
+			"xpos"	"c-40"
+			"wide"	"80"
+		}
+		if_4team
+		{
+			"xpos"	"c-60"
+			"wide"	"60"
+		}
+	}
+	"TournamentREDLabel"
+	{
+		"controlname"		"Label"
+		"fieldname"		"TournamentREDLabel"
+		"font"			"HudFontSmallestBold"
+		"fgcolor_override"	"GeneralLabel"
+		"xpos"			"c0"
+		"ypos"			"18"
+		"zpos"			"1"
+		"wide"			"120"
+		"tall"			"16"
+		"visible"		"1"
+		"enabled"		"1"
+		"wrap"			"0"
+		"labelText"		"%rednamelabel%"
+		"textAlignment"		"east"
+		"textinsetx"		"10"
+		"dropshadow"		"1"
+		"dropshadowoffset"	"2"
+
+		if_mvm
+		{
+			"visible"	"0"
+		}
+
+		if_readymode
+		{
+			"xpos"		"370"
+			"visible"	"0"
+		}
+		
+		if_over2team
+		{
+			"textAlignment"	"west"
+		}
+		if_3team
+		{
+			"wide"	"80"
+		}
+		if_4team
+		{
+			"wide"	"60"
+		}
+	}
+	"TournamentREDStateLabel"
+	{
+		"controlname"		"Label"
+		"fieldname"		"TournamentREDStateLabel"
+		"font"			"HudFontSmallest"
+		"fgcolor_override"	"GeneralLabel"
+		"xpos"			"c0"
+		"ypos"			"18"
+		"zpos"			"1"
+		"wide"			"120"
+		"tall"			"16"
+		"visible"		"1"
+		"enabled"		"1"
+		"wrap"			"0"
+		"labelText"		"%redstate%"
+		"textAlignment"		"west"
+		"textinsetx"		"10"
+		"dropshadow"		"1"
+		"dropshadowoffset"	"2"
+
+		if_mvm
+		{
+			"visible"	"0"
+		}
+
+		if_readymode
+		{
+			"xpos"		"325"
+			"visible"	"0"
+		}
+		
+		if_over2team
+		{
+			"textAlignment"	"west"
+		}
+		if_3team
+		{
+			"wide"	"80"
+		}
+		if_4team
+		{
+			"wide"	"60"
+		}
+	}
+
+	//these and the team count checks don't work so they're just hidden behind the blue and red ones
+	"HudTournamentGREENBG"
+	{
+		"controlname"		"ImagePanel"
+		"fieldname"		"HudTournamentGREENBG"
+		"xpos"			"c-120"
+		"ypos"			"18"
+		"zpos"			"-3"
+		"wide"			"120"
+		"tall"			"16"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"..\darhud\square\square_green"
+		"scaleimage"		"1"
+		"proportionaltoparent"	"1"
+
+		if_mvm
+		{
+			"visible"	"0"
+		}
+
+		if_readymode
+		{
+			"xpos"		"200"
+			"visible"	"0"
+		}
+		
+		if_over2team
+		{
+			"tall"	"25"
+		}
+		if_3team
+		{
+			"xpos"	"c40"
+			"wide"	"80"
+		}
+		if_4team
+		{
+			"xpos"	"c0"
+			"wide"	"60"
+		}
+	}
+	"TournamentGREENLabel"
+	{
+		"controlname"		"Label"
+		"fieldname"		"TournamentGREENLabel"
+		"font"			"HudFontSmallestBold"
+		"fgcolor_override"	"GeneralLabel"
+		"xpos"			"c-120"
+		"ypos"			"18"
+		"zpos"			"-2"
+		"wide"			"120"
+		"tall"			"16"
+		"visible"		"1"
+		"enabled"		"1"
+		"wrap"			"0"
+		"labelText"		"%greennamelabel%"
+		"textAlignment"		"west"
+		"proportionaltoparent"	"1"
+		"dropshadow"		"1"
+		"dropshadowoffset"	"2"
+
+		if_mvm
+		{
+			"visible"	"0"
+		}
+
+		if_readymode
+		{
+			"xpos"		"207"
+			"visible"	"0"
+		}
+		
+		if_over2team
+		{
+			"textAlignment"	"west"
+		}
+		if_3team
+		{
+			"wide"	"80"
+		}
+		if_4team
+		{
+			"wide"	"60"
+		}
+	}
+	"TournamentGREENStateLabel"
+	{
+		"controlname"		"Label"
+		"fieldname"		"TournamentGREENStateLabel"
+		"font"			"HudFontSmallest"
+		"fgcolor_override"	"GeneralLabel"
+		"xpos"			"c-120"
+		"ypos"			"18"
+		"zpos"			"-2"
+		"wide"			"120"
+		"tall"			"16"
+		"visible"		"1"
+		"enabled"		"1"
+		"wrap"			"0"
+		"labelText"		"%greenstate%"
+		"textAlignment"		"east"
+		"proportionaltoparent"	"1"
+		"dropshadow"		"1"
+		"dropshadowoffset"	"2"
+
+		if_mvm
+		{
+			"visible"	"0"
+		}
+
+		if_readymode
+		{
+			"xpos"		"251"
+			"visible"	"0"
+		}
+		
+		if_over2team
+		{
+			"textAlignment"	"west"
+		}
+		if_3team
+		{
+			"wide"	"80"
+		}
+		if_4team
+		{
+			"wide"	"60"
+		}
+	}
+
+	"HudTournamentYELLOWBG"
+	{
+		"controlname"		"ImagePanel"
+		"fieldname"		"HudTournamentYELLOWBG"
+		"xpos"			"c0"
+		"ypos"			"18"
+		"zpos"			"-3"
+		"wide"			"120"
+		"tall"			"16"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"..\darhud\square\square_yellow"
+		"scaleimage"		"1"
+		"proportionaltoparent"	"1"
+
+		if_mvm
+		{
+			"visible"	"0"
+		}
+
+		if_readymode
+		{
+			"xpos"		"320"
+			"visible"	"0"
+		}
+		
+		if_over2team
+		{
+			"tall"	"25"
+		}
+		if_3team
+		{
+			"wide"	"80"
+		}
+		if_4team
+		{
+			"xpos"	"c60"
+			"wide"	"60"
+		}
+	}
+	"TournamentYELLOWLabel"
+	{
+		"controlname"		"Label"
+		"fieldname"		"TournamentYELLOWLabel"
+		"font"			"HudFontSmallestBold"
+		"fgcolor_override"	"GeneralLabel"
+		"xpos"			"c0"
+		"ypos"			"18"
+		"zpos"			"-2"
+		"wide"			"120"
+		"tall"			"16"
+		"visible"		"1"
+		"enabled"		"1"
+		"wrap"			"0"
+		"labelText"		"%yellownamelabel%"
+		"textAlignment"		"east"
+		"textinsetx"		"10"
+		"dropshadow"		"1"
+		"dropshadowoffset"	"2"
+
+		if_mvm
+		{
+			"visible"		"0"
+		}
+
+		if_readymode
+		{
+			"xpos"			"370"
+			"visible"		"0"
+		}
+		
+		if_over2team
+		{
+			"textAlignment"	"west"
+		}
+		if_3team
+		{
+			"wide"	"80"
+		}
+		if_4team
+		{
+			"wide"	"60"
+		}
+	}
+	"TournamentYELLOWStateLabel"
+	{
+		"controlname"		"Label"
+		"fieldname"		"TournamentYELLOWStateLabel"
+		"font"			"HudFontSmallest"
+		"fgcolor_override"	"GeneralLabel"
+		"xpos"			"c0"
+		"ypos"			"18"
+		"zpos"			"-2"
+		"wide"			"120"
+		"tall"			"16"
+		"visible"		"1"
+		"enabled"		"1"
+		"wrap"			"0"
+		"labelText"		"%yellowstate%"
+		"textAlignment"		"west"
+		"textinsetx"		"10"
+		"dropshadow"		"1"
+		"dropshadowoffset"	"2"
+
+		if_mvm
+		{
+			"visible"		"0"
+		}
+
+		if_readymode
+		{
+			"xpos"			"325"
+			"visible"		"0"
+		}
+		
+		if_over2team
+		{
+			"textAlignment"	"west"
+		}
+		if_3team
+		{
+			"wide"	"80"
+		}
+		if_4team
+		{
+			"wide"	"60"
+		}
+	}
+	
+	"TournamentConditionLabel"
+	{
+		"controlname"		"CExLabel"
+		"fieldname"		"TournamentConditionLabel"
+		"font"			"TournamentSetupFont"
+		"fgcolor"		"GeneralLabel"
+		"xpos"			"cs-0.5"
+		"ypos"			"36"
+		"zpos"			"1"
+		"wide"			"238"
+		"tall"			"8"
+		"visible"		"1"
+		"enabled"		"1"
+		"wrap"			"0"
+		"labelText"		"%winconditions%"
+		"textAlignment"		"north-west"
+		"textinsetx"		"10"
+		"dropshadow"		"1"
+		"dropshadowoffset"	"2"
+
+		if_mvm
+		{
+			"visible"		"0"
+		}
+
+		if_competitive
+		{
+			"xpos"			"c-45"
+			"ypos"			"18"
+			"tall"			"35"
+			"visible"		"1"
+			"font"			"TFFontMedium"
+		}
+
+		if_readymode
+		{
+			"xpos"			"cs-0.5"
+			"textAlignment"	"center"
+			"font"			"HudFontSmall"
+			"ypos"			"18"
+			"tall"			"12"
+			"visible"		"1"
+		}
+		
+		if_over2team
+		{
+			"ypos"	"46"
+		}
+	}
+
+	"HudTournamentBGHelp"
+	{
+		"wide"			"0"
+		"tall"			"0"
+	}
+	"TournamentInstructionsLabel"
+	{
+		"controlname"		"CExLabel"
+		"fieldname"		"TournamentInstructionsLabel"
+		"font"			"TournamentSetupFont"
+		"fgcolor"		"GeneralLabel"
+		"xpos"			"cs-0.5"
+		"ypos"			"48"
+		"wide"			"250"
+		"tall"			"8"
+		"zpos"			"1"
+		"visible"		"1"
+		"enabled"		"1"
+		"wrap"			"0"
+		"labelText"		"%readylabel%"
+		"textAlignment"		"center"
+		"proportionaltoparent"	"1"
+		"dropshadow"		"1"
+		"dropshadowoffset"	"2"
+
+		if_mvm
+		{
+			"font"			"HudFontSmallishBold"
+			"ypos"			"105"
+			"wide"			"190"
+			"tall"			"20"
+			"zpos"			"3"
+		}
+
+		if_competitive
+		{
+			"font"			"HudFontSmallishBold"
+			"xpos"			"cs-0.5"
+			"ypos"			"110"
+			"wide"			"190"
+			"tall"			"20"
+			"zpos"			"3"
+		}
+
+		if_readymode
+		{
+			"font"			"HudFontSmallishBold"
+			"ypos"			"110"
+			"wide"			"190"
+			"tall"			"20"
+			"zpos"			"3"
+		}
+		
+		if_over2team
+		{
+			"ypos"	"58"
+		}
+	}
+	
+	"TournamentReadyHintIcon"
+	{
+		"controlname"	"CExLabel"
+		"fieldname"		"TournamentReadyHintIcon"
+		"font"			"GameUIButtonsSteamControllerSmallest"
+		"xpos"			"0"
+		"ypos"			"54"
+		"zpos"			"3"
+		"wide"			"40"
+		"tall"			"20"
+		"visible"		"0"
+		"enabled"		"0"
+		"labelText"		"Y"
+		"textAlignment"	"left"
+
+		if_mvm
+		{
+			"xpos"			"166"
+			"ypos"			"101"
+			"wide"			"190"
+			"tall"			"22"
+		}
+
+		if_competitive
+		{
+			"xpos"			"236"
+			"ypos"			"106"
+			"wide"			"190"
+			"tall"			"22"
+		}
+
+		if_readymode
+		{
+			"xpos"			"236"
+			"ypos"			"106"
+			"wide"			"190"
+			"tall"			"22"
+		}
+	}
+
+	"CountdownBG"
+	{
+		"controlname"			"ScalableImagePanel"
+		"fieldname"				"CountdownBG"
+		"wide"					"0"
+	}
+	"CountdownLabel"
+	{	
+		"controlname"	"CExLabel"
+		"fieldname"		"CountdownLabel"
+		"font"			"HudFontMediumBigBold"
+		"fgcolor"		"GeneralLabel"
+		"xpos"					"cs-0.5"
+		"ypos"					"cs-0.1"
+		"wide"					"100"
+		"tall"					"40"
+		"zpos"					"5"
+		"visible"				"0"
+		"enabled"				"1"
+		"labelText"				"%tournamentstatelabel%"
+		"textAlignment"			"center"
+		"proportionaltoparent"		"1"
+		"dropshadow"				"1"
+		"dropshadowoffset"		"3"
+
+		if_readymode
+		{
+			"ypos"			"130"
+		}
+		if_mvm
+		{
+			"ypos"			"130"
+		}
+	}
+	
+	"CountdownLabelShadow"
+	{	
+		"controlname"	"CExLabel"
+		"fieldname"		"CountdownLabelShadow"
+		"wide"					"0"
+		"tall"					"0"
+		"visible"				"0"
+	}
+}

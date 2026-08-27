@@ -1,4 +1,4 @@
 "Patch"
 {
-	include "materials\darhud\meter_red.vmt"
+	include "materials\darhud\meter\meter_red.vmt"
 }

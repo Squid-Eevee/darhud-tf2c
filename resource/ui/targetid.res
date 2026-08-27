@@ -1,335 +1,349 @@
 "."
 {
-	"TargetIDBG"
+	"CMainTargetID"
 	{
-		"ControlName"		"CTFImagePanel"
-		"fieldName"			"TargetIDBG"
-		"xpos"				"0"
-		"ypos"				"12"
-		"zpos"				"-10"
-		"wide"				"f0"
-		"tall"	 			"480"
-		"visible"			"1"
-		"enabled"			"1"
-		"image"				"../darhud/square_neutral"
-		"scaleImage"		"1"
-		"teambg_0"			"../darhud/square_neutral"
-		"teambg_1"			"../darhud/square_spectator"
-		"teambg_2"			"../darhud/square_red"
-		"teambg_3"			"../darhud/square_blue"
-		"teambg_4"			"../darhud/square_green"
-		"teambg_5"			"../darhud/square_yellow"
-	}
-
-	"TargetIDBG_Spec_Blue"
-	{
-		"ControlName"		"CTFImagePanel"
-		"fieldName"			"TargetIDBG_Spec_Blue"
-		"xpos"				"0"
-		"ypos"				"12"
-		"zpos"				"-10"
-		"wide"				"f0"
-		"tall"	 			"35"
-		"visible"			"0"
-		"enabled"			"1"
-		"image"				"../darhud/square_blue"
-	}
-
-	"TargetIDBG_Spec_Red"
-	{
-		"ControlName"		"CTFImagePanel"
-		"fieldName"			"TargetIDBG_Spec_Red"
-		"xpos"				"0"
-		"ypos"				"12"
-		"zpos"				"-10"
-		"wide"				"f0"
-		"tall"	 			"36"
-		"visible"			"0"
-		"enabled"			"1"
-		"image"				"../darhud/square_red"
-	}
-
-	"TargetIDBGShadow"
-	{
-		"ControlName"			"ImagePanel"
-		"fieldName"			"TargetIDBGShadow"
-		"pin_to_sibling"		"TargetIDBG"
-		"pin_corner_to_sibling"	"pin_topright"
-		"pin_to_sibling_corner"	"pin_topright"
-		"xpos"				"0"
-		"ypos"				"-11"
-		"zpos"				"2"
-		"proportionaltoparent"	"1"
-		"wide"				"99999"
-		"tall"	 			"2"
-		"visible"			"1"
-		"enabled"			"1"
-		"fillcolor"			"GeneralShadow"
+		"LeftSideOffsetX"		"6"
+		"HealthOffsetX"		"-4"
+		"ArmorOffsetX"		"0"
+		"AvatarOffsetX"		"2"
+		"MedalOffsetX"		"2"
+		"NameOffsetX"			"2"
+		"RightSideOffsetX"	"6"
+	
+		"NameOnlyOffsetY"		"0"
+	
+		// Set to same value (other than 0) to keep at set length (auto adjusts otherwise)
+		"MinimumBGWidth"		"0"
+		"MaximumBGWidth"		"0"
 	}
 	
-	"MedalImage"
-	{	
-		"ControlName"	"ImagePanel"
-		"fieldName"		"MedalImage"
-		"xpos"			"2"
-		"ypos"			"4"
-		"zpos"			"1"
-		"wide"			"10"
-		"tall"			"20"
-		"visible"		"0"
-		"enabled"		"1"
-		"image"			"../hud/medal_tester_red"
-		"scaleImage"	"1"
+	"CSecondaryTargetID"
+	{
+		"LeftSideOffsetX" 	"6"
+		"HealthOffsetX"		"-4"
+		"ArmorOffsetX"		"0"
+		"AvatarOffsetX"		"2"
+		"MedalOffsetX"		"2"
+		"NameOffsetX"			"2"
+		"RightSideOffsetX"	"6"
+	
+		"NameOnlyOffsetY" 	"0"
+	
+		// Set to same value (other than 0) to keep at set length (auto adjusts otherwise)
+		"MinimumBGWidth"			"0"
+		"MaximumBGWidth"			"0"
 	}
 
-	"TargetNameLabel"
-	{	
-		"ControlName"	"Label"
-		"fieldName"		"TargetNameLabel"
-		"font"			"HudFontSmallest"
-		"xpos"			"0"
-		"ypos"			"11"
-		"zpos"			"3"
-		"wide"			"640"
-		"tall"			"14"
-		"autoResize"		"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"0"
-		"labelText"		"%targetname%"
-		"textAlignment"		"west"
-		"disabledfgcolor2_override" "GeneralLabel"
+	"CSpectatorTargetID"
+	{
+		"LeftSideOffsetX" 	"6"
+		"HealthOffsetX"		"-4"
+		"ArmorOffsetX"		"0"
+		"AvatarOffsetX"		"2"
+		"MedalOffsetX"		"2"
+		"NameOffsetX"			"2"
+		"RightSideOffsetX"	"6"
+	
+		"NameOnlyOffsetY" 	"0"
+	
+		// Set to same value (other than 0) to keep at set length (auto adjusts otherwise)
+		"MinimumBGWidth"		"0"
+		"MaximumBGWidth"		"0"
 	}
-
-	"TargetNameLabelShadow"
-	{	
-		"ControlName"	"Label"
-		"fieldName"		"TargetNameLabelShadow"
-		"font"			"HudFontSmallest"
-		"pin_to_sibling" "TargetNameLabel"
-		"pin_corner_to_sibling" "PIN_TOPLEFT"
-		"pin_to_sibling_corner" "PIN_TOPLEFT"
-		"xpos"			"-1"
-		"ypos"			"-1"
-		"zpos"			"2"
-		"wide"			"640"
-		"tall"			"14"
-		"autoResize"		"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"0"
-		"labelText"		"%targetname%"
-		"textAlignment"		"west"
-		"disabledfgcolor2_override" "GeneralShadow"
+	
+	"TargetIDBG"
+	{
+		"controlname"			"CTFImagePanel"
+		"fieldname"			"TargetIDBG"
+		"proportionaltoparent"	"1"
+		
+		"xpos"				"0"
+		"ypos"				"7"
+		"zpos"				"0"
+		
+		"wide"				"f0"
+		"tall"	 			"12"
+		
+		"image"				"..\darhud\square\square_neutral"
+		"teambg_0"			"..\darhud\square\square_neutral"
+		"teambg_1"			"..\darhud\square\square_spectator"
+		"teambg_2"			"..\darhud\square\square_red"
+		"teambg_3"			"..\darhud\square\square_blue"
+		"teambg_4"			"..\darhud\square\square_green"
+		"teambg_5"			"..\darhud\square\square_yellow"
+		"scaleimage"			"1"
+		
+		"visible"			"1"
 	}
-
-	"TargetDataLabel"
-	{	
-		"ControlName"	"Label"
-		"fieldName"		"TargetDataLabel"
-		"font"			"DefaultVerySmallShadow"
-		"fgcolor"		"GeneralLabel"
-		"xpos"			"0"
-		"ypos"			"4"
-		"zpos"			"-11"
-		"wide"			"640"
-		"tall"			"9"
-		"autoResize"		"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"0"
-		"textinsetx"		"4"
-		"labelText"		"%targetdata%"
-		"textAlignment"		"west"
-		"disabledfgcolor2_override" "GeneralLabel"
+	"TargetIDBGShadow"
+	{
+		"controlname"				"ImagePanel"
+		"fieldname"				"TargetIDBGShadow"
+		"proportionaltoparent"		"1"
+		
+		"pin_to_sibling"			"TargetIDBG"
+		"pin_corner_to_sibling"	"pin_topright"
+		"pin_to_sibling_corner"	"pin_topright"
+		
+		"xpos"					"0"
+		"ypos"					"-2"
+		"zpos"					"-1"
+		
+		"wide"					"f0"
+		"tall"	 				"12"
+		
+		"image"					"..\darhud\square\square_shadow"
+		"scaleimage"				"1"
+		
+		"visible"				"1"
 	}
 
 	"SpectatorGUIHealth"
 	{
-		"ControlName"		"EditablePanel"
-		"fieldName"		"SpectatorGUIHealth"
-		"xpos"			"8"
-		"ypos"			"-2"
-		"zpos" 			"1"
-		"wide"			"31"
-		"tall"			"40"
-		"visible"		"0"
-		"enabled"		"0"	
-		"HealthBonusPosAdj"	"10"
-		"HealthDeathWarning"	"0.49"
-		"TFFont"		"HudFontSmall"
+		"controlname"				"EditablePanel"
+		"fieldname"				"SpectatorGUIHealth"
+		
+		"xpos"					"0"
+		"ypos"					"0"
+		"zpos" 					"1"
+		
+		"wide"					"26"
+		"tall"					"26"
+		
+		"HealthBonusPosAdj"		"10"
+		"HealthDeathWarning"		"0.49"
+		"TFFont"					"HudFontSmall"
 		"HealthDeathWarningColor"	"HealthWarning"
-		"TextColor"		"HealthNormal"
+		"TextColor"				"HealthNormal"
+		
+		"visible"				"0"
+	}
+	"SpectatorGUIArmor"
+	{
+		"controlname"		"EditablePanel"
+		"fieldname"		"SpectatorGUIArmor"
+		
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos" 			"1"
+		
+		"wide"			"26"
+		"tall"			"26"
+		
+		"visible"		"0"
 	}
 	
-	"AmmoIcon"
+	"AvatarImage"
 	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"AmmoIcon"
-		"xpos"			"43"
-		"ypos"			"4"
-		"zpos"			"12"
-		"wide"			"8"
-		"tall"			"8"
-		"visible"		"0"
-		"enabled"		"1"
-		"image"			"../hud/leaderboard_class_heavy"
-		"scaleImage"	"1"
+		"controlname"		"CAvatarImagePanel"
+		"fieldname"		"AvatarImage"
+		
+		"xpos"			"0"
+		"ypos"			"5"
+		"zpos"			"11"
+		
+		"wide"			"16"
+		"tall"			"16"
+		
+		"image"			""
+		"scaleimage"		"1"
+		
+		"visible"		"1"
+	}
+	
+	"Medalimage"
+	{	
+		"controlname"	"ImagePanel"
+		"fieldname"	"Medalimage"
+		
+		"xpos"		"0"
+		"ypos"		"3"
+		"zpos"		"1"
+		
+		"wide"		"11"
+		"tall"		"22"
+		
+		"image"		"../hud/medal_tester_red"
+		"scaleimage"	"1"
+		
+		"dropshadow"	"1"
+		"dropshadowoffset"	"2"
+		
+		"visible"	"0"
 	}
 
-	"KillStreakAnchor"
-	{
-		"ControlName"		"EditablePanel"
-		"fieldName"			"KillStreakAnchor"
-		"xpos"				"-6"
-		"ypos"				"5"
-		"wide"				"8"
-		"tall"				"8"
+	"TargetNameLabel"
+	{	
+		"controlname"			"Label"
+		"fieldname"			"TargetNameLabel"
+		
+		"xpos"				"0"
+		"ypos"				"7"
+		"zpos"				"1"
+		
+		"wide"				"640"
+		"tall"				"12"
+		
+		"labelText"			"%targetname%"
+		"font"				"HudFontSmallest"
+		"textAlignment"		"west"
+		
+		"fgcolor_override" 	"GeneralLabel"
+		
+		"dropshadow"			"1"
+		"dropshadowoffset"	"2"
+		
 		"visible"			"1"
 		"enabled"			"1"
 	}
-	
-	"KillStreakIcon"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"KillStreakIcon"
-		"xpos"			"0"
-		"ypos"			"1"
-		"zpos"			"12"
-		"wide"			"8"
-		"tall"			"8"
-		"visible"		"8"
-		"enabled"		"1"
-		"image"			"../hud/leaderboard_streak"
-		"scaleImage"	"1"
 
-		"pin_to_sibling"		"KillStreakAnchor"
-		"pin_corner_to_sibling" "PIN_TOPRIGHT"
-		"pin_to_sibling_corner" "PIN_TOPRIGHT"
+	"TargetDataLabel"
+	{	
+		"controlname"			"Label"
+		"fieldname"			"TargetDataLabel"
+		
+		"xpos"				"0"
+		"ypos"				"0"
+		"zpos"				"1"
+		
+		"wide"				"640"
+		"tall"				"9"
+		
+		"labelText"			"%targetdata%"
+		"font"				"TargetDataFont"
+		"textAlignment"		"north-west"
+		
+		"fgcolor_override"	"GeneralLabel"
+		
+		"dropshadow"			"1"
+		"dropshadowoffset"	"1"
+		
+		"visible"			"1"
+		"enabled"			"1"
 	}
-	
+
 	"MoveableSubPanel"
 	{
-		"ControlName"		"EditablePanel"
-		"fieldName"		"MoveableSubPanel"
+		"controlname"		"EditablePanel"
+		"fieldname"		"MoveableSubPanel"
+		
 		"xpos"			"0"
-		"ypos"			"8"
-		"zpos"			"-11"
-		"wide"			"0"
-		"tall"			"18"
+		"ypos"			"0"
+		"zpos"			"0"
+		
+		"wide"			"34"
+		"tall"			"35"
+		
 		"visible"		"1"
-		"enabled"		"1"	
+		
+		if_hidekeybinds
+		{
+			"wide"	"32"
+		}
 		
 		"Background"
 		{
-			"ControlName"	"CTFImagePanel"
-			"fieldName"	"Background"
-			"xpos"		"8"
+			"controlname"	"CTFImagePanel"
+			"fieldname"	"Background"
+			
+			"xpos"		"5"
 			"ypos"		"0"
+			"zpos"		"0"
+			
 			"wide"		"34"
 			"tall"		"24"
+			
+			"image"		"..\darhud\square\square_shadow"
+			"scaleimage"	"1"
+			
 			"visible"	"1"
-			"enabled"	"1"
-			"image"				"../darhud/square_shadow"
-			"scaleImage"		"1"
-		}
-		"Shadow"
-		{
-			"ControlName"			"ImagePanel"
-			"fieldName"			"Shadow"
-			"pin_to_sibling"		"Background"
-			"pin_corner_to_sibling"	"pin_topleft"
-			"pin_to_sibling_corner"	"pin_topleft"
-			"xpos"				"0"
-			"ypos"				"-23"
-			"zpos"				"2"
-			"proportionaltoparent"	"1"
-			"wide"				"34"
-			"tall"	 			"2"
-			"visible"			"1"
-			"enabled"			"1"
-			"fillcolor"			"GeneralShadow"
+			
+			if_hidekeybinds
+			{
+				"wide"	"27"
+			}
 		}
 		
 		"MoveableIconBG"
 		{
-			"ControlName"	"CIconPanel"
-			"fieldName"		"MoveableIconBG"
-			"xpos"			"3"
-			"ypos"			"10"
-			"zpos"			"0"
-			"wide"			"0"
-			"tall"			"0"
-			"visible"		"0"
-			"enabled"		"0"
-			"icon"			"obj_status_alert_background_tall_nocolor"
-			"iconColor"		"HudBlack"
-			"scaleImage"	"1"
+			"controlname"	"CIconPanel"
+			"fieldname"	"MoveableIconBG"
+			
+			"xpos"		"-1"
+			"ypos"		"0"
+			"zpos"		"0"
+			
+			"wide"		"37"
+			"tall"		"35"
+			
+			"icon"		"obj_status_alert_background_nocolor"
+			"scaleimage"	"1"
+			"iconColor"	"HudBlack"
+			
+			"visible"	"0"
+			
+			if_hidekeybinds
+			{
+				"xpos"	""
+				
+				"wide"	"29"
+				
+				"icon"	"obj_status_alert_background_tall_nocolor"
+			}
+			
 		}
 		
 		"MoveableIcon"
 		{
-			"ControlName"	"CIconPanel"
-			"fieldName"		"MoveableIcon"
-			"xpos"			"0"
-			"ypos"			"0"
-			"zpos"			"11"
-			"wide"			"10"
-			"tall"			"10"
-			"visible"		"0"
-			"enabled"		"0"
-			"icon"			"obj_status_sentrygun_1"
-			"drawcolor"		"ProgressOffWhite"
-			"scaleImage"	"1"
+			"controlname"	"ImagePanel"
+			"fieldname"	"MoveableIcon"
+			
+			"xpos"		"11"
+			"ypos"		"0"
+			"zpos"		"1"
+			
+			"wide"		"18"
+			"tall"		"o1"
+			
+			"image"		"resource/svgs/engineer/hud_obj_status_haul.svg"
+			"scaleimage"	"1"
+			
+			"dropshadow"	"1"
+			
+			"drawcolor"	"AdditionalIcon"
+			
+			"visible"	"1"
+			
+			if_hidekeybinds
+			{
+				"xpos"	"7"
+				"ypos"	"0"
+				
+				"wide"	"24"
+			}
 		}
-
+		
 		"MoveableKeyLabel"
 		{	
-			"ControlName"		"Label"
-			"fieldName"		"MoveableKeyLabel"
-			"font"			"DefaultVerySmallShadow"
-			"xpos"			"0"
-			"ypos"			"16"
-			"zpos"			"1"
-			"wide"			"50"
-			"tall"			"12"
-			"autoResize"		"0"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"labelText"		"%movekey%"
-			"textAlignment"	"center"
-		}
-		"MoveableSymbolIcon"
-		{
-			"ControlName"		"ImagePanel"
-			"fieldName"		"MoveableSymbolIcon"
-			"pin_to_sibling"	"movekey"
-			"xpos"			"0"
-			"ypos"			"0"
-			"zpos"			"12"
-			"wide"			"10"
-			"tall"			"5"
-			"visible"		"1"
-			"enabled"		"1"
-			"image"			"../hud/eng_sel_item_movable"
-			"drawcolor"		"ProgressOffWhite"
-			"scaleImage"	"1"
-		}
+			"controlname"			"Label"
+			"fieldname"			"MoveableKeyLabel"
+			
+			"xpos"				"3"
+			"ypos"				"16"
+			"zpos"				"1"
+			"wide"				"34"
+			"tall"				"24"
+			
+			"labelText"			"%movekey%"
+			"font"				"TargetDataFont"
+			"textAlignment"		"north"
+			"allcaps"			"1"
+			
+			"dropshadow"			"1"
+			"dropshadowoffset"	"1"
+			
+			"visible"			"1"
+			"enabled"			"1"
+		}	
 	}
-	"AvatarImage"
-	{
-		"ControlName"	"CAvatarImagePanel"
-		"fieldName"		"AvatarImage"
-		"xpos"			"0"
-		"ypos"			"12"
-		"zpos"			"11"
-		"wide"			"11"
-		"tall"			"11"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			""
-		"scaleImage"	"1"	
-		"color_outline"	"255 255 255 255"
-	}	
 }

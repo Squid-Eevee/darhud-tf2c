@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture"	"vgui\achievements\tf_soldier_kill_spy_killer"
+	"$vertexcolor"	"1"
+	"$vertexalpha"	"1"
+}

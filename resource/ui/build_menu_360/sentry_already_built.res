@@ -10,11 +10,6 @@
 	
 	"BuildingIcon"	
 	{
-		"icon"			"obj_status_sentrygun_1"
-	}
-	
-	"NumberLabel"
-	{	
-		"labelText"		"1"
+		"image"			"resource/svgs/engineer/hud_obj_status_sentry_1.svg"
 	}
 }

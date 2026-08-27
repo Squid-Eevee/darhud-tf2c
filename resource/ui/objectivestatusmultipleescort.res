@@ -2,8 +2,8 @@
 {	
 	"ObjectiveStatusMultipleEscort"
 	{
-		"ControlName"		"EditablePanel"
-		"fieldName"			"ObjectiveStatusMultipleEscort"
+		"controlname"		"EditablePanel"
+		"fieldname"			"ObjectiveStatusMultipleEscort"
 		"xpos"				"0"
 		"ypos"				"0"
 		"wide"				"f0"
@@ -14,103 +14,137 @@
 	
 	"BlueEscortPanel"
 	{
-		"ControlName"		"CTFHudEscort"
-		"fieldName"			"BlueEscortPanel"
-		"xpos"				"c-200"
-		"ypos"				"r165"
+		"controlname"		"CTFHudEscort"
+		"fieldname"			"BlueEscortPanel"
+		"proportionaltoparent"	"1"
+		"xpos"				"cs-0.5"
+		"ypos"				"r130"
 		"zpos"				"1"
-		"wide"				"400"
-		"tall"				"200"
+		"wide"				"220"
+		"tall"				"116"
 		"visible"			"1"
 		"enabled"			"1"
 		"progress_xpos"		"79"
 		"progress_wide"		"270"
 		
-		"if_fourteams"
+		"if_over2team"
 		{
-			"xpos"				"c-300"
-			"xpos_minmode"		"c-230"
+			"xpos"			"cs-0.95"
+			"wide"			"180"
+			"wide_minmode"	"152"
 		}
 		
 		"if_blue_is_top"
 		{
-			"ypos"				"r180"
+			"ypos"				"r145"
+			
+			"if_3team"
+			{
+				"xpos"			"cs-0.5"
+				"wide"			"220"
+			}
 		}
 	}
 
 	"RedEscortPanel"
 	{
-		"ControlName"		"CTFHudEscort"
-		"fieldName"			"RedEscortPanel"
-		"xpos"				"c-200"
-		"ypos"				"r165"
+		"controlname"		"CTFHudEscort"
+		"fieldname"			"RedEscortPanel"
+		"proportionaltoparent"	"1"
+		"xpos"				"cs-0.5"
+		"ypos"				"r130"
 		"zpos"				"1"
-		"wide"				"400"
-		"tall"				"200"
+		"wide"				"220"
+		"tall"				"116"
 		"visible"			"1"
 		"enabled"			"1"
-		"progress_xpos"		"75"
+		"progress_xpos"		"0"
 		"progress_wide"		"270"
 		
-		"if_fourteams"
+		"if_over2team"
 		{
-			"xpos"				"c-300"
-			"xpos_minmode"		"c-230"
+			"xpos"			"cs-0.95"
+			"wide"			"180"
+			"wide_minmode"	"152"
 		}
 		
 		"if_red_is_top"
 		{
-			"ypos"				"r180"
+			"ypos"				"r145"
+			
+			"if_3team"
+			{
+				"xpos"			"cs-0.5"
+				"wide"			"220"
+			}
 		}
 	}
 	
 	"GreenEscortPanel"
 	{
-		"ControlName"		"CTFHudEscort"
-		"fieldName"			"GreenEscortPanel"
-		"xpos"				"c-200"
-		"ypos"				"r165"
+		"controlname"		"CTFHudEscort"
+		"fieldname"			"GreenEscortPanel"
+		"proportionaltoparent"	"1"
+		"xpos"				"cs-0.5"
+		"ypos"				"r130"
 		"zpos"				"1"
-		"wide"				"400"
-		"tall"				"200"
+		"wide"				"220"
+		"tall"				"116"
 		"visible"			"1"
 		"enabled"			"1"
 		"progress_xpos"		"79"
 		"progress_wide"		"270"
 		
-		"if_fourteams"
+		"if_over2team"
 		{
-			"xpos"				"c-95"
+			"xpos"			"cs-0.05"
+			"wide"			"180"
+			"wide_minmode"	"152"
 		}
 		
 		"if_green_is_top"
 		{
-			"ypos"				"r180"
+			"ypos"				"r145"
+			
+			"if_3team"
+			{
+				"xpos"			"cs-0.5"
+				"wide"			"220"
+			}
 		}
 	}
 
 	"YellowEscortPanel"
 	{
-		"ControlName"		"CTFHudEscort"
-		"fieldName"			"YellowEscortPanel"
-		"xpos"				"c-200"
-		"ypos"				"r165"
+		"controlname"		"CTFHudEscort"
+		"fieldname"			"YellowEscortPanel"
+		"proportionaltoparent"	"1"
+		"xpos"				"cs-0.5"
+		"ypos"				"r130"
 		"zpos"				"1"
-		"wide"				"400"
-		"tall"				"200"
+		"wide"				"220"
+		"tall"				"116"
 		"visible"			"1"
 		"enabled"			"1"
 		"progress_xpos"		"75"
 		"progress_wide"		"270"
 		
-		"if_fourteams"
+		"if_over2team"
 		{
-			"xpos"				"c-95"
+			"xpos"			"cs-0.05"
+			"wide"			"180"
+			"wide_minmode"	"152"
 		}
 		
 		"if_yellow_is_top"
 		{
-			"ypos"				"r180"
+			"ypos"				"r145"
+			
+			"if_3team"
+			{
+				"xpos"			"cs-0.5"
+				"wide"			"220"
+			}
 		}
 	}
 }

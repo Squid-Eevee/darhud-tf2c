@@ -1,9 +1,0 @@
-"Patch"
-{
-	include "materials\darhud\base_shadow.vmt"
-	
-	insert
-	{
-		"$basetexture"		"darhud/ctf/compass_shadow_mask"
-	}
-}
