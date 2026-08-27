@@ -2,40 +2,52 @@
 {
 	"OptionPanel"
 	{
-		"controlname"		"EditablePanel"
-		"fieldname"		"OptionPanel"
-		"style"			"OptionsGeneralOption"
-		"tall"		"104"
+		"controlname"	"EditablePanel"
+		"fieldname"	"OptionPanel"
+		
+		"style"		"OptionsGeneralOption"
+		
+		"tall"		"124"
 	}
 	
 	"DescLabel"
 	{
-		"controlname"		"Label"
-		"fieldname"		"DescLabel"
-		"xpos"		"0"
-		"ypos"		"0"
-		"wide"		"0"
-		"tall"		"0"
-		"visible"	"0"
+		"controlname"			"Label"
+		"fieldname"			"DescLabel"
 		"proportionaltoparent"	"1"
-		"labelText"		"%desc%"
+		
+		"xpos"				"0"
+		"ypos"				"0"
+		
+		"wide"				"0"
+		"tall"				"0"
+		
+		"labelText"			"%desc%"
+		
+		"visible"			"0"
 	}
 	
 	"StyleLabel"
 	{
-		"controlname"		"Label"
-		"fieldname"		"StyleLabel"
-		"xpos"		"0"
-		"ypos"		"-2"
-		"wide"		"p0.4"
-		"tall"		"20"
-		"visible"	"1"
-		"proportionaltoparent"	"1"
-		"labelText"		"#GameUI_CrosshairDescription"
-		"style"			"OptionsLabel"
-		"pin_to_sibling"	"Indent"
+		"controlname"				"Label"
+		"fieldname"				"StyleLabel"
+		"proportionaltoparent"		"1"
+		
+		"style"					"OptionsLabel"
+		
+		"pin_to_sibling"			"Indent"
 		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
-		"pin_corner_to_sibling" "PIN_TOPLEFT"
+		"pin_corner_to_sibling"	"PIN_TOPLEFT"
+		
+		"xpos"					"0"
+		"ypos"					"-2"
+		
+		"wide"					"p0.4"
+		"tall"					"20"
+		
+		"labelText"				"#GameUI_CrosshairDescription"
+		
+		"visible"				"1"
 	}
 
 	"RedLabel"
@@ -92,6 +104,24 @@
 		"pin_corner_to_sibling" "PIN_TOPLEFT"
 	}
 	
+	"AlphaLabel"
+	{
+		"ControlName"		"Label"
+		"fieldName"		"AlphaLabel"
+		"xpos"		"0"
+		"ypos"		"0"
+		"wide"		"p0.4"
+		"tall"		"20"
+		"visible"	"1"
+		"proportionalToParent"	"1"
+		"labelText"		"#GameUI_CrosshairAlpha"
+		
+		"style"			"OptionsLabel"
+		"pin_to_sibling"	"GreenLabel"
+		"pin_to_sibling_corner"	"PIN_BOTTOMLEFT"
+		"pin_corner_to_sibling" "PIN_TOPLEFT"
+	}
+	
 	"ScaleLabel"
 	{
 		"controlname"		"Label"
@@ -105,7 +135,7 @@
 		"labelText"		"#GameUI_CrosshairScale"
 		
 		"style"			"OptionsLabel"
-		"pin_to_sibling"	"GreenLabel"
+		"pin_to_sibling"	"AlphaLabel"
 		"pin_to_sibling_corner"	"PIN_BOTTOMLEFT"
 		"pin_corner_to_sibling" "PIN_TOPLEFT"
 	}
@@ -130,7 +160,7 @@
 		"fieldname"		"CrosshairList"
 		"xpos"		"10"
 		"ypos"		"0"
-		"wide"		"160"
+		"wide"		"190"
 		"tall"		"20"
 		"proportionaltoparent"	"1"
 		
@@ -146,8 +176,8 @@
 
 	"RedSlider"
 	{
-		"controlname"		"Slider"
-		"fieldname"		"RedSlider"
+		"ControlName"		"Slider"
+		"fieldName"		"RedSlider"
 		"xpos"		"0"
 		"ypos"		"0"
 		"wide"		"160"
@@ -155,7 +185,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"		"1"
-		"proportionaltoparent"	"1"
+		"proportionalToParent"	"1"
 		
 		"pin_to_sibling"			"CrosshairList"
 		"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -183,8 +213,8 @@
 	
 	"BlueSlider"
 	{
-		"controlname"		"Slider"
-		"fieldname"		"BlueSlider"
+		"ControlName"		"Slider"
+		"fieldName"		"BlueSlider"
 		"xpos"		"0"
 		"ypos"		"0"
 		"wide"		"160"
@@ -192,7 +222,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"		"1"
-		"proportionaltoparent"	"1"
+		"proportionalToParent"	"1"
 		
 		"pin_to_sibling"			"RedSlider"
 		"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -220,8 +250,8 @@
 	
 	"GreenSlider"
 	{
-		"controlname"		"Slider"
-		"fieldname"		"GreenSlider"
+		"ControlName"		"Slider"
+		"fieldName"		"GreenSlider"
 		"xpos"		"0"
 		"ypos"		"0"
 		"wide"		"160"
@@ -229,7 +259,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"		"1"
-		"proportionaltoparent"	"1"
+		"proportionalToParent"	"1"
 		
 		"pin_to_sibling"			"BlueSlider"
 		"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -255,10 +285,10 @@
 		"pin_to_sibling_corner"	"pin_topleft"
 	}
 	
-	"ScaleSlider"
+	"AlphaSlider"
 	{
-		"controlname"		"Slider"
-		"fieldname"		"ScaleSlider"
+		"ControlName"		"Slider"
+		"fieldName"		"AlphaSlider"
 		"xpos"		"0"
 		"ypos"		"0"
 		"wide"		"160"
@@ -266,7 +296,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"		"1"
-		"proportionaltoparent"	"1"
+		"proportionalToParent"	"1"
 		
 		"pin_to_sibling"			"GreenSlider"
 		"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -290,5 +320,137 @@
 		"pin_to_sibling"		"TextEntry"
 		"pin_corner_to_sibling"	"pin_topright"
 		"pin_to_sibling_corner"	"pin_topleft"
+	}
+	
+	"ScaleSlider"
+	{
+		"ControlName"		"Slider"
+		"fieldName"		"ScaleSlider"
+		"xpos"		"0"
+		"ypos"		"0"
+		"wide"		"160"
+		"tall"		"20"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"		"1"
+		"proportionalToParent"	"1"
+		
+		"pin_to_sibling"			"AlphaSlider"
+		"pin_corner_to_sibling"		"PIN_TOPLEFT"
+		"pin_to_sibling_corner"		"PIN_BOTTOMLEFT"
+		
+		"topoffset"		"5"
+		"thumbwidth"	"6"
+		"thumbheight"	"14"
+		"insetheight"	"6"
+		
+		"tickwidth"	"2"
+		"tickheight" "4"
+		
+		"sliderborder"	"OptionsSliderNubBorder"
+		"insetBorder"	"OptionsSliderNubBorder"
+		
+		"trackcolor_override"	"0 0 0 0"
+		"fgcolor_override"		"0 0 0 0"
+		"tickcolor_override"	"MainText"
+		
+		"pin_to_sibling"		"TextEntry"
+		"pin_corner_to_sibling"	"pin_topright"
+		"pin_to_sibling_corner"	"pin_topleft"
+	}
+	
+	"RedTextEntry"
+	{
+		"ControlName"				"TextEntry"
+		"fieldName"				"RedTextEntry"
+		
+		"style"					"OptionsTextEntry"
+		
+		"pin_to_sibling"			"RedSlider"
+		"pin_corner_to_sibling"	"PIN_TOPLEFT"
+		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
+		
+		"xpos"					"0"
+		"ypos"					"0"
+		"wide"					"p0.05"
+		"tall"					"16"
+		
+		"textAlignment"			"center"
+	}
+	
+	"BlueTextEntry"
+	{
+		"ControlName"				"TextEntry"
+		"fieldName"				"BlueTextEntry"
+		
+		"style"					"OptionsTextEntry"
+		
+		"pin_to_sibling"			"BlueSlider"
+		"pin_corner_to_sibling"	"PIN_TOPLEFT"
+		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
+		
+		"xpos"					"0"
+		"ypos"					"0"
+		"wide"					"p0.05"
+		"tall"					"16"
+		
+		"textAlignment"			"center"
+	}
+	
+	"GreenTextEntry"
+	{
+		"ControlName"				"TextEntry"
+		"fieldName"				"GreenTextEntry"
+		
+		"style"					"OptionsTextEntry"
+		
+		"pin_to_sibling"			"GreenSlider"
+		"pin_corner_to_sibling"	"PIN_TOPLEFT"
+		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
+		
+		"xpos"					"0"
+		"ypos"					"0"
+		"wide"					"p0.05"
+		"tall"					"16"
+		
+		"textAlignment"			"center"
+	}
+	
+	"AlphaTextEntry"
+	{
+		"ControlName"				"TextEntry"
+		"fieldName"				"AlphaTextEntry"
+		
+		"style"					"OptionsTextEntry"
+		
+		"pin_to_sibling"			"AlphaSlider"
+		"pin_corner_to_sibling"	"PIN_TOPLEFT"
+		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
+		
+		"xpos"					"0"
+		"ypos"					"0"
+		"wide"					"p0.05"
+		"tall"					"16"
+		
+		"textAlignment"			"center"
+	}
+	
+	"ScaleTextEntry"
+	{
+		"ControlName"				"TextEntry"
+		"fieldName"				"ScaleTextEntry"
+		
+		"style"					"OptionsTextEntry"
+		
+		"pin_to_sibling"			"ScaleSlider"
+		"pin_corner_to_sibling"	"PIN_TOPLEFT"
+		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
+		
+		"xpos"					"0"
+		"ypos"					"0"
+		"wide"					"p0.05"
+		"tall"					"16"
+		
+		"textAlignment"			"center"
 	}
 }

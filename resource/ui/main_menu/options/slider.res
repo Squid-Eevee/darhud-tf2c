@@ -3,56 +3,62 @@
 	"OptionPanel"
 	{
 		"controlname"	"EditablePanel"
-		"fieldname"		"OptionPanel"
-		"style"			"OptionsGeneralOption"
+		"fieldname"	"OptionPanel"
+		
+		"style"		"OptionsGeneralOption"
 	}
 	
 	"DescLabel"
 	{
-		"controlname"		"Label"
-		"fieldname"		"DescLabel"
-		"style"			"OptionsLabel"
-		"xpos"		"0"
-		"ypos"		"0"
-		"wide"		"p0.6"
-		"tall"		"f0"
+		"controlname"				"Label"
+		"fieldname"				"DescLabel"
 		
-		"pin_to_sibling"	"Indent"
+		"style"					"OptionsLabel"
+		
+		"pin_to_sibling"			"Indent"
 		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
-		"pin_corner_to_sibling" "PIN_TOPLEFT"
+		"pin_corner_to_sibling"	"PIN_TOPLEFT"
+		
+		"xpos"					"0"
+		"ypos"					"0"
+		
+		"wide"					"p0.6"
+		"tall"					"f0"
 	}
 
 	"Slider"
 	{
-		"controlname"		"Slider"
-		"fieldname"		"Slider"
-		"xpos"		"0"
-		"ypos"		"0"
-		"wide"		"p0.25"
-		"tall"		"f0"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"		"1"
-		"proportionaltoparent"	"1"
+		"controlname"				"Slider"
+		"fieldname"				"Slider"
+		"proportionaltoparent"		"1"
 		
-		"topoffset"		"5"
-		"thumbwidth"	"6"
-		"thumbheight"	"14"
-		"insetheight"	"6"
-		
-		"tickwidth"	"2"
-		"tickheight" "4"
-		
-		"sliderborder"	"OptionsSliderNubBorder"
-		"insetBorder"	"OptionsSliderNubBorder"
-		
-		"trackcolor_override"	"0 0 0 0"
-		"fgcolor_override"		"0 0 0 0"
-		"tickcolor_override"	"MainText"
-		
-		"pin_to_sibling"		"TextEntry"
+		"pin_to_sibling"			"TextEntry"
 		"pin_corner_to_sibling"	"pin_topright"
 		"pin_to_sibling_corner"	"pin_topleft"
+		
+		"xpos"					"0"
+		"ypos"					"0"
+		
+		"wide"					"p0.25"
+		
+		"topoffset"				"5"
+		"thumbwidth"				"6"
+		"thumbheight"				"14"
+		"insetheight"				"6"
+		
+		"tickwidth"				"2"
+		"tickheight" 			"4"
+		
+		"sliderborder"			"OptionsSliderNubBorder"
+		"insetBorder"				"OptionsSliderNubBorder"
+		
+		"trackcolor_override"		"0 0 0 0"
+		"fgcolor_override"		"0 0 0 0"
+		"tickcolor_override"		"MainText"
+		
+		"tall"					"f0"
+		"visible"				"1"
+		"enabled"				"1"
 		
 	}
 	
@@ -60,23 +66,13 @@
 	{
 		"controlname"		"TextEntry"
 		"fieldname"		"TextEntry"
-		"xpos"		"rs1"
-		"ypos"		"cs-0.5"
-		"wide"		"p0.05"
-		"tall"		"f4"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"		"1"
-		"proportionaltoparent"	"1"
-		"roundedcorners"	"0"
 		
-		"bgcolor_override"	"ListingItems"
+		"style"			"OptionsTextEntry"
 		
-		"font"			"SubmenuTextEntry"
-		"FgColor_override"	"MainText"
+		"xpos"			"rs1"
+		"ypos"			"cs-0.5"
 		
-		"dropshadow"	"1"
-		"dropshadowoffset"	"2"
-		"textAlignment" "center"
+		"wide"			"p0.05"
+		"textAlignment"	"center"
 	}
 }

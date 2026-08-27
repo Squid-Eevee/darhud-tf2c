@@ -2,36 +2,44 @@
 {
 	"ItemSelectionPanel"
 	{
-		"controlname"	"EditablePanel"
-		"fieldname"		"ItemSelectionPanel"
-		"xpos"			"0"
-		"ypos"			"82"
-		"zpos"			"10"
-		"wide"			"f0"
-		"tall"			"338"
-		"visible"		"1"
-		"enabled"		"1"
-		"settitlebarvisible"	"0"
-		"bgcolor_override"	"LoadoutBackground"
+		"controlname"					"EditablePanel"
+		"fieldname"					"ItemSelectionPanel"
+		
+		"xpos"						"0"
+		"ypos"						"82"
+		"zpos"						"4"
+		
+		"wide"						"f0"
+		"tall"						"338"
+		
+		"settitlebarvisible"			"0"
+		
+		"bgcolor_override"			"LoadoutBackground"
 		
 		"item_ypos"					"60"
 		"item_ydelta"					"80"
+		
 		"item_backpack_offcenter_x"	"-288"
 		"item_backpack_xdelta"			"4"
 		"item_backpack_ydelta"			"3"
+		
+		"visible"					"1"
 
 		"modelpanels_selection_kv"
 		{
 			"wide"			"576"
 			"tall"			"64"
+			
 			"model_xpos"		"2"
 			"model_wide"		"100"
 			"model_tall"		"70"
 			"model_center_x"	"0"
+			
 			"text_ypos"		"0"
 			"text_forcesize"	"1"
 			"text_center"		"1"
 			"text_yoffset"	"2"
+			
 			"inset_eq_x"		"519"
 			"inset_eq_y"		"50"
 
@@ -40,16 +48,15 @@
 		}
 		"modelpanels_kv"
 		{
-			"controlname"	"CItemModelPanel"
-			"xpos"			"c-70"
-			"ypos"			"270"
-			"wide"			"54"
-			"tall"			"42"
-			"visible"		"0"
-			"bgcolor_override"		"0 0 0 0"
-			"noitem_textcolor"		"117 107 94 255"
+			"controlname"			"CItemModelPanel"
+			"xpos"				"c-70"
+			"ypos"				"270"
+			"wide"				"54"
+			"tall"				"42"
+			"bgcolor_override"	"0 0 0 0"
+			"noitem_textcolor"	"117 107 94 255"
 			"PaintBackgroundType"	"2"
-			"paintborder"	"1"
+			"paintborder"			"1"
 			
 			"model_xpos"	"2"
 			"model_ypos"	"0" 
@@ -59,19 +66,21 @@
 			"text_center"	"1"
 			"name_only"		"1"
 			
+			"use_item_sounds"	"1"
+			"use_item_sounds_alt"	"1"
+			
 			"inset_eq_x"	"4"
 			"inset_eq_y"	"2"
 
 			"deferred_description"	"1"
+			
+			"visible"			"0"
 			
 			"itemmodelpanel"
 			{
 				"use_item_rendertarget" "0"
 				"allow_rot"				"0"
 			}
-			
-			"use_item_sounds"	"1"
-			"use_item_sounds_alt"	"1"
 		}
 		"duplicatelabels_kv"
 		{

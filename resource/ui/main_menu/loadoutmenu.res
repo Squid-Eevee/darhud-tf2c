@@ -35,7 +35,7 @@
 			
 			"xpos"				"c150"
 			"ypos"				"270"
-			"zpos"				"3"
+			"zpos"				"1"
 			
 			"wide"				"140"
 			"tall"				"66"
@@ -50,7 +50,7 @@
 			"model_ypos"			"5"			
 			"model_tall"			"55"
 			"model_wide"			"82"
-			"text_ypos"			"54"
+			"text_ypos"			"53"
 			"text_center"			"1"
 			"name_only"			"1"
 			
@@ -133,7 +133,7 @@
 		
 		"xpos"				"0"
 		"ypos"				"80"
-		"zpos"				"5"
+		"zpos"				"1"
 		
 		"wide"				"f0"
 		"tall"				"2"
@@ -175,7 +175,7 @@
 		
 		"xpos"				"c-275"
 		"ypos"				"95"
-		"zpos"				"6"
+		"zpos"				"1"
 		
 		"wide"				"500"
 		"tall"				"30"
@@ -202,7 +202,7 @@
 		
 		"xpos"			"c-275"
 		"ypos"			"125"
-		"zpos"			"6"
+		"zpos"			"1"
 		
 		"wide"			"199"
 		"tall"			"10"
@@ -222,7 +222,7 @@
 		
 		"xpos"			"c-300"
 		"ypos"			"13"
-		"zpos"			"2"
+		"zpos"			"1"
 		
 		"wide"			"600"
 		"tall"			"60"
@@ -241,8 +241,6 @@
 			
 			"wide"						"60"
 			"tall"						"60"
-			
-			"labelText" 				""
 			
 			"image_armedcolor"		"ButtonArmedMM"
 			"image_depressedcolor"		"ButtonDepressedMM"
@@ -390,7 +388,7 @@
 		
 		"xpos"			"c-276"
 		"ypos"			"132"
-		"zpos"			"2"
+		"zpos"			"1"
 		
 		"wide"			"120"
 		"tall"			"30"
@@ -493,7 +491,7 @@
 		
 		"xpos"			"c-155"
 		"ypos"			"134"
-		"zpos"			"1"
+		"zpos"			"2"
 		"wide"			"310"
 		"tall"			"270"
 		
@@ -633,7 +631,7 @@
 		
 		"xpos"		"c-155"
 		"ypos"		"134"
-		"zpos"		"0"
+		"zpos"		"1"
 		
 		"wide"		"310"
 		"tall"		"270"
@@ -654,7 +652,7 @@
 		
 		"xpos"				"0"
 		"ypos"				"0"
-		"zpos"				"2"
+		"zpos"				"3"
 		
 		"wide"				"310"
 		"tall"				"270"
@@ -673,7 +671,7 @@
 		
 		"xpos"				"0"
 		"ypos"				"420"
-		"zpos"				"5"
+		"zpos"				"2"
 		
 		"wide"				"f0"
 		"tall"				"2"
@@ -690,7 +688,7 @@
 		
 		"xpos"				"0"
 		"ypos"				"rs1"
-		"zpos"				"2"
+		"zpos"				"1"
 		
 		"wide"				"f0"
 		"tall"				"p0.095"

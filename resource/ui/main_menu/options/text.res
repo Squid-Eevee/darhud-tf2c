@@ -26,18 +26,11 @@
 	{
 		"controlname"		"TextEntry"
 		"fieldname"		"TextEntry"
-		"xpos"		"rs1"
-		"ypos"		"cs-0.5"
-		"wide"		"p0.3"
-		"tall"		"f4"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"		"1"
-		"proportionaltoparent"	"1"
-		"bgcolor_override"	"ListingItems"
-		"font"			"SubmenuTextEntry"
-		"FgColor_override"	"MainText"
-		"dropshadow"	"1"
-		"dropshadowoffset"	"2"
+		
+		"style"			"OptionsTextEntry"
+		
+		"xpos"			"rs1"
+		"ypos"			"cs-0.5"
+		"wide"			"p0.3"
 	}
 }

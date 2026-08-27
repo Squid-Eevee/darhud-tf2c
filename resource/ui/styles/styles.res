@@ -403,6 +403,29 @@
 		}
 	}
 	
+	"OptionsTextEntry"
+	{
+		"proportionaltoparent"	"1"
+		
+		"tall"				"f4"
+		
+		"roundedcorners"		"0"
+		
+		"bgcolor_override"	"ListingItems"
+		
+		"font"				"SubmenuTextEntry"
+		"textAlignment"		"east"
+		"textinsetx"			"2"
+		
+		"FgColor_override"	"MainText"
+		
+		"dropshadow"			"1"
+		"dropshadowoffset"	"2"
+		
+		"visible"			"1"
+		"enabled"			"1"
+	}
+	
 	"MainMenuFrame"
 	{
 		"Header"
