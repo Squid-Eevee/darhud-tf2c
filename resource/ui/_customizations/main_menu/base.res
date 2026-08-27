@@ -89,7 +89,6 @@
 		"bgcolor_override"	"MainMenuBackground"
 		
 		"visible"			"1"
-		"enabled"			"1"
 	}
 	"VerticalBGLeft"
 	{
@@ -116,7 +115,6 @@
 		"FadeAlphaEnd"			"255"
 		
 		"visible"				"1"
-		"enabled"				"1"
 	}
 	
 	"VerticalBGRight"
@@ -143,7 +141,6 @@
 		"FadeAlphaEnd"			"0"
 		
 		"visible"				"1"
-		"enabled"				"1"
 	}
 
 	"LogoContainer"
@@ -305,6 +302,7 @@
 			"if_inlevel"
 			{
 				"ypos"	"8"
+				
 				"tall"	"25"
 			}
 		}
@@ -357,6 +355,7 @@
 			{
 				"xpos"	"8"
 				"ypos"	"8"
+				
 				"tall"	"25"
 			}
 		}
@@ -427,8 +426,8 @@
 			{
 				"xpos"			"0"
 				"ypos"			"0"
+				
 				"font"			"MainMenuNameFontSmall"
-				"textAlignment"	"west"
 			}
 		}
 
@@ -468,6 +467,7 @@
 			{
 				"navUp"		"DisconnectButton"
 				"navLeft"	"CallVoteButton"
+				
 				"visible"	"1"
 			}
 
@@ -540,6 +540,7 @@
 			"Subimage"
 			{
 				"xpos"	"6"
+				
 				"wide"	"f9"
 				"tall"	"f9"
 			}
@@ -818,11 +819,6 @@
 			"border_selected"			"DarHudMMSplitButtonEndDepressed"
 			"border_depressed"		"DarHudMMSplitButtonEndDepressed"
 			
-			"Subimage"
-			{
-				"xpos"	"6"
-			}
-			
 			"if_inlevel"
 			{
 				"pin_to_sibling"	"ServerBrowserButton"
@@ -830,6 +826,11 @@
 				"navUp" 			"ResumeButton"
 				"navLeft"		"ServerBrowserButton"
 				"navRight"		"ServerBrowserButton"
+			}
+			
+			"Subimage"
+			{
+				"xpos"	"6"
 			}
 		}
 		"CreateServerButtonShadow"
@@ -1123,15 +1124,15 @@
 			"border_disabled"			"DarHudMMSplitButtonEndReverseDisabled"
 			
 			"enabled"				"0"
-
-			"Subimage"
-			{
-				"xpos"	"5"
-			}
 			
 			"if_inlevel"
 			{
 				"navRight"	"OptionsButton"
+			}
+
+			"Subimage"
+			{
+				"xpos"	"5"
 			}
 		}
 		"AddonsButtonShadow"
