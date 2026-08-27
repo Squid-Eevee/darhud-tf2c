@@ -28,6 +28,7 @@ Scheme
 	
 		"GreenTF2C"				"126 192 63 255"
 		"OrangeTF2C"				"251 176 59 255"
+		"OrangeTF2CDarker"		"225 143 44 255"
 		"BlueTF2C"				"41 171 226 255"
 		"YellowTF2C"				"229 195 22 255"
 		"RedTF2C"				"255 76 76 255"
