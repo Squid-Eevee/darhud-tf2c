@@ -1612,7 +1612,6 @@
 			"wide"			"40"
 			"tall"			"16"
 			
-			"visible"		"0"
 			"labelText"		""
 			"tooltiptext"		"#TF_Menu_HideFriends"
 			"command"		"hide"
@@ -1620,6 +1619,8 @@
 			"sound_released"	"UI/slide_up.wav"
 			
 			"image_default"	"resource/svgs/mainmenu/icon_friend_off.svg"
+			
+			"visible"		"0"
 			
 			"Subimage"
 			{

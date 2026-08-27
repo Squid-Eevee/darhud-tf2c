@@ -396,6 +396,7 @@
 		"textAlignment"	"center"
 		"actionsignallevel"	"2"
 		"Command"		"tf2c_loadout_grid 0"
+		"tooltiptext"		"#dar_loadout_list"
 		
 		"image_default"	"resource/svgs/mainmenu/icon_hamburger.svg"
 		"stayselectedonclick"	"1"
@@ -436,6 +437,7 @@
 		"textAlignment"	"center"
 		"actionsignallevel"	"2"
 		"Command"		"tf2c_loadout_grid 1"
+		"tooltiptext"		"#dar_loadout_grid"
 		
 		"image_default"	"resource/svgs/mainmenu/icon_bento.svg"
 		"stayselectedonclick"	"1"

@@ -2,61 +2,69 @@
 {		
 	"CTF2CLoadoutMenu"
 	{
-		"controlname"		"EditablePanel"
-		"fieldname"		"CTF2CLoadoutMenu"
-		"xpos"			"0"
-		"ypos"			"0"
-		"wide"			"f0"
-		"tall"			"f0"
-		"visible"		"1"
-		"enabled"		"1"
-		"border"			""
+		"controlname"					"EditablePanel"
+		"fieldname"					"CTF2CLoadoutMenu"
 		
-		"item_xpos_offcenter_a"	"150"
-		"item_ypos"		"245"
-		"item_ydelta"	"75"
-		"item_mod_wide"	"40"
+		"xpos"						"0"
+		"ypos"						"0"
 		
-		"item_backpack_offcenter_x"		"-288"
+		"wide"						"f0"
+		"tall"						"f0"
+		
+		"border"						""
+		
+		"item_xpos_offcenter_a"		"160"
+		"item_ypos"					"270"
+		"item_ydelta"					"68"
+		"item_mod_wide"				"40"
+		
+		"item_backpack_offcenter_x"	"-288"
 		"item_backpack_xdelta"			"4"
 		"item_backpack_ydelta"			"3"
 
-		"button_xpos_offcenter"	"175"		
-		"button_ypos"	"85"
-		"button_ydelta"	"80"
-		"button_override_delete_xpos" "0"
+		"button_xpos_offcenter"		"175"
+		"button_ypos"					"85"
+		"button_ydelta"				"80"
+		"button_override_delete_xpos"	"0"
+		
+		"visible"					"1"
 		
 		"modelpanels_kv"
 		{
-			"controlname"	"CItemModelPanel"
-			"xpos"			"c150"
-			"ypos"			"270"
-			"zpos"			"3"
-			"wide"			"140"
-			"tall"			"70"
-			"visible"		"0"
-			"bgcolor_override"		"0 0 0 0"
-			"noitem_textcolor"		"117 107 94 255"
-			"PaintBackgroundType"	"2"
-			"paintborder"	"1"
+			"controlname"			"CItemModelPanel"
 			
-			"model_center_x"	"1"
-			"model_ypos"		"5"			
-			"model_tall"		"55"
-			"model_wide"		"82"
+			"xpos"				"c150"
+			"ypos"				"270"
+			"zpos"				"3"
+			
+			"wide"				"140"
+			"tall"				"66"
+			
+			"noitem_textcolor"	"117 107 94 255"
+			
+			"PaintBackgroundType"	"1"
+			"bgcolor_override"	"0 0 0 0"
+			"paintborder"			"1"
+			
+			"model_center_x"		"1"
+			"model_ypos"			"5"			
+			"model_tall"			"55"
+			"model_wide"			"82"
 			"text_ypos"			"54"
-			"text_center"		"1"
+			"text_center"			"1"
 			"name_only"			"1"
+			
+			"visible"			"0"
 			
 			"attriblabel"
 			{
-				"font"			"ItemFontAttribLarge"
-				"visible"		"0"
+				"font"	"ItemFontAttribLarge"
+				"visible"	"0"
 			}
 			
 			"itemmodelpanel"
 			{
-				"use_item_rendertarget" "0"
+				"use_item_rendertarget"	"0"
 				"allow_rot"				"0"
 			}
 			
@@ -68,243 +76,304 @@
 	{
 		"controlname"			"EditablePanel"
 		"fieldname"			"BackgroundPanel"
+		
 		"xpos"				"-32"
 		"ypos"				"80"
 		"zpos"				"0"
+		
 		"wide"				"f-64"
 		"tall"				"f-64"
-		"scaleimage"			"1"
+		
 		"bgcolor_override"	"LoadoutBackground"
+		
 		"visible"			"1"
-		"enabled"			"1"
 	}
 	
 	"BackgroundHeader"
 	{
 		"controlname"	"ImagePanel"
-		"fieldname"		"BackgroundHeader"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"-2"
-		"wide"			"f0"
-		"tall"			"80"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"../darhud/mainmenu/striped_pattern"
-		"drawcolor"		"BackgroundDefault"
-		"tileimage"		"1"
+		"fieldname"	"BackgroundHeader"
+		
+		"xpos"		"0"
+		"ypos"		"0"
+		"zpos"		"-2"
+		
+		"wide"		"f0"
+		"tall"		"80"
+		
+		"image"		"../darhud/mainmenu/striped_pattern"
+		"tileimage"	"1"
+		"drawcolor"	"BackgroundDefault"
+		
+		"visible"	"1"
 	}
 	
 	"BackgroundHeaderBP"
 	{
-		"controlname"	"ImagePanel"
-		"fieldname"		"BackgroundHeaderBP"
-		"xpos"			"c-310"
-		"ypos"			"4"
-		"zpos"			"-1"
-		"wide"			"620"
-		"tall"			"78"
-		"visible"		"1"
-		"enabled"		"1"
-		"border"		"LoadoutTabBorder"
-		"tileimage"		"1"
-		"FillColor"		"LoadoutBackground"
+		"controlname"			"EditablePanel"
+		"fieldname"			"BackgroundHeaderBP"
+		
+		"xpos"				"c-310"
+		"ypos"				"4"
+		"zpos"				"-1"
+		
+		"wide"				"620"
+		"tall"				"78"
+		
+		"bgcolor_override"	"LoadoutBackground"
+		"border"				"LoadoutTabBorder"
+		
+		"visible"			"1"
 	}
 	
 	"HeaderLine"
 	{
-		"controlname"	"EditablePanel"
-		"fieldname"		"HeaderLine"
-		"xpos"			"0"
-		"ypos"			"80"
-		"zpos"			"5"
-		"wide"			"f0"
-		"tall"			"2"
-		"visible"		"1"
-		"enabled"		"1"
+		"controlname"			"EditablePanel"
+		"fieldname"			"HeaderLine"
+		
+		"xpos"				"0"
+		"ypos"				"80"
+		"zpos"				"5"
+		
+		"wide"				"f0"
+		"tall"				"2"
+		
 		"bgcolor_override"	"ButtonMM"
-		"scaleimage"	"1"
+		
+		"visible"			"1"
 	}
 
 	"LeftCaratLabel"
 	{
-		"controlname"		"CExLabel"
+		"controlname"			"CExLabel"
 		"fieldname"			"LeftCaratLabel"
-		"font"				"HudFontSmallestBold"
-		"labelText"			">>"
-		"textAlignment"		"west"
+		
 		"xpos"				"c-290"
 		"ypos"				"104"
 		"zpos"				"1"
+		
 		"wide"				"20"
 		"tall"				"15"
-		"autoResize"		"1"
-		"pinCorner"			"0"
-		"visible"			"1"
-		"enabled"			"1"
+		
+		"labelText"			">>"
+		"font"				"HudFontSmallestBold"
+		"textAlignment"		"west"
+		
 		"fgcolor_override"	"200 80 60 255"
+		
 		"dropshadow"			"1"
 		"dropshadowoffset"	"2"
+		
+		"visible"			"1"
+		"enabled"			"1"
 	}
 
 	"ClassLabel"
 	{
-		"controlname"		"CExLabel"
+		"controlname"			"CExLabel"
 		"fieldname"			"ClassLabel"
+		
 		"xpos"				"c-275"
 		"ypos"				"95"
 		"zpos"				"6"
+		
 		"wide"				"500"
 		"tall"				"30"
-		"autoResize"		"0"
-		"pinCorner"			"0"
+		
+		"labelText"			"%loadoutclass%"
+		"font"				"HudFontBiggerBold"
+		"textAlignment"		"west"
+		
+		"fgcolor"			"MainMenuLabel"
+		
+		"mouseinputenabled"	"0"
+		
+		"dropshadow"			"1"
+		"dropshadowoffset"	"3"
+		
 		"visible"			"1"
 		"enabled"			"1"
-		"labelText"			"%loadoutclass%"
-		"textAlignment"		"west"
-		"font"				"HudFontBiggerBold"
-		"fgcolor"			"MainMenuLabel"
-		"dropshadow"		"1"
-		"dropshadowoffset"	"3"
-		"mouseinputenabled"	"0"
 	}
 	
 	"TopLine"
 	{
 		"controlname"		"ImagePanel"
-		"fieldname"			"TopLine"
-		"xpos"				"c-275"
-		"ypos"				"125"
-		"zpos"				"6"
-		"wide"				"199"
-		"tall"				"10"
-		"visible"			"1"
-		"enabled"			"1"
-		"image"				"loadout_dotted_line"
-		"drawcolor"			"132 121 107 255"
-		"tileimage"			"1"
+		"fieldname"		"TopLine"
+		
+		"xpos"			"c-275"
+		"ypos"			"125"
+		"zpos"			"6"
+		
+		"wide"			"199"
+		"tall"			"10"
+		
+		"image"			"loadout_dotted_line"
+		"tileimage"		"1"
 		"tileVertically"	"0"
+		"drawcolor"		"132 121 107 255"
+		
+		"visible"		"1"
 	}
 	
 	"classselection"
 	{
 		"controlname"		"RadioButtonGroup"
-		"fieldname"			"classselection"
-		"xpos"				"c-300"
-		"ypos"				"13"
-		"zpos"				"2"
-		"wide"				"650"
-		"tall"				"60"
-		"visible"			"1"
-		"enabled"			"1"
-		"bordervisible"		"0"
-		"fire_commands"		"1"
+		"fieldname"		"classselection"
+		
+		"xpos"			"c-300"
+		"ypos"			"13"
+		"zpos"			"2"
+		
+		"wide"			"600"
+		"tall"			"60"
+		
+		"bordervisible"	"0"
+		
+		"fire_commands"	"1"
+		
+		"visible"		"1"
+		"enabled"		"1"
 		
 		"radiobutton_kv"
 		{
 			"ypos"						"0"
 			"zpos"						"3"
+			
 			"wide"						"60"
 			"tall"						"60"
-			"visible"					"1"
-			"enabled"					"1"
+			
 			"labelText" 				""
-			"image_armedcolor"		"OrangeTF2C"
-			"image_depressedcolor"		"OrangeTF2C"
-			"image_selectedcolor"		"OrangeTF2C"
-			"image_padding"				"2"
+			
+			"image_armedcolor"		"ButtonArmedMM"
+			"image_depressedcolor"		"ButtonDepressedMM"
+			"image_selectedcolor"		"ButtonMM"
+			"image_padding"			"2"
 		
 			"sound_armed"		"ui/buttonrollover.wav"
 			"sound_depressed"	"ui/buttonclick.wav"
 			"sound_released"	"ui/buttonclickrelease.wav"
+			
+			"visible"					"1"
+			"enabled"					"1"
 		}
 		
 		"Scout"
 		{
-			"controlname"	"imageRadioButton"
-			"fieldname"		"Scout"
-			"command"		"selectclass scout"
+			"controlname"	"ImageRadioButton"
+			"fieldname"	"Scout"
+			
+			"xpos"		"0"
+			
+			"command"	"selectclass scout"
+			
 			"image" 		"resource/svgs/classicons/scout.svg"
 		}
 
 		"Soldier"
 		{
-			"controlname"	"imageRadioButton"
-			"fieldname"		"Soldier"
-			"xpos"			"60"
-			"command"		"selectclass soldier"
+			"controlname"	"ImageRadioButton"
+			"fieldname"	"Soldier"
+			
+			"xpos"		"60"
+			
+			"command"	"selectclass soldier"
+			
 			"image" 		"resource/svgs/classicons/soldier.svg"
 		}
 
 		"Pyro"
 		{
-			"controlname"	"imageRadioButton"
-			"fieldname"		"Pyro"
-			"xpos"			"120"
-			"command"		"selectclass pyro"
+			"controlname"	"ImageRadioButton"
+			"fieldname"	"Pyro"
+			
+			"xpos"		"120"
+			
+			"command"	"selectclass pyro"
+			
 			"image" 		"resource/svgs/classicons/pyro.svg"
 		}
 		
 		"Demoman"
 		{
-			"controlname"	"imageRadioButton"
-			"fieldname"		"Demoman"
-			"xpos"			"180"
-			"command"		"selectclass demo"
+			"controlname"	"ImageRadioButton"
+			"fieldname"	"Demoman"
+			
+			"xpos"		"180"
+			
+			"command"	"selectclass demo"
+			
 			"image" 		"resource/svgs/classicons/demo.svg"
 		}
 
 		"Heavy"
 		{
-			"controlname"	"imageRadioButton"
-			"fieldname"		"Heavy"
-			"xpos"			"240"
-			"command"		"selectclass heavy"
+			"controlname"	"ImageRadioButton"
+			"fieldname"	"Heavy"
+			
+			"xpos"		"240"
+			
+			"command"	"selectclass heavy"
+			
 			"image" 		"resource/svgs/classicons/heavy.svg"
 		}
 
 		"Engineer"
 		{
-			"controlname"	"imageRadioButton"
-			"fieldname"		"Engineer"
-			"xpos"			"300"
-			"command"		"selectclass engineer"
+			"controlname"	"ImageRadioButton"
+			"fieldname"	"Engineer"
+			
+			"xpos"		"300"
+			
+			"command"	"selectclass engineer"
+			
 			"image" 		"resource/svgs/classicons/engineer.svg"
 		}
 
 		"Medic"
 		{
-			"controlname"	"imageRadioButton"
-			"fieldname"		"Medic"
-			"xpos"			"360"
-			"command"		"selectclass medic"
+			"controlname"	"ImageRadioButton"
+			"fieldname"	"Medic"
+			
+			"xpos"		"360"
+			
+			"command"	"selectclass medic"
+			
 			"image" 		"resource/svgs/classicons/medic.svg"
 		}
 
 		"Sniper"
 		{
-			"controlname"	"imageRadioButton"
-			"fieldname"		"Sniper"
-			"xpos"			"420"
-			"command"		"selectclass sniper"
+			"controlname"	"ImageRadioButton"
+			"fieldname"	"Sniper"
+			
+			"xpos"		"420"
+			
+			"command"	"selectclass sniper"
+			
 			"image" 		"resource/svgs/classicons/sniper.svg"
 		}
 
 		"Spy"
 		{
-			"controlname"	"imageRadioButton"
-			"fieldname"		"Spy"
-			"xpos"			"480"
-			"command"		"selectclass spy"
+			"controlname"	"ImageRadioButton"
+			"fieldname"	"Spy"
+			
+			"xpos"		"480"
+			
+			"command"	"selectclass spy"
+			
 			"image" 		"resource/svgs/classicons/spy.svg"
 		}
 
 		"Civilian"
 		{
-			"controlname"	"imageRadioButton"
-			"fieldname"		"Civilian"
-			"xpos"			"540"
-			"command"		"selectclass civilian"
+			"controlname"	"ImageRadioButton"
+			"fieldname"	"Civilian"
+			
+			"xpos"		"540"
+			
+			"command"	"selectclass civilian"
+			
 			"image" 		"resource/svgs/classicons/civilian.svg"
 		}
 	}
@@ -316,142 +385,159 @@
 	"teamselection"
 	{
 		"controlname"		"RadioButtonGroup"
-		"fieldname"			"teamselection"
-		"xpos"				"c-275"
-		"ypos"				"134"
-		"zpos"				"2"
-		"wide"				"120"
-		"tall"				"30"
-		"visible"			"1"
-		"enabled"			"1"
-		"bordervisible"		"0"
-		"fire_commands"		"1"
+		"fieldname"		"teamselection"
+		"proportionaltoparent"	"1"
+		
+		"xpos"			"c-276"
+		"ypos"			"132"
+		"zpos"			"2"
+		
+		"wide"			"120"
+		"tall"			"30"
+		
+		"bordervisible"	"0"
+		
+		"fire_commands"	"1"
+		
+		"visible"		"1"
+		"enabled"		"1"
 		
 		"radiobutton_kv"
 		{
-			"ypos"					"0"
-			"wide"					"20"
-			"tall"					"20"
-			"visible"				"1"
-			"enabled"				"1"
+			"ypos"				"0"
+			
+			"wide"				"30"
+			"tall"				"30"
+			
 			"labelText" 			""
-			"bordervisible"			"0"
-			"paintbackground"		"1"
-			"roundedcorners"		"0"
-		}
-
-		"Blue"
-		{
-			"controlname"			"imageRadioButton"
-			"fieldname"				"Blue"
-			"xpos"					"0"
-			"command"				"selectteam blue"
 			
-			"image_drawcolor"		"HudBlueTeam"
-			"image_armedcolor"	"HudBlueTeamSolid"
-			"image_depressedcolor"	"HudBlueTeamSolid"
-			"image_selectedcolor"	"HudBlueTeamSolid"
+			"image_drawcolor"			"255 255 255 127"
+			"image_armedcolor"		"255 255 255 255"
+			"image_depressedcolor"		"255 255 255 127"
+			"image_selectedcolor"		"255 255 255 255"
+			"image_padding"		"4"
 			
-			"image" 		"teambutton_blue_icon"
+			"visible"			"1"
+			"enabled"			"1"
 		}
 	
 		"Red"
 		{
-			"controlname"			"imageRadioButton"
-			"fieldname"				"Red"
-			"xpos"					"24"
-			"command"				"selectteam red"
+			"controlname"			"ImageRadioButton"
+			"fieldname"			"Red"
 			
-			"image_drawcolor"		"HudRedTeam"
-			"image_armedcolor"	"HudRedTeamSolid"
-			"image_depressedcolor"	"HudRedTeamSolid"
-			"image_selectedcolor"	"HudRedTeamSolid"
-					
-			"image" 		"teambutton_red_icon"
+			"xpos"				"0"
+			
+			"command"			"selectteam red"
+			
+			"image"				"resource\svgs\teamicons\teambutton_red.svg"
+			"image_default" 		"resource\svgs\teamicons\teambutton_red_hollow.svg"
+			"image_selected"		"resource\svgs\teamicons\teambutton_red.svg"
+			"image_depressed"		"resource\svgs\teamicons\teambutton_red_hollow.svg"
+			"image_armed"			"resource\svgs\teamicons\teambutton_red.svg"
+		}
+
+		"Blue"
+		{
+			"controlname"			"ImageRadioButton"
+			"fieldname"			"Blue"
+			
+			"xpos"				"30"
+			
+			"command"			"selectteam blue"
+			
+			"image"				"resource\svgs\teamicons\teambutton_blue.svg"
+			"image_default" 		"resource\svgs\teamicons\teambutton_blue_hollow.svg"
+			"image_selected"		"resource\svgs\teamicons\teambutton_blue.svg"
+			"image_depressed"		"resource\svgs\teamicons\teambutton_blue_hollow.svg"
+			"image_armed"			"resource\svgs\teamicons\teambutton_blue.svg"
 		}
 
 		"Green"
 		{
-			"controlname"			"imageRadioButton"
-			"fieldname"				"Green"
-			"xpos"					"48"
-			"command"				"selectteam green"
+			"controlname"			"ImageRadioButton"
+			"fieldname"			"Green"
 			
-			"image_drawcolor"		"HudGreenTeam"
-			"image_armedcolor"	"HudGreenTeamSolid"
-			"image_depressedcolor"	"HudGreenTeamSolid"
-			"image_selectedcolor"	"HudGreenTeamSolid"
+			"xpos"				"60"
 			
-			"image" 		"teambutton_green_icon"
+			"command"			"selectteam green"
+			
+			"image"				"resource\svgs\teamicons\teambutton_green.svg"
+			"image_default" 		"resource\svgs\teamicons\teambutton_green_hollow.svg"
+			"image_selected"		"resource\svgs\teamicons\teambutton_green.svg"
+			"image_depressed"		"resource\svgs\teamicons\teambutton_green_hollow.svg"
+			"image_armed"			"resource\svgs\teamicons\teambutton_green.svg"
 		}
 
 		"Yellow"
 		{
-			"controlname"			"imageRadioButton"
-			"fieldname"				"Yellow"
-			"xpos"					"72"
-			"command"				"selectteam yellow"
+			"controlname"			"ImageRadioButton"
+			"fieldname"			"Yellow"
 			
-			"image_drawcolor"		"HudYellowTeam"
-			"image_armedcolor"	"HudYellowTeamSolid"
-			"image_depressedcolor"	"HudYellowTeamSolid"
-			"image_selectedcolor"	"HudYellowTeamSolid"
+			"xpos"				"90"
 			
-			"image" 		"teambutton_yellow_icon"
+			"command"			"selectteam yellow"
+			
+			"image"				"resource\svgs\teamicons\teambutton_yellow.svg"
+			"image_default" 		"resource\svgs\teamicons\teambutton_yellow_hollow.svg"
+			"image_selected"		"resource\svgs\teamicons\teambutton_yellow.svg"
+			"image_depressed"		"resource\svgs\teamicons\teambutton_yellow_hollow.svg"
+			"image_armed"			"resource\svgs\teamicons\teambutton_yellow.svg"
 		}
 	}
 
 	"classmodelpanel"
 	{
-		"controlname"	"CTFPlayerModelPanel"
+		"controlname"		"CTFPlayerModelPanel"
 		"fieldname"		"classmodelpanel"
 		
-		"xpos"			"c-174"
+		"xpos"			"c-155"
 		"ypos"			"134"
-		"zpos"			"1"		
+		"zpos"			"1"
 		"wide"			"310"
 		"tall"			"270"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-
+		
 		"render_texture"	"0"
-		"fov"				"30"
-		"allow_manip"			"1"
+		"fov"			"30"
+		"allow_manip"		"1"
+		
+		"visible"		"1"
 				
 		"lights"
 		{
 			"0"
 			{
-				"name"	"directional"
-				"color"	"1.0 1.0 1.0"
+				"name"		"directional"
+				"color"		"1.0 1.0 1.0"
 				"direction"	"1 1 -1"
 			}
 		}
 				
 		"model"
 		{
-			"force_pos"	"1"
-			"skin"		"0"
+			"force_pos"		"1"
+			"skin"			"0"
 
-			"angles_x" "0"
-			"angles_y" "-195"
-			"angles_z" "0"
-			"origin_x" "230"
-			"origin_y" "0"
-			"origin_z" "-40"
+			"angles_x"		"0"
+			"angles_y"		"-195"
+			"angles_z"		"0"
+			
+			"origin_x"		"230"
+			"origin_y"		"0"
+			"origin_z"		"-40"
+			
 			"frame_origin_x"	"0"
 			"frame_origin_y"	"0"
 			"frame_origin_z"	"0"
-			"spotlight" "1"
+			
+			"spotlight"		"1"
 		
 			"modelname"		"error.mdl"
 			
 			"attached_model"
 			{
 				"modelname" "error.mdl"
-				"skin"	"0"
+				"skin"		"0"
 			}
 			
 			"animation"
@@ -511,112 +597,138 @@
 		{
 			"Scout"
 			{
-				"eyetarget_z" "45"
 				"fov"		"30"
-				"angles_x" "0"
-				"angles_y" "-195"
-				"angles_z" "0"
-				"origin_x" "230"
-				"origin_y" "0"
-				"origin_z" "-40"
+				
+				"angles_x"	"0"
+				"angles_y"	"-195"
+				"angles_z"	"0"
+				
+				"origin_x"	"230"
+				"origin_y"	"0"
+				"origin_z"	"-40"
+				
+				"eyetarget_z"	"45"
 			}
 			"Demoman"
 			{
-				"eyetarget_z" "50"
 				"fov"		"30"
-				"angles_x" "0"
-				"angles_y" "-195"
-				"angles_z" "0"
-				"origin_x" "230"
-				"origin_y" "0"
-				"origin_z" "-40"
+				
+				"angles_x"	"0"
+				"angles_y"	"-195"
+				"angles_z"	"0"
+				
+				"origin_x"	"230"
+				"origin_y"	"0"
+				"origin_z"	"-40"
+				
+				"eyetarget_z"	"50"
 			}
 		}
 	}
 	
-	"ModelPanelBG"
+	"ClassModelPanelBG"
 	{
 		"controlname"	"ImagePanel"
-		"fieldname"	"ModelPanelBG"
-		"xpos"		"c-174"
+		"fieldname"	"ClassModelPanelBG"
+		
+		"xpos"		"c-155"
 		"ypos"		"134"
 		"zpos"		"0"
+		
 		"wide"		"310"
 		"tall"		"270"
-		"visible"	"1"
-		"enabled"	"1"
+		
 		"image"		"../darhud/mainmenu/striped_pattern"
-		"drawcolor"		"BackgroundDefault"
 		"tileimage"	"1"
+		"drawcolor"	"BackgroundDefault"
+		
+		"visible"	"1"
 	}
 	
-	"ModelPanelInnershadow"
+	"ClassModelPanelInnershadow"
 	{
-		"controlname"	"EditablePanel"
-		"fieldname"	"ModelPanelInnerShadow"
-		"xpos"		"c-174"
-		"ypos"		"134"
-		"zpos"		"2"
-		"wide"		"310"
-		"tall"		"270"
-		"visible"	"1"
-		"enabled"	"1"
-		"border"		"InnerShadowBorder"
+		"controlname"			"EditablePanel"
+		"fieldname"			"ClassModelPanelInnerShadow"
+		
+		"pin_to_sibling"		"ClassModelPanelBG"
+		
+		"xpos"				"0"
+		"ypos"				"0"
+		"zpos"				"2"
+		
+		"wide"				"310"
+		"tall"				"270"
+		
+		"border"				"InnerShadowBorder"
+		
 		"mouseinputenabled"	"0"
+		
+		"visible"			"1"
 	}
 	
 	"FooterLine"
 	{
-		"controlname"	"EditablePanel"
-		"fieldname"		"FooterLine"
-		"xpos"			"0"
-		"ypos"			"420"
-		"zpos"			"5"
-		"wide"			"f0"
-		"tall"			"2"
-		"visible"		"0"
-		"enabled"		"1"
+		"controlname"			"EditablePanel"
+		"fieldname"			"FooterLine"
+		
+		"xpos"				"0"
+		"ypos"				"420"
+		"zpos"				"5"
+		
+		"wide"				"f0"
+		"tall"				"2"
+		
 		"bgcolor_override"	"ButtonMM"
-		"scaleimage"	"1"
+		
+		"visible"			"0"
 	}
 	
 	"Footer"
 	{
-		"controlname"	"EditablePanel"
-		"fieldname"		"Footer"
-		"xpos"		"0"
-		"ypos"		"rs1"
-		"wide"		"f0"
-		"tall"		"p0.095"
-		"zpos"		"2"
-		"proportionaltoparent"	"1"
+		"controlname"			"EditablePanel"
+		"fieldname"			"Footer"
+		
+		"xpos"				"0"
+		"ypos"				"rs1"
+		"zpos"				"2"
+		
+		"wide"				"f0"
+		"tall"				"p0.095"
+		
 		"bgcolor_override"	"LoadoutFooter"
 	
 		"Buttons"
 		{
-			"controlname"	"EditablePanel"
-			"fieldname"		"Buttons"
-			"xpos"			"cs-0.5"
-			"ypos"			"cs-0.5"
-			"wide"			"f233"
-			"tall"			"32"
+			"controlname"			"EditablePanel"
+			"fieldname"			"Buttons"
 			"proportionaltoparent"	"1"
+			
+			"xpos"				"cs-0.5"
+			"ypos"				"cs-0.5"
+			
+			"wide"				"f233"
+			"tall"				"32"
 			
 			"BackButton"
 			{
-				"controlname"	"CExButton"
-				"fieldname"		"BackButton"
-				"style"			"MainMenuButton"
-				"xpos"			"0"
-				"command"		"Close"		
-				"labelText" 	"#GameUI_Close"
-				"textAlignment"	"center"
+				"controlname"			"CExButton"
+				"fieldname"			"BackButton"
+				
+				"style"				"MainMenuButton"
+				
+				"xpos"				"0"
+				
+				"labelText"			"#GameUI_Close"
+				"textAlignment"		"center"
+				
+				"command"			"Close"
 				"actionsignallevel"	"3"
 			}
 			"BackButtonShadow"
 			{
 				"controlname"		"CTFImagePanel"
 				"fieldname"		"BackButtonShadow"
+				
 				"style"			"MainMenuButtonShadow"
 				
 				"pin_to_sibling"	"BackButton"
@@ -624,19 +736,24 @@
 			
 			"DefaultInventoryButton"
 			{
-				"controlname"	"CExButton"
-				"fieldname"		"DefaultInventoryButton"
-				"style"			"MainMenuButton"
-				"xpos"			"rs1"
-				"command"		"resetinventory"
-				"labelText" 	"#TF_Loadout_Defaults"
-				"textAlignment"	"center"
+				"controlname"			"CExButton"
+				"fieldname"			"DefaultInventoryButton"
+				
+				"style"				"MainMenuButton"
+				
+				"xpos"				"rs1"
+				
+				"labelText"			"#TF_Loadout_Defaults"
+				"textAlignment"		"center"
+				
+				"command"			"resetinventory"
 				"actionsignallevel"	"3"
 			}
 			"DefaultInventoryButtonShadow"
 			{
 				"controlname"		"CTFImagePanel"
 				"fieldname"		"DefaultInventoryButtonShadow"
+				
 				"style"			"MainMenuButtonShadow"
 				
 				"pin_to_sibling"	"DefaultInventoryButton"
@@ -645,17 +762,19 @@
 		
 		"FooterLine"
 		{
-			"controlname"	"EditablePanel"
-			"fieldname"		"FooterLine"
-			"xpos"			"0"
-			"ypos"			"0"
-			"zpos"			"5"
-			"wide"			"f0"
-			"tall"			"2"
-			"visible"		"1"
-			"enabled"		"1"
+			"controlname"			"EditablePanel"
+			"fieldname"			"FooterLine"
+			
+			"xpos"				"0"
+			"ypos"				"0"
+			"zpos"				"5"
+			
+			"wide"				"f0"
+			"tall"				"2"
+			
 			"bgcolor_override"	"ButtonMM"
-			"scaleimage"	"1"
+			
+			"visible"			"1"
 		}
 		
 		"FooterBackground"
@@ -666,41 +785,47 @@
 	
 	"mouseoveritempanel"
 	{
-		"controlname"	"CItemModelPanel"
-		"fieldname"		"mouseoveritempanel"
-		"xpos"			"c-70"
-		"ypos"			"270"
-		"zpos"			"100"
-		"wide"			"300"
-		"tall"			"300"
-		"visible"		"0"
-		"bgcolor_override"		"0 0 0 0"
-		"noitem_textcolor"		"117 107 94 255"
+		"controlname"			"CItemModelPanel"
+		"fieldname"			"mouseoveritempanel"
+		
+		"xpos"				"c-70"
+		"ypos"				"270"
+		"zpos"				"100"
+		
+		"wide"				"300"
+		"tall"				"300"
+		
+		"bgcolor_override"	"0 0 0 0"
+		"noitem_textcolor"	"117 107 94 255"
 		"PaintBackgroundType"	"2"
 		"paintborder"	"1"
 		
 		"text_ypos"			"20"
-		"text_center"		"1"
-		"model_hide"		"1"
-		"resize_to_text"	"1"
-		"padding_height"	"15"
+		"text_center"			"1"
+		"model_hide"			"1"
+		"resize_to_text"		"1"
+		"padding_height"		"15"
+		
+		"visible"			"0"
 		
 		"attriblabel"
 		{
-			"font"			"ItemFontAttribLarge"
 			"xpos"			"0"
 			"ypos"			"30"
 			"zpos"			"2"
+			
 			"wide"			"140"
 			"tall"			"60"
-			"autoResize"	"0"
-			"pinCorner"		"0"
+			
+			"labelText"		"%attriblist%"
+			"font"			"ItemFontAttribLarge"
+			"textAlignment"	"center"
+			"centerwrap"		"1"
+			
+			"fgcolor"		"117 107 94 255"
+			
 			"visible"		"1"
 			"enabled"		"1"
-			"labelText"		"%attriblist%"
-			"textAlignment"	"center"
-			"fgcolor"		"117 107 94 255"
-			"centerwrap"	"1"
 		}
 	}
 }
