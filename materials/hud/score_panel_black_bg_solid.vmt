@@ -1,10 +1,9 @@
 "Patch"
 {
-	include "materials\darhud\base_shadow.vmt"
+	include "materials\darhud\bases\base_shadow\opaque.vmt"
 	
 	insert
 	{
-		"$basetexture"			"hud\leaderboard_area_team"
-		"$alpha"			"1"
+		"$basetexture"	"hud\leaderboard_area_team"
 	}
 }

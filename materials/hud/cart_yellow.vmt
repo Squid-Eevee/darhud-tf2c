@@ -1,9 +1,9 @@
 "Patch"
 {
-	include "materials\darhud\base_yellow.vmt"
+	include "materials\darhud\bases\teams\base_yellow.vmt"
 	
 	insert
 	{
-		"$basetexture"			"darhud/payload/cart_top_mask"
+		"$basetexture"	"darhud/payload/cart_top_mask"
 	}
 }
