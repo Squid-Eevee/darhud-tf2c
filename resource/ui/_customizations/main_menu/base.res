@@ -111,8 +111,8 @@
 		"paintbackgroundtype"		"3"
 		"roundedcorners"			"0"
 		
-		"FadeAlphaStart"			"0"
-		"FadeAlphaEnd"			"255"
+		"fadealphastart"			"0"
+		"fadealphaend"			"255"
 		
 		"visible"				"1"
 	}
@@ -137,8 +137,8 @@
 		"paintbackgroundtype"		"3"
 		"roundedcorners"			"0"
 		
-		"FadeAlphaStart"			"255"
-		"FadeAlphaEnd"			"0"
+		"fadealphastart"			"255"
+		"fadealphaend"			"0"
 		
 		"visible"				"1"
 	}
@@ -276,10 +276,10 @@
 		"pin_to_sibling"			"VerticalBG"
 		
 		"xpos"					"0"
-		"ypos"					"-115"
+		"ypos"					"-100"
 		
 		"wide"					"256"
-		"tall"					"240"
+		"tall"					"263"
 		
 		"visible"				"1"
 
@@ -290,7 +290,7 @@
 			"proportionaltoparent"	"1"
 			
 			"xpos"				"0"
-			"ypos"				"12"
+			"ypos"				"3"
 			
 			"wide"				"f0"
 			"tall"				"44"
@@ -298,13 +298,6 @@
 			"bgcolor_override"	"Header"
 			
 			"visible"			"1"
-
-			"if_inlevel"
-			{
-				"ypos"	"8"
-				
-				"tall"	"25"
-			}
 		}
 
 		"AvatarBG"
@@ -326,11 +319,6 @@
 			"bgcolor_override"		"TanDark"
 			
 			"visible"				"1"
-
-			"if_inlevel"
-			{
-				"visible"	"0"
-			}
 		}
 
 		"Avatarimage"
@@ -340,7 +328,7 @@
 			"proportionaltoparent"	"1"
 			
 			"xpos"				"10"
-			"ypos"				"12"
+			"ypos"				"3"
 			
 			"wide"				"o1.0"
 			"tall"				"44"
@@ -350,13 +338,67 @@
 			"bgcolor_override"	"255 255 255 255"
 			
 			"visible"			"1"
-
-			"if_inlevel"
+			
+			"if_streamermode"
 			{
-				"xpos"	"8"
-				"ypos"	"8"
-				
-				"tall"	"25"
+				"visible"	"0"
+			}
+		}
+
+		"StreamerModeIcon"
+		{
+			"controlname"				"ImagePanel"
+			"fieldname"				"StreamerModeIcon"
+			
+			"pin_to_sibling"			"AvatarImage"
+			"pin_to_sibling_corner"	"PIN_TOPLEFT"
+			"pin_corner_to_sibling"	"PIN_TOPLEFT"
+			
+			"xpos"					"-5"
+			"ypos"					"-5"
+			"zpos"					"3"
+			
+			"wide"					"o1.0"
+			"tall"					"34"
+			
+			"image"					"resource/svgs/mainmenu/icon_spectate.svg"
+			"scaleImage"				"1"
+			"drawcolor"				"AdditionalIcon"
+			
+			"visible"				"0"
+
+			"if_streamermode"
+			{
+				"visible"	"1"
+			}
+		}
+
+		"StreamerModeBG"
+		{
+			"controlname"	"EditablePanel"
+			"fieldname"		"StreamerModeBG"
+			"proportionaltoparent"	"1"
+
+			"pin_to_sibling"		"AvatarImage"
+			"pin_to_sibling_corner"	"PIN_TOPLEFT"
+			"pin_corner_to_sibling"	"PIN_TOPLEFT"
+			
+			"xpos"			"0"
+			"ypos"			"0"
+			"zpos"			"2"
+			
+			"wide"			"o1.0"
+			"tall"			"44"
+			
+			"paintbackgroundtype"	"0"
+			
+			"bgcolor_override"	"0 0 0 255"
+
+			"visible"		"0"
+
+			"if_streamermode"
+			{
+				"visible"	"1"
 			}
 		}
 
@@ -378,7 +420,6 @@
 			"labelText"				"#TF_Menu_Welcome"
 			"font"					"MainMenuGreetingFont"
 			"textAlignment"			"west"
-
 			"use_proportional_insets"	"1"
 			"textinsetx"				"8"
 			
@@ -387,8 +428,8 @@
 			
 			"visible"				"1"
 			"enabled"				"1"
-
-			"if_inlevel"
+			
+			"if_streamermode"
 			{
 				"visible"	"0"
 			}
@@ -400,7 +441,7 @@
 			"fieldname"				"NameLabel"
 			"proportionaltoparent"		"1"
 
-			"pin_to_sibling"			"Avatarimage"
+			"pin_to_sibling"			"AvatarImage"
 			"pin_to_sibling_corner"	"pin_topright"
 			
 			"xpos"					"4"
@@ -421,13 +462,372 @@
 			
 			"visible"				"1"
 			"enabled"				"1"
-
-			"if_inlevel"
+			
+			"if_streamermode"
 			{
-				"xpos"			"0"
-				"ypos"			"0"
+				"visible"	"0"
+				"labelText"	"#TF_Menu_HideName"
+			}
+		}
+		
+		"ChallengePanel"
+		{
+			"controlname"			"UIChallengePanel"
+			"fieldname"			"ChallengePanel"
+			"proportionaltoparent" "1"
+			
+			"xpos"				"2"
+			"ypos"				"50"
+			"zpos"				"2"
+			
+			"wide"				"f4"
+			"tall"				"40"
+			
+			"mouseinputenabled"	"0"
+			
+			"visible"			"1"
+
+			"BeatThisLabel"
+			{
+				"controlname"			"CExLabel"
+				"fieldname"			"BeatThisLabel"
+				"proportionaltoparent" "1"
 				
-				"font"			"MainMenuNameFontSmall"
+				"xpos"				"5"
+				"ypos"				"13"
+				"zpos"				"3"
+				
+				"wide"				"f0"
+				"tall"				"8"
+				
+				"font"				"TF2C_MainMenu_Challenge"
+				"labelText"			"#ChallengeRecord"
+				"textAlignment"		"west"
+				
+				"fgcolor_override"	"OrangeTF2C"
+				
+				"mouseinputenabled"	"0"
+				
+				"visible"			"1"
+				"enabled"			"1"
+			}
+
+			"ChallengeLabel"
+			{
+				"controlname"			"CExLabel"
+				"fieldname"			"ChallengeLabel"
+				"proportionaltoparent"	"1"
+				
+				"xpos"				"5"
+				"ypos"				"19"
+				"zpos"				"3"
+				
+				"wide"				"f0"
+				"tall"				"20"
+				
+				"labelText"			"%challenge%"
+				"font"				"TF2C_MainMenu_Challenge_Desc"
+				"textAlignment"		"west"
+				
+				"fgcolor_override"	"TanLight"
+				
+				"mouseinputenabled"	"0"
+				
+				"visible"			"1"
+				"enabled"			"1"
+			}
+
+			"InnerBackground"
+			{
+				"controlname"			"EditablePanel"
+				"fieldname"			"InnerBackground"
+				"proportionaltoparent"	"1"
+				
+				"xpos"				"1"
+				"ypos"				"10"
+				"zpos"				"1"
+				
+				"wide"				"f0"
+				"tall"				"f10"
+				
+				"bgcolor_override"	"TanDarkest"
+				
+				"roundedcorners"		"0"
+				
+				"mouseinputenabled"		"0"
+				
+				"visible"			"1"
+			}
+
+			"ClassImage"
+			{
+				"controlname"			"ImagePanel"
+				"fieldname"			"ClassImage"
+				"proportionaltoparent" "1"
+				
+				"xpos"				"r900"
+				"ypos"				"0"
+				"zpos"				"2"
+				
+				"wide"				"39"
+				"tall"				"39"
+				
+				"scaleImage"			"1"
+				
+				"mouseinputenabled"	"0"
+				
+				"visible"			"1"
+			}
+			
+			"ClassImageFade"
+			{
+				"controlname"			"EditablePanel"
+				"fieldname"			"ClassImageFade"
+				"proportionaltoparent"	"1"
+				
+				"xpos"				"r49"
+				"ypos"				"19"
+				"zpos"				"3"
+				
+				"wide"				"39"
+				"tall"				"20"
+				
+				
+				"paintbackgroundtype"	"4"
+				"bgcolor_override"	"TanDarkest"
+				"fadealphastart"		"0"
+				"fadealphaend"		"255"
+				"roundedcorners"		"0"
+				
+				"mouseinputenabled"	"0"
+				
+				"visible"			"1"
+			}
+		}
+		
+		"AchievementPanel"
+		{
+			"controlname"			"UIAchievementPanel"
+			"fieldname"			"AchievementPanel"
+			"proportionaltoparent" "1"
+			
+			"pin_to_sibling"		"ChallengePanel"
+			
+			"xpos"				"0"
+			"ypos"				"-10"
+			"zpos"				"2"
+			"wide"				"f4"
+			"tall"				"30"
+			"mouseinputenabled"	"0"
+			
+			"visible"			"1"
+
+			"TotalProgressBar"
+			{
+				"controlname"			"EditablePanel"
+				"fieldname"			"TotalProgressBar"
+				"proportionaltoparent"	"1"
+				
+				"xpos"				"2"
+				"ypos"				"2"
+				"zpos"				"2"
+				
+				"wide"				"f4"
+				"tall"				"f4"
+				
+				"bgcolor_override"	"blank"
+				"roundedcorners"		"0"
+				
+				"mouseinputenabled"	"0"
+				
+				"visible"			"1"
+				
+				"ProgressBar"
+				{
+					"controlname"			"EditablePanel"
+					"fieldname"			"ProgressBar"
+					"proportionaltoparent"	"1"
+					
+					"tall"				"f0"
+					
+					"paintbackgroundtype"	"4"
+					"bgcolor_override"	"TanDarkerish"
+					"roundedcorners"		"0"
+					"cornersize"			"3"
+					"fadealphastart"		"200"
+					"fadealphaend"		"172"
+				}
+			}
+			
+			"AchievementNameLabel"
+			{
+				"controlname"			"CExLabel"
+				"fieldname"			"AchievementNameLabel"
+				"proportionaltoparent" "1"
+				
+				"xpos"				"29"
+				"ypos"				"3"
+				"zpos"				"3"
+				
+				"wide"				"195"
+				"tall"				"8"
+				
+				"labelText"			"%achievementName%"
+				"font"				"TF2C_MainMenu_Challenge"
+				"textAlignment"		"north-west"
+				"wrap"				"1"
+				
+				"fgcolor_override"	"OrangeTF2C"
+				
+				"mouseinputenabled"	"0"
+				
+				"visible"			"1"
+				"enabled"			"1"
+			}
+			
+			"AchievementDescLabel"
+			{
+				"controlname"				"CExLabel"
+				"fieldname"				"AchievementDescLabel"
+				"proportionaltoparent" 	"1"
+				
+				"xpos"					"29"
+				"ypos"					"9"
+				"zpos"					"3"
+				
+				"wide"					"195"
+				"tall"					"20"
+				
+				"labelText"				"%achievementDesc%"
+				"font"					"TF2C_MainMenu_Challenge_Desc"
+				"textAlignment"			"west"
+				"wrap"					"1"
+				
+				"fgcolor_override"		"TanLight"
+				
+				"mouseinputenabled"		"0"
+				
+				"visible"				"1"
+				"enabled"				"1"
+			}
+
+			"AchievementImage"
+			{
+				"controlname"			"ImagePanel"
+				"fieldname"			"AchievementImage"
+				"proportionaltoparent" "1"
+				
+				"xpos"				"4"
+				"ypos"				"4"
+				"zpos"				"3"
+				
+				"wide"				"22"
+				"tall"				"22"
+				
+				"scaleImage"			"1"
+				
+				"mouseinputenabled"	"0"
+				
+				"visible"			"1"
+			}
+			
+			"InnerBackground"
+			{
+				"controlname"			"EditablePanel"
+				"fieldname"			"InnerBackground"
+				"proportionaltoparent"	"1"
+				
+				"xpos"				"1"
+				"ypos"				"1"
+				"zpos"				"1"
+				
+				"wide"				"f2"
+				"tall"				"f2"
+				
+				"paintbackgroundtype"	"2"
+				"bgcolor_override"	"TanDarkest"
+				
+				"roundedcorners"		"0"
+				
+				"mouseinputenabled"		"0"
+				
+				"visible"			"1"
+			}
+		}
+
+		"NextChallengeButton"
+		{
+			"controlname"					"CExButton"
+			"fieldname"					"NextChallengeButton"
+			"proportionaltoparent"			"1"
+			
+			"pin_to_sibling"				"ChallengePanel"
+			
+			"xpos"						"2"
+			"ypos"						"-8"
+			"zpos"						"1"
+			
+			"wide"						"f0"
+			"tall"						"34"
+			
+			"labelText"					""
+			
+			"Command"					"nextchallenge"
+			"tooltiptext"					"#TF_NextChallenge"
+			"button_activation_type"		"1"
+			"stay_armed_on_click"			"1"
+			
+			"paintbackground"				"1"
+			"paintbackgroundtype"			"4"
+			"roundedcorners"				"0"
+			
+			"defaultbgColor_override"		"0 0 0 0"
+			"armedbgColor_override"		"0 0 0 0"
+			"depressedbgColor_override"	"0 0 0 0"
+			"selectedbgColor_override"		"0 0 0 0"
+			
+			"border_armed"				"EconItemBorder"
+
+			"sound_released"				"UI/buttonclick.wav"
+			"sound_armed"					"UI/buttonrollover.wav"
+			
+			"visible"					"1"
+			"enabled"					"1"
+		}
+		
+		"StreamerModeLabel"
+		{
+			"controlname"				"CExLabel"
+			"fieldname"				"StreamerModeLabel"
+			"proportionaltoparent"		"1"
+
+			"pin_to_sibling"			"AvatarImage"
+			"pin_corner_to_sibling"	"pin_center_left"
+			"pin_to_sibling_corner"	"pin_center_right"
+			
+			"xpos"					"4"
+			"ypos"					"0"
+			
+			"xpos"					"0"
+			"ypos"					"0"
+			
+			"wide"					"f0"
+			"tall"					"44"
+			
+			"labelText"				"#TF_Menu_StreamerMode"
+			"font"					"HudFontMediumSmallBold"
+			"textAlignment"			"west"
+			"use_proportional_insets"	"1"
+			"textinsetx"				"8"
+			
+			"dropshadow"				"1"
+			"dropshadowoffset"		"3"
+			
+			"visible"				"0"
+			
+			"if_streamermode"
+			{
+				"visible"	"1"
 			}
 		}
 
@@ -439,7 +839,7 @@
 			"style"				"MainMenuButton"
 			
 			"xpos"				"cs-0.5-31"
-			"ypos"				"37"
+			"ypos"				"95"
 			
 			"wide"				"180"
 			"tall"				"30"
@@ -450,16 +850,17 @@
 			"actionsignallevel"	"2"
 			
 			"navUp"				"QuitButton"
-			"navDown"			"ServerBrowserButton"
+			"navDown"			"LoadoutButton"
 			"navLeft"			"<DonateButton"
-			"navRight"			"MutePlayerButton"
+			"navRight"			"ServerBrowserButton"
 			
 			"image_default"		"resource/svgs/mainmenu/icon_arrow_left.svg"
 			
-			"border_default"		"DarHudMM3SplitButtonMainReverse"
-			"border_armed"		"DarHudMM3SplitButtonMainReverseArmed"
-			"border_selected"		"DarHudMM3SplitButtonMainReverseDepressed"
-			"border_depressed"	"DarHudMM3SplitButtonMainReverseDepressed"
+			"border_default"		"DarHudMM2SplitButtonMain"
+			"border_armed"		"DarHudMM2SplitButtonMainArmed"
+			"border_selected"		"DarHudMM2SplitButtonMainDepressed"
+			"border_depressed"	"DarHudMM2SplitButtonMainDepressed"
+			"border_disabled"		"DarHudMM2SplitButtonMainDisabled"
 			
 			"visible"			"0"
 
@@ -491,151 +892,9 @@
 			"wide"			"180"
 			"tall"			"30"
 			
-			"image"			"../darhud/mainmenu/button_3split_reverse"
+			"image"			"../darhud/mainmenu/button_3split"
 			
 			"visible"		"0"
-
-			"if_inlevel"
-			{
-				"visible"	"1"
-			}
-		}
-		
-		"MutePlayerButton"
-		{
-			"controlname"				"CExImageButton"
-			"fieldname"				"MutePlayerButton"
-			
-			"style"					"MainMenuButton"
-
-			"pin_to_sibling"			"ResumeButton"
-			"pin_to_sibling_corner"	"pin_topright"
-			
-			"xpos"					"0"
-			"ypos"					"0"
-			
-			"wide"					"30"
-			"tall"					"30"
-			
-			"labelText"				""
-			
-			"Command"				"gamemenucommand OpenPlayerListDialog"
-			"actionsignallevel"		"2"
-			"tooltiptext"				"#TF_Menu_Mute"
-			
-			"navUp"					"DisconnectButton"
-			"navDown"				"ServerBrowserButton"
-			"navLeft"				"ResumeButton"
-			"navRight"				"CallVoteButton"
-			
-			"image_default"			"resource/svgs/mainmenu/icon_mic_off.svg"
-
-			"border_default"			"DarHudMMSplitButtonMidReverse"
-			"border_armed"			"DarHudMMSplitButtonMidReverseArmed"
-			"border_disabled"			"DarHudMMSplitButtonMidReverseDisabled"
-			"border_selected"			"DarHudMMSplitButtonMidReverseDepressed"
-
-			"visible"				"0"
-			
-			"Subimage"
-			{
-				"xpos"	"6"
-				
-				"wide"	"f9"
-				"tall"	"f9"
-			}
-			
-			"if_inlevel"
-			{
-				"visible"	"1"
-			}
-		}
-		"MutePlayerButtonShadow"
-		{
-			"controlname"		"CTFImagePanel"
-			"fieldname"		"MutePlayerButtonShadow"
-			
-			"style"			"MainMenuButtonShadow"
-			
-			"pin_to_sibling"	"MutePlayerButton"
-			
-			"wide"			"30"
-			"tall"			"30"
-			
-			"image"			"../darhud/mainmenu/button_split_mid_reverse"
-			
-			"visible"		"0"
-
-			"if_inlevel"
-			{
-				"visible"	"1"
-			}
-		}
-		
-		"CallVoteButton"
-		{
-			"controlname"				"CExImageButton"
-			"fieldname"				"CallVoteButton"
-			
-			"style"					"MainMenuButton"
-
-			"pin_to_sibling"			"MutePlayerButton"
-			"pin_to_sibling_corner"	"pin_topright"
-			
-			"xpos"					"0"
-			"ypos"					"0"
-			
-			"wide"					"30"
-			"tall"					"30"
-			
-			"labelText"				""
-			
-			"Command"				"engine callvote; gamemenucommand ResumeGame"
-			"actionsignallevel"		"2"
-			"tooltiptext"				"#TF_Menu_Vote"
-			
-			"navUp"					"QuitButton"
-			"navDown"				"ServerBrowserButton"
-			"navLeft"				"MutePlayerButton"
-			"navRight"				"ResumeButton"
-			
-			"image_default"			"resource/svgs/mainmenu/icon_check.svg"
-
-			"border_default"			"DarHudMMSplitButtonEndReverse"
-			"border_armed"			"DarHudMMSplitButtonEndReverseArmed"
-			"border_disabled"			"DarHudMMSplitButtonEndReverseDisabled"
-			"border_selected"			"DarHudMMSplitButtonEndReverseDepressed"
-			
-			"visible"				"0"
-
-			"if_inlevel"
-			{
-				"visible"	"1"
-			}
-
-			"Subimage"
-			{
-				"xpos"	"6"
-				
-				"wide"	"f10"
-				"tall"	"f10"
-			}
-		}
-		"CallVoteButtonShadow"
-		{
-			"controlname"			"CTFImagePanel"
-			"fieldname"			"CallVoteButtonShadow"
-			
-			"style"				"MainMenuButtonShadow"
-			
-			"pin_to_sibling"		"CallVoteButton"
-			
-			"wide"				"30"
-			"tall"				"30"
-			
-			"image"				"../darhud/mainmenu/button_split_end_reverse"
-			
-			"visible"			"0"
 
 			"if_inlevel"
 			{
@@ -651,7 +910,7 @@
 			"style"				"MainMenuButton"
 			
 			"xpos"				"cs-0.5-31"
-			"ypos"				"71"
+			"ypos"				"95"
 			
 			"wide"				"180"
 			"tall"				"30"
@@ -663,7 +922,7 @@
 			
 			"navUp"				"QuitButton"
 			"navDown"			"LoadoutButton"
-			"navLeft"			"<DonateButton"
+			"navLeft"			""
 			"navRight"			"TrainingButton"
 			
 			"image_default"		"resource/svgs/mainmenu/icon_magnifier.svg"
@@ -679,22 +938,39 @@
 				
 				"wide"	"o1"
 				"tall"	"f14"
+				
+				"if_inlevel"
+				{
+					"xpos"	"cs-0.5"
+					"tall"	"f9"
+				}
 			}
 			
 			"if_inlevel"
 			{
-				"xpos"				"cs-0.5-15"
+				"style"					"MainMenuSubButton"
 				
-				"wide"				"210"
+				"pin_to_sibling"			"ResumeButton"
+				"pin_to_sibling_corner"	"pin_topright"
+			
+				"xpos"					"0"
+				"ypos"					"0"
 				
-				"navUp" 				"ResumeButton"
-				"navLeft"			"CreateServerButton"
-				"navRight"			"CreateServerButton"
+				"wide"					"30"
 				
-				"border_default"		"DarHudMM2SplitButtonMain"
-				"border_armed"		"DarHudMM2SplitButtonMainArmed"
-				"border_selected"		"DarHudMM2SplitButtonMainDepressed"
-				"border_depressed"	"DarHudMM2SplitButtonMainDepressed"
+				"labelText"				""
+				"tooltiptext"				"#TF_Menu_FindServers"
+				
+				"navUp" 					"DisconnectButton"
+				"navLeft"				""
+				"navRight"				"CreateServerButton"
+				
+				"image_default"		"resource/svgs/mainmenu/icon_magnifier.svg"
+			
+				"border_default"			"DarHudMMSplitButtonMid"
+				"border_armed"			"DarHudMMSplitButtonMidArmed"
+				"border_selected"			"DarHudMMSplitButtonMidDepressed"
+				"border_depressed"		"DarHudMMSplitButtonMidDepressed"
 			}
 		}
 		"ServerBrowserButtonShadow"
@@ -713,9 +989,9 @@
 			
 			"if_inlevel"
 			{
-				"wide"			"210"
+				"wide"			"30"
 				
-				"image"			"../darhud/mainmenu/button_2split"
+				"image"			"../darhud/mainmenu/button_split_mid"
 			}
 		}
 		
@@ -823,9 +1099,9 @@
 			{
 				"pin_to_sibling"	"ServerBrowserButton"
 				
-				"navUp" 			"ResumeButton"
+				"navUp" 			"QuitButton"
 				"navLeft"		"ServerBrowserButton"
-				"navRight"		"ServerBrowserButton"
+				"navRight"		"<CallVoteButton"
 			}
 			
 			"Subimage"
@@ -856,7 +1132,7 @@
 			"style"				"MainMenuButton"
 			
 			"xpos"				"cs-0.5"
-			"ypos"				"105"
+			"ypos"				"129"
 			
 			"wide"				"240"
 			"tall"				"30"
@@ -868,7 +1144,7 @@
 
 			"navUp"				"ServerBrowserButton"
 			"navDown"			"AchievementsButton"
-			"navLeft"			"<DonateButton"
+			"navLeft"			""
 			"navRight"			"<BlogButton"
 			
 			"image_default"		"resource/svgs/mainmenu/icon_backpack.svg"
@@ -881,8 +1157,9 @@
 			
 			"if_inlevel"
 			{
+				"navUp"		"ResumeButton"
 				"navLeft"	""
-				"navRight"	""
+				"navRight"	"<CallVoteButton"
 			}
 			
 			"Subimage"
@@ -916,7 +1193,7 @@
 			"style"				"MainMenuButton"
 			
 			"xpos"				"cs-0.5-15"
-			"ypos"				"139"
+			"ypos"				"163"
 			
 			"wide"				"210"
 			"tall"				"30"
@@ -928,7 +1205,7 @@
 			
 			"navUp"				"LoadoutButton"
 			"navDown"			"OptionsButton"
-			"navLeft"			"<DonateButton"
+			"navLeft"			""
 			"navRight"			"StatsButton"
 			
 			"image_default"		"resource/svgs/mainmenu/icon_badge.svg"
@@ -941,7 +1218,7 @@
 			
 			"if_inlevel"
 			{
-				"navLeft"	"StatsButton"
+				"navLeft"	""
 			}
 			
 			"Subimage"
@@ -1003,7 +1280,7 @@
 			
 			"if_inlevel"
 			{
-				"navRight"	"AchievementsButton"
+				"navRight"	"<CallVoteButton"
 			}
 			
 			"Subimage"
@@ -1034,7 +1311,7 @@
 			"style"				"MainMenuButton"
 			
 			"xpos"				"cs-0.5-15"
-			"ypos"				"173"
+			"ypos"				"197"
 			
 			"wide"				"210"
 			"tall"				"30"
@@ -1046,7 +1323,7 @@
 			
 			"navUp"				"AchievementsButton"
 			"navDown"			"QuitButton"
-			"navLeft"			"<DonateButton"
+			"navLeft"			""
 			// "navRight"			"AddonsButton"
 			"navRight"			"<BlogButton"	//for now, until the addons button is enabled
 			
@@ -1062,7 +1339,7 @@
 				"navDown"	"DisconnectButton"
 				//"navLeft"	"AddonsButton"
 				"navLeft"	""	//for now, until the addons button is enabled
-				"navRight"	""	//for now, until the addons button is enabled
+				"navRight"	"<CallVoteButton"	//for now, until the addons button is enabled
 			}
 
 			"Subimage"
@@ -1158,7 +1435,7 @@
 			"style"						"MainMenuButton"
 			
 			"xpos"						"cs-0.5-15"
-			"ypos"						"207"
+			"ypos"						"231"
 			
 			"wide"						"210"
 			"tall"						"30"
@@ -1170,7 +1447,7 @@
 			
 			"navUp"						"OptionsButton"
 			"navDown"					"<BlogButton"
-			"navLeft"					"<DonateButton"
+			"navLeft"					""
 			"navRight"					""
 			
 			"image_default"				"resource/svgs/mainmenu/icon_exit.svg"
@@ -1196,7 +1473,6 @@
 			
 			"if_inlevel"
 			{
-				"navLeft"	"QuitButton"
 				"navDown"	"ResumeButton"
 				"navRight"	"QuitButton"
 				
@@ -1243,7 +1519,7 @@
 			"style"						"MainMenuButton"
 			
 			"xpos"						"cs-0.5"
-			"ypos"						"207"
+			"ypos"						"231"
 			
 			"wide"						"240"
 			"tall"						"30"
@@ -1255,7 +1531,7 @@
 			
 			"navUp"						"OptionsButton"
 			"navDown"					"ServerBrowserButton"
-			"navLeft"					"<DonateButton"
+			"navLeft"					""
 			"navRight"					"<BlogButton"
 			
 			"image_default"				"resource/svgs/mainmenu/icon_power.svg"
@@ -1294,7 +1570,7 @@
 				"navUp"					"OptionsButton"
 				"navDown"				"ResumeButton"
 				"navLeft"				"DisconnectButton"
-				"navRight"				"DisconnectButton"
+				"navRight"				"<CallVoteButton"
 			
 				"border_default"			"DarHudMMSplitQuitButtonEnd"
 				"border_armed"			"DarHudMMSplitQuitButtonEndArmed"
@@ -1368,17 +1644,10 @@
 			"actionsignallevel"	"2"
 			"tooltiptext"			"#TF_Menu_Blog"
 			
-			"navUp"				"<QuitButton"
-			"navDown"			"<ServerBrowserButton"
 			"navLeft"			"<QuitButton"
 			"navRight"			"BugReportButton"
 			
 			"image_default"		"resource/svgs/mainmenu/icon_logo.svg"
-			
-			"if_inlevel"
-			{
-				"navDown"	"<ResumeButton"
-			}
 		}
 		
 		"BugReportButton"
@@ -1398,17 +1667,10 @@
 			"actionsignallevel"		"2"
 			"tooltiptext"				"#TF_Menu_ReportBug"
 			
-			"navUp"					"<QuitButton"
-			"navDown"				"<ServerBrowserButton"
 			"navLeft"				"BlogButton"
 			"navRight"				"DonateButton"
 			
 			"image_default"			"resource/svgs/mainmenu/icon_bug_link.svg"
-			
-			"if_inlevel"
-			{
-				"navDown"	"<ResumeButton"
-			}
 		}
 
 		"DonateButton"
@@ -1428,21 +1690,13 @@
 			"actionsignallevel"		"2"
 			"tooltiptext"				"#TF_Menu_Donate"
 			
-			"navUp"					"<QuitButton"
-			"navDown"				"<ServerBrowserButton"
 			"navLeft"				"BugReportButton"
-			"navRight"				"<QuitButton"
 
 			"image_armedcolor"		"CreditsGreen"
 			"image_depressedcolor"		"CreditsGreen"
 			"image_selectedcolor"		"CreditsGreen"
 			
 			"image_default"			"resource/svgs/mainmenu/icon_donate.svg"
-			
-			"if_inlevel"
-			{
-				"navDown"	"<ResumeButton"
-			}
 		}
 	}
 	
@@ -1456,7 +1710,7 @@
 		"zpos"			"-1"
 		
 		"wide"			"256"
-		"tall"			"124"
+		"tall"			"117"
 		
 		"paintbackground"	"0"
 		
@@ -1636,6 +1890,110 @@
 				
 				"scaleimage"	"1"
 			}
+		}
+	}
+	
+	"ServerPanel"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"	"ServerPanel"
+		
+		"xpos"		"cs-0.5"
+		"ypos"		"r64"
+		
+		"wide"		"76"
+		"tall"		"44"
+		
+		"visible"	"0"
+		
+		"if_inlevel"
+		{
+			"visible"	"1"
+		}
+		
+		"CallVoteButton"
+		{
+			"ControlName"			"CExImageButton"
+			"fieldName"			"CallVoteButton"
+			
+			"style"				"MainMenuButton"
+			
+			"xpos"				"8"
+			"ypos"				"8"
+			
+			"wide"				"28"
+			
+			"labelText"			""
+			
+			"Command"			"engine callvote; gamemenucommand ResumeGame"
+			"actionsignallevel"	"2"
+			"tooltiptext"			"#TF_Menu_Vote"
+			
+			"image_default"		"resource/svgs/mainmenu/icon_check.svg"
+			
+			"SubImage"
+			{
+				"xpos"	"cs-0.5+1"
+			}
+			
+			"navUp"		""
+			"navDown"	""
+			"navLeft"	"<QuitButton"
+			"navRight"	"MutePlayerButton"
+		}
+		"CallVoteButtonShadow"
+		{
+			"controlname"		"CTFImagePanel"
+			"fieldname"		"CallVoteButtonShadow"
+			
+			"style"			"MainMenuButtonShadow"
+			
+			"pin_to_sibling"	"CallVoteButton"
+			
+			"wide"			"28"
+			"tall"			"28"
+		}
+		
+		"MutePlayerButton"
+		{
+			"ControlName"				"CExImageButton"
+			"fieldName"				"MutePlayerButton"
+			
+			"style"					"MainMenuButton"
+
+			"pin_to_sibling"			"CallVoteButton"
+			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
+			"pin_corner_to_sibling"	"PIN_TOPLEFT"
+			"xpos"					"4"
+			"ypos"					"0"
+			"wide"					"28"
+			"labelText"				""
+			"tooltiptext"				"#TF_Menu_Mute"
+			"Command"				"gamemenucommand OpenPlayerListDialog"
+			"actionsignallevel"		"2"
+			"image_default"			"resource/svgs/mainmenu/icon_mic_off.svg"
+			
+			"SubImage"
+			{
+				"xpos"	"cs-0.5+1"
+			}
+			
+			"navUp"		""
+			"navDown"	""
+			"navLeft"	"CallVoteButton"
+			"navRight"	""
+		}
+		"MutePlayerButtonShadow"
+		{
+			"controlname"		"CTFImagePanel"
+			"fieldname"		"MutePlayerButtonShadow"
+			
+			"style"			"MainMenuButtonShadow"
+			
+			"pin_to_sibling"	"MutePlayerButton"
+			
+			"wide"			"28"
+			"tall"			"28"
 		}
 	}
 
