@@ -1,0 +1,9 @@
+"Patch"
+{
+	include "materials\darhud\bases\halloween\base_halloween_purple.vmt"
+	
+	insert
+	{
+		"$basetexture"	"hud\leaderboard_area_team"
+	}
+}
