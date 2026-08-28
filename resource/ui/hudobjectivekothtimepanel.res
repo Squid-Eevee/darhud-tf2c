@@ -5,8 +5,17 @@
 		"xpos"	"cs-0.5"
 		"ypos"	"-4"
 		
-		"wide"	"320"
+		"wide"	"160"
 		"tall"	"45"
+		
+		"if_3team"
+		{
+			"wide"	"240"
+		}
+		"if_4team"
+		{
+			"wide"	"320"
+		}
 	}
 
 	"BlueTimer"
