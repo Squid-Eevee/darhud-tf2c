@@ -2,9 +2,14 @@
 {
 	"HudBossHealth"
 	{
+		"xpos"				"c-128"
+		
+		"wide"				"258"
+		"tall"				"18"
+		
 		"health_alive_pos_y"	"54"
 		"health_dead_pos_y"	"102"
-		"health_bar_wide"		"185"
+		"health_bar_wide"		"248"
 	}
 	
 	"Background"
@@ -17,18 +22,19 @@
 		"ypos"				"0"
 		"zpos"				"3"
 		
-		"wide"				"f2"
-		"tall"				"f2"
+		"wide"				"256"
+		"tall"				"16"
 		
-		"image"				"../darhud/boss_bar/boss_bar_surround"
+		"image"				"resource\svgs\darhud\boss_bar\boss_bar_border_mask.svg"
 		"scaleimage"			"1"
+		"drawcolor"			"HudHalloweenPurpleSolid"
 		
 		"visible"			"1"
 	}
-	"BorderImage"
+	"BackgroundShadow"
 	{
 		"controlname"			"ImagePanel"
-		"fieldname"			"BorderImage"
+		"fieldname"			"BackgroundShadow"
 		"proportionaltoparent"	"1"
 		
 		"pin_to_sibling"		"Background"
@@ -37,36 +43,22 @@
 		"ypos"				"-2"
 		"zpos"				"-1"
 		
-		"wide"				"f2"
-		"tall"				"f2"
+		"wide"				"256"
+		"tall"				"16"
 		
-		"image"				"../darhud/boss_bar/boss_bar_surround_shadow"
+		"image"				"resource\svgs\darhud\boss_bar\boss_bar_border_shadow_mask.svg"
 		"scaleimage"			"1"
+		"drawcolor"			"HudShadow"
 		
 		"visible"			"1"
 	}
 	
-	//if you'd rather the drop shadow didn't become green when merasmus is healing, uncomment this element and comment out or remove the above one
-	// "BackgroundShadow"
-	// {
-		// "controlname"			"ImagePanel"
-		// "fieldname"			"BackgroundShadow"
-		// "proportionaltoparent"	"1"
-		
-		// "pin_to_sibling"		"Background"
-		
-		// "xpos"				"-2"
-		// "ypos"				"-2"
-		// "zpos"				"-1"
-		
-		// "wide"				"f2"
-		// "tall"				"f2"
-		
-		// "image"				"../darhud/boss_bar/boss_bar_surround_shadow"
-		// "scaleimage"			"1"
-		
-		// "visible"			"1"
-	// }
+	"BorderImage"
+	{
+		"controlname"	"ImagePanel"
+		"fieldname"	"BorderImage"
+		"visible"	"0"
+	}
 	
 	"HealthBarPanel"
 	{
@@ -74,16 +66,12 @@
 		"fieldname"				"HealthBarPanel"
 		"proportionaltoparent"		"1"
 		
-		"pin_to_sibling"			"Background"
-		"pin_corner_to_sibling"	"pin_center_left"
-		"pin_to_sibling_corner"	"pin_center_left"
+		"xpos"					"5"
+		"ypos"					"1"
+		"zpos"					"2"
 		
-		"xpos"					"-9"
-		"ypos"					"0"
-		"zpos"					"1"
-		
-		"wide"					"185"
-		"tall"					"17"
+		"wide"					"248"
+		"tall"					"14"
 		
 		"visible"				"1"
 		
@@ -100,15 +88,16 @@
 			"wide"				"f0"
 			"tall"				"f0"
 			
-			"image"				"../hud/halloween_bar"
+			"image"				"resource\svgs\darhud\boss_bar\boss_bar_mask.svg"
 			"scaleimage"			"1"
+			"drawcolor"			"0 170 255 255"	//this gets replaced with "0 255 0 255" while the boss is "inactive" (i.e. when merasmus is healing)
 			
 			"visible"			"1"
 		}
 	}				
 	
 	//this appears to be tied to a development convar called "cl_boss_show_stun"
-	//but even forcing it to 1 with vscript and reloading the hud causes it to disappear after dealing any damage
+	//but even forcing it to 1 with vscript and reloading the hud causes it to disappear after updating the HealthBarPanel's width
 	"StunMeter"
 	{	
 		"controlname"				"ContinuousProgressBar"

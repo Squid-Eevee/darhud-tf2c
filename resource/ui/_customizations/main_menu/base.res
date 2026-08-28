@@ -478,7 +478,7 @@
 			
 			"xpos"				"2"
 			"ypos"				"50"
-			"zpos"				"2"
+			"zpos"				"3"
 			
 			"wide"				"f4"
 			"tall"				"40"
@@ -550,7 +550,7 @@
 				"wide"				"f0"
 				"tall"				"f10"
 				
-				"bgcolor_override"	"TanDarkest"
+				"bgcolor_override"	"ChallengeBG"
 				
 				"roundedcorners"		"0"
 				
@@ -594,7 +594,7 @@
 				
 				
 				"paintbackgroundtype"	"4"
-				"bgcolor_override"	"TanDarkest"
+				"bgcolor_override"	"ChallengeBG"
 				"fadealphastart"		"0"
 				"fadealphaend"		"255"
 				"roundedcorners"		"0"
@@ -615,7 +615,7 @@
 			
 			"xpos"				"0"
 			"ypos"				"-10"
-			"zpos"				"2"
+			"zpos"				"3"
 			"wide"				"f4"
 			"tall"				"30"
 			"mouseinputenabled"	"0"
@@ -745,7 +745,7 @@
 				"tall"				"f2"
 				
 				"paintbackgroundtype"	"2"
-				"bgcolor_override"	"TanDarkest"
+				"bgcolor_override"	"ChallengeBG"
 				
 				"roundedcorners"		"0"
 				
@@ -753,6 +753,32 @@
 				
 				"visible"			"1"
 			}
+		}
+		
+		"ChallengePanelBG"
+		{
+			"ControlName"				"EditablePanel"
+			"fieldName"				"ChallengePanelBG"
+			"proportionaltoparent"		"1"
+			
+			"pin_to_sibling"			"ChallengePanel"
+			"pin_to_sibling_corner"	"PIN_TOPLEFT"
+			"pin_corner_to_sibling"	"PIN_TOPLEFT"
+			
+			"xpos"					"2"
+			"ypos"					"-10"
+			"zpos"					"1"
+			"wide"					"f0"
+			"tall"					"30"
+			"visible"				"1"
+			
+			"paintbackground"			"1"
+			"PaintBackgroundType"		"0"
+			"RoundedCorners"			"0"
+			
+			"bgcolor_override"		"ChallengeBG"
+			
+			"mouseinputenabled"		"0"
 		}
 
 		"NextChallengeButton"
@@ -765,7 +791,7 @@
 			
 			"xpos"						"2"
 			"ypos"						"-8"
-			"zpos"						"1"
+			"zpos"						"2"
 			
 			"wide"						"f0"
 			"tall"						"34"

@@ -119,9 +119,17 @@ Scheme
 		
 		//HUD Drop Shadow
 		"HudShadow"			"50 50 50 191"
-		"HudShadowSolid"	"50 50 50 255"
+		"HudShadowSolid"		"50 50 50 255"
 
 		"DropShadow"		"0 0 0 240"
+		
+		//Halloween colours
+		"HudHalloweenPurple"		"109 86 134 191"
+		"HudHalloweenPurpleSolid"	"109 86 134 255"
+		"HudHalloweenGreen"		"9 176 91 191"
+		"HudHalloweenGreenSolid"	"9 176 91 255"
+		"HudHalloweenOrange"		"203 129 63 191"
+		"HudHalloweenOrangeSolid"	"203 129 63 255"
 		
 		//Hint/menu colours
 		"HintText"		"255 220 0 127"

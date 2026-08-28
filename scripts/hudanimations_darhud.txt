@@ -413,7 +413,7 @@ event ShowMainMenu
 
 event ShowFriendList
 {
-	Animate	FriendPanel	Position	"c-300	r124"	Accel	0.0	0.1
+	Animate	FriendPanel	Position	"c-300	r117"	Accel	0.0	0.1
 }
 
 event HideFriendList
@@ -439,4 +439,139 @@ event OnShowFriendList
 	SetVisible  SteamFriendsList 1 0
 	SetVisible  ShowFriendListButton 0 0
 	SetVisible  HideFriendListButton 1 0
+}
+
+//==========================================================================================================================
+
+event PrepareChallengeFadeIn
+{
+	Animate	BeatThisLabel			Alpha		"0"				Linear	0.0	0.0
+	Animate	ChallengeLabel			Alpha		"0"				Linear	0.0	0.0
+	Animate	ClassImage				Alpha		"0"				Linear	0.0	0.0
+	Animate	ClassImageFade			Alpha		"0"				Linear	0.0	0.0
+	
+	Animate	TotalProgressBar		Alpha		"0"				Linear	0.0	0.0
+	Animate	AchievementNameLabel	Alpha		"0"				Linear	0.0	0.0
+	Animate	AchievementDescLabel	Alpha		"0"				Linear	0.0	0.0
+	Animate	AchievementImage		Alpha		"0"				Linear	0.0	0.0
+	
+	Animate	BeatThisLabel			Position	"3 		13"		Linear	0.0	0.0
+	Animate	ChallengeLabel			Position	"3 		19"		Linear	0.0	0.0
+	Animate	ClassImage				Position	"205 	0"		Linear	0.0	0.0
+	Animate	ClassImageFade			Position	"205 	19"		Linear	0.0	0.0
+	
+	Animate	TotalProgressBar		Position	"0 		2"		Linear	0.0	0.0
+	Animate	AchievementNameLabel	Position	"27 	3"		Linear	0.0	0.0
+	Animate	AchievementDescLabel	Position	"27 	9"		Linear	0.0	0.0
+	Animate	AchievementImage		Position	"2 		4"		Linear	0.0	0.0
+}
+
+event ChallengeFadeOut
+{
+	Animate	BeatThisLabel			Alpha		"0"				Deaccel	0.0	0.4
+	Animate	ChallengeLabel			Alpha		"0"				Deaccel	0.0	0.4
+	Animate	ClassImage				Alpha		"0"				Deaccel	0.0	0.4
+	Animate	ClassImageFade			Alpha		"0"				Linear	0.4	0.0
+	
+	Animate	TotalProgressBar		Alpha		"0"				Deaccel	0.0	0.4
+	Animate	AchievementNameLabel	Alpha		"0"				Deaccel	0.0	0.4
+	Animate	AchievementDescLabel	Alpha		"0"				Deaccel	0.0	0.4
+	Animate	AchievementImage		Alpha		"0"				Deaccel	0.0	0.4
+	
+	Animate	BeatThisLabel			Position	"7 		13"		Deaccel	0.0	0.4
+	Animate	ChallengeLabel			Position	"7 		19"		Deaccel	0.0	0.4
+	Animate	ClassImage				Position	"209 	0"		Deaccel	0.0	0.4
+	Animate	ClassImageFade			Position	"209 	19"		Linear	0.4	0.0
+	
+	Animate	TotalProgressBar		Position	"4 		2"		Deaccel	0.0	0.4
+	Animate	AchievementNameLabel	Position	"31 	3"		Deaccel	0.0	0.4
+	Animate	AchievementDescLabel	Position	"31 	9"		Deaccel	0.0	0.4
+	Animate	AchievementImage		Position	"6 		4"		Deaccel	0.0	0.4
+}
+
+event ChallengeFadeIn
+{
+	Animate	BeatThisLabel			Alpha		"255"			Accel	0.0	0.4
+	Animate	ChallengeLabel			Alpha		"255"			Accel	0.0	0.4
+	Animate	ClassImage				Alpha		"255"			Accel	0.0	0.4
+	Animate	ClassImageFade			Alpha		"255"			Linear	0.0	0.0
+	
+	Animate	TotalProgressBar		Alpha		"255"			Accel	0.0	0.4
+	Animate	AchievementNameLabel	Alpha		"255"			Accel	0.0	0.4
+	Animate	AchievementDescLabel	Alpha		"255"			Accel	0.0	0.4
+	Animate	AchievementImage		Alpha		"255"			Accel	0.0	0.4
+	
+	Animate	BeatThisLabel			Position	"5 		13"		Accel	0.0	0.4
+	Animate	ChallengeLabel			Position	"5 		19"		Accel	0.0	0.4
+	Animate	ClassImage				Position	"207 	0"		Accel	0.0	0.4
+	Animate	ClassImageFade			Position	"207 	19"		Accel	0.0	0.4
+	
+	Animate	TotalProgressBar		Position	"2 		2"		Accel	0.0	0.4
+	Animate	AchievementNameLabel	Position	"29 	3"		Accel	0.0	0.4
+	Animate	AchievementDescLabel	Position	"29 	9"		Accel	0.0	0.4
+	Animate	AchievementImage		Position	"4 		4"		Accel	0.0	0.4
+}
+
+event ChallengeHoverFadeIn
+{
+	Animate	BeatThisLabel			Alpha	"255"				Accel	0.0	0.1
+	Animate	ChallengeLabel			Alpha	"255"				Accel	0.0	0.1
+	Animate	ClassImage				Alpha	"255"				Accel	0.0	0.1
+	Animate	ClassImageFade			Alpha	"255"				Linear	0.0	0.0
+	
+	Animate	TotalProgressBar		Alpha	"255"				Accel	0.0	0.1
+	Animate	AchievementNameLabel	Alpha	"255"				Accel	0.0	0.1
+	Animate	AchievementDescLabel	Alpha	"255"				Accel	0.0	0.1
+	Animate	AchievementImage		Alpha	"255"				Accel	0.0	0.1
+	
+	Animate	BeatThisLabel			Position	"5 		13"		Accel	0.0	0.1
+	Animate	ChallengeLabel			Position	"5 		19"		Accel	0.0	0.1
+	Animate	ClassImage				Position	"207 	0"		Accel	0.0	0.1
+	Animate	ClassImageFade			Position	"207 	19"		Accel	0.0	0.1
+	
+	Animate	TotalProgressBar		Position	"2 		2"		Accel	0.0	0.1
+	Animate	AchievementNameLabel	Position	"29 	3"		Accel	0.0	0.1
+	Animate	AchievementDescLabel	Position	"29 	9"		Accel	0.0	0.1
+	Animate	AchievementImage		Position	"4 		4"		Accel	0.0	0.1
+}
+
+//==========================================================================================================================
+
+event PulseOption1
+{
+	Animate Option1Background_Selected Alpha "255"	Linear	0.0	0.05
+	Animate Option1Background_Selected Alpha "64"	Deaccel	0.4	0.5
+}
+
+event PulseOption2
+{
+	Animate Option2Background_Selected Alpha "255"	Linear	0.0	0.05
+	Animate Option2Background_Selected Alpha "64"	Deaccel	0.4	0.5
+}
+
+event PulseOption3
+{
+	Animate Option3Background_Selected Alpha "255"	Linear	0.0	0.05
+	Animate Option3Background_Selected Alpha "64"	Deaccel	0.4	0.5
+}
+
+event PulseOption4
+{
+	Animate Option4Background_Selected Alpha "255"	Linear	0.0	0.05
+	Animate Option4Background_Selected Alpha "64"	Deaccel	0.4	0.5
+}
+
+event PulseOption5
+{
+	Animate Option5Background_Selected Alpha "255"	Linear	0.0	0.05
+	Animate Option5Background_Selected Alpha "64"	Deaccel	0.4	0.5
+}
+
+event HideVoteBackgrounds
+{
+	Animate Option1Background_Selected Alpha "0"	Linear	0.0	0.01
+	Animate Option2Background_Selected Alpha "0"	Linear	0.0	0.01
+	Animate Option3Background_Selected Alpha "0"	Linear	0.0	0.01
+	Animate Option4Background_Selected Alpha "0"	Linear	0.0	0.01
+	Animate Option5Background_Selected Alpha "0"	Linear	0.0	0.01
 }

@@ -2,26 +2,26 @@
 {
 	"Notification_Background"
 	{
-		"controlname"		"CImagePanel"
-		"fieldname"		"Notification_Background"
+		"controlname"			"CImagePanel"
+		"fieldname"			"Notification_Background"
 		
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"-1"
+		"xpos"				"0"
+		"ypos"				"0"
+		"zpos"				"-1"
 		
-		"wide"			"140"
-		"tall"			"44"
+		"wide"				"140"
+		"tall"				"44"
 		
-		"image"			"../hud/score_panel_blue_bg"
-		"scaleimage"		"1"
+		"image"				"../hud/score_panel_blue_bg"
+		"scaleimage"			"1"
 		
-		"alpha"			"255"
+		"alpha"				"255"
 		
 		"dropshadow"			"1"
 		"dropshadowoffset"	"3"
 		"dropshadowcolor"		"HudShadow"
 		
-		"visible"		"1"
+		"visible"			"1"
 	}
 	
 	"Notification_Icon"	

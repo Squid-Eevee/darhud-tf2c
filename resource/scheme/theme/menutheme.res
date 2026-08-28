@@ -10,6 +10,8 @@ Scheme
 		"NicknameLabel"		"235 226 202 255"
 		"Tooltip"			"20 20 20 255"
 		
+		"ChallengeBG"			"30 28 26 255"
+		
 		//Loadout Screen
 		"LoadoutBackground"	"31 31 31 255"
 		"LoadoutFooter"		"20 20 20 255"

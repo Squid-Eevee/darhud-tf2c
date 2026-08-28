@@ -127,12 +127,6 @@
 	{
 		"fieldname"			"HudBossHealth"
 		
-		"xpos"				"c-101"
-		"zpos"				"0"
-		
-		"wide"				"204"
-		"tall"				"26"
-		
 		"visible"			"1"
 	}
 
