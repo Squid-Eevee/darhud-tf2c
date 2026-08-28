@@ -1,0 +1,9 @@
+"Patch"
+{
+	include "materials\darhud\bases\base_shadow_opaque.vmt"
+	
+	insert
+	{
+		"$basetexture"	"hud\leaderboard_area_team"
+	}
+}
