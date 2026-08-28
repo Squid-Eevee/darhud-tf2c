@@ -7,8 +7,8 @@
 		"wide"				"258"
 		"tall"				"18"
 		
-		"health_alive_pos_y"	"54"
-		"health_dead_pos_y"	"102"
+		"health_alive_pos_y"	"56"
+		"health_dead_pos_y"	"104"
 		"health_bar_wide"		"248"
 	}
 	
