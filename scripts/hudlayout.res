@@ -122,20 +122,18 @@
 		"visible"		"1"
 		"enabled"		"1"
 	}
-
+	
 	"HudBossHealth"
 	{
-		"fieldname"	"HudBossHealth"
+		"fieldname"			"HudBossHealth"
 		
-		"xpos"		"c-100"
-		"ypos"		"42"
-		"zpos"		"0"
+		"xpos"				"c-101"
+		"zpos"				"0"
 		
-		"wide"		"200"
-		"tall"		"50"
+		"wide"				"204"
+		"tall"				"26"
 		
-		"visible"	"1"
-		"enabled"	"1"
+		"visible"			"1"
 	}
 
 	//resource/ui/_customizations/weapon_selection/
