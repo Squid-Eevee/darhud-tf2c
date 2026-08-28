@@ -592,7 +592,6 @@
 				"wide"				"39"
 				"tall"				"20"
 				
-				
 				"paintbackgroundtype"	"4"
 				"bgcolor_override"	"ChallengeBG"
 				"fadealphastart"		"0"
@@ -762,14 +761,12 @@
 			"proportionaltoparent"		"1"
 			
 			"pin_to_sibling"			"ChallengePanel"
-			"pin_to_sibling_corner"	"PIN_TOPLEFT"
-			"pin_corner_to_sibling"	"PIN_TOPLEFT"
 			
 			"xpos"					"2"
 			"ypos"					"-10"
 			"zpos"					"1"
 			"wide"					"f0"
-			"tall"					"30"
+			"tall"					"31"
 			"visible"				"1"
 			
 			"paintbackground"			"1"
