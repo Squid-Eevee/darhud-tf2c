@@ -1,6 +1,6 @@
 "Patch"
 {
-	include "materials\darhud\base_brown.vmt"
+	include "materials\darhud\bases\base_brown.vmt"
 	
 	insert
 	{
