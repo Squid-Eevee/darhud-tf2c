@@ -71,7 +71,7 @@
 		"image"			"resource/svgs/meters/ico_battery_inactive.svg"
 		
 		"drawcolor"		"ProgressBar.BgColor"
-		"dropshadow"	"1"
+		"dropshadow"	"0"
 	}
 	
 	"ActiveIcon"
