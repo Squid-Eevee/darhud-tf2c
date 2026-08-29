@@ -345,19 +345,19 @@
 			"visible"	"1"
 		}
 
-		"WrenchIcon"
+		"RepairIcon"
 		{
 			"controlname"			"ImagePanel"
-			"fieldname"			"WrenchIcon"
+			"fieldname"			"RepairIcon"
 			
-			"xpos"				"3"
+			"xpos"				"4"
 			"ypos"				"4"
 			"zpos"				"1"
 			
 			"wide"				"22"
 			"tall"				"22"
 			
-			"image"				"resource/svgs/engineer/eng_status_alert_ico_wrench.svg"
+			"image"				"resource/svgs/engineer/eng_status_alert_ico_wrench_health.svg"
 			"scaleimage"			"1"
 			"drawcolor"			"ProgressBar.FgColor"
 			
