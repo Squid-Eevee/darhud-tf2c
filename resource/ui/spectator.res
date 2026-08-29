@@ -4,362 +4,401 @@
 	{
 		"controlname"		"Frame"
 		"fieldname"		"Spectator"
-		"tall"			"480"
-		"autoResize"		"0"
-		"pinCorner"		"0"
+		
+		"tall"			"f0"
+		
 		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"		"0"
 	}
+	
 	"specgui"
 	{
 	}
+	
 	"topbar"
 	{
 		"controlname"		"Panel"
 		"fieldname"		"TopBar"
+		
 		"xpos"			"0"
 		"ypos"			"0"
-		"tall"			"45"
+		
 		"wide"			"f0"
-		"autoResize"		"0"
-		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"1"
-		"tabPosition"		"0"
+		"tall"			"45"
+		
 		"alpha"			"0"
-	}
-	
-	"topbarblank"
-	{
-		"controlname"		"EditablePanel"
-		"fieldname"		"topbardark"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"-1"
-		"tall"			"45"
-		"wide"			"f0"
-		"autoResize"		"0"
-		"pinCorner"		"0"
+		
 		"visible"		"0"
-		"enabled"		"1"
-		"tabPosition"		"0"
-		"paintBackground"	"1"
-		"bgcolor_override"	"20 20 20 255"
 	}
 	
 	"BottomBar"
 	{
-		"controlname"	"Frame"
+		"controlname"		"Frame"
 		"fieldname"		"BottomBar"
+		
 		"xpos"			"0"
 		"ypos"			"r70"
+		
 		"ypos_minmode"	"r20"
+		
 		"tall"			"70"
-		"tall_minmode"	"0"		
-		"autoResize"	"0"
-		"pinCorner"		"0"
+		
+		"tall_minmode"	"0"
+		
 		"visible"		"1"
-		"enabled"		"0"
-		"tabPosition"		"0"
 	}
 	"bottombarblank"
 	{
 		"controlname"		"Panel"
 		"fieldname"		"bottombarblank"
+		
 		"xpos"			"0"
 		"ypos"			"r0"
+		
 		"ypos_minmode"	"r0"
-		"tall"			"70"	// this needs to match the size of BottomBar
+		
 		"wide"			"f0"
-		"autoResize"	"0"
-		"pinCorner"		"0"
+		"tall"			"70"
+		
 		"visible"		"1"
-		"visible_minmode"		"0"
-		"enabled"		"1"
-		"tabPosition"		"0"
+		
+		"visible_minmode"	"0"
 	}
+	
 	"ReinforcementsLabel"
 	{
-		"controlname"		"CExLabel"
-		"fieldname"		"ReinforcementsLabel"
-		"fgcolor_override"		"GeneralLabel"
-		"xpos"			"cs-0.5"
-		"ypos"			"68"
-		"wide"			"300"
-		"tall"			"16"
-		"visible"		"1"
-		"enabled"		"1"
-		"labelText"		"#game_respawntime_in_secs"
+		"controlname"			"CExLabel"
+		"fieldname"			"ReinforcementsLabel"
+		
+		"xpos"				"0"
+		"ypos"				"68"
+		
+		"wide"				"f0"
+		"tall"				"16"
+		
+		"labelText"			"#game_respawntime_in_secs"
+		"font"				"HudFontSmall"
 		"textAlignment"		"center"
-		"font"			"HudFontSmall"
-		"dropshadow"		"1"
+		
+		"fgcolor_override"	"GeneralLabel"
+		
+		"dropshadow"			"1"
 		"dropshadowoffset"	"2"
+		
+		"visible"			"1"
+		"enabled"			"1"
 	}
 
 	"BuyBackLabel"
 	{
-		"controlname"	"CExLabel"
-		"fieldname"		"BuyBackLabel"
-		"xpos"			"cs-0.5"
-		"ypos"			"2"
-		"zpos"			"1"
-		"wide"			"f0"
-		"tall"			"16"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"1"
-		"labelText"		"#TF_PVE_Buyback"
-		"textAlignment"	"center"
-		"font"			"HudFontSmallBold"
-		"bgcolor_override"	"GreenSolid"
-		"fgcolor"	"GeneralLabel"
+		"controlname"			"CExLabel"
+		"fieldname"			"BuyBackLabel"
+		
+		"xpos"				"cs-0.5"
+		"ypos"				"2"
+		"zpos"				"1"
+		
+		"wide"				"f0"
+		"tall"				"16"
+		
+		"labelText"			"#TF_PVE_Buyback"
+		"font"				"HudFontSmallBold"
+		"textAlignment"		"center"
+		"centerwrap"			"1"
+		
+		"fgcolor"			"GeneralLabel"
+		
 		"paintBackgroundType" "0"
-		"wrap"			"1"
-		"centerwrap"	"1"
+		"bgcolor_override"	"GreenSolid"
+		
 		"dropshadow"			"1"
-		"dropshadowoffset"		"3"
+		"dropshadowoffset"	"3"
+		
+		"visible"			"0"
+		"enabled"			"1"
 	
 		if_mvm
 		{
-			"visible"		"1"
+			"visible"	"1"
 		}
 	}
 	"MapLabel"
 	{
-		"controlname"		"CExLabel"
-		"fieldname"		"MapLabel"
-		"font"			"HudFontSmall"
-		"fgcolor_override"		"GeneralLabel"
-		"xpos"			"15"
-		"ypos"			"0"
-		"wide"			"240"
-		"tall"			"44"
-		"autoResize"		"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
+		"controlname"			"CExLabel"
+		"fieldname"			"MapLabel"
+		
+		"xpos"				"15"
+		"ypos"				"0"
+		
+		"wide"				"240"
+		"tall"				"44"
+		
+		"font"				"HudFontSmall"
+		"fgcolor_override"	"GeneralLabel"
 		"textAlignment"		"west"
-		"dropshadow"		"1"
+		
+		"dropshadow"			"1"
 		"dropshadowoffset"	"2"
+		
+		"visible"			"1"
+		"enabled"			"1"
 	}
 	"ClassOrTeamLabel"
 	{
-		"controlname"		"CExLabel"
-		"fieldname"		"ClassOrTeamLabel"
-		"xpos"			"c-85"
-		"ypos"			"68"
-		"wide"			"170"
-		"tall"			"15"
-		"zpos"			"2"
-		"autoResize"		"0"
-		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"1"
-		"labelText"		"#TF_Spectator_ChangeTeam"
+		"controlname"			"CExLabel"
+		"fieldname"			"ClassOrTeamLabel"
+		
+		"xpos"				"0"
+		"ypos"				"83"
+		"zpos"				"2"
+		
+		"wide"				"f0"
+		"tall"				"15"
+		
+		"labelText"			"#TF_Spectator_ChangeTeam"
+		"font"				"SpectatorKeyHints"
 		"textAlignment"		"center"
-		"textAlignment_lodef"		"north-west"
-		"font"			"SpectatorKeyHints"
-		"font_hidef"	"HudFontSmallest"
-		"font_lodef"	"HudFontSmall"
-		"wrap_lodef"			"1"
+		
+		"dropshadow"			"1"
+		"dropshadowoffset"	"1"
+		
+		"visible"			"1"
+		"enabled"			"1"
 	}
 	"SwitchCamModeKeyLabel"
 	{
-		"controlname"		"CExLabel"
-		"fieldname"		"SwitchCamModeKeyLabel"
-		"fgcolor_override"		"GeneralLabel"
-		"xpos"			"5"
-		"ypos"			"r95"
-		"wide"			"60"
+		"controlname"			"CExLabel"
+		"fieldname"			"SwitchCamModeKeyLabel"
+		
+		"xpos"				"5"
+		"ypos"				"r95"
+		
 		"auto_wide_tocontents"	"1"
-		"tall"			"20"
-		"autoResize"		"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"visible_minmode"		"0"
-		"enabled"		"1"
-		"labelText"		"#TF_Spectator_ChangeTeam"
+		"tall"				"20"
+		
+		"labelText"			"#TF_Spectator_ChangeTeam"
+		"font"				"HudFontSmallestBold"
 		"textAlignment"		"west"
-		"font"			"HudFontSmallestBold"
-		"dropshadow"		"1"
+		
+		"fgcolor_override"	"GeneralLabel"
+		
+		"dropshadow"			"1"
 		"dropshadowoffset"	"2"
+		
+		"visible"			"1"
+		"enabled"			"1"
+		
+		"visible_minmode"		"0"
 	}
 	"SwitchCamModeLabel"
 	{
-		"controlname"		"CExLabel"
-		"fieldname"		"SwitchCamModeLabel"
-		"fgcolor_override"		"GeneralLabel"
-		"xpos"			"55"
-		"ypos"			"r95"	
-		"wide"			"125"
-		"tall"			"20"
-		"autoResize"		"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"visible_minmode"		"0"
-		"enabled"		"1"
-		"labelText"		"#TF_Spectator_SwitchCamMode"
+		"controlname"			"CExLabel"
+		"fieldname"			"SwitchCamModeLabel"
+		
+		"xpos"				"55"
+		"ypos"				"r95"
+		
+		"wide"				"125"
+		"tall"				"20"
+		
+		"labelText"			"#TF_Spectator_SwitchCamMode"
+		"font"				"HudFontSmallest"
 		"textAlignment"		"west"
-		"font"			"HudFontSmallest"
-		"dropshadow"		"1"
+		
+		"fgcolor_override"	"GeneralLabel"
+		
+		"dropshadow"			"1"
 		"dropshadowoffset"	"2"
+		
+		"visible"			"1"
+		"enabled"			"1"
+		
+		"visible_minmode"		"0"
 	}
 	
 	"CycleTargetFwdKeyLabel"
 	{
-		"controlname"		"CExLabel"
-		"fieldname"		"CycleTargetFwdKeyLabel"
-		"fgcolor_override"		"GeneralLabel"
-		"xpos"			"5"
-		"ypos"			"r85"
-		"wide"			"60"
+		"controlname"			"CExLabel"
+		"fieldname"			"CycleTargetFwdKeyLabel"
+		
+		"xpos"				"5"
+		"ypos"				"r85"
+		
 		"auto_wide_tocontents"	"1"
-		"tall"			"20"
-		"autoResize"		"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"visible_minmode"		"0"
-		"visible"		"0"
-		"enabled"		"1"
-		"labelText"		"#TF_Spectator_ClassOrTeamKey"
+		"tall"				"20"
+		
+		"labelText"			"#TF_Spectator_ClassOrTeamKey"
+		"font"				"HudFontSmallestBold"
 		"textAlignment"		"west"
-		"font"			"HudFontSmallestBold"
-		"dropshadow"		"1"
+		
+		"fgcolor_override"	"GeneralLabel"
+		
+		"dropshadow"			"1"
 		"dropshadowoffset"	"2"
+		
+		"visible"			"1"
+		"enabled"			"1"
+		
+		"visible_minmode"		"0"
 	}
 	"CycleTargetFwdLabel"
 	{
-		"controlname"		"CExLabel"
-		"fieldname"		"CycleTargetFwdLabel"
-		"fgcolor_override"		"GeneralLabel"
-		"xpos"			"55"
-		"ypos"			"r85"	
-		"wide"			"125"
-		"tall"			"20"
-		"autoResize"		"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"visible_minmode"		"0"
-		"enabled"		"1"
-		"labelText"		"#TF_Spectator_CycleTargetFwd"
+		"controlname"			"CExLabel"
+		"fieldname"			"CycleTargetFwdLabel"
+		"xpos"				"55"
+		"ypos"				"r85"
+		
+		"wide"				"125"
+		"tall"				"20"
+		
+		"labelText"			"#TF_Spectator_CycleTargetFwd"
+		"font"				"HudFontSmallest"
 		"textAlignment"		"west"
-		"font"			"HudFontSmallest"
-		"dropshadow"		"1"
+		
+		"fgcolor_override"	"GeneralLabel"
+		
+		"dropshadow"			"1"
 		"dropshadowoffset"	"2"
+		
+		"visible"			"1"
+		"enabled"			"1"
+		
+		"visible_minmode"		"0"
 	}
 	"CycleTargetRevKeyLabel"
 	{
-		"controlname"		"CExLabel"
-		"fieldname"		"CycleTargetRevKeyLabel"
-		"fgcolor_override"		"GeneralLabel"
-		"xpos"			"5"
-		"ypos"			"r75"
-		"wide"			"60"
+		"controlname"			"CExLabel"
+		"fieldname"			"CycleTargetRevKeyLabel"
+		
+		"xpos"				"5"
+		"ypos"				"r75"
+		
 		"auto_wide_tocontents"	"1"
-		"tall"			"20"
-		"autoResize"		"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"visible_minmode"		"0"
-		"enabled"		"1"
-		"labelText"		"#TF_Spectator_ClassOrTeamKey"
+		"tall"				"20"
+		
+		"labelText"			"#TF_Spectator_ClassOrTeamKey"
+		"font"				"HudFontSmallestBold"
 		"textAlignment"		"west"
-		"font"			"HudFontSmallestBold"
-		"dropshadow"		"1"
+		
+		"fgcolor_override"	"GeneralLabel"
+		
+		"dropshadow"			"1"
 		"dropshadowoffset"	"2"
+		
+		"visible"			"1"
+		"enabled"			"1"
+		"visible_minmode"		"0"
 	}
 	"CycleTargetRevLabel"
 	{
-		"controlname"		"CExLabel"
-		"fieldname"		"CycleTargetRevLabel"
-		"fgcolor_override"		"GeneralLabel"
-		"xpos"			"55"
-		"ypos"			"r75"
-		"wide"			"125"
-		"tall"			"20"
-		"autoResize"		"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"visible_minmode"		"0"
-		"enabled"		"1"
-		"labelText"		"#TF_Spectator_CycleTargetRev"
+		"controlname"			"CExLabel"
+		"fieldname"			"CycleTargetRevLabel"
+		
+		"xpos"				"55"
+		"ypos"				"r75"
+		
+		"wide"				"125"
+		"tall"				"20"
+		
+		"labelText"			"#TF_Spectator_CycleTargetRev"
+		"font"				"HudFontSmallest"
 		"textAlignment"		"west"
-		"font"			"HudFontSmallest"
-		"dropshadow"		"1"
+		
+		"fgcolor_override"	"GeneralLabel"
+		
+		"dropshadow"			"1"
 		"dropshadowoffset"	"2"
+		
+		"visible"			"1"
+		"enabled"			"1"
+		
+		"visible_minmode"		"0"
 	}
 
 	"TipContainer"
 	{
-		"controlname"	"EditablePanel"
-		"fieldname"	"TipContainer"
-		"xpos"		"5"
-		"ypos"		"r45"
-		"wide"		"250"
-		"tall"		"40"
-		"visible"			"1"
-		"visible_minmode"		"0"
+		"controlname"		"EditablePanel"
+		"fieldname"		"TipContainer"
+		
+		"xpos"			"5"
+		"ypos"			"r45"
+		
+		"wide"			"250"
+		"tall"			"40"
+		
+		"visible"		"1"
+		"visible_minmode"	"0"
 		
 		"Tipimage"
 		{
-			"controlname"			"CTFImagePanel"
-			"fieldname"				"Tipimage"
-			"xpos"					"0"
-			"ypos"					"0"
-			"zpos"					"12"
-			"wide"					"40"
-			"tall"					"40"
-			"visible"				"0"
-			"enabled"				"1"
-			"scaleimage"			"1"
+			"controlname"	"CTFImagePanel"
+			"fieldname"	"Tipimage"
+			
+			"xpos"		"0"
+			"ypos"		"0"
+			
+			"wide"		"40"
+			"tall"		"40"
+			
+			"scaleimage"	"1"
+			
+			"visible"	"0"
 		}
 		
 		"TipText"
 		{
-			"controlname"		"CExLabel"
-			"fieldname"		"TipText"
-			"fgcolor_override"		"GeneralLabel"
-			"xpos"			"50"
-			"ypos"			"0"
-			"wide"			"200"
-			"tall"			"40"
-			"visible"		"1"
-			"labelText"		""
+			"controlname"			"CExLabel"
+			"fieldname"			"TipText"
+			
+			"xpos"				"50"
+			"ypos"				"0"
+			
+			"wide"				"200"
+			"tall"				"40"
+			
+			"labelText"			""
+			"font"				"TipFont"
 			"textAlignment"		"west"
-			"font"			"TipFont"
-			"wrap"			"1"
-			"dropshadow"		"1"
+			"wrap"				"1"
+			
+			"fgcolor_override"	"GeneralLabel"
+			
+			"dropshadow"			"1"
 			"dropshadowoffset"	"2"
+			
+			"visible"			"1"
 		}
 	}
 	
 	"spectator_extras"
 	{
 		"controlname"	"EditablePanel"
-		"fieldname"		"spectator_extras"
-		"xpos"			"0"
-		"ypos"			"0"
-		"wide"			"f0"
-		"tall"			"480"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
+		"fieldname"	"spectator_extras"
+		
+		"xpos"		"0"
+		"ypos"		"0"
+		
+		"wide"		"f0"
+		"tall"		"f0"
+		
+		"visible"	"1"
 	}
 	
 	"crosshair"
 	{
-		"controlname"		"CTFImagePanel"
-		"fieldname"		"crosshair"
-		"xpos"			"cs-0.5"
-		"ypos"			"cs-0.5"
-		"zpos"			"0"
-		"wide"			"1"
-		"tall"			"1"
-		"visible"		"1"
-		"enabled"		"1"
-		"alpha"			"128"
+		"controlname"			"EditablePanel"
+		"fieldname"			"crosshair"
+		
+		"xpos"				"cs-0.5"
+		"ypos"				"cs-0.5"
+		"zpos"				"0"
+		
+		"wide"				"1"
+		"tall"				"1"
+		
+		"alpha"				"128"
+		
+		"bgcolor_override"	"255 255 255 255"
+		
+		"visible"			"1"
 	}	
 }

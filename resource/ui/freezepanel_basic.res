@@ -170,8 +170,6 @@
 			"image"			""
 			"scaleimage"		"1"
 			
-			"color_outline"	"52 48 45 255"
-			
 			"visible"		"1"
 			"enabled"		"1"
 		}	

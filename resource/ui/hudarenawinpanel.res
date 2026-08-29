@@ -669,7 +669,6 @@
 			"enabled"		"1"
 			"image"			""
 			"scaleimage"		"1"
-			"color_outline"		"52 48 45 255"
 		}
 		"Player1Name"
 		{	
@@ -779,7 +778,6 @@
 			"enabled"		"1"
 			"image"			""
 			"scaleimage"		"1"
-			"color_outline"		"52 48 45 255"
 		}
 		"Player2Name"
 		{	
@@ -889,7 +887,6 @@
 			"enabled"		"1"
 			"image"			""
 			"scaleimage"		"1"
-			"color_outline"		"52 48 45 255"
 		}
 		"Player3Name"
 		{	
@@ -1011,7 +1008,6 @@
 			"enabled"		"1"
 			"image"			""
 			"scaleimage"		"1"
-			"color_outline"		"52 48 45 255"
 		}
 		"Player1Name"
 		{	
@@ -1127,7 +1123,6 @@
 			"enabled"		"1"
 			"image"			""
 			"scaleimage"		"1"
-			"color_outline"		"52 48 45 255"
 		}
 		"Player2Name"
 		{	
@@ -1243,7 +1238,6 @@
 			"enabled"		"1"
 			"image"			""
 			"scaleimage"		"1"
-			"color_outline"		"52 48 45 255"
 		}
 		"Player3Name"
 		{	

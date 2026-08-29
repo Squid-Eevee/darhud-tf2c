@@ -394,7 +394,6 @@
 			"enabled"		"1"
 			"image"			""
 			"scaleimage"	"1"
-			"color_outline"	"52 48 45 255"
 		}
 		"BlueLeaderAvatarBG"
 		{
@@ -532,7 +531,6 @@
 			"enabled"		"1"
 			"image"			""
 			"scaleimage"	"1"
-			"color_outline"	"52 48 45 255"
 		}
 		"RedLeaderAvatarBG"
 		{

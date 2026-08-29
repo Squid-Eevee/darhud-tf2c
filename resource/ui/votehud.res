@@ -649,8 +649,6 @@
 			"image"			""
 			"scaleimage"		"1"
 			
-			"color_outline"	"52 48 45 255"
-			
 			"visible"		"1"
 			"enabled"		"1"
 		}
@@ -977,6 +975,7 @@
 			"tall"			"15"
 			"visible"		"1"
 			"enabled"		"1"
+			
 			"box_size"		"15"
 			"spacer"			"6"
 			"box_inset"		"0"

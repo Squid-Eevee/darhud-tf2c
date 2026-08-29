@@ -1962,16 +1962,17 @@
 	"MvMScoreboard"
 	{
 		"controlname"		"CTFHudMannVsMachineScoreboard"
-		"fieldname"			"MvMScoreboard"
-		"xpos"				"0"
-		"ypos"				"0"
-		"zpos"				"10"
-		"wide"				"f0"
-		"tall"				"480"
-		"visible"			"0"
-		"enabled"			"1"
+		"fieldname"		"MvMScoreboard"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"10"
+		"wide"			"f0"
+		"tall"			"480"
+		"visible"		"0"
 		
-		"verbose"			"1"
+		"color_normal"	"TanLight"
+		"color_miniboss"	"RedSolid"
+		"verbose"		"1"
 		
 		if_mvm
 		{

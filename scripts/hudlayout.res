@@ -214,7 +214,6 @@
 		"priority"				"40"
 		
 		"visible" 				"0"
-		"enabled" 				"1"
 	}
 	
 	"CSecondaryTargetID"
@@ -231,7 +230,6 @@
 		"priority"				"35"
 		
 		"visible" 				"0"
-		"enabled" 				"1"
 	}
 
 	"CSpectatorTargetID"
@@ -248,7 +246,6 @@
 		"priority"				"40"
 		
 		"visible" 				"0"
-		"enabled" 				"1"
 	}
 	
 	"BuildingStatus_Engineer"
@@ -285,17 +282,19 @@
 	
 	"HudMannVsMachineStatus"
 	{
-		"fieldname"	"HudMannVsMachineStatus"
+		"fieldname"		"HudMannVsMachineStatus"
 		
-		"xpos"		"0"
-		"ypos"		"0"
-		"zpos"		"-1"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"-1"
 		
-		"wide"		"f0"
-		"tall"		"480"
+		"wide"			"f0"
+		"tall"			"480"
 		
-		"visible"	"1"
-		"enabled"	"1"
+		"color_normal"	"TanLight"
+		"color_miniboss"	"RedSolid"
+		
+		"visible"		"1"
 	}
 	
 	"CurrencyStatusPanel"
@@ -334,17 +333,22 @@
 
 	"HudDamageIndicator"
 	{
-		"fieldname"		"HudDamageIndicator"
+		"fieldname"			"HudDamageIndicator"
 		
-		"MinimumWidth"	"10"
-		"MaximumWidth"	"100"
-		"MinimumHeight"	"20"
-		"MaximumHeight"	"100"
-		"StartRadius"		"140"
-		"EndRadius"		"120"
+		"MinimumWidth"		"10"
+		"MaximumWidth"		"100"
+		"MinimumHeight"		"20"
+		"MaximumHeight"		"100"
+		"StartRadius"			"140"
+		"EndRadius"			"120"
+		"MaximumDamage"		"100"
+		"MinimumTime"			"1"
+		"MaximumTime"			"2"
+		"TravelTime"			"0.1"
+		"FadeOutPercentage"	"0.7"
+		"Noise"				"0.1"
 		
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"			"1"
 	}
 
 	"HudCommentary"
@@ -403,6 +407,8 @@
 		"TeamRed"			"HUDRedTeamSolid"
 		"TeamGreen"			"HUDGreenTeamSolid"
 		"TeamYellow"			"HUDYellowTeamSolid"
+		"PurpleText"			"HudHalloweenPurpleSolid"
+		"GreenText"			"HUDHalloweenGreenSolid"
 		
 		"IconColor"			"HudWhite"
 		"SVGIconColor"		"KillfeedIcon"		//these control the colours of the svg kill icons in the kill feed
@@ -439,18 +445,14 @@
 		"xpos"				"11"
 		"ypos"				"165"
 		"zpos"				"10"
-		
-		"xpos_minmode"		"-5"
-		
-		"LeftBuffer"			"0"
-		
-		"LeftBuffer_minmode"	"5"
 
 		"TextFont"			"MenuFont"
 		"ItemFont"			"MenuFont"
 		"ItemFontPulsing"		"MenuFont"
 
-		"MenuItemColor"		"HintText"
+		"MenuColor"			"MenuColor"
+		"MenuItemColor"		"ItemColor"
+		"MenuBoxColor"		"MenuBoxBg"
 		
 		"roundedcorners"		"0"
 		
@@ -582,7 +584,6 @@
 		"tall"		"f0"
 		
 		"visible"	"1"
-		"enabled"	"1"
 	}
 	
 	"HudScopeCharge"
@@ -630,26 +631,26 @@
 		"item_spacing"	"1"
 		
 		"show_friend"		"1"
-		"show_avatar"		"1"
-		"show_medal"		"1"
-		"show_dead_icon"	"1"
-		"show_voice_icon"	"1"
 		
+		"show_avatar"		"1"
 		"avatar_xpos"		"12"
 		"avatar_ypos"		"0"
 		"avatar_wide"		"16"
 		"avatar_tall"		"16"
 		
+		"show_medal"		"1"
 		"medal_xpos"		"4"
 		"medal_ypos"		"0"
 		"medal_wide"		"8"
 		"medal_tall"		"16"
 		
+		"show_dead_icon"	"1"
 		"dead_xpos"		"14"
 		"dead_ypos"		"2"
 		"dead_wide"		"12"
 		"dead_tall"		"12"
 		
+		"show_voice_icon"	"1"
 		"icon_ypos"		"2"
 		"icon_xpos"		"0"
 		"icon_wide"		"12"
@@ -663,7 +664,6 @@
 		"name_font"		"VoiceChatFont"
 		
 		"visible"		"1"
-		"enabled"		"1"
 	}
 
 	"HudHintDisplay"
@@ -675,11 +675,11 @@
 		"wide"				"480"
 		"tall"				"100"
 		
-		"HintSize"			"1"
 		"text_xpos"			"8"
 		"text_ypos"			"8"
 		"center_x"			"0"
 		"center_y"			"-1"
+		"HintSize"			"1"
 		
 		"PaintBackgroundType"	"0"
 		
@@ -744,6 +744,12 @@
 		"wide"				"f0"
 		"tall"				"200"
 		
+		"CornerCutSize"		"5"		//Found these by digging through the sdk
+		"BackgroundOverlap"	"5"		//not sure what any of them do at the moment
+		"icon_start_x"		"10"	//
+		"icon_start_y"		"10"	//
+		"icon_expand"			"0"		//
+		"iconsize"			"24"	//
 		"separator_width"		"9"
 		"separator_height"	"9"
 		"height_offset"		"15"
@@ -1559,6 +1565,7 @@
 	//either way they don't do anything but you get a message in the console on startup if they aren't there
 	"HudCrosshair"
 	{
+		"never_draw"	"0"	//set this to 1 if you want to completely disable your crosshair for some reason
 	}
 	
 	"HudTrain"
