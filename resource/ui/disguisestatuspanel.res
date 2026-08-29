@@ -13,11 +13,11 @@
 		"wide"				"130"
 		"tall"				"28"
 		
-		"LeftSideOffsetX"		"0"
+		"LeftSideOffsetX"		"3"
 		"RightSideOffsetX"	"3"
 		"HealthOffsetX"		"16"
 		"ArmorOffsetX"		"-4"
-		"NameOffsetX"			"0"
+		"NameOffsetX"			"2"
 		"SpywalkOffsetX"		"-4"
 		"MinimumBGWidth"		"130"
 		"MaximumBGWidth"		"152"
@@ -27,21 +27,24 @@
 	
 	"SpyIcon"
 	{
-		"controlname"	"CIconPanel"
-		"fieldname"	"SpyIcon"
+		"controlname"			"ImagePanel"
+		"fieldname"			"SpyIcon"
 		
-		"xpos"		"-6"
-		"ypos"		"0"
-		"zpos"		"1"
+		"xpos"				"-2"
+		"ypos"				"2"
+		"zpos"				"1"
 		
-		"wide"		"30"
-		"tall"		"30"
+		"wide"				"24"
+		"tall"				"24"
 		
-		"icon"		"hud_spy_disguise_menu_icon"
-		"scaleimage"	"1"
-		"iconColor"	"GeneralLabel"
+		"image"				"resource\svgs\spy\ico_disguise.svg"
+		"scaleimage"			"1"
+		"drawcolor"			"GeneralLabel"
 		
-		"visible"	"1"
+		"dropshadow"			"1"
+		"dropshadowoffset"	"2"
+		
+		"visible"			"1"
 	}
 
 	"DisguiseStatusBG"
@@ -143,7 +146,7 @@
 		"ypos"		"1"
 		"zpos"		"1"
 		
-		"wide"		"21"
+		"wide"		"26"
 		"tall"		"26"
 		
 		"visible"	"1"

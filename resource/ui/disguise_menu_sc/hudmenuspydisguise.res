@@ -2,25 +2,19 @@
 
 "Resource/UI/disguise_menu/HudMenuSpyDisguise.res"
 {
-	"SpyIcon"
+	"HeaderIcon"	
 	{
-		"controlname"	"CIconPanel"
-		"fieldname"		"SpyIcon"
-		"xpos"			"c-142"
-		"ypos"			"c85"
-		"zpos"			"2"
-		"wide"			"40"
-		"tall"			"40"
-		"visible"		"1"
-		"enabled"		"1"
-		"scaleimage"	"1"
-		"icon"			"hud_spy_disguise_menu_icon"
-		"iconColor"		"GeneralLabel"
+		"ypos"	"0"
+		
+		"wide"	"30"
+		"tall"	"30"
+		
+		"image"	"resource/svgs/spy/ico_disguise.svg"
 	}
 	
 	"TitleLabel"
 	{
-		"labelText"		"#Hud_Menu_Disguise_Title"
+		"labelText"	"#Hud_Menu_Disguise_Title"
 	}
 	
 	"active_selection_bg"
