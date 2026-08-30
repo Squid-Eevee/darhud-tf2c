@@ -155,10 +155,10 @@
 			"enabled"			"1"
 		}
 
-		"Avatarimage"
+		"AvatarImage"
 		{
 			"controlname"		"CAvatarImagePanel"
-			"fieldname"		"Avatarimage"
+			"fieldname"		"AvatarImage"
 			
 			"xpos"			"120"
 			"ypos"			"64"
@@ -171,8 +171,26 @@
 			"scaleimage"		"1"
 			
 			"visible"		"1"
-			"enabled"		"1"
-		}	
+		}
+		"AvatarImageShadow"
+		{
+			"controlname"		"CTFImagePanel"
+			"fieldname"		"AvatarImageShadow"
+			
+			"pin_to_sibling"	"AvatarImage"
+			
+			"xpos"			"-1"
+			"ypos"			"-1"
+			"zpos"			"2"
+			
+			"wide"			"16"
+			"tall"			"16"
+			
+			"image"			"..\darhud\square\square_shadow"
+			"scaleimage"		"1"
+			
+			"visible"		"1"
+		}
 		
 		"NemesisSubPanel"
 		{
