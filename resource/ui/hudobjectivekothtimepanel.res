@@ -6,7 +6,9 @@
 		"ypos"	"-4"
 		
 		"wide"	"160"
-		"tall"	"45"
+		"tall"	"50"
+		
+		"timer_offset"	"3"
 		
 		"if_3team"
 		{

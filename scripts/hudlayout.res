@@ -65,8 +65,6 @@
 	{
 		"fieldname"		"HudKothTimeStatus"
 		
-		"timer_offset"	"3"
-		
 		"visible"		"1"
 	}	
 
