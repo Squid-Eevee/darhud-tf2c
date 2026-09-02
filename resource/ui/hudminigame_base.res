@@ -7,7 +7,7 @@
 		
 		"xpos"		"c-95"
 		"ypos"		"r55"
-		"zpos"		"1"
+		"zpos"		"0"
 		
 		"wide"		"90"
 		"tall"		"34"
@@ -26,7 +26,7 @@
 		
 		"xpos"			"-2"
 		"ypos"			"-2"
-		"zpos"			"1"
+		"zpos"			"-1"
 		
 		"wide"			"90"
 		"tall"			"34"
@@ -44,7 +44,7 @@
 		
 		"xpos"		"c5"
 		"ypos"		"r55"
-		"zpos"		"1"
+		"zpos"		"0"
 		
 		"wide"		"90"
 		"tall"		"34"
@@ -63,7 +63,7 @@
 		
 		"xpos"			"-2"
 		"ypos"			"-2"
-		"zpos"			"1"
+		"zpos"			"-1"
 		
 		"wide"			"90"
 		"tall"			"34"
@@ -81,7 +81,7 @@
 		
 		"xpos"				"c-80"
 		"ypos"				"r55"
-		"zpos"				"8"
+		"zpos"				"1"
 		
 		"wide"				"75"
 		"tall"				"35"
@@ -105,7 +105,7 @@
 		
 		"xpos"				"c8"
 		"ypos"				"r55"
-		"zpos"				"8"
+		"zpos"				"1"
 		
 		"wide"				"75"
 		"tall"				"35"
@@ -130,7 +130,7 @@
 		
 		"xpos"				"cs-0.5"
 		"ypos"				"r20"
-		"zpos"				"4"
+		"zpos"				"1"
 		
 		"wide"				"90"
 		"tall"				"12"
@@ -154,7 +154,7 @@
 		
 		"xpos"		"c-75"
 		"ypos"		"r31"
-		"zpos"		"3"
+		"zpos"		"0"
 		
 		"wide"		"0"
 		"tall"		"38"
@@ -173,7 +173,7 @@
 		
 		"xpos"				"cs-0.5"
 		"ypos"				"r62"
-		"zpos"				"5"
+		"zpos"				"2"
 		
 		"wide"				"50"
 		"tall"				"50"
@@ -183,7 +183,7 @@
 		"drawcolor"			"ObjectiveIcon"
 		
 		"dropshadow"			"1"
-		"dropshadowoffset"	"2"
+		"dropshadowoffset"	"3"
 		"dropshadowresize"	"0"
 		
 		"visible"			"1"

@@ -1,4 +1,4 @@
-#base "meters/huditemeffectmeter.res"
+#base "meters/_huditemeffectmeter_base.res"
 
 "Resource/UI/HudItemEffectMeter_KartCharge.res"
 {
@@ -6,14 +6,13 @@
 	{
 		"xpos"			"c-60"
 		"ypos"			"r100"
+		
 		"wide"			"122"
 		"tall"			"43"
 	}
 	
 	"ItemEffectMeterBG"
 	{
-		"controlname"	"CTFImagePanel"
-		"fieldname"		"ItemEffectMeterBG"
 		"ypos"			"20"
 		"wide"			"120"
 	}
@@ -27,7 +26,9 @@
 	{
 		"ypos"					"24"
 		"zpos"					"10"
+		
 		"wide"					"99"
+		
 		"labelText"				"#TF_KART"
 	}
 
@@ -38,61 +39,76 @@
 	
 	"ItemEffectMeterCount"
 	{
-		"xpos"			"0"
-		"ypos"			"0"
-		"wide"			"120"
-		"tall"			"20"
-		"visible"		"1"
-		"enabled"		"1"
-		"textAlignment"	"west"
-		"font"			"HudFontMediumBold"
-		"fgcolor"		"CounterValue"
+		"controlname"			"CExLabel"
+		"fieldname"			"ItemEffectMeterCount"
+		
+		"xpos"				"0"
+		"ypos"				"0"
+		
+		"wide"				"120"
+		"tall"				"20"
+		
+		"labelText"			"%progresscount%"
+		"font"				"HudFontMediumBold"
+		"textAlignment"		"west"
+		"fgcolor"			"CounterValue"
 		
 		"dropshadow"			"1"
 		"dropshadowoffset"	"3"
+		
+		"visible"			"1"
+		"enabled"			"1"
 	}
 
 	"EmptyIcon"
 	{
-		"xpos"			"-2"
-		"ypos"			"18"
-		"wide"			"20"
-		"image"			"resource/svgs/meters/ico_battery_inactive.svg"
+		"xpos"		"-2"
+		"ypos"		"18"
 		
-		"drawcolor"		"ProgressBar.BgColor"
+		"wide"		"20"
+		
+		"image"		"resource/svgs/meters/ico_battery_inactive.svg"
+		"drawcolor"	"ProgressBar.BgColor"
+		
 		"dropshadow"	"0"
 	}
 	
 	"ChargingIcon"
 	{
-		"xpos"			"-2"
-		"ypos"			"18"
-		"wide"			"20"
-		"image"			"resource/svgs/meters/ico_battery_inactive.svg"
+		"xpos"		"-2"
+		"ypos"		"18"
 		
-		"drawcolor"		"ProgressBar.BgColor"
+		"wide"		"20"
+		
+		"image"		"resource/svgs/meters/ico_battery_inactive.svg"
+		"drawcolor"	"ProgressBar.BgColor"
+		
 		"dropshadow"	"0"
 	}
 	
 	"ActiveIcon"
 	{
-		"xpos"			"-2"
-		"ypos"			"18"
-		"wide"			"20"
-		"image"			"resource/svgs/meters/ico_battery_active.svg"
+		"xpos"		"-2"
+		"ypos"		"18"
 		
-		"drawcolor"		"ProgressBar.FgColor"
+		"wide"		"20"
+		
+		"image"		"resource/svgs/meters/ico_battery_active.svg"
+		"drawcolor"	"ProgressBar.FgColor"
+		
 		"dropshadow"	"1"
 	}
 	
 	"FullIcon"
 	{
-		"xpos"			"-2"
-		"ypos"			"18"
-		"wide"			"20"
-		"image"			"resource/svgs/meters/ico_battery_active.svg"
+		"xpos"		"-2"
+		"ypos"		"18"
 		
-		"drawcolor"		"ProgressBar.FgColor"
+		"wide"		"20"
+		
+		"image"		"resource/svgs/meters/ico_battery_active.svg"
+		"drawcolor"	"ProgressBar.FgColor"
+		
 		"dropshadow"	"1"
 	}
 }
