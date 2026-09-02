@@ -641,7 +641,7 @@
 		{
 			"visible"	"0"
 		}
-	}	
+	}
 		
 	"BlueScoreShadow"
 	{
@@ -712,7 +712,7 @@
 			"visible"	"0"
 		}
 	}
-		
+	
 	"RedScoreShadow"
 	{
 		"visible"		"0"

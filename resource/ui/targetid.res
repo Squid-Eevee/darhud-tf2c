@@ -182,7 +182,7 @@
 		"wide"		"11"
 		"tall"		"22"
 		
-		"image"		"../hud/medal_tester_red"
+		"image"		"../hud/medal/medal_tester_red"
 		"scaleimage"	"1"
 		
 		"dropshadow"	"1"

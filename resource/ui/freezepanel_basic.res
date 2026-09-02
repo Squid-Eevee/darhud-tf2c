@@ -74,7 +74,7 @@
 			"wide"			"25"
 			"tall"			"50"
 
-			"image"			"../hud/medal_tester_red"
+			"image"			"../hud/medal/medal_tester_red"
 			"scaleimage"		"1"
 			
 			"visible"		"0"

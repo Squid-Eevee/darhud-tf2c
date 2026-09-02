@@ -63,7 +63,7 @@
 		"wide"				"150"
 		"tall"				"15"
 		
-		"labelText"			"DarHud Version 1.5"
+		"labelText"			"DarHud Version 1.5.3"
 		"font"				"HudFontSmallest"
 		"textAlignment"		"north-east"
 		"textinsetx"			"2"
