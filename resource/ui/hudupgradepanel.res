@@ -829,6 +829,7 @@
 			
 			"image"			"resource/svgs/darhud/meter_mask.svg"
 			"drawcolor"		"HudShadow"
+			"scaleimage"		"1"
 			
 			"visible"		"1"
 		}
