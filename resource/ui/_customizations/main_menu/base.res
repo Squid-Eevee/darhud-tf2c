@@ -757,7 +757,7 @@
 		"ChallengePanelBG"
 		{
 			"ControlName"				"EditablePanel"
-			"fieldName"				"ChallengePanelBG"
+			"fieldname"				"ChallengePanelBG"
 			"proportionaltoparent"		"1"
 			
 			"pin_to_sibling"			"ChallengePanel"
@@ -1547,7 +1547,7 @@
 			"wide"						"240"
 			"tall"						"30"
 			
-			"labelText"					"#TF_Menu_Quit"
+			"labelText"					"#TF_Menu_QuitGame"
 			
 			"Command"					"gamemenucommand Quit"
 			"actionsignallevel"			"2"
@@ -1588,7 +1588,7 @@
 				
 				"labelText"				""
 				
-				"tooltiptext"				"#TF_Menu_Quit"
+				"tooltiptext"				"#TF_Menu_QuitGame"
 			
 				"navUp"					"OptionsButton"
 				"navDown"				"ResumeButton"
@@ -1919,7 +1919,7 @@
 	"ServerPanel"
 	{
 		"ControlName"	"EditablePanel"
-		"fieldName"	"ServerPanel"
+		"fieldname"	"ServerPanel"
 		
 		"xpos"		"cs-0.5"
 		"ypos"		"r64"
@@ -1937,7 +1937,7 @@
 		"CallVoteButton"
 		{
 			"ControlName"			"CExImageButton"
-			"fieldName"			"CallVoteButton"
+			"fieldname"			"CallVoteButton"
 			
 			"style"				"MainMenuButton"
 			
@@ -1980,7 +1980,7 @@
 		"MutePlayerButton"
 		{
 			"ControlName"				"CExImageButton"
-			"fieldName"				"MutePlayerButton"
+			"fieldname"				"MutePlayerButton"
 			
 			"style"					"MainMenuButton"
 
