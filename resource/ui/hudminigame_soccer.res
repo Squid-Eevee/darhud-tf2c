@@ -4,6 +4,6 @@
 {
 	"GameImage"
 	{
-		"image"	"resource\svgs\ingame\minigame_soccer.res"
+		"image"	"resource\svgs\ingame\minigame_soccer.svg"
 	}
 }
