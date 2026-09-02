@@ -34,14 +34,15 @@
 		"proportionaltoparent"	"1"
 		
 		"xpos"				"c50"
-		"ypos"				"r55"
-		"zpos"				"5"
+		"ypos"				"r57"
+		"zpos"				"2"
 		
 		"wide"				"38"
 		"tall"				"38"
 		
-		"image"				"../effects/skull001_hud"
+		"image"				"resource\svgs\ingame\skull.svg"
 		"scaleImage"			"1"
+		"drawcolor"			"ObjectiveIcon"
 		
 		"dropshadow"			"1"
 		"dropshadowoffset"	"2"
@@ -57,14 +58,15 @@
 		"proportionaltoparent"	"1"
 		
 		"xpos"				"c-90"
-		"ypos"				"r55"
-		"zpos"				"5"
+		"ypos"				"r57"
+		"zpos"				"2"
 		
 		"wide"				"38"
 		"tall"				"38"
 		
-		"image"				"../effects/skull001_hud"
+		"image"				"resource\svgs\ingame\skull.svg"
 		"scaleImage"			"1"
+		"drawcolor"			"ObjectiveIcon"
 		
 		"dropshadow"			"1"
 		"dropshadowoffset"	"2"
