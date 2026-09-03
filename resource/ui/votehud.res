@@ -678,7 +678,7 @@
 			"controlname"		"Label"
 			"fieldname"		"LabelOption1"
 			
-			"xpos"			"12"
+			"xpos"			"22"
 			"ypos"			"72"
 			"zpos"			"2"
 			
@@ -696,6 +696,27 @@
 			
 			"visible"		"1"
 			"enabled"		"1"
+		}
+		"Option1CheckIcon"
+		{
+			"ControlName"				"ImagePanel"
+			"fieldName"				"Option1CheckIcon"
+			
+			"pin_to_sibling"			"LabelOption1"
+			"pin_corner_to_sibling"	"pin_center_right"
+			"pin_to_sibling_corner"	"pin_center_left"
+			
+			"xpos"					"3"
+			"ypos"					"0"
+			"zpos"					"2"
+			
+			"wide"					"10"
+			"tall"					"10"
+			
+			"image"					"hud/vote_no"
+			"scaleImage"				"1"
+			
+			"visible"				"0"
 		}
 		"Option1Background_Selected"
 		{
@@ -748,6 +769,27 @@
 			"visible"				"1"
 			"enabled"				"1"
 		}
+		"Option2CheckIcon"
+		{
+			"ControlName"				"ImagePanel"
+			"fieldName"				"Option2CheckIcon"
+			
+			"pin_to_sibling"			"LabelOption2"
+			"pin_corner_to_sibling"	"pin_center_right"
+			"pin_to_sibling_corner"	"pin_center_left"
+			
+			"xpos"					"3"
+			"ypos"					"0"
+			"zpos"					"2"
+			
+			"wide"					"10"
+			"tall"					"10"
+			
+			"image"					"hud/vote_no"
+			"scaleImage"				"1"
+			
+			"visible"				"0"
+		}
 		"Option2Background_Selected"
 		{
 			"controlname"			"EditablePanel"
@@ -797,6 +839,27 @@
 			
 			"visible"				"1"
 			"enabled"				"1"
+		}
+		"Option3CheckIcon"
+		{
+			"ControlName"				"ImagePanel"
+			"fieldName"				"Option3CheckIcon"
+			
+			"pin_to_sibling"			"LabelOption3"
+			"pin_corner_to_sibling"	"pin_center_right"
+			"pin_to_sibling_corner"	"pin_center_left"
+			
+			"xpos"					"3"
+			"ypos"					"0"
+			"zpos"					"2"
+			
+			"wide"					"10"
+			"tall"					"10"
+			
+			"image"					"hud/vote_no"
+			"scaleImage"				"1"
+			
+			"visible"				"0"
 		}
 		"Option3Background_Selected"
 		{
@@ -848,6 +911,27 @@
 			"visible"				"1"
 			"enabled"				"1"
 		}
+		"Option4CheckIcon"
+		{
+			"ControlName"				"ImagePanel"
+			"fieldName"				"Option4CheckIcon"
+			
+			"pin_to_sibling"			"LabelOption4"
+			"pin_corner_to_sibling"	"pin_center_right"
+			"pin_to_sibling_corner"	"pin_center_left"
+			
+			"xpos"					"3"
+			"ypos"					"0"
+			"zpos"					"2"
+			
+			"wide"					"10"
+			"tall"					"10"
+			
+			"image"					"hud/vote_no"
+			"scaleImage"				"1"
+			
+			"visible"				"0"
+		}
 		"Option4Background_Selected"
 		{
 			"controlname"			"EditablePanel"
@@ -898,6 +982,27 @@
 			
 			"visible"				"1"
 			"enabled"				"1"
+		}
+		"Option5CheckIcon"
+		{
+			"ControlName"				"ImagePanel"
+			"fieldName"				"Option5CheckIcon"
+			
+			"pin_to_sibling"			"LabelOption5"
+			"pin_corner_to_sibling"	"pin_center_right"
+			"pin_to_sibling_corner"	"pin_center_left"
+			
+			"xpos"					"3"
+			"ypos"					"0"
+			"zpos"					"2"
+			
+			"wide"					"10"
+			"tall"					"10"
+			
+			"image"					"hud/vote_no"
+			"scaleImage"				"1"
+			
+			"visible"				"0"
 		}
 		"Option5Background_Selected"
 		{
