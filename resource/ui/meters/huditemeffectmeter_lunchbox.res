@@ -11,8 +11,8 @@
 	"EmptyIcon"
 	{
 		"xpos"			"0"
-		"ypos"			"-1"
-		"wide"			"18"
+		"ypos"			"0"
+		"wide"			"17"
 		"image"			"resource/svgs/meters/ico_sandvich_inactive.svg"
 		
 		"drawcolor"		"MeterBackground"
@@ -22,7 +22,7 @@
 	"ChargingIcon"
 	{
 		"xpos"			"0"
-		"ypos"			"-1"
+		"ypos"			"0"
 		"wide"			"17"
 		"image"			"resource/svgs/meters/ico_sandvich_inactive.svg"
 		
@@ -33,7 +33,7 @@
 	"ActiveIcon"
 	{
 		"xpos"			"0"
-		"ypos"			"-1"
+		"ypos"			"0"
 		"wide"			"17"
 		"image"			"resource/svgs/meters/ico_sandvich_inactive.svg"
 		
@@ -44,8 +44,8 @@
 	"FullIcon"
 	{
 		"xpos"			"0"
-		"ypos"			"-1"
-		"wide"			"18"
+		"ypos"			"0"
+		"wide"			"17"
 		"image"			"resource/svgs/meters/ico_sandvich_active.svg"
 		
 		"drawcolor"		"ProgressOffWhite"

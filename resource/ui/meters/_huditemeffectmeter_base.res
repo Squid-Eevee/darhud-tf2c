@@ -123,10 +123,11 @@
 		
 		"image"				"resource/svgs/meters/ico_battery_inactive.svg"
 		"scaleimage"			"1"
-		
 		"drawcolor"			"MeterBackground"
+		
 		"dropshadow"			"0"
 		"dropshadowoffset"	"2"
+		"dropshadowresize"	"0"
 		
 		"visible"			"1"
 	}
@@ -149,6 +150,7 @@
 		
 		"dropshadow"			"0"
 		"dropshadowoffset"	"2"
+		"dropshadowresize"	"0"
 		
 		"visible"			"1"
 	}
@@ -171,6 +173,7 @@
 		
 		"dropshadow"			"1"
 		"dropshadowoffset"	"2"
+		"dropshadowresize"	"0"
 		
 		"visible"			"1"
 	}
@@ -193,6 +196,7 @@
 		
 		"dropshadow"			"1"
 		"dropshadowoffset"	"2"
+		"dropshadowresize"	"0"
 		
 		"visible"			"1"
 	}
