@@ -1061,7 +1061,7 @@
 			
 			"Subimage"
 			{
-				"xpos"	"6"
+				"xpos"	"5"
 			}
 		}
 		"TrainingButtonShadow"
@@ -1129,7 +1129,7 @@
 			
 			"Subimage"
 			{
-				"xpos"	"6"
+				"xpos"	"5"
 			}
 		}
 		"CreateServerButtonShadow"
