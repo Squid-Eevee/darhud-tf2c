@@ -2,8 +2,8 @@
 {
 	"FreezePanel"
 	{
-		"controlname"	"CTFFreezePanel"
-		"fieldname"		"FreezePanel"
+		"controlname"						"CTFFreezePanel"
+		"fieldname"						"FreezePanel"
 
 		"screenshot_move_panel_to_corner"	"1"
 	}
@@ -121,6 +121,8 @@
 			
 			"HealthBonusPosAdj"		"40"
 			"HealthDeathWarning"		"0.49"
+			"HealthDeathWarningColor"	"HealthWarning"
+			"TextColor"				"HealthNormal"
 			
 			"visible"				"1"
 			"enabled"				"1"	

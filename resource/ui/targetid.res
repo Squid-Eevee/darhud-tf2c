@@ -120,17 +120,17 @@
 	}
 	"SpectatorGUIArmor"
 	{
-		"controlname"		"EditablePanel"
-		"fieldname"		"SpectatorGUIArmor"
+		"controlname"	"EditablePanel"
+		"fieldname"	"SpectatorGUIArmor"
 		
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos" 			"1"
+		"xpos"		"0"
+		"ypos"		"0"
+		"zpos" 		"1"
 		
-		"wide"			"26"
-		"tall"			"26"
+		"wide"		"26"
+		"tall"		"26"
 		
-		"visible"		"0"
+		"visible"	"0"
 	}
 	
 	"AvatarImage"
@@ -139,11 +139,11 @@
 		"fieldname"		"AvatarImage"
 		
 		"xpos"			"0"
-		"ypos"			"5"
+		"ypos"			"4"
 		"zpos"			"11"
 		
-		"wide"			"16"
-		"tall"			"16"
+		"wide"			"18"
+		"tall"			"18"
 		
 		"image"			""
 		"scaleimage"		"1"
@@ -153,23 +153,23 @@
 	
 	"Medalimage"
 	{
-		"controlname"	"ImagePanel"
-		"fieldname"	"Medalimage"
+		"controlname"			"ImagePanel"
+		"fieldname"			"Medalimage"
 		
-		"xpos"		"0"
-		"ypos"		"3"
-		"zpos"		"1"
+		"xpos"				"0"
+		"ypos"				"3"
+		"zpos"				"1"
 		
-		"wide"		"11"
-		"tall"		"22"
+		"wide"				"11"
+		"tall"				"22"
 		
-		"image"		"../hud/medal/medal_tester_red"
-		"scaleimage"	"1"
+		"image"				"../hud/medal/medal_tester_red"
+		"scaleimage"			"1"
 		
-		"dropshadow"	"1"
+		"dropshadow"			"1"
 		"dropshadowoffset"	"2"
 		
-		"visible"	"0"
+		"visible"			"0"
 	}
 
 	"TargetNameLabel"
