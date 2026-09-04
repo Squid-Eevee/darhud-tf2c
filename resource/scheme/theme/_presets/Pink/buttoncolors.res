@@ -19,3 +19,5 @@ Scheme
 		"ButtonMMShadow"	"10 10 10 200" //Drop shadow behind buttons
 	}
 }
+
+//yes these are all colour picked from Pink Deltarune
