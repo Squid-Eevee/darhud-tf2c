@@ -150,28 +150,9 @@
 		
 		"visible"		"1"
 	}
-	"AvatarImageShadow"
-	{
-		"controlname"		"CTFImagePanel"
-		"fieldname"		"AvatarImageShadow"
-		
-		"pin_to_sibling"	"AvatarImage"
-		
-		"xpos"			"-1"
-		"ypos"			"-1"
-		"zpos"			"10"
-		
-		"wide"			"16"
-		"tall"			"16"
-		
-		"image"			"..\darhud\square\square_shadow"
-		"scaleimage"		"1"
-		
-		"visible"		"1"
-	}
 	
 	"Medalimage"
-	{	
+	{
 		"controlname"	"ImagePanel"
 		"fieldname"	"Medalimage"
 		
