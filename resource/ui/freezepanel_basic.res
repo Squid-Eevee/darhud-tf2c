@@ -121,9 +121,22 @@
 			
 			"HealthBonusPosAdj"		"40"
 			"HealthDeathWarning"		"0.49"
-			"TFFont"					"HudFontSmall"
-			"HealthDeathWarningColor"	"HealthWarning"
-			"TextColor"				"HealthNormal"
+			
+			"visible"				"1"
+			"enabled"				"1"	
+		}
+		
+		"FreezePanelArmor"
+		{
+			"controlname"				"CTFFreezePanelArmor"
+			"fieldname"				"FreezePanelArmor"
+			
+			"xpos"					"45"
+			"ypos"					"24"
+			"zpos"					"1"
+			
+			"wide"					"90"
+			"tall"					"90"
 			
 			"visible"				"1"
 			"enabled"				"1"	
