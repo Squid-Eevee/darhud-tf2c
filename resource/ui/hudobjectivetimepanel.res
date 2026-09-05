@@ -167,7 +167,7 @@
 		"controlname"		"CTFImagePanel"
 		"fieldname"		"SuddenDeathBG"
 		
-		"xpos"			"8"
+		"xpos"			"0"
 		"ypos"			"20"
 		"zpos"			"1"
 		
@@ -199,7 +199,7 @@
 		"wrap"				"0"
 		"allcaps"			"1"
 		
-		"dropshadow"		"1"
+		"dropshadow"			"1"
 		"dropshadowoffset"	"2"
 		
 		"visible"			"0"

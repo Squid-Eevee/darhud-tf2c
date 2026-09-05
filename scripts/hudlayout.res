@@ -81,11 +81,7 @@
 		"wide"			"100"
 		"tall"			"50"
 		
-		"MeterFG"		"White"
-		"MeterBG"		"Gray"
-		
 		"visible"		"1"
-		"enabled"		"1"
 	}
 	
 	"HudMedicCharge"
@@ -146,7 +142,6 @@
 		"tall"  			"180"
 		
 		"visible" 		"1"
-		"enabled" 		"1"
 	}
 	
 	"CHealthAccountPanel"
@@ -163,7 +158,6 @@
 		"tall"  			"180"
 		
 		"visible" 		"1"
-		"enabled" 		"1"
 	}
 	
 	"CDamageAccountPanel"
@@ -177,7 +171,6 @@
 		"tall"		"480"
 		
 		"visible" 	"1"
-		"enabled" 	"1"
 	}
 	
 	
@@ -195,7 +188,19 @@
 		"tall"			"200"
 		
 		"visible"		"1"
-		"enabled"		"1"
+	}
+	
+	"NotificationPanel"
+	{
+		"fieldname"	"NotificationPanel"
+		
+		"xpos"		"cs-0.5"
+		"ypos"		"c40"
+		
+		"wide"		"640"
+		"tall"		"100"
+		
+		"visible"	"1"
 	}
 
 	"CMainTargetID"
@@ -203,13 +208,13 @@
 		"fieldname" 				"CMainTargetID"
 		
 		"xpos"					"c-126"
-		"ypos"					"320"
+		"ypos"					"c74"
 		"zpos"					"2"
 		
 		"wide"	 				"252"
 		"tall"	 				"26"
 		
-		"priority"				"40"
+		"priority"				"35"
 		
 		"visible" 				"0"
 	}
@@ -219,7 +224,7 @@
 		"fieldname" 				"CSecondaryTargetID"
 		
 		"xpos"					"c-126"
-		"ypos"					"296"
+		"ypos"					"c100"
 		"zpos"					"2"
 		
 		"wide"	 				"252"
@@ -241,7 +246,7 @@
 		"wide"	 				"255"
 		"tall"	 				"26"
 		
-		"priority"				"40"
+		"priority"				"35"
 		
 		"visible" 				"0"
 	}
@@ -1108,20 +1113,6 @@
 		
 		"wide"		"145"
 		"tall"		"70"
-		
-		"visible"	"1"
-		"enabled"	"1"
-	}
-	
-	"NotificationPanel"
-	{
-		"fieldname"	"NotificationPanel"
-		
-		"xpos"		"cs-0.5"
-		"ypos"		"287"
-		
-		"wide"		"640"
-		"tall"		"100"
 		
 		"visible"	"1"
 		"enabled"	"1"

@@ -1246,7 +1246,7 @@
 		"fieldname"	"CaptureFlag"
 		
 		"xpos"		"c-30"
-		"ypos"		"r114"
+		"ypos"		"r95"
 		"zpos"		"5"
 		
 		"wide"		"60"
@@ -1318,7 +1318,7 @@
 		"fieldname"			"Carriedimage"
 		
 		"xpos"				"c-15"
-		"ypos"				"r140"
+		"ypos"				"r121"
 		"zpos"				"10"
 		
 		"wide"				"30"
@@ -1329,6 +1329,7 @@
 		
 		"dropshadow"			"1"
 		"dropshadowoffset"	"3"
+		"dropshadowresize"	"0"
 		
 		"visible"			"0"
 		
@@ -1349,7 +1350,7 @@
 		"fieldname"			"SpecCarriedimage"
 		
 		"xpos"				"c-15"
-		"ypos"				"r140"
+		"ypos"				"r121"
 		"zpos"				"10"
 		
 		"wide"				"30"
@@ -1360,6 +1361,7 @@
 		
 		"dropshadow"			"1"
 		"dropshadowoffset"	"3"
+		"dropshadowresize"	"0"
 		
 		"visible"			"0"
 	}			
