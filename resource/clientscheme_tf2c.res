@@ -26,12 +26,18 @@ Scheme
 		"MainTextInactive"     		"123 115 97 255"
 		"Misc"                 		"129 119 110 255"
 	
-		"GreenTF2C"				"126 192 63 255"
+		"GreenTF2C"					"126 192 63 255"
 		"OrangeTF2C"				"251 176 59 255"
 		"OrangeTF2CDarker"		"225 143 44 255"
-		"BlueTF2C"				"41 171 226 255"
+		"BlueTF2C"					"41 171 226 255"
 		"YellowTF2C"				"229 195 22 255"
-		"RedTF2C"				"255 76 76 255"
+		"RedTF2C"					"255 76 76 255"
+		
+		"StatusTF2C"				"184 92 52 255"
+		"StatusOther"				"126 192 63 255"
+		"StatusOnline"				"41 171 226 255"
+		"StatusAway"				"66 111 132 255"
+		"StatusOffline"				"117 107 94 255"
 		
 		"HudTrainingHintYlw"		"212 116 32 255"
 		"TanDarkerish"				"56 51 44 255"
