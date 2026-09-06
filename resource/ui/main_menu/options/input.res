@@ -79,7 +79,7 @@
 		"textAlignment"			"center"
 		"proportionaltoparent"	"1"
 		"FgColor_override"		"MainText"
-		"font"					"SubmenuTextEntry"
+		"font"					"SubmenuInput"
 		"allcaps"				"1"
 		"dropshadow"			"1"
 		"dropshadowoffset"		"2"
@@ -91,5 +91,4 @@
 		"selectedBgColor_override"		"MainText"
 		
 	}
-	
 }

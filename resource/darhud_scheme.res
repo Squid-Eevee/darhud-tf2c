@@ -334,6 +334,18 @@ Scheme
 			}
 		}
 		
+		"SubmenuInput"
+		{
+			"1"
+			{
+				"name"		 "Inconsolata"
+				"tall"		 "14"
+				"weight"	 "900"
+				"additive"	 "0"
+				"antialias"  "1"
+			}
+		}
+		
 		"DisguiseWeaponFont"
 		{
 			"1"
