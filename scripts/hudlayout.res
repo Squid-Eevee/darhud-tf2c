@@ -392,7 +392,7 @@
 	{
 		"fieldname"			"HudDeathNotice"
 		"xpos"				"0"
-		"ypos"				"0"
+		"ypos"				"21"
 		"zpos"				"0"
 		
 		"wide"				"f0"
@@ -410,7 +410,7 @@
 		"TeamRed"			"HUDRedTeamSolid"
 		"TeamGreen"			"HUDGreenTeamSolid"
 		"TeamYellow"			"HUDYellowTeamSolid"
-		"PurpleText"			"HudHalloweenPurpleSolid"
+		"PurpleText"			"HUDHalloweenPurpleSolid"
 		"GreenText"			"HUDHalloweenGreenSolid"
 		
 		"IconColor"			"HudWhite"
