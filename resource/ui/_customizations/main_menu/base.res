@@ -422,6 +422,8 @@
 			"textAlignment"			"west"
 			"use_proportional_insets"	"1"
 			"textinsetx"				"8"
+				
+			"fgcolor_override"		"ButtonArmedMM"
 			
 			"dropshadow"				"1"
 			"dropshadowoffset"		"3"
@@ -504,7 +506,10 @@
 				"labelText"			"#ChallengeRecord"
 				"textAlignment"		"west"
 				
-				"fgcolor_override"	"OrangeTF2C"
+				"fgcolor_override"	"ButtonArmedMM"
+				
+				"dropshadow"			"1"
+				"dropshadowoffset"	"2"
 				
 				"mouseinputenabled"	"0"
 				
@@ -874,7 +879,7 @@
 			
 			"navUp"				"QuitButton"
 			"navDown"			"LoadoutButton"
-			"navLeft"			"<DonateButton"
+			"navLeft"			"<CallVoteButton"
 			"navRight"			"ServerBrowserButton"
 			
 			"image_default"		"resource/svgs/mainmenu/icon_arrow_left.svg"
@@ -890,7 +895,7 @@
 			"if_inlevel"
 			{
 				"navUp"		"DisconnectButton"
-				"navLeft"	"CallVoteButton"
+				"navLeft"	"<CallVoteButton"
 				
 				"visible"	"1"
 			}
@@ -1124,7 +1129,7 @@
 				
 				"navUp" 			"QuitButton"
 				"navLeft"		"ServerBrowserButton"
-				"navRight"		"<CallVoteButton"
+				"navRight"		"<BlogButton"
 			}
 			
 			"Subimage"
@@ -1181,8 +1186,8 @@
 			"if_inlevel"
 			{
 				"navUp"		"ResumeButton"
-				"navLeft"	""
-				"navRight"	"<CallVoteButton"
+				"navLeft"	"<MutePlayerButton"
+				"navRight"	"<BlogButton"
 			}
 			
 			"Subimage"
@@ -1241,7 +1246,7 @@
 			
 			"if_inlevel"
 			{
-				"navLeft"	""
+				"navLeft"	"<ReloadHudButton"
 			}
 			
 			"Subimage"
@@ -1303,7 +1308,7 @@
 			
 			"if_inlevel"
 			{
-				"navRight"	"<CallVoteButton"
+				"navRight"	"<BlogButton"
 			}
 			
 			"Subimage"
@@ -1361,8 +1366,8 @@
 			{
 				"navDown"	"DisconnectButton"
 				//"navLeft"	"AddonsButton"
-				"navLeft"	""	//for now, until the addons button is enabled
-				"navRight"	"<CallVoteButton"	//for now, until the addons button is enabled
+				"navLeft"	"<RestartSoundButton"	//for now, until the addons button is enabled
+				"navRight"	"<BlogButton"	//for now, until the addons button is enabled
 			}
 
 			"Subimage"
@@ -1470,7 +1475,7 @@
 			
 			"navUp"						"OptionsButton"
 			"navDown"					"<BlogButton"
-			"navLeft"					""
+			"navLeft"					"<FixInvisButton"
 			"navRight"					""
 			
 			"image_default"				"resource/svgs/mainmenu/icon_exit.svg"
@@ -1593,7 +1598,7 @@
 				"navUp"					"OptionsButton"
 				"navDown"				"ResumeButton"
 				"navLeft"				"DisconnectButton"
-				"navRight"				"<CallVoteButton"
+				"navRight"				"<BlogButton"
 			
 				"border_default"			"DarHudMMSplitQuitButtonEnd"
 				"border_armed"			"DarHudMMSplitQuitButtonEndArmed"
@@ -1647,11 +1652,6 @@
 		"tall"		"28"
 		
 		"visible"	"1"
-
-		"if_inlevel"
-		{
-			"visible"	"0"
-		}
 		
 		"BlogButton"
 		{
@@ -1921,11 +1921,11 @@
 		"ControlName"	"EditablePanel"
 		"fieldname"	"ServerPanel"
 		
-		"xpos"		"cs-0.5"
-		"ypos"		"r64"
+		"xpos"		"c-337"
+		"ypos"		"c-40"
 		
-		"wide"		"76"
-		"tall"		"44"
+		"wide"		"30"
+		"tall"		"160"
 		
 		"visible"	"0"
 		
@@ -1941,8 +1941,8 @@
 			
 			"style"				"MainMenuButton"
 			
-			"xpos"				"8"
-			"ypos"				"8"
+			"xpos"				"0"
+			"ypos"				"0"
 			
 			"wide"				"28"
 			
@@ -1960,9 +1960,9 @@
 			}
 			
 			"navUp"		""
-			"navDown"	""
-			"navLeft"	"<QuitButton"
-			"navRight"	"MutePlayerButton"
+			"navDown"	"MutePlayerButton"
+			"navLeft"	""
+			"navRight"	"<ResumeButton"
 		}
 		"CallVoteButtonShadow"
 		{
@@ -1985,10 +1985,10 @@
 			"style"					"MainMenuButton"
 
 			"pin_to_sibling"			"CallVoteButton"
-			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 			"pin_corner_to_sibling"	"PIN_TOPLEFT"
-			"xpos"					"4"
-			"ypos"					"0"
+			"pin_to_sibling_corner"	"PIN_BOTTOMLEFT"
+			"xpos"					"0"
+			"ypos"					"4"
 			"wide"					"28"
 			"labelText"				""
 			"tooltiptext"				"#TF_Menu_Mute"
@@ -2001,10 +2001,10 @@
 				"xpos"	"cs-0.5+1"
 			}
 			
-			"navUp"		""
-			"navDown"	""
-			"navLeft"	"CallVoteButton"
-			"navRight"	""
+			"navUp"		"CallVoteButton"
+			"navDown"	"ReloadHudButton"
+			"navLeft"	""
+			"navRight"	"<LoadoutButton"
 		}
 		"MutePlayerButtonShadow"
 		{
@@ -2014,6 +2014,135 @@
 			"style"			"MainMenuButtonShadow"
 			
 			"pin_to_sibling"	"MutePlayerButton"
+			
+			"wide"			"28"
+			"tall"			"28"
+		}
+		
+		"ReloadHudButton"
+		{
+			"ControlName"				"CExImageButton"
+			"fieldname"				"ReloadHudButton"
+			
+			"style"					"MainMenuButton"
+
+			"pin_to_sibling"			"MutePlayerButton"
+			"pin_corner_to_sibling"	"PIN_TOPLEFT"
+			"pin_to_sibling_corner"	"PIN_BOTTOMLEFT"
+			"xpos"					"0"
+			"ypos"					"4"
+			"wide"					"28"
+			"labelText"				""
+			"tooltiptext"				"#dar_reloadhud"
+			"Command"				"engine hud_reloadscheme"
+			"actionsignallevel"		"2"
+			"image_default"			"resource/svgs/mainmenu/icon_reload_hud.svg"
+			
+			"SubImage"
+			{
+				"xpos"	"cs-0.5+1"
+			}
+			
+			"navUp"		"MutePlayerButton"
+			"navDown"	"RestartSoundButton"
+			"navLeft"	""
+			"navRight"	"<AchievementsButton"
+		}
+		"ReloadHudButtonShadow"
+		{
+			"controlname"		"CTFImagePanel"
+			"fieldname"		"ReloadHudButtonShadow"
+			
+			"style"			"MainMenuButtonShadow"
+			
+			"pin_to_sibling"	"ReloadHudButton"
+			
+			"wide"			"28"
+			"tall"			"28"
+		}
+		
+		"RestartSoundButton"
+		{
+			"ControlName"				"CExImageButton"
+			"fieldname"				"RestartSoundButton"
+			
+			"style"					"MainMenuButton"
+
+			"pin_to_sibling"			"ReloadHudButton"
+			"pin_corner_to_sibling"	"PIN_TOPLEFT"
+			"pin_to_sibling_corner"	"PIN_BOTTOMLEFT"
+			"xpos"					"0"
+			"ypos"					"4"
+			"wide"					"28"
+			"labelText"				""
+			"tooltiptext"				"#dar_restartsound"
+			"Command"				"engine snd_restart"
+			"actionsignallevel"		"2"
+			"image_default"			"resource/svgs/mainmenu/icon_restart_sound.svg"
+			
+			"SubImage"
+			{
+				"xpos"	"cs-0.5+1"
+			}
+			
+			"navUp"		"ReloadHudButton"
+			"navDown"	"FixInvisButton"
+			"navLeft"	""
+			"navRight"	"<OptionsButton"
+		}
+		"RestartSoundButtonShadow"
+		{
+			"controlname"		"CTFImagePanel"
+			"fieldname"		"RestartSoundButtonShadow"
+			
+			"style"			"MainMenuButtonShadow"
+			
+			"pin_to_sibling"	"RestartSoundButton"
+			
+			"wide"			"28"
+			"tall"			"28"
+		}
+		
+		"FixInvisButton"
+		{
+			"ControlName"				"CExImageButton"
+			"fieldname"				"FixInvisButton"
+			
+			"style"					"MainMenuButton"
+
+			"pin_to_sibling"			"RestartSoundButton"
+			"pin_corner_to_sibling"	"PIN_TOPLEFT"
+			"pin_to_sibling_corner"	"PIN_BOTTOMLEFT"
+			"xpos"					"0"
+			"ypos"					"4"
+			"wide"					"28"
+			"labelText"				""
+			"tooltiptext"				"#dar_fixplayers"
+			"Command"				"engine record fix;stop"
+			"actionsignallevel"		"2"
+			"image_default"			"resource/svgs/mainmenu/icon_fix_invis.svg"
+			
+			"SubImage"
+			{
+				"xpos"	"cs-0.5+1"
+				
+				"wide"	"20"
+				"tall"	"20"
+			}
+			
+			"navUp"		"RestartSoundButton"
+			"navDown"	""
+			"navLeft"	""
+			"navRight"	"<DisconnectButton"
+		}
+		"FixInvisButtonShadow"
+		{
+			"controlname"		"CTFImagePanel"
+			"fieldname"		"FixInvisButtonShadow"
+			
+			"style"			"MainMenuButtonShadow"
+			
+			"pin_to_sibling"	"FixInvisButton"
 			
 			"wide"			"28"
 			"tall"			"28"
