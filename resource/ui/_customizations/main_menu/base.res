@@ -2034,7 +2034,7 @@
 			"wide"					"28"
 			"labelText"				""
 			"tooltiptext"				"#dar_reloadhud"
-			"Command"				"engine hud_reloadscheme"
+			"Command"				"engine reload_styles; hud_reloadscheme; tf2c_mainmenu_reload"
 			"actionsignallevel"		"2"
 			"image_default"			"resource/svgs/mainmenu/icon_reload_hud.svg"
 			
