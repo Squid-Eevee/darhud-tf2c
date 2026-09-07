@@ -581,6 +581,9 @@
 				
 				"mouseinputenabled"	"0"
 				
+				"dropshadow"			"1"
+				"dropshadowoffset"	"3"
+				
 				"visible"			"1"
 			}
 			
