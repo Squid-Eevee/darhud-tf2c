@@ -1436,7 +1436,6 @@ Scheme
 			"image"				"../darhud/uber/uber_white"
 		}
 		
-		
 		"LoadoutTabBorder"
 		{
 			"inset" "0 0 1 1"
@@ -1512,6 +1511,35 @@ Scheme
 				}
 			}
 		}
+		
+		"MenuBorder"
+		{
+			"inset" "0 0 0 0"
+			Left
+			{
+				"1"
+				{
+					"color" "ButtonMM"
+					"offset" "0 0"
+				}				
+				"2"
+				{
+					"color" "ButtonMM"
+					"offset" "0 0"
+				}				
+				"3"
+				{
+					"color" "ButtonMM"
+					"offset" "0 0"
+				}				
+				"4"
+				{
+					"color" "ButtonMM"
+					"offset" "0 0"
+				}
+			}
+		}
+		
 		DarHudTooltip
 		{
 			"bordertype"			"scalable_image"
