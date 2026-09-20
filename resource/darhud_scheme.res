@@ -525,59 +525,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		"ControlPointProgressFont"
-		{
-			"1"
-			{
-				"name"		"TF2C Secondary"
-				"tall"		"12"
-				"weight"	"0"
-				"range"		"0x0000 0x017F"
-				"yres"	"480 599"
-			}
-			"2"
-			{
-				"name"		"TF2C Secondary"
-				"tall"		"13"
-				"weight"	"0"
-				"range"		"0x0000 0x017F"
-				"yres"	"600 767"
-			}
-			"3"
-			{
-				"name"		"TF2C Secondary"
-				"tall"		"14"
-				"weight"	"0"
-				"range"		"0x0000 0x017F"
-				"yres"	"768 1023"
-				"antialias"	"1"
-			}
-			"4"
-			{
-				"name"		"TF2C Secondary"
-				"tall"		"20"
-				"weight"	"0"
-				"range"		"0x0000 0x017F"
-				"yres"	"1024 1199"
-				"antialias"	"1"
-			}
-			"5" // Misyl: Proportional
-			{
-				"name"		"TF2C Secondary"
-				"tall"		"9"
-				"weight"	"0"
-				"range"		"0x0000 0x017F"
-				"antialias"	"1"
-			}
-			"6"
-			{
-				"name"		"TF2C Secondary"
-				"tall"		"12"
-				"range" 		"0x0000 0x00FF"
-				"weight"		"0"
-			}
-		}
-		"EscortProgressFont"
+		"CaptureProgressFont"
 		{
 			"1"
 			{
