@@ -399,10 +399,10 @@
 					"controlname"			"TextEntry"
 					"fieldname"				"SearchBar"
 
-					"xpos"					"50"
+					"xpos"					"60"
 					"ypos"					"15"
 					"tall"					"25"
-					"wide"					"535" // 620 - 30*2 - 25 - 10
+					"wide"					"545" // 620 - 30*2 - 25 - 10
 
 					"bgcolor_override"		"0 0 0 0"
 					"fgcolor_override"		"MainTextInactive"
