@@ -2,39 +2,40 @@
 
 "Resource/UI/HudItemEffectMeter_KartCharge.res"
 {
-	HudItemEffectMeter
+	"HudItemEffectMeter"
 	{
 		"xpos"			"c-60"
 		"ypos"			"r100"
 		
 		"wide"			"122"
-		"tall"			"43"
+		"tall"			"38"
 	}
 	
 	"ItemEffectMeterBG"
 	{
 		"ypos"			"20"
-		"wide"			"120"
+		
+		"tall"			"f22"
 	}
 
 	"ItemEffectMeterBGShadow"
 	{
-		"wide"			"120"
+		"tall"			"f22"
 	}
 	
 	"ItemEffectMeterLabel"
 	{
-		"ypos"					"24"
-		"zpos"					"10"
+		"ypos"		"24"
+		"zpos"		"10"
 		
-		"wide"					"99"
+		"wide"		"99"
 		
-		"labelText"				"#TF_KART"
+		"labelText"	"#TF_KART"
 	}
 
 	"ItemEffectMeter"
 	{	
-		"wide"					"99"
+		"wide"	"99"
 	}
 	
 	"ItemEffectMeterCount"
@@ -68,9 +69,6 @@
 		"wide"		"20"
 		
 		"image"		"resource/svgs/meters/ico_battery_inactive.svg"
-		"drawcolor"	"ProgressBar.BgColor"
-		
-		"dropshadow"	"0"
 	}
 	
 	"ChargingIcon"
@@ -81,9 +79,6 @@
 		"wide"		"20"
 		
 		"image"		"resource/svgs/meters/ico_battery_inactive.svg"
-		"drawcolor"	"ProgressBar.BgColor"
-		
-		"dropshadow"	"0"
 	}
 	
 	"ActiveIcon"
@@ -93,10 +88,7 @@
 		
 		"wide"		"20"
 		
-		"image"		"resource/svgs/meters/ico_battery_active.svg"
-		"drawcolor"	"ProgressBar.FgColor"
-		
-		"dropshadow"	"1"
+		"image"		"resource/svgs/meters/ico_battery_active_2.svg"
 	}
 	
 	"FullIcon"
@@ -107,8 +99,5 @@
 		"wide"		"20"
 		
 		"image"		"resource/svgs/meters/ico_battery_active.svg"
-		"drawcolor"	"ProgressBar.FgColor"
-		
-		"dropshadow"	"1"
 	}
 }

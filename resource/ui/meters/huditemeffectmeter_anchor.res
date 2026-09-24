@@ -36,9 +36,6 @@
 		"wide"		"16"
 		
 		"image"		"resource/svgs/meters/ico_anchor_active.svg"
-		"drawcolor"	"ProgressOffWhite"
-		
-		"dropshadow"	"1"
 	}
 	
 	"FullIcon"
@@ -49,8 +46,5 @@
 		"wide"		"16"
 		
 		"image"		"resource/svgs/meters/ico_anchor_active.svg"
-		"drawcolor"	"ProgressOffWhite"
-		
-		"dropshadow"	"1"
 	}
 }

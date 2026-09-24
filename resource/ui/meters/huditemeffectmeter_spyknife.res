@@ -4,39 +4,41 @@
 {
 	"EmptyIcon"
 	{
-		"xpos"			"3"
-		"ypos"			"2"
-		"wide"			"12"
-		"image"			"resource/svgs/meters/ico_spyknife_inactive.svg"
+		"xpos"	"3"
+		"ypos"	"2"
 		
-		"drawcolor"		"MeterBackground"
-		"dropshadow"	"0"
+		"wide"	"12"
+		
+		"image"	"resource/svgs/meters/ico_spyknife_inactive.svg"
 	}
 
 	"ChargingIcon"
 	{
-		"xpos"			"3"
-		"ypos"			"2"
-		"wide"			"12"
-		"image"			"resource/svgs/meters/ico_spyknife_inactive.svg"
+		"xpos"	"3"
+		"ypos"	"2"
 		
-		"drawcolor"		"MeterBackground"
-		"dropshadow"	"0"
+		"wide"	"12"
+		
+		"image"	"resource/svgs/meters/ico_spyknife_inactive.svg"
 	}
 	
 	"ActiveIcon"
 	{
-		"visible"	"0"
+		"xpos"	"3"
+		"ypos"	"3"
+		
+		"wide"	"12"
+		
+		"image"	"resource/svgs/meters/ico_spyknife_active.svg"
 	}
 	
 	"FullIcon"
 	{
-		"xpos"			"3"
-		"ypos"			"3"
-		"wide"			"12"
-		"image"			"resource/svgs/meters/ico_spyknife_active.svg"
+		"xpos"	"3"
+		"ypos"	"3"
 		
-		"drawcolor"		"ProgressOffWhite"
-		"dropshadow"	"1"
+		"wide"	"12"
+		
+		"image"	"resource/svgs/meters/ico_spyknife_active.svg"
 	}
 }

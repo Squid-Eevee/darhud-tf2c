@@ -4,39 +4,41 @@
 {
 	"EmptyIcon"
 	{
-		"xpos"			"0"
-		"ypos"			"0"
-		"wide"			"18"
-		"image"			"resource/svgs/meters/ico_sapper_active.svg"
+		"xpos"	"1"
+		"ypos"	"0"
 		
-		"drawcolor"		"MeterBackground"
-		"dropshadow"	"0"
+		"wide"	"15"
+		
+		"image"	"resource/svgs/meters/ico_sapper_inactive.svg"
 	}
 
 	"ChargingIcon"
 	{
-		"xpos"			"0"
-		"ypos"			"0"
-		"wide"			"18"
-		"image"			"resource/svgs/meters/ico_sapper_active.svg"
+		"xpos"	"1"
+		"ypos"	"0"
 		
-		"drawcolor"		"MeterBackground"
-		"dropshadow"	"0"
+		"wide"	"15"
+		
+		"image"	"resource/svgs/meters/ico_sapper_inactive.svg"
 	}
 	
 	"ActiveIcon"
 	{
-		"visible"	"0"
+		"xpos"	"1"
+		"ypos"	"0"
+		
+		"wide"	"15"
+		
+		"image"	"resource/svgs/meters/ico_sapper_active.svg"
 	}
 	
 	"FullIcon"
 	{
-		"xpos"			"0"
-		"ypos"			"0"
-		"wide"			"18"
-		"image"			"resource/svgs/meters/ico_sapper_active.svg"
+		"xpos"	"1"
+		"ypos"	"0"
 		
-		"drawcolor"		"ProgressOffWhite"
-		"dropshadow"	"1"
+		"wide"	"15"
+		
+		"image"	"resource/svgs/meters/ico_sapper_active.svg"
 	}
 }

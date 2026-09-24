@@ -4,18 +4,33 @@
 {
 	"Icon"
 	{
-		"controlname"	"ImagePanel"
-		"fieldname"	"Icon"
-		"xpos"			"5"
-		"ypos"			"2"
-		"zpos"			"1"
-		"wide"			"16"
-		"tall"			"18"
-		"scaleimage"		"1"
-		"image"			"resource/svgs/medic/ico_health_cluster_kritz.svg"
+		"xpos"		"4"
+		"ypos"		"1"
 		
-		"drawcolor"		"ProgressOffWhite"
-		"dropshadow"	"1"
-		"dropshadowoffset"	"3"
+		"wide"		"20"
+		"tall"		"20"
+		
+		"image"		"resource/svgs/medic/ico_health_cluster_kritz.svg"
+		"scaleimage"	"1"
+	}
+	
+	"EmptyIcon"
+	{
+		"visible"	"0"
+	}
+
+	"ChargingIcon"
+	{
+		"visible"	"0"
+	}
+	
+	"ActiveIcon"
+	{
+		"visible"	"0"
+	}
+	
+	"FullIcon"
+	{
+		"visible"	"0"
 	}
 }

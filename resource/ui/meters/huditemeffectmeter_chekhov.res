@@ -14,27 +14,12 @@
 	
 	"ItemEffectMeterLabel"
 	{
-		"visible"					"0"
-		"enabled"					"1"
-	}
-	
-	"ItemEffectMeterCount"
-	{
-		"xpos"				"15"
-		"ypos"				"1"
-		"zpos"				"2"
-		
-		"wide"				"36"
-		"tall"				"26"
-		
-		"dropshadow"			"1"
-		"dropshadowoffset"	"2"
+		"visible"	"0"
 	}
 	
 	"ItemEffectMeter"
 	{	
 		"visible"	"0"
-		"enabled"	"0"
 	}
 
 	"Icon"
@@ -61,7 +46,6 @@
 	"ChargingIcon"
 	{
 		"visible"	"0"
-		"enabled"	"0"
 	}
 	
 	"ActiveIcon"
@@ -82,17 +66,17 @@
 	
 	"FullIcon"
 	{
-		"xpos"			"6"
-		"ypos"			"1"
-		"zpos"			"1"
+		"xpos"		"6"
+		"ypos"		"1"
+		"zpos"		"1"
 		
-		"wide"			"20"
+		"wide"		"20"
 		
-		"image"			"resource/svgs/meters/ico_chekov_tier_2.svg"
-		"drawcolor"		"ProgressOffWhite"
+		"image"		"resource/svgs/meters/ico_chekov_tier_2.svg"
+		"drawcolor"	"ProgressOffWhite"
 		
 		"dropshadow"	"1"
 		
-		"visible"		"1"
+		"visible"	"1"
 	}
 }

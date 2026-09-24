@@ -6,36 +6,34 @@
 	{
 		"controlname"	"ImagePanel"
 		"fieldname"	"Icon"
-		"xpos"			"5"
-		"ypos"			"2"
-		"zpos"			"1"
-		"wide"			"18"
-		"tall"			"18"
-		"scaleimage"		"1"
-		"image"			"resource/svgs/meters/skull_headshot.svg"
 		
-		"drawcolor"		"ProgressOffWhite"
-		"dropshadow"	"1"
-		"dropshadowoffset"	"3"
+		"xpos"		"4"
+		"ypos"		"1"
+		
+		"wide"		"20"
+		"tall"		"20"
+		
+		"image"		"resource/svgs/meters/ico_headshots.svg"
+		"scaleimage"	"1"
 	}
 
 	"EmptyIcon"
 	{
-		"visible"			"0"
+		"visible"	"0"
 	}
 
 	"ChargingIcon"
 	{
-		"visible"			"0"
+		"visible"	"0"
 	}
 	
 	"ActiveIcon"
 	{
-		"visible"			"0"
+		"visible"	"0"
 	}
 	
 	"FullIcon"
 	{
-		"visible"			"0"
+		"visible"	"0"
 	}
 }

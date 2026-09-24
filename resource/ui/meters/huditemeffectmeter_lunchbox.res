@@ -1,55 +1,44 @@
-#base "huditemeffectmeter.res"
+#base "_huditemeffectmeter_secondary.res"
 
 "resource/UI/meters/HudItemEffectMeter_LunchBox.res"
 {
-	HudItemEffectMeter
-	{
-		"xpos"			"r133"
-		"xpos_minmode"	"c229"
-		"ypos"			"r60"
-	}
 	"EmptyIcon"
 	{
-		"xpos"			"0"
-		"ypos"			"0"
-		"wide"			"17"
-		"image"			"resource/svgs/meters/ico_sandvich_inactive.svg"
+		"xpos"	"0"
+		"ypos"	"0"
 		
-		"drawcolor"		"MeterBackground"
-		"dropshadow"	"0"
+		"wide"	"17"
+		
+		"image"	"resource/svgs/meters/ico_sandvich_inactive.svg"
 	}
 
 	"ChargingIcon"
 	{
-		"xpos"			"0"
-		"ypos"			"0"
-		"wide"			"17"
-		"image"			"resource/svgs/meters/ico_sandvich_inactive.svg"
+		"xpos"	"0"
+		"ypos"	"0"
 		
-		"drawcolor"		"MeterBackground"
-		"dropshadow"	"0"
+		"wide"	"17"
+		
+		"image"	"resource/svgs/meters/ico_sandvich_inactive.svg"
 	}
 	
 	"ActiveIcon"
 	{
-		"xpos"			"0"
-		"ypos"			"0"
-		"wide"			"17"
-		"image"			"resource/svgs/meters/ico_sandvich_inactive.svg"
+		"xpos"	"0"
+		"ypos"	"0"
 		
-		"drawcolor"		"MeterBackground"
-		"dropshadow"	"0"
+		"wide"	"17"
+		
+		"image"	"resource/svgs/meters/ico_sandvich_inactive.svg"
 	}
 	
 	"FullIcon"
 	{
-		"xpos"			"0"
-		"ypos"			"0"
-		"wide"			"17"
-		"image"			"resource/svgs/meters/ico_sandvich_active.svg"
+		"xpos"	"0"
+		"ypos"	"0"
 		
-		"drawcolor"		"ProgressOffWhite"
-		"dropshadow"	"1"
-		"dropshadowoffset"	"2"
+		"wide"	"17"
+		
+		"image"	"resource/svgs/meters/ico_sandvich_active.svg"
 	}
 }

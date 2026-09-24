@@ -8,9 +8,6 @@
 		"ypos"			"0"
 		"wide"			"16"
 		"image"			"resource/svgs/meters/ico_harvester_inactive.svg"
-		
-		"drawcolor"		"MeterBackground"
-		"dropshadow"	"0"
 	}
 
 	"ChargingIcon"
@@ -19,9 +16,6 @@
 		"ypos"			"0"
 		"wide"			"16"
 		"image"			"resource/svgs/meters/ico_harvester_inactive.svg"
-		
-		"drawcolor"		"MeterBackground"
-		"dropshadow"	"0"
 	}
 	
 	"ActiveIcon"
@@ -29,10 +23,7 @@
 		"xpos"			"1"
 		"ypos"			"0"
 		"wide"			"16"
-		"image"			"resource/svgs/meters/ico_harvester_inactive.svg"
-		
-		"drawcolor"		"MeterBackground"
-		"dropshadow"	"0"
+		"image"			"resource/svgs/meters/ico_harvester_active.svg"
 	}
 	
 	"FullIcon"
@@ -41,8 +32,5 @@
 		"ypos"			"0"
 		"wide"			"16"
 		"image"			"resource/svgs/meters/ico_harvester_active.svg"
-		
-		"drawcolor"		"ProgressOffWhite"
-		"dropshadow"	"1"
 	}
 }

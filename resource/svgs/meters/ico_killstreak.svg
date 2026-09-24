@@ -1,0 +1,12 @@
+<svg id="ico_killstreak" xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  <defs>
+    <style>
+      .cls-1 { 
+          fill:#ffffff;
+          fill-rule:evenodd;
+      }
+    </style>
+  </defs>
+  <path class="cls-1" d="m 64,16 48,48 -48,48 H 16 L 64,64 16,16 Z"/>
+  <path class="cls-1" d="M 22,43 43.749998,64 22,85.749999 Z"/>
+</svg>

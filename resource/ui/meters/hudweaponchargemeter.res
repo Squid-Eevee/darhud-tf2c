@@ -12,9 +12,6 @@
 		"wide"				"59"
 		"tall"				"5"
 		
-        "bgcolor_override"	"MeterBackground"
-		"fgcolor_override"	"ProgressOffWhite"
-		
 		"visible"			"1"
 	}
 

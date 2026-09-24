@@ -18,32 +18,34 @@
 	
 	"ItemEffectMeterBG"
 	{
-		"controlname"	"CTFImagePanel"
-		"fieldname"	"ItemEffectMeterBG"
+		"controlname"			"CTFImagePanel"
+		"fieldname"			"ItemEffectMeterBG"
+		"proportionaltoparent"	"1"
 		
-		"xpos"		"0"
-		"ypos"		"0"
-		"zpos"		"0"
+		"xpos"				"0"
+		"ypos"				"0"
+		"zpos"				"0"
 		
-		"wide"		"48"
-		"tall"		"21"
+		"wide"				"f2"
+		"tall"				"f2"
 		
-		"image"		"..\darhud\counter\counter_neutral"
-		"teambg_0"	"..\darhud\counter\counter_neutral"
-		"teambg_1"	"..\darhud\counter\counter_spectator"
-		"teambg_2"	"..\darhud\counter\counter_red"
-		"teambg_3"	"..\darhud\counter\counter_blue"
-		"teambg_4"	"..\darhud\counter\counter_green"
-		"teambg_5"	"..\darhud\counter\counter_yellow"
-		"scaleimage"	"1"
+		"image"				"..\darhud\counter\counter_neutral"
+		"teambg_0"			"..\darhud\counter\counter_neutral"
+		"teambg_1"			"..\darhud\counter\counter_spectator"
+		"teambg_2"			"..\darhud\counter\counter_red"
+		"teambg_3"			"..\darhud\counter\counter_blue"
+		"teambg_4"			"..\darhud\counter\counter_green"
+		"teambg_5"			"..\darhud\counter\counter_yellow"
+		"scaleimage"			"1"
 		
-		"visible"	"1"
+		"visible"			"1"
 	}	
 
 	"ItemEffectMeterBGShadow"
 	{
 		"controlname"				"ImagePanel"
 		"fieldname"				"ItemEffectMeterBGShadow"
+		"proportionaltoparent"		"1"
 		
 		"pin_to_sibling"			"ItemEffectMeterBG"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
@@ -53,8 +55,8 @@
 		"ypos"					"-2"
 		"zpos"					"-1"
 		
-		"wide"					"48"
-		"tall"					"21"
+		"wide"					"f2"
+		"tall"					"f2"
 		
 		"image"					"resource/svgs/darhud/counter_mask.svg"
 		"scaleimage"				"1"
@@ -114,14 +116,14 @@
 		"controlname"			"ImagePanel"
 		"fieldname"			"Icon"
 		
-		"xpos"				"5"
-		"ypos"				"2"
+		"xpos"				"4"
+		"ypos"				"1"
 		"zpos"				"1"
 		
-		"wide"				"18"
-		"tall"				"18"
+		"wide"				"20"
+		"tall"				"20"
 		
-		"image"				"resource/svgs/meters/skull.svg"
+		"image"				"resource/svgs/meters/ico_skull.svg"
 		"scaleimage"			"1"
 		"drawcolor"			"ProgressOffWhite"
 		
@@ -193,6 +195,5 @@
 		"fieldname"	"ItemEffectMeter"
 		
 		"visible"	"0"
-		"enabled"	"0"
 	}
 }

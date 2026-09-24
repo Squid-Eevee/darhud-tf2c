@@ -4,7 +4,14 @@
 {
 	"Icon"
 	{
-		"image"	"resource/svgs/medic/ico_health_cluster_kritz.svg"
+		"xpos"		"4"
+		"ypos"		"1"
+		
+		"wide"		"20"
+		"tall"		"20"
+		
+		"image"		"resource/svgs/medic/ico_health_cluster_kritz.svg"
+		"scaleimage"	"1"
 	}
 	
 	"EmptyIcon"

@@ -43,19 +43,19 @@
 			
 			"color_ready"	"0 255 0 220"
 			"color_notready"	"0 0 0 220"
-										  			
+			
 			"playername"
 			{
 				"controlname"	"CExLabel"
 				"fieldname"		"playername"
-				"font"			"TournamentSetupFont"
+				"font"			"ScoreboardSmallest"
 				"fgcolor_override"	"GeneralLabel"
 				"proportionaltoparent"	"1"
 				"xpos"			"1"
-				"ypos"			"r8"
+				"ypos"			"r9"
 				"zpos"			"8"
 				"wide"			"f1"
-				"tall"			"10"
+				"tall"			"11"
 				"visible"		"1"
 				"labelText"		"%playername%"
 				"textAlignment"	"west"

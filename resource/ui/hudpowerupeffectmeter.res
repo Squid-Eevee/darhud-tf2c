@@ -1,49 +1,52 @@
-#base "meters/huditemeffectmeter.res"
+#base "meters/_huditemeffectmeter_base.res"
 
 "."
 {
-	HudItemEffectMeter
+	"HudItemEffectMeter"
 	{
 		"xpos"			"r139"
-		"xpos_minmode"	"c223"
 		"ypos"			"r100"
+		
+		"xpos_minmode"	"c223"
 	}
 
 	"EmptyIcon"
 	{
-		"xpos"			"1"
-		"ypos"			"0"
-		"wide"			"16"
-		"image"			"resource/svgs/mannpower/supernova.svg"
+		"xpos"	"1"
+		"ypos"	"0"
 		
-		"drawcolor"		"ProgressBar.BgColor"
-		"dropshadow"	"0"
+		"wide"	"16"
+		
+		"image"	"resource/svgs/mannpower/supernova.svg"
 	}
 	
 	"ChargingIcon"
 	{
-		"xpos"			"1"
-		"ypos"			"0"
-		"wide"			"16"
-		"image"			"resource/svgs/mannpower/supernova.svg"
+		"xpos"	"1"
+		"ypos"	"0"
 		
-		"drawcolor"		"ProgressBar.BgColor"
-		"dropshadow"	"0"
+		"wide"	"16"
+		
+		"image"	"resource/svgs/mannpower/supernova.svg"
 	}
 	
 	"ActiveIcon"
 	{
-		"visible"	"0"
+		"xpos"	"1"
+		"ypos"	"0"
+		
+		"wide"	"16"
+		
+		"image"	"resource/svgs/mannpower/supernova.svg"
 	}
 	
 	"FullIcon"
 	{
-		"xpos"			"1"
-		"ypos"			"0"
-		"wide"			"16"
-		"image"			"resource/svgs/mannpower/supernova.svg"
+		"xpos"	"1"
+		"ypos"	"0"
 		
-		"drawcolor"		"ProgressBar.FgColor"
-		"dropshadow"	"1"
+		"wide"	"16"
+		
+		"image"	"resource/svgs/mannpower/supernova.svg"
 	}
 }

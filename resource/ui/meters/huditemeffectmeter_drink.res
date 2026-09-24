@@ -4,39 +4,41 @@
 {
 	"EmptyIcon"
 	{
-		"xpos"			"-1"
-		"ypos"			"-2"
-		"wide"			"20"
-		"image"			"resource/svgs/meters/ico_battery_inactive.svg"
+		"xpos"	"-1"
+		"ypos"	"-2"
 		
-		"drawcolor"		"ProgressBar.BgColor"
-		"dropshadow"	"0"
+		"wide"	"20"
+		
+		"image"	"resource/svgs/meters/ico_battery_inactive.svg"
 	}
 	
 	"ChargingIcon"
 	{
-		"xpos"			"-1"
-		"ypos"			"-2"
-		"wide"			"20"
-		"image"			"resource/svgs/meters/ico_battery_inactive.svg"
+		"xpos"	"-1"
+		"ypos"	"-2"
 		
-		"drawcolor"		"ProgressBar.BgColor"
-		"dropshadow"	"1"
+		"wide"	"20"
+		
+		"image"	"resource/svgs/meters/ico_battery_inactive.svg"
 	}
 	
 	"ActiveIcon"
 	{
-		"visible"	"0"
+		"xpos"	"-1"
+		"ypos"	"-2"
+		
+		"wide"	"20"
+		
+		"image"	"resource/svgs/meters/ico_battery_active_2.svg"
 	}
 	
 	"FullIcon"
 	{
-		"xpos"			"-1"
-		"ypos"			"-2"
-		"wide"			"20"
-		"image"			"resource/svgs/meters/ico_battery_active.svg"
+		"xpos"	"-1"
+		"ypos"	"-2"
 		
-		"drawcolor"		"ProgressBar.FgColor"
-		"dropshadow"	"1"
+		"wide"	"20"
+		
+		"image"	"resource/svgs/meters/ico_battery_active.svg"
 	}
 }

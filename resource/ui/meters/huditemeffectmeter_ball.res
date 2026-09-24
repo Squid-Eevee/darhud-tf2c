@@ -10,9 +10,6 @@
 		"wide"		"16"
 		
 		"image"		"resource/svgs/meters/ico_ball_inactive.svg"
-		"drawcolor"	"MeterBackground"
-		
-		"dropshadow"	"0"
 	}
 
 	"ChargingIcon"
@@ -23,9 +20,6 @@
 		"wide"		"12"
 		
 		"image"		"resource/svgs/meters/ico_ball_inactive.svg"
-		"drawcolor"	"MeterBackground"
-		
-		"dropshadow"	"0"
 	}
 	
 	"ActiveIcon"
@@ -35,10 +29,7 @@
 		
 		"wide"		"12"
 		
-		"image"		"resource/svgs/meters/ico_ball_inactive.svg"
-		"drawcolor"	"MeterBackground"
-		
-		"dropshadow"	"0"
+		"image"		"resource/svgs/meters/ico_ball_active.svg"
 	}
 	
 	"FullIcon"
@@ -49,8 +40,5 @@
 		"wide"		"12"
 		
 		"image"		"resource/svgs/meters/ico_ball_active.svg"
-		"drawcolor"	"ProgressOffWhite"
-		
-		"dropshadow"	"1"
 	}
 }

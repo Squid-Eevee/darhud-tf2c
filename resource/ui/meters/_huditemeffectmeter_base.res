@@ -14,40 +14,42 @@
 	
 	"ItemEffectMeterBorder"
 	{
-		"controlname"			"EditablePanel"
-		"fieldname"			"ItemEffectMeterBorder"
+		"controlname"	"EditablePanel"
+		"fieldname"	"ItemEffectMeterBorder"
 		
-		"visible"			"0"
+		"visible"	"0"
 	}
 	
 	"ItemEffectMeterBG"
 	{
-		"controlname"		"CTFImagePanel"
-		"fieldname"		"ItemEffectMeterBG"
+		"controlname"			"CTFImagePanel"
+		"fieldname"			"ItemEffectMeterBG"
+		"proportionaltoparent"	"1"
 		
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"0"
+		"xpos"				"0"
+		"ypos"				"0"
+		"zpos"				"0"
 		
-		"wide"			"86"
-		"tall"			"16"
+		"wide"				"f2"
+		"tall"				"f2"
 		
-		"image"			"..\darhud\meter\meter_neutral"
-		"teambg_0"		"..\darhud\meter\meter_neutral"
-		"teambg_1"		"..\darhud\meter\meter_spectator"
-		"teambg_2"		"..\darhud\meter\meter_red"
-		"teambg_3"		"..\darhud\meter\meter_blue"
-		"teambg_4"		"..\darhud\meter\meter_green"
-		"teambg_5"		"..\darhud\meter\meter_yellow"
-		"scaleimage"		"1"
+		"image"				"..\darhud\meter\meter_neutral"
+		"teambg_0"			"..\darhud\meter\meter_neutral"
+		"teambg_1"			"..\darhud\meter\meter_spectator"
+		"teambg_2"			"..\darhud\meter\meter_red"
+		"teambg_3"			"..\darhud\meter\meter_blue"
+		"teambg_4"			"..\darhud\meter\meter_green"
+		"teambg_5"			"..\darhud\meter\meter_yellow"
+		"scaleimage"			"1"
 		
-		"visible"		"1"
+		"visible"			"1"
 	}
 
 	"ItemEffectMeterBGShadow"
 	{
 		"controlname"				"ImagePanel"
 		"fieldname"				"ItemEffectMeterBGShadow"
+		"proportionaltoparent"		"1"
 		
 		"pin_to_sibling"			"ItemEffectMeterBG"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
@@ -57,8 +59,8 @@
 		"ypos"					"-2"
 		"zpos"					"-1"
 		
-		"wide"					"86"
-		"tall"					"16"
+		"wide"					"f2"
+		"tall"					"f2"
 		
 		"image"					"resource/svgs/darhud/meter_mask.svg"
 		"scaleimage"				"1"		
@@ -114,11 +116,11 @@
 		"controlname"			"ImagePanel"
 		"fieldname"			"EmptyIcon"
 		
-		"xpos"				"-1"
-		"ypos"				"-2"
+		"xpos"				"0"
+		"ypos"				"-1"
 		"zpos"				"1"
 		
-		"wide"				"20"
+		"wide"				"18"
 		"tall"				"o1"
 		
 		"image"				"resource/svgs/meters/ico_battery_inactive.svg"
@@ -137,11 +139,11 @@
 		"controlname"			"ImagePanel"
 		"fieldname"			"ChargingIcon"
 		
-		"xpos"				"-1"
-		"ypos"				"-2"
+		"xpos"				"0"
+		"ypos"				"-1"
 		"zpos"				"1"
 		
-		"wide"				"20"
+		"wide"				"18"
 		"tall"				"o1"
 		
 		"image"				"resource/svgs/meters/ico_battery_inactive.svg"
@@ -160,14 +162,14 @@
 		"controlname"			"ImagePanel"
 		"fieldname"			"ActiveIcon"
 		
-		"xpos"				"-1"
-		"ypos"				"-2"
+		"xpos"				"0"
+		"ypos"				"-1"
 		"zpos"				"1"
 		
-		"wide"				"20"
+		"wide"				"18"
 		"tall"				"o1"
 		
-		"image"				"resource/svgs/meters/ico_battery_active.svg"
+		"image"				"resource/svgs/meters/ico_battery_active_2.svg"
 		"scaleimage"			"1"
 		"drawcolor"			"ProgressOffWhite"
 		
@@ -183,11 +185,11 @@
 		"controlname"			"ImagePanel"
 		"fieldname"			"FullIcon"
 		
-		"xpos"				"-1"
-		"ypos"				"-2"
+		"xpos"				"0"
+		"ypos"				"-1"
 		"zpos"				"1"
 		
-		"wide"				"20"
+		"wide"				"18"
 		"tall"				"o1"
 		
 		"image"				"resource/svgs/meters/ico_battery_active.svg"
