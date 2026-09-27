@@ -118,7 +118,7 @@
 		
 		"xpos"					"-40"
 		"ypos"					"0"
-		"zpos"					"3"
+		"zpos"					"4"
 		
 		"wide"					"155"
 		"tall"					"40"
