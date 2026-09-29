@@ -38,7 +38,6 @@
 			"scaleimage"			"1"	
 			
 			"visible"			"1"
-			"enabled"			"1"
 		}
 		"FreezePanelBGShadow"
 		{
@@ -59,26 +58,27 @@
 			"scaleimage"			"1"
 			
 			"visible"			"1"
-			"enabled"			"1"
 		}
 		
 		"Medalimage"
 		{
-			"controlname"		"ImagePanel"
-			"fieldname"		"Medalimage"
+			"controlname"			"ImagePanel"
+			"fieldname"			"Medalimage"
 			
-			"xpos"			"20"
-			"ypos"			"40"
-			"zpos"			"1"
+			"xpos"				"20"
+			"ypos"				"40"
+			"zpos"				"1"
 			
-			"wide"			"25"
-			"tall"			"50"
+			"wide"				"25"
+			"tall"				"50"
 
-			"image"			"../hud/medal/medal_tester_red"
-			"scaleimage"		"1"
+			"image"				"../hud/medal/medal_tester_red"
+			"scaleimage"			"1"
 			
-			"visible"		"0"
-			"enabled"		"1"
+			"dropshadow"			"1"
+			"dropshadowoffset"	"2"
+			
+			"visible"			"0"
 		}
 		
 		"FreezeLabel"
@@ -125,7 +125,6 @@
 			"TextColor"				"HealthNormal"
 			
 			"visible"				"1"
-			"enabled"				"1"	
 		}
 		
 		"FreezePanelArmor"
@@ -141,7 +140,6 @@
 			"tall"					"90"
 			
 			"visible"				"1"
-			"enabled"				"1"	
 		}
 		
 		"FreezeLabelKiller"
@@ -238,7 +236,6 @@
 				"scaleimage"		"1"
 				
 				"visible"		"0"
-				"enabled"		"1"
 			}
 			"NemesisIcon"
 			{
@@ -260,7 +257,6 @@
 				"dropshadowoffset"	"3"
 				
 				"visible"			"1"
-				"enabled"			"1"
 			}
 			"NemesisLabel"
 			{	
@@ -306,7 +302,6 @@
 				"dropshadowoffset"	"2"
 				
 				"visible"			"1"
-				"enabled"			"1"
 			}
 			//from what i can tell this was originally going to be used in mvm
 			//but there's a comment above that bit of code that says "UNDONE: We're not shipping this for now"
