@@ -1189,6 +1189,7 @@
 			"enabled"			"1"
 		}
 	}
+	
 	"ArenaWinPanelLosersPanel"
 	{
 		"controlname"	"EditablePanel"
