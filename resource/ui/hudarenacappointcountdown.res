@@ -2,22 +2,26 @@
 {
 	"CapCountdownLabel"
 	{	
-		"controlname"		"CExLabel"
-		"fieldname"		"CapCountdownLabel"
-		"font"			"HudFontMediumBold"
+		"controlname"			"CExLabel"
+		"fieldname"			"CapCountdownLabel"
 		"proportionaltoparent"	"1"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"1"
-		"wide"			"f0"
-		"tall"			"f0"
-		"visible"		"1"
-		"enabled"		"1"
-		"wrap"			"0"
-		"labelText"		"%capturetime%"
+		
+		"xpos"				"0"
+		"ypos"				"0"
+		"zpos"				"1"
+		
+		"wide"				"f0"
+		"tall"				"f0"
+		
+		"labelText"			"%capturetime%"
+		"font"				"HudFontMediumBold"
 		"textAlignment"		"center"
-		"fgcolor"		"GeneralLabel"
-		"dropshadow"		"1"
+		"fgcolor_override"	"ObjectiveLabel"
+		
+		"dropshadow"			"1"
 		"dropshadowoffset"	"3"
+		
+		"visible"			"1"
+		"enabled"			"1"
 	}
 }

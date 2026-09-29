@@ -15,20 +15,20 @@
 	}
 	"bluepanel"
 	{
-		"controlname"	"EditablePanel"
-		"fieldname"	"bluepanel"
+		"controlname"				"EditablePanel"
+		"fieldname"				"bluepanel"
 		
-		"pin_to_sibling"	"bluepanelanchor"
+		"pin_to_sibling"			"bluepanelanchor"
 		"pin_corner_to_sibling"	"pin_topright"
 		
-		"xpos"		"0"
-		"ypos"		"0"
-		"zpos"		"0"
+		"xpos"					"0"
+		"ypos"					"0"
+		"zpos"					"0"
 		
-		"wide"		"f0"
-		"tall"		"88"
+		"wide"					"f0"
+		"tall"					"88"
 		
-		"visible"	"1"
+		"visible"				"1"
 	
 		"background"
 		{
@@ -64,46 +64,46 @@
 		}
 		"blueteamname"
 		{
-			"controlname"		"CExLabel"
-			"fieldname"		"blueteamname"
-			"proportionaltoparent"	"1"
+			"controlname"				"CExLabel"
+			"fieldname"				"blueteamname"
+			"proportionaltoparent"		"1"
 		
-			"pin_to_sibling"	"bluenameanchor"
+			"pin_to_sibling"			"bluenameanchor"
 			"pin_corner_to_sibling"	"pin_topright"
 			
-			"xpos"			"0"
-			"ypos"			"0"
-			"zpos"			"1"
+			"xpos"					"0"
+			"ypos"					"0"
+			"zpos"					"1"
 			
-			"wide"			"f0"
-			"tall"			"50"
+			"wide"					"f0"
+			"tall"					"50"
 			
-			"labelText"		"%blueleader%"
-			"font"			"HudFontMediumBold"
-			"textAlignment"	"center"
+			"labelText"				"%blueleader%"
+			"font"					"HudFontMediumBold"
+			"textAlignment"			"center"
 			
-			"fgcolor"		"GeneralLabel"
+			"fgcolor"				"GeneralLabel"
 			
-			"dropshadow"		"1"
-			"dropshadowoffset"	"3"
+			"dropshadow"				"1"
+			"dropshadowoffset"		"3"
 			
-			"visible"		"1"
-			"enabled"		"1"
+			"visible"				"1"
+			"enabled"				"1"
 		}
 		
 		"blueavataranchor"
 		{
-			"controlname"		"EditablePanel"
-			"fieldname"		"blueavataranchor"
+			"controlname"			"EditablePanel"
+			"fieldname"			"blueavataranchor"
 			"proportionaltoparent"	"1"
 			
-			"xpos"			"0"
-			"ypos"			"52"
+			"xpos"				"0"
+			"ypos"				"52"
 			
-			"wide"			"0"
-			"tall"			"36"
+			"wide"				"0"
+			"tall"				"36"
 			
-			"visible"		"1"
+			"visible"			"1"
 		}
 		"Avatarimage"
 		{
@@ -124,7 +124,6 @@
 			"scaleimage"		"1"
 			
 			"visible"		"1"
-			"enabled"		"1"
 		}
 	}
 	
@@ -185,63 +184,62 @@
 	
 		"background"
 		{
-			"controlname"	"CTFImagePanel"
-			"fieldname"	"background"
+			"controlname"			"CTFImagePanel"
+			"fieldname"			"background"
 			"proportionaltoparent"	"1"
 			
-			"xpos"		"0"
-			"ypos"		"38"
-			"zpos"		"0"
+			"xpos"				"0"
+			"ypos"				"38"
+			"zpos"				"0"
 			
-			"wide"		"f0"
-			"tall"		"2"
+			"wide"				"f0"
+			"tall"				"2"
 			
-			"image"		"..\darhud\square\square_red"
-			"scaleimage"	"1"
+			"image"				"..\darhud\square\square_red"
+			"scaleimage"			"1"
 			
-			"visible"	"1"
-			"enabled"	"1"
+			"visible"			"1"
 		}
 		
 		"rednameanchor"
 		{
-			"controlname"	"EditablePanel"
-			"fieldname"	"rednameanchor"
+			"controlname"			"EditablePanel"
+			"fieldname"			"rednameanchor"
 			"proportionaltoparent"	"1"
 			
-			"xpos"		"r0"
-			"ypos"		"38"
+			"xpos"				"r0"
+			"ypos"				"38"
 			
-			"wide"		"0"
-			"tall"		"50"
+			"wide"				"0"
+			"tall"				"50"
 			
-			"visible"	"1"
+			"visible"			"1"
 		}
 		"redteamname"
 		{
-			"controlname"	"CExLabel"
-			"fieldname"		"redteamname"
+			"controlname"			"CExLabel"
+			"fieldname"			"redteamname"
 		
-			"pin_to_sibling"	"rednameanchor"
+			"pin_to_sibling"		"rednameanchor"
 			
-			"xpos"			"0"
-			"ypos"			"0"
-			"zpos"			"1"
+			"xpos"				"0"
+			"ypos"				"0"
+			"zpos"				"1"
 			
-			"wide"			"f0"
-			"tall"			"50"
+			"wide"				"f0"
+			"tall"				"50"
 			
-			"labelText"		"%redleader%"
-			"font"			"HudFontMediumBold"
-			"textAlignment"	"center"
+			"labelText"			"%redleader%"
+			"font"				"HudFontMediumBold"
+			"textAlignment"		"center"
 			
-			"fgcolor"		"GeneralLabel"
+			"fgcolor"			"GeneralLabel"
 			
-			"dropshadow"		"1"
+			"dropshadow"			"1"
 			"dropshadowoffset"	"3"
 			
-			"visible"		"1"
-			"enabled"		"1"
+			"visible"			"1"
+			"enabled"			"1"
 		}
 		
 		"redavataranchor"
@@ -272,10 +270,9 @@
 			"tall"			"36"
 			
 			"image"			""
-			"scaleimage"	"1"
+			"scaleimage"		"1"
 			
 			"visible"		"1"
-			"enabled"		"1"
 		}
 	}
 }
