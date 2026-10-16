@@ -63,7 +63,7 @@
 		"fgcolor_override"	"ObjectiveLabel"
 		
 		"dropshadow"			"1"
-		"dropshadowoffset"	"2"
+		"dropshadow_offset"	"2"
 		
 		"visible"			"1"
 		"enabled"			"1"

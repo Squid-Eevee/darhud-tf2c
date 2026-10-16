@@ -622,7 +622,7 @@
 		"fgcolor"			"ObjectiveLabel"
 		
 		"dropshadow"			"1"
-		"dropshadowoffset"	"3"
+		"dropshadow_offset"	"3"
 		
 		"visible"			"1"
 		"enabled"			"1"
@@ -687,7 +687,7 @@
 		"fgcolor"			"ObjectiveLabel"
 		
 		"dropshadow"			"1"
-		"dropshadowoffset"	"3"
+		"dropshadow_offset"	"3"
 		
 		"visible"			"1"
 		"enabled"			"1"
@@ -760,7 +760,7 @@
 		"fgcolor"			"ObjectiveLabel"
 		
 		"dropshadow"			"1"
-		"dropshadowoffset"	"3"
+		"dropshadow_offset"	"3"
 		
 		"visible"			"1"
 		"enabled"			"1"
@@ -836,7 +836,7 @@
 		"fgcolor"			"ObjectiveLabel"
 		
 		"dropshadow"			"1"
-		"dropshadowoffset"	"3"
+		"dropshadow_offset"	"3"
 		
 		"visible"			"1"
 		"enabled"			"1"
@@ -932,7 +932,7 @@
 		"fgcolor"			"ObjectiveLabel"
 		
 		"dropshadow"			"1"
-		"dropshadowoffset"	"2"
+		"dropshadow_offset"	"2"
 		
 		"visible"			"1"
 		"enabled"			"1"
@@ -1247,7 +1247,7 @@
 		
 		"xpos"		"c-30"
 		"ypos"		"r95"
-		"zpos"		"5"
+		"zpos"		"6"
 		
 		"wide"		"60"
 		"tall"		"60"
@@ -1256,7 +1256,7 @@
 		
 		"if_hybrid"
 		{
-			"ypos"	"r100"
+			"ypos"	"r104"
 		}
 		"if_vip"
 		{
@@ -1328,7 +1328,7 @@
 		"scaleimage"			"1"
 		
 		"dropshadow"			"1"
-		"dropshadowoffset"	"3"
+		"dropshadow_offset"	"3"
 		"dropshadowresize"	"0"
 		
 		"visible"			"0"
@@ -1360,7 +1360,7 @@
 		"scaleimage"			"1"
 		
 		"dropshadow"			"1"
-		"dropshadowoffset"	"3"
+		"dropshadow_offset"	"3"
 		"dropshadowresize"	"0"
 		
 		"visible"			"0"

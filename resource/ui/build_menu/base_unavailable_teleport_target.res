@@ -18,7 +18,7 @@
 		"labelText"		"#TF_Object_Sentry"
 		"textAlignment"	"center"
 		"dropshadow"		"1"
-		"dropshadowoffset"	"1"
+		"dropshadow_offset"	"1"
 	}
 	
 	"ItemBackground"	
@@ -76,7 +76,7 @@
 		"labelText"		"#Hud_Menu_Build_Unavailable"
 		"textAlignment"	"Center"
 		"dropshadow"		"1"
-		"dropshadowoffset"	"2"
+		"dropshadow_offset"	"2"
 	}
 
 	"ModeLabel"

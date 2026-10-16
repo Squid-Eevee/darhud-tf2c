@@ -17,7 +17,8 @@
 		"drawcolor"			"TanDarker"
 		
 		"dropshadow"			"1"
-		"dropshadowoffset"	"2"
+		"dropshadow_offset"	"2"
+		"dropshadow_color"	"HudShadow"
 		
 		"visible"			"1"
 	}
@@ -80,21 +81,39 @@
 	
 	"PlayerStatusHealthBonusImage"
 	{
-		"controlname"	"ImagePanel"
-		"fieldname"	"PlayerStatusHealthBonusImage"
+		"controlname"			"ImagePanel"
+		"fieldname"			"PlayerStatusHealthBonusImage"
 		"proportionaltoparent"	"1"
 		
-		"xpos"		"5"
-		"ypos"		"5"
-		"zpos"		"0"
+		"xpos"				"5"
+		"ypos"				"5"
+		"zpos"				"0"
 		
-		"wide"		"16"
-		"tall"		"16"
+		"wide"				"16"
+		"tall"				"16"
 		
-		"image"		"../hud/health_over_bg"
-		"scaleimage"	"1"
+		"image"				"../hud/health_over_bg"
+		"scaleimage"			"1"
 		
-		"visible"	"0"
+		"visible"			"0"
+	}
+	"PlayerStatusHealthDoomBonusImage"
+	{
+		"controlname"			"ImagePanel"
+		"fieldname"			"PlayerStatusHealthDoomBonusImage"
+		"proportionaltoparent"	"1"
+		
+		"xpos"				"5"
+		"ypos"				"5"
+		"zpos"				"0"
+		
+		"wide"				"16"
+		"tall"				"16"
+		
+		"image"				"../hud/health_over_bg"
+		"scaleimage"			"1"
+		
+		"visible"			"0"
 	}
 	
 	"PlayerStatusHealthValue"
@@ -111,12 +130,12 @@
 		
 		"labelText"			"%Health%"
 		"font"				"TargetHealthFont"
-		"textAlignment"		"south"
+		"textAlignment"		"center"
 		
 		"fgcolor"			"HealthNormal"
 		
 		"dropshadow"			"1"
-		"dropshadowoffset"	"2"
+		"dropshadow_offset"	"2"
 		
 		"visible"			"1"
 		"enabled"			"1"

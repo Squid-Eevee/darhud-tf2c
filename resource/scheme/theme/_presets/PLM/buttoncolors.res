@@ -16,6 +16,9 @@ Scheme
 		"ButtonDepressedMM"		"91 19 89 255" //Button has been clicked and not released
 		"ButtonDepressedLabelMM"	"180 180 180 255"
 		
+		"ButtonLabelMMShadow"	"0 0 0 240"	//Label drop shadow
 		"ButtonMMShadow"	"10 10 10 200" //Drop shadow behind buttons
+		
+		"Logo"	"194 52 190 255" //Main menu logo (requires coloured logo customisation)
 	}
 }

@@ -116,7 +116,7 @@
 				"sound_depressed"	"ui/buttonclick.wav"
 				"sound_released"	"ui/buttonclickrelease.wav"
 				"dropshadow"		"1"
-				"dropshadowoffset"	"3"
+				"dropshadow_offset"	"3"
 			}
 		}
 	}

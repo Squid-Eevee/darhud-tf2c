@@ -94,7 +94,7 @@
 		"textAlignment"		"center"
 		"font"			"HudFontSmall"
 		"dropshadow"		"1"
-		"dropshadowoffset"	"2"
+		"dropshadow_offset"	"2"
 	}
 
 	"BuyBackLabel"
@@ -132,7 +132,7 @@
 		"enabled"		"1"
 		"textAlignment"		"west"
 		"dropshadow"		"1"
-		"dropshadowoffset"	"2"
+		"dropshadow_offset"	"2"
 	}
 
 	"ClassOrTeamHintIcon"
@@ -187,7 +187,7 @@
 		"textAlignment"		"west"
 		"font"			"HudFontSmallestBold"
 		"dropshadow"		"1"
-		"dropshadowoffset"	"2"
+		"dropshadow_offset"	"2"
 	}
 	"SwitchCamModeLabel"
 	{
@@ -207,7 +207,7 @@
 		"textAlignment"		"west"
 		"font"			"HudFontSmallest"
 		"dropshadow"		"1"
-		"dropshadowoffset"	"2"
+		"dropshadow_offset"	"2"
 	}
 	
 	"CycleTargetFwdHintIcon"
@@ -262,7 +262,7 @@
 		"textAlignment"		"west"
 		"font"			"HudFontSmallestBold"
 		"dropshadow"		"1"
-		"dropshadowoffset"	"2"
+		"dropshadow_offset"	"2"
 	}
 	"CycleTargetFwdLabel"
 	{
@@ -282,7 +282,7 @@
 		"textAlignment"		"west"
 		"font"			"HudFontSmallest"
 		"dropshadow"		"1"
-		"dropshadowoffset"	"2"
+		"dropshadow_offset"	"2"
 	}
 	"CycleTargetRevKeyLabel"
 	{
@@ -302,7 +302,7 @@
 		"textAlignment"		"west"
 		"font"			"HudFontSmallestBold"
 		"dropshadow"		"1"
-		"dropshadowoffset"	"2"
+		"dropshadow_offset"	"2"
 	}
 	"CycleTargetRevLabel"
 	{
@@ -322,7 +322,7 @@
 		"textAlignment"		"west"
 		"font"			"HudFontSmallest"
 		"dropshadow"		"1"
-		"dropshadowoffset"	"2"
+		"dropshadow_offset"	"2"
 	}
 
 	"TipContainer"
@@ -365,7 +365,7 @@
 			"font"			"TipFont"
 			"wrap"			"1"
 			"dropshadow"		"1"
-			"dropshadowoffset"	"2"
+			"dropshadow_offset"	"2"
 		}
 	}
 	

@@ -347,7 +347,7 @@
 		"wide"			"100"
 		"tall"			"12"
 		"dropshadow"		"1"
-		"dropshadowoffset"	"2"
+		"dropshadow_offset"	"2"
 		"auto_wide_toContents" "1"
 		"textAlignment"	"east"
 		"textinsetx"	"2"
@@ -462,7 +462,7 @@
 		"tall"			"12"
 		"textAlignment"	"east"
 		"dropshadow"		"1"
-		"dropshadowoffset"	"2"
+		"dropshadow_offset"	"2"
 		"auto_wide_toContents" "1"
 		"textinsetx"	"2"
 		"fgcolor_override"	"GeneralLabel"
@@ -620,7 +620,7 @@
 		"inputEnabled"		"0"
 		
 		"dropshadow"			"1"
-		"dropshadowoffset"	"2"
+		"dropshadow_offset"	"2"
 	}
 
 	"BotIcon"

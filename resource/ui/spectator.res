@@ -82,7 +82,7 @@
 		"fgcolor_override"	"GeneralLabel"
 		
 		"dropshadow"			"1"
-		"dropshadowoffset"	"2"
+		"dropshadow_offset"	"2"
 		
 		"visible"			"1"
 		"enabled"			"1"
@@ -111,7 +111,7 @@
 		"bgcolor_override"	"GreenSolid"
 		
 		"dropshadow"			"1"
-		"dropshadowoffset"	"3"
+		"dropshadow_offset"	"3"
 		
 		"visible"			"0"
 		"enabled"			"1"
@@ -137,7 +137,7 @@
 		"textAlignment"		"west"
 		
 		"dropshadow"			"1"
-		"dropshadowoffset"	"2"
+		"dropshadow_offset"	"2"
 		
 		"visible"			"1"
 		"enabled"			"1"
@@ -159,7 +159,7 @@
 		"textAlignment"		"center"
 		
 		"dropshadow"			"1"
-		"dropshadowoffset"	"1"
+		"dropshadow_offset"	"1"
 		
 		"visible"			"1"
 		"enabled"			"1"
@@ -182,7 +182,7 @@
 		"fgcolor_override"	"GeneralLabel"
 		
 		"dropshadow"			"1"
-		"dropshadowoffset"	"2"
+		"dropshadow_offset"	"2"
 		
 		"visible"			"1"
 		"enabled"			"1"
@@ -207,7 +207,7 @@
 		"fgcolor_override"	"GeneralLabel"
 		
 		"dropshadow"			"1"
-		"dropshadowoffset"	"2"
+		"dropshadow_offset"	"2"
 		
 		"visible"			"1"
 		"enabled"			"1"
@@ -233,7 +233,7 @@
 		"fgcolor_override"	"GeneralLabel"
 		
 		"dropshadow"			"1"
-		"dropshadowoffset"	"2"
+		"dropshadow_offset"	"2"
 		
 		"visible"			"1"
 		"enabled"			"1"
@@ -257,7 +257,7 @@
 		"fgcolor_override"	"GeneralLabel"
 		
 		"dropshadow"			"1"
-		"dropshadowoffset"	"2"
+		"dropshadow_offset"	"2"
 		
 		"visible"			"1"
 		"enabled"			"1"
@@ -282,7 +282,7 @@
 		"fgcolor_override"	"GeneralLabel"
 		
 		"dropshadow"			"1"
-		"dropshadowoffset"	"2"
+		"dropshadow_offset"	"2"
 		
 		"visible"			"1"
 		"enabled"			"1"
@@ -306,7 +306,7 @@
 		"fgcolor_override"	"GeneralLabel"
 		
 		"dropshadow"			"1"
-		"dropshadowoffset"	"2"
+		"dropshadow_offset"	"2"
 		
 		"visible"			"1"
 		"enabled"			"1"
@@ -363,7 +363,7 @@
 			"fgcolor_override"	"GeneralLabel"
 			
 			"dropshadow"			"1"
-			"dropshadowoffset"	"2"
+			"dropshadow_offset"	"2"
 			
 			"visible"			"1"
 		}

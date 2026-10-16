@@ -380,7 +380,7 @@
 		"fgcolor"		"ObjectiveLabel"
 		
 		"dropshadow"			"1"
-		"dropshadowoffset"	"3"
+		"dropshadow_offset"	"3"
 		
 		"if_dom"
 		{
@@ -457,7 +457,7 @@
 		"fgcolor"				"ObjectiveLabel"
 		
 		"dropshadow"			"1"
-		"dropshadowoffset"	"3"
+		"dropshadow_offset"	"3"
 	}
 	"ScoreRedLabel"
 	{
@@ -486,7 +486,7 @@
 		"fgcolor"				"ObjectiveLabel"
 		
 		"dropshadow"			"1"
-		"dropshadowoffset"	"3"
+		"dropshadow_offset"	"3"
 		
 		"if_dom"
 		{
@@ -563,7 +563,7 @@
 		"fgcolor"				"ObjectiveLabel"
 		
 		"dropshadow"			"1"
-		"dropshadowoffset"	"3"
+		"dropshadow_offset"	"3"
 		
 		"if_generic_4team"
 		{
@@ -599,7 +599,7 @@
 		"fgcolor"				"ObjectiveLabel"
 		
 		"dropshadow"			"1"
-		"dropshadowoffset"	"3"
+		"dropshadow_offset"	"3"
 		
 		"if_dom"
 		{
@@ -671,7 +671,7 @@
 		"fgcolor"				"ObjectiveLabel"
 		
 		"dropshadow"			"1"
-		"dropshadowoffset"	"3"
+		"dropshadow_offset"	"3"
 		
 		"if_dom_4team"
 		{
@@ -710,7 +710,7 @@
 		"fgcolor"				"ObjectiveLabel"
 		
 		"dropshadow"			"1"
-		"dropshadowoffset"	"3"
+		"dropshadow_offset"	"3"
 		
 		"if_dom"
 		{
@@ -777,7 +777,7 @@
 		"fgcolor"				"ObjectiveLabel"
 		
 		"dropshadow"			"1"
-		"dropshadowoffset"	"3"
+		"dropshadow_offset"	"3"
 		
 		"if_dom_4team"
 		{
@@ -804,7 +804,7 @@
 		"font"				"FontStorePrice"
 		"fgcolor"			"ObjectiveLabel"
 		"dropshadow"			"1"
-		"dropshadowoffset"	"2"
+		"dropshadow_offset"	"2"
 	}
 	"PlayingToBG"
 	{

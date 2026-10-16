@@ -73,7 +73,7 @@
 			"enabled"		"1"
 			"fgcolor"		"GeneralLabel"
 			"dropshadow"		"1"
-			"dropshadowoffset"	"3"
+			"dropshadow_offset"	"3"
 		}
 	}
 		
@@ -102,7 +102,7 @@
 			"tall"			"12"
 			"fgcolor"		"GeneralLabel"
 			"dropshadow"		"1"
-			"dropshadowoffset"	"2"
+			"dropshadow_offset"	"2"
 		}
 		
 		"CreditCollectedCountLabel"
@@ -119,7 +119,7 @@
 			"tall"			"12"
 			"fgcolor"		"CreditsGreen"
 			"dropshadow"		"1"
-			"dropshadowoffset"	"2"
+			"dropshadow_offset"	"2"
 		}
 		
 		"CreditMissedTextLabel"
@@ -136,7 +136,7 @@
 			"tall"			"12"
 			"fgcolor"		"GeneralLabel"
 			"dropshadow"		"1"
-			"dropshadowoffset"	"2"
+			"dropshadow_offset"	"2"
 		}
 		"CreditMissedCountLabel"
 		{
@@ -152,7 +152,7 @@
 			"tall"			"12"
 			"fgcolor"		"RedSolid"
 			"dropshadow"		"1"
-			"dropshadowoffset"	"2"
+			"dropshadow_offset"	"2"
 		}
 		
 		"CreditBonusTextLabel"
@@ -169,7 +169,7 @@
 			"tall"			"12"
 			"fgcolor"		"GeneralLabel"
 			"dropshadow"		"1"
-			"dropshadowoffset"	"2"
+			"dropshadow_offset"	"2"
 		}
 		
 		"CreditBonusCountLabel"
@@ -186,7 +186,7 @@
 			"tall"			"12"
 			"fgcolor"		"CreditsGreen"
 			"dropshadow"		"1"
-			"dropshadowoffset"	"2"
+			"dropshadow_offset"	"2"
 		}
 	}
 	
@@ -233,7 +233,7 @@
 			"tall"			"20"
 			"fgcolor"		"GeneralLabel"
 			"dropshadow"		"1"
-			"dropshadowoffset"	"2"
+			"dropshadow_offset"	"2"
 		}
 		
 		"RatingTextBackground"
@@ -265,7 +265,7 @@
 			"tall"			"30"
 			"fgcolor"		"White"
 			"dropshadow"		"1"
-			"dropshadowoffset"	"3"
+			"dropshadow_offset"	"3"
 		}
 	}
 	
@@ -310,7 +310,7 @@
 			"tall"			"20"
 			"fgcolor"		"GeneralLabel"
 			"dropshadow"		"1"
-			"dropshadowoffset"	"2"
+			"dropshadow_offset"	"2"
 		}
 		
 		"RespecCountLabel"
@@ -329,7 +329,7 @@
 			"tall"			"20"
 			"fgcolor"		"CreditsGreen"
 			"dropshadow"		"1"
-			"dropshadowoffset"	"2"
+			"dropshadow_offset"	"2"
 		}
 	}
 }

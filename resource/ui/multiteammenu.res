@@ -29,7 +29,7 @@
 		"font"			"FontStorePriceSmall"
 		"visible"		"1"
 		"dropshadow"		"1"
-		"dropshadowoffset"	"2"
+		"dropshadow_offset"	"2"
 	}
 	
 	"bg"
@@ -202,7 +202,7 @@
 		"hover"			"2.0"
 		"font"			"HudFontSmallestBold"
 		"dropshadow"		"1"
-		"dropshadowoffset"	"2"
+		"dropshadow_offset"	"2"
 		
 		"defaultBgColor_override"	"Blank"
 		"armedBgColor_override"		"Blank"
@@ -250,7 +250,7 @@
 		"hover"			"2.0"
 		"font"			"HudFontSmallestBold"
 		"dropshadow"		"1"
-		"dropshadowoffset"	"2"
+		"dropshadow_offset"	"2"
 		
 		"defaultBgColor_override"	"Blank"
 		"armedBgColor_override"		"Blank"
@@ -298,7 +298,7 @@
 		"hover"			"2.0"
 		"font"			"HudFontSmallestBold"
 		"dropshadow"		"1"
-		"dropshadowoffset"	"2"
+		"dropshadow_offset"	"2"
 		
 		"defaultBgColor_override"	"Blank"
 		"armedBgColor_override"		"Blank"
@@ -345,7 +345,7 @@
 		"hover"			"2.0"
 		"font"			"HudFontSmallestBold"
 		"dropshadow"		"1"
-		"dropshadowoffset"	"2"
+		"dropshadow_offset"	"2"
 		
 		"defaultBgColor_override"	"Blank"
 		"armedBgColor_override"		"Blank"
@@ -380,7 +380,7 @@
 		"associated_model"	""
 		"font"				"HudFontSmallestBold"
 		"dropshadow"			"1"
-		"dropshadowoffset"	"2"
+		"dropshadow_offset"	"2"
 		"default"			"1"
 		
 		"sound_armed"		"ui/buttonrollover.wav"
@@ -438,7 +438,7 @@
 		"associated_model"	""
 		"font"			"HudFontSmallestBold"
 		"dropshadow"			"1"
-		"dropshadowoffset"	"2"
+		"dropshadow_offset"	"2"
 		"default"		"0"
 		
 		"sound_armed"		"ui/buttonrollover.wav"
@@ -491,7 +491,7 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"dropshadow"			"1"
-		"dropshadowoffset"	"3"
+		"dropshadow_offset"	"3"
 		
 		if_2team
 		{
@@ -1466,7 +1466,7 @@
 				"sound_depressed"	"ui/buttonclick.wav"
 				"sound_released"	"ui/buttonclickrelease.wav"
 				"dropshadow"		"1"
-				"dropshadowoffset"	"3"
+				"dropshadow_offset"	"3"
 			}
 		}
 		
@@ -1505,7 +1505,7 @@
 		"roundedcorners"	"0"
 		
 		"dropshadow"		"1"
-		"dropshadowoffset"	"2"
+		"dropshadow_offset"	"2"
 				
 		"sound_armed"		"ui/buttonrollover.wav"
 		"sound_depressed"	"ui/buttonclick.wav"
@@ -1539,7 +1539,7 @@
 		"wrap"			"0"
 		"font"			"HudFontSmallBold"
 		"dropshadow"		"1"
-		"dropshadowoffset"	"3"
+		"dropshadow_offset"	"3"
 		"mouseinputenabled"	"0"
 	}
 }

@@ -61,7 +61,7 @@
 		"labelText"		"%tournamentstatelabel%"
 		"textAlignment"		"center"
 		"dropshadow"		"1"
-		"dropshadowoffset"	"3"
+		"dropshadow_offset"	"3"
 	}
 
 	"TournamentTeamNameLabel"
@@ -82,7 +82,7 @@
 		"textAlignment"		"east"
 		"textinsetx"		"3"
 		"dropshadow"		"1"
-		"dropshadowoffset"	"3"
+		"dropshadow_offset"	"3"
 	}
 
 	"TournamentNameEdit"
@@ -146,7 +146,7 @@
 		"font"			"HudFontSmallestBold"
 		"roundedcorners"	"0"
 		"dropshadow"		"1"
-		"dropshadowoffset"	"2"
+		"dropshadow_offset"	"2"
 	}
 
 	"TournamentReadyButton"
@@ -171,6 +171,6 @@
 		"font"			"HudFontSmallestBold"
 		"roundedcorners"	"0"
 		"dropshadow"		"1"
-		"dropshadowoffset"	"2"
+		"dropshadow_offset"	"2"
 	}
 }

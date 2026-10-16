@@ -63,7 +63,7 @@
 		"percent_warning"			"0.75"
 		
 		"dropshadow"				"1"
-		"dropshadowoffset"		"2"
+		"dropshadow_offset"		"2"
 		"dropshadowresize"		"0"
 		
 		"visible"				"1"
@@ -114,7 +114,7 @@
 		"fgcolor"			"GeneralLabel"
 		
 		"dropshadow"			"1"
-		"dropshadowoffset"	"1"
+		"dropshadow_offset"	"1"
 		
 		"visible"			"0"
 		"enabled"			"1"
@@ -156,7 +156,7 @@
 		"textAlignment"		"center"
 		
 		"dropshadow"			"1"
-		"dropshadowoffset"	"2"
+		"dropshadow_offset"	"2"
 		
 		"visible"			"0"
 		"enabled"			"1"
@@ -200,7 +200,7 @@
 		"allcaps"			"1"
 		
 		"dropshadow"			"1"
-		"dropshadowoffset"	"2"
+		"dropshadow_offset"	"2"
 		
 		"visible"			"0"
 		"enabled"			"1"
@@ -252,7 +252,7 @@
 		"fgcolor"			"GeneralLabel"
 		
 		"dropshadow"			"1"
-		"dropshadowoffset"	"2"
+		"dropshadow_offset"	"2"
 		
 		"visible"			"1"
 		"enabled"			"1"
@@ -278,7 +278,7 @@
 		"fgcolor"			"brightyellow"
 		
 		"dropshadow"			"1"
-		"dropshadowoffset"	"2"
+		"dropshadow_offset"	"2"
 		
 		"visible"			"0"
 		"enabled"			"1"

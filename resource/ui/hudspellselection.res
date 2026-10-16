@@ -58,7 +58,7 @@
 		"image"			"../signs/death_wheel_whammy"
 		"drawcolor"		"ProgressOffWhite"
 		"dropshadow"		"1"
-		"dropshadowoffset"	"2"
+		"dropshadow_offset"	"2"
 	}
 	
 	"ActionText"
@@ -77,7 +77,7 @@
 		"fgcolor"		"GeneralLabel"
 		"visible"		"1"
 		"dropshadow"		"1"
-		"dropshadowoffset"	"2"
+		"dropshadow_offset"	"2"
 		
 		if_hidekeybinds
 		{
@@ -114,6 +114,6 @@
 		"tall"			"18"
 		"fgcolor"		"GeneralLabel"
 		"dropshadow"		"1"
-		"dropshadowoffset"	"3"
+		"dropshadow_offset"	"3"
 	}
 }

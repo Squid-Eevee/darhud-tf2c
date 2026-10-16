@@ -148,7 +148,7 @@
 			"image"				"resource/svgs/darhud/team_logos/blu.svg"
 			"scaleimage"		"1"
 			"dropshadow"		"1"
-			"dropshadowoffset"	"3"
+			"dropshadow_offset"	"3"
 			
 			"pin_to_sibling"	"BlueScoreBG"
 			"pin_corner_to_sibling"	"PIN_CENTER_LEFT"
@@ -168,7 +168,7 @@
 			"image"				"resource/svgs/darhud/team_logos/red.svg"
 			"scaleimage"		"1"
 			"dropshadow"		"1"
-			"dropshadowoffset"	"3"
+			"dropshadow_offset"	"3"
 			
 			"pin_to_sibling"	"RedScoreBG"
 			"pin_corner_to_sibling"	"PIN_CENTER_RIGHT"
@@ -199,7 +199,7 @@
 			"image"				"resource/svgs/darhud/team_logos/grn.svg"
 			"scaleimage"		"1"
 			"dropshadow"		"1"
-			"dropshadowoffset"	"3"
+			"dropshadow_offset"	"3"
 			
 			"pin_to_sibling"	"GreenScoreBG"
 			"pin_corner_to_sibling"	"PIN_CENTER_LEFT"
@@ -225,7 +225,7 @@
 			"image"				"resource/svgs/darhud/team_logos/ylw.svg"
 			"scaleimage"		"1"
 			"dropshadow"		"1"
-			"dropshadowoffset"	"3"
+			"dropshadow_offset"	"3"
 			
 			"pin_to_sibling"	"YellowScoreBG"
 			"pin_corner_to_sibling"	"PIN_CENTER_RIGHT"
@@ -259,8 +259,8 @@
 			"pinCorner"			"0"
 			"visible"			"1"
 			"enabled"			"1"
-			"dropshadow_override"	"1"
-			"dropshadowoffset"	"3"
+			"dropshadow"	"1"
+			"dropshadow_offset"	"3"
 			
 			"pin_to_sibling"		"BlueScoreBG"
 			"pin_corner_to_sibling"	"PIN_TOPRIGHT"
@@ -294,8 +294,8 @@
 			"pinCorner"			"0"
 			"visible"			"1"
 			"enabled"			"1"
-			"dropshadow_override"		"1"
-			"dropshadowoffset"	"3"
+			"dropshadow"		"1"
+			"dropshadow_offset"	"3"
 			
 			"pin_to_sibling"		"RedScoreBG"
 			"pin_corner_to_sibling"	"PIN_TOPLEFT"
@@ -329,8 +329,8 @@
 			"pinCorner"			"0"
 			"visible"			"1"
 			"enabled"			"1"
-			"dropshadow_override"		"1"
-			"dropshadowoffset"	"3"
+			"dropshadow"		"1"
+			"dropshadow_offset"	"3"
 			
 			"pin_to_sibling"		"GreenScoreBG"
 			"pin_corner_to_sibling"	"PIN_TOPRIGHT"
@@ -364,8 +364,8 @@
 			"pinCorner"			"0"
 			"visible"			"1"
 			"enabled"			"1"
-			"dropshadow_override"		"1"
-			"dropshadowoffset"	"3"
+			"dropshadow"		"1"
+			"dropshadow_offset"	"3"
 			
 			"pin_to_sibling"		"YellowScoreBG"
 			"pin_corner_to_sibling"	"PIN_TOPLEFT"
@@ -428,7 +428,7 @@
 		"labelText"			"%WinningTeamLabel%"
 		"textAlignment"		"center"
 		"dropshadow"			"1"
-		"dropshadowoffset"	"2"
+		"dropshadow_offset"	"2"
 	}
 	"AdvancingTeamLabel"
 	{	
@@ -445,7 +445,7 @@
 		"labelText"			"%AdvancingTeamLabel%"
 		"textAlignment"		"center"
 		"dropshadow"			"1"
-		"dropshadowoffset"	"2"
+		"dropshadow_offset"	"2"
 	}
 	"WinReasonLabel"
 	{	
@@ -462,7 +462,7 @@
 		"labelText"			"%WinReasonLabel%"
 		"centerwrap"			"1"
 		"dropshadow"			"1"
-		"dropshadowoffset"	"2"
+		"dropshadow_offset"	"2"
 	}
 	"DetailsLabel"
 	{	
@@ -479,7 +479,7 @@
 		"labelText"			"%DetailsLabel%"
 		"textAlignment"		"center"
 		"dropshadow"			"1"
-		"dropshadowoffset"	"2"
+		"dropshadow_offset"	"2"
 	}
 
 	"ShadedBar"
@@ -511,7 +511,7 @@
 		"labelText"			"%TopPlayersLabel%"
 		"textAlignment"		"south-west"
 		"dropshadow"			"1"
-		"dropshadowoffset"	"2"
+		"dropshadow_offset"	"2"
 	}
 	"PointsThisRoundLabel"
 	{	
@@ -528,7 +528,7 @@
 		"labelText"			"#Winpanel_PointsThisRound"
 		"textAlignment"		"south-east"
 		"dropshadow"			"1"
-		"dropshadowoffset"	"2"
+		"dropshadow_offset"	"2"
 	}
 	"HorizontalLine"
 	{
@@ -543,7 +543,7 @@
 		"fillcolor"			"GeneralLabel"
 		"PaintBackgroundType"	"0"
 		"dropshadow"			"1"
-		"dropshadowoffset"	"2"
+		"dropshadow_offset"	"2"
 	}
 	"Player1Avatar"
 	{
@@ -573,7 +573,7 @@
 		"labelText"				""
 		"textAlignment"			"west"
 		"dropshadow"				"1"
-		"dropshadowoffset"		"2"
+		"dropshadow_offset"		"2"
 		
 		"pin_to_sibling"		"Player1Avatar"
 		"pin_corner_to_sibling"	"PIN_CENTER_LEFT"
@@ -611,7 +611,7 @@
 		"labelText"				""
 		"textAlignment"			"center"
 		"dropshadow"				"1"
-		"dropshadowoffset"		"2"
+		"dropshadow_offset"		"2"
 		
 		"pin_to_sibling"		"Player1Class"
 		"pin_corner_to_sibling"	"PIN_CENTER_LEFT"
@@ -645,7 +645,7 @@
 		"labelText"				""
 		"textAlignment"			"west"
 		"dropshadow"				"1"
-		"dropshadowoffset"		"2"
+		"dropshadow_offset"		"2"
 		
 		"pin_to_sibling"		"Player2Avatar"
 		"pin_corner_to_sibling"	"PIN_CENTER_LEFT"
@@ -683,7 +683,7 @@
 		"labelText"				""
 		"textAlignment"			"center"
 		"dropshadow"				"1"
-		"dropshadowoffset"		"2"
+		"dropshadow_offset"		"2"
 		
 		"pin_to_sibling"		"Player2Class"
 		"pin_corner_to_sibling"	"PIN_CENTER_LEFT"
@@ -717,7 +717,7 @@
 		"labelText"				""
 		"textAlignment"			"west"
 		"dropshadow"				"1"
-		"dropshadowoffset"		"2"
+		"dropshadow_offset"		"2"
 		
 		"pin_to_sibling"		"Player3Avatar"
 		"pin_corner_to_sibling"	"PIN_CENTER_LEFT"
@@ -755,7 +755,7 @@
 		"labelText"				""
 		"textAlignment"			"center"
 		"dropshadow"				"1"
-		"dropshadowoffset"		"2"
+		"dropshadow_offset"		"2"
 		
 		"pin_to_sibling"		"Player3Class"
 		"pin_corner_to_sibling"	"PIN_CENTER_LEFT"

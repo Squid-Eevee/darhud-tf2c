@@ -36,7 +36,7 @@
 			"sound_depressed"	"ui/buttonclick.wav"
 			"sound_released"	"ui/buttonclickrelease.wav"
 			"dropshadow"		"1"
-			"dropshadowoffset"	"3"
+			"dropshadow_offset"	"3"
 		}
 
 		"Quit"
@@ -63,7 +63,7 @@
 			"sound_depressed"	"ui/buttonclick.wav"
 			"sound_released"	"ui/buttonclickrelease.wav"
 			"dropshadow"		"1"
-			"dropshadowoffset"	"3"
+			"dropshadow_offset"	"3"
 		}	
 		
 		"Replay"
@@ -90,7 +90,7 @@
 			"sound_depressed"	"ui/buttonclick.wav"
 			"sound_released"	"ui/buttonclickrelease.wav"
 			"dropshadow"		"1"
-			"dropshadowoffset"	"3"
+			"dropshadow_offset"	"3"
 		}
 		
 		"BottomBar"
@@ -208,7 +208,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"dropshadow"		"1"
-			"dropshadowoffset"	"3"
+			"dropshadow_offset"	"3"
 		}
 		"ResultsBG"
 		{
@@ -243,7 +243,7 @@
 			"textAlignment"		"north-west"
 			"font"			"HudFontSmall"
 			"dropshadow"		"1"
-			"dropshadowoffset"	"2"
+			"dropshadow_offset"	"2"
 		}
 	}			
 }

@@ -79,7 +79,7 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 		
 		"dropshadow"		"1"
-		"dropshadowoffset"	"3"
+		"dropshadow_offset"	"3"
 	}	
 	
 	"NextButton"
@@ -102,7 +102,7 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 		
 		"dropshadow"		"1"
-		"dropshadowoffset"	"3"
+		"dropshadow_offset"	"3"
 	}	
 	
 	"MapNameLabel"
@@ -122,7 +122,7 @@
 		"wrap"			"0"
 		"fgcolor_override"	"246 237 211 255"
 		"dropshadow"		"1"
-		"dropshadowoffset"	"3"
+		"dropshadow_offset"	"3"
 	}
 	
 	"MapSubtitleLabel"
@@ -142,7 +142,7 @@
 		"wrap"			"0"
 		"fgcolor_override"	"246 237 211 255"
 		"dropshadow"		"1"
-		"dropshadowoffset"	"2"
+		"dropshadow_offset"	"2"
 	}
 	
 	"CurPageLabel"
@@ -164,7 +164,7 @@
 		"fgcolor_override"	"GeneralLabel"
 		"border"		"NoBorder"
 		"dropshadow"		"1"
-		"dropshadowoffset"	"3"
+		"dropshadow_offset"	"3"
 	}
 	
 	"StartOfflinePracticeButton"
@@ -205,7 +205,7 @@
 		"disabledFgColor_override"		"ButtonDisabledLabelMM"
 		
 		"dropshadow"		"1"
-		"dropshadowoffset"	"3"
+		"dropshadow_offset"	"3"
 	}
 	"StartOfflinePracticeButtonShadow"
 	{
@@ -238,7 +238,7 @@
 		"fieldname"			"DifficultyLabel"
 		"font"				"SubmenuText"
 		"dropshadow"			"1"
-		"dropshadowoffset"	"2"
+		"dropshadow_offset"	"2"
 		"labelText"			"#TF_Bot_Difficulty"
 		"textAlignment"		"east"
 		"xpos"				"0"

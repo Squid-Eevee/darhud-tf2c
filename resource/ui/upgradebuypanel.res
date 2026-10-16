@@ -138,7 +138,7 @@
 		"mouseinputenabled"	"0"
 		
 		"dropshadow"		"1"
-		"dropshadowoffset"	"2"
+		"dropshadow_offset"	"2"
 	}
 	
 	"ShortDescriptionLabel"
@@ -160,7 +160,7 @@
 		"font"			"FontStoreOriginalPrice"
 		
 		"dropshadow"		"1"
-		"dropshadowoffset"	"2"
+		"dropshadow_offset"	"2"
 	}
 	
 	"BuySellBG"

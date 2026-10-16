@@ -29,7 +29,7 @@
 		"selectedbgcolor_override"		"ButtonArmed"
 		
 		"dropshadow"					"1"
-		"dropshadowoffset"			"2"
+		"dropshadow_offset"			"2"
 		
 		"visible"					"1"
 		"enabled"					"1"
@@ -56,7 +56,7 @@
 		"fgcolor_override"	"GeneralLabel"
 		
 		"dropshadow"			"1"
-		"dropshadowoffset"	"2"
+		"dropshadow_offset"	"2"
 		
 		"visible"			"1"
 		"enabled"			"1"
@@ -88,7 +88,7 @@
 		"fgcolor_override"		"GeneralLabel"
 		
 		"dropshadow"				"1"
-		"dropshadowoffset"		"2"
+		"dropshadow_offset"		"2"
 		
 		"visible"				"1"
 		"enabled"				"1"

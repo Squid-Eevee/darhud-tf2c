@@ -235,7 +235,7 @@
 			"fgcolor"			"GeneralLabel"
 			
 			"dropshadow"			"1"
-			"dropshadowoffset"	"2"
+			"dropshadow_offset"	"2"
 			
 			"visible"			"1"
 			"enabled"			"1"
@@ -442,7 +442,7 @@
 			"drawcolor"			"AdditionalIcon"
 			
 			"dropshadow"			"1"
-			"dropshadowoffset"	"2"
+			"dropshadow_offset"	"2"
 			
 			"visible"			"0"
 			
@@ -480,7 +480,7 @@
 			"drawcolor"			"AdditionalIcon"
 			
 			"dropshadow"			"1"
-			"dropshadowoffset"	"2"
+			"dropshadow_offset"	"2"
 			
 			"visible"			"0"
 			
@@ -521,7 +521,7 @@
 			"fgcolor"			"ObjectiveLabel"
 			
 			"dropshadow"			"1"
-			"dropshadowoffset"	"2"
+			"dropshadow_offset"	"2"
 			
 			"visible"			"0"
 			"enabled"			"1"
@@ -560,7 +560,7 @@
 			"drawcolor"			"255 0 0 255"
 			
 			"dropshadow"			"1"
-			"dropshadowoffset"	"2"
+			"dropshadow_offset"	"2"
 			
 			"visible"			"0"
 			
@@ -638,7 +638,7 @@
 				"fgcolor_override"	"MainMenuLabel"
 				
 				"dropshadow"			"1"
-				"dropshadowoffset"	"1"
+				"dropshadow_offset"	"1"
 				
 				"visible"			"0"
 				"enabled"			"1"
@@ -693,7 +693,7 @@
 				"drawcolor"			"AdditionalIcon"
 				
 				"dropshadow"			"1"
-				"dropshadowoffset"	"2"
+				"dropshadow_offset"	"2"
 				
 				"visible"			"0"
 				

@@ -220,7 +220,7 @@
 		"image"				"resource/svgs/darhud/team_logos/blu.svg"
 		"scaleimage"		"1"
 		"dropshadow"		"1"
-		"dropshadowoffset"	"3"
+		"dropshadow_offset"	"3"
 		
 		"pin_to_sibling"	"BlueScoreBG"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
@@ -240,7 +240,7 @@
 		"image"				"resource/svgs/darhud/team_logos/red.svg"
 		"scaleimage"		"1"
 		"dropshadow"		"1"
-		"dropshadowoffset"	"3"
+		"dropshadow_offset"	"3"
 		
 		"pin_to_sibling"	"RedScoreBG"
 		"pin_corner_to_sibling"	"PIN_TOPRIGHT"
@@ -266,7 +266,7 @@
 		"image"				"resource/svgs/darhud/team_logos/grn.svg"
 		"scaleimage"		"1"
 		"dropshadow"		"1"
-		"dropshadowoffset"	"3"
+		"dropshadow_offset"	"3"
 		
 		"pin_to_sibling"	"GreenScoreBG"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
@@ -292,7 +292,7 @@
 		"image"				"resource/svgs/darhud/team_logos/ylw.svg"
 		"scaleimage"		"1"
 		"dropshadow"		"1"
-		"dropshadowoffset"	"3"
+		"dropshadow_offset"	"3"
 		
 		"pin_to_sibling"	"YellowScoreBG"
 		"pin_corner_to_sibling"	"PIN_TOPRIGHT"
@@ -313,8 +313,8 @@
 		"tall"				"40"
 		"visible"			"1"
 		"enabled"			"1"
-		"dropshadow_override"		"1"
-		"dropshadowoffset"	"3"
+		"dropshadow"		"1"
+		"dropshadow_offset"	"3"
 		
 		"pin_to_sibling"		"BlueScoreBG"
 		"pin_corner_to_sibling"	"PIN_TOPRIGHT"
@@ -334,8 +334,8 @@
 		"tall"				"40"
 		"visible"			"1"
 		"enabled"			"1"
-		"dropshadow_override"		"1"
-		"dropshadowoffset"	"3"
+		"dropshadow"		"1"
+		"dropshadow_offset"	"3"
 		
 		"pin_to_sibling"		"RedScoreBG"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
@@ -361,8 +361,8 @@
 		"tall"				"40"
 		"visible"			"1"
 		"enabled"			"1"
-		"dropshadow_override"		"1"
-		"dropshadowoffset"	"3"
+		"dropshadow"		"1"
+		"dropshadow_offset"	"3"
 		
 		"pin_to_sibling"		"GreenScoreBG"
 		"pin_corner_to_sibling"	"PIN_TOPRIGHT"
@@ -382,8 +382,8 @@
 		"tall"				"40"
 		"visible"			"1"
 		"enabled"			"1"
-		"dropshadow_override"		"1"
-		"dropshadowoffset"	"3"
+		"dropshadow"		"1"
+		"dropshadow_offset"	"3"
 		
 		"pin_to_sibling"		"YellowScoreBG"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
@@ -405,7 +405,7 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"dropshadow"		"1"
-		"dropshadowoffset"	"2"
+		"dropshadow_offset"	"2"
 		
 		"pin_to_sibling"	"BlueScoreBG"
 	}
@@ -424,7 +424,7 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"dropshadow"		"1"
-		"dropshadowoffset"	"2"
+		"dropshadow_offset"	"2"
 		
 		"pin_to_sibling"	"RedScoreBG"
 	}
@@ -443,7 +443,7 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"dropshadow"		"1"
-		"dropshadowoffset"	"2"
+		"dropshadow_offset"	"2"
 		
 		"pin_to_sibling"	"GreenScoreBG"
 	}					
@@ -462,7 +462,7 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"dropshadow"		"1"
-		"dropshadowoffset"	"2"
+		"dropshadow_offset"	"2"
 		
 		"pin_to_sibling"	"YellowScoreBG"
 	}
@@ -829,7 +829,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"dropshadow"		"1"
-		"dropshadowoffset"	"2"
+		"dropshadow_offset"	"2"
 	}
 	"SpectatorsInQueue"
 	{
@@ -846,7 +846,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"dropshadow"		"1"
-		"dropshadowoffset"	"2"
+		"dropshadow_offset"	"2"
 	}
 
 	"ServerTimeLabel"
@@ -867,7 +867,7 @@
 		"textAlignment"	"center"
 		
 		"dropshadow"		"1"
-		"dropshadowoffset"	"2"
+		"dropshadow_offset"	"2"
 		
 		"if_alternative"
 		{
@@ -901,7 +901,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"dropshadow"		"1"
-		"dropshadowoffset"	"2"
+		"dropshadow_offset"	"2"
 		
 		"pin_to_sibling"		"ServerTimeLabel"
 		"pin_corner_to_sibling"	"PIN_CENTER_TOP"
@@ -929,7 +929,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"dropshadow"		"1"
-		"dropshadowoffset"	"2"
+		"dropshadow_offset"	"2"
 		
 		"pin_to_sibling"			"ServerInfoBG"
 		"pin_corner_to_sibling"	"PIN_TOPRIGHT"
@@ -952,7 +952,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"dropshadow"		"1"
-		"dropshadowoffset"	"2"
+		"dropshadow_offset"	"2"
 		
 		"pin_to_sibling"		"ServerNameLabel"
 		"pin_corner_to_sibling"	"PIN_TOPRIGHT"
@@ -975,7 +975,7 @@
 		"enabled"		"1"
 		
 		"dropshadow"		"1"
-		"dropshadowoffset"	"2"
+		"dropshadow_offset"	"2"
 		
 		"pin_to_sibling"		"ServerInfoBG"
 		"pin_corner_to_sibling" "PIN_TOPLEFT"
@@ -998,7 +998,7 @@
 		"enabled"		"1"
 		
 		"dropshadow"		"1"
-		"dropshadowoffset"	"2"
+		"dropshadow_offset"	"2"
 		
 		"pin_to_sibling"		"MapNameLabel"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
@@ -1022,7 +1022,7 @@
 		"enabled"		"1"
 		
 		"dropshadow"		"1"
-		"dropshadowoffset"	"2"
+		"dropshadow_offset"	"2"
 	}
 	
 	"Classimage"
@@ -1038,7 +1038,7 @@
 		"enabled"			"1"
 		"scaleimage"		"1"
 		"dropshadow"	"1"
-		"dropshadowoffset"	"3"
+		"dropshadow_offset"	"3"
 	}
 	
 	"classmodelpanel"
@@ -1928,7 +1928,7 @@
 			"fgcolor_override"	"GeneralLabel"
 			"auto_wide_tocontents" "1"
 			"dropshadow"			"1"
-			"dropshadowoffset"	"2"
+			"dropshadow_offset"	"2"
 		}
 	}
 		
@@ -1947,7 +1947,7 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"dropshadow"		"1"
-		"dropshadowoffset"	"2"
+		"dropshadow_offset"	"2"
 		
 		if_over2team
 		{

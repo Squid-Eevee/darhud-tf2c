@@ -60,7 +60,7 @@
 				"labelText"		"%playername%"
 				"textAlignment"	"west"
 				"dropshadow"	"1"
-				"dropshadowoffset"	"2"
+				"dropshadow_offset"	"2"
 				//"fgcolor"		"235 226 202 255"
 			}
 
@@ -199,7 +199,7 @@
 				"textAlignment"	"west"
 				"fgcolor"		"GeneralLabel"
 				"dropshadow"		"1"
-				"dropshadowoffset"	"2"
+				"dropshadow_offset"	"2"
 			}
 			
 			"chargeamount"
@@ -218,7 +218,7 @@
 				"textAlignment"	"east"
 				"fgcolor"		"HealthGain"
 				"dropshadow"		"1"
-				"dropshadowoffset"	"2"
+				"dropshadow_offset"	"2"
 				"textinsetx"		"2"
 			}
 			
@@ -324,7 +324,7 @@
 		"textAlignment"		"center"
 		"font"			"HudFontSmall"
 		"dropshadow"		"1"
-		"dropshadowoffset"	"2"
+		"dropshadow_offset"	"2"
 		
 		if_mvm
 		{
@@ -360,7 +360,7 @@
 		"wrap"			"1"
 		"centerwrap"	"1"
 		"dropshadow"			"1"
-		"dropshadowoffset"		"3"
+		"dropshadow_offset"		"3"
 	
 		if_mvm
 		{

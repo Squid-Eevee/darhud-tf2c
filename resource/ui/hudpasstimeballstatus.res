@@ -43,7 +43,7 @@
 		"labelText"			"A TEAM STOLE THE BALL"
 		"fgcolor_override"	"ObjectiveLabel"
 		"dropshadow"			"1"
-		"dropshadowoffset"	"4"
+		"dropshadow_offset"	"4"
 	}
 
 	"EventBonusLabel"
@@ -65,7 +65,7 @@
 		"pin_corner_to_sibling"	"6"
 		"pin_to_sibling_corner"	"4"
 		"dropshadow"				"1"
-		"dropshadowoffset"		"3"
+		"dropshadow_offset"		"3"
 	}
 
 	"EventDetailLabel"
@@ -87,7 +87,7 @@
 		"pin_corner_to_sibling"	"4"
 		"pin_to_sibling_corner"	"6"
 		"dropshadow"				"1"
-		"dropshadowoffset"		"3"
+		"dropshadow_offset"		"3"
 	}
 
 	"ProgressLevelBar"
@@ -108,7 +108,7 @@
 		"image"				"../darhud/passtime/passtime_bar"
 		"scaleimage"			"1"
 		"dropshadow"			"1"
-		"dropshadowoffset"	"3"
+		"dropshadow_offset"	"3"
 	}
 
 	"BlueProgressEnd"
@@ -306,7 +306,7 @@
 		"textAlignment"		"center"
 		"labelText"			"NameOfCarrier"
 		"dropshadow"			"1"
-		"dropshadowoffset"	"2"
+		"dropshadow_offset"	"2"
 	}
 
 	"BallPowerCluster" 
@@ -364,7 +364,7 @@
 			"scaleimage"		"1"
 			"drawcolor"		"AdditionalIcon"
 			"dropshadow"		"1"
-			"dropshadowoffset"	"2"
+			"dropshadow_offset"	"2"
 		}
 		"BallPowerMeterBonusGoalIcon"
 		{
@@ -380,7 +380,7 @@
 			"scaleimage"		"1"
 			"drawcolor"		"AdditionalIcon"
 			"dropshadow"		"1"
-			"dropshadowoffset"	"2"
+			"dropshadow_offset"	"2"
 		}
 
 		"BallPowerMeterFinalSectionContainer"

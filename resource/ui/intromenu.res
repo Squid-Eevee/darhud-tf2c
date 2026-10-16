@@ -47,7 +47,7 @@
 				"sound_depressed"	"ui/buttonclick.wav"
 				"sound_released"	"ui/buttonclickrelease.wav"
 				"dropshadow"		"1"
-				"dropshadowoffset"	"3"
+				"dropshadow_offset"	"3"
 			}
 	
 			"ReplayButton"
@@ -73,7 +73,7 @@
 				"sound_depressed"	"ui/buttonclick.wav"
 				"sound_released"	"ui/buttonclickrelease.wav"
 				"dropshadow"		"1"
-				"dropshadowoffset"	"3"
+				"dropshadow_offset"	"3"
 			}
 	
 			"SkipButton"
@@ -99,7 +99,7 @@
 				"sound_depressed"	"ui/buttonclick.wav"
 				"sound_released"	"ui/buttonclickrelease.wav"
 				"dropshadow"		"1"
-				"dropshadowoffset"	"3"
+				"dropshadow_offset"	"3"
 			}
 			
 			"ContinueButton"
@@ -125,7 +125,7 @@
 				"sound_depressed"	"ui/buttonclick.wav"
 				"sound_released"	"ui/buttonclickrelease.wav"
 				"dropshadow"		"1"
-				"dropshadowoffset"	"3"
+				"dropshadow_offset"	"3"
 			}
 		}
 	}
@@ -168,6 +168,6 @@
 		"fgcolor"		"GeneralLabel"
 		"centerwrap"			"1"
 		"dropshadow"		"1"
-		"dropshadowoffset"	"2"
+		"dropshadow_offset"	"2"
 	}
 }

@@ -89,7 +89,7 @@
 		"fgcolor_override"	"GeneralLabel"
 		
 		"dropshadow"			"1"
-		"dropshadowoffset"	"1"
+		"dropshadow_offset"	"1"
 		
 		"visible"			"1"
 		"enabled"			"1"

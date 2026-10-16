@@ -113,7 +113,7 @@
 				"sound_depressed"	"ui/buttonclick.wav"
 				"sound_released"	"ui/buttonclickrelease.wav"
 				"dropshadow"		"1"
-				"dropshadowoffset"	"3"
+				"dropshadow_offset"	"3"
 			}
 
 			"MapInfoBackHintIcon"
@@ -155,7 +155,7 @@
 				"sound_depressed"	"ui/buttonclick.wav"
 				"sound_released"	"ui/buttonclickrelease.wav"
 				"dropshadow"		"1"
-				"dropshadowoffset"	"3"
+				"dropshadow_offset"	"3"
 			}
 
 			"MapInfoIntroHintIcon"
@@ -198,7 +198,7 @@
 				"sound_depressed"	"ui/buttonclick.wav"
 				"sound_released"	"ui/buttonclickrelease.wav"
 				"dropshadow"		"1"
-				"dropshadowoffset"	"3"
+				"dropshadow_offset"	"3"
 			}
 
 			"MapInfoContinueHintIcon"

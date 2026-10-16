@@ -82,7 +82,7 @@
 		"font"					"SubmenuInput"
 		"allcaps"				"1"
 		"dropshadow"			"1"
-		"dropshadowoffset"		"2"
+		"dropshadow_offset"		"2"
 		
 		"roundedcorners"	"0"
 		

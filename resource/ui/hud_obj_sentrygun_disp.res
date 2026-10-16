@@ -35,7 +35,7 @@
 		"drawcolor"			"AdditionalIcon"
 		
 		"dropshadow"			"1"
-		"dropshadowoffset"	"2"
+		"dropshadow_offset"	"2"
 		
 		"visible"			"1"
 	}
@@ -69,7 +69,7 @@
 			"drawcolor"			"AdditionalIcon"
 			
 			"dropshadow"			"1"
-			"dropshadowoffset"	"2"
+			"dropshadow_offset"	"2"
 			
 			"visible"			"1"
 		}
@@ -115,7 +115,7 @@
 			"fgcolor"			"GeneralLabel"
 				
 			"dropshadow"			"1"
-			"dropshadowoffset"	"1"
+			"dropshadow_offset"	"1"
 			
 			"visible"			"1"
 			"enabled"			"1"
@@ -170,7 +170,7 @@
 			"drawcolor"			"ProgressBar.FgColor"
 			
 			"dropshadow"			"1"
-			"dropshadowoffset"	"2"
+			"dropshadow_offset"	"2"
 			"dropshadowresize"	"0"
 			
 			"visible"			"0"
@@ -193,7 +193,7 @@
 			"drawcolor"			"ProgressBar.FgColor"
 			
 			"dropshadow"			"1"
-			"dropshadowoffset"	"2"
+			"dropshadow_offset"	"2"
 			"dropshadowresize"	"0"
 			
 			"visible"			"0"
@@ -216,7 +216,7 @@
 			"drawcolor"			"ProgressBar.FgColor"
 			
 			"dropshadow"			"1"
-			"dropshadowoffset"	"2"
+			"dropshadow_offset"	"2"
 			"dropshadowresize"	"0"
 			
 			"visible"			"0"
@@ -239,7 +239,7 @@
 			"drawcolor"			"ProgressBar.FgColor"
 			
 			"dropshadow"			"1"
-			"dropshadowoffset"	"2"
+			"dropshadow_offset"	"2"
 			"dropshadowresize"	"0"
 			
 			"visible"			"0"
@@ -261,25 +261,29 @@
 		
 		"Background"
 		{
-			"controlname"	"CTFImagePanel"
-			"fieldname"	"Background"
+			"controlname"			"CTFImagePanel"
+			"fieldname"			"Background"
 			
-			"xpos"		"-52"
-			"ypos"		"0"
+			"xpos"				"-52"
+			"ypos"				"0"
 			
-			"wide"		"96"
-			"tall"		"26"
+			"wide"				"96"
+			"tall"				"26"
 			
-			"image"		"../darhud/building/building_neutral"
-			"teambg_0"	"../darhud/building/building_neutral"
-			"teambg_1"	"../darhud/building/building_spectator"
-			"teambg_2"	"../darhud/building/building_red"
-			"teambg_3"	"../darhud/building/building_blue"
-			"teambg_4"	"../darhud/building/building_green"
-			"teambg_5"	"../darhud/building/building_yellow"
-			"scaleimage"	"1"
+			"image"				"../darhud/building/building_neutral"
+			"teambg_0"			"../darhud/building/building_neutral"
+			"teambg_1"			"../darhud/building/building_spectator"
+			"teambg_2"			"../darhud/building/building_red"
+			"teambg_3"			"../darhud/building/building_blue"
+			"teambg_4"			"../darhud/building/building_green"
+			"teambg_5"			"../darhud/building/building_yellow"
+			"scaleimage"			"1"
 			
-			"visible"	"1"
+			"dropshadow"			"1"
+			"dropshadow_offset"	"2"
+			"dropshadow_color"	"HudShadow"
+			
+			"visible"			"1"
 		}
 
 		"BackgroundShadow"
@@ -338,7 +342,7 @@
 			"drawcolor"			"AdditionalIcon"
 				
 			"dropshadow"			"1"
-			"dropshadowoffset"	"2"
+			"dropshadow_offset"	"2"
 			"dropshadowresize"	"0"
 			
 			"visible"			"0"
@@ -446,7 +450,7 @@
 				"fgcolor"			"AdditionalValue"
 				
 				"dropshadow"			"1"
-				"dropshadowoffset"	"2"
+				"dropshadow_offset"	"2"
 				
 				"visible"			"1"
 				"enabled"			"1"
@@ -468,7 +472,7 @@
 				"drawcolor"			"AdditionalIcon"
 				
 				"dropshadow"			"1"
-				"dropshadowoffset"	"2"
+				"dropshadow_offset"	"2"
 				"dropshadowresize"	"0"
 				
 				"visible"			"1"
@@ -521,7 +525,7 @@
 				"drawcolor"			"AdditionalIcon"
 				
 				"dropshadow"			"1"
-				"dropshadowoffset"	"2"
+				"dropshadow_offset"	"2"
 				"dropshadowresize"	"0"
 				
 				"visible"			"1"
@@ -546,7 +550,7 @@
 				"fgcolor"			"AdditionalValue"
 				
 				"dropshadow"			"1"
-				"dropshadowoffset"	"2"
+				"dropshadow_offset"	"2"
 				
 				"visible"			"1"
 				"enabled"			"1"
@@ -569,7 +573,7 @@
 				"drawcolor"			"AdditionalIcon"
 				
 				"dropshadow"			"1"
-				"dropshadowoffset"	"2"
+				"dropshadow_offset"	"2"
 				"dropshadowresize"	"0"
 				
 				"visible"			"1"
@@ -644,7 +648,7 @@
 				"drawcolor"			"CounterIcon"
 				
 				"dropshadow"			"1"
-				"dropshadowoffset"	"2"
+				"dropshadow_offset"	"2"
 				"dropshadowresize"	"0"
 				
 				"visible"			"1"
@@ -668,7 +672,7 @@
 				"fgcolor"			"AdditionalValue"
 				
 				"dropshadow"			"1"
-				"dropshadowoffset"	"2"
+				"dropshadow_offset"	"2"
 				
 				"visible"			"1"
 				"enabled"			"1"

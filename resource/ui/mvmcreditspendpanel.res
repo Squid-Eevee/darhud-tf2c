@@ -27,7 +27,7 @@
 		"tall"			"14"
 		"fgcolor"		"GeneralLabel"
 		"dropshadow"		"1"
-		"dropshadowoffset"	"2"
+		"dropshadow_offset"	"2"
 	}
 	
 	"UpgradesCountLabel"
@@ -45,7 +45,7 @@
 		"tall"			"14"
 		"fgcolor"		"White"
 		"dropshadow"		"1"
-		"dropshadowoffset"	"2"
+		"dropshadow_offset"	"2"
 	}
 	
 	"BuyBackLabel"
@@ -61,7 +61,7 @@
 		"tall"			"14"
 		"fgcolor"		"GeneralLabel"
 		"dropshadow"		"1"
-		"dropshadowoffset"	"2"
+		"dropshadow_offset"	"2"
 	}
 	
 	"BuyBackCountLabel"
@@ -79,7 +79,7 @@
 		"tall"			"14"
 		"fgcolor"		"White"
 		"dropshadow"		"1"
-		"dropshadowoffset"	"2"
+		"dropshadow_offset"	"2"
 	}
 	
 	"BottleLabel"
@@ -95,7 +95,7 @@
 		"tall"			"14"
 		"fgcolor"		"GeneralLabel"
 		"dropshadow"		"1"
-		"dropshadowoffset"	"2"
+		"dropshadow_offset"	"2"
 	}
 	
 	"BottleCountLabel"
@@ -113,6 +113,6 @@
 		"tall"			"14"
 		"fgcolor"		"White"
 		"dropshadow"		"1"
-		"dropshadowoffset"	"2"
+		"dropshadow_offset"	"2"
 	}
 }

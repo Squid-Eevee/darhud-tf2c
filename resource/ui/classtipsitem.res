@@ -28,7 +28,7 @@
 			"enabled"		"1"
 			"scaleimage"	"1"
 			"dropshadow"	"1"
-			"dropshadowoffset"	"2"
+			"dropshadow_offset"	"2"
 		}
 
 		"TipLabel"
@@ -46,7 +46,7 @@
 			"font"			"ClassTipsFont"
 			"textAlignment"	"west"
 			"dropshadow"		"1"
-			"dropshadowoffset"	"2"
+			"dropshadow_offset"	"2"
 		}
 	}
 }

@@ -46,7 +46,7 @@
 		"allcaps"			"1"
 		
 		"dropshadow"			"1"
-		"dropshadowoffset"	"2"
+		"dropshadow_offset"	"2"
 		
 		"visible"			"1"
 	}
@@ -63,13 +63,13 @@
 		"wide"				"150"
 		"tall"				"15"
 		
-		"labelText"			"DarHud Version 1.5.4"
+		"labelText"			"DarHud Version 1.6"
 		"font"				"HudFontSmallest"
 		"textAlignment"		"north-east"
 		"textinsetx"			"2"
 		
 		"dropshadow"			"1"
-		"dropshadowoffset"	"2"
+		"dropshadow_offset"	"2"
 		
 		"visible"			"1"
 	}
@@ -184,6 +184,11 @@
 			{
 				"image"	"main_menu/tf2classified_logo_qwtf"
 			}
+			
+			"if_halloween"
+			{
+				"image"	"resource/svgs/mainmenu/tf2classified_logo_halloween_nocircle.svg"
+			}
 		}
 		
 		"ColoredLogoBG"
@@ -197,15 +202,15 @@
 			"pin_to_sibling_corner"	"pin_center_top"
 			
 			"xpos"					"0"
-			"ypos"					"10"
+			"ypos"					"0"
 			"zpos"					"-1"
 			
-			"wide"					"280"
-			"tall"					"o0.5"
+			"wide"					"f0"
+			"tall"					"f0"
 			
 			"image"					"resource/svgs/mainmenu/tf2classified_logo_bg.svg"
 			"scaleimage"				"1"
-			"drawcolor"				"ButtonMM"
+			"drawcolor"				"Logo"
 			
 			"visible"				"0"
 			"enabled"				"1"
@@ -213,6 +218,10 @@
 			"if_qwtf_birthday"
 			{
 				"visible"	"0"
+			}
+			"if_halloween"
+			{
+				"image"	"resource/svgs/mainmenu/tf2classified_logo_halloween_bg.svg"
 			}
 		}
 		"ColoredLogoFG"
@@ -226,11 +235,11 @@
 			"pin_to_sibling_corner"	"pin_center_top"
 			
 			"xpos"					"0"
-			"ypos"					"10"
+			"ypos"					"0"
 			"zpos"					"0"
 			
-			"wide"					"280"
-			"tall"					"o0.5"
+			"wide"					"f0"
+			"tall"					"f0"
 			
 			"image"					"resource/svgs/mainmenu/tf2classified_logo_nocircle_fg.svg"
 			"scaleimage"				"1"
@@ -241,6 +250,10 @@
 			"if_qwtf_birthday"
 			{
 				"visible"	"0"
+			}
+			"if_halloween"
+			{
+				"image"	"resource/svgs/mainmenu/tf2classified_logo_halloween_nocircle_fg.svg"
 			}
 		}
 		
@@ -426,7 +439,7 @@
 			"fgcolor_override"		"ButtonArmedMM"
 			
 			"dropshadow"				"1"
-			"dropshadowoffset"		"3"
+			"dropshadow_offset"		"3"
 			
 			"visible"				"1"
 			"enabled"				"1"
@@ -460,7 +473,7 @@
 			"textinsetx"				"8"
 			
 			"dropshadow"				"1"
-			"dropshadowoffset"		"3"
+			"dropshadow_offset"		"3"
 			
 			"visible"				"1"
 			"enabled"				"1"
@@ -509,7 +522,7 @@
 				"fgcolor_override"	"ButtonArmedMM"
 				
 				"dropshadow"			"1"
-				"dropshadowoffset"	"2"
+				"dropshadow_offset"	"2"
 				
 				"mouseinputenabled"	"0"
 				
@@ -582,7 +595,7 @@
 				"mouseinputenabled"	"0"
 				
 				"dropshadow"			"1"
-				"dropshadowoffset"	"3"
+				"dropshadow_offset"	"3"
 				
 				"visible"			"1"
 			}
@@ -852,7 +865,7 @@
 			"textinsetx"				"8"
 			
 			"dropshadow"				"1"
-			"dropshadowoffset"		"3"
+			"dropshadow_offset"		"3"
 			
 			"visible"				"0"
 			
@@ -996,7 +1009,7 @@
 				"navLeft"				""
 				"navRight"				"CreateServerButton"
 				
-				"image_default"		"resource/svgs/mainmenu/icon_magnifier.svg"
+				"image_default"			"resource/svgs/mainmenu/icon_magnifier.svg"
 			
 				"border_default"			"DarHudMMSplitButtonMid"
 				"border_armed"			"DarHudMMSplitButtonMidArmed"
@@ -1065,11 +1078,6 @@
 				"navUp" 		"ResumeButton"
 				
 				"visible"	"0"
-			}
-			
-			"Subimage"
-			{
-				"xpos"	"5"
 			}
 		}
 		"TrainingButtonShadow"
@@ -1313,11 +1321,6 @@
 			{
 				"navRight"	"<BlogButton"
 			}
-			
-			"Subimage"
-			{
-				"xpos"		"5"
-			}
 		}
 		"StatsButtonShadow"
 		{
@@ -1437,11 +1440,6 @@
 			{
 				"navRight"	"OptionsButton"
 			}
-
-			"Subimage"
-			{
-				"xpos"	"5"
-			}
 		}
 		"AddonsButtonShadow"
 		{
@@ -1499,6 +1497,8 @@
 			"border_selected"				"DarHudMM2SplitQuitButtonMainDepressed"
 			"border_depressed"			"DarHudMM2SplitQuitButtonMainDepressed"
 			"border_disabled"				"DarHudMM2SplitQuitButtonMainDisabled"
+			
+			"dropshadow_color"			"ButtonMMQuitLabelShadow"
 			
 			"visible"					"0"
 			
@@ -1584,6 +1584,8 @@
 			"border_selected"				"DarHudMMQuitButtonDepressed"
 			"border_disabled"				"DarHudMMQuitButtonDisabled"
 			
+			"dropshadow_color"			"ButtonMMQuitLabelShadow"
+			
 			"if_inlevel"
 			{
 				"pin_to_sibling"			"DisconnectButton"
@@ -1611,9 +1613,11 @@
 			
 			"Subimage"
 			{
-				"xpos"	"4"
-				"wide"	"o1"
-				"tall"	"f8"
+				"xpos"				"4"
+				"wide"				"o1"
+				"tall"				"f8"
+			
+				"dropshadow_color"	"ButtonMMQuitLabelShadow"
 				
 				"if_inlevel"
 				{
@@ -1862,7 +1866,7 @@
 				"controlname"	"ImagePanel"
 				"fieldname"	"Subimage"
 				
-				"xpos"		"cs-0.5+1"
+				"xpos"		"cs-0.5"
 				"ypos"		"cs-0.5"
 				"zpos"		"1"
 				
@@ -1907,7 +1911,7 @@
 				"controlname"	"ImagePanel"
 				"fieldname"	"Subimage"
 				
-				"xpos"		"cs-0.5+1"
+				"xpos"		"cs-0.5"
 				"ypos"		"cs-0.5"
 				"zpos"		"1"
 				
@@ -1957,11 +1961,6 @@
 			
 			"image_default"		"resource/svgs/mainmenu/icon_check.svg"
 			
-			"SubImage"
-			{
-				"xpos"	"cs-0.5+1"
-			}
-			
 			"navUp"		""
 			"navDown"	"MutePlayerButton"
 			"navLeft"	""
@@ -1998,11 +1997,6 @@
 			"Command"				"gamemenucommand OpenPlayerListDialog"
 			"actionsignallevel"		"2"
 			"image_default"			"resource/svgs/mainmenu/icon_mic_off.svg"
-			
-			"SubImage"
-			{
-				"xpos"	"cs-0.5+1"
-			}
 			
 			"navUp"		"CallVoteButton"
 			"navDown"	"ReloadHudButton"
@@ -2041,11 +2035,6 @@
 			"actionsignallevel"		"2"
 			"image_default"			"resource/svgs/mainmenu/icon_reload_hud.svg"
 			
-			"SubImage"
-			{
-				"xpos"	"cs-0.5+1"
-			}
-			
 			"navUp"		"MutePlayerButton"
 			"navDown"	"RestartSoundButton"
 			"navLeft"	""
@@ -2082,11 +2071,6 @@
 			"Command"				"engine snd_restart"
 			"actionsignallevel"		"2"
 			"image_default"			"resource/svgs/mainmenu/icon_restart_sound.svg"
-			
-			"SubImage"
-			{
-				"xpos"	"cs-0.5+1"
-			}
 			
 			"navUp"		"ReloadHudButton"
 			"navDown"	"FixInvisButton"
@@ -2127,8 +2111,6 @@
 			
 			"SubImage"
 			{
-				"xpos"	"cs-0.5+1"
-				
 				"wide"	"20"
 				"tall"	"20"
 			}
@@ -2187,7 +2169,7 @@
 			"fgcolor_override"	"GeneralLabel"
 			
 			"dropshadow"			"1"
-			"dropshadowoffset"	"2"
+			"dropshadow_offset"	"2"
 			
 			"visible"			"1"
 			"enabled"			"1"

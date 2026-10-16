@@ -2,86 +2,97 @@
 {
 	"ItemSelectionPanel"
 	{
-		"controlname"					"EditablePanel"
-		"fieldname"					"ItemSelectionPanel"
+		"ControlName"					"EditablePanel"
+		"fieldName"					"ItemSelectionPanel"
 		
 		"xpos"						"0"
-		"ypos"						"82"
-		"zpos"						"4"
+		"ypos"						"160"
+		"zpos"						"10"
 		
 		"wide"						"f0"
-		"tall"						"338"
+		"tall"						"p0.60"
 		
+		"tabPosition"					"0"
 		"settitlebarvisible"			"0"
+		"paintbackground"				"0"
 		
-		"bgcolor_override"			"LoadoutBackground"
-		
-		"item_ypos"					"60"
-		"item_ydelta"					"80"
-		
-		"item_backpack_offcenter_x"	"-288"
+		"item_ypos"					"25"
+		"item_ydelta"					"70"
+		"item_backpack_offcenter_x"	"-250"
 		"item_backpack_xdelta"			"4"
-		"item_backpack_ydelta"			"3"
+		"item_backpack_ydelta"			"4"
 		
 		"visible"					"1"
 
 		"modelpanels_selection_kv"
 		{
-			"wide"			"576"
-			"tall"			"64"
+			"wide"						"500"
+			"tall"						"60"
 			
-			"model_xpos"		"2"
-			"model_wide"		"100"
-			"model_tall"		"70"
-			"model_center_x"	"0"
+			"model_center_x"			"0"
+			"model_xpos"				"0"
+			"model_ypos"				"5"	
+			"model_tall"				"50"
+			"model_wide"				"80"
 			
-			"text_ypos"		"0"
-			"text_forcesize"	"1"
-			"text_center"		"1"
-			"text_yoffset"	"2"
+			"text_forcesize"			"1"
+			"text_center"				"1"
+			"text_yoffset"				"3"
 			
-			"inset_eq_x"		"519"
-			"inset_eq_y"		"50"
-
-			"deferred_description"	"1"
-			"deferred_icon"		"1"
+			"name_only"					"1"
+			
+			"BackgroundFade"
+			{
+				"ControlName"			"EditablePanel"
+				"fieldName"			"BackgroundFade"
+				
+				"wide"				"0"
+				"tall"				"0"
+				
+				"visible"			"0"
+			}
+			
+			"BackgroundFade2"
+			{
+				"ControlName"			"EditablePanel"
+				"fieldName"			"BackgroundFade2"
+				
+				"wide"				"0"
+				"tall"				"0"
+				
+				"visible"			"0"
+			}
 		}
+		
 		"modelpanels_kv"
 		{
-			"controlname"			"CItemModelPanel"
-			"xpos"				"c-70"
-			"ypos"				"270"
-			"wide"				"54"
-			"tall"				"42"
-			"bgcolor_override"	"0 0 0 0"
-			"noitem_textcolor"	"117 107 94 255"
-			"PaintBackgroundType"	"2"
-			"paintborder"			"1"
+			"ControlName"				"CItemModelPanel"
+			"visible"					"0"
 			
-			"model_xpos"	"2"
-			"model_ypos"	"0" 
-			"model_wide"	"100"
-			"model_tall"	"70"
-			"text_ypos"		"60"
-			"text_center"	"1"
-			"name_only"		"1"
-			
-			"use_item_sounds"	"1"
-			"use_item_sounds_alt"	"1"
-			
-			"inset_eq_x"	"4"
-			"inset_eq_y"	"2"
-
-			"deferred_description"	"1"
-			
-			"visible"			"0"
+			"equipped_x"				"2"
+			"equipped_y"				"2"
 			
 			"itemmodelpanel"
 			{
 				"use_item_rendertarget" "0"
 				"allow_rot"				"0"
 			}
+			
+			"use_item_sounds"			"1"
+			"use_item_sounds_alt"		"1"
+			
+			"BackgroundFade"
+			{
+				"ControlName"	"EditablePanel"
+				"fieldName"	"BackgroundFade"
+					
+				"wide"		"0"
+				"tall"		"0"
+					
+				"visible"	"0"
+			}
 		}
+		
 		"duplicatelabels_kv"
 		{
 			"font"			"ItemFontNameSmallest"
@@ -94,165 +105,10 @@
 		}
 	}
 
-	"NameFilterLabel"
-	{
-		"controlname"	"CExLabel"
-		"fieldname"		"NameFilterLabel"
-		"font"			"HudFontSmallestBold"
-		"labelText"		"#Store_NameFilterLabel"
-		"textAlignment"	"west"
-		"xpos"			"c+205"
-		"ypos"			"0"
-		"zpos"			"1"
-		"wide"			"90"
-		"tall"			"20"
-		"autoResize"	"1"
-		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"0"
-		"fgcolor"		"StoreDarkTan"
-	}
-
-	"NameFilterTextEntry"
-	{
-		"controlname"		"TextEntry"
-		"fieldname"		"NameFilterTextEntry"
-		"xpos"		"c+205"
-		"ypos"		"15"
-		"zpos"		"2"
-		"wide"		"90"
-		"tall"		"19"
-		"autoResize"		"0"
-		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"0"
-		"tabPosition"		"1"
-		"textHidden"		"0"
-		"editable"		"1"
-		"unicode"		"1"
-		"fgcolor_override"	"117 107 94 255"
-		"bgcolor_override"	"251 235 202 255"
-		"paintbackgroundtype" "2"
-		"font"		"HudFontSmallest"
-	}
-
-	"LeftCaratLabel"
-	{
-		"controlname"		"CExLabel"
-		"fieldname"			"LeftCaratLabel"
-		"font"				"HudFontSmallestBold"
-		"labelText"			">>"
-		"textAlignment"		"west"
-		"xpos"				"c-290"
-		"ypos"				"22"
-		"zpos"				"1"
-		"wide"				"20"
-		"tall"				"15"
-		"autoResize"		"1"
-		"pinCorner"			"0"
-		"visible"			"1"
-		"enabled"			"1"
-		"fgcolor_override"	"200 80 60 255"
-		"dropshadow"			"1"
-		"dropshadowoffset"	"2"
-	}
-	"ClassLabel"
-	{
-		"controlname"		"CExLabel"
-		"fieldname"			"ClassLabel"
-		"xpos"				"c-275"
-		"ypos"				"13"
-		"zpos"				"6"
-		"wide"				"500"
-		"tall"				"30"
-		"autoResize"		"0"
-		"pinCorner"			"0"
-		"visible"			"1"
-		"enabled"			"1"
-		"labelText"			"%loadoutclass%"
-		"textAlignment"		"west"
-		"font"				"HudFontBiggerBold"
-		"fgcolor"			"MainMenuLabel"
-		"dropshadow"		"1"
-		"dropshadowoffset"	"3"
-		"mouseinputenabled"	"0"
-	}
-	"TopLine"
-	{
-		"controlname"		"ImagePanel"
-		"fieldname"			"TopLine"
-		"proportionaltoparent"	"1"
-		"xpos"				"c-275"
-		"ypos"				"43"
-		"zpos"				"2"
-		"wide"				"199"
-		"tall"				"10"
-		"visible"			"1"
-		"enabled"			"1"
-		"image"				"loadout_dotted_line"
-		"tileimage"			"1"
-		"drawcolor"			"132 121 107 255"
-		"tileVertically"	"0"
-	}
-	
-	"BottomLine"
-	{
-		"controlname"		"ImagePanel"
-		"fieldname"			"BottomLine"
-		"proportionaltoparent"	"1"
-		"xpos"				"cs-0.5"
-		"ypos"				"270"
-		"zpos"				"2"
-		"wide"				"512"
-		"tall"				"10"
-		"visible"			"1"
-		"enabled"			"1"
-		"image"				"loadout_dotted_line"
-		"tileimage"			"1"
-		"drawcolor"			"132 121 107 255"
-		"tileVertically"	"0"
-	}
-		
-	"TopLine2"
-	{
-		"controlname"		"ImagePanel"
-		"fieldname"			"TopLine2"
-		"proportionaltoparent"	"1"
-		"xpos"				"c76"
-		"ypos"				"43"
-		"zpos"				"2"
-		"wide"				"199"
-		"tall"				"10"
-		"visible"			"1"
-		"enabled"			"1"
-		"image"				"loadout_dotted_line"
-		"tileimage"			"1"
-		"drawcolor"			"132 121 107 255"
-		"tileVertically"	"0"
-	}
-	"ItemSlotLabel"
-	{
-		"controlname"		"CExLabel"
-		"fieldname"		"ItemSlotLabel"
-		"font"			"HudFontMediumBold"
-		"labelText"		"#PrimaryWeapon"
-		"textAlignment"	"east"
-		"fgcolor"			"MainMenuLabel"
-		"xpos"			"c-100"
-		"ypos"			"20"
-		"zpos"			"1"
-		"wide"			"375"
-		"tall"			"25"
-		"visible"		"1"
-		"dropshadow"		"1"
-		"dropshadowoffset"	"3"
-		"textinsetx"	"2"
-	}
-
 	"NoItemsLabel"
 	{
-		"controlname"	"CExLabel"
-		"fieldname"		"NoItemsLabel"
+		"ControlName"	"CExLabel"
+		"fieldName"		"NoItemsLabel"
 		"font"			"HudFontSmallBold"
 		"labelText"		"#NoItemsToEquip"
 		"textAlignment"	"center"
@@ -266,298 +122,178 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"fgcolor_override" "200 80 60 255"
-		"dropshadow"		"1"
-		"dropshadowoffset"	"3"
 	}
-	
-	"CancelButton"
-	{
-		"controlname"	"CExButton"
-		"fieldname"		"CancelButton"
-		"xpos"			"c-200"
-		"ypos"			"400"
-		"zpos"			"2"
-		"wide"			"200"
-		"tall"			"25"
-		"visible"		"0"
-		"enabled"		"0"
-		"labelText"		"#Cancel"
-		"font"			"HudFontSmallBold"
-		"textAlignment"	"center"
-		"Command"		"vguicancel"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
-	}
-	
-	"BackButton"
-	{
-		"controlname"		"CEximageButton"
-		"fieldname"		"BackButton"
-		"style"			"CommandButton"
-		"xpos"			"c-50"
-		"ypos"			"292"
-		"wide"			"100"
-		"tall"			"25"
-		"visible"		"1"
-		"enabled"		"1"
-		"labelText"		"#TF_Loadout_Back"
-		"font"			"HudFontSmallBold"
-		"textAlignment"	"center"
-		"default"		"0"
-		"Command"		"back"
-		
-		"dropshadowoffset"	"3"
-	}
-	"BackButtonShadow"
-	{
-		"controlname"		"CTFImagePanel"
-		"fieldname"		"BackButtonShadow"
-		"style"			"MainMenuButtonShadow"
-		"pin_to_sibling"	"BackButton"
-		
-		"wide"			"100"
-		"tall"			"25"
-	}
-	
-	"OnlyAllowUniqueQuality"
-	{
-		"controlname"	"CheckButton"
-		"fieldname"		"OnlyAllowUniqueQuality"
-		"labelText"		"#OnlyAllowUniqueQuality"
-		"Font"			"HudFontSmallestBold"
-		"textAlignment"	"east"
-		"xpos"			"c-306"
-		"ypos"			"340"
-		"zpos"			"1"
-		"wide"			"290"
-		"tall"			"25"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"1"
-		"dulltext"		"0"
-		"brighttext"	"0"
-	}	
-	
-	"ShowBackpack"
-	{
-		"controlname"	"CExButton"
-		"fieldname"		"ShowBackpack"
-		"xpos"			"c100"
-		"ypos"			"340"
-		"zpos"			"20"
-		"wide"			"200"
-		"tall"			"25"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"	"0"
-		"labelText"		"#Selection_ShowBackpack"
-		"font"			"HudFontSmallBold"
-		"textAlignment"	"center"
-		"textinsetx"	"50"
-		"dulltext"		"0"
-		"brighttext"	"0"
-		"Command"		"show_backpack"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
-	}
-	"ShowSelection"
-	{
-		"controlname"	"CExButton"
-		"fieldname"		"ShowSelection"
-		"xpos"			"c100"
-		"ypos"			"340"
-		"zpos"			"20"
-		"wide"			"200"
-		"tall"			"25"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"	"0"
-		"labelText"		"#Selection_ShowSelection"
-		"font"			"HudFontSmallBold"
-		"textAlignment"	"center"
-		"textinsetx"	"50"
-		"dulltext"		"0"
-		"brighttext"	"0"
-		"Command"		"show_selection"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
-	}
-	
-	"HamburgerButton"
-	{
-		"controlname"		"CEximageButton"
-		"fieldname"		"HamburgerButton"
-		"style"			"MainMenuButton"
-		"xpos"			"c-285"
-		"ypos"			"308"
-		"zpos"			"1"
-		"wide"			"20"
-		"tall"			"20"
-		"visible"		"1"
-		"enabled"		"1"
-		"labelText"		""
-		"font"			"HudFontSmallBold"
-		"textAlignment"	"center"
-		"actionsignallevel"	"2"
-		"Command"		"tf2c_loadout_grid 0"
-		"tooltiptext"		"#dar_loadout_list"
-		
-		"image_default"	"resource/svgs/mainmenu/icon_hamburger.svg"
-		"stayselectedonclick"	"1"
-		"image_selectedcolor"	"ButtonArmedLabelMM"
-		"border_selected"		"DarhudMMSquareButtonArmed"
-		
-		"dropshadowoffset"	"3"
-		"Subimage"
-		{
-			"wide"		"f8"
-			"tall"		"o1"
-			"xpos"		"cs-0.5+1"
-		}
-	}
-	"HamburgerButtonShadow"
-	{
-		"controlname"		"CTFImagePanel"
-		"fieldname"		"HamburgerButtonShadow"
-		"style"			"MainMenuButtonShadow"
-		"wide"			"20"
-		"tall"			"20"
-		"pin_to_sibling"	"HamburgerButton"
-	}
-	"BentoButton"
-	{
-		"controlname"		"CEximageButton"
-		"fieldname"		"BentoButton"
-		"style"			"MainMenuButton"
-		"xpos"			"c-260"
-		"ypos"			"308"
-		"zpos"			"1"
-		"wide"			"20"
-		"tall"			"20"
-		"visible"		"1"
-		"enabled"		"1"
-		"labelText"		""
-		"font"			"HudFontSmallBold"
-		"textAlignment"	"center"
-		"actionsignallevel"	"2"
-		"Command"		"tf2c_loadout_grid 1"
-		"tooltiptext"		"#dar_loadout_grid"
-		
-		"image_default"	"resource/svgs/mainmenu/icon_bento.svg"
-		"stayselectedonclick"	"1"
-		"image_selectedcolor"	"ButtonArmedLabelMM"
-		"border_selected"		"DarhudMMSquareButtonArmed"
-		
-		"dropshadowoffset"	"3"
-		"Subimage"
-		{
-			"wide"		"f8"
-			"tall"		"o1"
-			"xpos"		"cs-0.5+1"
-		}
-	}
-	"BentoButtonShadow"
-	{
-		"controlname"		"CTFImagePanel"
-		"fieldname"		"BentoButtonShadow"
-		"style"			"MainMenuButtonShadow"
-		"wide"			"20"
-		"tall"			"20"
-		"pin_to_sibling"	"BentoButton"
-	}
-	
+
 	"PrevPageButton"
 	{
-		"controlname"		"CEximageButton"
-		"fieldname"		"PrevPageButton"
-		"style"			"CommandButton"
-		"xpos"			"c195"
-		"ypos"			"308"
-		"wide"			"20"
-		"tall"			"20"
-		"visible"		"1"
-		"enabled"		"1"
-		"labelText"		"<"
-		"font"			"HudFontSmallBold"
-		"textAlignment"	"center"
-		"Command"		"prevpage"
+		"ControlName"			"CExImageButton"
+		"fieldName"				"PrevPageButton"
+		"xpos"					"c-250"
+		"ypos"					"0"
+		"zpos"					"1"
+		"wide"					"500"
+		"tall"					"20"
+		"visible"				"1"
+		"enabled"				"1"
+		"labelText"				""
+		"font"					"HudFontSmallBold"
+		"textAlignment"			"center"
+		"Command"				"prevpage"
 		
-		"dropshadowoffset"	"3"
-	}
-	"PrevPageButtonShadow"
-	{
-		"controlname"		"CTFImagePanel"
-		"fieldname"		"PrevPageButtonShadow"
-		"style"			"MainMenuButtonShadow"
-		"wide"			"20"
-		"tall"			"20"
-		"visible"		"1"
-		"enabled"		"1"
+		"proportionalToParent"		"1"
+		"button_activation_type"	"1"
+		"stay_armed_on_click"		"1"
 		
-		"pin_to_sibling"	"PrevPageButton"
-	}
-	
-	"CurPageLabel"
-	{
-		"controlname"	"CExLabel"
-		"fieldname"		"CurPageLabel"
-		"font"			"HudFontSmallBold"
-		"labelText"		"%backpackpage%"
-		"textAlignment"	"center"
-		"xpos"			"c220"
-		"ypos"			"308"
-		"zpos"			"1"
-		"wide"			"40"
-		"tall"			"20"
-		"autoResize"	"1"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"fgcolor_override" "200 80 60 255"
+		"sound_released"		"UI/buttonclick.wav"
+		"sound_armed"			"UI/item_info_mouseover.wav"
 		
-		"dropshadowoffset"	"3"
+		"paintborder"			"1"
+		"paintbackground"		"0"
+		
+		"border_default"		"BackpackItemBorder"
+		"border_armed"			"BackpackItemMouseOverBorder"
+		"border_disabled"		"BackpackItemGreyedOutBorder"
+		"border_selected"		"BackpackItemMouseOverBorder"
+		
+		"image_drawcolor"		"TanLightish"
+		"image_armedcolor"		"MenuButton.ArmedFgColor"
+		"image_depressedcolor"	"MenuButton.ArmedFgColor"
+		"image_selectedcolor"	"MenuButton.ArmedFgColor"
+		"image_disabledcolor"	"MainTextInactive"
+		
+		"image_default" 		"resource/svgs/mainmenu/icon_arrow_up.svg"
+		
+		"SubImage"
+		{
+			"ControlName"			"ImagePanel"
+			"fieldName"				"SubImage"
+			"xpos"					"cs-0.5"
+			"ypos"					"cs-0.5"
+			"zpos"					"1"
+			"wide"					"o1"
+			"tall"					"f6"
+			"wide"					"o1"
+			"visible"				"1"
+			"enabled"				"1"
+			"scaleImage"			"1"
+			"proportionalToParent"	"1"
+		}
 	}
 	
 	"NextPageButton"
 	{
-		"controlname"		"CEximageButton"
-		"fieldname"		"NextPageButton"
-		"style"			"CommandButton"
-		"xpos"			"c265"
-		"ypos"			"308"
-		"wide"			"20"
-		"tall"			"20"
-		"visible"		"1"
-		"enabled"		"1"
-		"labelText"		">"
-		"font"			"HudFontSmallBold"
-		"textAlignment"	"center"
-		"Command"		"nextpage"
+		"ControlName"			"CExImageButton"
+		"fieldName"				"NextPageButton"
+		"xpos"					"c-250"
+		"ypos"					"219"
+		"zpos"					"1"
+		"wide"					"500"
+		"tall"					"20"
+		"visible"				"1"
+		"enabled"				"1"
+		"labelText"				""
+		"font"					"HudFontSmallBold"
+		"textAlignment"			"center"
+		"Command"				"nextpage"
 		
-		"dropshadowoffset"	"3"
+		"proportionalToParent"		"1"
+		"button_activation_type"	"1"
+		"stay_armed_on_click"		"1"
+		
+		"sound_released"		"UI/buttonclick.wav"
+		"sound_armed"			"UI/item_info_mouseover.wav"
+		
+		"paintborder"			"1"
+		"paintbackground"		"0"
+		
+		"border_default"		"BackpackItemBorder"
+		"border_armed"			"BackpackItemMouseOverBorder"
+		"border_disabled"		"BackpackItemGreyedOutBorder"
+		"border_selected"		"BackpackItemMouseOverBorder"
+		
+		"image_drawcolor"		"TanLightish"
+		"image_armedcolor"		"MenuButton.ArmedFgColor"
+		"image_depressedcolor"	"MenuButton.ArmedFgColor"
+		"image_selectedcolor"	"MenuButton.ArmedFgColor"
+		"image_disabledcolor"	"MainTextInactive"
+		
+		"image_default" 		"resource/svgs/mainmenu/icon_arrow_down.svg"
+		
+		"SubImage"
+		{
+			"ControlName"			"ImagePanel"
+			"fieldName"				"SubImage"
+			"xpos"					"cs-0.5"
+			"ypos"					"cs-0.5"
+			"zpos"					"1"
+			"wide"					"o1"
+			"tall"					"f6"
+			"wide"					"o1"
+			"visible"				"1"
+			"enabled"				"1"
+			"scaleImage"			"1"
+			"proportionalToParent"	"1"
+		}
 	}
-	"NextPageButtonShadow"
+	
+	"CurPageLabel"
 	{
-		"controlname"		"CTFImagePanel"
-		"fieldname"		"NextPageButtonShadow"
-		"style"			"MainMenuButtonShadow"
-		"wide"			"20"
-		"tall"			"20"
-		"visible"		"1"
-		"enabled"		"1"
+		"ControlName"		"CExLabel"
+		"fieldName"			"CurPageLabel"
+		"font"				"HudFontSmallBold"
+		"labelText"			"%backpackpage%"
+		"textAlignment"		"east"
+		"xpos"				"c200"
+		"ypos"				"244"
+		"zpos"				"1"
+		"wide"				"40"
+		"tall"				"30"
+		"autoResize"		"1"
+		"pinCorner"			"0"
+		"visible"			"1"
+		"enabled"			"1"
+		"fgcolor_override" "TanLight"
+	}
+	
+	"viewselection"
+	{
+		"ControlName"		"RadioButtonGroup"
+		"fieldName"			"viewselection"
+		"xpos"				"cs-0.5"
+		"ypos"				"244"
+		"zpos"				"2"
+		"wide"				"60"
+		"tall"				"30"
+		"visible"			"1"
+		"enabled"			"1"
+		"bordervisible"		"0"
+		"fire_commands"		"1"
 		
-		"pin_to_sibling"	"NextPageButton"
+		"autoAlign"			"1"
+		
+		"List"
+		{
+			"ControlName"		"CExImageButton"
+			"fieldName"			"List"
+			"style"				"MenuRadioButton"
+			"command"			"showlist"		
+			"image_default" 	"resource/svgs/loadout/icon_hamburger.svg"
+		}
+
+		"Grid"
+		{
+			"ControlName"		"CExImageButton"
+			"fieldName"			"Grid"
+			"style"				"MenuRadioButton"
+			"command"			"showgrid"
+			"image_default" 	"resource/svgs/loadout/icon_bento.svg"
+		}
 	}
 	
 	"mouseoveritempanel"
 	{
-		"controlname"	"CItemModelPanel"
-		"fieldname"		"mouseoveritempanel"
+		"ControlName"	"CItemModelPanel"
+		"fieldName"		"mouseoveritempanel"
 		"xpos"			"c-70"
 		"ypos"			"270"
 		"zpos"			"100"
@@ -594,5 +330,3 @@
 		}
 	}
 }
-
-

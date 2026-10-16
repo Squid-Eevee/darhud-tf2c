@@ -36,7 +36,7 @@
 		"labelText"		"#TF_teambalanced"
 		"textAlignment"	"center"
 		"dropshadow"		"1"
-		"dropshadowoffset"	"3"
+		"dropshadow_offset"	"3"
 	}
 	"ReasonLabel"
 	{	
@@ -54,6 +54,6 @@
 		"labelText"		""
 		"textAlignment"	"center"
 		"dropshadow"		"1"
-		"dropshadowoffset"	"2"
+		"dropshadow_offset"	"2"
 	}
 }

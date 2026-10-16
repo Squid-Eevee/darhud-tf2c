@@ -39,6 +39,7 @@
 		"wide"		"48"
 		"tall"		"48"
 		
+		// "image"		"resource\svgs\ingame\health_color.svg"	//doesn't work - is hard-coded to use materials/hud/health_color.vmt
 		"scaleImage"	"1"
 		
 		"visible"	"1"
@@ -78,22 +79,40 @@
 		"ypos"				"45"
 		"zpos"				"2"
 		
-		"wide"				"54"
-		"tall"				"54"
+		"wide"				"53"
+		"tall"				"53"
 		
 		"image"				"resource\svgs\ingame\health_white.svg"
 		"scaleImage"			"1"
 		"drawcolor"			"TanDarker"
 		
 		"dropshadow"			"1"
-		"dropshadowoffset"	"3"
+		"dropshadow_offset"	"3"
+		"dropshadow_color"	"HudShadow"
 		
 		"visible"			"1"
-	}	
+	}
 	"PlayerStatusHealthBonusImage"
 	{
 		"controlname"	"ImagePanel"
 		"fieldname"	"PlayerStatusHealthBonusImage"
+		
+		"xpos"		"146"
+		"ypos"		"45"
+		"zpos"		"1"
+		
+		"wide"		"52"
+		"tall"		"52"
+		
+		"image"		"../hud/health_over_bg"
+		"scaleImage"	"1"
+		
+		"visible"	"0"
+	}
+	"PlayerStatusHealthDoomBonusImage"
+	{
+		"controlname"	"ImagePanel"
+		"fieldname"	"PlayerStatusHealthDoomBonusImage"
 		
 		"xpos"		"146"
 		"ypos"		"45"
@@ -130,7 +149,7 @@
 		"fgcolor"				"HealthNormal"
 		
 		"dropshadow"				"1"
-		"dropshadowoffset"		"4"
+		"dropshadow_offset"		"4"
 		
 		"visible"				"1"
 		"enabled"				"1"
@@ -158,7 +177,7 @@
 		"fgcolor"				"MaxHealth"
 		
 		"dropshadow"				"1"
-		"dropshadowoffset"		"2"
+		"dropshadow_offset"		"2"
 		
 		"visible"				"1"
 		"enabled"				"1"

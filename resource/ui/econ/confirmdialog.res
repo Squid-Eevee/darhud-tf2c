@@ -31,7 +31,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"dropshadow"		"1"
-		"dropshadowoffset"	"3"
+		"dropshadow_offset"	"3"
 	}
 	
 	"ExplanationLabel"
@@ -51,7 +51,7 @@
 		"centerwrap"	"1"
 		"fgcolor_override" "200 80 60 255"
 		"dropshadow"		"1"
-		"dropshadowoffset"	"2"
+		"dropshadow_offset"	"2"
 	}
 		
 	"CancelButton"
@@ -73,7 +73,7 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"roundedcorners"	"0"
 		"dropshadow"		"1"
-		"dropshadowoffset"	"3"
+		"dropshadow_offset"	"3"
 	}
 
 	"ConfirmButton"
@@ -96,6 +96,6 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"roundedcorners"	"0"
 		"dropshadow"		"1"
-		"dropshadowoffset"	"3"
+		"dropshadow_offset"	"3"
 	}			
 }

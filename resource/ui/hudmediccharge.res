@@ -5,8 +5,8 @@
 		"controlname"		"CTFImagePanel"
 		"fieldname"		"Background"
 		
-		"xpos"			"47"
-		"ypos"			"40"
+		"xpos"			"28"
+		"ypos"			"11"
 		"zpos"			"0"
 		
 		"xpos_minmode"	"0"
@@ -24,6 +24,10 @@
 		"teambg_4"		"..\darhud\uber\uber_green"
 		"teambg_5"		"..\darhud\uber\uber_yellow"
 		"scaleimage"		"1"
+			
+		"dropshadow"			"1"
+		"dropshadow_offset"	"4"
+		"dropshadow_color"	"HudShadow"
 		
 		"visible"		"1"
 	}
@@ -48,7 +52,57 @@
 		"scaleimage"		"1"
 		"drawcolor"		"HudShadow"
 		
-		"visible"		"1"
+		"visible"		"0"
+	}
+	"ChargeLabelBgBorder"
+	{
+		"controlname"			"CTFImagePanel"
+		"fieldname"			"ChargeLabelBgBorder"
+		
+		"xpos"				"0"
+		"ypos"				"0"
+		"zpos"				"1"
+		
+		"wide"				"50"
+		"tall"				"50"
+		
+		"image"				"..\darhud\health\healthbar\healthbar_bg_neutral"
+		"teambg_0"			"..\darhud\health\healthbar\healthbar_bg_neutral"
+		"teambg_1"			"..\darhud\health\healthbar\healthbar_bg_spectator"
+		"teambg_2"			"..\darhud\health\healthbar\healthbar_bg_red"
+		"teambg_3"			"..\darhud\health\healthbar\healthbar_bg_blue"
+		"teambg_4"			"..\darhud\health\healthbar\healthbar_bg_green"
+		"teambg_5"			"..\darhud\health\healthbar\healthbar_bg_yellow"
+		"scaleimage"			"1"
+			
+		"dropshadow"			"1"
+		"dropshadow_offset"	"4"
+		"dropshadow_color"	"HudShadow"
+		
+		"visible"			"1"
+		
+		"visible_minmode"		"0"
+	}
+	"ChargeLabelBgBorderShadow"
+	{
+		"controlname"		"CTFImagePanel"
+		"fieldname"		"ChargeLabelBgBorderShadow"
+		
+		"pin_to_sibling"	"ChargeLabelBgBorder"
+		
+		"xpos"			"-3"
+		"ypos"			"-3"
+		"zpos"			"0"
+		
+		"wide"			"50"
+		"tall"			"50"
+		
+		"image"			"..\darhud\health\healthbar\healthbar_bg_shadow"
+		"scaleimage"		"1"
+		
+		"visible"		"0"
+		
+		"visible_minmode"	"0"
 	}
 	
 	"ChargeLabelBg"
@@ -56,16 +110,14 @@
 		"controlname"				"ImagePanel"
 		"fieldname"				"ChargeLabelBg"
 		
-		"pin_to_sibling"			"Background"
-		"pin_corner_to_sibling"	"pin_center_right"
-		"pin_to_sibling_corner"	"pin_center_left"
+		"pin_to_sibling"			"ChargeLabelBgBorder"
 		
-		"xpos"					"-24"
-		"ypos"					"-8"
+		"xpos"					"-2"
+		"ypos"					"-2"
 		"zpos"					"3"
 		
-		"wide"					"56"
-		"tall"					"56"
+		"wide"					"46"
+		"tall"					"46"
 		
 		"image"					"resource\svgs\ingame\health_white.svg"
 		"scaleimage"				"1"
@@ -79,17 +131,16 @@
 	{
 		"controlname"				"EditablePanel"
 		"fieldname"				"ChargedImagePanel"
-		"proportionaltoparent"		"1"
 		
 		"pin_to_sibling"			"ChargeLabelBg"
 		"pin_corner_to_sibling"	"pin_center_top"
 		"pin_to_sibling_corner"	"pin_center_top"
 		
 		"xpos"					"0"
-		"ypos"					"-54"
+		"ypos"					"-2"
 		"zpos"					"4"
 		
-		"wide"					"52"
+		"wide"					"42"
 		"tall"					"0"
 		
 		"visible"				"1"
@@ -100,14 +151,13 @@
 		{
 			"controlname"			"ImagePanel"
 			"fieldname"			"Chargedimage"
-			"proportionaltoparent"	"1"
 			
 			"xpos"				"0"
-			"ypos"				"-52"
+			"ypos"				"-42"
 			"zpos"				"4"
 			
-			"wide"				"52"
-			"tall"				"52"
+			"wide"				"42"
+			"tall"				"42"
 			
 			"alpha"				"0"
 			
@@ -119,54 +169,6 @@
 			
 			"visible_minmode"		"0"
 		}
-	}
-	"ChargeLabelBgBorder"
-	{
-		"controlname"		"CTFImagePanel"
-		"fieldname"		"ChargeLabelBgBorder"
-		
-		"pin_to_sibling"	"ChargeLabelBg"
-		
-		"xpos"			"3"
-		"ypos"			"3"
-		"zpos"			"1"
-		
-		"wide"			"61"
-		"tall"			"61"
-		
-		"image"			"..\darhud\health\healthbar\healthbar_bg_neutral"
-		"teambg_0"		"..\darhud\health\healthbar\healthbar_bg_neutral"
-		"teambg_1"		"..\darhud\health\healthbar\healthbar_bg_spectator"
-		"teambg_2"		"..\darhud\health\healthbar\healthbar_bg_red"
-		"teambg_3"		"..\darhud\health\healthbar\healthbar_bg_blue"
-		"teambg_4"		"..\darhud\health\healthbar\healthbar_bg_green"
-		"teambg_5"		"..\darhud\health\healthbar\healthbar_bg_yellow"
-		"scaleimage"		"1"
-		
-		"visible"		"1"
-		
-		"visible_minmode"	"0"
-	}
-	"ChargeLabelBgBorderShadow"
-	{
-		"controlname"		"CTFImagePanel"
-		"fieldname"		"ChargeLabelBgBorderShadow"
-		
-		"pin_to_sibling"	"ChargeLabelBgBorder"
-		
-		"xpos"			"-3"
-		"ypos"			"-3"
-		"zpos"			"0"
-		
-		"wide"			"61"
-		"tall"			"61"
-		
-		"image"			"..\darhud\health\healthbar\healthbar_bg_shadow"
-		"scaleimage"		"1"
-		
-		"visible"		"1"
-		
-		"visible_minmode"	"0"
 	}
 	
 	"ChargeLabel"
@@ -187,13 +189,13 @@
 		"xpos_minmode"			"-10"
 		"ypos_minmode"			"40"
 		
-		"wide"					"60"
+		"wide"					"50"
 		"tall"					"30"
 		
 		"wide_minmode"			"70"
 		
 		"labelText"				"#TF_UberchargeMinHUD"
-		"font"					"HudFontMediumBold"
+		"font"					"HudFontMediumSmallBold"
 		"textAlignment"			"center"
 		"textinsetx"				"0"
 		
@@ -204,7 +206,7 @@
 		"fgcolor"				"AmmoNormal"
 		
 		"dropshadow"				"1"
-		"dropshadowoffset"		"3"
+		"dropshadow_offset"		"3"
 		
 		"visible"				"1"
 		"enabled"				"1"
@@ -225,10 +227,10 @@
 		"ypos"					"0"
 		"zpos"					"6"
 		
-		"xpos_minmode"			"-40"
+		"xpos_minmode"			"-10"
 		"ypos_minmode"			"40"
 		
-		"wide"					"60"
+		"wide"					"50"
 		"tall"					"50"
 		
 		"wide_minmode"			"70"
@@ -245,9 +247,9 @@
 		
 		"fgcolor"				"AmmoNormal"
 		"dropshadow"				"1"
-		"dropshadowoffset"		"4"
+		"dropshadow_offset"		"4"
 		
-		"dropshadowoffset_minmode"	"3"
+		"dropshadow_offset_minmode"	"3"
 		
 		"visible"				"1"
 		"enabled"				"1"
@@ -258,22 +260,14 @@
 		"controlname"					"ContinuousProgressBar"
 		"fieldname"					"ChargeMeter"
 		
-		"pin_to_sibling"				"Background"
-		"pin_corner_to_sibling"		"pin_center_right"
-		"pin_to_sibling_corner"		"pin_center_right"
-		
-		"pin_to_sibling_minmode"		"ChargeLabel"
-		"pin_corner_to_sibling_minmode"	"pin_center_left"
-		"pin_to_sibling_corner_minmode"	"pin_center_right"
-		
-		"xpos"						"-30"
-		"ypos"						"0"
+		"xpos"						"56"
+		"ypos"						"18"
 		"zpos"						"1"
 		
 		"xpos_minmode"				"3"
 		
 		"wide"						"80"
-		"tall"						"12"
+		"tall"						"14"
 		
 		"wide_minmode"				"70"
 		
@@ -301,7 +295,7 @@
 		"xpos_minmode"				"3"
 		
 		"wide"						"16"
-		"tall"						"12"
+		"tall"						"14"
 		
 		"bgcolor_override"			"MeterBackground"
 		"fgcolor_override"			"UberForeground"
@@ -323,7 +317,7 @@
 		"zpos"					"1"
 		
 		"wide"					"16"
-		"tall"					"12"
+		"tall"					"14"
 		
 		"bgcolor_override"		"MeterBackground"
 		"fgcolor_override"		"UberForeground"
@@ -345,7 +339,7 @@
 		"zpos"					"1"
 		
 		"wide"					"16"
-		"tall"					"12"
+		"tall"					"14"
 		
 		"bgcolor_override"		"MeterBackground"
 		"fgcolor_override"		"UberForeground"
@@ -367,7 +361,7 @@
 		"zpos"					"1"
 		
 		"wide"					"16"
-		"tall"					"12"
+		"tall"					"14"
 		
 		"bgcolor_override"		"MeterBackground"
 		"fgcolor_override"		"UberForeground"
@@ -402,21 +396,20 @@
 	{
 		"controlname"				"ImagePanel"
 		"fieldname"				"InvulnClusterIcon"
-		"pin_to_sibling"			"Background"
-		"pin_corner_to_sibling"	"pin_center_right"
-		"pin_to_sibling_corner"	"pin_center_right"
-		"xpos"					"-8"
-		"ypos"					"-2"
+		"proportionaltoparent"		"1"
 		
-		"wide"					"16"
-		"tall"					"20"
+		"xpos"					"r36"
+		"ypos"					"11"
+		
+		"wide"					"26"
+		"tall"					"26"
 		
 		"image"					"resource/svgs/medic/ico_health_cluster_invuln.svg"
 		"scaleimage"				"1"
 		"drawcolor"				"CounterIcon"
 		
 		"dropshadow"				"1"
-		"dropshadowoffset"		"3"
+		"dropshadow_offset"		"3"
 		
 		"visible"				"0"
 		
@@ -427,23 +420,20 @@
 	{
 		"controlname"				"ImagePanel"
 		"fieldname"				"KritzClusterIcon"
+		"proportionaltoparent"		"1"
 		
-		"pin_to_sibling"			"Background"
-		"pin_corner_to_sibling"	"pin_center_right"
-		"pin_to_sibling_corner"	"pin_center_right"
+		"xpos"					"r38"
+		"ypos"					"11"
 		
-		"xpos"					"-8"
-		"ypos"					"-2"
-		
-		"wide"					"18"
-		"tall"					"20"
+		"wide"					"28"
+		"tall"					"28"
 		
 		"image"					"resource/svgs/medic/ico_health_cluster_kritz.svg"
 		"scaleimage"				"1"
 		"drawcolor"				"CounterIcon"
 		
 		"dropshadow"				"1"
-		"dropshadowoffset"		"3"
+		"dropshadow_offset"		"3"
 		
 		"visible"				"0"
 		"visible_minmode"			"0"
@@ -498,23 +488,20 @@
 	{
 		"controlname"				"ImagePanel"
 		"fieldname"				"NaderClusterIcon"
+		"proportionaltoparent"		"1"
 		
-		"pin_to_sibling"			"Background"
-		"pin_corner_to_sibling"	"pin_center_right"
-		"pin_to_sibling_corner"	"pin_center_right"
+		"xpos"					"r38"
+		"ypos"					"11"
 		
-		"xpos"					"-6"
-		"ypos"					"-2"
-		
-		"wide"					"20"
-		"tall"					"20"
+		"wide"					"28"
+		"tall"					"28"
 		
 		"image"					"resource/svgs/medic/ico_health_cluster_bubble.svg"
 		"scaleimage"				"1"
 		"drawcolor"				"CounterIcon"
 		
 		"dropshadow"				"1"
-		"dropshadowoffset"		"3"
+		"dropshadow_offset"		"3"
 		
 		"visible"				"0"
 	}

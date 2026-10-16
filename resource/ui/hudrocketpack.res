@@ -77,7 +77,7 @@
 		"scaleimage" "1"
 		"drawcolor"		"CounterIcon"
 		"dropshadow"		"1"
-		"dropshadowoffset"	"2"
+		"dropshadow_offset"	"2"
 	}
 
 	"ItemEffectMeterLabel"

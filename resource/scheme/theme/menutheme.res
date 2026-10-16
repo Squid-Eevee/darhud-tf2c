@@ -5,10 +5,11 @@ Scheme
 		//Dialog Backgrounds
 		"MainMenuBackground"	"0 0 0 235"
 		"Header"				"46 42 41 255"
+		"Tooltip"			"20 20 20 255"
+		
 		"HeaderLabel"			"235 226 202 255"
 		"WelcomeLabel"		"255 255 255 255"
 		"NicknameLabel"		"235 226 202 255"
-		"Tooltip"			"20 20 20 255"
 		
 		"ChallengeBG"			"30 28 26 255"
 		
@@ -21,5 +22,4 @@ Scheme
 		"DialogBackground"	"31 31 31 255"
 		"OptionsBackground"	"31 31 31 255"
 	}
-
 }

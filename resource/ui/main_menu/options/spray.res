@@ -64,7 +64,7 @@
 		"FgColor_override"		"MainText"
 		"font"					"SubmenuTextEntry"
 		"dropshadow"			"1"
-		"dropshadowoffset"		"2"
+		"dropshadow_offset"		"2"
 		
 		"BgColor_override"		"ListingCategorySelected"
 

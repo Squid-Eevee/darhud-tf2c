@@ -74,7 +74,7 @@
 		"tall"			"30"
 		"fgcolor"		"GeneralLabel"
 		"dropshadow"		"1"
-		"dropshadowoffset"	"3"
+		"dropshadow_offset"	"3"
 	}
 	
 	"CollectionContainer"
@@ -101,7 +101,7 @@
 			"tall"			"14"
 			"fgcolor"		"GeneralLabel"
 			"dropshadow"		"1"
-			"dropshadowoffset"	"3"
+			"dropshadow_offset"	"3"
 		}
 	
 		"CollectedLabel"
@@ -117,7 +117,7 @@
 			"tall"			"14"
 			"fgcolor"		"GeneralLabel"
 			"dropshadow"		"1"
-			"dropshadowoffset"	"2"
+			"dropshadow_offset"	"2"
 		}
 		
 		"CollectedCount"
@@ -133,7 +133,7 @@
 			"tall"			"14"
 			"fgcolor"		"CreditsGreen"
 			"dropshadow"		"1"
-			"dropshadowoffset"	"2"
+			"dropshadow_offset"	"2"
 		}
 		
 		"MissedLabel"
@@ -149,7 +149,7 @@
 			"tall"			"14"
 			"fgcolor"		"GeneralLabel"
 			"dropshadow"		"1"
-			"dropshadowoffset"	"2"
+			"dropshadow_offset"	"2"
 		}
 		
 		"MissedCount"
@@ -165,7 +165,7 @@
 			"tall"			"14"
 			"fgcolor"		"RedSolid"
 			"dropshadow"		"1"
-			"dropshadowoffset"	"2"
+			"dropshadow_offset"	"2"
 		}
 		
 		"BonusLabel"
@@ -181,7 +181,7 @@
 			"tall"			"14"
 			"fgcolor"		"GeneralLabel"
 			"dropshadow"		"1"
-			"dropshadowoffset"	"2"
+			"dropshadow_offset"	"2"
 		}
 		
 		"BonusCount"
@@ -197,7 +197,7 @@
 			"tall"			"14"
 			"fgcolor"		"CreditsGreen"
 			"dropshadow"		"1"
-			"dropshadowoffset"	"2"
+			"dropshadow_offset"	"2"
 		}
 	}
 	
@@ -225,7 +225,7 @@
 			"tall"			"14"
 			"fgcolor"		"GeneralLabel"
 			"dropshadow"		"1"
-			"dropshadowoffset"	"3"
+			"dropshadow_offset"	"3"
 		}
 	
 		"YouLabel"
@@ -240,7 +240,7 @@
 			"wide"			"35"
 			"fgcolor"		"GeneralLabel"
 			"dropshadow"		"1"
-			"dropshadowoffset"	"2"
+			"dropshadow_offset"	"2"
 		}
 		
 		"TeamLabel"
@@ -255,7 +255,7 @@
 			"wide"			"35"
 			"fgcolor"		"GeneralLabel"
 			"dropshadow"		"1"
-			"dropshadowoffset"	"2"
+			"dropshadow_offset"	"2"
 		}
 		
 		"BuybackLabel"
@@ -271,7 +271,7 @@
 			"tall"			"14"
 			"fgcolor"		"GeneralLabel"
 			"dropshadow"		"1"
-			"dropshadowoffset"	"2"
+			"dropshadow_offset"	"2"
 		}
 		
 		"BuybackCountYou"
@@ -287,7 +287,7 @@
 			"tall"			"14"
 			"fgcolor"		"GeneralLabel"
 			"dropshadow"		"1"
-			"dropshadowoffset"	"2"
+			"dropshadow_offset"	"2"
 		}
 		
 		"BuybackCountTeam"
@@ -303,7 +303,7 @@
 			"tall"			"14"
 			"fgcolor"		"GeneralLabel"
 			"dropshadow"		"1"
-			"dropshadowoffset"	"2"
+			"dropshadow_offset"	"2"
 		}
 		
 		"BottleLabel"
@@ -319,7 +319,7 @@
 			"tall"			"14"
 			"fgcolor"		"GeneralLabel"
 			"dropshadow"		"1"
-			"dropshadowoffset"	"2"
+			"dropshadow_offset"	"2"
 		}
 		
 		"BottleCountYou"
@@ -335,7 +335,7 @@
 			"tall"			"14"
 			"fgcolor"		"GeneralLabel"
 			"dropshadow"		"1"
-			"dropshadowoffset"	"2"
+			"dropshadow_offset"	"2"
 		}
 		
 		"BottleCountTeam"
@@ -351,7 +351,7 @@
 			"tall"			"14"
 			"fgcolor"		"GeneralLabel"
 			"dropshadow"		"1"
-			"dropshadowoffset"	"2"
+			"dropshadow_offset"	"2"
 		}
 		
 		"InactiveLabel"
@@ -367,7 +367,7 @@
 			"tall"			"16"
 			"fgcolor"		"GeneralLabel"
 			"dropshadow"		"1"
-			"dropshadowoffset"	"2"
+			"dropshadow_offset"	"2"
 		}
 		
 		"InactiveCountYou"
@@ -383,7 +383,7 @@
 			"tall"			"14"
 			"fgcolor"		"RedSolid"
 			"dropshadow"		"1"
-			"dropshadowoffset"	"2"
+			"dropshadow_offset"	"2"
 		}
 		
 		"InactiveCountTeam"
@@ -400,7 +400,7 @@
 
 			"fgcolor"		"RedSolid"
 			"dropshadow"		"1"
-			"dropshadowoffset"	"2"
+			"dropshadow_offset"	"2"
 		}
 	}
 	
@@ -428,7 +428,7 @@
 			"tall"			"16"
 			"fgcolor"		"Gray"
 			"dropshadow"		"1"
-			"dropshadowoffset"	"2"
+			"dropshadow_offset"	"2"
 		}
 
 		"CptCntnBody"
@@ -490,7 +490,7 @@
 			"enabled"		"1"
 			"scaleimage"		"1"
 			"dropshadow"		"1"
-			"dropshadowoffset"	"2"
+			"dropshadow_offset"	"2"
 		}
 		
 		"Hint1"
@@ -508,7 +508,7 @@
 			"fgcolor"		"Gray"
 			"wrap"			"1"
 			"dropshadow"		"1"
-			"dropshadowoffset"	"2"
+			"dropshadow_offset"	"2"
 		}
 		
 		"Hintimage2"
@@ -525,7 +525,7 @@
 			"enabled"		"1"
 			"scaleimage"		"1"
 			"dropshadow"		"1"
-			"dropshadowoffset"	"2"
+			"dropshadow_offset"	"2"
 		}
 		
 		"Hint2"
@@ -543,7 +543,7 @@
 			"fgcolor"		"Gray"
 			"wrap"			"1"
 			"dropshadow"		"1"
-			"dropshadowoffset"	"2"
+			"dropshadow_offset"	"2"
 		}
 	}
 	
@@ -567,7 +567,7 @@
 		
 		"roundedcorners"	"0"
 		"dropshadow"		"1"
-		"dropshadowoffset"	"3"
+		"dropshadow_offset"	"3"
 		
 		"Command"		"vote_restart"
 	}
@@ -592,7 +592,7 @@
 		
 		"roundedcorners"	"0"
 		"dropshadow"		"1"
-		"dropshadowoffset"	"3"
+		"dropshadow_offset"	"3"
 		
 		"Command"		"continue"
 	}

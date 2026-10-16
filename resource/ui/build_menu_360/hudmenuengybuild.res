@@ -363,7 +363,7 @@
 		"textinsetx"		"2"
 		"fgcolor"		"TanLight"
 		"dropshadow"		"1"
-		"dropshadowoffset"	"2"
+		"dropshadow_offset"	"2"
 	}
 	
 	"BuildHintLabel_Dim"
@@ -386,7 +386,7 @@
 		"textinsetx"		"2"
 		"fgcolor"		"TanDark"
 		"dropshadow"		"1"
-		"dropshadowoffset"	"2"
+		"dropshadow_offset"	"2"
 	}
 	
 	"DestroyHintIcon"
@@ -431,7 +431,7 @@
 		"textinsetx"		"2"
 		"fgcolor"		"TanLight"
 		"dropshadow"		"1"
-		"dropshadowoffset"	"2"
+		"dropshadow_offset"	"2"
 	}
 	
 	"DestroyHintLabel_Dim"
@@ -454,7 +454,7 @@
 		"textinsetx"		"2"
 		"fgcolor"		"TanDark"
 		"dropshadow"		"1"
-		"dropshadowoffset"	"2"
+		"dropshadow_offset"	"2"
 	}
 	
 	"CancelHintIcon"
@@ -496,7 +496,7 @@
 		"labelText"		"#Cancel"
 		"textAlignment"	"west"
 		"dropshadow"		"1"
-		"dropshadowoffset"	"2"
+		"dropshadow_offset"	"2"
 	}
 	"ButtonLegendBG"
 	{

@@ -2,26 +2,30 @@
 {
 	"HudWeaponAmmoBG"
 	{
-		"controlname"	"CTFImagePanel"
-		"fieldname"	"HudWeaponAmmoBG"
+		"controlname"			"CTFImagePanel"
+		"fieldname"			"HudWeaponAmmoBG"
 		
-		"xpos"		"16"
-		"ypos"		"5"
-		"zpos"		"1"
+		"xpos"				"16"
+		"ypos"				"5"
+		"zpos"				"1"
 		
-		"wide"		"72"
-		"tall"		"68"
+		"wide"				"72"
+		"tall"				"68"
 		
-		"image"		"..\darhud\ammo\ammo_neutral"
-		"teambg_0"	"..\darhud\ammo\ammo_neutral"
-		"teambg_1"	"..\darhud\ammo\ammo_spectator"
-		"teambg_2"	"..\darhud\ammo\ammo_red"
-		"teambg_3"	"..\darhud\ammo\ammo_blue"
-		"teambg_4"	"..\darhud\ammo\ammo_green"
-		"teambg_5"	"..\darhud\ammo\ammo_yellow"
-		"scaleimage"	"1"
+		"image"				"..\darhud\ammo\ammo_neutral"
+		"teambg_0"			"..\darhud\ammo\ammo_neutral"
+		"teambg_1"			"..\darhud\ammo\ammo_spectator"
+		"teambg_2"			"..\darhud\ammo\ammo_red"
+		"teambg_3"			"..\darhud\ammo\ammo_blue"
+		"teambg_4"			"..\darhud\ammo\ammo_green"
+		"teambg_5"			"..\darhud\ammo\ammo_yellow"
+		"scaleimage"			"1"
 		
-		"visible"	"1"
+		"dropshadow"			"1"
+		"dropshadow_offset"	"4"
+		"dropshadow_color"	"HudShadow"
+		
+		"visible"			"1"
 	}
 	
 	"HudWeaponAmmoBGMedicCharge"
@@ -44,6 +48,9 @@
 		"teambg_4"		"..\darhud\ammo\ammo_green"
 		"teambg_5"		"..\darhud\ammo\ammo_yellow"
 		"scaleimage"		"1"
+		
+		"dropshadow"		"1"
+		"dropshadow_offset"	"2"
 		
 		"visible"		"0"
 	}
@@ -111,19 +118,22 @@
 	
 	"WeaponBucket"
 	{
-		"controlname"	"CBitmapImagePanel"
-		"fieldname"	"WeaponBucket"
+		"controlname"			"CBitmapImagePanel"
+		"fieldname"			"WeaponBucket"
 		
-		"xpos"		"16"
-		"ypos"		"12"
-		"zpos"		"2"
+		"xpos"				"16"
+		"ypos"				"12"
+		"zpos"				"2"
 		
-		"wide"		"72"
-		"tall"		"72"
+		"wide"				"72"
+		"tall"				"72"
 		
-		"scaleimage"	"1"
+		"scaleimage"			"1"
 		
-		"visible"	"0"
+		"dropshadow"			"1"
+		"dropshadow_offset"	"2"
+		
+		"visible"			"0"
 	}
 	"AmmoInClip"
 	{
@@ -144,7 +154,7 @@
 		"fgcolor"			"AmmoNormal"
 		
 		"dropshadow"			"1"
-		"dropshadowoffset"	"4"
+		"dropshadow_offset"	"4"
 		
 		"visible"			"1"
 		"enabled"			"1"
@@ -170,7 +180,7 @@
 		"fgcolor"			"AmmoReserve"
 		
 		"dropshadow"			"1"
-		"dropshadowoffset"	"3"
+		"dropshadow_offset"	"3"
 		
 		"visible"			"1"
 		"enabled"			"1"
@@ -194,7 +204,7 @@
 		"fgcolor"			"AmmoNormal"
 		
 		"dropshadow"			"1"
-		"dropshadowoffset"	"4"
+		"dropshadow_offset"	"4"
 		
 		"visible"			"0"
 		"enabled"			"1"

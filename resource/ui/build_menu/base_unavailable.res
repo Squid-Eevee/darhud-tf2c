@@ -18,7 +18,7 @@
 		"labelText"		"#TF_Object_Sentry"
 		"textAlignment"	"center"
 		"dropshadow"		"1"
-		"dropshadowoffset"	"1"
+		"dropshadow_offset"	"1"
 	}
 	
 	"ItemBackground"	
@@ -77,7 +77,7 @@
 		"textAlignment"	"center"
 		"centerwrap"		"1"
 		"dropshadow"		"1"
-		"dropshadowoffset"	"2"
+		"dropshadow_offset"	"2"
 	}
 	
 	"MetalIcon"	
@@ -120,7 +120,7 @@
 		"labelText"		"%metal%"
 		"textAlignment"	"Left"
 		"dropshadow"		"1"
-		"dropshadowoffset"	"1"
+		"dropshadow_offset"	"1"
 	}
 	
 	"ModeLabel"

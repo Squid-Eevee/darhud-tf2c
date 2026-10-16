@@ -58,7 +58,7 @@
 			"labelText"			"#Msg_PasstimeInPassRange"
 			"fgcolor_override"	"224 217 197 180"
 			"dropshadow"			"1"
-			"dropshadowoffset"	"3"
+			"dropshadow_offset"	"3"
 		}
 
 		"TextLockedOn"
@@ -78,7 +78,7 @@
 			"labelText"			"#Msg_PasstimeLockedOn"
 			"fgcolor_override"	"224 217 197 180"
 			"dropshadow"			"1"
-			"dropshadowoffset"	"3"
+			"dropshadow_offset"	"3"
 		}
 
 		"TextPassIncoming"
@@ -98,7 +98,7 @@
 			"labelText"			"#Msg_PasstimePassIncoming"
 			"fgcolor_override"	"224 217 197 180"
 			"dropshadow"			"1"
-			"dropshadowoffset"	"3"
+			"dropshadow_offset"	"3"
 		}
 
 		"TextPlayerName"
@@ -117,7 +117,7 @@
 			"labelText"			""
 			"fgcolor_override"	"224 217 197 180"
 			"dropshadow"			"1"
-			"dropshadowoffset"	"2"
+			"dropshadow_offset"	"2"
 		}	
 	}
 
@@ -138,7 +138,7 @@
 		"pin_corner_to_sibling"	"0"
 		"pin_to_sibling_corner"	"1"
 		"dropshadow"				"1"
-		"dropshadowoffset"		"3"
+		"dropshadow_offset"		"3"
 	}
 
 	"SpeechIndicator"

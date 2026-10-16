@@ -620,7 +620,7 @@
 		"labelText"		"#Hud_Menu_Spy_Toggle"
 		"textAlignment"	"east"
 		"dropshadow"		"1"
-		"dropshadowoffset"	"2"
+		"dropshadow_offset"	"2"
 	}
 	
 	"DisguiseHintIcon"
@@ -657,7 +657,7 @@
 		"labelText"		"#Hud_Menu_Spy_Select_Disguise"
 		"textAlignment"	"east"
 		"dropshadow"		"1"
-		"dropshadowoffset"	"2"
+		"dropshadow_offset"	"2"
 	}
 		
 	"CancelHintIcon"
@@ -720,6 +720,6 @@
 		"labelText"		"#Hud_Menu_Disguise_GlobalTeam"
 		"textAlignment"	"center"
 		"dropshadow"		"1"
-		"dropshadowoffset"	"2"
+		"dropshadow_offset"	"2"
 	}
 }

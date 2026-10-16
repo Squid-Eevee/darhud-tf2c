@@ -59,7 +59,7 @@
 		"drawcolor"			"GeneralLabel"
 		
 		"dropshadow"			"1"
-		"dropshadowoffset"	"3"
+		"dropshadow_offset"	"3"
 		
 		"visible"			"1"
 	}
@@ -87,7 +87,7 @@
 		"fgcolor"				"GeneralLabel"
 		
 		"dropshadow"				"1"
-		"dropshadowoffset"		"3"
+		"dropshadow_offset"		"3"
 		
 		"visible"				"1"
 		"enabled"				"1"
@@ -111,7 +111,7 @@
 		"labelText"		"#Hud_Menu_Build_Cancel"
 		"textAlignment"	"east"
 		"dropshadow"		"1"
-		"dropshadowoffset"	"2"
+		"dropshadow_offset"	"2"
 	}
 	
 	"available_target_1"

@@ -127,7 +127,7 @@
 				"labelText"		"%playername%"
 				"textAlignment"	"center"
 				"dropshadow"		"1"
-				"dropshadowoffset"	"1"
+				"dropshadow_offset"	"1"
 				"bgcolor_override"	"HudShadowSolid"
 
 				if_competitive
@@ -420,7 +420,7 @@
 		"textAlignment"		"center"
 		"proportionaltoparent"	"1"
 		"dropshadow"		"1"
-		"dropshadowoffset"	"2"
+		"dropshadow_offset"	"2"
 
 		if_mvm
 		{
@@ -500,7 +500,7 @@
 		"textinsetx"		"10"
 		"proportionaltoparent"	"1"
 		"dropshadow"		"1"
-		"dropshadowoffset"	"2"
+		"dropshadow_offset"	"2"
 
 		if_mvm
 		{
@@ -542,7 +542,7 @@
 		"textinsetx"		"10"
 		"proportionaltoparent"	"1"
 		"dropshadow"		"1"
-		"dropshadowoffset"	"2"
+		"dropshadow_offset"	"2"
 
 		if_mvm
 		{
@@ -629,7 +629,7 @@
 		"textAlignment"		"east"
 		"textinsetx"		"10"
 		"dropshadow"		"1"
-		"dropshadowoffset"	"2"
+		"dropshadow_offset"	"2"
 
 		if_mvm
 		{
@@ -673,7 +673,7 @@
 		"textAlignment"		"west"
 		"textinsetx"		"10"
 		"dropshadow"		"1"
-		"dropshadowoffset"	"2"
+		"dropshadow_offset"	"2"
 
 		if_mvm
 		{
@@ -760,7 +760,7 @@
 		"textAlignment"		"west"
 		"proportionaltoparent"	"1"
 		"dropshadow"		"1"
-		"dropshadowoffset"	"2"
+		"dropshadow_offset"	"2"
 
 		if_mvm
 		{
@@ -804,7 +804,7 @@
 		"textAlignment"		"east"
 		"proportionaltoparent"	"1"
 		"dropshadow"		"1"
-		"dropshadowoffset"	"2"
+		"dropshadow_offset"	"2"
 
 		if_mvm
 		{
@@ -889,7 +889,7 @@
 		"textAlignment"		"east"
 		"textinsetx"		"10"
 		"dropshadow"		"1"
-		"dropshadowoffset"	"2"
+		"dropshadow_offset"	"2"
 
 		if_mvm
 		{
@@ -933,7 +933,7 @@
 		"textAlignment"		"west"
 		"textinsetx"		"10"
 		"dropshadow"		"1"
-		"dropshadowoffset"	"2"
+		"dropshadow_offset"	"2"
 
 		if_mvm
 		{
@@ -978,7 +978,7 @@
 		"textAlignment"		"north-west"
 		"textinsetx"		"10"
 		"dropshadow"		"1"
-		"dropshadowoffset"	"2"
+		"dropshadow_offset"	"2"
 
 		if_mvm
 		{
@@ -1033,7 +1033,7 @@
 		"textAlignment"		"center"
 		"proportionaltoparent"	"1"
 		"dropshadow"		"1"
-		"dropshadowoffset"	"2"
+		"dropshadow_offset"	"2"
 
 		if_mvm
 		{
@@ -1132,7 +1132,7 @@
 		"textAlignment"			"center"
 		"proportionaltoparent"		"1"
 		"dropshadow"				"1"
-		"dropshadowoffset"		"3"
+		"dropshadow_offset"		"3"
 
 		if_readymode
 		{

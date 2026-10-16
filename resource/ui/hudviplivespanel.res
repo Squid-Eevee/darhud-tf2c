@@ -44,7 +44,7 @@
 		"textAlignment"	"center"
 		"fgcolor"		"ObjectiveLabel"
 		"dropshadow"		"1"
-		"dropshadowoffset"	"2"
+		"dropshadow_offset"	"2"
 	}	
 	"CountShadow"
 	{
@@ -65,7 +65,7 @@
 		"image"			"vip_lives_full"
 		"scaleimage"	"1"
 		"dropshadow"		"1"
-		"dropshadowoffset"	"2"
+		"dropshadow_offset"	"2"
 	}
 	
 	// "LifeIconWarn"
@@ -112,7 +112,7 @@
 		"textAlignment"	"center"
 		"fgcolor"		"ObjectiveLabel"
 		"dropshadow"		"1"
-		"dropshadowoffset"	"2"
+		"dropshadow_offset"	"2"
 	}
 	"CountIconShadow"
 	{

@@ -76,7 +76,7 @@
 			"scaleimage"			"1"
 			
 			"dropshadow"			"1"
-			"dropshadowoffset"	"2"
+			"dropshadow_offset"	"2"
 			
 			"visible"			"0"
 		}
@@ -101,7 +101,7 @@
 			"fgcolor_override"	"GeneralLabel"
 			
 			"dropshadow"			"1"
-			"dropshadowoffset"	"2"
+			"dropshadow_offset"	"2"
 			
 			"visible"			"1"
 			"enabled"			"1"
@@ -162,7 +162,7 @@
 			"fgcolor_override"	"GeneralLabel"
 			
 			"dropshadow"			"1"
-			"dropshadowoffset"	"2"
+			"dropshadow_offset"	"2"
 			
 			"visible"			"1"
 			"enabled"			"1"
@@ -254,7 +254,7 @@
 				"drawcolor"			"170 170 170 255"
 				
 				"dropshadow"			"1"
-				"dropshadowoffset"	"3"
+				"dropshadow_offset"	"3"
 				
 				"visible"			"1"
 			}
@@ -278,7 +278,7 @@
 				"fgcolor_override"	"GeneralLabel"
 				
 				"dropshadow"			"1"
-				"dropshadowoffset"	"3"
+				"dropshadow_offset"	"3"
 				
 				"visible"			"1"
 				"enabled"			"1"
@@ -299,7 +299,7 @@
 				"drawcolor"			"255 0 0 255"
 				
 				"dropshadow"			"1"
-				"dropshadowoffset"	"2"
+				"dropshadow_offset"	"2"
 				
 				"visible"			"1"
 			}
@@ -426,7 +426,7 @@
 			"scaleimage"			"1"
 			
 			"dropshadow"			"1"
-			"dropshadowoffset"	"2"
+			"dropshadow_offset"	"2"
 			
 			"visible"			"1"
 		}
@@ -449,7 +449,7 @@
 			"fgcolor_override"	"GeneralLabel"
 			
 			"dropshadow"			"1"
-			"dropshadowoffset"	"2"
+			"dropshadow_offset"	"2"
 			
 			"visible"			"1"
 			"enabled"			"1"

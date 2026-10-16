@@ -37,7 +37,7 @@
 		"textAlignment_minmode"		"west"
 		"labelText"					"%wave_count%"
 		"dropshadow"		"1"
-		"dropshadowoffset"	"2"
+		"dropshadow_offset"	"2"
 	}
 	
 	"SeparatorBar"
@@ -77,7 +77,7 @@
 		"textAlignment"				"west"
 		"labelText"					"#TF_MVM_Support"
 		"dropshadow"		"1"
-		"dropshadowoffset"	"2"
+		"dropshadow_offset"	"2"
 		
 		if_verbose
 		{

@@ -108,7 +108,7 @@
 			"image"			"../hud/hud_mvm_bomb_upgrade_1_disabled"
 			"scaleimage"	"1"
 			"dropshadow"	"1"
-			"dropshadowoffset"	"1"
+			"dropshadow_offset"	"1"
 			"dropshadowresize"	"0"
 		}
 		
@@ -127,7 +127,7 @@
 			"image"			"../hud/hud_mvm_bomb_upgrade_2_disabled"
 			"scaleimage"	"1"
 			"dropshadow"	"1"
-			"dropshadowoffset"	"1"
+			"dropshadow_offset"	"1"
 			"dropshadowresize"	"0"
 		}
 		
@@ -146,7 +146,7 @@
 			"image"			"../hud/hud_mvm_bomb_upgrade_3_disabled"
 			"scaleimage"	"1"
 			"dropshadow"	"1"
-			"dropshadowoffset"	"1"
+			"dropshadow_offset"	"1"
 			"dropshadowresize"	"0"
 		}
 
@@ -165,7 +165,7 @@
 			"image"			"../darhud/mvm/hud_mvm_bomb_upgrade_boss"
 			"scaleimage"	"1"
 			"dropshadow"	"1"
-			"dropshadowoffset"	"2"
+			"dropshadow_offset"	"2"
 		}
 	}
 	
@@ -268,7 +268,7 @@
 			"enabled"		"1"
 			"fgcolor"		"GeneralLabel"
 			"dropshadow"		"1"
-			"dropshadowoffset"	"2"
+			"dropshadow_offset"	"2"
 		}
 	}
 }

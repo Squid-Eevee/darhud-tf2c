@@ -65,15 +65,16 @@
 		"ypos"				"0"
 		"zpos"				"1"
 		
-		"wide"				"35"
-		"tall"				"35"
+		"wide"				"34"
+		"tall"				"34"
 		
 		"image"				"resource/svgs/ingame/armor_white.svg"
 		"scaleimage"			"1"
 		"drawcolor"			"TanDarker"
 		
-		"dropshadow"	"1"
-		"dropshadowoffset"	"2"
+		"dropshadow"			"1"
+		"dropshadow_offset"	"2"
+		"dropshadow_color"	"HudShadow"
 		
 		"visible"			"1"
 	}
@@ -96,7 +97,7 @@
 		"fgcolor"			"ArmorNormal"
 		
 		"dropshadow"			"1"
-		"dropshadowoffset"	"3"
+		"dropshadow_offset"	"3"
 		
 		"visible"			"1"
 		"enabled"			"1"
@@ -121,7 +122,7 @@
 		"fgcolor"			"HealthNormal"
 		
 		"dropshadow"			"1"
-		"dropshadowoffset"	"2"
+		"dropshadow_offset"	"2"
 		
 		"visible"			"1"
 		"enabled"			"1"

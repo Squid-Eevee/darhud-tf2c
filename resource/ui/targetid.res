@@ -73,6 +73,10 @@
 		"teambg_5"			"..\darhud\square\square_yellow"
 		"scaleimage"			"1"
 		
+		"dropshadow"			"1"
+		"dropshadow_offsety"	"4"
+		"dropshadow_color"	"HudShadow"
+		
 		"visible"			"1"
 	}
 	"TargetIDBGShadow"
@@ -148,6 +152,9 @@
 		"image"			""
 		"scaleimage"		"1"
 		
+		"dropshadow"		"1"
+		"dropshadow_offset"	"2"
+		
 		"visible"		"1"
 	}
 	
@@ -167,7 +174,7 @@
 		"scaleimage"			"1"
 		
 		"dropshadow"			"1"
-		"dropshadowoffset"	"2"
+		"dropshadow_offset"	"2"
 		
 		"visible"			"0"
 	}
@@ -191,7 +198,7 @@
 		"fgcolor_override" 	"GeneralLabel"
 		
 		"dropshadow"			"1"
-		"dropshadowoffset"	"2"
+		"dropshadow_offset"	"2"
 		
 		"visible"			"1"
 		"enabled"			"1"
@@ -216,7 +223,7 @@
 		"fgcolor_override"	"GeneralLabel"
 		
 		"dropshadow"			"1"
-		"dropshadowoffset"	"1"
+		"dropshadow_offset"	"1"
 		
 		"visible"			"1"
 		"enabled"			"1"
@@ -340,7 +347,7 @@
 			"allcaps"			"1"
 			
 			"dropshadow"			"1"
-			"dropshadowoffset"	"1"
+			"dropshadow_offset"	"1"
 			
 			"visible"			"1"
 			"enabled"			"1"

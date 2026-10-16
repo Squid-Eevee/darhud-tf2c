@@ -53,7 +53,7 @@
 		"font"			"HudFontSmallBold"
 		"fgcolor"		"HealthNormal"
 		"dropshadow"		"1"
-		"dropshadowoffset"	"2"
+		"dropshadow_offset"	"2"
 	}
 
 	"PlayerHealthValueShadow"

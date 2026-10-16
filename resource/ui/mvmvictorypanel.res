@@ -56,7 +56,7 @@
 				"tall"			"24"
 				"fgcolor"		"Orange"
 				"dropshadow"		"1"
-				"dropshadowoffset"	"3"
+				"dropshadow_offset"	"3"
 			}
 		}
 	
@@ -74,7 +74,7 @@
 			"tall"			"40"
 			"fgcolor"		"GeneralLabel"
 			"dropshadow"		"1"
-			"dropshadowoffset"	"3"
+			"dropshadow_offset"	"3"
 		}
 		
 		"CreditContainer"
@@ -126,7 +126,7 @@
 				"tall"			"40"
 				"fgcolor"		"GeneralLabel"
 				"dropshadow"		"1"
-				"dropshadowoffset"	"2"
+				"dropshadow_offset"	"2"
 			}
 			
 			"RatingTextBackground"
@@ -170,7 +170,7 @@
 				"tall"			"50"
 				"fgcolor"		"White"
 				"dropshadow"		"1"
-				"dropshadowoffset"	"3"
+				"dropshadow_offset"	"3"
 			}
 		}
 	}
@@ -199,7 +199,7 @@
 		"image_drawcolor"	"235 226 202 255"
 		"Command"		"done"
 		"dropshadow"		"1"
-		"dropshadowoffset"	"3"
+		"dropshadow_offset"	"3"
 
 		"pin_to_sibling"              "StatsContainer"
 		"pin_corner_to_sibling"        "pin_center_top"          

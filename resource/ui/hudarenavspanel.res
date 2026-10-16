@@ -85,7 +85,7 @@
 			"fgcolor"				"GeneralLabel"
 			
 			"dropshadow"				"1"
-			"dropshadowoffset"		"3"
+			"dropshadow_offset"		"3"
 			
 			"visible"				"1"
 			"enabled"				"1"
@@ -147,7 +147,7 @@
 		"fgcolor"			"GeneralLabel"
 		
 		"dropshadow"			"1"
-		"dropshadowoffset"	"3"
+		"dropshadow_offset"	"3"
 		
 		"visible"			"1"
 		"enabled"			"1"
@@ -236,7 +236,7 @@
 			"fgcolor"			"GeneralLabel"
 			
 			"dropshadow"			"1"
-			"dropshadowoffset"	"3"
+			"dropshadow_offset"	"3"
 			
 			"visible"			"1"
 			"enabled"			"1"

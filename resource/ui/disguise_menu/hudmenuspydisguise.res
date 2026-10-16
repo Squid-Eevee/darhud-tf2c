@@ -33,7 +33,7 @@
 		"labelText"		"#Hud_Menu_Spy_Minus_Toggle"
 		"textAlignment"	"west"
 		"dropshadow"		"1"
-		"dropshadowoffset"	"2"
+		"dropshadow_offset"	"2"
 	}
 	
 	"CancelLabel"
@@ -52,7 +52,7 @@
 		"labelText"		"#Hud_Menu_Build_Cancel"
 		"textAlignment"	"east"
 		"dropshadow"		"1"
-		"dropshadowoffset"	"2"
+		"dropshadow_offset"	"2"
 	}
 	
 	"class_item_red_1"
@@ -742,6 +742,6 @@
 		"labelText"		"#Hud_Menu_Disguise_GlobalTeam"
 		"textAlignment"	"center"
 		"dropshadow"		"1"
-		"dropshadowoffset"	"2"
+		"dropshadow_offset"	"2"
 	}
 }

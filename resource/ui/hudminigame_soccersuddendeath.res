@@ -45,7 +45,7 @@
 		"drawcolor"			"ObjectiveIcon"
 		
 		"dropshadow"			"1"
-		"dropshadowoffset"	"2"
+		"dropshadow_offset"	"2"
 		"dropshadowresize"	"0"
 		
 		"visible"			"1"
@@ -69,7 +69,7 @@
 		"drawcolor"			"ObjectiveIcon"
 		
 		"dropshadow"			"1"
-		"dropshadowoffset"	"2"
+		"dropshadow_offset"	"2"
 		"dropshadowresize"	"0"
 		
 		"visible"			"1"

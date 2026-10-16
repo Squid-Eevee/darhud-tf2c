@@ -4,10 +4,10 @@
 {
 	"HudItemEffectMeter"
 	{
-		"xpos"			"r143"
-		"ypos"			"r46"
+		// "xpos"			"r143"
+		// "ypos"			"r46"
 		
-		"xpos_minmode"	"c199"
+		// "xpos_minmode"	"c199"
 	}
 
 	"EmptyIcon"

@@ -29,15 +29,16 @@
 		"ypos"					"2"
 		"zpos"					"0"
 		
-		"wide"					"50"
-		"tall"					"50"
+		"wide"					"48"
+		"tall"					"48"
 		
 		"image"					"resource\svgs\ingame\health_white.svg"
 		"scaleimage"				"1"
 		"drawcolor"				"TanDarker"
 		
 		"dropshadow"				"1"
-		"dropshadowoffset"		"3"
+		"dropshadow_offset"		"3"
+		"dropshadow_color"		"HudShadow"
 		
 		"visible"				"1"
 	}
@@ -122,7 +123,7 @@
 		"fgcolor"				"HealthNormal"
 		
 		"dropshadow"				"1"
-		"dropshadowoffset"		"3"
+		"dropshadow_offset"		"3"
 		
 		"visible"				"1"
 		"enabled"				"1"

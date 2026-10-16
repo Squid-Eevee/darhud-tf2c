@@ -13,5 +13,7 @@ Scheme
 		
 		"ButtonMMQuitDisabled"			"65 26 19 255"
 		"ButtonMMQuitDisabledLabel"	"46 43 42 255"
+		
+		"ButtonMMQuitLabelShadow"	"0 0 0 240"
 	}
 }

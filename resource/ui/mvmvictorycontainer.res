@@ -69,7 +69,7 @@
 			"fgcolor"		"GeneralLabel"
 			"visible"		"1"
 			"dropshadow"		"1"
-			"dropshadowoffset"	"4"
+			"dropshadow_offset"	"4"
 		}
 	}
 	
@@ -115,6 +115,6 @@
 		"sound_released"    "UI/buttonclickrelease.wav"
 		"roundedcorners"	"0"
 		"dropshadow"		"1"
-		"dropshadowoffset"	"3"
+		"dropshadow_offset"	"3"
 	}
 }

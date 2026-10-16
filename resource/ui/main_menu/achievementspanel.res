@@ -396,7 +396,7 @@
 					"fgcolor_override"	"GeneralLabel"
 					"auto_wide_tocontents" "1"
 					"dropshadow"			"1"
-					"dropshadowoffset"	"2"
+					"dropshadow_offset"	"2"
 				}
 			}
 		}

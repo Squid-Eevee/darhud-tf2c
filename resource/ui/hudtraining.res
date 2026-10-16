@@ -33,7 +33,7 @@
 		"font"			"HudFontSmallestBold"
 		"textAlignment"	"North"
 		"dropshadow"		"1"
-		"dropshadowoffset"	"2"
+		"dropshadow_offset"	"2"
 	}
 	"GoalLabelShadow"
 	{	
@@ -77,7 +77,7 @@
 		"textAlignment"		"North"
 		"font"			"WinPanelDetailsFont"
 		"dropshadow"		"1"
-		"dropshadowoffset"	"1"
+		"dropshadow_offset"	"1"
 	}
 	"PressSpacebarToContinue"
 	{	
@@ -100,7 +100,7 @@
 		"textAlignment"	"North"
 		"font"			"DisguiseWeaponFont"
 		"dropshadow"		"1"
-		"dropshadowoffset"	"1"
+		"dropshadow_offset"	"1"
 	}
 	"HudTrainingMsgBG"
 	{

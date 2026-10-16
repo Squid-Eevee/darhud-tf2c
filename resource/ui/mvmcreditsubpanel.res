@@ -14,7 +14,7 @@
 		"tall"			"15"
 		"fgcolor"		"GeneralLabel"
 		"dropshadow"		"1"
-		"dropshadowoffset"	"2"
+		"dropshadow_offset"	"2"
 	}
 		
 	"TableBackground"
@@ -49,7 +49,7 @@
 		"auto_wide_tocontents"	"1"
 		"fgcolor"			"GeneralLabel"
 		"dropshadow"		"1"
-		"dropshadowoffset"	"2"
+		"dropshadow_offset"	"2"
 	}
 	
 	"CreditCollectedTextLabel"
@@ -65,7 +65,7 @@
 		"tall"			"14"
 		"fgcolor"		"GeneralLabel"
 		"dropshadow"		"1"
-		"dropshadowoffset"	"2"
+		"dropshadow_offset"	"2"
 	}
 	
 	"CreditCollectedCountLabel"
@@ -85,7 +85,7 @@
 		"tall"			"14"
 		"fgcolor"		"CreditsGreen"
 		"dropshadow"		"1"
-		"dropshadowoffset"	"2"
+		"dropshadow_offset"	"2"
 	}
 	
 	"CreditMissedTextLabel"
@@ -101,7 +101,7 @@
 		"tall"			"14"
 		"fgcolor"		"GeneralLabel"
 		"dropshadow"		"1"
-		"dropshadowoffset"	"2"
+		"dropshadow_offset"	"2"
 	}
 	
 	"CreditMissedCountLabel"
@@ -123,7 +123,7 @@
 		"tall"			"14"
 		"fgcolor"		"RedSolid"
 		"dropshadow"		"1"
-		"dropshadowoffset"	"2"
+		"dropshadow_offset"	"2"
 	}
 	
 	"CreditBonusTextLabel"
@@ -139,7 +139,7 @@
 		"tall"			"14"
 		"fgcolor"		"GeneralLabel"
 		"dropshadow"		"1"
-		"dropshadowoffset"	"2"
+		"dropshadow_offset"	"2"
 	}
 	"CreditBonusCountLabel"
 	{
@@ -158,6 +158,6 @@
 		"tall"			"14"
 		"fgcolor"		"CreditsGreen"
 		"dropshadow"		"1"
-		"dropshadowoffset"	"2"
+		"dropshadow_offset"	"2"
 	}
 }

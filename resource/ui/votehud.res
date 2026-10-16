@@ -104,7 +104,7 @@
 			"wrap"				"0"
 			
 			"dropshadow"			"1"
-			"dropshadowoffset"	"3"
+			"dropshadow_offset"	"3"
 			
 			"visible"			"1"
 			"enabled"			"1"
@@ -127,7 +127,7 @@
 			"roundedcorners"		"0"
 			
 			"dropshadow"						"1"
-			"dropshadowoffset"				"2"
+			"dropshadow_offset"				"2"
 			
 			"visible"			"1"
 			"enabled"			"1"
@@ -183,7 +183,7 @@
 			"roundedcorners"		"0"
 			
 			"dropshadow"						"1"
-			"dropshadowoffset"				"2"
+			"dropshadow_offset"				"2"
 			
 			"visible"			"1"
 			"enabled"			"1"
@@ -239,7 +239,7 @@
 			"textAlignment"	"west"
 			
 			"dropshadow"						"1"
-			"dropshadowoffset"				"2"
+			"dropshadow_offset"				"2"
 			
 			"visible"		"1"
 			"enabled"		"1"
@@ -268,7 +268,7 @@
 			"defaultSelectionBG2Color_override"	"255 0 255 255"
 			
 			"dropshadow"						"1"
-			"dropshadowoffset"				"2"
+			"dropshadow_offset"				"2"
 			
 			"textHidden"						"0"
 			"editable"						"0"
@@ -302,7 +302,7 @@
 			"Default"			"0"
 			
 			"dropshadow"			"1"
-			"dropshadowoffset"	"3"
+			"dropshadow_offset"	"3"
 			
 			"visible"			"1"
 			"enabled"			"0"
@@ -328,7 +328,7 @@
 			"Default"			"0"
 			
 			"dropshadow"			"1"
-			"dropshadowoffset"	"3"
+			"dropshadow_offset"	"3"
 			
 			"visible"			"1"
 			"enabled"			"1"
@@ -451,7 +451,7 @@
 			"fgcolor_override"	"HeaderLabel"
 			
 			"dropshadow"			"1"
-			"dropshadowoffset"	"3"
+			"dropshadow_offset"	"3"
 			
 			"visible"			"1"
 			"enabled"			"1"
@@ -478,7 +478,7 @@
 			"fgcolor_override"	"255 255 255 255"
 			
 			"dropshadow"			"1"
-			"dropshadowoffset"	"2"
+			"dropshadow_offset"	"2"
 			
 			"visible"			"1"
 			"enabled"			"1"
@@ -601,7 +601,7 @@
 			"fgcolor_override"	"HeaderLabel"
 			
 			"dropshadow"			"1"
-			"dropshadowoffset"	"3"
+			"dropshadow_offset"	"3"
 			
 			"visible"			"1"
 			"enabled"			"1"
@@ -628,7 +628,7 @@
 			"fgcolor_override"	"GeneralLabel"
 			
 			"dropshadow"		"1"
-			"dropshadowoffset"	"2"
+			"dropshadow_offset"	"2"
 			
 			"visible"		"1"
 			"enabled"		"1"
@@ -692,7 +692,7 @@
 			"fgcolor_override"	"255 255 255 255"
 			
 			"dropshadow"		"1"
-			"dropshadowoffset"	"2"
+			"dropshadow_offset"	"2"
 			
 			"visible"		"1"
 			"enabled"		"1"
@@ -764,7 +764,7 @@
 			"fgcolor_override"		"255 255 255 255"
 			
 			"dropshadow"				"1"
-			"dropshadowoffset"		"2"
+			"dropshadow_offset"		"2"
 			
 			"visible"				"1"
 			"enabled"				"1"
@@ -835,7 +835,7 @@
 			"fgcolor_override"		"255 255 255 255"
 			
 			"dropshadow"				"1"
-			"dropshadowoffset"		"2"
+			"dropshadow_offset"		"2"
 			
 			"visible"				"1"
 			"enabled"				"1"
@@ -906,7 +906,7 @@
 			"fgcolor_override"		"255 255 255 255"
 			
 			"dropshadow"				"1"
-			"dropshadowoffset"		"2"
+			"dropshadow_offset"		"2"
 			
 			"visible"				"1"
 			"enabled"				"1"
@@ -978,7 +978,7 @@
 			"fgcolor_override"		"255 255 255 255"
 			
 			"dropshadow"				"1"
-			"dropshadowoffset"		"2"
+			"dropshadow_offset"		"2"
 			
 			"visible"				"1"
 			"enabled"				"1"
@@ -1106,7 +1106,7 @@
 			"fgcolor_override"	"255 255 255 255"
 			
 			"dropshadow"			"1"
-			"dropshadowoffset"	"3"
+			"dropshadow_offset"	"3"
 			
 			"visible"			"1"
 			"enabled"			"1"
@@ -1128,7 +1128,7 @@
 			"fgcolor_override"	"255 255 255 255"
 			
 			"dropshadow"			"1"
-			"dropshadowoffset"	"3"
+			"dropshadow_offset"	"3"
 			
 			"visible"			"1"
 			"enabled"			"1"
@@ -1267,7 +1267,7 @@
 			"fgcolor_override"	"HeaderLabel"
 			
 			"dropshadow"			"1"
-			"dropshadowoffset"	"3"
+			"dropshadow_offset"	"3"
 			
 			"visible"			"1"
 			"enabled"			"1"
@@ -1294,7 +1294,7 @@
 			"fgcolor_override"	"255 255 255 255"
 			
 			"dropshadow"			"1"
-			"dropshadowoffset"	"2"
+			"dropshadow_offset"	"2"
 			
 			"visible"			"1"
 			"enabled"			"1"
@@ -1416,7 +1416,7 @@
 			"fgcolor_override"	"HeaderLabel"
 			
 			"dropshadow"			"1"
-			"dropshadowoffset"	"3"
+			"dropshadow_offset"	"3"
 			
 			"visible"			"1"
 			"enabled"			"1"
@@ -1443,7 +1443,7 @@
 			"fgcolor_override"	"255 255 255 255"
 			
 			"dropshadow"			"1"
-			"dropshadowoffset"	"2"
+			"dropshadow_offset"	"2"
 			
 			"visible"			"1"
 			"enabled"			"1"

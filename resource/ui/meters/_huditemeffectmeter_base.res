@@ -128,7 +128,7 @@
 		"drawcolor"			"MeterBackground"
 		
 		"dropshadow"			"0"
-		"dropshadowoffset"	"2"
+		"dropshadow_offset"	"2"
 		"dropshadowresize"	"0"
 		
 		"visible"			"1"
@@ -151,7 +151,7 @@
 		"drawcolor"			"MeterBackground"
 		
 		"dropshadow"			"0"
-		"dropshadowoffset"	"2"
+		"dropshadow_offset"	"2"
 		"dropshadowresize"	"0"
 		
 		"visible"			"1"
@@ -174,7 +174,7 @@
 		"drawcolor"			"ProgressOffWhite"
 		
 		"dropshadow"			"1"
-		"dropshadowoffset"	"2"
+		"dropshadow_offset"	"2"
 		"dropshadowresize"	"0"
 		
 		"visible"			"1"
@@ -197,7 +197,7 @@
 		"drawcolor"			"ProgressOffWhite"
 		
 		"dropshadow"			"1"
-		"dropshadowoffset"	"2"
+		"dropshadow_offset"	"2"
 		"dropshadowresize"	"0"
 		
 		"visible"			"1"

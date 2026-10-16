@@ -35,7 +35,7 @@
 		"drawcolor"			"AdditionalIcon"
 		
 		"dropshadow"			"1"
-		"dropshadowoffset"	"2"
+		"dropshadow_offset"	"2"
 		
 		"visible"			"1"
 	}
@@ -94,7 +94,7 @@
 			"fgcolor"			"GeneralLabel"
 				
 			"dropshadow"			"1"
-			"dropshadowoffset"	"1"
+			"dropshadow_offset"	"1"
 			
 			"visible"			"1"
 			"enabled"			"1"
@@ -149,7 +149,7 @@
 			"drawcolor"			"ProgressBar.FgColor"
 			
 			"dropshadow"			"1"
-			"dropshadowoffset"	"2"
+			"dropshadow_offset"	"2"
 			"dropshadowresize"	"0"
 			
 			"visible"			"0"
@@ -172,7 +172,7 @@
 			"drawcolor"			"ProgressBar.FgColor"
 			
 			"dropshadow"			"1"
-			"dropshadowoffset"	"2"
+			"dropshadow_offset"	"2"
 			"dropshadowresize"	"0"
 			
 			"visible"			"0"
@@ -195,7 +195,7 @@
 			"drawcolor"			"ProgressBar.FgColor"
 			
 			"dropshadow"			"1"
-			"dropshadowoffset"	"2"
+			"dropshadow_offset"	"2"
 			"dropshadowresize"	"0"
 			
 			"visible"			"0"
@@ -380,7 +380,7 @@
 				"fgcolor"			"AdditionalValue"
 				
 				"dropshadow"			"1"
-				"dropshadowoffset"	"2"
+				"dropshadow_offset"	"2"
 				
 				"visible"			"1"
 				"enabled"			"1"
@@ -403,7 +403,7 @@
 				"drawcolor"			"AdditionalIcon"
 				
 				"dropshadow"			"1"
-				"dropshadowoffset"	"2"
+				"dropshadow_offset"	"2"
 				"dropshadowresize"	"0"
 				
 				"visible"			"1"
@@ -481,7 +481,7 @@
 				"fgcolor"			"AdditionalValue"
 				
 				"dropshadow"			"1"
-				"dropshadowoffset"	"2"
+				"dropshadow_offset"	"2"
 				
 				"visible"			"1"
 				"enabled"			"1"
@@ -504,7 +504,7 @@
 				"drawcolor"			"AdditionalIcon"
 				
 				"dropshadow"			"1"
-				"dropshadowoffset"	"2"
+				"dropshadow_offset"	"2"
 				"dropshadowresize"	"0"
 				
 				"visible"			"1"
@@ -579,7 +579,7 @@
 				"drawcolor"			"AdditionalIcon"
 				
 				"dropshadow"			"1"
-				"dropshadowoffset"	"2"
+				"dropshadow_offset"	"2"
 				"dropshadowresize"	"0"
 				
 				"visible"			"1"
@@ -602,7 +602,7 @@
 				"fgcolor"			"AdditionalValue"
 				
 				"dropshadow"			"1"
-				"dropshadowoffset"	"2"
+				"dropshadow_offset"	"2"
 				
 				"visible"			"1"
 				"enabled"			"1"
@@ -639,7 +639,7 @@
 				"drawcolor"			"AdditionalIcon"
 				
 				"dropshadow"			"1"
-				"dropshadowoffset"	"2"
+				"dropshadow_offset"	"2"
 				
 				"visible"			"1"
 			}
@@ -660,7 +660,7 @@
 				"drawcolor"			"AdditionalIcon"
 				
 				"dropshadow"			"1"
-				"dropshadowoffset"	"2"
+				"dropshadow_offset"	"2"
 				"dropshadowresize"	"0"
 				
 				"visible"			"1"

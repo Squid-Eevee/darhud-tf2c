@@ -98,7 +98,7 @@
 			"fgcolor"		"235 226 202 255"
 			"centerwrap"	"1"
 			"dropshadow"		"1"
-			"dropshadowoffset"	"3"
+			"dropshadow_offset"	"3"
 		}
 		"attriblabel"
 		{
@@ -120,7 +120,7 @@
 			"centerwrap"	"1"
 			//the drop shadow copies the text colour for some reason
 			"dropshadow"		"0"
-			"dropshadowoffset"	"1"
+			"dropshadow_offset"	"1"
 		}
 		"equippedlabel"
 		{
@@ -140,7 +140,7 @@
 			"PaintBackgroundType"	"2"
 			"Border"				"EquippedBG"
 			"dropshadow"			"1"
-			"dropshadowoffset"	"2"
+			"dropshadow_offset"	"2"
 		}
 
 		"matcheslabel"

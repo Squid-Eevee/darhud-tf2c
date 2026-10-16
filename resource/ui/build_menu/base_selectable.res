@@ -34,7 +34,7 @@
 		"labelText_lodef"		"#TF_Empty_Slot"
 		"textAlignment"	"Left"
 		"dropshadow"		"1"
-		"dropshadowoffset"	"1"
+		"dropshadow_offset"	"1"
 		"fgcolor"		"black"
 	}
 
@@ -108,6 +108,6 @@
 		"labelText"		"%metal%"
 		"textAlignment"	"Left"
 		"dropshadow"		"1"
-		"dropshadowoffset"	"1"
+		"dropshadow_offset"	"1"
 	}
 }

@@ -49,6 +49,10 @@
 		"teambg_5"	"..\darhud\metal\metal_yellow"
 		"scaleimage"	"1"
 		
+		"dropshadow"			"1"
+		"dropshadow_offset"	"4"
+		"dropshadow_color"	"HudShadow"
+		
 		"visible"	"1"
 	}
 
@@ -110,7 +114,7 @@
         "fgcolor"			"AdditionalValue"
 		
 		"dropshadow"			"1"
-		"dropshadowoffset"	"3"
+		"dropshadow_offset"	"3"
 		
 		"visible"			"1"
 		"enabled"			"1"

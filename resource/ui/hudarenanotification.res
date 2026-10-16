@@ -91,7 +91,7 @@
 		"fgcolor_override"	"ObjectiveLabel"
 		
 		"dropshadow"			"1"
-		"dropshadowoffset"	"3"
+		"dropshadow_offset"	"3"
 		
 		"visible"			"1"
 		"enabled"			"1"
@@ -115,7 +115,7 @@
 		"fgcolor_override"	"ObjectiveLabel"
 		
 		"dropshadow"			"1"
-		"dropshadowoffset"	"2"
+		"dropshadow_offset"	"2"
 		
 		"visible"			"1"
 		"enabled"			"1"
@@ -153,7 +153,7 @@
 		"scaleimage"			"1"
 		
 		"dropshadow"			"1"
-		"dropshadowoffset"	"3"
+		"dropshadow_offset"	"3"
 		"dropshadowresize"	"0"
 		
 		"visible"			"1"
@@ -174,7 +174,7 @@
 		"scaleimage"			"1"
 		
 		"dropshadow"			"1"
-		"dropshadowoffset"	"3"
+		"dropshadow_offset"	"3"
 		"dropshadowresize"	"0"
 		
 		"visible"			"1"

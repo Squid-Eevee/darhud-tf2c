@@ -62,7 +62,7 @@
 			"tall"			"100"
 			"fgcolor"		"GeneralLabel"
 			"dropshadow"		"1"
-			"dropshadowoffset"	"4"
+			"dropshadow_offset"	"4"
 		}
 	}
 }

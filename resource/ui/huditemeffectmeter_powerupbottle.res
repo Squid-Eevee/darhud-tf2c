@@ -67,7 +67,7 @@
 		"centerwrap"				"1"
 		"font"					"HudFontTiny"
 		"dropshadow"				"1"
-		"dropshadowoffset"		"2"
+		"dropshadow_offset"		"2"
 	}
 	
 	// "ItemEffectIconBG"
@@ -85,7 +85,7 @@
 		// "image"			"resource/svgs/meters/ico_powerup_bottle.svg"
 		// "drawcolor"		"ProgressOffWhite"
 		// "dropshadow"		"1"
-		// "dropshadowoffset"	"2"
+		// "dropshadow_offset"	"2"
 	// }
 	"ItemEffectIcon"
 	{
@@ -102,7 +102,7 @@
 		"image"			"../hud/ico_powerup_critboost_red"
 		"drawcolor"		"GeneralLabel"
 		"dropshadow"		"1"
-		"dropshadowoffset"	"2"
+		"dropshadow_offset"	"2"
 	}
 
 	"ItemEffectMeter"
@@ -134,6 +134,6 @@
 		"tall"			"18"
 		"fgcolor"		"GeneralLabel"
 		"dropshadow"		"1"
-		"dropshadowoffset"	"2"
+		"dropshadow_offset"	"2"
 	}
 }

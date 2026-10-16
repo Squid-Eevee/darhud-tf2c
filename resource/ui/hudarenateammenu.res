@@ -142,7 +142,7 @@
 		"NavUp"			"CancelButton"
 		"NavDown"		"teambutton3"
 		"dropshadow"		"1"
-		"dropshadowoffset"	"2"
+		"dropshadow_offset"	"2"
 	}
 	
 	"FightLabel"
@@ -161,7 +161,7 @@
 		"textAlignment"	"center"
 		"visible"	"1"
 		"dropshadow"		"1"
-		"dropshadowoffset"	"4"
+		"dropshadow_offset"	"4"
 	}
 	
 	"teambutton2blood"
@@ -225,7 +225,7 @@
 		"roundedcorners"	"0"
 		
 		"dropshadow"		"1"
-		"dropshadowoffset"	"2"
+		"dropshadow_offset"	"2"
 				
 		"sound_armed"		"ui/buttonrollover.wav"
 		"sound_depressed"	"ui/buttonclick.wav"
@@ -259,7 +259,7 @@
 		"wrap"			"0"
 		"font"			"HudFontSmallBold"
 		"dropshadow"		"1"
-		"dropshadowoffset"	"3"
+		"dropshadow_offset"	"3"
 		"mouseinputenabled"	"0"
 	}
 	
@@ -287,7 +287,7 @@
 		"sound_depressed"	"ui/buttonclick.wav"
 		"sound_released"	"ui/buttonclickrelease.wav"
 		"dropshadow"		"1"
-		"dropshadowoffset"	"3"
+		"dropshadow_offset"	"3"
 	}
 		
 	"TeamMenuAuto"

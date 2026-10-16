@@ -18,7 +18,7 @@ Scheme
 		"HealthNormal"	"235 226 202 255"
 		"HealthShadow" 	"0 0 0 240"
 		"HealthWarning"	"255 0 0 255"
-		"MaxHealth"		"235 226 202 255"		
+		"MaxHealth"		"235 226 202 255"
 		"HealthGain"		"0 202 133 255"	//Also used when the uber is ready
 		"HealthLow"		"255 230 0 255"
 		

@@ -1781,7 +1781,7 @@
 		"mouseinputenabled"	"0"
 		
 		"dropshadow"		"1"
-		"dropshadowoffset"	"2"
+		"dropshadow_offset"	"2"
 		"textinsetx"	"0"
 	}	
 	
@@ -1809,7 +1809,7 @@
 		"mouseinputenabled"	"0"
 		
 		"dropshadow"		"1"
-		"dropshadowoffset"	"2"
+		"dropshadow_offset"	"2"
 		"textinsetx"	"0"
 	}		
 	
@@ -1837,7 +1837,7 @@
 		"mouseinputenabled"	"0"
 		
 		"dropshadow"		"1"
-		"dropshadowoffset"	"2"
+		"dropshadow_offset"	"2"
 		"textinsetx"	"0"
 	}			
 	
@@ -1865,7 +1865,7 @@
 		"mouseinputenabled"	"0"
 		
 		"dropshadow"		"1"
-		"dropshadowoffset"	"2"
+		"dropshadow_offset"	"2"
 		"textinsetx"	"0"
 	}				
 	
@@ -1893,7 +1893,7 @@
 		"mouseinputenabled"	"0"
 		
 		"dropshadow"		"1"
-		"dropshadowoffset"	"2"
+		"dropshadow_offset"	"2"
 		"textinsetx"	"0"
 	}	
 	
@@ -1921,7 +1921,7 @@
 		"mouseinputenabled"	"0"
 		
 		"dropshadow"		"1"
-		"dropshadowoffset"	"2"
+		"dropshadow_offset"	"2"
 		"textinsetx"	"0"
 	}					
 	
@@ -1949,7 +1949,7 @@
 		"mouseinputenabled"	"0"
 		
 		"dropshadow"		"1"
-		"dropshadowoffset"	"2"
+		"dropshadow_offset"	"2"
 		"textinsetx"	"0"
 	}							
 	
@@ -1978,7 +1978,7 @@
 		"mouseinputenabled"	"0"
 		
 		"dropshadow"		"1"
-		"dropshadowoffset"	"2"
+		"dropshadow_offset"	"2"
 		"textinsetx"	"0"
 	}
 	
@@ -2007,7 +2007,7 @@
 		"mouseinputenabled"	"0"
 		
 		"dropshadow"		"1"
-		"dropshadowoffset"	"2"
+		"dropshadow_offset"	"2"
 		"textinsetx"	"0"
 	}
 	
@@ -2036,7 +2036,7 @@
 		"mouseinputenabled"	"0"
 		
 		"dropshadow"		"1"
-		"dropshadowoffset"	"2"
+		"dropshadow_offset"	"2"
 		"textinsetx"	"0"
 		
 		"if_special_classes"

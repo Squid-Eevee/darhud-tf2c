@@ -17,7 +17,7 @@
 		"font"			"DamageNumberFont"
 		"fgcolor"		"DamageNumber"
 		"dropshadow"		"1"
-		"dropshadowoffset"	"2"
+		"dropshadow_offset"	"2"
 		"alpha"			"0"
 	}
 }

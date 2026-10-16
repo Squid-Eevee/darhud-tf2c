@@ -42,32 +42,36 @@
 		"drawcolor"			"GeneralLabel"
 		
 		"dropshadow"			"1"
-		"dropshadowoffset"	"2"
+		"dropshadow_offset"	"2"
 		
 		"visible"			"1"
 	}
 
 	"DisguiseStatusBG"
 	{
-		"controlname"	"CTFImagePanel"
-		"fieldname"	"DisguiseStatusBG"
+		"controlname"			"CTFImagePanel"
+		"fieldname"			"DisguiseStatusBG"
 		
-		"xpos"		"0"
-		"ypos"		"2"
-		"zpos"		"0"
+		"xpos"				"0"
+		"ypos"				"2"
+		"zpos"				"0"
 		
-		"tall"	 	"24"
+		"tall"	 			"24"
 		
-		"image"		"..\darhud\disguise\disguise_neutral"
-		"teambg_0"	"..\darhud\disguise\disguise_neutral"
-		"teambg_1"	"..\darhud\disguise\disguise_spectator"
-		"teambg_2"	"..\darhud\disguise\disguise_red"
-		"teambg_3"	"..\darhud\disguise\disguise_blue"
-		"teambg_4"	"..\darhud\disguise\disguise_green"
-		"teambg_5"	"..\darhud\disguise\disguise_yellow"
-		"scaleimage"	"1"
+		"image"				"..\darhud\disguise\disguise_neutral"
+		"teambg_0"			"..\darhud\disguise\disguise_neutral"
+		"teambg_1"			"..\darhud\disguise\disguise_spectator"
+		"teambg_2"			"..\darhud\disguise\disguise_red"
+		"teambg_3"			"..\darhud\disguise\disguise_blue"
+		"teambg_4"			"..\darhud\disguise\disguise_green"
+		"teambg_5"			"..\darhud\disguise\disguise_yellow"
+		"scaleimage"			"1"
 		
-		"visible"	"1"
+		"dropshadow"			"1"
+		"dropshadow_offset"	"4"
+		"dropshadow_color"	"HudShadow"
+		
+		"visible"			"1"
 	}
 
 	"DisguiseNameLabel"
@@ -89,7 +93,7 @@
 		"fgcolor_override"	"GeneralLabel"
 				
 		"dropshadow"			"1"
-		"dropshadowoffset"	"2"
+		"dropshadow_offset"	"2"
 		
 		"visible"			"1"
 	}
@@ -113,7 +117,7 @@
 		"fgcolor_override"	"GeneralLabel"
 				
 		"dropshadow"			"1"
-		"dropshadowoffset"	"2"
+		"dropshadow_offset"	"2"
 		
 		"visible"			"1"
 	}
@@ -168,7 +172,7 @@
 		"textAlignment"		"center"
 				
 		"dropshadow"			"1"
-		"dropshadowoffset"	"2"
+		"dropshadow_offset"	"2"
 		
 		"visible"			"1"
 	}

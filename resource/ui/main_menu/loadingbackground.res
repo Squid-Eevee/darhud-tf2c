@@ -93,7 +93,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"dropshadow"		"1"
-		"dropshadowoffset"	"3"
+		"dropshadow_offset"	"3"
 	}
 	
 	"MapTypeLabel"
@@ -113,7 +113,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"dropshadow"		"1"
-		"dropshadowoffset"	"2"
+		"dropshadow_offset"	"2"
 		
 		"pin_to_sibling"		"MapLabel"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"

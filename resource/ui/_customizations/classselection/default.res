@@ -161,7 +161,7 @@
 		"fgcolor"			"GeneralLabel"
 		
 		"dropshadow"			"1"
-		"dropshadowoffset"	"3"
+		"dropshadow_offset"	"3"
 		
 		"visible"			"1"
 		"enabled"			"1"
@@ -181,7 +181,7 @@
 		"fgcolor"			"GeneralLabel"
 		
 		"dropshadow"			"1"
-		"dropshadowoffset"	"2"
+		"dropshadow_offset"	"2"
 		
 		"visible"			"0"
 		"enabled"			"1"
@@ -366,7 +366,7 @@
 		"fgcolor"			"GeneralLabel"
 		
 		"dropshadow"			"1"
-		"dropshadowoffset"	"2"
+		"dropshadow_offset"	"2"
 		
 		"visible"			"0"
 		"enabled"			"1"
@@ -551,7 +551,7 @@
 		"fgcolor"			"GeneralLabel"
 		
 		"dropshadow"			"1"
-		"dropshadowoffset"	"2"
+		"dropshadow_offset"	"2"
 		
 		"visible"			"0"
 		"enabled"			"1"
@@ -588,7 +588,7 @@
 			"visible"	"1"
 			"image"		"class_sel_sm_medic_inactive"
 			"dropshadow"	"1"
-			"dropshadowoffset"	"3"
+			"dropshadow_offset"	"3"
 		}
 	}
 	"medicShadow"
@@ -732,7 +732,7 @@
 		"fgcolor"			"GeneralLabel"
 		
 		"dropshadow"			"1"
-		"dropshadowoffset"	"2"
+		"dropshadow_offset"	"2"
 		
 		"visible"			"0"
 		"enabled"			"1"
@@ -878,7 +878,7 @@
 		"Command"			"vguicancel"
 		
 		"dropshadow"			"1"
-		"dropshadowoffset"	"3"
+		"dropshadow_offset"	"3"
 		
 		"sound_armed"			"ui/buttonrollover.wav"
 		"sound_depressed"		"ui/buttonclick.wav"
@@ -925,7 +925,7 @@
 		"selectedbgColor_override"		"0 0 0 0"
 		
 		"dropshadow"					"1"
-		"dropshadowoffset"			"2"
+		"dropshadow_offset"			"2"
 		
 		"visible"					"1"
 		"enabled"					"1"
@@ -944,7 +944,7 @@
 			"image"				"../hud/backpack_01"
 			
 			"dropshadow"			"1"
-			"dropshadowoffset"	"3"
+			"dropshadow_offset"	"3"
 			
 			"visible"			"1"
 			"enabled"			"1"
@@ -1231,7 +1231,7 @@
 		"fgcolor"			"GeneralLabel"
 		
 		"dropshadow"			"1"
-		"dropshadowoffset"	"2"
+		"dropshadow_offset"	"2"
 		
 		"visible"			"1"
 		"enabled"			"1"

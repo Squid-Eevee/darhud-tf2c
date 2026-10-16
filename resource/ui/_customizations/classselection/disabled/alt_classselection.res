@@ -89,7 +89,7 @@
 		
 		"Command"			"select 1"
 		
-		"dropshadowoffset"	"3"
+		"dropshadow_offset"	"3"
 		
 		"Subimage"
 		{
@@ -129,7 +129,7 @@
 		"textAlignment"			"west"
         "textinsetx"				"130"
 		
-		"dropshadowoffset"		"3"
+		"dropshadow_offset"		"3"
 		
 		"Subimage"
 		{
@@ -171,7 +171,7 @@
 		
 		"Command"				"select 7"
 		
-		"dropshadowoffset"		"3"
+		"dropshadow_offset"		"3"
 		
 		"Subimage"
 		{
@@ -228,7 +228,7 @@
 		
 		"Command"				"select 4"
 		
-		"dropshadowoffset"		"3"
+		"dropshadow_offset"		"3"
 		
 		"Subimage"
 		{
@@ -269,7 +269,7 @@
 		
 		"Command"				"select 6"
 		
-		"dropshadowoffset"		"3"
+		"dropshadow_offset"		"3"
 		
 		"Subimage"
 		{
@@ -311,7 +311,7 @@
 		
 		"Command"				"select 9"
 		
-		"dropshadowoffset"		"3"
+		"dropshadow_offset"		"3"
 		
 		"Subimage"
 		{
@@ -368,7 +368,7 @@
 		
 		"Command"				"select 5"
 		
-		"dropshadowoffset"		"3"
+		"dropshadow_offset"		"3"
 		
 		"Subimage"
 		{
@@ -410,7 +410,7 @@
 		
 		"Command"				"select 2"
 		
-		"dropshadowoffset"		"3"
+		"dropshadow_offset"		"3"
 		
 		"Subimage"
 		{
@@ -452,7 +452,7 @@
 		
 		"Command"				"select 8"
 		
-		"dropshadowoffset"		"3"
+		"dropshadow_offset"		"3"
 		
 		"Subimage"
 		{
@@ -512,7 +512,7 @@
 		
 		"Command"				"select 10"
 		
-		"dropshadowoffset"		"3"
+		"dropshadow_offset"		"3"
 		
 		"Subimage"
 		{
@@ -554,7 +554,7 @@
 		"Command"				"select 12"
 		"font"					"HudFontMediumSmallBold"
 		
-		"dropshadowoffset"		"3"
+		"dropshadow_offset"		"3"
 		
 		"Subimage"
 		{
@@ -626,7 +626,7 @@
 		"armedbgColor_override"		"ButtonArmed"
 		"selectedbgColor_override"		"ButtonDefault"
 		
-		"dropshadowoffset"			"3"
+		"dropshadow_offset"			"3"
 		
 		"Subimage"
 		{
@@ -788,7 +788,7 @@
 		"textAlignment"			"east"
 		"font"					"HudFontSmallestBold"
 		
-		"dropshadowoffset"		"3"
+		"dropshadow_offset"		"3"
 		"textinsetx"				"3"
 		
 		"if_special_classes"
@@ -812,7 +812,7 @@
 		"textAlignment"			"east"
 		"font"					"HudFontSmallestBold"
 		
-		"dropshadowoffset"		"3"
+		"dropshadow_offset"		"3"
 		"textinsetx"				"3"
 		
 		"if_special_classes"
@@ -836,7 +836,7 @@
 		"textAlignment"			"east"
 		"font"					"HudFontSmallestBold"
 		
-		"dropshadowoffset"		"3"
+		"dropshadow_offset"		"3"
 		"textinsetx"				"3"
 		
 		"if_special_classes"
@@ -860,7 +860,7 @@
 		"textAlignment"			"east"
 		"font"					"HudFontSmallestBold"
 		
-		"dropshadowoffset"		"3"
+		"dropshadow_offset"		"3"
 		"textinsetx"				"3"
 		
 		"if_special_classes"
@@ -884,7 +884,7 @@
 		"textAlignment"			"east"
 		"font"					"HudFontSmallestBold"
 		
-		"dropshadowoffset"		"3"
+		"dropshadow_offset"		"3"
 		"textinsetx"				"3"
 		
 		"if_special_classes"
@@ -908,7 +908,7 @@
 		"textAlignment"			"east"
 		"font"					"HudFontSmallestBold"
 		
-		"dropshadowoffset"		"3"
+		"dropshadow_offset"		"3"
 		"textinsetx"				"3"
 		
 		"if_special_classes"
@@ -932,7 +932,7 @@
 		"textAlignment"			"east"
 		"font"					"HudFontSmallestBold"
 		
-		"dropshadowoffset"		"3"
+		"dropshadow_offset"		"3"
 		"textinsetx"				"3"
 		
 		"if_special_classes"
@@ -956,7 +956,7 @@
 		"textAlignment"			"east"
 		"font"					"HudFontSmallestBold"
 		
-		"dropshadowoffset"		"3"
+		"dropshadow_offset"		"3"
 		"textinsetx"				"3"
 		
 		"if_special_classes"
@@ -980,7 +980,7 @@
 		"textAlignment"			"east"
 		"font"					"HudFontSmallestBold"
 		
-		"dropshadowoffset"		"3"
+		"dropshadow_offset"		"3"
 		"textinsetx"				"3"
 		
 		"if_special_classes"
@@ -1004,7 +1004,7 @@
 		"textAlignment"			"east"
 		"font"					"HudFontSmallestBold"
 		
-		"dropshadowoffset"		"3"
+		"dropshadow_offset"		"3"
 		"textinsetx"				"3"
 		
 		"if_special_classes"

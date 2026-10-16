@@ -90,7 +90,7 @@
 		"wrap"			"0"
 		"font"			"ControlPointTimer"
 		"dropshadow"		"1"
-		"dropshadowoffset"	"2"
+		"dropshadow_offset"	"2"
 	}
 				
 	"CPTimerBG"

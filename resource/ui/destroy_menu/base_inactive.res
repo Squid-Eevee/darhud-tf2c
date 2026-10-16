@@ -18,7 +18,7 @@
 		"labelText"		"#TF_Object_Sentry"
 		"textAlignment"	"center"
 		"dropshadow"		"1"
-		"dropshadowoffset"	"1"
+		"dropshadow_offset"	"1"
 	}
 	
 	"ItemBackground"	
@@ -57,7 +57,7 @@
 		"labelText"		"#TF_NotBuilt"
 		"textAlignment"	"Center"
 		"dropshadow"		"1"
-		"dropshadowoffset"	"1"
+		"dropshadow_offset"	"1"
 	}
 		
 	"BuildingIcon"	

@@ -36,7 +36,7 @@
 		"scaleimage"			"1"
 		
 		"dropshadow"			"1"
-		"dropshadowoffset"	"2"
+		"dropshadow_offset"	"2"
 		
 		"visible"			"1"
 		"enabled"			"1"
@@ -85,7 +85,7 @@
 			"fgcolor"			"ObjectiveLabel"
 			
 			"dropshadow"		"1"
-			"dropshadowoffset"	"2"
+			"dropshadow_offset"	"2"
 			
 			"visible"			"1"
 			"enabled"			"1"
@@ -116,7 +116,7 @@
 		"textinsetx"			"3"
 		
 		"dropshadow"			"1"
-		"dropshadowoffset"	"3"
+		"dropshadow_offset"	"3"
 		
 		"visible"			"0"
 		"enabled"			"1"
@@ -139,7 +139,7 @@
 		"wrap"				"0"
 		
 		"dropshadow"			"1"
-		"dropshadowoffset"	"2"
+		"dropshadow_offset"	"2"
 		
 		"visible"			"1"
 		"enabled"			"1"
@@ -163,7 +163,7 @@
 		"wrap"				"1"
 		
 		"dropshadow"			"1"
-		"dropshadowoffset"	"2"
+		"dropshadow_offset"	"2"
 		
 		"visible"			"0"
 		"enabled"			"1"
@@ -205,7 +205,7 @@
 		"wrap"				"0"
 		
 		"dropshadow"			"1"
-		"dropshadowoffset"	"1"
+		"dropshadow_offset"	"1"
 		
 		"visible"			"0"
 		"enabled"			"1"

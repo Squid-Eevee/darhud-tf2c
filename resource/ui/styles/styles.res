@@ -45,7 +45,8 @@
 		"sound_armed"					"UI/buttonrollover.wav"
 		
 		"dropshadow"					"1"
-		"dropshadowoffset"			"3"
+		"dropshadow_offset"			"3"
+		"dropshadow_color"			"ButtonLabelMMShadow"
 		
 		"visible"		"1"
 		"enabled"		"1"
@@ -57,7 +58,7 @@
 			"proportionaltoparent"	"1"
 			
 			"xpos"				"4"
-			"ypos"				"cs-0.5+1"
+			"ypos"				"cs-0.5"
 			"zpos"				"1"
 			
 			"wide"				"o1.0"
@@ -66,7 +67,8 @@
 			"scaleimage"			"1"
 			
 			"dropshadow"			"1"
-			"dropshadowoffset"	"3"
+			"dropshadow_offset"	"3"
+			"dropshadow_color"	"ButtonLabelMMShadow"
 			
 			"visible"			"1"
 		}
@@ -142,7 +144,8 @@
 			"scaleimage"			"1"
 			
 			"dropshadow"			"1"
-			"dropshadowoffset"	"3"
+			"dropshadow_offset"	"3"
+			"dropshadow_color"	"ButtonLabelMMShadow"
 			
 			"visible"			"1"
 		}
@@ -190,7 +193,7 @@
 			"scaleimage"			"1"
 			
 			"dropshadow"			"1"
-			"dropshadowoffset"	"3"
+			"dropshadow_offset"	"3"
 			
 			"visible"			"1"
 		}
@@ -258,7 +261,8 @@
 		"image_disabledcolor"			"ButtonDisabledLabelMM"
 		
 		"dropshadow"					"1"
-		"dropshadowoffset"			"3"
+		"dropshadow_offset"			"3"
+		"dropshadow_color"			"ButtonLabelMMShadow"
 		
 		"visible"					"1"
 		"enabled"					"1"
@@ -301,7 +305,7 @@
 		"inputenabled"		"0"
 		
 		"dropshadow"			"1"
-		"dropshadowoffset"	"2"
+		"dropshadow_offset"	"2"
 	}
 	
 	"OptionsGeneralOption"
@@ -420,7 +424,7 @@
 		"FgColor_override"	"MainText"
 		
 		"dropshadow"			"1"
-		"dropshadowoffset"	"2"
+		"dropshadow_offset"	"2"
 		
 		"visible"			"1"
 		"enabled"			"1"
@@ -500,7 +504,7 @@
 				"mouseinputenabled"		"0"
 				
 				"dropshadow"				"1"
-				"dropshadowoffset"		"3"
+				"dropshadow_offset"		"3"
 			}
 		}
 		
@@ -694,84 +698,6 @@
 			"visible"			"1"
 		}
 	}
-	"CommandButton"
-	{
-		"proportionaltoparent"			"1"
-		
-		"zpos"						"2"
-		
-		"wide"						"93"
-		"tall"						"15"
-		
-		"labelText"					"MissingNo."
-		"font"						"CommandButtonFont"
-		"textAlignment"				"center"
-		"use_proportional_insets"		"1"
-
-
-		"paintborder"					"1"
-		"paintbackground"				"0"
-				
-		"defaultFgColor_override"		"ButtonLabelMM"
-		"armedFgColor_override"		"ButtonArmedLabelMM"
-		"selectedFgColor_override"		"ButtonDepressedLabelMM"
-		"depressedFgColor_override"	"ButtonDepressedLabelMM"
-		
-		"border_default"				"DarhudMMSquareButton"
-		"border_armed"				"DarhudMMSquareButtonArmed"
-		"border_selected"				"DarhudMMSquareButtonDepressed"
-		"border_depressed"			"DarhudMMSquareButtonDepressed"
-		
-		"sound_depressed"				"UI/buttonclick.wav"
-		"sound_released"				"UI/buttonclickrelease.wav"
-		"sound_armed"					"UI/buttonrollover.wav"
-		
-		"dropshadow"					"1"
-		"dropshadowoffset"			"2"
-		
-		"visible"					"1"
-		"enabled"					"1"
-	}
-	"CommandTeamButton"
-	{
-		"wide"					"15"
-		"tall"					"15"
-		
-		"labelText"				""
-		"textAlignment"			"center"
-
-		"proportionaltoparent"		"1"
-		"use_proportional_insets"	"1"
-
-		"paintborder"				"0"
-		"paintbackground"			"1"
-		"roundedcorners"			"0"
-		
-		"sound_depressed"			"UI/buttonclick.wav"
-		"sound_released"			"UI/buttonclickrelease.wav"
-		"sound_armed"				"UI/buttonrollover.wav"
-		
-		"visible"				"1"
-		"enabled"				"1"
-		
-		"Subimage"
-		{
-			"controlname"			"ImagePanel"
-			"fieldname"			"Subimage"
-			"proportionaltoparent"	"1"
-			
-			"xpos"				"cs-0.5"
-			"ypos"				"cs-0.5"
-			"zpos"				"1"
-			
-			"wide"				"f0"
-			"tall"				"f0"
-			
-			"scaleimage"			"1"
-			
-			"visible"			"1"
-		}
-	}
 	
 	"CornerShadow"
 	{
@@ -785,5 +711,109 @@
 		"src_corner_height"	"1"
 		"draw_corner_width"	"2"
 		"draw_corner_height" 	"2"
+	}
+	
+	"MenuRadioButton"
+	{
+		"ypos"						"0"
+		"wide"						"30"
+		"tall"						"30"
+		"visible"					"1"
+		"enabled"					"1"
+		"labelText" 				""
+		"paintbackground"			"0"
+		"image_drawcolor"			"TanDark"
+		"image_armedcolor"			"TanLightish"
+		"image_depressedcolor"		"TanLightish"
+		"image_selectedcolor"		"TanLight"
+		"actionsignallevel"			"2"
+		"button_activation_type"	"1"
+
+		"SubImage"
+		{
+			"xpos"			"cs-0.5"
+			"ypos"			"cs-0.5"
+			"zpos"			"1"
+			"wide"			"f4"
+			"tall"			"f4"
+			"visible"		"1"
+			"enabled"		"1"
+			"scaleImage"	"1"
+			"proportionalToParent"	"1"
+		}
+		
+		"sound_released"	"UI/buttonclick.wav"
+		"sound_armed"		"ui/item_info_mouseover.wav"
+	}
+	
+	"ClassSelectRadioButton"
+	{
+		"ypos"					"0"
+		"zpos"					"3"
+		"wide"					"56"
+		"tall"					"48"
+		"visible"				"1"
+		"enabled"				"1"
+		"labelText" 				""
+		"image_drawcolor"			"TanDark"
+		"image_armedcolor"	"ButtonArmedMM"
+		"image_depressedcolor"	"ButtonDepressedMM"
+		"image_selectedcolor"	"ButtonMM"
+		"image_disabledcolor"		"TanDarker"		
+		"paintbackground"			"0"
+		"actionsignallevel"		"2"
+		"button_activation_type"	"1"
+
+		"proportionalToParent"	"1"
+
+		"SubImage"
+		{
+			"xpos"			"cs-0.5"
+			"ypos"			"cs-0.5"
+			"zpos"			"1"
+			"wide"			"f10"
+			"tall"			"f2"
+			"visible"		"1"
+			"enabled"		"1"
+			"scaleImage"	"1"
+			"proportionalToParent"	"1"
+		}
+		
+		"sound_released"	"UI/buttonclick.wav"
+		"sound_armed"		"UI/item_info_mouseover.wav"
+	}
+
+	"TeamSelectRadioButton"
+	{
+		"wide"						"26"
+		"tall"						"26"
+		"visible"					"1"
+		"enabled"					"1"
+		"labelText" 				""
+		"paintbackground"			"0"
+		"image_drawcolor"			"160 160 160 100"
+		"image_armedcolor"			"210 210 210 255"
+		"image_depressedcolor"		"210 210 210 255"
+		"image_selectedcolor"		"255 255 255 255"
+		"actionsignallevel"			"2"
+		"button_activation_type"	"1"
+		
+		"proportionalToParent"	"1"
+
+		"SubImage"
+		{
+			"xpos"			"cs-0.5"
+			"ypos"			"cs-0.5"
+			"zpos"			"1"
+			"wide"			"f6"
+			"tall"			"f6"
+			"visible"		"1"
+			"enabled"		"1"
+			"scaleImage"	"1"
+			"proportionalToParent"	"1"
+		}
+		
+		"sound_released"	"UI/buttonclick.wav"
+		"sound_armed"		"ui/item_info_mouseover.wav"
 	}
 }

@@ -38,8 +38,12 @@
 		"teambg_5"			"..\darhud\counter\counter_yellow"
 		"scaleimage"			"1"
 		
+		"dropshadow"			"1"
+		"dropshadow_offset"	"3"
+		"dropshadow_color"	"HudShadow"
+		
 		"visible"			"1"
-	}	
+	}
 
 	"ItemEffectMeterBGShadow"
 	{
@@ -82,7 +86,7 @@
 		"disabledfgcolor2_override"	"TanLight"
 		
 		"dropshadow"					"1"
-		"dropshadowoffset"			"2"
+		"dropshadow_offset"			"2"
 		
 		"visible"					"0"
 		"enabled"					"1"
@@ -105,7 +109,7 @@
 		"textAlignment"		"north"
 		
 		"dropshadow"			"1"
-		"dropshadowoffset"	"2"
+		"dropshadow_offset"	"2"
 		
 		"visible"			"1"
 		"enabled"			"1"
@@ -128,7 +132,7 @@
 		"drawcolor"			"ProgressOffWhite"
 		
 		"dropshadow"			"1"
-		"dropshadowoffset"	"2"
+		"dropshadow_offset"	"2"
 		
 		"visible"			"1"
 	}
@@ -142,7 +146,7 @@
 		
 		"scaleimage"			"1"
 		
-		"dropshadowoffset"	"2"
+		"dropshadow_offset"	"2"
 		
 		"visible"			"1"
 	}
@@ -156,7 +160,7 @@
 		
 		"scaleimage"			"1"
 		
-		"dropshadowoffset"	"2"
+		"dropshadow_offset"	"2"
 		
 		"visible"			"1"
 	}
@@ -170,7 +174,7 @@
 		
 		"scaleimage"			"1"
 		
-		"dropshadowoffset"	"2"
+		"dropshadow_offset"	"2"
 		
 		"visible"			"1"
 	}
@@ -184,7 +188,7 @@
 		
 		"scaleimage"			"1"
 		
-		"dropshadowoffset"	"2"
+		"dropshadow_offset"	"2"
 		
 		"visible"			"1"
 	}

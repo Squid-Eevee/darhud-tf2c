@@ -17,9 +17,10 @@
 		
 		"alpha"				"255"
 		
-		"dropshadow"			"1"
-		"dropshadowoffset"	"3"
-		"dropshadowcolor"		"HudShadow"
+		//currently causes the background to not scale properly
+		"dropshadow"			"0"
+		"dropshadow_offset"	"3"
+		"dropshadow_color"	"HudShadow"
 		
 		"visible"			"1"
 	}
@@ -32,8 +33,8 @@
 		"xpos"		"7"
 		"ypos"		"9"
 		
-		"wide"		"20"
-		"tall"		"20"
+		"wide"		"21"
+		"tall"		"21"
 		
 		"icon"		"ico_notify_sixty_seconds"
 		"scaleimage"	"1"
@@ -59,7 +60,7 @@
 		"fgcolor_override"	"GeneralLabel"
 		
 		"dropshadow"			"1"
-		"dropshadowoffset"	"2"
+		"dropshadow_offset"	"2"
 		
 		"visible"			"1"
 		"enabled"			"1"

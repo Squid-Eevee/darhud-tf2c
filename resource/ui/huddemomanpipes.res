@@ -85,7 +85,7 @@
 			"drawcolor"			"AdditionalIcon"
 			
 			"dropshadow"			"1"
-			"dropshadowoffset"	"2"
+			"dropshadow_offset"	"2"
 			
 			"visible"			"1"
 		}
@@ -109,7 +109,7 @@
 			"fgcolor"			"AdditionalValue"
 			
 			"dropshadow"			"1"
-			"dropshadowoffset"	"2"
+			"dropshadow_offset"	"2"
 			
 			"visible"			"1"
 			"enabled"			"1"
@@ -213,7 +213,7 @@
 			"fgcolor"			"AdditionalValue"
 			
 			"dropshadow"			"1"
-			"dropshadowoffset"	"2"
+			"dropshadow_offset"	"2"
 			
 			"visible"			"1"
 			"enabled"			"1"
@@ -296,7 +296,7 @@
 			"drawcolor"			"ProgressOffWhite"
 			
 			"dropshadow"			"1"
-			"dropshadowoffset"	"2"
+			"dropshadow_offset"	"2"
 			
 			"visible"			"1"
 		}
@@ -320,7 +320,7 @@
 			"fgcolor"			"AdditionalValue"
 			
 			"dropshadow"			"1"
-			"dropshadowoffset"	"2"
+			"dropshadow_offset"	"2"
 			
 			"visible"			"1"
 			"enabled"			"1"
@@ -424,7 +424,7 @@
 			"fgcolor"			"AdditionalValue"
 			
 			"dropshadow"			"1"
-			"dropshadowoffset"	"2"
+			"dropshadow_offset"	"2"
 			
 			"visible"			"1"
 			"enabled"			"1"

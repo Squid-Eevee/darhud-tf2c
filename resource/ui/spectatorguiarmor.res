@@ -17,7 +17,8 @@
 		"drawcolor"			"TanDarker"
 		
 		"dropshadow"			"1"
-		"dropshadowoffset"	"2"
+		"dropshadow_offset"	"2"
+		"dropshadow_color"	"HudShadow"
 		
 		"visible"			"1"
 	}
@@ -70,12 +71,12 @@
 		
 		"labelText"			"%Armor%"
 		"font"				"TargetHealthFont"
-		"textAlignment"		"south"
+		"textAlignment"		"center"
 		
 		"fgcolor"			"ArmorNormal"
 		
 		"dropshadow"			"1"
-		"dropshadowoffset"	"2"
+		"dropshadow_offset"	"2"
 		
 		"visible"			"1"
 		"enabled"			"1"

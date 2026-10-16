@@ -29,5 +29,10 @@
 				"visible"	"0"
 			}
 		}
+		
+		"LogoCircle"
+		{
+			"image"	"vgui/main_menu/tf2classified_logo_circle_white"
+		}
 	}
 }

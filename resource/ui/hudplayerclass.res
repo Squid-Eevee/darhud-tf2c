@@ -32,7 +32,7 @@
 		"scaleimage"			"1"
 		
 		"dropshadow"			"1"
-		"dropshadowoffset"	"3"
+		"dropshadow_offset"	"3"
 		
 		"visible"			"1"
 	}
@@ -82,56 +82,64 @@
 	}		
 	"PlayerStatusClassimageBG"
 	{
-		"controlname"		"CTFImagePanel"
-		"fieldname"		"PlayerStatusClassimageBG"
+		"controlname"			"CTFImagePanel"
+		"fieldname"			"PlayerStatusClassimageBG"
 		
-		"xpos"			"100"
-		"ypos"			"r85"
-		"zpos"			"1"
+		"xpos"				"100"
+		"ypos"				"r85"
+		"zpos"				"1"
 		
-		"xpos_minmode"	"c-260"
+		"xpos_minmode"		"c-260"
 		
-		"wide"			"118"
-		"tall"			"58"
+		"wide"				"118"
+		"tall"				"58"
 		
-		"image"			"..\darhud\health\health_neutral"
-		"teambg_0"		"..\darhud\health\health_neutral"
-		"teambg_1"		"..\darhud\health\health_spectator"
-		"teambg_2"		"..\darhud\health\health_red"
-		"teambg_3"		"..\darhud\health\health_blue"
-		"teambg_4"		"..\darhud\health\health_green"
-		"teambg_5"		"..\darhud\health\health_yellow"
-		"scaleimage"		"1"
+		"image"				"..\darhud\health\health_neutral"
+		"teambg_0"			"..\darhud\health\health_neutral"
+		"teambg_1"			"..\darhud\health\health_spectator"
+		"teambg_2"			"..\darhud\health\health_red"
+		"teambg_3"			"..\darhud\health\health_blue"
+		"teambg_4"			"..\darhud\health\health_green"
+		"teambg_5"			"..\darhud\health\health_yellow"
+		"scaleimage"			"1"
 		
-		"visible"		"1"
+		"dropshadow"			"1"
+		"dropshadow_offset"	"4"
+		"dropshadow_color"	"HudShadow"
+		
+		"visible"			"1"
 	}
 
 	"classmodelpanelBG"
 	{
-		"controlname"		"CTFImagePanel"
-		"fieldname"		"classmodelpanelBG"
+		"controlname"			"CTFImagePanel"
+		"fieldname"			"classmodelpanelBG"
 		
-		"pin_to_sibling"	"PlayerStatusClassimageBG"
+		"pin_to_sibling"		"PlayerStatusClassimageBG"
 		
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"1"
+		"xpos"				"0"
+		"ypos"				"0"
+		"zpos"				"1"
 		
-		"xpos_minmode"	"c-260"
+		"xpos_minmode"		"c-260"
 		
-		"wide"			"118"
-		"tall"			"58"
+		"wide"				"118"
+		"tall"				"58"
 		
-		"image"			"..\darhud\health\health_neutral"
-		"teambg_0"		"..\darhud\health\health_neutral"
-		"teambg_1"		"..\darhud\health\health_spectator"
-		"teambg_2"		"..\darhud\health\health_red"
-		"teambg_3"		"..\darhud\health\health_blue"
-		"teambg_4"		"..\darhud\health\health_green"
-		"teambg_5"		"..\darhud\health\health_yellow"
-		"scaleimage"		"1"
+		"image"				"..\darhud\health\health_neutral"
+		"teambg_0"			"..\darhud\health\health_neutral"
+		"teambg_1"			"..\darhud\health\health_spectator"
+		"teambg_2"			"..\darhud\health\health_red"
+		"teambg_3"			"..\darhud\health\health_blue"
+		"teambg_4"			"..\darhud\health\health_green"
+		"teambg_5"			"..\darhud\health\health_yellow"
+		"scaleimage"			"1"
 		
-		"visible"		"1"
+		"dropshadow"			"1"
+		"dropshadow_offset"	"4"
+		"dropshadow_color"	"HudShadow"
+		
+		"visible"			"1"
 	}
 
 	"PlayerStatusClassimageBGShadow"
@@ -434,7 +442,7 @@
 			"textAlignment"		"North-West"
 			
 			"dropshadow"			"1"
-			"dropshadowoffset"	"2"
+			"dropshadow_offset"	"2"
 			
 			"visible"			"1"
 			"enabled"			"1"

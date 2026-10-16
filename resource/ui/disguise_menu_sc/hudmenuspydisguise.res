@@ -607,7 +607,7 @@
 		"labelText"		"#Hud_Menu_Spy_Toggle"
 		"textAlignment"	"west"
 		"dropshadow"		"1"
-		"dropshadowoffset"	"2"
+		"dropshadow_offset"	"2"
 	}
 	
 	"DisguiseHintIcon"
@@ -643,7 +643,7 @@
 		"labelText"		"#Hud_Menu_Spy_Select_Disguise"
 		"textAlignment"	"west"
 		"dropshadow"		"1"
-		"dropshadowoffset"	"2"
+		"dropshadow_offset"	"2"
 	}
 		
 	"CancelHintIcon"
@@ -679,7 +679,7 @@
 		"labelText"		"#Cancel"
 		"textAlignment"	"Left"
 		"dropshadow"		"1"
-		"dropshadowoffset"	"2"
+		"dropshadow_offset"	"2"
 	}
 
 	"ButtonLegendBG"
