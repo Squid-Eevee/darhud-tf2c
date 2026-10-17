@@ -1,14 +1,14 @@
-#base "_huditemeffectmeter_primary.res"
+#base "_huditemeffectmeter_secondary.res"
 
 "."
 {
 	HudItemEffectMeter
 	{
-		"xpos"			"r151"
-		"ypos"			"r105"
+		// "xpos"			"r151"
+		// "ypos"			"r105"
 		
-		"xpos_minmode"	"c192"
-		"ypos_minmode"	"r100"
+		// "xpos_minmode"	"c192"
+		// "ypos_minmode"	"r100"
 	}
 	"EmptyIcon"
 	{
