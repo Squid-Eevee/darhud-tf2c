@@ -52,7 +52,7 @@
 		"scaleimage"		"1"
 		"drawcolor"		"HudShadow"
 		
-		"visible"		"0"
+		"visible"		"1"
 	}
 	"ChargeLabelBgBorder"
 	{
@@ -100,7 +100,7 @@
 		"image"			"..\darhud\health\healthbar\healthbar_bg_shadow"
 		"scaleimage"		"1"
 		
-		"visible"		"0"
+		"visible"		"1"
 		
 		"visible_minmode"	"0"
 	}
@@ -187,7 +187,7 @@
 		"zpos"					"6"
 		
 		"xpos_minmode"			"-10"
-		"ypos_minmode"			"40"
+		"ypos_minmode"			"10"
 		
 		"wide"					"50"
 		"tall"					"30"
@@ -228,16 +228,16 @@
 		"zpos"					"6"
 		
 		"xpos_minmode"			"-10"
-		"ypos_minmode"			"40"
+		"ypos_minmode"			"10"
 		
 		"wide"					"50"
-		"tall"					"50"
+		"tall"					"30"
 		
-		"wide_minmode"			"70"
+		"wide_minmode"			"40"
 		"tall_minmode"			"30"
 		
 		"labelText"				"#TF_IndividualUberchargesMinHUD"
-		"font"					"HudFontGiantBold"
+		"font"					"HudFontBiggerBold"
 		"textAlignment"			"center"
 		"textinsetx"				"0"
 		
@@ -260,11 +260,11 @@
 		"controlname"					"ContinuousProgressBar"
 		"fieldname"					"ChargeMeter"
 		
-		"xpos"						"56"
+		"xpos"						"58"
 		"ypos"						"18"
 		"zpos"						"1"
 		
-		"xpos_minmode"				"3"
+		"xpos_minmode"				"62"
 		
 		"wide"						"80"
 		"tall"						"14"
@@ -284,17 +284,13 @@
 		
 		"pin_to_sibling"				"ChargeMeter"
 		
-		"pin_to_sibling_minmode"		"IndividualChargesLabel"
-		"pin_corner_to_sibling_minmode"	"pin_center_left"
-		"pin_to_sibling_corner_minmode"	"pin_center_right"
-		
 		"xpos"						"0"
 		"ypos"						"0"
 		"zpos"						"1"
 		
-		"xpos_minmode"				"3"
+		"xpos_minmode"				"30"
 		
-		"wide"						"16"
+		"wide"						"17"
 		"tall"						"14"
 		
 		"bgcolor_override"			"MeterBackground"
@@ -316,7 +312,7 @@
 		"ypos"					"0"
 		"zpos"					"1"
 		
-		"wide"					"16"
+		"wide"					"17"
 		"tall"					"14"
 		
 		"bgcolor_override"		"MeterBackground"
@@ -338,7 +334,7 @@
 		"ypos"					"0"
 		"zpos"					"1"
 		
-		"wide"					"16"
+		"wide"					"17"
 		"tall"					"14"
 		
 		"bgcolor_override"		"MeterBackground"
@@ -360,7 +356,7 @@
 		"ypos"					"0"
 		"zpos"					"1"
 		
-		"wide"					"16"
+		"wide"					"17"
 		"tall"					"14"
 		
 		"bgcolor_override"		"MeterBackground"
@@ -448,7 +444,7 @@
 		"pin_corner_to_sibling"	"pin_center_right"
 		"pin_to_sibling_corner"	"pin_center_right"
 		
-		"xpos"					"5"
+		"xpos"					"6"
 		"ypos"					"-2"
 		
 		"ypos_minmode"			"3"

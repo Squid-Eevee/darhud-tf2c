@@ -89,15 +89,14 @@
 		"fieldname"		"HudMedicCharge"
 		
 		"xpos"			"r250"
-		"ypos"			"r120"
+		"ypos"			"r100"
 		
 		"xpos_minmode"	"c143"
 		
-		"wide"			"220"
-		"tall"			"90"
+		"wide"			"176"
+		"tall"			"54"
 		
 		"visible"		"1"
-		"enabled"		"1"
 	}
 
 	"HudFlameRocketCharge"
@@ -114,7 +113,6 @@
 		"tall"			"12"
 		
 		"visible"		"1"
-		"enabled"		"1"
 	}
 	
 	"HudBossHealth"

@@ -171,14 +171,14 @@ event HudMedicCharged
 
 event HudMedicChargedStart
 {
-	Animate ChargedImage Alpha "255"	Linear	0.0 0.001
-	Animate ChargedImage Position "0 -52"	Linear	0.0 0.001
-	Animate	ChargedImagePanel	Position	"0 -54"	Linear	0.0 0.001
-	Animate	ChargedImagePanel	Size	"52 0"	Linear	0.0 0.001
+	Animate ChargedImage 		Alpha		"255"	Linear	0.0		0.001
+	Animate ChargedImage 		Position	"0 -42"	Linear	0.0		0.001
+	Animate	ChargedImagePanel	Position	"0 -44"	Linear	0.0		0.001
+	Animate	ChargedImagePanel	Size		"42 0"	Linear	0.0		0.001
 	
-	Animate	ChargedImagePanel	Position	"0 -2"	Linear	0.001 0.2
-	Animate	ChargedImagePanel	Size	"52 52"	Linear	0.001 0.2
-	Animate ChargedImage Position "0 0"	Linear	0.001 0.2
+	Animate	ChargedImagePanel	Position	"0 -2"	Linear	0.001	0.2
+	Animate	ChargedImagePanel	Size		"42 42"	Linear	0.001	0.2
+	Animate ChargedImage 		Position	"0 0"	Linear	0.001	0.2
 	
 	RunEvent	HudMedicChargedLoop	0.2
 }
@@ -213,10 +213,10 @@ event HudMedicChargedStop
 	Animate	ChargeMeter	FgColor	"UberForeground"	Linear 0.0 0.0001
 	
 	Animate	ChargedImage	Alpha		"0"		Linear 0.0 0.2
-	Animate ChargedImage Position "0 -52"	Linear	0.2 0.001
+	Animate ChargedImage Position "0 -42"	Linear	0.2 0.001
 	
-	Animate	ChargedImagePanel	Position	"0 -54"	Linear	0.2 0.001
-	Animate	ChargedImagePanel	Size	"52 0"	Linear	0.2 0.001
+	Animate	ChargedImagePanel	Position	"0 -44"	Linear	0.2 0.001
+	Animate	ChargedImagePanel	Size	"42 0"	Linear	0.2 0.001
 }
 
 //==========================================================================================================================
