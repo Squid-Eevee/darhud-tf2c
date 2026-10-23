@@ -38,7 +38,7 @@
 		"fgcolor_override"	"235 226 202 255"
 		
 		"dropshadow"			"1"
-		"dropshadowoffset"	"2"
+		"dropshadow_offset"	"2"
 		
 		"visible"			"1"
 		"enabled"			"1"
@@ -127,7 +127,7 @@
 		"roundedcorners"			"0"
 		
 		"dropshadow"				"1"
-		"dropshadowoffset"		"2"
+		"dropshadow_offset"		"2"
 		
 		"visible"				"1"
 		"enabled"				"1"
