@@ -32,6 +32,7 @@
 		"tileimage"				"1"
 		"scaleimage"			"0"
 		"inputEnabled"			"0"
+		"visible"		"0"
 	}
 	"ShadowBorder"
 	{

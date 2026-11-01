@@ -2,12 +2,30 @@
 {
 	"ServerDetails"
 	{
-		"xpos"			"5"
-		"ypos"			"43"
-		"wide"			"615"
-		"tall"			"142"
+		"proportionaltoparent"	"1"
+		"xpos"			"0"
+		"ypos"			"40"
+		"wide"			"f0"
+		"tall"			"155"
 		"bgcolor_override"	"0 0 0 0"
 		//"proportionaltoparent" "1"
+	}
+	
+	"Bgimage"
+	{
+		"controlname"				"ImagePanel"
+		"fieldname"				"Bgimage"
+		"proportionaltoparent"		"1"
+		"xpos"					"0"
+		"ypos"					"0"
+		"zpos"					"0"
+		"wide"					"f0"
+		"tall"					"f0"
+		"image"					"../darhud/mainmenu/striped_pattern"
+		"drawcolor"				"BackgroundDefault"
+		"tileimage"				"1"
+		"scaleimage"				"0"
+		"inputEnabled"			"0"
 	}
 
 	"CurrentMapHeading"
@@ -20,8 +38,8 @@
 		"font"			"ServerBrowserBoldSmall"
 		"fgcolor_override"	"MainText"
 		
-		"xpos"			"5"
-		"ypos"			"0"
+		"xpos"			"10"
+		"ypos"			"3"
 		"tall"			"16"
 		"auto_wide_toContents"	"1"
 	}
@@ -36,8 +54,8 @@
 		"font"			"ServerBrowserBoldSmall"
 		"fgcolor_override"	"MainText"
 		"proportionaltoparent" "1"
-		"xpos"			"rs1"
-		"ypos"			"0"
+		"xpos"			"rs1-5"
+		"ypos"			"3"
 		"wide"			"130"
 		"tall"			"16"
 	}
@@ -116,12 +134,12 @@
 		"textAlignment"	"west"
 		"fgcolor_override"	"MainText"
 		"xpos"					"0"
-		"ypos"					"4"
+		"ypos"					"0"
 		"pin_to_sibling"		"GamemodeName"
 		"pin_to_sibling_corner" "PIN_TOPLEFT"
 		"pin_corner_to_sibling" "PIN_BOTTOMLEFT"
 		"auto_wide_toContents"	"1"
-		"tall"					"20"
+		"tall"					"28"
 	}
 
 	"LatencyLabel"
