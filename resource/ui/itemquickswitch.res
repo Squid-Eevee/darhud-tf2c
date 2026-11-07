@@ -397,15 +397,16 @@
 		{
 			"ControlName"	"EditablePanel"
 			"fieldName"		"EquippedBG"
-			"xpos"			"2"
-			"ypos"			"2"
+			"proportionalToParent"	"1"
+			"xpos"			"0"
+			"ypos"			"0"
 			"zpos"			"-1"
-			"wide"			"236"
-			"tall"			"36"
+			"wide"			"240"
+			"tall"			"40"
 			"visible"		"1"
-			"PaintBackgroundType"	"2"
-			"RoundedCorners"		"15"
-			"CornerSize"			"7"
+			"PaintBackgroundType"	"0"
+			"RoundedCorners"		"0"
+			"CornerSize"			"0"
 			"bgcolor_override"		"0 0 0 0"
 			"alpha"					"255"
 			
@@ -432,11 +433,50 @@
 				
 				"visible"			"0"
 			}
+			"Border"
+			{
+				"ControlName"			"CTFImagePanel"
+				"fieldName"			"Border"
+				"proportionalToParent"	"1"
+				
+				"zpos"				"1"
+				
+				"wide"				"f0"
+				"tall"				"f0"
+				
+				"image"				"../darhud/backpack/border"
+				"scaleImage"			"1"
+				"drawcolor"			"0 0 0 255"
+
+				"src_corner_width"	"3"
+				"src_corner_height"	"3"
+				"draw_corner_width"	"2"
+				"draw_corner_height" 	"2"
+				
+				"visible"			"0"
+			}
+			"Fill"
+			{
+				"ControlName"			"ImagePanel"
+				"fieldName"			"Fill"
+				"proportionalToParent"	"1"
+				
+				"zpos"				"0"
+				
+				"wide"				"f0"
+				"tall"				"f0"
+				
+				"image"				"resource/svgs/darhud/uber_mask_reverse.svg"
+				"scaleImage"			"1"
+				"drawcolor"			"GeneralBackground"
+				
+				"visible"			"1"
+			}
 		}
 		
 		"EquippedIcon"
 		{
-			"ControlName"		"ImagePanel"
+			"ControlName"			"ImagePanel"
 			"fieldName"			"EquippedIcon"
 			"xpos"				"5"
 			"ypos"				"10"
@@ -446,12 +486,12 @@
 			"visible"			"1"
 			"enabled"			"1"
 			"image"				"resource/svgs/loadout/equipped.svg"
-			"scaleImage"		"1"
+			"scaleImage"			"1"
 			"drawcolor"			"TanLight"
 			
 			"proportionalToParent"	"1"
 			
-			"dropshadow"		"1"
+			"dropshadow"			"1"
 			"dropshadow_color"	"HudBlack"
 			"dropshadow_offset"	"2"
 		}

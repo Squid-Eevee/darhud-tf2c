@@ -33,6 +33,7 @@
 		
 		"dropshadow"			"1"
 		"dropshadow_offset"	"3"
+		"dropshadow_color"	"HudShadow"
 		
 		"visible"			"1"
 	}
