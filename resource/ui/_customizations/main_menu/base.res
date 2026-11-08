@@ -63,7 +63,7 @@
 		"wide"				"150"
 		"tall"				"15"
 		
-		"labelText"			"DarHud Version 1.6.2"
+		"labelText"			"DarHud Version 1.6.3"
 		"font"				"HudFontSmallest"
 		"textAlignment"		"north-east"
 		"textinsetx"			"2"
@@ -986,7 +986,7 @@
 				"if_inlevel"
 				{
 					"xpos"	"cs-0.5"
-					"tall"	"f9"
+					"tall"	"f12"
 				}
 			}
 			
@@ -1073,6 +1073,12 @@
 			"navLeft"				"ServerBrowserButton"
 			"navRight"				"CreateServerButton"
 			
+			"Subimage"
+			{
+				"wide"	"o1"
+				"tall"	"f11"
+			}
+			
 			"if_inlevel"
 			{
 				"navUp" 		"ResumeButton"
@@ -1145,7 +1151,8 @@
 			
 			"Subimage"
 			{
-				"xpos"	"5"
+				"wide"	"o1"
+				"tall"	"f11"
 			}
 		}
 		"CreateServerButtonShadow"
@@ -1317,6 +1324,12 @@
 			"border_selected"			"DarHudMMSplitButtonEndDepressed"
 			"border_depressed"		"DarHudMMSplitButtonEndDepressed"
 			
+			"Subimage"
+			{
+				"wide"	"o1"
+				"tall"	"f11"
+			}
+			
 			"if_inlevel"
 			{
 				"navRight"	"<BlogButton"
@@ -1435,6 +1448,12 @@
 			"border_disabled"			"DarHudMMSplitButtonEndReverseDisabled"
 			
 			"enabled"				"0"
+			
+			"Subimage"
+			{
+				"wide"	"o1"
+				"tall"	"f11"
+			}
 			
 			"if_inlevel"
 			{
@@ -1613,7 +1632,6 @@
 			
 			"Subimage"
 			{
-				"xpos"				"4"
 				"wide"				"o1"
 				"tall"				"f8"
 			
