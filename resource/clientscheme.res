@@ -930,7 +930,18 @@ Scheme
 				"additive"	"0"
 				"antialias" 	"1"
 			}
-		}	
+		}
+		"InstructorTitle"
+		{
+			"1"
+			{
+				"name"		"TF2C Secondary"
+				"tall"		"14"
+				"weight"		"500"
+				"additive"	"0"
+				"antialias" 	"1"
+			}
+		}
 		"HudFontSmallishBold"
 		{
 			"1"
@@ -3391,7 +3402,7 @@ Scheme
 			"src_corner_height"		"3"				// pixels inside the image
 			"src_corner_width"		"3"
 			"draw_corner_width"		"2"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"2"	
+			"draw_corner_height" 	"2"
 		}
 		BackpackItemMouseOverBorder_Unique
 		{
