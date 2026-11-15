@@ -2303,8 +2303,6 @@
 		"wide"			"f0"
 		"tall"			"480"
 		
-		"color_normal"	"TanLight"
-		"color_miniboss"	"RedSolid"
 		"verbose"		"1"
 		
 		"visible"		"0"

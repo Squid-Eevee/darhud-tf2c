@@ -9,10 +9,13 @@
 		"zpos"			"0"
 		"wide"			"600"
 		"tall"			"67"
-		"visible"		"1"
-		"enabled"		"1"
+		
+		"color_normal"	"TanLight"
+		"color_miniboss"	"RedSolid"
 		
 		"verbose"		"0"
+		
+		"visible"		"1"
 	}
 	
 	"Header"
