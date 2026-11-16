@@ -1,9 +1,9 @@
 "."
 {
-	"MeterNotches"
+	"MeterLines"
 	{
 		"ControlName"	"EditablePanel"
-		"fieldname"	"MeterNotches"
+		"fieldname"	"MeterLines"
 		
 		"xpos"		"0"
 		"ypos"		"0"
@@ -39,10 +39,10 @@
 			"visible"			"0"
 		}
 		
-		"FirstQuarterNotch"
+		"FirstQuarterLine"
 		{
 			"ControlName"				"EditablePanel"
-			"fieldname"				"FirstQuarterNotch"
+			"fieldname"				"FirstQuarterLine"
 			"proportionaltoparent"		"1"
 			
 			"pin_to_sibling"			"FirstHalf"
@@ -55,14 +55,15 @@
 			"wide"					"1"
 			"tall"					"f0"
 			
-			"bgcolor_override"		"0 0 0 127"
+			"bgcolor_override"		"MeterLines"
+			"alpha"					"127"
 			
 			"visible"				"1"
 		}
-		"HalfNotch"
+		"HalfLine"
 		{
 			"ControlName"			"EditablePanel"
-			"fieldname"			"HalfNotch"
+			"fieldname"			"HalfLine"
 			"proportionaltoparent"	"1"
 			
 			"xpos"				"cs-0.5"
@@ -71,15 +72,16 @@
 			"wide"				"1"
 			"tall"				"f0"
 			
-			"bgcolor_override"	"0 0 0 192"
+			"bgcolor_override"	"MeterLines"
+			"alpha"				"191"
 			
 			"visible"			"1"
 		}
 		
-		"ThirdQuarterNotch"
+		"ThirdQuarterLine"
 		{
 			"ControlName"				"EditablePanel"
-			"fieldname"				"ThirdQuarterNotch"
+			"fieldname"				"ThirdQuarterLine"
 			"proportionaltoparent"		"1"
 			
 			"pin_to_sibling"			"SecondHalf"
@@ -92,7 +94,8 @@
 			"wide"					"1"
 			"tall"					"f0"
 			
-			"bgcolor_override"		"0 0 0 127"
+			"bgcolor_override"		"MeterLines"
+			"alpha"					"127"
 			
 			"visible"				"1"
 		}

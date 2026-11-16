@@ -1,4 +1,4 @@
-#base "../_customizations/meters/meter_notches.res"
+#base "../_customizations/meters/meter_lines.res"
 
 "resource/ui/meters/hudweaponchargemeter.res"
 {	
@@ -65,7 +65,7 @@
 		"visible"			"1"
 	}
 	
-	"MeterNotches"
+	"MeterLines"
 	{
 		"proportionaltoparent"	"1"
 		

@@ -47,6 +47,7 @@ Scheme
 		"ProgressOffWhite"	"235 226 202 255" //Certain meters are hard-coded to use the colour with this name
 		"MeterIconInactive"	"250 234 201 51"
 		"MeterIconActive"		"235 226 202 255"
+		"MeterLines"			"0 0 0 255"	//Used for meter lines customisation
 
 		//Counter
 		"CounterValue"	"235 226 202 255"
@@ -70,10 +71,6 @@ Scheme
 		
 		//Vote selection
 		"VoteSelect"		"88 119 140 180"
-		
-		//Achievement notification background
-		//Reminder: the last value is transparency, so you can set it to 0 if you don't want to see it
-		"AchievementBackground"	"60 68 52 127"
 
 		//Menus
 
