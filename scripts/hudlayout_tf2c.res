@@ -34,7 +34,7 @@
 		
 		"xpos_minmode"	"c158"
 		
-		"wide"			"82"
+		"wide"			"66"
 		"tall"			"12"
 		
 		"visible"		"1"
