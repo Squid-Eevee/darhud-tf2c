@@ -1696,6 +1696,12 @@
 			"navRight"			"BugReportButton"
 			
 			"image_default"		"resource/svgs/mainmenu/icon_logo.svg"
+			
+			"SubImage"
+			{
+				"wide"	"f4"
+				"tall"	"f4"
+			}
 		}
 		
 		"BugReportButton"
@@ -1719,6 +1725,12 @@
 			"navRight"				"DonateButton"
 			
 			"image_default"			"resource/svgs/mainmenu/icon_bug_link.svg"
+			
+			"SubImage"
+			{
+				"wide"	"f4"
+				"tall"	"f4"
+			}
 		}
 
 		"DonateButton"
@@ -1745,6 +1757,12 @@
 			"image_selectedcolor"		"CreditsGreen"
 			
 			"image_default"			"resource/svgs/mainmenu/icon_donate.svg"
+			
+			"SubImage"
+			{
+				"wide"	"f4"
+				"tall"	"f4"
+			}
 		}
 	}
 	
