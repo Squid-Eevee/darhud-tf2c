@@ -2883,6 +2883,147 @@ Scheme
 				"antialias" "1"
 			}
 		}
+		
+		//
+		//////////////////// PDUMP FONTS //////////////////////////////
+		//
+
+		"PDump"
+		{
+			"1"
+			{
+				"name"		"Trebuchet MS"
+				"tall"		"24"
+				"weight"	"900"
+				"range"		"0x0000 0x007F"	//	Basic Latin
+				"antialias" "1"
+				"additive"	"1"
+				"yres"	"480 1199"
+			}
+			"2" // misyl: Proportional
+			{
+				"name"		"Trebuchet MS"
+				"tall"		"16"
+				"weight"	"900"
+				"range"		"0x0000 0x007F"	//	Basic Latin
+				"antialias" "1"
+				"additive"	"1"
+			}
+		}
+		"PDumpSmall"
+		{
+			"1"
+			{
+				"name"		"Verdana"
+				"tall"		"10"
+				"weight"	"0"
+				"range"		"0x0000 0x017F"
+				"yres"	"480 599"
+				"antialias"	"1"
+			}
+			"2"
+			{
+				"name"		"Verdana"
+				"tall"		"12"
+				"weight"	"0"
+				"range"		"0x0000 0x017F"
+				"yres"	"600 767"
+				"antialias"	"1"
+			}
+			"3"
+			{
+				"name"		"Verdana"
+				"tall"		"15"
+				"weight"	"0"
+				"range"		"0x0000 0x017F"
+				"yres"	"768 1023"
+				"antialias"	"1"
+			}
+			"4"
+			{
+				"name"		"Verdana"
+				"tall"		"20"
+				"weight"	"0"
+				"range"		"0x0000 0x017F"
+				"yres"	"1024 1199"
+				"antialias"	"1"
+			}
+			"5" // Misyl: Proportional
+			{
+				"name"		"Verdana"
+				"tall"		"10"
+				"weight"	"900"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"antialias"	"1"
+			}
+			"6"
+			{
+				"name"		"Arial"
+				"tall"		"12"
+				"range" 		"0x0000 0x00FF"
+				"weight"		"0"
+				"antialias"	"1"
+			}
+		}
+		"PDumpVerySmall"
+		{
+			"1"
+			{
+				"name"		"Verdana"
+				"tall"		"10"
+				"weight"	"0"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"480 599"
+			}
+			"2"
+			{
+				"name"		"Verdana"
+				"tall"		"12"
+				"weight"	"0"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"600 767"
+			}
+			"3"
+			{
+				"name"		"Verdana"
+				"tall"		"15"
+				"weight"	"0"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"768 1023"
+				"antialias"	"1"
+			}
+			"4"
+			{
+				"name"		"Verdana"
+				"tall"		"20"
+				"weight"	"0"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"1024 1199"
+				"antialias"	"1"
+			}
+			"5" // Misyl: Proportional
+			{
+				"name"		"Verdana"
+				"tall"		"10"
+				"weight"	"900"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"antialias"	"1"
+			}
+			"6"
+			{
+				"name"		"Verdana"
+				"tall"		"12"
+				"range" 		"0x0000 0x00FF"
+				"weight"		"0"
+			}
+			"7"
+			{
+				"name"		"Arial"
+				"tall"		"11"
+				"range" 		"0x0000 0x00FF"
+				"weight"		"0"
+			}
+		}
 	}
 
 	//
